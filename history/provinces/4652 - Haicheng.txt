@@ -1,0 +1,14 @@
+#Haicheng
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = shandong_culture# check
+religion = confucianism
+capital = "Haicheng"
+trade_goods = fish
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

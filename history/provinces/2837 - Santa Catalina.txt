@@ -1,0 +1,14 @@
+# - Santa Catalina
+owner = CCQ
+controller = CCQ
+add_core = CCQ
+is_city = yes
+culture = diaguita
+discovered_by = south_american
+discovered_by = andean
+religion = inti
+capital = "Santa Catalina"
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1

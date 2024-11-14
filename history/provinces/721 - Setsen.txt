@@ -1,0 +1,14 @@
+#721 - Dornod
+owner = KHA
+controller = KHA
+add_core = KHA
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Setsen"
+trade_goods = livestock
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

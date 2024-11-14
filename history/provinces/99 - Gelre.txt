@@ -1,0 +1,17 @@
+# 99 Gelre - Principal cities: Arnhem & Nijmegen
+owner = FRI
+controller = FRI
+capital = "Arnhem"
+is_city = yes
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = livestock
+base_manpower = 3
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+add_core = FRI

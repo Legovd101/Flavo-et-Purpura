@@ -1,0 +1,3 @@
+#2426 - Yamal
+discovered_by = NOV
+is_city = no

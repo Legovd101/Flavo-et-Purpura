@@ -1,0 +1,16 @@
+#1136 - Gurma
+owner = GUR
+controller = GUR
+add_core = GUR
+is_city = yes
+culture = mossi#mossi
+religion = shamanism#Fetishism
+capital = "Bilanga"
+trade_goods = ivory
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = sub_saharan

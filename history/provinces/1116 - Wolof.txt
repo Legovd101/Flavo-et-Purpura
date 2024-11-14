@@ -1,0 +1,13 @@
+#1116 - Wolof
+owner = JOL
+controller = JOL
+culture = senegambian
+is_city = yes
+base_manpower = 2
+religion = shamanism#Fetishism
+capital = "Jowol"
+trade_goods = slaves
+base_tax = 3
+base_production = 3
+add_core = JOL
+discovered_by = sub_saharan

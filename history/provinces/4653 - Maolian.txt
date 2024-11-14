@@ -1,0 +1,14 @@
+# Maolian
+owner = MJZ
+controller = MJZ
+add_core = MJZ
+culture = manchu
+religion = confucianism
+capital = "Maolian"
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,17 @@
+#1820 - Awa
+owner = HSK
+controller = HSK
+culture = japanese
+religion = shinto
+capital = "Tokushima"
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = HSK
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG

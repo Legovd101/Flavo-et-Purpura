@@ -1,0 +1,8 @@
+BLU = "countries/BlueHorde.txt"
+ZNG = "countries/Zangitania.txt"
+BRY = "countries/BrythonKingdom.txt"
+BAE = "countries/Baetica.txt"
+SAB = "countries/Sabaria.txt"
+LUS = "countries/Lusitania.txt"
+GTC = "countries/Gotica.txt"
+GLL = "countries/Gallia.txt"

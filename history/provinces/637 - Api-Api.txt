@@ -1,0 +1,16 @@
+#637 - Api-Api
+owner = BEI
+controller = BEI
+culture = bornean
+religion = sunni
+capital = "Api-Api"
+trade_goods = spices
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = BEI
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,16 @@
+#Semigallia, center at Mitau
+owner = LVA
+controller = LVA
+culture = latvian
+religion = catholic
+base_tax = 2
+base_production = 2
+trade_goods = naval_supplies
+base_manpower = 2
+capital = "Mitau"
+is_city = yes# Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+add_core = LVA

@@ -1,0 +1,13 @@
+#842 - Petén
+owner = ITZ
+controller = ITZ
+culture = putun
+religion = mesoamerican_religion
+capital = "Petén"
+trade_goods = cocoa
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = ITZ
+discovered_by = mesoamerican

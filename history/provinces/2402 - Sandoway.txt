@@ -1,0 +1,16 @@
+#2402 - Sandoway
+owner = ARK
+controller = ARK
+culture = arakanese
+religion = buddhism
+capital = "Sandoway"
+trade_goods = iron
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = ARK
+discovered_by = indian
+discovered_by = chinese
+discovered_by = muslim
+discovered_by = ottoman

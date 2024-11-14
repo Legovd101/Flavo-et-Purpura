@@ -1,0 +1,14 @@
+#Halacha
+owner = SOL
+controller = SOL
+add_core = SOL
+culture = evenk
+religion = tengri_pagan_reformed
+capital = "Halacha"
+trade_goods = fur
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

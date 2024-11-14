@@ -1,0 +1,13 @@
+#1979 - Färöarna
+owner = LOI
+controller = LOI
+culture = icelandic
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+capital = "Torshavn"
+is_city = yes
+discovered_by = western
+add_core = LOI

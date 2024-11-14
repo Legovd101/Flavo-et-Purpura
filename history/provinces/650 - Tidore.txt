@@ -1,0 +1,13 @@
+#650 - Tidore
+owner = TID
+controller = TID
+culture = moluccan
+religion = animism
+capital = "Tidore"
+trade_goods = cloves
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = TID
+discovered_by = chinese

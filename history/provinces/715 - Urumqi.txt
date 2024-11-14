@@ -1,0 +1,14 @@
+#715 - Urumqi
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = uyghur
+religion = tengri_pagan_reformed
+capital = "Urumqi"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

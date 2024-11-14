@@ -1,0 +1,17 @@
+#2778 - Werder
+owner = MRE
+controller = MRE
+add_core = MRE
+add_core = OGD
+culture = somali
+religion = sunni
+capital = "Wardheer"
+trade_goods = slaves
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

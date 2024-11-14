@@ -1,0 +1,16 @@
+# - Salerno
+owner = BUL
+controller = BUL
+culture = neapolitan
+religion = catholic
+base_tax = 5
+base_production = 1
+trade_goods = fish
+base_manpower = 4
+capital = "Salerno"
+is_city = yes# Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+add_core = BUL

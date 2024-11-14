@@ -1,0 +1,14 @@
+# 2163 - Liuzhou
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = zhuang
+religion = confucianism
+capital = "Liuzhou"
+trade_goods = salt
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

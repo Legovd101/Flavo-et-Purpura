@@ -1,0 +1,16 @@
+#221 - Murcia
+owner = SPA# Juan II of Castille
+controller = SPA
+culture = andalucian
+religion = catholic
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Cartagena"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+add_core = SPA

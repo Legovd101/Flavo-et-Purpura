@@ -1,0 +1,15 @@
+#690 - Shandong Bandao
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = shandong_culture
+religion = confucianism
+capital = "Qingzhou"
+trade_goods = iron
+base_tax = 5
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = QIC
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,12 @@
+# - Senqu
+culture = khoisan
+religion = shamanism#Fetishism
+capital = "Senqu"
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 40
+native_ferocity = 2
+native_hostileness = 6
+is_city = no

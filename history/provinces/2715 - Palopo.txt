@@ -1,0 +1,16 @@
+#2715 - Palopo
+owner = LUW
+controller = LUW
+culture = sulawesi
+religion = animism
+capital = "Palopo"
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = LUW
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

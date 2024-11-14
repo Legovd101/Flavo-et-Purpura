@@ -1,0 +1,14 @@
+#2758 - Illubabor
+owner = ENA
+controller = ENA
+add_core = ENA
+culture = sidamo
+religion = coptic
+capital = "Illubabor"
+is_city = yes
+base_manpower = 2
+trade_goods = slaves
+base_tax = 2
+base_production = 3
+discovered_by = east_african
+discovered_by = muslim

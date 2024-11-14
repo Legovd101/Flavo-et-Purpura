@@ -1,0 +1,14 @@
+# 2116 - Ih Huree
+owner = KHA
+controller = KHA
+add_core = KHA
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Ih Huree"
+trade_goods = fur
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

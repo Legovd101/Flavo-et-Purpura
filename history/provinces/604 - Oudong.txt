@@ -1,0 +1,14 @@
+#604 - Oudong
+owner = KHM
+controller = KHM
+culture = khmer
+religion = buddhism
+capital = "Oudong"
+trade_goods = incense
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = KHM
+discovered_by = chinese
+discovered_by = indian

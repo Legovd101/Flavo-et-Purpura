@@ -1,0 +1,17 @@
+# 4749 - Stargard
+owner = SAX
+controller = SAX
+culture = pommeranian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+capital = "Neubrandenburg"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+add_core = SAX

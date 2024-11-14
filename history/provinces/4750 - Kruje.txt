@@ -1,0 +1,22 @@
+# 4750 - Krujë, Tirana, central Albania
+owner = RAG
+controller = RAG
+culture = albanian
+religion = orthodox
+capital = "Krujë"
+trade_goods = wool
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western
+add_core = RAG
+fort_15th = yes

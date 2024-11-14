@@ -1,0 +1,19 @@
+# 2986 - Cagliari
+latent_trade_goods = { 
+	coal 
+}
+owner = ZNG
+controller = ZNG
+culture = sardinian
+religion = catholic
+base_tax = 3
+base_production = 3
+trade_goods = copper
+base_manpower = 1
+capital = "Cagliari"
+is_city = yes# Estimated 
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+add_core = ZNG

@@ -1,0 +1,19 @@
+#1972 - Udmurtia
+owner = KAZ
+controller = KAZ
+capital = "Elabuga"
+culture = uralic
+religion = tengri_pagan_reformed#Sami Shamanism
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = KAZ
+discovered_by = SIB
+discovered_by = NOG
+discovered_by = GOL
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = ottoman

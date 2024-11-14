@@ -1,0 +1,15 @@
+# 2132 - Markam
+owner = KAM
+controller = KAM
+add_core = KAM
+culture = tibetan
+religion = vajrayana
+capital = "Markam"
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian

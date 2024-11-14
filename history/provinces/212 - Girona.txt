@@ -1,0 +1,17 @@
+#212 - Girona
+owner = AVI#Alfons V of Aragon
+controller = AVI
+add_core = CAT
+culture = catalan
+religion = catholic
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Girona"
+is_city = yes# census of 1462, also includes the town of Figueres 
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+add_core = AVI

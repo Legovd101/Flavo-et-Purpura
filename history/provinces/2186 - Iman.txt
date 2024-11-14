@@ -1,0 +1,14 @@
+# 2186 - Iman
+owner = NHX
+controller = NHX
+add_core = NHX
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Iman"
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

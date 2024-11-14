@@ -1,0 +1,16 @@
+#2687 - Pakuan
+owner = SUN
+controller = SUN
+add_core = SUN
+culture = sundanese
+religion = hinduism
+capital = "Pakuan"
+trade_goods = grain
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

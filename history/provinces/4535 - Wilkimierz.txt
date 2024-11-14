@@ -1,0 +1,17 @@
+#4535 - Wilkimierz
+owner = LVA
+controller = LVA
+capital = "Vilkmerge"
+is_city = yes
+culture = lithuanian
+religion = catholic
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 2
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+add_core = LVA

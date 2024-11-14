@@ -1,0 +1,17 @@
+# 4767 - Zweibrücken
+capital = "Zweibrücken"
+culture = hessian
+religion = catholic
+trade_goods = cloth
+owner = TRI
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+controller = TRI
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+add_core = TRI

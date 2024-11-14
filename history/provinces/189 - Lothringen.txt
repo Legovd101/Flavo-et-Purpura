@@ -1,0 +1,17 @@
+# 189 Lothringen - Principal cities: Nancy
+owner = ALS
+controller = ALS
+capital = "Nancy"
+is_city = yes
+culture = burgundian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = iron
+base_manpower = 5
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+add_core = ALS

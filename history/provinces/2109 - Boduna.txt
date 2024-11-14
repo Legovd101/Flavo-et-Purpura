@@ -1,0 +1,14 @@
+# 2109 - Boduna
+owner = KRC
+controller = KRC
+add_core = KRC
+culture = chahar
+religion = vajrayana
+capital = "Boduna"
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

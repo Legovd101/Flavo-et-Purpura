@@ -1,0 +1,2 @@
+#1173 - Namib Desert / Skeleton Coast
+is_city = no

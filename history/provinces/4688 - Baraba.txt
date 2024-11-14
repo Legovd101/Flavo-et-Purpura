@@ -1,0 +1,15 @@
+#4688 - Baraba
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = kirgiz
+religion = tengri_pagan_reformed
+capital = "Baraba"
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = SIB
+discovered_by = nomad_group
+unrest = 15

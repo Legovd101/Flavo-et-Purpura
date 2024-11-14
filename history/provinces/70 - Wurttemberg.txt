@@ -1,0 +1,16 @@
+culture = swabian
+owner = SWI
+controller = SWI
+capital = "Stuttgart"
+religion = catholic
+trade_goods = grain
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+add_core = SWI

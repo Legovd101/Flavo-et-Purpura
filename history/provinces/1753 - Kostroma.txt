@@ -1,0 +1,15 @@
+#1753 - Kostroma
+owner = MOS
+controller = MOS
+culture = russian
+religion = orthodox
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 3
+capital = "Kostroma"
+is_city = yes
+add_core = MOS
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group

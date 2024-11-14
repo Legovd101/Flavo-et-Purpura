@@ -1,0 +1,15 @@
+owner = CEP
+controller = CEP
+culture = greek
+religion = orthodox
+capital = "Agios Georgios"
+trade_goods = wine
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+add_core = CEP

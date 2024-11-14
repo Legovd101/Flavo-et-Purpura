@@ -1,0 +1,17 @@
+#335 - Melilla
+owner = SPA
+controller = SPA
+culture = berber
+religion = sunni
+capital = "Melilla"
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = FEZ
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+add_core = SPA

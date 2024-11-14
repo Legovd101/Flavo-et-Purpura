@@ -1,0 +1,16 @@
+#315 - Finnmark
+owner = NOR
+controller = NOR
+add_core = SMI
+culture = sapmi
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+capital = "Vardø"
+is_city = yes
+add_core = NOR
+add_local_autonomy = 70
+discovered_by = eastern
+discovered_by = western
