@@ -1,6 +1,6 @@
 #294 - Tver
-owner = TVE
-controller = TVE
+owner = SMO
+controller = SMO
 culture = russian
 religion = orthodox
 base_tax = 4
@@ -9,8 +9,8 @@ trade_goods = grain
 base_manpower = 3
 capital = "Tver"
 is_city = yes
-add_core = TVE
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 discovered_by = KAZ
+add_core = SMO

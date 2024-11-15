@@ -1,6 +1,6 @@
 #4253 - Pereyaslavl-Zalesskiy & Yuriev-Polskiy
-owner = MOS
-controller = MOS
+owner = TVE
+controller = TVE
 culture = russian
 religion = orthodox
 base_tax = 3
@@ -9,7 +9,6 @@ trade_goods = salt
 base_manpower = 2
 capital = "Yuriev"
 is_city = yes
-add_core = MOS
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = eastern
@@ -17,3 +16,4 @@ discovered_by = western
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+add_core = TVE

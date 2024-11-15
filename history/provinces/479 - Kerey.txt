@@ -1,6 +1,6 @@
 #479 - Kerey
-owner = SHY
-controller = SHY
+owner = GLH
+controller = GLH
 culture = khazak
 religion = sunni
 capital = "Kerey"
@@ -10,9 +10,9 @@ base_production = 2
 base_manpower = 2
 is_city = yes
 add_core = KZH
-add_core = SHY
 discovered_by = KZH
 discovered_by = GOL
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
+add_core = GLH

@@ -1,6 +1,6 @@
 #4236 - Trencin
-owner = HUN
-controller = HUN
+owner = AVR
+controller = AVR
 culture = slovak
 religion = catholic
 capital = "Trencin"
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = HUN
 add_core = SLO
 discovered_by = western
 discovered_by = eastern
@@ -20,4 +19,5 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
+add_core = AVR
 fort_15th = yes

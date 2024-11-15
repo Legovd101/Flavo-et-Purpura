@@ -1,7 +1,7 @@
 #4256 - Solvychegodsk
-owner = NOV
-controller = NOV
-culture = novgorodian
+owner = PRM
+controller = PRM
+culture = uralic
 religion = orthodox
 base_tax = 1
 base_production = 1
@@ -10,7 +10,6 @@ base_manpower = 1
 capital = "Solvychegodsk"
 add_local_autonomy = 50
 is_city = yes
-add_core = NOV
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,3 +17,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
+add_core = PRM

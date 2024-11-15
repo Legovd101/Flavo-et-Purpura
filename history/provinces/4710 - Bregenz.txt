@@ -1,6 +1,6 @@
 # 4710 - Vorarlberg
-owner = SWI
-controller = SWI
+owner = VRN
+controller = VRN
 capital = "Bregenz"
 is_city = yes
 culture = austrian
@@ -14,4 +14,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SWI
+add_core = VRN

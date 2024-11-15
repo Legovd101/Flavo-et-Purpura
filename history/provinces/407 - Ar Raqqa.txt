@@ -1,6 +1,6 @@
 #407 - Ar-Raqqah
-owner = MAM
-controller = MAM
+owner = LKH
+controller = LKH
 culture = al_suryah_arabic
 religion = sunni
 capital = "Ar Rakkah"
@@ -17,3 +17,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = indian
+add_core = LKH

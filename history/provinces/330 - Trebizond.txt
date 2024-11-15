@@ -1,6 +1,6 @@
 #330 - Trebizond
-owner = TRE
-controller = TRE
+owner = GEO
+controller = GEO
 culture = pontic_greek
 religion = orthodox
 capital = "Trapezous"
@@ -9,7 +9,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = TRE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -17,4 +16,5 @@ discovered_by = ottoman
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+add_core = GEO
 fort_15th = yes

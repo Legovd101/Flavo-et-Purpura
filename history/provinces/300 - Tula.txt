@@ -1,6 +1,6 @@
 #300 - Tula
-owner = RYA
-controller = RYA
+owner = TVE
+controller = TVE
 culture = ryazanian
 religion = orthodox
 base_tax = 3
@@ -9,9 +9,9 @@ trade_goods = iron
 base_manpower = 2
 capital = "Tula"
 is_city = yes
-add_core = RYA
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = nomad_group
+add_core = TVE

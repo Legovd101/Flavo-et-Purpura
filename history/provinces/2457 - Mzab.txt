@@ -1,6 +1,6 @@
 # - Mzab
-owner = FZA
-controller = FZA
+owner = LTN
+controller = LTN
 culture = berber
 religion = ibadi
 capital = "Ghardaia"
@@ -12,4 +12,4 @@ is_city = yes
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
-add_core = FZA
+add_core = LTN

@@ -1,6 +1,6 @@
 #1956 - Suzdal
-owner = MOS
-controller = MOS
+owner = TVE
+controller = TVE
 culture = russian
 religion = orthodox
 base_tax = 4
@@ -10,9 +10,9 @@ base_manpower = 3
 capital = "Suzdal"
 is_city = yes
 add_core = NZH
-add_core = MOS
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+add_core = TVE

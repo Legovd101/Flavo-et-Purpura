@@ -1,7 +1,6 @@
 #4761 - Traungau
-owner = HAB
-controller = HAB
-add_core = HAB
+owner = BAV
+controller = BAV
 add_core = STY
 culture = austrian
 religion = catholic
@@ -21,3 +20,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+add_core = BAV

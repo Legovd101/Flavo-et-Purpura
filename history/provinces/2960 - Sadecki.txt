@@ -1,6 +1,6 @@
 #262 - Sadecki
-owner = POL
-controller = POL
+owner = AVR
+controller = AVR
 culture = polish
 religion = catholic
 capital = "Nowy Sacz"
@@ -9,7 +9,6 @@ base_production = 6
 trade_goods = iron
 base_manpower = 2
 is_city = yes
-add_core = POL
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +18,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+add_core = AVR

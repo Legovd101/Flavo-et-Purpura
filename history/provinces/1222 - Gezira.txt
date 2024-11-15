@@ -1,7 +1,6 @@
 #1222 - Gezira
-owner = ALO
-controller = ALO
-add_core = ALO
+owner = ETH
+controller = ETH
 culture = nubian
 religion = coptic
 capital = "Wad Madani"
@@ -13,3 +12,4 @@ trade_goods = grain
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
+add_core = ETH

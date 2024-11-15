@@ -1,7 +1,6 @@
 #2758 - Illubabor
-owner = ENA
-controller = ENA
-add_core = ENA
+owner = DAM
+controller = DAM
 culture = sidamo
 religion = coptic
 capital = "Illubabor"
@@ -12,3 +11,4 @@ base_tax = 2
 base_production = 3
 discovered_by = east_african
 discovered_by = muslim
+add_core = DAM

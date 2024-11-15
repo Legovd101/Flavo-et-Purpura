@@ -1,6 +1,6 @@
 #2210 - Kirmanshah
-owner = TIM
-controller = TIM
+owner = SYR
+controller = SYR
 culture = luri
 religion = sunni
 capital = "Kirmanshah"
@@ -10,8 +10,8 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = LRI
-add_core = TIM
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
+add_core = SYR

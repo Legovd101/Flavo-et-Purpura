@@ -1,6 +1,6 @@
 #351 - Biskra
-owner = TGT
-controller = TGT
+owner = MSL
+controller = MSL
 culture = berber
 religion = sunni
 capital = "Biskra"
@@ -9,9 +9,9 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = TGT
 add_local_autonomy = 25
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = TUR
+add_core = MSL

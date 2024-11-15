@@ -1,6 +1,6 @@
 #4740 - Como
-owner = SAV
-controller = SAV
+owner = TNT
+controller = TNT
 culture = lombard
 religion = catholic
 hre = yes
@@ -14,5 +14,5 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SAV
+add_core = TNT
 fort_15th = yes

@@ -1,7 +1,7 @@
 #1955 - Kholmogory
-owner = NOV
-controller = NOV
-culture = novgorodian
+owner = PRM
+controller = PRM
+culture = uralic
 religion = orthodox
 base_tax = 2
 base_production = 2
@@ -9,7 +9,6 @@ trade_goods = fur
 base_manpower = 1
 capital = "Kholmogory"
 is_city = yes
-add_core = NOV
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +18,4 @@ discovered_by = eastern
 discovered_by = western
 extra_cost = 16
 center_of_trade = 2
+add_core = PRM

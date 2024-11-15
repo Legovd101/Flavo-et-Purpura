@@ -1,7 +1,6 @@
 # 66 - Bamberg
-owner = BAM
-controller = BAM
-add_core = BAM
+owner = BAV
+controller = BAV
 culture = franconian
 religion = catholic
 base_tax = 2
@@ -15,3 +14,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+add_core = BAV

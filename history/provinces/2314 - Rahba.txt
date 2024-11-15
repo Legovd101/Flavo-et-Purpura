@@ -1,6 +1,6 @@
 #2314 - Rahba
-owner = MAM
-controller = MAM
+owner = LKH
+controller = LKH
 culture = al_iraqiya_arabic
 religion = sunni
 capital = "Deir ez-Zor"
@@ -18,3 +18,4 @@ discovered_by = nomad_group
 discovered_by = east_african
 discovered_by = BYZ
 add_local_autonomy = 20
+add_core = LKH

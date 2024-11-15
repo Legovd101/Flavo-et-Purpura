@@ -1,6 +1,6 @@
 #279 - Rowne
-owner = LIT
-controller = LIT
+owner = VOL
+controller = VOL
 culture = ruthenian
 religion = orthodox
 base_tax = 1
@@ -10,7 +10,6 @@ base_manpower = 1
 capital = "Rowne"
 is_city = yes
 add_core = VOL
-add_core = LIT
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

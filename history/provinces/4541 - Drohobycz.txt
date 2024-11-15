@@ -1,6 +1,6 @@
 #4541 - Drohobycz
-owner = POL
-controller = POL
+owner = VOL
+controller = VOL
 culture = ruthenian
 religion = orthodox
 base_tax = 2
@@ -9,7 +9,6 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Drohobycz"
 is_city = yes
-add_core = POL
 add_core = VOL
 discovered_by = KAZ
 discovered_by = CRI

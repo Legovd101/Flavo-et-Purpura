@@ -1,7 +1,6 @@
 #1218 - Sidamo
-owner = WLY
-controller = WLY
-add_core = WLY
+owner = SOA
+controller = SOA
 culture = sidamo
 religion = shamanism
 capital = "Irgalem"
@@ -14,3 +13,4 @@ discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+add_core = SOA

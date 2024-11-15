@@ -1,6 +1,6 @@
 #1081 - Simbirsk
-owner = KAZ
-controller = KAZ
+owner = GLH
+controller = GLH
 capital = "Bolgar"
 culture = kazani
 religion = sunni
@@ -9,8 +9,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KAZ
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 discovered_by = ottoman
+add_core = GLH

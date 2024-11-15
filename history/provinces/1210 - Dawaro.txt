@@ -1,7 +1,6 @@
 #1210 - Dawaro
-owner = ETH
-controller = ETH
-add_core = ETH
+owner = SOA
+controller = SOA
 culture = harari
 religion = sunni
 capital = "Gende Belo"
@@ -15,3 +14,4 @@ discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+add_core = SOA

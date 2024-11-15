@@ -1,6 +1,6 @@
 #166 - Schwyz
-owner = SWI
-controller = SWI
+owner = TNT
+controller = TNT
 culture = swiss
 religion = catholic
 capital = "Schwyz"
@@ -10,8 +10,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = SWI
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+add_core = TNT

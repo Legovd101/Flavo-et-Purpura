@@ -1,6 +1,6 @@
 #265 - Brno
-owner = BOH
-controller = BOH
+owner = GLG
+controller = GLG
 capital = "Brno"
 culture = czech
 religion = hussite
@@ -10,7 +10,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 #is_city = yes
-add_core = BOH
 add_core = MVA
 discovered_by = KAZ
 discovered_by = CRI
@@ -22,3 +21,4 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 is_city = no
+add_core = GLG

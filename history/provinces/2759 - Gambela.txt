@@ -1,7 +1,6 @@
 #2759 - Gambela
-owner = KAF
-controller = KAF
-add_core = KAF
+owner = DAM
+controller = DAM
 culture = sidamo
 religion = shamanism#Fetishism
 capital = "Gambela"
@@ -13,3 +12,4 @@ base_production = 1
 add_local_autonomy = 25
 discovered_by = east_african
 discovered_by = muslim
+add_core = DAM

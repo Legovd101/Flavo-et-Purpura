@@ -1,6 +1,6 @@
 #4259 - Velsk
-owner = NOV
-controller = NOV
+owner = YAR
+controller = YAR
 culture = russian
 religion = orthodox
 base_tax = 1
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Velsk"
 is_city = yes
 add_core = MOS
-add_core = NOV
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+add_core = YAR

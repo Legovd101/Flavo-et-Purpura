@@ -1,7 +1,6 @@
 #2787 - Hamasien
-owner = MED
-controller = MED
-add_core = MED
+owner = ETH
+controller = ETH
 culture = tigray
 religion = coptic
 capital = "Debarwa"
@@ -14,3 +13,4 @@ discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+add_core = ETH

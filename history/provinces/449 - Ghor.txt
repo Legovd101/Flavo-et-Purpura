@@ -1,6 +1,6 @@
 #449 - Ghor
-owner = TIM
-controller = TIM
+owner = ILK
+controller = ILK
 culture = afghani
 religion = sunni
 capital = "Ahangaran"
@@ -9,10 +9,10 @@ base_tax = 2
 base_production = 2
 base_manpower = 4
 is_city = yes
-add_core = TIM
 add_core = AFG
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
+add_core = ILK

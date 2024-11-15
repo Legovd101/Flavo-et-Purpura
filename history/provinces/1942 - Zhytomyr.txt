@@ -1,6 +1,6 @@
 #1942 - Zhytomyr
-owner = LIT
-controller = LIT
+owner = KIE
+controller = KIE
 culture = ruthenian
 religion = orthodox
 base_tax = 1
@@ -10,7 +10,6 @@ base_manpower = 1
 capital = "Zhytomyr"
 is_city = yes
 add_core = KIE
-add_core = LIT
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

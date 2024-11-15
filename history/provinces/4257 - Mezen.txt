@@ -1,7 +1,7 @@
 #4257 - Mezen
-owner = NOV
-controller = NOV
-culture = novgorodian
+owner = PRM
+controller = PRM
+culture = uralic
 religion = orthodox
 base_tax = 1
 base_production = 1
@@ -9,7 +9,6 @@ trade_goods = fish
 base_manpower = 1
 capital = "Okladnikova Sloboda"
 is_city = yes
-add_core = NOV
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -17,3 +16,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
+add_core = PRM

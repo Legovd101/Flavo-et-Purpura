@@ -1,7 +1,6 @@
 #2757 - Kaffa
-owner = KAF
-controller = KAF
-add_core = KAF
+owner = DAM
+controller = DAM
 culture = sidamo
 religion = coptic
 capital = "Anderaccha"
@@ -12,3 +11,4 @@ base_tax = 4
 base_production = 3
 discovered_by = east_african
 discovered_by = muslim
+add_core = DAM

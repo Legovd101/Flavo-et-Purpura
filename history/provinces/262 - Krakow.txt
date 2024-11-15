@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = POL
-controller = POL
+owner = KRA
+controller = KRA
 culture = polish
 religion = catholic
 capital = "Kraków"
@@ -12,7 +12,6 @@ base_production = 7
 trade_goods = salt
 base_manpower = 6
 is_city = yes
-add_core = POL
 add_core = KRA
 discovered_by = KAZ
 discovered_by = CRI

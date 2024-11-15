@@ -1,6 +1,6 @@
 #464 - Astrakhan
-owner = GOL
-controller = GOL
+owner = GLH
+controller = GLH
 culture = astrakhani
 religion = sunni
 capital = "Hajitarkhan"
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 5
 is_city = yes
-add_core = GOL
 add_core = AST
 discovered_by = eastern
 discovered_by = muslim
@@ -20,4 +19,5 @@ add_permanent_province_modifier = {
 	name = volga_estuary_modifier
 	duration = -1
 }
+add_core = GLH
 fort_15th = yes

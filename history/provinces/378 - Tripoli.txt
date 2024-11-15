@@ -1,6 +1,6 @@
 #378 - Tripoli
-owner = SYR
-controller = SYR
+owner = TRP
+controller = TRP
 culture = al_suryah_arabic
 religion = shiite
 capital = "Trablos"#Tripoli in the East.
@@ -10,7 +10,6 @@ base_production = 6
 base_manpower = 4
 is_city = yes
 add_core = LEB
-add_core = SYR
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
@@ -20,3 +19,4 @@ discovered_by = indian
 discovered_by = east_african
 extra_cost = 8
 center_of_trade = 1
+add_core = TRP

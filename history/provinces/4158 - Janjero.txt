@@ -1,7 +1,6 @@
 #4158 - Janjero
-owner = JJI
-controller = JJI
-add_core = JJI
+owner = DAM
+controller = DAM
 culture = sidamo
 religion = shamanism
 capital = "Fofa"
@@ -12,3 +11,4 @@ base_tax = 1
 base_production = 2
 discovered_by = east_african
 discovered_by = muslim
+add_core = DAM

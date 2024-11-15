@@ -1,6 +1,6 @@
 #347 - Ifni
-owner = MOR
-controller = MOR
+owner = GAE
+controller = GAE
 culture = berber
 religion = sunni
 capital = "Sidi Ifni"
@@ -9,8 +9,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MOR
 add_core = SOS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
+add_core = GAE

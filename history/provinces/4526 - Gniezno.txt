@@ -1,6 +1,6 @@
 #4526 - Gniezno
-owner = POL
-controller = POL
+owner = SIL
+controller = SIL
 culture = polish
 religion = catholic
 capital = "Gniezno"
@@ -9,7 +9,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = POL
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +18,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+add_core = SIL

@@ -1,7 +1,6 @@
 #1770 - Ostmarch
-owner = HAB
-controller = HAB
-add_core = HAB
+owner = BAV
+controller = BAV
 culture = austrian
 religion = catholic
 base_tax = 3
@@ -20,3 +19,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+add_core = BAV

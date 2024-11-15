@@ -1,6 +1,6 @@
 #380 - Al Karak
-owner = MAM
-controller = MAM
+owner = LKH
+controller = LKH
 culture = bedouin_arabic
 religion = sunni
 capital = "Al Karak"
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MAM
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
@@ -17,4 +16,5 @@ discovered_by = western
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
+add_core = LKH
 fort_15th = yes

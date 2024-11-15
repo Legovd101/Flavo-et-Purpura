@@ -1,6 +1,5 @@
-owner = HES
-controller = HES
-add_core = HES
+owner = LPP
+controller = LPP
 capital = "Kassel"
 trade_goods = glass
 culture = hessian
@@ -14,3 +13,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+add_core = LPP

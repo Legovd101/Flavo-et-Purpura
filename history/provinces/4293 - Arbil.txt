@@ -1,6 +1,6 @@
 #4393 - Arbil
-owner = QAR
-controller = QAR
+owner = SYR
+controller = SYR
 culture = kurdish
 religion = sunni
 capital = "Arbil"
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = QAR
 add_core = BHT
 discovered_by = east_african
 discovered_by = muslim
@@ -17,3 +16,4 @@ discovered_by = indian
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
+add_core = SYR

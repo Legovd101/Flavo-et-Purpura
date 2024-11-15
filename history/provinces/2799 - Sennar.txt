@@ -1,7 +1,6 @@
 #2799 - Sennar
-owner = ALO
-controller = ALO
-add_core = ALO
+owner = ETH
+controller = ETH
 culture = nubian
 religion = coptic
 capital = "Sennar"
@@ -13,3 +12,4 @@ base_production = 1
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
+add_core = ETH

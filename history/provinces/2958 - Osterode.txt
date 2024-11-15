@@ -1,6 +1,6 @@
 #2958 - Osterode
-owner = PRU
-controller = PRU
+owner = MAZ
+controller = MAZ
 capital = "Osterode"
 culture = prussian
 religion = catholic
@@ -13,5 +13,5 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = PRU
+add_core = MAZ
 fort_15th = yes

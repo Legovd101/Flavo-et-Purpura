@@ -1,7 +1,6 @@
 #1211 - Harer
-owner = ADA
-controller = ADA
-add_core = ADA
+owner = AFA
+controller = AFA
 add_core = HAR
 culture = harari
 religion = sunni
@@ -17,4 +16,5 @@ discovered_by = ottoman
 discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
+add_core = AFA
 fort_15th = yes

@@ -1,5 +1,5 @@
-owner = THU
-controller = THU
+owner = LPP
+controller = LPP
 capital = "Coburg"
 is_city = yes
 culture = franconian
@@ -10,8 +10,8 @@ base_production = 2
 base_manpower = 1
 trade_goods = livestock
 add_core = COB
-add_core = THU
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+add_core = LPP
