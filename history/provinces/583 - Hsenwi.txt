@@ -1,6 +1,6 @@
 #583 - Hsenwi
-owner = HSE
-controller = HSE
+owner = BPR
+controller = BPR
 culture = shan
 religion = buddhism
 capital = "Hsenwi"
@@ -9,6 +9,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = HSE
 discovered_by = chinese
 discovered_by = indian
+add_core = BPR

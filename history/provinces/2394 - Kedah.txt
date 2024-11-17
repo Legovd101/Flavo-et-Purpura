@@ -1,6 +1,6 @@
 #2394 - Kedah
-owner = KED
-controller = KED
+owner = MSA
+controller = MSA
 culture = malayan
 religion = sunni
 capital = "Kedah"
@@ -9,8 +9,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = KED
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MSA

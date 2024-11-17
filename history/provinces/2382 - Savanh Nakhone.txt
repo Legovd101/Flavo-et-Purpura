@@ -1,6 +1,6 @@
 #2382 - Savanh Nakhone
-owner = LXA
-controller = LXA
+owner = KHM
+controller = KHM
 culture = lao
 religion = animism
 capital = "Luang Namtha"
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = LXA
 add_core = CHK
 discovered_by = chinese
 discovered_by = indian
+add_core = KHM

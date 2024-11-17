@@ -1,7 +1,7 @@
 #1773 - Achaea
 owner = ACH
 controller = ACH
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Nafplio"
 trade_goods = wine

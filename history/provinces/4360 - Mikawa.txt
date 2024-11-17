@@ -1,6 +1,6 @@
 #4360 - Mikawa
-owner = TKG
-controller = TKG
+owner = KOR
+controller = KOR
 culture = togoku
 religion = shinto
 capital = "Okazaki"
@@ -9,10 +9,10 @@ base_tax = 2
 base_manpower = 3
 base_production = 2
 is_city = yes
-add_core = TKG
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
+add_core = KOR

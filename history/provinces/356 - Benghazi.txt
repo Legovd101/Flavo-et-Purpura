@@ -1,7 +1,7 @@
 #356 - Cyrenaica
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = egyptian_greek
 religion = sunni
 capital = "Benghazi"
 trade_goods = livestock

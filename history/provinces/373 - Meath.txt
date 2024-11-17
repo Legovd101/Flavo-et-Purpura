@@ -2,7 +2,7 @@
 owner = IRE
 controller = IRE
 add_core = MTH
-culture = irish
+culture = hibernian
 religion = catholic
 base_tax = 3
 base_production = 3

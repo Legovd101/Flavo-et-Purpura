@@ -4,7 +4,7 @@ latent_trade_goods = {
 }
 owner = ZNG
 controller = ZNG
-culture = sardinian
+culture = mauri_sardinian
 religion = catholic
 base_tax = 3
 base_production = 3

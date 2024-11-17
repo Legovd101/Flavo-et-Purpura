@@ -1,6 +1,6 @@
 #585 - Toungoo
-owner = TAU
-controller = TAU
+owner = PEG
+controller = PEG
 culture = burmese
 religion = buddhism
 capital = "Toungoo"
@@ -9,6 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-add_core = TAU
 discovered_by = chinese
 discovered_by = indian
+add_core = PEG

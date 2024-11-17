@@ -1,6 +1,6 @@
 #4404 - Minsin
-owner = MKA
-controller = MKA
+owner = BPR
+controller = BPR
 culture = kachin
 religion = animism
 capital = "Minsin"
@@ -9,6 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MKA
 discovered_by = chinese
 discovered_by = indian
+add_core = BPR

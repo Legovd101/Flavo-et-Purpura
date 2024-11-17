@@ -1,7 +1,7 @@
 #147 - Salonica
 owner = ATH
 controller = ATH
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Trikala"
 trade_goods = wool

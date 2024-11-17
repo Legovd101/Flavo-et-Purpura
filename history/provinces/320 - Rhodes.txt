@@ -1,7 +1,7 @@
 #320 - Rhodes
 owner = CRT# Knights of St. John Hospitaler of Jerusalem
 controller = CRT
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Rhodes"
 trade_goods = fish

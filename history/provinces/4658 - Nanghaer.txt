@@ -1,8 +1,7 @@
 #Nangha'er
-owner = NVK
-controller = NVK
-add_core = NVK
-culture = nivkh
+owner = ANU
+controller = ANU
+culture = ainu
 religion = tengri_pagan_reformed
 capital = "Nangha'er"
 trade_goods = fish
@@ -57,3 +56,4 @@ discovered_by = ASK
 discovered_by = NVK
 discovered_by = SOL
 discovered_by = NHX
+add_core = ANU

@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = OUC
-controller = OUC
+owner = KOR
+controller = KOR
 culture = kyushuan
 religion = shinto
 capital = "Hakata"
@@ -12,7 +12,6 @@ base_tax = 5
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = OUC
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
@@ -20,4 +19,5 @@ discovered_by = OIR
 discovered_by = QNG
 extra_cost = 16
 center_of_trade = 2
+add_core = KOR
 fort_15th = yes

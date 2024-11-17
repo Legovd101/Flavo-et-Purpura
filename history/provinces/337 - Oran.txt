@@ -1,7 +1,7 @@
 #337 - Oran
 owner = SPA
 controller = SPA
-culture = algerian
+culture = gaetuli
 religion = sunni
 capital = "Oran"
 trade_goods = cloth

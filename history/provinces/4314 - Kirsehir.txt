@@ -1,7 +1,7 @@
 #4314 - Kirsehir
 owner = CND
 controller = CND
-culture = turkish
+culture = roman_cappadocian
 religion = sunni
 capital = "Kirshehir"
 trade_goods = wool

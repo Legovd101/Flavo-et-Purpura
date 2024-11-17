@@ -1,7 +1,7 @@
 #225 - Córdoba
 owner = BAE#Juan II of Castille
 controller = BAE
-culture = andalucian
+culture = baetican
 religion = catholic
 base_tax = 4
 base_production = 4

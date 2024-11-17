@@ -1,6 +1,6 @@
 # 65 - München
-owner = SWI
-controller = SWI
+owner = TNT
+controller = TNT
 culture = bavarian
 religion = catholic
 base_tax = 6
@@ -15,5 +15,5 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 #Last of the Landshuter Wittelsbachs dies
-add_core = SWI
+add_core = TNT
 fort_15th = yes

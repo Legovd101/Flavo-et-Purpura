@@ -1,6 +1,6 @@
 #2033 - Savanaur+Hubli+Keladi+Dharwar
-owner = BAH
-controller = BAH
+owner = MYS
+controller = MYS
 culture = kannada
 religion = hinduism
 capital = "Dharwar"
@@ -9,7 +9,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = BAH
 add_core = BIJ
 add_core = KLN
 add_core = VIJ
@@ -18,3 +17,4 @@ discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
+add_core = MYS

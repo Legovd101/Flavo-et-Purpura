@@ -1,7 +1,7 @@
 # - Ouarsenis
 owner = SYP
 controller = SYP
-culture = berber
+culture = massylian
 religion = sunni
 capital = "Ouarsenis"
 trade_goods = livestock

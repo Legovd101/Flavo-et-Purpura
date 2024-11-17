@@ -1,7 +1,6 @@
 #686 - Anqing (can't change file name)
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = KIC
+controller = KIC
 culture = jianghuai
 religion = confucianism
 capital = "Anqing"
@@ -12,3 +11,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = KIC

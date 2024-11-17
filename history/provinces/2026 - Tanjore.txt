@@ -1,6 +1,6 @@
 #2026 - Tanjore 
-owner = VIJ
-controller = VIJ
+owner = PGS
+controller = PGS
 culture = tamil
 religion = hinduism
 capital = "Thanjavur"
@@ -10,7 +10,6 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 add_brahmins_or_church_effect = yes
-add_core = VIJ
 add_core = MAD
 add_core = TNJ
 discovered_by = east_african
@@ -22,3 +21,4 @@ discovered_by = chinese
 add_local_autonomy = 25
 extra_cost = 16
 center_of_trade = 2
+add_core = PGS

@@ -1,7 +1,7 @@
 #4150 - Alto Alentejo
 owner = BAE
 controller = BAE
-culture = portugese
+culture = baetican
 religion = catholic
 capital = "Évora"
 trade_goods = wine

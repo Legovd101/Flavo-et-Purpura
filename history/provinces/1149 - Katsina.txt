@@ -1,7 +1,6 @@
 #1149 - Katsina
-owner = KTS
-controller = KTS
-add_core = KTS
+owner = KBO
+controller = KBO
 culture = hausa
 is_city = yes
 base_manpower = 3
@@ -13,3 +12,4 @@ base_production = 6
 discovered_by = sub_saharan
 extra_cost = 16
 center_of_trade = 2
+add_core = KBO

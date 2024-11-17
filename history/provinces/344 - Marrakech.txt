@@ -1,7 +1,7 @@
 #344 - Marrakech
 owner = GAE
 controller = GAE
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Marrakech"
 trade_goods = sugar

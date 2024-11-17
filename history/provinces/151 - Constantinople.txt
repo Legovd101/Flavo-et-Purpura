@@ -1,7 +1,7 @@
 #151 - Constantinople
 owner = BLU
 controller = BLU
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Constantinople"
 trade_goods = glass

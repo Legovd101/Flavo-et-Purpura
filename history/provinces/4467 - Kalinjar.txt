@@ -1,6 +1,6 @@
 #4467 - Kalinjar
-owner = PAN
-controller = PAN
+owner = MLW
+controller = MLW
 culture = vindhyan
 religion = hinduism
 capital = "Kalinjar"
@@ -9,10 +9,10 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = PAN
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
+add_core = MLW
 fort_15th = yes

@@ -1,7 +1,7 @@
 #102 - Nice
 owner = PRO
 controller = PRO
-culture = ligurian
+culture = gallic_greek
 religion = catholic
 hre = yes
 base_tax = 4

@@ -1,7 +1,7 @@
 #321 - Cyprus
 owner = CYP
 controller = CYP
-culture = greek
+culture = levantine_greek
 religion = orthodox
 capital = "Nicosia"
 trade_goods = wine

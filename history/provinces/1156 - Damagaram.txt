@@ -1,7 +1,6 @@
 #1156 - Damagaram
-owner = AIR
-controller = AIR
-add_core = AIR
+owner = KBO
+controller = KBO
 culture = tuareg
 religion = sunni
 capital = "Mashina"
@@ -11,3 +10,4 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 discovered_by = sub_saharan
+add_core = KBO

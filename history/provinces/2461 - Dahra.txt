@@ -1,7 +1,7 @@
 # - Dahra
 owner = SYP
 controller = SYP
-culture = algerian
+culture = numidian
 religion = sunni
 capital = "Mostaganem"
 trade_goods = grain

@@ -11,3 +11,6 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 is_city = no
+add_core = OIR
+owner = OIR
+controller = OIR

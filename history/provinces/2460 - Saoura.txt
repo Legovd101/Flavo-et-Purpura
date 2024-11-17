@@ -1,5 +1,5 @@
 # - Saoura
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Oulad Mhedi"
 trade_goods = livestock

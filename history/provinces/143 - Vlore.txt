@@ -1,7 +1,7 @@
 #143 - Vlorë - Southern Albania
 owner = EPI
 controller = EPI
-culture = albanian
+culture = rhoman
 religion = orthodox
 capital = "Vlorë"
 trade_goods = wool#or salt

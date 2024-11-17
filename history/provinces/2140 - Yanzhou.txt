@@ -1,7 +1,6 @@
 # 2140 - Yanzhou
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = WUU
+controller = WUU
 culture = zhongyuan
 religion = confucianism
 capital = "Yanzhou"
@@ -16,3 +15,4 @@ add_province_triggered_modifier = religious_center
 add_province_triggered_modifier = temple_of_confucius_modifier
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = WUU

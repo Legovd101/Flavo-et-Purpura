@@ -2,7 +2,7 @@
 owner = MJO# Alfons V of Aragon
 controller = MJO
 add_core = MJO
-culture = catalan
+culture = balearic_greek
 religion = catholic
 base_tax = 1
 base_production = 1

@@ -1,7 +1,7 @@
 #4374 - Dorset
 owner = IRE
 controller = IRE
-culture = english
+culture = britannian
 religion = catholic
 base_tax = 2
 base_production = 3

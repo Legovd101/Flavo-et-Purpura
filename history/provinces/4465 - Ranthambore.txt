@@ -1,6 +1,6 @@
 #4465 - Ranthambore
-owner = MER
-controller = MER
+owner = NTK
+controller = NTK
 culture = rajput
 religion = hinduism
 capital = "Ranthambore"
@@ -10,11 +10,11 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_rajputs_or_marathas_or_nobles_effect = yes
-add_core = MER
 add_core = HAD
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
+add_core = NTK
 fort_15th = yes

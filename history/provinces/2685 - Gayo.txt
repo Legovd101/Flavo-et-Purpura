@@ -1,6 +1,6 @@
 #2685 - Gayo
-owner = PSA
-controller = PSA
+owner = MSA
+controller = MSA
 culture = acehnese
 religion = sunni
 capital = "Gayo"
@@ -9,8 +9,8 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = PSA
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MSA

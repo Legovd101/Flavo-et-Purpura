@@ -1,7 +1,7 @@
 #1751 - Ceuta
 owner = SPA
 controller = SPA
-culture = moroccan
+culture = strait_greek
 religion = sunni
 capital = "Cebta"
 trade_goods = fish

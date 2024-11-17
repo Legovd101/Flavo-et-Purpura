@@ -1,5 +1,5 @@
-owner = BRS
-controller = BRS
+owner = MSA
+controller = MSA
 culture = sumatran
 religion = hinduism
 capital = "Barus"
@@ -8,8 +8,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = BRS
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MSA

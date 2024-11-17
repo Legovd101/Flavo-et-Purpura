@@ -1,7 +1,7 @@
 # - Touggourt
 owner = LTN
 controller = LTN
-culture = algerian
+culture = lautana
 religion = sunni
 capital = "Touggourt"
 trade_goods = spices

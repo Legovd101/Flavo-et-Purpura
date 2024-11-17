@@ -11,3 +11,6 @@ native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
 is_city = no
+add_core = SOF
+owner = SOF
+controller = SOF

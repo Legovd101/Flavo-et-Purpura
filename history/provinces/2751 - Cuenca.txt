@@ -1,7 +1,7 @@
 #2751 - Cuenca
 owner = GTC#Juan II of Castille
 controller = GTC
-culture = castillian
+culture = tarraconese
 religion = catholic
 base_tax = 4
 base_production = 4

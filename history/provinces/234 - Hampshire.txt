@@ -1,7 +1,7 @@
 #234 - Hampshire + Wiltshire
 owner = BRY
 controller = BRY
-culture = english
+culture = britannian
 religion = catholic
 base_tax = 3
 base_production = 3

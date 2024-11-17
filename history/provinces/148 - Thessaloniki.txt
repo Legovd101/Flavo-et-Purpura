@@ -1,7 +1,7 @@
 #148 - Macedonia
 owner = BYZ
 controller = BYZ
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Thessaloniki"
 trade_goods = cloth

@@ -1,6 +1,6 @@
 #1817 - Nan
-owner = LNA
-controller = LNA
+owner = SUK
+controller = SUK
 culture = northern_thai
 religion = buddhism
 capital = "Nan"
@@ -9,6 +9,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = LNA
 discovered_by = chinese
 discovered_by = indian
+add_core = SUK

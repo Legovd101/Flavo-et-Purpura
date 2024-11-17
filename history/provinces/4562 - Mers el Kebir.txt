@@ -1,7 +1,7 @@
 #337 - Oran
 owner = GAE
 controller = GAE
-culture = algerian
+culture = gaetuli
 religion = sunni
 capital = "Mers el Kebir"
 trade_goods = cloth

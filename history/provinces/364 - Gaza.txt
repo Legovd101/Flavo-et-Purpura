@@ -1,7 +1,7 @@
 #364 - Gaza
 owner = PER
 controller = PER
-culture = al_suryah_arabic
+culture = levantine_greek
 religion = sunni
 capital = "Gazzah"
 trade_goods = salt

@@ -11,3 +11,6 @@ native_ferocity = 4
 native_hostileness = 9
 discovered_by = sub_saharan
 is_city = no
+add_core = KBO
+owner = KBO
+controller = KBO

@@ -1,7 +1,7 @@
 #350 - Laghwat
 owner = LTN
 controller = LTN
-culture = algerian
+culture = lautana
 religion = sunni
 capital = "Laghwat"
 trade_goods = livestock

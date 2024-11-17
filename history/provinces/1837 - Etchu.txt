@@ -1,6 +1,6 @@
 #1837 - Etchu
-owner = HTK
-controller = HTK
+owner = JAP
+controller = JAP
 culture = togoku
 religion = shinto
 capital = "Kanazawa"
@@ -16,4 +16,5 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
+add_core = JAP
 fort_15th = yes

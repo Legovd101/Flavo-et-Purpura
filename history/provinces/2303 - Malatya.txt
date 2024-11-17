@@ -1,7 +1,7 @@
 #2303 - Malatya
 owner = LIV
 controller = LIV
-culture = turkish
+culture = roman_cappadocian
 religion = shiite
 capital = "Malatiya"
 trade_goods = cloth

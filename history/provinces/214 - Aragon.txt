@@ -1,7 +1,7 @@
 #214 - Aragón
 owner = AVI# Alfons V of Aragon
 controller = AVI
-culture = aragonese
+culture = hispanic
 religion = catholic
 base_tax = 5
 base_production = 5

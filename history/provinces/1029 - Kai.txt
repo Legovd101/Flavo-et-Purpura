@@ -1,6 +1,6 @@
 #1029 - Kai
-owner = TKD
-controller = TKD
+owner = KOR
+controller = KOR
 culture = togoku
 religion = shinto
 capital = "Kofu"
@@ -9,10 +9,10 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = TKD
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
+add_core = KOR

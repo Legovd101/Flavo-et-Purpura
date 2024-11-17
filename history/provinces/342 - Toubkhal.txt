@@ -1,7 +1,7 @@
 # - Rabat
 owner = GAE
 controller = GAE
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Rabat"
 trade_goods = grain

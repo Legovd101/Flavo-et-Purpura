@@ -1,7 +1,7 @@
 #2447 - Mantrega
 owner = GLH
 controller = GLH
-culture = pontic_greek
+culture = euxine
 religion = orthodox
 base_tax = 2
 base_production = 2

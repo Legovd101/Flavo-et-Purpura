@@ -1,0 +1,52 @@
+mauri = {
+	graphical_culture = westerngfx
+
+	
+	gaetuli = {
+		primary = GAE
+	}
+	garamantian = {
+		primary = FZA
+	}
+	lautana = {
+		primary = LTN
+	}
+	massylian = {
+		primary = MSL
+	}
+	numidian = {
+		primary = NMD
+	}
+	mauri_sardinian = {
+		primary = SAR
+	}
+	zenata = {
+		primary = ZNG
+	}
+	male_names = { 
+		Aghbalu Agizul Akawel Amalu Amastan Amaynu Amessan Amezyan Anaruz Anebdad Asafar
+		Asafu Asfru Asirem Asmun Asulil Atbir Awlagh Awsim Azellay Azenzer Azrur Baragsen
+		Ebeggi Ghanim Ghilas Idir Iften Ighlaf Immeghar Itri Izdarasen Izemrasen Izil Maqrin
+		Mezian Usem Wagguten Wararni Warmaksan Winaruz Wiwurgh Yedder Yeddes Yufayyur Yufitran
+		Yuften Zigza
+	}
+	female_names = {
+		Aldjya Bakhta Cabha Damya Elkaissa Izebboudjen Izlan Jidji Lalla Sekkura Siman Tadefi
+		Tadla Tafrara Tafsut Tagwilalt Tagwizult Taheyyatt Tajeddigt Takama Tamalut Tamemt
+		Tanamart Tanazart Tasa Tawenza Taylalt Tayri Tazellayt Thiyya Tidir Tifarwt Tilelli Tinifsan
+		Tintadefi Tintifawin Titrit Tiwul Tiziri Tsul Tuda Tufayyur Tufitri Tumert Tunaruz Ultasila
+		Umaler Zawgha Zeghiga Zira
+	}
+	dynasty_names = {
+		Aatabou Abrika Abusahmain Afellay AlMarrakchi Aït Aïtbrahim Amentague Ameziane Amirouche
+		Amrouche Assaidi Assala Atiqui Ayour Azem Azergui Belaid Belkacem ben "M'Hidi" Benboulaïd Bensaddek 
+		Bessaoud Bouatoura Bouglas Boulahrouz Boumedienne Bourogâa Boussouf Boutmazought Bouziane
+		Chafik Chaker Chamkh Chaoui Chouhad Choukri Dahmani Demciri Demsiri Djaout "el Djermouni" "el Hasnaoui"
+		Enn Feraoun Hadda Hadji Halo Hamouda Haouès Ihihi Izem Izri Jlassi Kazti "Khaïr-Eddine" Khedam
+		Labyad Lahcen Leghrour Lmrabet Madjer Mahrez Mammeri Massi Mbarek Menguellet Mezaguer Meziane Meziani
+		Mokhtari Mokrani Mouloudji Mourad "Mua'amar" "n'Soumer" Onzar Othmani Ouaaki Ouaddou Ouali Oualline
+		Oubjna Ouettar Ouyahia Radjef Raghibou Ramdane Rouicha Sadi Said Sawajiri Slimani Taarabt Tabaamrant
+		Tachtoukt Talbensirt Talhaoui Tamazight Tihihit Titrit Toufali Toumi Ulahyan Wahrouch Yacine Zadi
+		Zahra Zbiri Zeroual Ziani Zidane Ziyech Zouaoui
+	}
+}

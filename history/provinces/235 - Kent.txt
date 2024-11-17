@@ -1,7 +1,7 @@
 #235 - Kent
 owner = BRY
 controller = BRY
-culture = english
+culture = kentish
 religion = catholic
 base_tax = 5
 base_production = 5

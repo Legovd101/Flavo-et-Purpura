@@ -1,6 +1,6 @@
 #1028 - Musashi
-owner = UES
-controller = UES
+owner = KOR
+controller = KOR
 culture = togoku
 religion = shinto
 capital = "Kawagoe"
@@ -9,7 +9,6 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 is_city = yes
-add_core = UES
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
@@ -18,3 +17,4 @@ discovered_by = QNG
 discovered_by = ANU
 extra_cost = 16
 center_of_trade = 2
+add_core = KOR

@@ -1,7 +1,7 @@
 #1848 - Hamid
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Burdur"
 trade_goods = grain

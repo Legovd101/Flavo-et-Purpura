@@ -1,7 +1,7 @@
 #2296 - Biga
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Biga"
 trade_goods = naval_supplies

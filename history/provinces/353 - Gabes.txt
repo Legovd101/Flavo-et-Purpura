@@ -1,7 +1,7 @@
 #353 - Tataouine
 owner = MSL
 controller = MSL
-culture = tunisian
+culture = garamantian
 religion = sunni
 capital = "Tataouine"
 trade_goods = grain

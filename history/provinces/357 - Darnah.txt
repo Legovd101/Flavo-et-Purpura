@@ -1,7 +1,7 @@
 #357 - Libya
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = egyptian_greek
 religion = sunni
 capital = "Derna"
 trade_goods = livestock

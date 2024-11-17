@@ -1,7 +1,6 @@
 #1135 - Yatenga
-owner = YAT
-controller = YAT
-add_core = YAT
+owner = WGD
+controller = WGD
 is_city = yes
 culture = mossi
 religion = shamanism#Fetishism
@@ -11,3 +10,4 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 discovered_by = sub_saharan
+add_core = WGD

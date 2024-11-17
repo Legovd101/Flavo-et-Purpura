@@ -1,7 +1,7 @@
 # - Euboea
 owner = ATH
 controller = ATH
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Negroponte"
 trade_goods = fish

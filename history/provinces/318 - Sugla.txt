@@ -1,7 +1,7 @@
 #318 - Sugla
 owner = BYZ
 controller = BYZ
-culture = turkish#Should not be Greek or Orthodox in 1444. Its status as a majority Greek city dates to at least after the 17th Century
+culture = rhoman#Should not be Greek or Orthodox in 1444. Its status as a majority Greek city dates to at least after the 17th Century
 religion = sunni
 capital = "Izmirni"
 trade_goods = cotton#Major producer and exporter of Cotton

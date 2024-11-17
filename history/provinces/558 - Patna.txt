@@ -1,6 +1,6 @@
 #558 - Patna
-owner = JNP
-controller = JNP
+owner = NTK
+controller = NTK
 culture = bihari
 religion = hinduism
 capital = "Patna"
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = JNP
 add_brahmins_or_church_effect = yes
 discovered_by = indian
 discovered_by = muslim
@@ -19,3 +18,4 @@ discovered_by = chinese
 add_province_triggered_modifier = buddhist_bodh_gaya
 extra_cost = 16
 center_of_trade = 2
+add_core = NTK

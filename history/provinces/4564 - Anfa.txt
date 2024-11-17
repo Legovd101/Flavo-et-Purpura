@@ -1,7 +1,7 @@
 # - Anfa
 owner = SPA
 controller = SPA
-culture = moroccan
+culture = strait_greek
 religion = sunni
 capital = "Anfa"
 trade_goods = grain

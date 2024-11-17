@@ -1,6 +1,6 @@
 #2395 - Hkamti Long
-owner = MKA
-controller = MKA
+owner = BPR
+controller = BPR
 culture = kachin
 religion = animism
 capital = "Hkamti Long"
@@ -9,6 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = MKA
 discovered_by = chinese
 discovered_by = indian
+add_core = BPR

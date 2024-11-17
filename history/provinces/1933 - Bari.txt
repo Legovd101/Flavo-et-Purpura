@@ -1,7 +1,7 @@
 #1933 - Bari
 owner = EPI
 controller = EPI
-culture = neapolitan
+culture = sicilian_greek
 religion = catholic
 base_tax = 3
 base_production = 3

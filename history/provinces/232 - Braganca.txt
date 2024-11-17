@@ -1,7 +1,7 @@
 #232 - Bragança
 owner = GAL
 controller = GAL
-culture = portugese
+culture = galician_fep
 religion = catholic
 capital = "Bragança"
 trade_goods = wine

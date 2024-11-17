@@ -1,7 +1,7 @@
 #2300 - Bozok
 owner = CND
 controller = CND
-culture = turkish
+culture = roman_cappadocian
 religion = sunni
 capital = "Yozgat"
 trade_goods = grain

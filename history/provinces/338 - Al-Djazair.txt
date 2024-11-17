@@ -1,7 +1,7 @@
 #338 - Al-Djazair
 owner = SYP
 controller = SYP
-culture = algerian
+culture = numidian
 religion = sunni
 capital = "Al-Djazair"
 trade_goods = grain

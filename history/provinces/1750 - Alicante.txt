@@ -2,7 +2,7 @@
 owner = SPA#Martí I of Aragon
 controller = SPA
 add_core = VAL
-culture = catalan
+culture = strait_greek
 religion = catholic
 base_tax = 3
 base_production = 3

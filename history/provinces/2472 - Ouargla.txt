@@ -1,7 +1,7 @@
 # - Ouargla
 owner = FZA
 controller = FZA
-culture = berber
+culture = lautana
 religion = ibadi
 capital = "Ouargla"
 trade_goods = slaves

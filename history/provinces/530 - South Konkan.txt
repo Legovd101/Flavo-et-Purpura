@@ -1,6 +1,6 @@
 #530 - South Konkan (Dabhol, Rajapur, up to and including Bankot)
-owner = BAH
-controller = BAH
+owner = YDV
+controller = YDV
 culture = marathi
 religion = hinduism
 capital = "Dabhol"
@@ -18,3 +18,4 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 discovered_by = east_african
+add_core = YDV

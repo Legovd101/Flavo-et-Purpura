@@ -1,7 +1,6 @@
 # No previous file for Baghena
-owner = TMB
-controller = TMB
-add_core = TMB
+owner = SOF
+controller = SOF
 is_city = yes
 culture = soninke
 religion = sunni

@@ -1,7 +1,7 @@
 #2301 - Kayseri
 owner = KAR
 controller = KAR
-culture = turkish
+culture = roman_cappadocian
 religion = sunni
 capital = "Kayseri"
 trade_goods = iron

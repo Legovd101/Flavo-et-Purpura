@@ -1,7 +1,6 @@
 #1850 - Yaran
-owner = NHX
-controller = NHX
-add_core = NHX
+owner = OIR
+controller = OIR
 culture = manchu
 religion = tengri_pagan_reformed
 capital = "Yaran"
@@ -12,3 +11,4 @@ base_manpower = 3
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = OIR

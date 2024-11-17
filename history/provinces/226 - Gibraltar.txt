@@ -1,7 +1,7 @@
 #226 - Gibraltar
 owner = SPA# Mustapha Sa'd King of Granada
 controller = SPA
-culture = andalucian
+culture = strait_greek
 religion = sunni
 base_tax = 1
 base_production = 1

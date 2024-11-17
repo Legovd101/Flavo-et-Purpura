@@ -1,7 +1,6 @@
 #578 - Roh
-owner = AFG
-controller = AFG
-add_core = AFG
+owner = HIN
+controller = HIN
 culture = afghani
 religion = sunni
 capital = "Peshawar"
@@ -18,4 +17,5 @@ discovered_by = ottoman
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+add_core = HIN
 fort_15th = yes

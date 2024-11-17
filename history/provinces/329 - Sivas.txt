@@ -1,7 +1,7 @@
 #329 - Sivas
 owner = KAR
 controller = KAR
-culture = turkish
+culture = roman_cappadocian
 religion = shiite
 capital = "Sivas"
 trade_goods = livestock

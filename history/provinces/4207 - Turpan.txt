@@ -1,7 +1,6 @@
 #X2 - Turpan
-owner = CHG# ruled by a Chagataiid 
-controller = CHG
-add_core = CHG
+owner = KRC# ruled by a Chagataiid 
+controller = KRC
 culture = uyghur
 religion = tengri_pagan_reformed
 capital = "Balikul"
@@ -12,3 +11,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = KRC

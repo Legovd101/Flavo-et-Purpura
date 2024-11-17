@@ -1,6 +1,5 @@
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = OIR
+controller = OIR
 culture = chahar
 religion = vajrayana
 capital = "Josutu"
@@ -13,3 +12,4 @@ add_core = KHA
 add_core = CHH
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = OIR

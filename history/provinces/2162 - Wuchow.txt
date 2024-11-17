@@ -1,7 +1,6 @@
 # 2162 - Ngchow
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = YUE
+controller = YUE
 culture = cantonese
 religion = confucianism
 capital = "Ngchow"
@@ -13,3 +12,4 @@ is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
+add_core = YUE

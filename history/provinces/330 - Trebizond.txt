@@ -1,7 +1,7 @@
 #330 - Trebizond
 owner = GEO
 controller = GEO
-culture = pontic_greek
+culture = euxine
 religion = orthodox
 capital = "Trapezous"
 trade_goods = naval_supplies

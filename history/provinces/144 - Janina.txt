@@ -1,7 +1,7 @@
 #144 - Epiros
 owner = EPI
 controller = EPI
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Ioannina"
 trade_goods = wool

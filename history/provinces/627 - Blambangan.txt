@@ -1,7 +1,6 @@
 #627 - Blambangan
-owner = BLM
-controller = BLM
-add_core = BLM
+owner = MAJ
+controller = MAJ
 culture = javanese
 religion = hinduism
 capital = "Blambangan"
@@ -14,3 +13,4 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MAJ

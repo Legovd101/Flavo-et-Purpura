@@ -1,6 +1,6 @@
 owner = GRE
 controller = GRE
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Gumulcine"
 trade_goods = livestock

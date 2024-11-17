@@ -1,7 +1,7 @@
 #223 - Granada
 owner = SPA# Mustapha Sa'd King of Granada
 controller = SPA
-culture = andalucian
+culture = strait_greek
 religion = sunni
 base_tax = 6
 base_production = 4

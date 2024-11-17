@@ -1,7 +1,7 @@
 #285 - Kaffa
 owner = GLH
 controller = GLH
-culture = pontic_greek
+culture = euxine
 religion = orthodox
 base_tax = 4
 base_production = 4

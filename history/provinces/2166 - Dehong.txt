@@ -1,7 +1,6 @@
 # 2166 - Dehong
-owner = MMA
-controller = MMA
-add_core = MMA
+owner = CDL
+controller = CDL
 culture = shan
 religion = buddhism
 capital = "Dehong"
@@ -13,3 +12,4 @@ is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
+add_core = CDL

@@ -1,7 +1,7 @@
 #2302 - Içel
 owner = TEU
 controller = TEU
-culture = turkish
+culture = roman_cappadocian
 religion = sunni
 capital = "Ermenek"
 trade_goods = naval_supplies

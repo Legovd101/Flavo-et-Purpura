@@ -1,7 +1,7 @@
 #4308 - Divrigi
 owner = KAR
 controller = KAR
-culture = turkish
+culture = roman_cappadocian
 religion = shiite
 capital = "Divrigi"
 trade_goods = wool

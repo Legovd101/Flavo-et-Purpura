@@ -1,7 +1,6 @@
 # 2108 - Huncun
-owner = MJZ
-controller = MJZ
-add_core = MJZ
+owner = OIR
+controller = OIR
 culture = manchu
 religion = confucianism
 capital = "Huncun"
@@ -12,4 +11,5 @@ base_manpower = 5
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = OIR
 fort_15th = yes

@@ -1,6 +1,6 @@
 #542 - Golconda
-owner = GOC
-controller = GOC
+owner = TLG
+controller = TLG
 culture = telegu
 religion = hinduism
 capital = "Golconda"
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 1
 is_city = yes
-add_core = GOC
 add_core = TLG
 discovered_by = indian
 discovered_by = nomad_group

@@ -1,7 +1,6 @@
 #4223 - Hetao
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = SIN
+controller = SIN
 culture = mongol
 religion = vajrayana
 capital = "Otog"
@@ -13,3 +12,4 @@ is_city = yes
 add_core = KHA
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = SIN

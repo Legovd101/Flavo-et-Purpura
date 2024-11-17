@@ -1,7 +1,7 @@
 #221 - Murcia
 owner = SPA# Juan II of Castille
 controller = SPA
-culture = andalucian
+culture = tarraconese
 religion = catholic
 base_tax = 2
 base_production = 2

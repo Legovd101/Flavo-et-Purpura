@@ -1,6 +1,6 @@
 #4651 - Tsushima
-owner = SOO
-controller = SOO
+owner = KOR
+controller = KOR
 culture = kyushuan
 religion = shinto
 capital = "Tsushima"
@@ -9,9 +9,9 @@ base_tax = 2
 base_manpower = 1
 base_production = 1
 is_city = yes
-add_core = SOO
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
+add_core = KOR

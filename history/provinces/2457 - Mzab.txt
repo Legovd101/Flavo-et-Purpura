@@ -1,7 +1,7 @@
 # - Mzab
 owner = LTN
 controller = LTN
-culture = berber
+culture = lautana
 religion = ibadi
 capital = "Ghardaia"
 trade_goods = livestock

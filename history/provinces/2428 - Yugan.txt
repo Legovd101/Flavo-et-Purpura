@@ -1,8 +1,5 @@
 #2428 - Yugan
-owner = SHY
-controller = SHY
 add_core = SIB
-add_core = SHY
 culture = ostyaki
 religion = sunni
 capital = "Yugan"

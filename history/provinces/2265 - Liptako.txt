@@ -1,7 +1,6 @@
 # 2265 - Liptako
-owner = YAT
-controller = YAT
-add_core = YAT
+owner = WGD
+controller = WGD
 add_core = ZND
 is_city = yes
 culture = mossi
@@ -13,3 +12,4 @@ base_production = 1
 base_manpower = 1
 discovered_by = sub_saharan
 #1540.1.1 = { owner = YAT controller = YAT } #Yatenga established as distinct kingdom
+add_core = WGD

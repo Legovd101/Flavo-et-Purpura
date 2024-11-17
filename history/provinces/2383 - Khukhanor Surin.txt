@@ -1,6 +1,6 @@
 #2383 - Khukhanor Surin
-owner = LXA
-controller = LXA
+owner = KHM
+controller = KHM
 culture = khmer
 religion = buddhism
 capital = "Khukhan"
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = LXA
 add_core = CHK
 discovered_by = chinese
 discovered_by = indian
+add_core = KHM

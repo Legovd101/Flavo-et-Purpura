@@ -1,7 +1,7 @@
 #2313 - Antioch
 owner = LIV
 controller = LIV
-culture = al_suryah_arabic
+culture = levantine_greek
 religion = sunni
 capital = "Antakya"
 trade_goods = cloth

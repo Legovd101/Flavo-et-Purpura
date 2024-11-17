@@ -1,7 +1,7 @@
 #244 - Lancashire
 owner = IRE
 controller = IRE
-culture = english
+culture = wales_gaelic
 religion = catholic
 base_tax = 3
 base_production = 3

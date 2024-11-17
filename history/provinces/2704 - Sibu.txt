@@ -1,6 +1,6 @@
 #2704 - Sibu
-owner = BEI
-controller = BEI
+owner = MSA
+controller = MSA
 culture = bornean
 religion = sunni
 capital = "Sibu"
@@ -9,8 +9,8 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = BEI
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MSA

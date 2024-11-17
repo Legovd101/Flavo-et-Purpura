@@ -1,7 +1,7 @@
 #352 - Gafsa
 owner = MSL
 controller = MSL
-culture = tunisian
+culture = massylian
 religion = sunni
 capital = "Gafsa"
 trade_goods = salt

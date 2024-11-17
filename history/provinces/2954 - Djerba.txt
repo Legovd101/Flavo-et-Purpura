@@ -1,7 +1,7 @@
 #2954 - Djerba
 owner = ZNG
 controller = ZNG
-culture = tunisian
+culture = african_greek
 religion = ibadi
 capital = "Djerba"
 trade_goods = grain

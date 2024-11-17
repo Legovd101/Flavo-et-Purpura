@@ -1,7 +1,7 @@
 #2348 - Chios
 owner = BYZ
 controller = BYZ
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Chio"
 trade_goods = wine

@@ -1,7 +1,7 @@
 #231 - Porto
 owner = LUS
 controller = LUS
-culture = portugese
+culture = lusitanian
 religion = catholic
 capital = "Porto"
 trade_goods = wine

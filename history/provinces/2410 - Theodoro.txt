@@ -1,7 +1,7 @@
 #2410 - Theodoro
 owner = BYZ
 controller = BYZ
-culture = goths
+culture = euxine
 religion = orthodox
 base_tax = 3
 base_production = 3

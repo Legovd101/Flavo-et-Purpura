@@ -1,7 +1,6 @@
 #671 - Changsha
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = HUA
+controller = HUA
 culture = xiang
 religion = confucianism
 capital = "Changsha"
@@ -14,3 +13,4 @@ add_core = CHC
 center_of_trade = 1
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = HUA

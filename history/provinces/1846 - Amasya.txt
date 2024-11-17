@@ -1,7 +1,7 @@
 #1846 - Amasya
 owner = CND
 controller = CND
-culture = turkish
+culture = euxine
 religion = sunni
 capital = "Amasya"
 trade_goods = paper#and iron

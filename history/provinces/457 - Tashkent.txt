@@ -1,6 +1,6 @@
 #457 - Tashkent
-owner = TIM
-controller = TIM
+owner = TRS
+controller = TRS
 culture = uzbehk
 religion = sunni
 capital = "Tashkent"
@@ -9,7 +9,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = TIM
 add_core = TRS
 discovered_by = KAS
 discovered_by = muslim

@@ -1,7 +1,7 @@
 #2297 - Saruhan
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Manisa"
 trade_goods = cotton

@@ -1,7 +1,7 @@
 #328 - Sinope
 owner = CND
 controller = CND
-culture = turkish
+culture = euxine
 religion = sunni
 capital = "Sinop"
 trade_goods = naval_supplies

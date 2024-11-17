@@ -1,7 +1,7 @@
 #340 - Constantine
 owner = NMD
 controller = NMD
-culture = berber
+culture = numidian
 religion = sunni
 capital = "Annaba"
 trade_goods = naval_supplies

@@ -1,7 +1,7 @@
 #4787 - Ribatejo
 owner = SPA
 controller = SPA
-culture = portugese
+culture = strait_greek
 religion = catholic
 capital = "Santarém"
 trade_goods = grain

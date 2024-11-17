@@ -1,7 +1,6 @@
 # No previous file for Kantor
-owner = MAL
-controller = MAL
-add_core = MAL
+owner = KBU
+controller = KBU
 add_core = KBU#Subjet province within the empire
 is_city = yes
 culture = senegambian

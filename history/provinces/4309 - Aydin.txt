@@ -1,7 +1,7 @@
 #4309 - Aydin
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Aydin"
 trade_goods = salt#Major Ottoman Salt Work

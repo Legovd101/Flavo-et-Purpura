@@ -1,7 +1,6 @@
 #631 - Bali
-owner = BLI
-controller = BLI
-add_core = BLI
+owner = MAJ
+controller = MAJ
 culture = nusa_tenggara
 religion = hinduism
 capital = "Gianyar"
@@ -14,3 +13,4 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MAJ

@@ -1,6 +1,5 @@
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = OIR
+controller = OIR
 culture = khalkha
 religion = tengri_pagan_reformed
 capital = "Sainshand"

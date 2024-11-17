@@ -1,7 +1,6 @@
 #709 - Alxa
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = SIN
+controller = SIN
 culture = mongol
 religion = vajrayana
 capital = "Alxa"
@@ -12,3 +11,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = SIN

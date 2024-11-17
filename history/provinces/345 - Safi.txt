@@ -1,7 +1,7 @@
 #345 - Safi
 owner = GAE
 controller = GAE
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Safi"
 trade_goods = sugar

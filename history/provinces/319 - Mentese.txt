@@ -1,7 +1,7 @@
 #319 - Mentese
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Mughla"
 trade_goods = salt

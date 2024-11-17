@@ -1,7 +1,7 @@
 #215 - Valladolid
 owner = SAB#Juan II of Castille
 controller = SAB
-culture = castillian
+culture = sabarian
 religion = catholic
 base_tax = 3
 base_production = 3

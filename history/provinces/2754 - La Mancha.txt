@@ -1,7 +1,7 @@
 #2754 - La Mancha
 owner = BAE#Juan II of Castille
 controller = BAE
-culture = castillian
+culture = toledan
 religion = catholic
 base_tax = 3
 base_production = 3

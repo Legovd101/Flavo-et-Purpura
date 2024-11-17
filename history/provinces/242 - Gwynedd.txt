@@ -1,7 +1,7 @@
 #242 - Gwynedd
 owner = IRE
 controller = IRE
-culture = welsh
+culture = wales_gaelic
 religion = catholic
 base_tax = 2
 base_production = 2

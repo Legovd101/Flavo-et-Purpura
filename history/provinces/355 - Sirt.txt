@@ -1,7 +1,7 @@
 #355 - Sirt
 owner = FZA
 controller = FZA
-culture = tunisian
+culture = garamantian
 religion = sunni
 capital = "Ben Jawad"
 trade_goods = fish

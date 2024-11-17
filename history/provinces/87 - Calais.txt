@@ -2,7 +2,7 @@
 owner = FLA
 controller = FLA
 capital = "Calais"
-culture = wallonian
+culture = belgican
 religion = catholic
 base_tax = 5
 base_production = 5

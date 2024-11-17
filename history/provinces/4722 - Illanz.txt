@@ -1,5 +1,5 @@
-owner = TNT
-controller = TNT
+owner = MLO
+controller = MLO
 culture = swiss
 religion = catholic
 capital = "Illanz"
@@ -13,4 +13,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = TNT
+add_core = MLO

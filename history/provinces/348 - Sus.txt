@@ -1,7 +1,7 @@
 #348 - Sus
 owner = GAE
 controller = GAE
-culture = berber
+culture = gaetuli
 religion = sunni
 capital = "Taroudant"
 trade_goods = sugar

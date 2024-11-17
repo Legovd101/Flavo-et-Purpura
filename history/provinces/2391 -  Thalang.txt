@@ -1,6 +1,6 @@
 #2391 - Thalang
-owner = LIG
-controller = LIG
+owner = SUK
+controller = SUK
 culture = malayan
 religion = sunni
 capital = "Thalang"
@@ -9,8 +9,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = LIG
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = SUK

@@ -1,6 +1,6 @@
 owner = BYZ
 controller = BYZ
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Gallipoli"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #377 - Aleppo
 owner = LIV
 controller = LIV
-culture = al_suryah_arabic
+culture = levantine_greek
 religion = sunni
 capital = "Halab"
 trade_goods = silk

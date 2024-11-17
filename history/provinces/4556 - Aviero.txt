@@ -1,7 +1,7 @@
 #Aviero
 owner = LUS
 controller = LUS
-culture = portugese
+culture = lusitanian
 religion = catholic
 capital = "Aveiro"
 trade_goods = salt

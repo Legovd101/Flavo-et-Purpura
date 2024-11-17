@@ -1,7 +1,7 @@
 #164 - Naxos
 owner = CRT
 controller = CRT
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Naxos"
 trade_goods = wine

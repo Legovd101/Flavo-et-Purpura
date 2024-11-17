@@ -1,6 +1,6 @@
 owner = CEP
 controller = CEP
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Agios Georgios"
 trade_goods = wine

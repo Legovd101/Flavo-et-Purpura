@@ -1,7 +1,7 @@
 # - Sfax
 owner = ZNG
 controller = ZNG
-culture = tunisian
+culture = zenata
 religion = sunni
 capital = "Sfax"
 trade_goods = sugar

@@ -1,7 +1,7 @@
 # - Hodna
 owner = MSL
 controller = MSL
-culture = algerian
+culture = massylian
 religion = sunni
 capital = "Msila"
 trade_goods = salt

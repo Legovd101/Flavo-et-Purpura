@@ -1,6 +1,6 @@
 #4422 - Sira
-owner = VIJ
-controller = VIJ
+owner = MYS
+controller = MYS
 culture = kannada
 religion = hinduism
 capital = "Sira"
@@ -10,7 +10,6 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 add_rajputs_or_marathas_or_nobles_effect = yes
-add_core = VIJ
 add_core = MYS
 discovered_by = indian
 discovered_by = muslim

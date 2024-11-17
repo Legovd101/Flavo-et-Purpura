@@ -1,7 +1,7 @@
 #4312 - Eskisehir
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Eskisehir"
 trade_goods = cloth

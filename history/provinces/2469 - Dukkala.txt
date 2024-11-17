@@ -1,7 +1,7 @@
 # - Abda
 owner = SPA
 controller = SPA
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Mazzagan"
 trade_goods = grain

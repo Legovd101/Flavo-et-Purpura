@@ -1,6 +1,6 @@
 #1968 - Kulob
-owner = ILK
-controller = ILK
+owner = KOK
+controller = KOK
 culture = uzbehk
 religion = sunni
 capital = "Kulob"
@@ -16,4 +16,4 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 add_local_autonomy = 25#governed by Muhammad Juki
-add_core = ILK
+add_core = KOK

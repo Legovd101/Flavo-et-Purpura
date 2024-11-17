@@ -1,6 +1,6 @@
 #2398 - Thaungdut
-owner = KAL
-controller = KAL
+owner = BPR
+controller = BPR
 culture = chin
 religion = animism
 capital = "Thaungdut"
@@ -9,6 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KAL
 discovered_by = chinese
 discovered_by = indian
+add_core = BPR

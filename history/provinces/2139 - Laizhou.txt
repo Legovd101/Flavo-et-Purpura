@@ -1,7 +1,6 @@
 # 2139 - Laizhou
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = UES
+controller = UES
 culture = shandong_culture
 religion = confucianism
 capital = "Laizhou"
@@ -15,3 +14,4 @@ extra_cost = 8
 center_of_trade = 1
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = UES

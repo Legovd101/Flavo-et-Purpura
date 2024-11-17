@@ -1,6 +1,6 @@
 #2089 - Chaul (Chaul+Janjira+Kolaba)
-owner = BAH
-controller = BAH
+owner = YDV
+controller = YDV
 culture = marathi
 religion = hinduism
 capital = "Chaul"
@@ -21,3 +21,4 @@ discovered_by = chinese
 discovered_by = east_african
 extra_cost = 16
 center_of_trade = 2
+add_core = YDV

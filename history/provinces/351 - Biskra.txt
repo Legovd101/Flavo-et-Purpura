@@ -1,7 +1,7 @@
 #351 - Biskra
 owner = MSL
 controller = MSL
-culture = berber
+culture = massylian
 religion = sunni
 capital = "Biskra"
 trade_goods = wool

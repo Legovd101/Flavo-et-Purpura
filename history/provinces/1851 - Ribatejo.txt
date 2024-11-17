@@ -1,7 +1,7 @@
 #1851 - Coimbra
 owner = LUS
 controller = LUS
-culture = portugese
+culture = lusitanian
 religion = catholic
 capital = "Coimbra"
 trade_goods = grain

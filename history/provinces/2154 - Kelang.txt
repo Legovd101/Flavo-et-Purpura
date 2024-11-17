@@ -15,3 +15,6 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 is_city = no
+add_core = MIN
+owner = MIN
+controller = MIN

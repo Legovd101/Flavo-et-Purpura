@@ -1,7 +1,7 @@
 #347 - Ifni
 owner = GAE
 controller = GAE
-culture = berber
+culture = gaetuli
 religion = sunni
 capital = "Sidi Ifni"
 trade_goods = fish

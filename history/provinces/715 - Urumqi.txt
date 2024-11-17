@@ -1,7 +1,6 @@
 #715 - Urumqi
-owner = CHG
-controller = CHG
-add_core = CHG
+owner = KRC
+controller = KRC
 culture = uyghur
 religion = tengri_pagan_reformed
 capital = "Urumqi"
@@ -12,3 +11,4 @@ base_manpower = 3
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = KRC

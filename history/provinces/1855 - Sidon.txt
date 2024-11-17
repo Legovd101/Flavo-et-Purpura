@@ -1,7 +1,7 @@
 #1855 - Sidon
 owner = KOJ
 controller = KOJ
-culture = al_suryah_arabic
+culture = levantine_greek
 religion = shiite
 capital = "Sayda"
 trade_goods = naval_supplies

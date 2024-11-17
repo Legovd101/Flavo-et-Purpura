@@ -1,7 +1,7 @@
 #322 - Küthaya
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Kütahya"
 trade_goods = cloth

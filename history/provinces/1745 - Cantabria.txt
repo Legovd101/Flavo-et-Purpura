@@ -2,7 +2,7 @@
 owner = ASU#Enrique III of Castille
 controller = ASU
 add_core = ASU
-culture = castillian
+culture = asturian
 religion = catholic
 base_tax = 3
 base_production = 3

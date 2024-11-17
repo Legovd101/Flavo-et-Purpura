@@ -1,7 +1,6 @@
 #700 - Shaanxi
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = SIN
+controller = SIN
 culture = xibei
 religion = confucianism
 capital = "Xi'an"
@@ -16,4 +15,5 @@ discovered_by = chinese
 discovered_by = nomad_group
 extra_cost = 16
 center_of_trade = 2
+add_core = SIN
 fort_15th = yes

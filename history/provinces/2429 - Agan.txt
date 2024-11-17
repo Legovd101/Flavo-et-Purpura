@@ -1,8 +1,5 @@
 #2429 - Agan
-owner = SHY
-controller = SHY
 add_core = SIB
-add_core = SHY
 culture = ostyaki
 religion = sunni
 capital = "Variegansk"

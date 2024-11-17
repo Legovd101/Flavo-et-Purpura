@@ -1,7 +1,6 @@
 # 2165 - Pu'er
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CDL
+controller = CDL
 culture = bai
 religion = buddhism
 capital = "Pu'er"

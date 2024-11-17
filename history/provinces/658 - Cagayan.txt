@@ -11,3 +11,6 @@ native_ferocity = 1
 native_hostileness = 3
 discovered_by = chinese
 is_city = no
+add_core = MNA
+owner = MNA
+controller = MNA

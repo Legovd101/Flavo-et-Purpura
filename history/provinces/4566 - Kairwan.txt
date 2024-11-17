@@ -1,7 +1,7 @@
 # - Kairwan
 owner = NMD
 controller = NMD
-culture = tunisian
+culture = zenata
 religion = sunni
 capital = "Kairwan"
 trade_goods = grain

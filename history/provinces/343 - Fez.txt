@@ -1,7 +1,7 @@
 #343 - Fez
 owner = GAE
 controller = GAE
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Fez"
 trade_goods = cloth

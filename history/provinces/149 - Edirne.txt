@@ -1,7 +1,7 @@
 #149 - Edirne
 owner = BLU
 controller = BLU
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Edirne"
 trade_goods = cloth

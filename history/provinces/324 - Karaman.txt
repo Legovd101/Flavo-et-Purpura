@@ -1,7 +1,7 @@
 #324 - Karaman
 owner = TEU
 controller = TEU
-culture = turkish
+culture = roman_cappadocian
 religion = sunni
 capital = "Karaman"
 trade_goods = livestock

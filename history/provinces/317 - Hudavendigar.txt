@@ -1,7 +1,7 @@
 #317 - Bursa
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Bursa"
 trade_goods = silk

@@ -1,6 +1,6 @@
 owner = ACH
 controller = ACH
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Corinth"
 trade_goods = wine

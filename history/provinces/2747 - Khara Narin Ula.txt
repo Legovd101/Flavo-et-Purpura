@@ -1,7 +1,6 @@
 #2405 - Khara Narin Ula
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = OIR
+controller = OIR
 culture = mongol
 religion = vajrayana
 capital = "Khara Narin Ula"
@@ -12,3 +11,4 @@ base_manpower = 1
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = OIR

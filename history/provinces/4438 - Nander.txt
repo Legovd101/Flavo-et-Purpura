@@ -1,6 +1,6 @@
 #4438 - Nander
-owner = BAH
-controller = BAH
+owner = TLG
+controller = TLG
 culture = marathi
 religion = hinduism
 capital = "Nander"
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = BAH
 add_core = TLG
 discovered_by = indian
 discovered_by = nomad_group

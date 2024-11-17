@@ -2,7 +2,7 @@
 owner = SAB#Juan II of Castille
 controller = SAB
 add_core = LON
-culture = leonese
+culture = sabarian
 religion = catholic
 base_tax = 4
 base_production = 4

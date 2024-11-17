@@ -1,7 +1,7 @@
 # - Ouarzazate
 owner = GAE
 controller = GAE
-culture = berber
+culture = gaetuli
 religion = sunni
 capital = "Ouarzazate"
 trade_goods = grain

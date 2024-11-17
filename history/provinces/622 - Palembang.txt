@@ -16,3 +16,6 @@ discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 is_city = no
+add_core = MSA
+owner = MSA
+controller = MSA

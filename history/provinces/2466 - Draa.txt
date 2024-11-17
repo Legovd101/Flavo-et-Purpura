@@ -1,5 +1,5 @@
 # - Draa
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Tagmadert"
 trade_goods = spices#Dates

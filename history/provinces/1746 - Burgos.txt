@@ -1,7 +1,7 @@
 #1746 - Burgos
 owner = ASU#Juan II of Castille
 controller = ASU
-culture = castillian
+culture = hispanic
 religion = catholic
 base_tax = 3
 base_production = 3

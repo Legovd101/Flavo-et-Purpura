@@ -1,7 +1,7 @@
 #142 - Corfu
 owner = CEP
 controller = CEP
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Corfu"
 trade_goods = fish

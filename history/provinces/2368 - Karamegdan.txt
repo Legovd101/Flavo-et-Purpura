@@ -1,7 +1,6 @@
 # 2368 - Karamegdan
-owner = CHG
-controller = CHG
-add_core = CHG
+owner = QAS
+controller = QAS
 culture = khazak
 religion = sunni
 capital = "Karamegdan"
@@ -17,3 +16,4 @@ discovered_by = ottoman
 discovered_by = CHG
 discovered_by = OIR
 discovered_by = KAS
+add_core = QAS

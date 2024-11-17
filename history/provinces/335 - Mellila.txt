@@ -1,7 +1,7 @@
 #335 - Melilla
 owner = SPA
 controller = SPA
-culture = berber
+culture = gaetuli
 religion = sunni
 capital = "Melilla"
 trade_goods = fish

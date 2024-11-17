@@ -1,7 +1,7 @@
 #2325 - Tarrana
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = egyptian_greek
 religion = sunni
 capital = "Marsa Matruh"
 trade_goods = fish

@@ -1,7 +1,7 @@
 #4313 - Kangiri
 owner = CND
 controller = CND
-culture = turkish
+culture = euxine
 religion = sunni
 capital = "Kangiri"
 trade_goods = wool

@@ -1,7 +1,6 @@
 #675 - Qujing
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CDL
+controller = CDL
 add_core = CYI
 culture = yi
 religion = animism
@@ -14,3 +13,4 @@ is_city = yes
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
+add_core = CDL

@@ -1,6 +1,6 @@
 #545 - Marathwada
-owner = BAH
-controller = BAH
+owner = YDV
+controller = YDV
 culture = marathi
 religion = hinduism
 capital = "Daulatabad"
@@ -9,7 +9,6 @@ base_tax = 4
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = BAH
 add_core = AHM
 discovered_by = indian
 discovered_by = nomad_group
@@ -17,4 +16,5 @@ muslimdiscovered_by = ottoman
 discovered_by = chinese
 extra_cost = 16
 center_of_trade = 2
+add_core = YDV
 fort_15th = yes

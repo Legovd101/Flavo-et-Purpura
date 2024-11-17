@@ -1,7 +1,6 @@
 # 2149 - Ningbo
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = UES
+controller = UES
 culture = wu
 religion = confucianism
 capital = "Ningbo"
@@ -15,3 +14,4 @@ discovered_by = chinese
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+add_core = UES

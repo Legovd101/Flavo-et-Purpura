@@ -1,7 +1,7 @@
 #4316 - Mansura
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = levantine_greek
 religion = sunni
 capital = "Mansura"
 trade_goods = grain

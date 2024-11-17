@@ -1,6 +1,6 @@
 #1018 - Izumo
-owner = AMA
-controller = AMA
+owner = KOR
+controller = KOR
 culture = japanese
 religion = shinto
 capital = "Matsue"
@@ -9,10 +9,10 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = AMA
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
+add_core = KOR
 fort_15th = yes

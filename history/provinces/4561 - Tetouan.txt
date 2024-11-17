@@ -1,7 +1,7 @@
 # Tetouan
 owner = GAE
 controller = GAE
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Tetouan"
 trade_goods = grain

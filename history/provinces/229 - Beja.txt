@@ -1,7 +1,7 @@
 #229 - Baixo Alentejo
 owner = BAE
 controller = BAE
-culture = portugese
+culture = baetican
 religion = catholic
 capital = "Beja"
 trade_goods = livestock

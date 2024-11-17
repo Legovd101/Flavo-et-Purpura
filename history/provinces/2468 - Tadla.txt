@@ -1,7 +1,7 @@
 # - Tadla
 owner = GAE
 controller = GAE
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Tadla"
 trade_goods = copper

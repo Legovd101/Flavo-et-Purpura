@@ -1,7 +1,7 @@
 #1853 - Kastoria
 owner = ATH
 controller = ATH
-culture = greek
+culture = rhoman
 religion = orthodox
 capital = "Kastoria"
 trade_goods = wine

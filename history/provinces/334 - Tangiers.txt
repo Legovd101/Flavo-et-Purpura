@@ -1,7 +1,7 @@
 #334 - Tangiers
 owner = SPA
 controller = SPA
-culture = moroccan
+culture = strait_greek
 religion = sunni
 capital = "Tangier"
 trade_goods = cloth

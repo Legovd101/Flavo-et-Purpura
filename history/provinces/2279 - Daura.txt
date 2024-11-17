@@ -1,7 +1,6 @@
 # No previous file for Daura
-owner = KTS
-controller = KTS
-add_core = KTS
+owner = KBO
+controller = KBO
 is_city = yes
 culture = hausa
 religion = sunni
@@ -14,3 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
+add_core = KBO

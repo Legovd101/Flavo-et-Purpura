@@ -1,7 +1,7 @@
 #217 - Madrid
 owner = GTC#Juan II of Castille
 controller = GTC
-culture = castillian
+culture = toledan
 religion = catholic
 base_tax = 5
 base_production = 5

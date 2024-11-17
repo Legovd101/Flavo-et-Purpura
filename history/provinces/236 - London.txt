@@ -2,7 +2,7 @@
 #Middlesex+Hertfordshire+Surrey+parts of Kent and Essex
 owner = BRY
 controller = BRY
-culture = english
+culture = londoner
 religion = catholic
 base_tax = 7
 base_production = 7

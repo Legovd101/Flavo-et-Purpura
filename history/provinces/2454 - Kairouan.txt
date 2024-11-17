@@ -1,7 +1,7 @@
 # - El Kef
 owner = NMD
 controller = NMD
-culture = tunisian
+culture = numidian
 religion = sunni
 capital = "El Kef"
 trade_goods = wool

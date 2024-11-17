@@ -1,7 +1,7 @@
 #124 - Messina
 owner = ZNG
 controller = ZNG
-culture = sicilian
+culture = sicilian_greek
 religion = catholic
 base_tax = 6
 base_production = 6

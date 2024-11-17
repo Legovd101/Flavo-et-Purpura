@@ -1,7 +1,6 @@
 #664 - Lingyun
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = DAI
+controller = DAI
 culture = zhuang
 religion = confucianism
 capital = "Lingyun"
@@ -14,3 +13,4 @@ add_core = CGS
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
+add_core = DAI

@@ -1,7 +1,7 @@
 #4308 - Denizli
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Denizli"
 trade_goods = cloth

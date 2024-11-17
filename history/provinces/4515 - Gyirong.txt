@@ -1,7 +1,6 @@
 #4515 - Gyirong
-owner = UTS
-controller = UTS
-add_core = UTS
+owner = LDK
+controller = LDK
 add_core = PHA
 culture = tibetan
 religion = vajrayana
@@ -14,3 +13,4 @@ is_city = yes
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
+add_core = LDK

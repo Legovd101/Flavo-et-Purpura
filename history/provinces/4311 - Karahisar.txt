@@ -1,7 +1,7 @@
 #4311 - Karahisar
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = rhoman
 religion = sunni
 capital = "Karahisar"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #228 - Beira
 owner = LUS
 controller = LUS
-culture = portugese
+culture = lusitanian
 religion = catholic
 capital = "Viseu"
 trade_goods = wine

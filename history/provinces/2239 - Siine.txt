@@ -1,7 +1,6 @@
 # No previous file for Siine
-owner = JOL
-controller = JOL
-add_core = JOL
+owner = KBU
+controller = KBU
 is_city = yes
 culture = senegambian
 religion = shamanism#Fetishism
@@ -14,3 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
+add_core = KBU

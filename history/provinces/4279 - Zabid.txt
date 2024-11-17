@@ -1,6 +1,6 @@
 #4279 - Zabid & Hudaydah
-owner = YEM
-controller = YEM
+owner = ADE
+controller = ADE
 culture = yemeni_culture
 religion = sunni
 capital = "Zabid"
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = YEM
+add_core = ADE
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

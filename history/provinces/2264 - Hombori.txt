@@ -1,7 +1,6 @@
 # 2264 - Hombori
-owner = YAT
-controller = YAT
-add_core = YAT
+owner = SON
+controller = SON
 is_city = yes
 culture = songhai#Dogon
 religion = shamanism#Fetishism
@@ -14,3 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
+add_core = SON

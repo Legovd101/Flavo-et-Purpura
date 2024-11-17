@@ -2,7 +2,7 @@
 #+part of Cambridgeshire
 owner = BRY
 controller = BRY
-culture = english
+culture = icenian
 religion = catholic
 base_tax = 6
 base_production = 6

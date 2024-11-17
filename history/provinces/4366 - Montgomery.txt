@@ -1,7 +1,7 @@
 #4366 - Montgomery + Radnor
 owner = IRE
 controller = IRE
-culture = welsh
+culture = wales_gaelic
 religion = catholic
 base_tax = 1
 base_production = 1

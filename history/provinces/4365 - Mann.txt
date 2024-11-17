@@ -1,7 +1,7 @@
 #4365 - Mann
 owner = IRE
 controller = IRE
-culture = highland_scottish
+culture = galovidian
 religion = catholic
 base_tax = 1
 base_production = 1

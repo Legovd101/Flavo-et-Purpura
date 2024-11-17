@@ -1,7 +1,6 @@
 #668 - Macau
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = NNG
+controller = NNG
 culture = cantonese
 religion = confucianism
 capital = "Macau"
@@ -18,3 +17,4 @@ discovered_by = ottoman
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+add_core = NNG

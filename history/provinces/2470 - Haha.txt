@@ -1,7 +1,7 @@
 #2470 - Haha
 owner = GAE
 controller = GAE
-culture = berber
+culture = gaetuli
 religion = sunni
 capital = "Mogador"
 trade_goods = grain

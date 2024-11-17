@@ -1,7 +1,6 @@
 #Haicheng
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = OIR
+controller = OIR
 culture = shandong_culture# check
 religion = confucianism
 capital = "Haicheng"
@@ -12,3 +11,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = OIR

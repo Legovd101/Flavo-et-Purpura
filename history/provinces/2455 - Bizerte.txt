@@ -1,7 +1,7 @@
 # - Bizerte
 owner = ZNG
 controller = ZNG
-culture = tunisian
+culture = zenata
 religion = sunni
 capital = "Bizerte"
 trade_goods = grain

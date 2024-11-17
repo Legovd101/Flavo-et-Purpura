@@ -1,7 +1,7 @@
 #Sabha
 owner = FZA
 controller = FZA
-culture = tunisian
+culture = garamantian
 religion = sunni
 capital = "Sabha"
 trade_goods = livestock

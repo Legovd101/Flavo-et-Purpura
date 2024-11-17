@@ -1,7 +1,6 @@
 # 2138 - Wuding
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = QIC
+controller = QIC
 culture = shandong_culture
 religion = confucianism
 capital = "Wuding"

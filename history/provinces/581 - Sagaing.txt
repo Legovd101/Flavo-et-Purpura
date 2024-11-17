@@ -1,6 +1,6 @@
 #581 - Sagaing
-owner = AVA
-controller = AVA
+owner = BPR
+controller = BPR
 culture = burmese
 religion = buddhism
 capital = "Sagaing"
@@ -9,6 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-add_core = AVA
 discovered_by = chinese
 discovered_by = indian
+add_core = BPR

@@ -1,7 +1,7 @@
 #326 - Ankara
 owner = BYZ
 controller = BYZ
-culture = turkish
+culture = roman_cappadocian
 religion = sunni
 capital = "Ankara"
 trade_goods = cloth

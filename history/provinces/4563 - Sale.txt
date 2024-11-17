@@ -1,7 +1,7 @@
 # - Sale
 owner = SPA
 controller = SPA
-culture = moroccan
+culture = gaetuli
 religion = sunni
 capital = "Sale"
 trade_goods = grain

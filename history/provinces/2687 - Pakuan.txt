@@ -1,7 +1,6 @@
 #2687 - Pakuan
-owner = SUN
-controller = SUN
-add_core = SUN
+owner = MSA
+controller = MSA
 culture = sundanese
 religion = hinduism
 capital = "Pakuan"
@@ -14,3 +13,4 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+add_core = MSA

@@ -1,7 +1,6 @@
 #1159 - Bagirmi
-owner = YAO
-controller = YAO
-add_core = YAO
+owner = KBO
+controller = KBO
 culture = bilala#bagirmi
 religion = shamanism#Fetishism
 capital = "Massenya"
@@ -11,3 +10,4 @@ trade_goods = ivory
 base_tax = 3
 base_production = 3
 discovered_by = sub_saharan
+add_core = KBO

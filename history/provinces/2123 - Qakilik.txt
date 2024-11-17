@@ -1,7 +1,6 @@
 # 2123 - Qakilik
-owner = CHG
-controller = CHG
-add_core = CHG
+owner = KRC
+controller = KRC
 culture = oirats
 religion = vajrayana
 capital = "Qakilik"
@@ -12,3 +11,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+add_core = KRC

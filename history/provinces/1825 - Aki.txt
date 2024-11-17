@@ -1,6 +1,6 @@
 #1825 - Aki
-owner = HSK
-controller = HSK
+owner = KOR
+controller = KOR
 culture = japanese
 religion = shinto
 capital = "Tomo"
@@ -9,10 +9,10 @@ base_tax = 4
 base_manpower = 3
 base_production = 4
 is_city = yes
-add_core = HSK
 add_core = MRI
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
+add_core = KOR

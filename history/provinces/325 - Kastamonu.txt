@@ -1,7 +1,7 @@
 #325 - Kastamonu
 owner = CND
 controller = CND
-culture = turkish
+culture = euxine
 religion = sunni
 capital = "Kastamonu"
 trade_goods = copper

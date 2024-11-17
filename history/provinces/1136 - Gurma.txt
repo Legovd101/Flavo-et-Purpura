@@ -1,7 +1,6 @@
 #1136 - Gurma
-owner = GUR
-controller = GUR
-add_core = GUR
+owner = WGD
+controller = WGD
 is_city = yes
 culture = mossi#mossi
 religion = shamanism#Fetishism
@@ -14,3 +13,4 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 discovered_by = sub_saharan
+add_core = WGD
