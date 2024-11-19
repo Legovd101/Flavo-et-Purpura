@@ -1,7 +1,7 @@
 #4394 - Sulimaniyeh
 owner = SYR
 controller = SYR
-culture = kurdish
+culture = lullubi
 religion = sunni
 capital = "Sulimaniyeh"
 trade_goods = wool

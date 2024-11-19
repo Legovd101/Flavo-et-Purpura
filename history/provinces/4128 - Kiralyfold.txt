@@ -1,7 +1,7 @@
 #1951 - Hunyad
 owner = BLU
 controller = BLU
-culture = transylvanian#Transylvanian Saxons
+culture = avar#Transylvanian Saxons
 religion = catholic
 capital = "Sibiu"
 trade_goods = cloth

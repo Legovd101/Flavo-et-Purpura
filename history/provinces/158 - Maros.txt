@@ -1,7 +1,7 @@
 #158 - Maros
 owner = BLU
 controller = BLU
-culture = transylvanian#Szeklers
+culture = avar#Szeklers
 religion = catholic
 capital = "Targu Mures"
 trade_goods = wool

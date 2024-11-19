@@ -1,7 +1,7 @@
 #4335 - Kashan
 owner = ILK
 controller = ILK
-culture = persian
+culture = isfahani
 religion = shiite
 capital = "Kashan"
 trade_goods = silk

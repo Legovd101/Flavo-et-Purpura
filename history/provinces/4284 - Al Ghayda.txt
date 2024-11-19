@@ -1,7 +1,7 @@
 #4284 - Al Gaydah
 owner = HDR
 controller = HDR
-culture = mahri_culture
+culture = yemeni
 religion = sunni
 capital = "Al Ghaydah"
 trade_goods = fish

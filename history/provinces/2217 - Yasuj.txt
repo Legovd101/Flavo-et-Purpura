@@ -1,7 +1,7 @@
 #2217 - Yasuj
 owner = UZI
 controller = UZI
-culture = luri
+culture = persian_babylonian
 religion = shiite
 capital = "Yasuj"
 trade_goods = cloth

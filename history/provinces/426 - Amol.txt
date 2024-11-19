@@ -1,7 +1,7 @@
 #426 - Amol
 owner = SRV
 controller = SRV
-culture = mazandarani
+culture = persian_caspian
 religion = shiite
 capital = "Amol"
 trade_goods = silk

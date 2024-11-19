@@ -1,7 +1,7 @@
 #2340 - Grane
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = lakhmid
 religion = sunni
 capital = "Grane"#old name for Kuwait
 trade_goods = fish

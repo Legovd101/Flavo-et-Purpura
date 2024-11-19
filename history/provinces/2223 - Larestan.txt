@@ -1,7 +1,7 @@
 #2223 - Larestan
 owner = FRS
 controller = FRS
-culture = persian
+culture = farsi
 religion = sunni
 capital = "Lar"
 trade_goods = iron

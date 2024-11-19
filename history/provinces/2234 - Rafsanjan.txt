@@ -1,7 +1,7 @@
 #2234 - Rafsanjan
 owner = ISF
 controller = ISF
-culture = persian
+culture = farsi
 religion = sunni
 capital = "Rafsanjan"
 trade_goods = copper

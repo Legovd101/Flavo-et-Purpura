@@ -1,7 +1,7 @@
 #162 - Zemplén
 owner = AVR
 controller = AVR
-culture = slovak
+culture = avar
 religion = catholic
 capital = "Kassa"
 trade_goods = grain

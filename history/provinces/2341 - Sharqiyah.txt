@@ -1,7 +1,7 @@
 #2341 - Sharqiyah
 owner = OMA
 controller = OMA
-culture = omani_culture
+culture = old_omani
 religion = ibadi
 capital = "Masirah"
 trade_goods = copper

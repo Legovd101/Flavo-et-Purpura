@@ -1,7 +1,7 @@
 #4306 - Lakia
 owner = KHZ
 controller = KHZ
-culture = dagestani
+culture = khazar
 religion = sunni
 capital = "Kumukh"
 trade_goods = iron

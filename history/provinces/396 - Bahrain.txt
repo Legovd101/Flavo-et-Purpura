@@ -1,7 +1,7 @@
 #396 - Bahrain
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = lakhmid
 religion = shiite
 capital = "Manama"
 trade_goods = gems#Pearls

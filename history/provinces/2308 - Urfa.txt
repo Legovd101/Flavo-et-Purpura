@@ -1,7 +1,7 @@
 #2308 - Urfa
 owner = LIV
 controller = LIV
-culture = kurdish
+culture = syriac
 religion = sunni
 capital = "Urfa"
 trade_goods = wool

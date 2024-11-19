@@ -1,7 +1,7 @@
 #432 - Kerman
 owner = ISF
 controller = ISF
-culture = persian
+culture = isfahani
 religion = sunni
 capital = "Kerman"
 trade_goods = paper

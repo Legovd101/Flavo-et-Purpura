@@ -1,4 +1,6 @@
 ﻿l_english:
+ latin: "Latinic"
+ georgian: "Kartli"
  NAV: "Waskonia"
  NAV_ADJ: "Vasconian"
  ASU: "Asturik"
@@ -84,3 +86,7 @@
  ISF_ADJ: "Spahanish"
  MLO: "Como"
  MLO_ADJ: "Coman"
+ CYP: "Ziprogh"
+ CYP_ADJ: "Ziprogha"
+ ARD: "Kordyene"
+ ARD_ADJ: "Kordi"

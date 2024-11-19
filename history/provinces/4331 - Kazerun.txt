@@ -1,7 +1,7 @@
 #4331 - Kazerun
 owner = UZI
 controller = UZI
-culture = luri
+culture = farsi
 religion = sunni
 capital = "Kazerun"
 trade_goods = wine#and cotton and Dates

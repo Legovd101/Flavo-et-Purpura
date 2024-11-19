@@ -1,7 +1,7 @@
 # - Buzau
 owner = BLU
 controller = BLU
-culture = romanian
+culture = early_romylian
 religion = orthodox
 capital = "Buzau"
 trade_goods = livestock

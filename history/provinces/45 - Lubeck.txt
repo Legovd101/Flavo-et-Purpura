@@ -1,7 +1,7 @@
 #45 - Lübeck
 owner = ENG
 controller = ENG
-culture = lower_saxon
+culture = angle
 religion = catholic
 hre = yes
 base_tax = 7

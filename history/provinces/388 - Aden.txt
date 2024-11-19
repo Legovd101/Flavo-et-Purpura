@@ -1,7 +1,7 @@
 #388 - Aden
 owner = HDR#Tahirids
 controller = HDR#Tahirids
-culture = yemeni_culture
+culture = yemeni
 religion = sunni
 capital = "Aden"
 trade_goods = incense

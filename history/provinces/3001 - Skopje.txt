@@ -1,7 +1,7 @@
 # - Skopje
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = greco_romanian
 religion = orthodox
 capital = "Skopje"
 trade_goods = copper

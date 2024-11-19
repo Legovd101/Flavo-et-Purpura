@@ -1,7 +1,7 @@
 #2031 - Tarki
 owner = KHZ
 controller = KHZ
-culture = dagestani
+culture = khazar
 religion = sunni
 capital = "Tarku"
 trade_goods = fish

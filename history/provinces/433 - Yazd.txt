@@ -1,7 +1,7 @@
 #433 - Yadz
 owner = ISF
 controller = ISF
-culture = persian
+culture = isfahani
 religion = zoroastrian
 capital = "Yazd"
 trade_goods = paper

@@ -1,7 +1,7 @@
 #4337 - Savah
 owner = MDY
 controller = MDY
-culture = persian
+culture = isfahani
 religion = sunni
 capital = "Savah"
 trade_goods = grain

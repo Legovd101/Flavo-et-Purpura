@@ -1,7 +1,7 @@
 #1765 - Sofia
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = early_romylian
 religion = orthodox
 capital = "Sofia"
 trade_goods = iron

@@ -1,7 +1,7 @@
 #2215 - Qazvin
 owner = MDY
 controller = MDY
-culture = azerbaijani
+culture = persian_caspian
 religion = sunni
 capital = "Qazvin"
 trade_goods = silk

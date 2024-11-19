@@ -1,7 +1,7 @@
 #394 - El Catif
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = lakhmid
 religion = shiite
 capital = "Al-Qatif"
 trade_goods = fish

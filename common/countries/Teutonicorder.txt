@@ -1,13 +1,9 @@
 #Teutonic Order
-
 graphical_culture = westerngfx
-
 color = { 105 192 123 }
-revolutionary_colors = { 1  0  1 }
-
+revolutionary_colors = { 1 0 1 }
 historical_score = 50
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	religious_ideas
 	defensive_ideas
 	offensive_ideas
@@ -17,8 +13,7 @@ historical_idea_groups = {
 	spy_ideas
 	diplomatic_ideas
 }
-
-historical_units = {
+historical_units = { 
 	western_medieval_infantry
 	western_medieval_knights
 	western_men_at_arms
@@ -34,8 +29,7 @@ historical_units = {
 	napoleonic_square
 	napoleonic_lancers
 }
-
-monarch_names = {
+monarch_names = { 
 	"Heinrich #4" = 70
 	"Konrad #4" = 40
 	"Albrecht #0" = 20
@@ -76,50 +70,30 @@ monarch_names = {
 	"Pankraz #0" = 0
 	"Rudolf #0" = 0
 	"Theodor #0" = 0
-	
 	"Maria #0" = -1
 	"Magdalena #0" = -1
 	"Eva #0" = -1
 }
-
-leader_names = {
-	"von Aderkas" "von Albedyll" "von Altenburg" "von Ampringen" "von Arfberg" 
-	"von Bassenheim" "von Bobenhausen" "von Bremen" "von Buchholtz" "von Buxhoeveden"
-	"von Campenhausen" "von Cronberg" "von Cube"
-	"von Dellinghausen" "von Drachenfels"
-	"von Ekesparre" "von Erlichshausen"
-	"von Freymann" "Freytag von Loringhoven"
-	"von Hehn" "von Helbrungen" "von Hohenzollern" "von Howen" "von Hunnius" "von Hoyningen" 
-	"von Jungingen"
-	"von Keyserling" "von Koskull" "von Kniprode" "von Klot-Heydenfeldt" "von Krusenstiern"
-	"von Lilienfeld"
-	"von Patkul" "von Poll"
-	"von Rennenkampff" "von Rothstein" "von Ruszdorf" "von Richtenberg" "von Roth-Rösthof"
-	"von Sass" "von Schubert" "von Sangershausen" "von Schwanden"
-	"von Tieffen"
-	"von Uexküll" "von Ungern-Sternberg" "von Urenbach"
-	"von Wrangel" "von Wistinghausen" "von Wattzau" "von Wallenrode"
+leader_names = { 
+	"von Aderkas" "von Albedyll" "von Altenburg" "von Ampringen" "von Arfberg" "von Bassenheim" "von Bobenhausen" "von Bremen" "von Buchholtz" "von Buxhoeveden"
+	"von Campenhausen" "von Cronberg" "von Cube" "von Dellinghausen" "von Drachenfels" "von Ekesparre" "von Erlichshausen" "von Freymann" "Freytag von Loringhoven" "von Hehn"
+	"von Helbrungen" "von Hohenzollern" "von Howen" "von Hunnius" "von Hoyningen" "von Jungingen" "von Keyserling" "von Koskull" "von Kniprode" "von Klot-Heydenfeldt"
+	"von Krusenstiern" "von Lilienfeld" "von Patkul" "von Poll" "von Rennenkampff" "von Rothstein" "von Ruszdorf" "von Richtenberg" "von Roth-Rösthof" "von Sass"
+	"von Schubert" "von Sangershausen" "von Schwanden" "von Tieffen" "von Uexküll" "von Ungern-Sternberg" "von Urenbach" "von Wrangel" "von Wistinghausen" "von Wattzau"
+	"von Wallenrode" 
 }
-
-ship_names = {
+ship_names = { 
 	Danzig
 	Elbing
 	Gottersweder
 	Königsberg
-	Marienburg Mittenburg Mitau
-	Thorn
+	Marienburg Mittenburg Mitau Thorn
 	Windau
 	Goldingen
-	"von Bassenheim" "Otto von Kerpen" "Heinrich von Tunna" "Hermann von Salza" "Konrad von Thüringen"
-	"Gerhard von Malberg" "von Hohenlohe" "von Wüllersleben" "Poppo von Osterna"
-	"von Sangershausen" "von Heldrungen" "Burkhard von Schwanden" "von Feuchtwangen"
-	"von Trier" "Werner von Orseln" "von Braunschweig" "Dietrich von Altenburg" "von Wattzau"
-	"von Arfberg" "Winrich von Kniprode" "von Rotenstein" "von Wallenrode" "Konrad V von Jungingen"
-	"Ulrich von Jungingen" "Heinrich von Plauen" "von Sternberg" "von Wetzhausen"
-	"Johann von Tiefen" "Walter von Cronberg"
+	"von Bassenheim" "Otto von Kerpen" "Heinrich von Tunna" "Hermann von Salza" "Konrad von Thüringen" "Gerhard von Malberg" "von Hohenlohe" "von Wüllersleben" "Poppo von Osterna" "von Sangershausen"
+	"von Heldrungen" "Burkhard von Schwanden" "von Feuchtwangen" "von Trier" "Werner von Orseln" "von Braunschweig" "Dietrich von Altenburg" "von Wattzau" "von Arfberg" "Winrich von Kniprode"
+	"von Rotenstein" "von Wallenrode" "Konrad V von Jungingen" "Ulrich von Jungingen" "Heinrich von Plauen" "von Sternberg" "von Wetzhausen" "Johann von Tiefen" "Walter von Cronberg" 
 }
-
-
-army_names = {
-	"Banner"
+army_names = { 
+	"Banner" 
 }

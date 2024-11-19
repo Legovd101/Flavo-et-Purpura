@@ -1,7 +1,7 @@
 #268 - Moldavia
 owner = BLU
 controller = BLU
-culture = romanian
+culture = hungarian
 religion = orthodox
 base_tax = 5
 base_production = 4

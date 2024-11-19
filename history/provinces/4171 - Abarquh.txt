@@ -1,7 +1,7 @@
 #4171 - Abarquh
 owner = ISF
 controller = ISF
-culture = persian
+culture = isfahani
 religion = sunni
 capital = "Abarquh"
 trade_goods = livestock#known for its pastures for Timurid armies

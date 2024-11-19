@@ -1,7 +1,7 @@
 #418 - Diyarbakir
 owner = KAR
 controller = KAR
-culture = kurdish
+culture = syriac
 religion = sunni
 capital = "Diyar Bekir"
 trade_goods = livestock

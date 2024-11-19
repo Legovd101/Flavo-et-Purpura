@@ -1,7 +1,7 @@
 #2224 - Ferah
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Ferah"
 trade_goods = livestock

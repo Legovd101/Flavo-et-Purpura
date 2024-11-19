@@ -1,7 +1,7 @@
 #1954 - Torontál
 owner = BLU
 controller = BLU
-culture = hungarian
+culture = early_romylian
 religion = catholic
 capital = "Nagybecskerek"
 trade_goods = livestock

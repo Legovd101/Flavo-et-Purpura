@@ -1,7 +1,7 @@
 #253 - Western Isles
 owner = LOI
 controller = LOI
-culture = highland_scottish
+culture = viking_islander
 religion = catholic
 base_tax = 1
 base_production = 1

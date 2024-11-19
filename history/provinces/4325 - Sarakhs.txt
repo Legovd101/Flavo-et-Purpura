@@ -1,7 +1,7 @@
 #4325 - Sarakhs
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Sarakhs"
 trade_goods = wool

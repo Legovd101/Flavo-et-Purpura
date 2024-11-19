@@ -1,7 +1,7 @@
 #4340 - Astara
 owner = SRV
 controller = SRV
-culture = azerbaijani
+culture = persian_caspian
 religion = shiite
 capital = "Astara"
 trade_goods = fish

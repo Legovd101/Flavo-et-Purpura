@@ -1,7 +1,7 @@
 #2314 - Rahba
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = persian_assyrian
 religion = sunni
 capital = "Deir ez-Zor"
 trade_goods = grain

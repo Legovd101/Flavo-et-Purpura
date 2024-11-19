@@ -1,7 +1,7 @@
 #437 - Atak
 owner = ILK
 controller = ILK
-culture = turkmeni
+culture = margianan
 religion = sunni
 capital = "Nisa"
 trade_goods = livestock

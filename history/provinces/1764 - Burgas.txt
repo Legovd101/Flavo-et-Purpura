@@ -1,7 +1,7 @@
 #1764 - Burgas
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = early_romylian
 religion = orthodox
 capital = "Burgas"
 trade_goods = salt

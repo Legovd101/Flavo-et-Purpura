@@ -1,7 +1,7 @@
 #391 - Najran
 owner = HED
 controller = HED
-culture = yemeni_culture
+culture = yemeni
 religion = shiite
 capital = "Najran"
 trade_goods = cloth

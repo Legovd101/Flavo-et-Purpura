@@ -1,7 +1,7 @@
 #397 - Abu Dhabi
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = old_omani
 religion = shiite
 capital = "Abu Dhabi"
 trade_goods = livestock#Pearls

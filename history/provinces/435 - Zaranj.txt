@@ -1,7 +1,7 @@
 #435 - Sistan
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Zaranj"
 trade_goods = wool

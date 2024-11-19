@@ -9,7 +9,7 @@ capital = 510#Sirhind
 	monarch = { 
 		name = "Bahlûl"
 		dynasty = "Lodi"
-		culture = afghani
+		culture = sogdian
 		religion = sunni
 		ADM = 4
 		DIP = 5
@@ -33,7 +33,7 @@ capital = 510#Sirhind
 		ADM = 1
 		DIP = 3
 		MIL = 2
-		culture = afghani
+		culture = sogdian
 	}
 	religion = sunni
 	religious_school = hanafi_school

@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = TIB
-controller = TIB
+owner = CHG
+controller = CHG
 culture = kirgiz
 religion = sunni
 capital = "Uzkend"
@@ -20,4 +20,4 @@ discovered_by = nomad_group
 discovered_by = CHG
 discovered_by = OIR
 discovered_by = KAS
-add_core = TIB
+add_core = CHG

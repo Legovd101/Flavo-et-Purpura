@@ -1,7 +1,7 @@
 #384 - Medina
 owner = HED
 controller = HED
-culture = hejazi_culture
+culture = ghassanid
 religion = sunni
 capital = "Medina"
 trade_goods = cloth

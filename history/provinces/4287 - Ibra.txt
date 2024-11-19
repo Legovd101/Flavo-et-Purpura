@@ -1,7 +1,7 @@
 #4287 - Ibra
 owner = OMA
 controller = OMA
-culture = omani_culture
+culture = old_omani
 religion = ibadi
 capital = "Ibra"
 trade_goods = grain

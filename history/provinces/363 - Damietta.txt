@@ -1,7 +1,7 @@
 #363 - Diamientia
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = perso_egyptian
 religion = sunni
 capital = "Dumyat"
 trade_goods = grain#Rice

@@ -1,7 +1,7 @@
 #2211 - Ardalan
 owner = SYR
 controller = SYR
-culture = kurdish
+culture = persian_assyrian
 religion = sunni
 capital = "Sanandaj"
 trade_goods = cloth

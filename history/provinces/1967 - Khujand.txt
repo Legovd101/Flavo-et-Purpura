@@ -1,7 +1,7 @@
 #1967 - Khujand
 owner = TRS
 controller = TRS
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Khujand"
 trade_goods = silk

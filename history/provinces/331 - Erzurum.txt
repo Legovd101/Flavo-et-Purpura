@@ -1,7 +1,7 @@
 #331 - Erserum
 owner = GEO
 controller = GEO
-culture = armenian
+culture = laz
 religion = coptic
 capital = "Erzurum"
 trade_goods = livestock

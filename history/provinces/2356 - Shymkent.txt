@@ -1,7 +1,7 @@
 # 2356 - Shymkent
 owner = CHG
 controller = CHG
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Shymkent"
 trade_goods = tea

@@ -1,7 +1,7 @@
 #2035 - Urmia
 owner = SYR
 controller = SYR
-culture = kurdish
+culture = gutian
 religion = sunni
 capital = "Urmiyeh"
 trade_goods = wine

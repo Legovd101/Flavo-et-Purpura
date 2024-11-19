@@ -4,7 +4,7 @@ latent_trade_goods = {
 }
 owner = SRV
 controller = SRV
-culture = mazandarani
+culture = persian_caspian
 religion = shiite
 capital = "Lahijan"
 trade_goods = silk

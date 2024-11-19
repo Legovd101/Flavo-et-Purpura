@@ -1,7 +1,7 @@
 #2198 - Khundzia
 owner = GLH
 controller = GLH
-culture = dagestani
+culture = khazar
 religion = sunni
 capital = "Khunzah"
 trade_goods = livestock

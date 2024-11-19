@@ -1,7 +1,7 @@
 #4326 - Nishapur
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Nishapur"
 trade_goods = gems#Turquoise

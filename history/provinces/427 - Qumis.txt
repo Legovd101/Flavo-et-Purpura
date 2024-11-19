@@ -1,7 +1,7 @@
 #427 - Qumis
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Damghan"
 trade_goods = wool

@@ -1,7 +1,7 @@
 #161 - Tîrgoviste
 owner = BLU
 controller = BLU
-culture = romanian
+culture = greco_romanian
 religion = orthodox
 capital = "Tîrgoviste"
 trade_goods = livestock

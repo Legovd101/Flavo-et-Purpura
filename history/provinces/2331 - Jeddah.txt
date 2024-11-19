@@ -1,7 +1,7 @@
 #2331 - Jeddah
 owner = HED
 controller = HED
-culture = hejazi_culture
+culture = muslim
 religion = sunni
 capital = "Jiddah"
 trade_goods = incense

@@ -1,7 +1,7 @@
 #4327 - Jask
 owner = ILK
 controller = ILK
-culture = gulf_arabic
+culture = arachoisan
 religion = sunni
 capital = "Jask"
 trade_goods = fish

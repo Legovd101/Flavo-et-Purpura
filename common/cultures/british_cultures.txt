@@ -8,6 +8,10 @@ briton = {
 	}
 	icenian = {
 	}
+	durotrigian = {
+	}
+	brigantian = {
+	}
 	dynasty_names = { 
 		Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
 		#CK2

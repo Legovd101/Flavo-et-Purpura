@@ -1,7 +1,7 @@
 #401 - Dhofar
 owner = MHR
 controller = MHR
-culture = mahri_culture
+culture = old_mahri
 religion = sunni
 capital = "Salalah"
 trade_goods = incense

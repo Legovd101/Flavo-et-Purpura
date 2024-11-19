@@ -1,7 +1,7 @@
 #413 - Lorestan
 owner = MDY
 controller = MDY
-culture = luri
+culture = persian_assyrian
 religion = shiite
 capital = "Khorramabad"
 trade_goods = grain

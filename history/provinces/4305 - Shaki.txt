@@ -1,7 +1,7 @@
 #4305 - Shakhi
 owner = GEO
 controller = GEO
-culture = azerbaijani
+culture = cauc_albanian
 religion = sunni
 capital = "Shaki"
 trade_goods = wool

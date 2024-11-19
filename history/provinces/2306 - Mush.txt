@@ -1,7 +1,7 @@
 #2306 - Mush
 owner = GEO
 controller = GEO
-culture = armenian
+culture = laz
 religion = coptic
 capital = "Mus"
 trade_goods = wool

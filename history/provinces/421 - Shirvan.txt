@@ -1,7 +1,7 @@
 #421 - Shirvan
 owner = SRV
 controller = SRV
-culture = azerbaijani
+culture = persian_caspian
 religion = sunni
 capital = "Baku"
 trade_goods = silk#And Salt and Petroleum

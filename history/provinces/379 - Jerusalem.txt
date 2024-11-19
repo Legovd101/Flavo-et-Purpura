@@ -1,7 +1,7 @@
 #379 - Judea
 owner = PER
 controller = PER
-culture = al_suryah_arabic
+culture = perso_levantine
 religion = sunni
 capital = "Al Quds"
 trade_goods = grain

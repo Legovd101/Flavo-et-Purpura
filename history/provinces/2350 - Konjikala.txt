@@ -1,7 +1,7 @@
 # 2350 - Konjikala
 owner = ILK
 controller = ILK
-culture = turkmeni
+culture = margianan
 religion = sunni
 capital = "Konjikala"
 trade_goods = copper

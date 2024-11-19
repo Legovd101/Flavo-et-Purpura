@@ -1,7 +1,7 @@
 #442 - Bukhara
 owner = ILK
 controller = ILK
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Bukhara"
 trade_goods = salt

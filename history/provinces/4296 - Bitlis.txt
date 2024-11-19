@@ -1,7 +1,7 @@
 #4396 - Bitlis and Hakkari
 owner = SYR
 controller = SYR
-culture = kurdish
+culture = carduchoi
 religion = sunni
 capital = "Bitlis"
 trade_goods = wool

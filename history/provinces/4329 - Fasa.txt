@@ -1,7 +1,7 @@
 #4329 - Fasa and Jahrum
 owner = UZI
 controller = UZI
-culture = persian
+culture = farsi
 religion = sunni
 capital = "Fasa"
 trade_goods = silk#And Paper in Jahrum

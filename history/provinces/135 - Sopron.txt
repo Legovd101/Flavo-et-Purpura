@@ -1,7 +1,7 @@
 #135 - Sopron (Sopron + Vas + Moson + Zala)
 owner = CLI
 controller = CLI
-culture = hungarian
+culture = avar
 religion = catholic
 capital = "Sopron"
 trade_goods = grain

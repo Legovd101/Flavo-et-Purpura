@@ -1,7 +1,7 @@
 #2218 - Shiraz
 owner = UZI
 controller = UZI
-culture = persian
+culture = farsi
 religion = shiite
 capital = "Shiraz"
 trade_goods = wine#and Glass

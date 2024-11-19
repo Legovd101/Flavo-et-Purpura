@@ -1,7 +1,7 @@
 #4391 - Qazaniya
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = persian_assyrian
 religion = sunni
 capital = "Qazaniya"
 trade_goods = cotton

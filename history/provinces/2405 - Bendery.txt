@@ -1,7 +1,7 @@
 #2405 - Bender
 owner = KIE
 controller = KIE
-culture = romanian
+culture = hungarian
 religion = orthodox
 capital = "Bender"
 trade_goods = wine

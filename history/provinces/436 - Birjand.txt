@@ -1,7 +1,7 @@
 #436 - Birjand
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Birjand"
 trade_goods = cotton

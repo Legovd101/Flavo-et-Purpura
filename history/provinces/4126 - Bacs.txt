@@ -1,7 +1,7 @@
 #4126 - Bács (Bacs + Bodrog + parts of Csongrad and Kiskunság)
 owner = BLU
 controller = BLU
-culture = hungarian
+culture = early_romylian
 religion = catholic
 capital = "Bács"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #1973 - Urgench
 owner = GLH
 controller = GLH
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Urgench"
 trade_goods = grain

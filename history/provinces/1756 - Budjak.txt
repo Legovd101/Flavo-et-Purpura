@@ -1,7 +1,7 @@
 #1756 - Budjak
 owner = GLH
 controller = GLH
-culture = romanian
+culture = hungarian
 religion = orthodox
 base_tax = 5
 base_production = 4

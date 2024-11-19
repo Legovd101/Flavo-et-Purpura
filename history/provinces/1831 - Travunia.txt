@@ -1,7 +1,7 @@
 #1831 - Travunia # now Herzegovina
 owner = MON
 controller = MON
-culture = bosnian
+culture = dalmatian
 religion = orthodox
 capital = "Herceg Novi"
 trade_goods = wool

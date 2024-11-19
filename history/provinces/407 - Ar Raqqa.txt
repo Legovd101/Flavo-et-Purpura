@@ -1,7 +1,7 @@
 #407 - Ar-Raqqah
 owner = LKH
 controller = LKH
-culture = al_suryah_arabic
+culture = perso_levantine
 religion = sunni
 capital = "Ar Rakkah"
 trade_goods = livestock

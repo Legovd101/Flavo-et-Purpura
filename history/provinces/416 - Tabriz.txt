@@ -1,7 +1,7 @@
 #416 - Azerbaijan
 owner = SYR
 controller = SYR
-culture = azerbaijani
+culture = cyrtian
 religion = shiite
 capital = "Tabriz"
 trade_goods = silk

@@ -1,7 +1,7 @@
 #365 - Aqaba
 owner = ANZ
 controller = ANZ
-culture = bedouin_arabic
+culture = perso_levantine
 religion = sunni
 capital = "Aqaba"
 trade_goods = fish

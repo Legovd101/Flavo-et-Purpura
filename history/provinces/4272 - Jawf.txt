@@ -1,7 +1,7 @@
 #4172 - Jawf
 owner = ANZ
 controller = ANZ
-culture = bedouin_arabic
+culture = ghassanid
 religion = sunni
 capital = "Karah"
 trade_goods = livestock

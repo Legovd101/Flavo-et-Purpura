@@ -1,7 +1,7 @@
 #3002 - Southern part of Vrhbosna + some lands in modern Serbia
 owner = BLU# Part of the Bosnian kingdom
 controller = BLU
-culture = bosnian
+culture = early_romylian
 religion = orthodox
 capital = "Visoki"
 trade_goods = grain

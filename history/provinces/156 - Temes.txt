@@ -1,7 +1,7 @@
 #156 - Temes
 owner = BLU
 controller = BLU
-culture = transylvanian
+culture = early_romylian
 religion = catholic
 capital = "Temesvár"
 trade_goods = wool

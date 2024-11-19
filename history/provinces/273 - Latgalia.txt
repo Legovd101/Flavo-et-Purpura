@@ -1,6 +1,6 @@
 #273 - Latgalia / Inflanty Duchy
-owner = LVA
-controller = LVA
+owner = LIT
+controller = LIT
 culture = latvian
 religion = catholic
 capital = "Dünaburg"
@@ -16,5 +16,5 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-add_core = LVA
+add_core = LIT
 fort_15th = yes

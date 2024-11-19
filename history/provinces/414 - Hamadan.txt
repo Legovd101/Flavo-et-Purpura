@@ -1,7 +1,7 @@
 #414 - Hamadan
 owner = MDY
 controller = MDY
-culture = luri
+culture = persian_assyrian
 religion = sunni
 capital = "Hamedan"
 trade_goods = cloth

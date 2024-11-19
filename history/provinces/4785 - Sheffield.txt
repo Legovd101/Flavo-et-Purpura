@@ -1,7 +1,7 @@
 #4785 - Yorkshire - South Riding
 owner = IRE
 controller = IRE
-culture = english
+culture = brigantian
 religion = catholic
 base_tax = 2
 base_production = 2

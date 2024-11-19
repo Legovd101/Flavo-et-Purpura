@@ -1,7 +1,7 @@
 #2345 - Beihan
 owner = RAS#Tahirids
 controller = RAS#Tahirids
-culture = yemeni_culture
+culture = yemeni
 religion = shiite
 capital = "Beihan"
 trade_goods = livestock

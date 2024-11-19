@@ -1,7 +1,7 @@
 #4303 - Oltu
 owner = GEO
 controller = GEO
-culture = georgian
+culture = laz
 religion = orthodox
 capital = "Oltu"
 trade_goods = livestock

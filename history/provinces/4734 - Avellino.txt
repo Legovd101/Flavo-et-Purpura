@@ -1,7 +1,7 @@
 # 4734 - Avellino
 owner = BUL
 controller = BUL
-culture = neapolitan
+culture = molisian
 religion = catholic
 base_tax = 4
 base_production = 4

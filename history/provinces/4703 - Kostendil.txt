@@ -1,6 +1,6 @@
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = greco_romanian
 religion = orthodox
 capital = "Kostendil"
 trade_goods = copper

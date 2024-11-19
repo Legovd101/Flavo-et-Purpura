@@ -1,7 +1,7 @@
 #107 - Brescia
-owner = VEN# From 1426
-controller = VEN
-culture = lombard
+owner = PDV# From 1426
+controller = PDV
+culture = alpine
 religion = catholic
 hre = yes
 base_tax = 5
@@ -14,5 +14,5 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = VEN
+add_core = PDV
 fort_15th = yes

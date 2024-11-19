@@ -1,7 +1,7 @@
 #1875 - Cuneo (can't change filename)
 owner = SAV
 controller = SAV
-culture = piedmontese
+culture = alpine
 religion = catholic
 hre = yes
 base_tax = 4

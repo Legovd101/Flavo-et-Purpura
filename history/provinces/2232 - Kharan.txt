@@ -1,7 +1,7 @@
 #2232 - Kharan
 owner = BAL
 controller = BAL
-culture = baluchi
+culture = arachoisan
 religion = sunni
 capital = "Kharan"
 trade_goods = livestock

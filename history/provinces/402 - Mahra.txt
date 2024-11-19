@@ -1,7 +1,7 @@
 #402 - Qishn
 owner = HDR
 controller = HDR
-culture = mahri_culture
+culture = yemeni
 religion = sunni
 capital = "Qishn"
 trade_goods = incense

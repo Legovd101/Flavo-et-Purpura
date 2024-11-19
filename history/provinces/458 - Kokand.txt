@@ -1,7 +1,7 @@
 #458 - Kokand
 owner = KOK
 controller = KOK
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Kokand"
 trade_goods = iron

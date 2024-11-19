@@ -1,7 +1,7 @@
 #205 - Savoie
 owner = BUR
 controller = BUR
-culture = occitain
+culture = burgundii
 religion = catholic
 hre = yes
 base_tax = 6

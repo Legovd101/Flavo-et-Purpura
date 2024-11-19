@@ -1,7 +1,7 @@
 #4240 - Fejér (Fejér + Veszprém + Györ + parts of Komárom)
 owner = BLU
 controller = BLU
-culture = hungarian
+culture = avar
 religion = catholic
 capital = "Fehérvár"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #2209 - Ilam
 owner = LKH
 controller = LKH
-culture = kurdish
+culture = persian_assyrian
 religion = shiite
 capital = "Ilam"
 trade_goods = wool

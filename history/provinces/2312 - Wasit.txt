@@ -1,7 +1,7 @@
 #2312 - Wasit
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = persian_babylonian
 religion = sunni
 capital = "Wasit"
 trade_goods = grain

@@ -1,7 +1,7 @@
 #1857 - Lauenburg
 owner = ENG
 controller = ENG
-culture = lower_saxon
+culture = angle
 religion = catholic
 capital = "Lauenburg"
 trade_goods = salt

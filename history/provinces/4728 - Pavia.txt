@@ -1,7 +1,7 @@
 # 4728 - Pavia
 owner = SAV
 controller = SAV
-culture = lombard
+culture = alpine
 religion = catholic
 hre = yes
 base_tax = 6

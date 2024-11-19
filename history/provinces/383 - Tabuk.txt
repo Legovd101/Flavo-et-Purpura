@@ -1,7 +1,7 @@
 #383 - Tabouk
 owner = ANZ
 controller = ANZ
-culture = bedouin_arabic
+culture = ghassanid
 religion = sunni
 capital = "Tabuk"
 trade_goods = livestock

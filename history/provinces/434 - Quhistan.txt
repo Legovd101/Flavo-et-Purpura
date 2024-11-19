@@ -1,7 +1,7 @@
 #434 - Quhistan
 owner = BAL
 controller = BAL
-culture = baluchi
+culture = arachoisan
 religion = sunni
 capital = "Bampur"
 trade_goods = livestock

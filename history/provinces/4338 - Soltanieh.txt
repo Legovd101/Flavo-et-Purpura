@@ -1,7 +1,7 @@
 #4338 - Soltanieh & Abhar
 owner = MDY
 controller = MDY
-culture = azerbaijani
+culture = persian_caspian
 religion = sunni
 capital = "Soltanieh"
 trade_goods = wine#Grapes and Fruits

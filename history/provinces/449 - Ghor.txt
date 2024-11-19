@@ -1,7 +1,7 @@
 #449 - Ghor
 owner = ILK
 controller = ILK
-culture = afghani
+culture = margianan
 religion = sunni
 capital = "Ahangaran"
 trade_goods = wool

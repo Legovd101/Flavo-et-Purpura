@@ -1,7 +1,7 @@
 #395 - Qatar
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = lakhmid
 religion = shiite
 capital = "Qatar"
 trade_goods = gems

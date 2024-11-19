@@ -1,7 +1,7 @@
 #425 - Dagestan
 owner = SRV
 controller = SRV
-culture = dagestani
+culture = khazar
 religion = sunni
 capital = "Derbent"
 trade_goods = fish

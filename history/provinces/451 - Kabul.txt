@@ -1,7 +1,7 @@
 #451 - Kabulistan
 owner = ILK
 controller = ILK
-culture = afghani
+culture = sogdian
 religion = sunni
 capital = "Kabul"
 trade_goods = gems#Emeralds

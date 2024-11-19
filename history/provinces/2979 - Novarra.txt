@@ -1,7 +1,7 @@
 # 2979 - Novara
 owner = SAV
 controller = SAV
-culture = lombard
+culture = alpine
 religion = catholic
 hre = yes
 base_tax = 3

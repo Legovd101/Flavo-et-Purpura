@@ -1,7 +1,7 @@
 #2307 - Van
-owner = SYR#Zahids
+owner = SYR #Zahids
 controller = SYR
-culture = armenian
+culture = carduchoi
 religion = coptic
 capital = "Van"
 trade_goods = wool

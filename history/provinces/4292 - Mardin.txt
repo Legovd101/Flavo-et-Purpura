@@ -1,7 +1,7 @@
 #4392 - Mardin
 owner = SYR
 controller = SYR
-culture = kurdish
+culture = syriac
 religion = sunni
 capital = "Mardin"
 trade_goods = wool

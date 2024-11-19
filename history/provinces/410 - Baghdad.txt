@@ -1,7 +1,7 @@
 #410 - Iraq-i-Arab
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = lakhmid
 religion = sunni
 capital = "Baghdad"
 trade_goods = cloth

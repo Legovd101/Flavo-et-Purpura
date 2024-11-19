@@ -1,7 +1,7 @@
 #4344 - Kish
 owner = TRS
 controller = TRS
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Shahrisabz"#Renamed by Timur, but both names in use for most our era.
 trade_goods = wool

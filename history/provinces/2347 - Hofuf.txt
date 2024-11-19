@@ -1,7 +1,7 @@
 #2347 - Hofuf
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = lakhmid
 religion = shiite
 capital = "Hofuf"
 trade_goods = spices#Dates

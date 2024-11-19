@@ -1,7 +1,7 @@
 # - Salerno
 owner = BUL
 controller = BUL
-culture = neapolitan
+culture = salernian
 religion = catholic
 base_tax = 5
 base_production = 1

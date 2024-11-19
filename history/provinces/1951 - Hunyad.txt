@@ -4,7 +4,7 @@ latent_trade_goods = {
 }
 owner = BLU
 controller = BLU
-culture = transylvanian
+culture = early_romylian
 religion = orthodox
 capital = "Alba Iulia"
 trade_goods = iron

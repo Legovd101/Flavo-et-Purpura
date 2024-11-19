@@ -1,7 +1,7 @@
 #2311 - Samawah
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = lakhmid
 religion = shiite
 capital = "Najaf"
 trade_goods = spices#Dates

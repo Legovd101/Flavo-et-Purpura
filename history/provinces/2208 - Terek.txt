@@ -1,7 +1,7 @@
 #2208 - Terek
 owner = GLH
 controller = GLH
-culture = dagestani
+culture = khazar
 religion = sunni
 capital = "Mozdok"
 trade_goods = livestock

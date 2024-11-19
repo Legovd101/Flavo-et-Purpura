@@ -1,7 +1,7 @@
 #2746 - Vidin
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = greco_romanian
 religion = orthodox
 capital = "Vidin"
 trade_goods = grain

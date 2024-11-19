@@ -1,7 +1,7 @@
 #4110 - Sutherland
 owner = LOI
 controller = LOI
-culture = highland_scottish
+culture = viking_islander
 religion = catholic
 base_tax = 2
 base_production = 2

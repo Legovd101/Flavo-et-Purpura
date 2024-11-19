@@ -1,7 +1,7 @@
 #1827 - Raska
 owner = BLU
 controller = BLU
-culture = serbian
+culture = early_romylian
 religion = orthodox
 capital = "Trgoviste"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #2342 - Wusta
 owner = MHR
 controller = MHR
-culture = mahri_culture
+culture = old_mahri
 religion = sunni
 capital = "Hasik"#Curia Muria Islands
 trade_goods = incense

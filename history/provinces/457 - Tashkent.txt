@@ -1,7 +1,7 @@
 #457 - Tashkent
 owner = TRS
 controller = TRS
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Tashkent"
 trade_goods = tea

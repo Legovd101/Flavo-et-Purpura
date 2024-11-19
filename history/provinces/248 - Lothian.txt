@@ -1,7 +1,7 @@
 #248 - Lothian + Fife + Sterling
 owner = SCO
 controller = SCO
-culture = scottish
+culture = viking_scottish
 religion = catholic
 base_tax = 6
 base_production = 6

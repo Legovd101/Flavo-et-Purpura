@@ -1,7 +1,7 @@
 #1953 - Szabolcs
 owner = BLU
 controller = BLU
-culture = hungarian
+culture = avar
 religion = catholic
 capital = "Szolnok"
 trade_goods = livestock

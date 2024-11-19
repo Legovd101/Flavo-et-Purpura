@@ -1,7 +1,7 @@
 #4530 - Birlad
 owner = BLU
 controller = BLU
-culture = romanian
+culture = hungarian
 religion = orthodox
 capital = "Birlad"
 trade_goods = wine

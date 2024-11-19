@@ -1,7 +1,7 @@
 #4361 - Central + East March (Roxburghshire+Berwickshire+Selkirkshire)
 owner = SCO
 controller = SCO
-culture = scottish
+culture = viking_scottish
 religion = catholic
 base_tax = 2
 base_production = 2

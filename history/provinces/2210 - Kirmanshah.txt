@@ -1,7 +1,7 @@
 #2210 - Kirmanshah
 owner = SYR
 controller = SYR
-culture = luri
+culture = persian_assyrian
 religion = sunni
 capital = "Kirmanshah"
 trade_goods = cloth

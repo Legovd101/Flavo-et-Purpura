@@ -1,7 +1,7 @@
 #4283 - Shihr
 owner = HDR
 controller = HDR
-culture = yemeni_culture
+culture = yemeni
 religion = sunni
 capital = "As Shihr"
 trade_goods = incense

@@ -1,7 +1,7 @@
 #2228 - Maymana
 owner = ILK
 controller = ILK
-culture = afghani
+culture = margianan
 religion = sunni
 capital = "Maymana"
 trade_goods = cotton

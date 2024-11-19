@@ -1,7 +1,7 @@
 #387 - Mocha
 owner = ADE
 controller = ADE
-culture = yemeni_culture
+culture = yemeni
 religion = sunni
 capital = "Al Mukha"
 trade_goods = coffee

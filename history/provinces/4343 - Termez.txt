@@ -1,7 +1,7 @@
 #4343 - Termez
 owner = ILK
 controller = ILK
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Termez"
 trade_goods = livestock

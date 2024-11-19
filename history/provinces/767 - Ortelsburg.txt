@@ -2,7 +2,7 @@
 owner = PRU
 controller = PRU
 capital = "Ortelsburg"
-culture = prussian
+culture = old_prussian
 religion = catholic
 trade_goods = naval_supplies
 base_tax = 2

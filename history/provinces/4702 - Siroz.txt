@@ -1,6 +1,6 @@
 owner = BLU
 controller = BLU
-culture = greek
+culture = early_romylian
 religion = orthodox
 capital = "Siroz"
 trade_goods = grain

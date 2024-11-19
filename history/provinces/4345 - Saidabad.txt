@@ -1,7 +1,7 @@
 #4345 - Saidabad
 owner = FRS
 controller = FRS
-culture = persian
+culture = farsi
 religion = shiite
 capital = "Saidabad"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #408 - Basra
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = persian_babylonian
 religion = shiite
 capital = "Basra"
 trade_goods = salt

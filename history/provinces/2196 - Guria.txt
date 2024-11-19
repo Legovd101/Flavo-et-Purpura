@@ -1,7 +1,7 @@
 #2196 - Guria
 owner = GEO
 controller = GEO
-culture = georgian
+culture = laz
 religion = orthodox
 capital = "Batumi"
 trade_goods = fish

@@ -1,7 +1,7 @@
 #577 - Quetta
 owner = ILK
 controller = ILK
-culture = baluchi
+culture = arachoisan
 religion = sunni
 capital = "Quetta"
 trade_goods = grain

@@ -1,7 +1,7 @@
 #110 - Trent
 owner = VRN
 controller = VRN
-culture = venetian
+culture = alpine
 religion = catholic
 hre = yes
 base_tax = 4

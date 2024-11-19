@@ -1,7 +1,7 @@
 #2326 - Bardiyah
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = perso_egyptian
 religion = sunni
 capital = "Bardiyah"
 trade_goods = livestock

@@ -1,12 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = piedmontese
+primary_culture = alpine
 religion = catholic
 technology_group = western
 capital = 2981# Chambery
 add_army_professionalism = 0.05
-add_accepted_culture = occitain
+add_accepted_culture = burgundii
 1391.1.1 = { 
 	monarch = { 
 		name = "Amedeo VIII"

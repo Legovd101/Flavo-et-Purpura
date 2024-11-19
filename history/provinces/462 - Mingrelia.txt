@@ -1,7 +1,7 @@
 #462 - Mingrelia
 owner = GEO
 controller = GEO
-culture = georgian
+culture = laz
 religion = orthodox
 capital = "Zugdidi"
 trade_goods = wine

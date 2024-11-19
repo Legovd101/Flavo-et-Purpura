@@ -1,7 +1,7 @@
 #431 - Mogostan
 owner = FRS
 controller = FRS
-culture = gulf_arabic
+culture = farsi
 religion = sunni
 capital = "Gamrun"
 trade_goods = spices

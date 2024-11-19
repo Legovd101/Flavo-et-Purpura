@@ -1,7 +1,7 @@
 #2226 - Jalalabad
 owner = AFG
 controller = AFG
-culture = afghani
+culture = sogdian
 religion = sunni
 capital = "Jalalabad"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #412 - Khuzestan
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = lakhmid
 religion = shiite
 capital = "Ahvaz"
 trade_goods = sugar

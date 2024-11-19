@@ -1,7 +1,7 @@
 #2330 - Ma'din Sulaym
 owner = HED
 controller = HED
-culture = hejazi_culture
+culture = muslim
 religion = sunni
 capital = "Ma'din Sulaym"
 trade_goods = livestock

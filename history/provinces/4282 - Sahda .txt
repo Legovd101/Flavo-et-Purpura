@@ -1,7 +1,7 @@
 #4282 - Sahda
 owner = RAS
 controller = RAS
-culture = yemeni_culture
+culture = yemeni
 religion = shiite
 capital = "Sahda"
 trade_goods = coffee

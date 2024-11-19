@@ -1,7 +1,7 @@
 #160 - Oltenia
 owner = BLU
 controller = BLU
-culture = romanian
+culture = early_romylian
 religion = orthodox
 capital = "Craiova"
 trade_goods = copper

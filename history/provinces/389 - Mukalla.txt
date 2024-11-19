@@ -1,7 +1,7 @@
 #389 - Mukalla
 owner = HDR
 controller = HDR
-culture = yemeni_culture
+culture = yemeni
 religion = sunni
 capital = "Al Mukalla"
 trade_goods = incense

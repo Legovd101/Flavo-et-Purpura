@@ -1,7 +1,7 @@
 #381 - Ajlun
 owner = LKH
 controller = LKH
-culture = al_suryah_arabic
+culture = perso_levantine
 religion = sunni
 capital = "Ajlun"
 trade_goods = grain

@@ -1,7 +1,7 @@
 #1951 - Hunyad
 owner = BLU
 controller = BLU
-culture = transylvanian
+culture = avar
 religion = orthodox
 capital = "Turda"
 trade_goods = salt# Famous salt mines

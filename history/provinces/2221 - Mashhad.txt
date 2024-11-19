@@ -1,7 +1,7 @@
 #2221 - Mashhad
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = shiite
 capital = "Mashhad"
 trade_goods = copper

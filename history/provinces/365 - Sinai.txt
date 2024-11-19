@@ -1,7 +1,7 @@
 #365 - Sinai
 owner = PER
 controller = PER
-culture = bedouin_arabic
+culture = ghassanid
 religion = sunni
 capital = "At Tur"
 trade_goods = gems#Turquoise

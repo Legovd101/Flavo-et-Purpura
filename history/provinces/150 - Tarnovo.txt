@@ -1,7 +1,7 @@
 #150 - Bulgaria
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = greco_romanian
 religion = orthodox
 capital = "Nikopol"
 trade_goods = grain

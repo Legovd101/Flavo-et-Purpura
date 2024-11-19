@@ -1,7 +1,7 @@
 #1774 - Treviso
 owner = AQU
 controller = AQU
-culture = venetian
+culture = alpine
 religion = catholic
 base_tax = 7
 base_production = 7

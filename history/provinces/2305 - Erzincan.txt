@@ -1,7 +1,7 @@
 #2305 - Erzincan
 owner = KAR
 controller = KAR
-culture = armenian
+culture = laz
 religion = coptic
 capital = "Erzindjan"
 trade_goods = copper

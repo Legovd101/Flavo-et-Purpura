@@ -1,7 +1,7 @@
 #415 - Sharazor
 owner = LKH
 controller = LKH
-culture = kurdish
+culture = persian_assyrian
 religion = sunni
 capital = "Kirkuk"
 trade_goods = grain

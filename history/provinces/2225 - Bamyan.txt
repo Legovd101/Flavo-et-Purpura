@@ -1,7 +1,7 @@
 #2225 - Bamyan
 owner = ILK
 controller = ILK
-culture = afghani
+culture = sogdian
 religion = shiite
 capital = "Bamyan"
 trade_goods = dyes

@@ -1,7 +1,7 @@
 #1099 - Socotra
 owner = MHR
 controller = MHR
-culture = mahri_culture
+culture = old_mahri
 religion = coptic
 capital = "Suqutra"
 trade_goods = fish

@@ -1,7 +1,7 @@
 #4281 - Dhamar
 owner = ADE#Tahirids
 controller = ADE#Tahirids
-culture = yemeni_culture
+culture = yemeni
 religion = shiite
 capital = "Dhamar"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 # Giurgiu
 owner = BLU
 controller = BLU
-culture = romanian
+culture = early_romylian
 religion = orthodox
 capital = "Giurgiu"
 trade_goods = livestock

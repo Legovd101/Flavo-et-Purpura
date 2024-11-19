@@ -1,7 +1,7 @@
 #2207 - Maragheh
 owner = SYR
 controller = SYR
-culture = azerbaijani
+culture = lullubi
 religion = shiite
 capital = "Marageh"
 trade_goods = wool

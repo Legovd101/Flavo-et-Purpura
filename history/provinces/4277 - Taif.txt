@@ -1,7 +1,7 @@
 #4277 - Taif
 owner = HED
 controller = HED
-culture = hejazi_culture
+culture = muslim
 religion = sunni
 capital = "Taif"
 trade_goods = wool

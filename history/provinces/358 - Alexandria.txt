@@ -1,7 +1,7 @@
 #358 - Alexandria
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = perso_egyptian
 religion = sunni
 capital = "Al Iskandirya"
 trade_goods = spices

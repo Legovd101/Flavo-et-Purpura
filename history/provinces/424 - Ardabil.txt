@@ -1,7 +1,7 @@
 #424 - Ardabil
 owner = SRV
 controller = SRV
-culture = azerbaijani
+culture = persian_caspian
 religion = shiite
 capital = "Ardabil"
 trade_goods = dyes

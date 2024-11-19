@@ -1,7 +1,7 @@
 # 2127 - Yashilkul
 owner = KRY
 controller = KRY
-culture = uzbehk
+culture = bactrian
 religion = shiite
 capital = "Yashilkul"
 trade_goods = livestock

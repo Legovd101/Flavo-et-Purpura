@@ -2,7 +2,7 @@
 owner = POM
 controller = POM
 capital = "Tuchel"
-culture = prussian
+culture = old_prussian
 religion = catholic
 trade_goods = grain
 base_tax = 3

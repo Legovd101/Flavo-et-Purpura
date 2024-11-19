@@ -1,7 +1,7 @@
 #2214 - Golestan
 owner = ILK# Babur Ibn-Baysunkur
 controller = ILK
-culture = mazandarani
+culture = persian_caspian
 religion = shiite
 capital = "Asatarabad"
 trade_goods = tea

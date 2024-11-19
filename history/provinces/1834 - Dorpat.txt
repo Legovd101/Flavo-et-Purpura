@@ -1,6 +1,6 @@
 #Dorpat
-owner = LVA
-controller = LVA
+owner = LIT
+controller = LIT
 add_core = EST
 culture = estonian
 religion = catholic
@@ -17,4 +17,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-add_core = LVA
+add_core = LIT

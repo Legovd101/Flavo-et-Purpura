@@ -1,7 +1,7 @@
 #4286 - Sur, Qalhat, etc
 owner = OMA
 controller = OMA
-culture = omani_culture
+culture = old_omani
 religion = ibadi
 capital = "Qalhat"
 trade_goods = spices

@@ -1,7 +1,7 @@
 #2750 - Plovdiv / Upper Thrace
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = greco_romanian
 religion = orthodox
 capital = "Plovdiv"
 trade_goods = grain

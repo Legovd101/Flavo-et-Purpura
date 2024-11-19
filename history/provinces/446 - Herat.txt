@@ -1,7 +1,7 @@
 #446 - Herat
 owner = ILK
 controller = ILK
-culture = khorasani
+culture = margianan
 religion = sunni
 capital = "Herat"
 trade_goods = paper

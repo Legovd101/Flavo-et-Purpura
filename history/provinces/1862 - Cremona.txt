@@ -1,7 +1,7 @@
 #1862 - Cremona
-owner = VEN
-controller = VEN
-culture = lombard
+owner = PDV
+controller = PDV
+culture = alpine
 religion = catholic
 hre = yes
 base_tax = 6
@@ -14,4 +14,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = VEN
+add_core = PDV

@@ -1,7 +1,7 @@
 #2068 - Siwistan
 owner = MUL
 controller = MUL
-culture = baluchi
+culture = arachoisan
 religion = sunni
 capital = "Siwi"
 trade_goods = wool

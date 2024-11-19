@@ -1,7 +1,7 @@
 #2212 - Mianeh
 owner = MDY
 controller = MDY
-culture = azerbaijani
+culture = persian_caspian
 religion = sunni
 capital = "Mianeh"
 trade_goods = paper

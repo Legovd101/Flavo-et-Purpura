@@ -1,7 +1,7 @@
 #362 - Delta
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = perso_egyptian
 religion = sunni
 capital = "Rashid"
 trade_goods = grain

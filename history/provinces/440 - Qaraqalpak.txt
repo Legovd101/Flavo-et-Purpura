@@ -1,7 +1,7 @@
 #440 - Qaraqalpak
 owner = GLH
 controller = GLH
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Chimbay"
 trade_goods = wool

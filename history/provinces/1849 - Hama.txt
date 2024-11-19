@@ -1,7 +1,7 @@
 #1849 - Hama
 owner = TRP
 controller = TRP
-culture = al_suryah_arabic
+culture = perso_levantine
 religion = sunni
 capital = "Hama"
 trade_goods = cotton

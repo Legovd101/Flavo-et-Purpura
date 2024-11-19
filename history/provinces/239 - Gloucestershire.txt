@@ -1,7 +1,7 @@
 #239 - Gloucestershire
 owner = BRY
 controller = BRY
-culture = english
+culture = durotrigian
 religion = catholic
 base_tax = 2
 base_production = 2

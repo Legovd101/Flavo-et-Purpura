@@ -1,7 +1,7 @@
 #2212 - Zanjan
 owner = MDY
 controller = MDY
-culture = azerbaijani
+culture = persian_caspian
 religion = sunni
 capital = "Zanjan"
 trade_goods = spices

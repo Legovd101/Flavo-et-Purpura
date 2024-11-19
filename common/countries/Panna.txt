@@ -1,10 +1,7 @@
 #Country Name: See the Name of this File.
-
 graphical_culture = indiangfx
-
 color = { 68 81 208 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	quantity_ideas
 	offensive_ideas
 	diplomatic_ideas
@@ -14,8 +11,7 @@ historical_idea_groups = {
 	spy_ideas
 	economic_ideas
 }
-
-historical_units = {
+historical_units = { 
 	indian_footsoldier
 	rajput_hill_fighters
 	indian_arquebusier
@@ -28,8 +24,7 @@ historical_units = {
 	indian_rifle
 	tipu_sultan_rocket
 }
-
-monarch_names = {
+monarch_names = { 
 	"Pahar Chand #0" = 20
 	"Kirat Pal Singh #0" = 20
 	"Chhatrasal #0" = 20
@@ -66,8 +61,7 @@ monarch_names = {
 	"Indira #0" = -1
 	"Padmini #0" = -1
 }
-
-leader_names = {
+leader_names = { 
 	Singh
 	Datia
 	Mihir
@@ -90,13 +84,8 @@ leader_names = {
 	Katoch
 	Jadon
 }
-
-ship_names = {
-	Betwa Devi Durga Ganga Gandak
-	Gayatri Ghagra Gomti Jalsena
-	"Kala Jahazi" Ken Lakshmi
-	"Lal Jahazi" Nausena "Nav ka Yudh"
-	"Nila Jahazi" Parvati Radha
-	Ramganga Ratri Sagar Sarasvati
-	Satlaj Sita Yamuna
+ship_names = { 
+	Betwa Devi Durga Ganga Gandak Gayatri Ghagra Gomti Jalsena "Kala Jahazi"
+	Ken Lakshmi "Lal Jahazi" Nausena "Nav ka Yudh" "Nila Jahazi" Parvati Radha Ramganga Ratri
+	Sagar Sarasvati Satlaj Sita Yamuna 
 }

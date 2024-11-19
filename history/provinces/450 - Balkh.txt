@@ -1,7 +1,7 @@
 #450 - Balkh
 owner = ILK
 controller = ILK
-culture = afghani
+culture = sogdian
 religion = sunni
 capital = "Balkh"
 trade_goods = cotton

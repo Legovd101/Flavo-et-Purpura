@@ -1,12 +1,8 @@
 #Country Name: Please see filename.
-
 graphical_culture = easterngfx
-
 color = { 15 223 59 }
-
 revolutionary_colors = { 0 10 5 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	defensive_ideas
 	offensive_ideas
 	religious_ideas
@@ -16,8 +12,7 @@ historical_idea_groups = {
 	economic_ideas
 	quality_ideas
 }
-
-historical_units = {
+historical_units = { 
 	eastern_medieval_infantry
 	eastern_knights
 	slavic_stradioti
@@ -34,8 +29,7 @@ historical_units = {
 	ottoman_new_model
 	ottoman_lancer
 }
-
-monarch_names = {
+monarch_names = { 
 	"Iwan Asen #3" = 20
 	"Koloman #2" = 20
 	"Petar #2" = 20
@@ -76,29 +70,21 @@ monarch_names = {
 	"Vasil #0" = 0
 	"Vladimir #0" = 0
 	"Zhivko #0" = 0
-	
 	"Bogomilia #0" = -1
 	"Sofija #0" = -1
 	"Krasimira #0" = -1
 }
-
-leader_names = {
+leader_names = { 
 	Balina
-	Djordjic Dobrovski
-	Frujin
-	Karposh Konstantin
-	Marinov
+	Djordjic Dobrovski Frujin
+	Karposh Konstantin Marinov
 	Peyachevich
-	Radic Rali
-	Shishman Sorkochovich Strahil Stratimirovich
+	Radic Rali Shishman Sorkochovich Strahil Stratimirovich 
 }
-
-ship_names = {
+ship_names = { 
 	Alhtpolo
-	Kiten Kraymorie
-	Lozenets
+	Kiten Kraymorie Lozenets
 	Promorsko
 	Rezovo
-	Sarafovo Sinemorets Sozopol
-	Varara
+	Sarafovo Sinemorets Sozopol Varara
 }

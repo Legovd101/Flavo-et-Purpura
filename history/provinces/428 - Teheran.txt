@@ -1,7 +1,7 @@
 #428 - Rey
 owner = MDY
 controller = MDY
-culture = persian
+culture = isfahani
 religion = shiite
 capital = "Teheran"
 trade_goods = silk

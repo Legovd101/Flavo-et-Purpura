@@ -1,7 +1,7 @@
 #2315 - Suez
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = perso_egyptian
 religion = sunni
 capital = "Suweis"
 trade_goods = livestock

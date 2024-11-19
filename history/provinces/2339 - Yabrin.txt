@@ -1,7 +1,7 @@
 #2339 - Yabrin
 owner = HED
 controller = HED
-culture = bedouin_arabic
+culture = muslim
 religion = sunni
 capital = "Yabrin"
 trade_goods = grain

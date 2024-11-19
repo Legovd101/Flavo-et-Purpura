@@ -1,7 +1,7 @@
 #578 - Roh
 owner = HIN
 controller = HIN
-culture = afghani
+culture = sogdian
 religion = sunni
 capital = "Peshawar"
 trade_goods = livestock

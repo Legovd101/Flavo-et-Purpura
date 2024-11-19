@@ -1,7 +1,7 @@
 #441 - Khiva
 owner = ILK
 controller = ILK
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Khiva"
 trade_goods = wool

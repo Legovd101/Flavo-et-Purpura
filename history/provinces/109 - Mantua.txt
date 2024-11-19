@@ -1,6 +1,6 @@
 #109 - Mantua
-owner = VEN
-controller = VEN
+owner = PDV
+controller = PDV
 culture = romagnan
 religion = catholic
 hre = yes
@@ -16,5 +16,5 @@ discovered_by = muslim
 discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
-add_core = VEN
+add_core = PDV
 fort_15th = yes

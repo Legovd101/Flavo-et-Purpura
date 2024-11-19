@@ -1,7 +1,7 @@
 # 2976 - Perugia, formerly Umbria
 owner = PAP
 controller = PAP
-culture = umbrian
+culture = spoletian
 religion = catholic
 base_tax = 3
 base_production = 4

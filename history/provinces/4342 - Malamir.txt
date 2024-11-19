@@ -1,7 +1,7 @@
 #4342 - Malamir
 owner = UZI
 controller = UZI
-culture = luri
+culture = persian_babylonian
 religion = shiite
 capital = "Malamir"
 trade_goods = wool

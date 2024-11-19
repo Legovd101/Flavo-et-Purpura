@@ -1,6 +1,6 @@
 #4241 - Wenden
-owner = LVA
-controller = LVA
+owner = LIT
+controller = LIT
 culture = latvian
 religion = catholic
 capital = "Wenden"
@@ -16,4 +16,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-add_core = LVA
+add_core = LIT

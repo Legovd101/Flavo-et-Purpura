@@ -1,7 +1,7 @@
 #382 - Damascus
 owner = KOJ
 controller = KOJ
-culture = al_suryah_arabic
+culture = perso_levantine
 religion = sunni
 capital = "Dimashq"
 trade_goods = iron

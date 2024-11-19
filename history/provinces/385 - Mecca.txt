@@ -1,7 +1,7 @@
 #385 - Mecca
 owner = HED
 controller = HED
-culture = hejazi_culture
+culture = muslim
 religion = sunni
 capital = "Makkah"
 trade_goods = incense

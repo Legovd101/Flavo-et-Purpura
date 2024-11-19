@@ -1,7 +1,7 @@
 #2332 - Truba
 owner = HED
 controller = HED
-culture = hejazi_culture
+culture = muslim
 religion = sunni
 capital = "Truba"
 trade_goods = livestock

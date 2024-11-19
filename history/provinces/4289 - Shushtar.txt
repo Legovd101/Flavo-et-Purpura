@@ -1,7 +1,7 @@
 #4289 - Shushtar
 owner = LKH
 controller = LKH
-culture = persian
+culture = persian_babylonian
 religion = shiite
 capital = "Shushtar"
 trade_goods = silk

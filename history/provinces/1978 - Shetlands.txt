@@ -1,7 +1,7 @@
 #1978 - Shetlands
 owner = LOI
 controller = LOI
-culture = norwegian
+culture = viking_islander
 religion = catholic
 base_tax = 1
 base_production = 1

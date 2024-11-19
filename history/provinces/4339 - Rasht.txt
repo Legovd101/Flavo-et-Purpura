@@ -1,7 +1,7 @@
 #4339 - Rasht
 owner = SRV
 controller = SRV
-culture = mazandarani
+culture = persian_caspian
 religion = sunni
 capital = "Rasht"
 trade_goods = silk

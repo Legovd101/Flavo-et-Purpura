@@ -1,7 +1,7 @@
 #378 - Tripoli
 owner = TRP
 controller = TRP
-culture = levantine_greek
+culture = perso_levantine
 religion = shiite
 capital = "Trablos"#Tripoli in the East.
 trade_goods = grain

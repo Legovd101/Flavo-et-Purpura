@@ -1,7 +1,7 @@
 #454 - Samarkand
 owner = ILK
 controller = ILK
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Samarkand"
 trade_goods = paper

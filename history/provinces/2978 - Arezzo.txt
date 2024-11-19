@@ -1,7 +1,7 @@
 # 2978 - Arezzo
 owner = BUL
 controller = BUL
-culture = tuscan
+culture = bulg_tuscan
 religion = catholic
 hre = yes
 base_tax = 6

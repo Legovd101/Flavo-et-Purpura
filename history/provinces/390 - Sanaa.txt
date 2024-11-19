@@ -1,7 +1,7 @@
 #390 - Sana'a
 owner = RAS
 controller = RAS
-culture = yemeni_culture
+culture = yemeni
 religion = shiite
 capital = "Sana'a"
 trade_goods = wool

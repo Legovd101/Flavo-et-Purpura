@@ -1,7 +1,7 @@
 # 4780 - Ohrid
 owner = RAG
 controller = RAG
-culture = bulgarian
+culture = greco_romanian
 religion = orthodox
 capital = "Ohrid"
 trade_goods = wool

@@ -1,7 +1,7 @@
 #1968 - Kulob
 owner = KOK
 controller = KOK
-culture = uzbehk
+culture = bactrian
 religion = sunni
 capital = "Kulob"
 trade_goods = wool

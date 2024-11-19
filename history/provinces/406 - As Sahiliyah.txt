@@ -1,7 +1,7 @@
 #406 - As Sahiliyah
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = lakhmid
 religion = sunni
 capital = "Sahiliyah"
 trade_goods = livestock

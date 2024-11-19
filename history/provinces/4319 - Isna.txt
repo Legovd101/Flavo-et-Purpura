@@ -1,7 +1,7 @@
 #4319 - Isna
 owner = PER
 controller = PER
-culture = al_misr_arabic
+culture = perso_egyptian
 religion = sunni
 capital = "Isna"
 trade_goods = livestock

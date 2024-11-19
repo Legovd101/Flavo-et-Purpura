@@ -1,6 +1,6 @@
 owner = BLU
 controller = BLU
-culture = bulgarian
+culture = early_romylian
 religion = orthodox
 capital = "Tarnovo"
 trade_goods = cloth

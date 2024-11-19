@@ -1,7 +1,7 @@
 #398 - Qawasim
 owner = LKH
 controller = LKH
-culture = gulf_arabic
+culture = lakhmid
 religion = ibadi
 capital = "Sharjah"
 trade_goods = livestock

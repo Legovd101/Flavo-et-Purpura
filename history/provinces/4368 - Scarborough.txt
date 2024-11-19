@@ -1,7 +1,7 @@
 #4368 - Yorkshire - North Riding
 owner = IRE
 controller = IRE
-culture = english
+culture = jutish
 religion = catholic
 base_tax = 2
 base_production = 2

@@ -1,7 +1,7 @@
 #4271 - Suwaida
 owner = LKH
 controller = LKH
-culture = bedouin_arabic
+culture = ghassanid
 religion = shiite
 capital = "As-Suwayda"
 trade_goods = livestock

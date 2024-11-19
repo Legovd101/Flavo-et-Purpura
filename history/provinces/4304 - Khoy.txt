@@ -1,7 +1,7 @@
 #2035 - Khoy
 owner = SYR
 controller = SYR
-culture = azerbaijani
+culture = cyrtian
 religion = sunni
 capital = "Khoy"
 trade_goods = wool

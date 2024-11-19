@@ -1,7 +1,7 @@
 #2309 - Sinjar
 owner = SYR
 controller = SYR
-culture = al_iraqiya_arabic
+culture = syriac
 religion = sunni
 capital = "Sindjar"
 trade_goods = sugar

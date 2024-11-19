@@ -1,7 +1,7 @@
 #2222 - Ardakan
 owner = ILK
 controller = ILK
-culture = persian
+culture = isfahani
 religion = sunni
 capital = "Ardakan"
 trade_goods = incense

@@ -1,7 +1,7 @@
 #405 - Tadmor
 owner = LKH
 controller = LKH
-culture = bedouin_arabic
+culture = lakhmid
 religion = sunni
 capital = "Tadmuriyah"
 trade_goods = livestock

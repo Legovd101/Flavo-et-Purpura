@@ -1,7 +1,7 @@
 #409 - Karbala
 owner = LKH
 controller = LKH
-culture = al_iraqiya_arabic
+culture = lakhmid
 religion = shiite
 capital = "Karbala"
 trade_goods = wool

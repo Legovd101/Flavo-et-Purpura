@@ -1,7 +1,7 @@
 # Severin
 owner = BLU
 controller = BLU
-culture = romanian
+culture = early_romylian
 religion = orthodox
 capital = "Severin"
 trade_goods = livestock

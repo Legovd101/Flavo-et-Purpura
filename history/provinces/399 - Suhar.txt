@@ -1,7 +1,7 @@
 #399 - Suhar
 owner = LKH
 controller = LKH
-culture = omani_culture
+culture = old_omani
 religion = ibadi
 capital = "Suhar"
 trade_goods = grain#And pearls

@@ -1,7 +1,7 @@
 #4341 - Sari
 owner = SRV
 controller = SRV
-culture = mazandarani
+culture = persian_caspian
 religion = shiite
 capital = "Sari"
 trade_goods = silk

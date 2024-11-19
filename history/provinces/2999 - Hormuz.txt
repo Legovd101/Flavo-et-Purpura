@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 capital = "Hormuz"
-culture = gulf_arabic
+culture = old_omani
 religion = sunni
 trade_goods = gems#Pearls
 base_tax = 3
