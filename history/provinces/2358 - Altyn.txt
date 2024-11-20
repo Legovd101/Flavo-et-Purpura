@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = khazak
-religion = sunni
+religion = manichaean
 capital = "Altyn"
 trade_goods = livestock
 base_tax = 2

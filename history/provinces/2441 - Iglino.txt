@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 capital = "Iglino"
-culture = siberian
+culture = bashkir
 religion = tengri_pagan_reformed
 trade_goods = fur
 base_tax = 3

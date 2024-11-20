@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = catalan
+primary_culture = tarraconese
 add_accepted_culture = aragonese
 add_accepted_culture = sicilian
-religion = catholic
+religion = arianism
 technology_group = western
 capital = 4550# Tinto HQ
 add_army_professionalism = 0.05

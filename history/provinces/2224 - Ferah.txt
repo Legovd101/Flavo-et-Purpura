@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = margianan
-religion = sunni
+religion = zoroastrian
 capital = "Ferah"
 trade_goods = livestock
 base_tax = 1

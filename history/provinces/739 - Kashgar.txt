@@ -2,7 +2,7 @@
 owner = CHG
 controller = CHG
 culture = uyghur
-religion = sunni
+religion = manichaean
 capital = "Kashgar"
 trade_goods = wool
 base_tax = 2

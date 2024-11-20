@@ -2,7 +2,7 @@
 owner = NAP
 controller = NAP
 culture = neapolitan
-religion = catholic
+religion = west_orthodox
 base_tax = 8
 base_production = 8
 trade_goods = grain

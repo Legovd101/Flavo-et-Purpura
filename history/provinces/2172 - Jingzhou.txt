@@ -2,7 +2,7 @@
 owner = CGS
 controller = CGS
 culture = hubei
-religion = confucianism
+religion = nestorian
 capital = "Jingzhou"
 trade_goods = grain
 base_tax = 3

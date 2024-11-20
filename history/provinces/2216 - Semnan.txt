@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = isfahani
-religion = sunni
+religion = manichaean
 capital = "Semnan"
 trade_goods = gems#Turquoise
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = ghassanid
-religion = sunni
+religion = coptic
 capital = "At Tur"
 trade_goods = gems#Turquoise
 base_tax = 1

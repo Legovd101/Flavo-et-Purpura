@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = margianan
-religion = sunni
+religion = manichaean
 capital = "Herat"
 trade_goods = paper
 base_tax = 5

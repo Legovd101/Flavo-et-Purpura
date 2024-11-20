@@ -2,8 +2,8 @@
 owner = FIN
 controller = FIN
 add_core = SMI
-culture = sapmi
-religion = catholic
+culture = finnish
+religion = finnish_pagan
 base_tax = 1
 base_production = 1
 trade_goods = fur

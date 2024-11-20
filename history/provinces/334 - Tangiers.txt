@@ -2,7 +2,7 @@
 owner = SPA
 controller = SPA
 culture = strait_greek
-religion = sunni
+religion = lutetian
 capital = "Tangier"
 trade_goods = cloth
 base_tax = 3

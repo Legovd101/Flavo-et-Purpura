@@ -2,7 +2,7 @@
 owner = KOJ
 controller = KOJ
 culture = levantine_greek
-religion = shiite
+religion = west_orthodox
 capital = "Sayda"
 trade_goods = naval_supplies
 base_tax = 5

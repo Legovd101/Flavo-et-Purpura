@@ -2,7 +2,7 @@
 owner = CND
 controller = CND
 culture = euxine
-religion = sunni
+religion = orthodox
 capital = "Amasya"
 trade_goods = paper#and iron
 base_tax = 4

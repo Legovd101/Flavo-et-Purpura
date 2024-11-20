@@ -2,7 +2,7 @@
 owner = THU
 controller = THU
 culture = franconian
-religion = catholic
+religion = arianism
 hre = yes
 trade_goods = salt
 capital = "Ansbach"

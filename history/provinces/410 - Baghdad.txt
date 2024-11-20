@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = sunni
+religion = nestorian
 capital = "Baghdad"
 trade_goods = cloth
 base_tax = 4

@@ -1,6 +1,6 @@
 #2802 - Kobbe
 culture = tunjur
-religion = shamanism#Fetishism
+religion = chad_pagan#Fetishism
 capital = "Kobbe"
 add_core = DAR
 native_size = 50

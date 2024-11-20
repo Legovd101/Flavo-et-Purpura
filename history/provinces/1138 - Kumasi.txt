@@ -1,7 +1,7 @@
 #1138 - Kumasi
 culture = aka
 base_manpower = 1
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Akyem Kotoko"
 trade_goods = gold
 base_tax = 4

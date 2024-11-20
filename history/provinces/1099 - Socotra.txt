@@ -2,7 +2,7 @@
 owner = MHR
 controller = MHR
 culture = old_mahri
-religion = coptic
+religion = nestorian
 capital = "Suqutra"
 trade_goods = fish
 base_tax = 1

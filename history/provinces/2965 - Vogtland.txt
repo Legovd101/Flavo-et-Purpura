@@ -2,7 +2,7 @@
 owner = ANH
 controller = ANH
 culture = saxon
-religion = catholic
+religion = arianism
 capital = "Plauen"
 trade_goods = wool
 hre = yes

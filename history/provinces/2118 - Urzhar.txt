@@ -2,7 +2,7 @@
 owner = QAS
 controller = QAS
 culture = oirats
-religion = sunni
+religion = manichaean
 capital = "Urzhar"
 trade_goods = salt
 base_tax = 1

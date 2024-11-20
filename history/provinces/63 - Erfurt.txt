@@ -2,7 +2,7 @@
 owner = LPP
 controller = LPP
 culture = saxon
-religion = catholic
+religion = arianism
 capital = "Erfurt"
 trade_goods = dyes#Woad, also a center for glassmaking
 hre = yes

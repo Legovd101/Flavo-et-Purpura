@@ -2,7 +2,7 @@
 owner = UZI
 controller = UZI
 culture = farsi
-religion = shiite
+religion = zoroastrian
 capital = "Shiraz"
 trade_goods = wine#and Glass
 base_tax = 5

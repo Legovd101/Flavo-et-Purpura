@@ -2,7 +2,7 @@
 owner = MUL
 controller = MUL
 culture = arachoisan
-religion = sunni
+religion = manichaean
 capital = "Siwi"
 trade_goods = wool
 base_tax = 1

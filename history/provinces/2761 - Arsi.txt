@@ -2,7 +2,7 @@
 owner = SOA
 controller = SOA
 culture = amhara
-religion = sunni
+religion = waaqeffanna
 capital = "Assela"
 is_city = yes
 base_manpower = 2

@@ -2,7 +2,7 @@
 owner = GEO
 controller = GEO
 culture = laz
-religion = orthodox
+religion = coptic
 capital = "Oltu"
 trade_goods = livestock
 base_tax = 3

@@ -1,6 +1,6 @@
 #4020 - Comoros
 culture = madagasque#Malagasy
-religion = sunni
+religion = swahili_pagan
 capital = "Ndzuwani"
 native_size = 40
 trade_goods = unknown

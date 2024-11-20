@@ -2,7 +2,7 @@
 owner = VEN
 controller = VEN
 culture = dalmatian
-religion = catholic
+religion = manichaean
 capital = "Split"
 trade_goods = wool
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 culture = mongol
-religion = vajrayana
+religion = tengri_pagan_reformed
 capital = "Ulanhad"
 trade_goods = livestock
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = sunni
+religion = manichaean
 capital = "Tadmuriyah"
 trade_goods = livestock
 base_tax = 1

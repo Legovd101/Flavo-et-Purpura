@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = mishary
-religion = sunni
+religion = manichaean
 base_tax = 3
 base_production = 3
 trade_goods = iron

@@ -1,7 +1,7 @@
 owner = BLU
 controller = BLU
 culture = early_romylian
-religion = orthodox
+religion = manichaean
 capital = "Tolcu"
 trade_goods = wool
 base_tax = 2

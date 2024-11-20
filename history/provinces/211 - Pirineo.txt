@@ -2,7 +2,7 @@
 owner = AVI#Alfons V of Aragon
 controller = AVI
 culture = vasconian
-religion = catholic
+religion = lutetian
 base_tax = 3
 base_production = 2
 trade_goods = wool

@@ -2,7 +2,7 @@
 owner = BPR
 controller = BPR
 culture = chin
-religion = animism
+religion = buddhism
 capital = "Kale"
 trade_goods = ivory
 base_tax = 3

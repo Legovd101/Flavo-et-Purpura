@@ -2,7 +2,7 @@
 owner = KRC
 controller = KRC
 culture = oirats
-religion = vajrayana
+religion = nestorian
 capital = "Qakilik"
 trade_goods = livestock
 base_tax = 1

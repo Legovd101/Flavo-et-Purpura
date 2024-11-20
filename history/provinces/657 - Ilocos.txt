@@ -1,6 +1,6 @@
 #2697 - Ilocos
 culture = filipino
-religion = animism
+religion = confucianism
 capital = "Ilocos"
 trade_goods = unknown
 base_tax = 2

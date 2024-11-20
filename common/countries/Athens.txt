@@ -1,12 +1,8 @@
 #Country Name: Please see filename
-
 graphical_culture = easterngfx
-
 color = { 226 125 173 }
-
 revolutionary_colors = { 0 14 0 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	maritime_ideas
 	religious_ideas
 	defensive_ideas
@@ -16,8 +12,7 @@ historical_idea_groups = {
 	innovativeness_ideas
 	diplomatic_ideas
 }
-
-historical_units = {
+historical_units = { 
 	eastern_medieval_infantry
 	eastern_knights
 	slavic_stradioti
@@ -35,8 +30,7 @@ historical_units = {
 	ottoman_new_model
 	ottoman_lancer
 }
-
-monarch_names = {
+monarch_names = { 
 	"Antonio #0" = 40
 	"Francesco #0" = 40
 	"Nero #1" = 20
@@ -83,26 +77,19 @@ monarch_names = {
 	"Ioustina #0" = -1
 	"Anastasia #0" = -1
 }
-
 leader_names = { 
-	Acciajuoli 
-	Contarini Crispo
-	Doria	
+	Acciajuoli
+	Contarini Crispo Doria
 	Fadrigue
-	Melissinos 
-	Palaeologus Plethon
-	Rendis
-	Saraceno 
+	Melissinos
+	Palaeologus Plethon Rendis
+	Saraceno
 	Tocco
-	Zorzi 
+	Zorzi
 }
-
-ship_names = {
-	"Agios Thomas" 	Athena
-	Felves 
-	Laouses 
+ship_names = { 
+	"Agios Thomas" Athena Felves
+	Laouses
 	Makronisi
-	Patroklou Petalioi
-	Salamina Styra
-	Ypsili
+	Patroklou Petalioi Salamina Styra Ypsili
 }

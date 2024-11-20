@@ -2,7 +2,7 @@
 owner = BPR
 controller = BPR
 culture = kachin
-religion = animism
+religion = buddhism
 capital = "Hkamti Long"
 trade_goods = grain
 base_tax = 2

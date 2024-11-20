@@ -2,7 +2,7 @@
 owner = BAV
 controller = BAV
 culture = franconian
-religion = catholic
+religion = arianism
 base_tax = 8
 base_production = 8
 trade_goods = paper

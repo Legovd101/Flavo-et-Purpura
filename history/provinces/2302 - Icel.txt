@@ -2,7 +2,7 @@
 owner = TEU
 controller = TEU
 culture = roman_cappadocian
-religion = sunni
+religion = west_orthodox
 capital = "Ermenek"
 trade_goods = naval_supplies
 base_tax = 2

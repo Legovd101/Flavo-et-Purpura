@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = khazar
-religion = sunni
+religion = manichaean
 capital = "Mozdok"
 trade_goods = livestock
 base_tax = 3

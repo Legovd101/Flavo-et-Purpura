@@ -2,7 +2,7 @@
 owner = ZNG
 controller = ZNG
 culture = african_greek
-religion = catholic
+religion = west_orthodox
 base_tax = 3
 base_production = 3
 trade_goods = fish

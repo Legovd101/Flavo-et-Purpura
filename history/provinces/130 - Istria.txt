@@ -2,7 +2,7 @@
 owner = VEN
 controller = VEN
 culture = dalmatian
-religion = catholic
+religion = west_orthodox
 capital = "Pula"
 trade_goods = salt#trade_goods = naval_supplies #Major Shipbuilding Centre
 base_tax = 2

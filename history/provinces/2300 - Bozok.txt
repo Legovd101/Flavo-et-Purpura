@@ -2,7 +2,7 @@
 owner = CND
 controller = CND
 culture = roman_cappadocian
-religion = sunni
+religion = manichaean
 capital = "Yozgat"
 trade_goods = grain
 base_tax = 3

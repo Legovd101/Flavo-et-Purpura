@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = isfahani
-religion = shiite
+religion = manichaean
 capital = "Qom"
 trade_goods = cloth
 base_tax = 3

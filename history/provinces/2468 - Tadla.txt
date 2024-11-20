@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = mauri_pagan
 capital = "Tadla"
 trade_goods = copper
 base_tax = 3

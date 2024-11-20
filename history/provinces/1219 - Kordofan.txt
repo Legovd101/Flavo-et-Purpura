@@ -1,6 +1,6 @@
 #1219 - Darfur
 culture = tunjur
-religion = shamanism#Fetishism
+religion = chad_pagan#Fetishism
 capital = "Al-Fashir"
 add_core = DAR
 native_size = 50

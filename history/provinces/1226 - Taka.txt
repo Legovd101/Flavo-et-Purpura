@@ -2,7 +2,7 @@
 owner = ETH
 controller = ETH
 culture = beja
-religion = sunni
+religion = coptic
 capital = "Qoz Rajab"
 base_manpower = 2
 trade_goods = livestock

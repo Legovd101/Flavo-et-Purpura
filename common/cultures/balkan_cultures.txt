@@ -1,5 +1,5 @@
 # Do not change tags in here without changing every other reference to them.
-# If adding new groups or cultures, make sure they are unique.
+# If adding new groups or cultures make sure they are unique.
 #
 # Union tags do not suffer from the 'same_culture_group' tax penalty.
 # Primary tags are the first choice for rebel factions seeking cultural independence.
@@ -29,5 +29,63 @@ blue_roman = {
 		"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergüi" "Lkhagvasüren" "Enkhjargal" 
 		"Ganzorig" "Narantsetseg" "Pürevsüren" "Ganbaatar" "Mönkhtsetseg" "Mönkhbat" "Mönkh-Erdene" 
 		"Jalair" "Sartuul" "Olkhunut" "Khatagin" "Iljigin" "Tsookhor" "Qarakhanid"
+	}
+}
+west_turkic = {
+	khazar = {
+		primary = KHZ
+		dynasty_names = {
+			Shamkhal Kumukh
+		}
+		male_names = {
+			Alp Baghatur Balgitzi Belgichi Bälgichi Balghichi Barjik Bashtu Bashtwa
+			Bihor Biheros Bihar Virhor Bugha Bulan Bulchan Buljan Buzer Busir Bazir
+			Chat "Chat`n" Chorpan Gluchan Itakh Kayghalagh Kayqalagh Khatir Khadir Qadir
+			Khuterkin Quterkin Kisa Kundajiq Kundaj16 Mänär Mänäs Ötemish Papatzys Samsam Simsam
+			Tarkhan Tarmach Tuzniq Yilig Ilig Ziebil Yabghu Jebghu Aharon Aaron Amram
+			Avraham Abraham Benyamin Hanukkah Hezekiah Menakhem Menahem Menashe Nisi Nissi
+			Obadiah Ovadiah Pesakh Pesah Reuven Reuben Sabriel Shmuel Simson Sinai Yaakov
+			Yehudah Yitzhak Yosef Zebulun Zavulon Zechariah Zachariah Zecharias
+		}
+		female_names = {
+			Chichek Chichäk Tzitzak Khatun Parsbit Barsbek Serakh Serah			
+		}
+	}
+	west_uyghur = {
+		male_names = {
+			Alghu Bayan Quli Buqa Temür Buzan 
+			Changshi Danishmendji Dost Dughlat Duwa Eljigidey Esen Buqa Ilbars Ilyas 
+			Khizr Könchek Mansur Amin Naqsh-i-Jahan 
+			Hulagu Qazaghan Qazan Satuq Shams-i-Jahan Sher Soyurghatmish Taliqu 
+			Temür Tughlugh Temür Uwais Yasa'ur Yesu Mongke Yesun Yunus Chagatay Tarmashirin Negübei Qara 
+			Kebek 
+		}
+		female_names = {
+			Sakina Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene "Ibtisam" "Jalila" "Janan" 
+			"Layla" "Sakina" "Sharifa"
+		}
+	}
+	pecheneg = {
+	}
+	kipchak = {
+	}
+	cuman = {
+	}
+	dynasty_names = {
+		Shamkhal Kumukh
+	}
+	male_names = {
+		Alp Baghatur Balgitzi Belgichi Bälgichi Balghichi Barjik Bashtu Bashtwa
+		Bihor Biheros Bihar Virhor Bugha Bulan Bulchan Buljan Buzer Busir Bazir
+		Chat "Chat`n" Chorpan Gluchan Itakh Kayghalagh Kayqalagh Khatir Khadir Qadir
+		Khuterkin Quterkin Kisa Kundajiq Kundaj16 Mänär Mänäs Ötemish Papatzys Samsam Simsam
+		Tarkhan Tarmach Tuzniq Yilig Ilig Ziebil Yabghu Jebghu Aharon Aaron Amram
+		Avraham Abraham Benyamin Hanukkah Hezekiah Menakhem Menahem Menashe Nisi Nissi
+		Obadiah Ovadiah Pesakh Pesah Reuven Reuben Sabriel Shmuel Simson Sinai Yaakov
+		Yehudah Yitzhak Yosef Zebulun Zavulon Zechariah Zachariah Zecharias
+	}
+	female_names = {
+		Chichek Chichäk Tzitzak Khatun Parsbit Barsbek Serakh Serah			
 	}
 }

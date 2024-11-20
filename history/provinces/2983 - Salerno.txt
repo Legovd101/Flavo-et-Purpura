@@ -2,7 +2,7 @@
 owner = BUL
 controller = BUL
 culture = salernian
-religion = catholic
+religion = west_orthodox
 base_tax = 5
 base_production = 1
 trade_goods = fish

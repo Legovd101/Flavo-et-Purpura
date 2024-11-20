@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = early_romylian
-religion = orthodox
+religion = manichaean
 capital = "Sofia"
 trade_goods = iron
 base_tax = 4

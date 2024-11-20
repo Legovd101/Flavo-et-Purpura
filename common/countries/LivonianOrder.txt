@@ -85,13 +85,10 @@ monarch_names = {
 }
 leader_names = { 
 	"von Altenbockum" Ascheberg "von Bach" Behr Bilderling Blomberg "von Boetticher" Borch Brincken Brüggen
-	Buchholtz Derschau Drachenfels Düsterlohe Engelhardt
-	Fircks Fölkersam Funck Grotthuss
-	Haaren Hahn Heyking "von Hoerner" Howen Kleist Klopmann Komorowski Koskull Lambsdorff
-	"von der Launitz" "von Lysander" Mirbach
-	Nettelhorst Nolcken Oelsen Offenberg Osten-Sacken Pahlen
-	Raczynski Recke Ropp Rosenberg "von Rummel" Schlippenbach "von Schroeders" Seefeld Stackelberg Stromberg
-	Taube "von Timroth" 
+	Buchholtz Derschau Drachenfels Düsterlohe Engelhardt Fircks Fölkersam Funck Grotthuss Haaren
+	Hahn Heyking "von Hoerner" Howen Kleist Klopmann Komorowski Koskull Lambsdorff "von der Launitz"
+	"von Lysander" Mirbach Nettelhorst Nolcken Oelsen Offenberg Osten-Sacken Pahlen Raczynski Recke
+	Ropp Rosenberg "von Rummel" Schlippenbach "von Schroeders" Seefeld Stackelberg Stromberg Taube "von Timroth"
 }
 ship_names = { 
 	Blumentopf Dame "Das Wappen der Herzogin von Kurland" "Drei Heringe" Hoffnung Krokodil "Lynn kurländische Möwe" Düna Aa Bruno

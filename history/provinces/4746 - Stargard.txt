@@ -2,7 +2,7 @@
 owner = POM
 controller = POM
 culture = pommeranian
-religion = catholic
+religion = arianism
 hre = yes
 base_tax = 3
 base_production = 3

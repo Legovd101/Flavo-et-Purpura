@@ -2,7 +2,7 @@
 capital = "Arvidsjaur"
 add_core = SMI
 culture = sapmi
-religion = catholic
+religion = arianism
 base_tax = 1
 base_production = 1
 trade_goods = unknown

@@ -1,6 +1,6 @@
 #4060 - Kikuyu
 culture = bantu#thagiicu
-religion = shamanism#Fetishism
+religion = swahili_pagan#Fetishism
 trade_goods = unknown
 base_tax = 1
 base_production = 1

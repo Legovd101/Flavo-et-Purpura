@@ -2,7 +2,7 @@
 owner = TRS
 controller = TRS
 culture = bactrian
-religion = sunni
+religion = manichaean
 capital = "Khujand"
 trade_goods = silk
 base_tax = 2

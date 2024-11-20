@@ -2,7 +2,7 @@
 owner = KBO
 controller = KBO
 culture = tuareg
-religion = sunni
+religion = chad_pagan
 capital = "Mashina"
 is_city = yes
 base_manpower = 1

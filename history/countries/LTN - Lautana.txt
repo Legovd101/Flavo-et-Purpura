@@ -3,3 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 capital = 350
+religion = mauri_pagan
+primary_culture = lautana

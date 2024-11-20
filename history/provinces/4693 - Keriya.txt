@@ -2,7 +2,7 @@
 owner = LDK
 controller = LDK
 culture = uyghur
-religion = sunni
+religion = manichaean
 capital = "Keriya"
 trade_goods = wool
 base_tax = 2

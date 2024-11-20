@@ -2,7 +2,7 @@
 owner = BEI
 controller = BEI
 culture = bornean
-religion = sunni
+religion = hinduism
 capital = "Brunei"
 trade_goods = spices
 base_tax = 5

@@ -1,6 +1,6 @@
 #1228 - Dongola
 culture = nubian
-religion = shiite
+religion = coptic
 capital = "Dunqula"
 owner = ETH
 controller = ETH

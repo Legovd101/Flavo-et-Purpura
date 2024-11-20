@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = rhoman
-religion = sunni
+religion = orthodox
 capital = "Bursa"
 trade_goods = silk
 base_tax = 5

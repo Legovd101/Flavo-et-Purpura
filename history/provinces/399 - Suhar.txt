@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = old_omani
-religion = ibadi
+religion = manichaean
 capital = "Suhar"
 trade_goods = grain#And pearls
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = KRC
 controller = KRC
 culture = uyghur
-religion = sunni
+religion = manichaean
 capital = "Kuqa"
 trade_goods = gold
 base_tax = 2

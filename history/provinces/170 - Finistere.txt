@@ -1,10 +1,10 @@
 # 170 Finistère - Principal cities: Brest
-owner = AMG
-controller = AMG
+owner = BRI
+controller = BRI
 capital = "Brest"
 is_city = yes
 culture = armorican
-religion = catholic
+religion = lutetian
 base_tax = 3
 base_production = 3
 trade_goods = naval_supplies
@@ -15,5 +15,5 @@ discovered_by = muslim
 discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
-add_core = AMG
+add_core = BRI
 fort_15th = yes

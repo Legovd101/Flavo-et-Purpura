@@ -2,7 +2,7 @@
 owner = LUS
 controller = LUS
 culture = lusitanian
-religion = catholic
+religion = arianism
 capital = "Porto"
 trade_goods = wine
 base_tax = 7

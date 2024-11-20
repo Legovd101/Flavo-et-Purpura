@@ -1,6 +1,6 @@
 #1164 - Cameroon
 culture = sawabantu
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Cameroon"
 trade_goods = unknown
 base_tax = 1

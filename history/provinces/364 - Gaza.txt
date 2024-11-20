@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = levantine_greek
-religion = sunni
+religion = coptic
 capital = "Gazzah"
 trade_goods = salt
 base_tax = 3

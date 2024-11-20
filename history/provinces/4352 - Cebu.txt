@@ -3,7 +3,7 @@ latent_trade_goods = {
 	coal 
 }
 culture = filipino
-religion = hinduism
+religion = animism
 capital = "Cebu"
 trade_goods = gems#Pearls
 base_tax = 2

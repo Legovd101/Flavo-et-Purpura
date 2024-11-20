@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = korean
-religion = confucianism
+religion = mahayana
 capital = "Naju"
 trade_goods = paper#And Silk
 base_tax = 3

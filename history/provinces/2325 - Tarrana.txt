@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = egyptian_greek
-religion = sunni
+religion = coptic
 capital = "Marsa Matruh"
 trade_goods = fish
 base_tax = 1

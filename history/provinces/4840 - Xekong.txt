@@ -1,7 +1,7 @@
 owner = KHM
 controller = KHM
 culture = lao
-religion = animism
+religion = buddhism
 capital = "Xekong"
 trade_goods = ivory
 base_tax = 2

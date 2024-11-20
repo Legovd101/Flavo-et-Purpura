@@ -2,7 +2,7 @@
 owner = BAE
 controller = BAE
 culture = baetican
-religion = catholic
+religion = west_orthodox
 capital = "Beja"
 trade_goods = livestock
 base_tax = 3

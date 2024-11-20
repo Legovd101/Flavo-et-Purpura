@@ -2,7 +2,7 @@
 owner = FZA
 controller = FZA
 culture = garamantian
-religion = sunni
+religion = mauri_pagan
 capital = "Hun"
 trade_goods = livestock
 base_tax = 1

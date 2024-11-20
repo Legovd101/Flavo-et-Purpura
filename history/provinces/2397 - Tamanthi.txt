@@ -2,7 +2,7 @@
 owner = BPR
 controller = BPR
 culture = shan
-religion = animism
+religion = buddhism
 capital = "Tamanthi"
 trade_goods = tea
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = DAI
 controller = DAI
 culture = vietnamese
-religion = mahayana
+religion = confucianism
 capital = "Ha Tinh"
 trade_goods = fish
 base_tax = 5

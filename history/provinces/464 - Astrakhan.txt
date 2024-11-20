@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = astrakhani
-religion = sunni
+religion = manichaean
 capital = "Hajitarkhan"
 trade_goods = wool
 base_tax = 5

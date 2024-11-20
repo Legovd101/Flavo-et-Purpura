@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = saxon
-religion = catholic
+religion = arianism
 technology_group = western
 capital = 1876# Weimar
 1349.1.1 = { 
@@ -193,8 +193,7 @@ capital = 1876# Weimar
 		mil = 2
 	}
 }
-1547.5.19 = { elector = no capital = 63 } # Capitulation of Wittenberg
-#Saxe-Weimar branch
+1547.5.19 = { elector = no capital = 63 } #Saxe-Weimar branch
 1554.3.3 = { 
 	monarch = { 
 		name = "Johann Wilhelm I"

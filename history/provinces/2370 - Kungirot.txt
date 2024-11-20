@@ -1,8 +1,8 @@
 # 2370 - Kungirot
 owner = GLH
 controller = GLH
-culture = nogaybak
-religion = sunni
+culture = pecheneg
+religion = zoroastrian
 capital = "Kungirot"
 trade_goods = livestock
 base_tax = 1

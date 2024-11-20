@@ -1,12 +1,8 @@
 #Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
 color = { 172 148 96 }
-
 revolutionary_colors = { 13 14 0 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	defensive_ideas
 	maritime_ideas
 	religious_ideas
@@ -16,8 +12,7 @@ historical_idea_groups = {
 	spy_ideas
 	diplomatic_ideas
 }
-
-historical_units = {
+historical_units = { 
 	persian_footsoldier
 	persian_cavalry_charge
 	persian_shamshir
@@ -30,8 +25,7 @@ historical_units = {
 	muslim_dragoon
 	persian_rifle
 }
-
-monarch_names = {
+monarch_names = { 
 	"Isma'il #0" = 10
 	"Saladin Ahmad #0" = 10
 	"'Abdallah #0" = 10
@@ -48,7 +42,6 @@ monarch_names = {
 	"al-Husayn #0" = 10
 	"al-'Abbâs #0" = 10
 	"Abdallah #0" = 10
-	
 	"Hiba #0" = -1
 	"Fatimah #0" = -1
 	"Walida #0" = -1
@@ -70,8 +63,7 @@ monarch_names = {
 	"Norah #0" = -1
 	"Fahda #0" = -1
 }
-
-leader_names = {
+leader_names = { 
 	Ali
 	Ibrahim
 	Issa
@@ -83,11 +75,7 @@ leader_names = {
 	Saleh
 	Saab
 }
-
-ship_names = {
-	"Ali ibn Rasul" "Mansur Umar" Zaizz Zabid
-	"Muzaffar Yusuf" "Malik al-Mujahid" 
-	"Shaykh Uthman" "Al-Kawd" Whaqra "Wadi Bana"
-	Ta'izz "At-Tubah" Dhubab "Jabal Kharaz" Musaymir
-	Mawiyah "Jabal al-Hasha" Ibb Qa'tabah "Jabal Thamar"
+ship_names = { 
+	"Ali ibn Rasul" "Mansur Umar" Zaizz Zabid "Muzaffar Yusuf" "Malik al-Mujahid" "Shaykh Uthman" "Al-Kawd" Whaqra "Wadi Bana"
+	Ta'izz "At-Tubah" Dhubab "Jabal Kharaz" Musaymir Mawiyah "Jabal al-Hasha" Ibb Qa'tabah "Jabal Thamar"
 }

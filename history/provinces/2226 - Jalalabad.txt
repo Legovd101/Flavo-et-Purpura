@@ -2,7 +2,7 @@
 owner = AFG
 controller = AFG
 culture = sogdian
-religion = sunni
+religion = manichaean
 capital = "Jalalabad"
 trade_goods = livestock
 base_tax = 4

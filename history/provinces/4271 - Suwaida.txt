@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = ghassanid
-religion = shiite
+religion = orthodox
 capital = "As-Suwayda"
 trade_goods = livestock
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = RAS#Tahirids
 controller = RAS#Tahirids
 culture = yemeni
-religion = shiite
+religion = arab_pagan
 capital = "Beihan"
 trade_goods = livestock
 base_tax = 2

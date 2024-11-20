@@ -1,6 +1,6 @@
 #640 - Pontianak
 culture = bornean
-religion = hinduism
+religion = buddhism
 capital = "Pontianak"
 trade_goods = unknown
 base_tax = 3

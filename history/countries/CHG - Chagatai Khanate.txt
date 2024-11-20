@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = steppe_horde
 primary_culture = kirgiz
-religion = sunni
+religion = manichaean
 technology_group = nomad_group
 capital = 2125
 religious_school = hanafi_school

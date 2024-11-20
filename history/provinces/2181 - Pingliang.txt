@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = xibei
-religion = confucianism
+religion = nestorian
 capital = "Pingliang"
 trade_goods = livestock
 base_tax = 2

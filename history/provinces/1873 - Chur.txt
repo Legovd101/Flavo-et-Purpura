@@ -2,7 +2,7 @@
 owner = VRN
 controller = VRN
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "Chur"
 trade_goods = livestock
 hre = yes

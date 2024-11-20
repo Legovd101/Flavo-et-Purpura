@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = syriac
-religion = sunni
+religion = manichaean
 capital = "Mardin"
 trade_goods = wool
 base_tax = 2

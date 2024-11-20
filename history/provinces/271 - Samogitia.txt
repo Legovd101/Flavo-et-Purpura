@@ -2,7 +2,7 @@
 owner = PRU
 controller = PRU
 culture = lithuanian
-religion = catholic
+religion = orthodox
 capital = "Varniai"
 trade_goods = livestock
 base_tax = 2

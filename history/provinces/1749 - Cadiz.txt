@@ -2,7 +2,7 @@
 owner = BAE#Enrique III of Castille
 controller = BAE
 culture = baetican
-religion = catholic
+religion = arianism
 base_tax = 5
 base_production = 4
 trade_goods = naval_supplies

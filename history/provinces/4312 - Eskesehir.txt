@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = rhoman
-religion = sunni
+religion = orthodox
 capital = "Eskisehir"
 trade_goods = cloth
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = PER
 controller = PER#Local Badawin in control
 culture = al_misr_arabic
-religion = sunni
+religion = coptic
 capital = "el Qasr"
 is_city = yes
 base_manpower = 2

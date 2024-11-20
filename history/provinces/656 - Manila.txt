@@ -1,6 +1,6 @@
 #656 - Manila
 culture = filipino
-religion = animism#Mixed with Islam
+religion = confucianism#Mixed with Islam
 capital = "Manila"
 trade_goods = chinaware#Imported via Tondo, exported to the Archipelago from Manila.
 base_tax = 5

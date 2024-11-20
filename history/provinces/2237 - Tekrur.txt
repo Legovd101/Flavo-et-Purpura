@@ -1,6 +1,6 @@
 # No previous file for Tekrur
 culture = fulani
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Tekrur"
 trade_goods = unknown
 base_tax = 3

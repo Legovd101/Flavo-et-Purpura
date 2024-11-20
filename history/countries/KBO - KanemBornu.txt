@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+religion = chad_pagan
+primary_culture = kanuri
+capital = 1157 # Gatiga, Gazargamu
+historical_rival = YAO
+#Sultans

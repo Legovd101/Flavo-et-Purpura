@@ -1,6 +1,6 @@
 #4041 - Kinga
 culture = bena
-religion = shamanism#Fetishism
+religion = swahili_pagan#Fetishism
 trade_goods = unknown
 base_tax = 1
 base_production = 1

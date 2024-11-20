@@ -1,6 +1,6 @@
 #1141 - Whydah
 culture = fon
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Whydah"
 trade_goods = unknown
 base_tax = 1

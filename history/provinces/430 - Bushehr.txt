@@ -2,7 +2,7 @@
 owner = UZI
 controller = UZI
 culture = persian_babylonian
-religion = shiite
+religion = zoroastrian
 capital = "Bushehr"
 trade_goods = silk
 base_tax = 3

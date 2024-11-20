@@ -1,6 +1,6 @@
 # No previous file for Qumarkaj
-owner = KIC
-controller = KIC
+owner = KAQ
+controller = KAQ
 culture = highland_mayan
 religion = mesoamerican_religion
 capital = "Qumarkaj"
@@ -9,8 +9,8 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = KIC
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
 discovered_by = mesoamerican
+add_core = KAQ

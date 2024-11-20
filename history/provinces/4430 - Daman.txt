@@ -2,7 +2,7 @@
 owner = YDV
 controller = YDV
 culture = marathi
-religion = zoroastrian
+religion = hinduism
 capital = "Daman"
 trade_goods = cloth
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = KHZ
 controller = KHZ
 culture = khazar
-religion = sunni
+religion = jewish
 capital = "Kumukh"
 trade_goods = iron
 base_tax = 3

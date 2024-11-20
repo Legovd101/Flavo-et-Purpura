@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = nogaybak
-religion = sunni
+religion = manichaean
 capital = "Bayuly"
 trade_goods = livestock
 base_tax = 2

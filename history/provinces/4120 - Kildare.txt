@@ -2,7 +2,7 @@
 owner = IRE
 controller = IRE
 culture = hibernian
-religion = catholic
+religion = lutetian
 base_tax = 3
 base_production = 3
 trade_goods = grain

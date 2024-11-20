@@ -1,8 +1,8 @@
 # 2357 - Aksary
 owner = GLH
 controller = GLH
-culture = khazak
-religion = sunni
+culture = kipchak
+religion = manichaean
 capital = "Aksary"
 trade_goods = naval_supplies
 base_tax = 1

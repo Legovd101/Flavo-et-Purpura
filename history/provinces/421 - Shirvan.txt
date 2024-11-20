@@ -2,7 +2,7 @@
 owner = SRV
 controller = SRV
 culture = persian_caspian
-religion = sunni
+religion = zoroastrian
 capital = "Baku"
 trade_goods = silk#And Salt and Petroleum
 base_tax = 3

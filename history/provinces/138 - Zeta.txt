@@ -2,7 +2,7 @@
 owner = MON
 controller = MON
 culture = serbian
-religion = orthodox
+religion = manichaean
 capital = "Zabljak"
 trade_goods = livestock
 base_tax = 2

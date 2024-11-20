@@ -1,8 +1,8 @@
 #303 - Saratow
 owner = GLH
 controller = GLH
-culture = mishary
-religion = sunni
+culture = cuman
+religion = manichaean
 base_tax = 4
 base_production = 4
 trade_goods = livestock

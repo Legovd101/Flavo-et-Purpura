@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = shiite
+religion = manichaean
 capital = "Karbala"
 trade_goods = wool
 base_tax = 2

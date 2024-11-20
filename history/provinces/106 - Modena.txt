@@ -2,7 +2,7 @@
 owner = BUL
 controller = BUL
 culture = romagnan
-religion = catholic
+religion = arianism
 hre = yes
 base_tax = 5
 base_production = 5

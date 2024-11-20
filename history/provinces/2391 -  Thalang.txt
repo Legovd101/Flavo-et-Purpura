@@ -2,7 +2,7 @@
 owner = SUK
 controller = SUK
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Thalang"
 trade_goods = fish
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = avar
-religion = orthodox
+religion = manichaean
 capital = "Turda"
 trade_goods = salt# Famous salt mines
 base_tax = 2

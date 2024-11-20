@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = lutetian
 capital = "Oujda"
 trade_goods = wool
 base_tax = 3

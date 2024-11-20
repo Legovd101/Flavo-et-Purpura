@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = early_romylian
-religion = catholic
+religion = orthodox
 capital = "Temesvár"
 trade_goods = wool
 base_tax = 3

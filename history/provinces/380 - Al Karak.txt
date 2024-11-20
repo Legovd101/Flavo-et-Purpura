@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = ghassanid
-religion = sunni
+religion = orthodox
 capital = "Al Karak"
 trade_goods = grain
 base_tax = 1

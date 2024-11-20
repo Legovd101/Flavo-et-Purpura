@@ -2,7 +2,7 @@
 owner = MHR
 controller = MHR
 culture = old_mahri
-religion = sunni
+religion = arab_pagan
 capital = "Salalah"
 trade_goods = incense
 base_tax = 1

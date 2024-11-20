@@ -4,8 +4,8 @@ latent_trade_goods = {
 }
 owner = GLH
 controller = GLH
-culture = crimean
-religion = sunni
+culture = west_uyghur
+religion = manichaean
 base_tax = 3
 base_production = 3
 trade_goods = livestock

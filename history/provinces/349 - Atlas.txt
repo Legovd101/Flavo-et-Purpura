@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = west_orthodox
 capital = "Figuig"
 trade_goods = livestock
 base_tax = 2

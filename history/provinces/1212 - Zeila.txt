@@ -2,7 +2,7 @@
 owner = AFA
 controller = AFA
 culture = somali# issa
-religion = sunni
+religion = arab_pagan
 capital = "Zayla"
 is_city = yes
 trade_goods = incense

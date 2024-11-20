@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = sunni
+religion = manichaean
 capital = "Grane"#old name for Kuwait
 trade_goods = fish
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = ILK# Babur Ibn-Baysunkur
 controller = ILK
 culture = persian_caspian
-religion = shiite
+religion = manichaean
 capital = "Asatarabad"
 trade_goods = tea
 base_tax = 2

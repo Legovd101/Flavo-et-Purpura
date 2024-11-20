@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = khazak
-religion = sunni
+religion = manichaean
 capital = "Dzhaman-Kuduk"
 trade_goods = grain
 base_tax = 1

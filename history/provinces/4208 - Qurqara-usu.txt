@@ -2,7 +2,7 @@
 owner = KRC# ruled by a Chagataiid 
 controller = KRC
 culture = uyghur
-religion = sunni
+religion = manichaean
 capital = "Balikul"
 trade_goods = grain
 base_tax = 2

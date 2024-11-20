@@ -2,7 +2,7 @@
 owner = BLU# Part of the Bosnian kingdom
 controller = BLU
 culture = bosnian
-religion = catholic
+religion = orthodox
 capital = "Jajce"
 trade_goods = livestock
 base_tax = 2

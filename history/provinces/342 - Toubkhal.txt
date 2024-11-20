@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = lutetian
 capital = "Rabat"
 trade_goods = grain
 base_tax = 4

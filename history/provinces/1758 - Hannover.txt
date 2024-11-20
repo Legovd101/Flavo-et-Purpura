@@ -2,7 +2,7 @@
 owner = FRI
 controller = FRI
 culture = lower_saxon
-religion = catholic
+religion = arianism
 capital = "Hannover"
 trade_goods = cloth
 hre = yes

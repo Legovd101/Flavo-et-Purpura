@@ -2,7 +2,7 @@
 owner = KHM
 controller = KHM
 culture = cham
-religion = animism
+religion = hinduism
 capital = "Tay Nguyen"
 trade_goods = tea
 base_tax = 2

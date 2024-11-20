@@ -2,7 +2,7 @@
 owner = TIB
 controller = TIB
 culture = oirats
-religion = vajrayana
+religion = nestorian
 capital = "Anding"
 trade_goods = livestock
 base_tax = 1

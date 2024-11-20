@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = highland_scottish
-religion = catholic
+religion = arianism
 technology_group = western
 capital = 1978# inner hebrides
 government_rank = 1

@@ -1,10 +1,10 @@
 # 171 - Vannetais
-owner = AMG
-controller = AMG
+owner = BRI
+controller = BRI
 capital = "Vannes"
 is_city = yes
 culture = armorican
-religion = catholic
+religion = lutetian
 base_tax = 3
 base_production = 3
 trade_goods = fish
@@ -13,4 +13,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = AMG
+add_core = BRI

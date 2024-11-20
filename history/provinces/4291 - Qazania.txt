@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = persian_assyrian
-religion = sunni
+religion = nestorian
 capital = "Qazaniya"
 trade_goods = cotton
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Perak"
 trade_goods = copper
 base_tax = 5

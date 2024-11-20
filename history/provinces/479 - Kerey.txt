@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = khazak
-religion = sunni
+religion = manichaean
 capital = "Kerey"
 trade_goods = copper
 base_tax = 2

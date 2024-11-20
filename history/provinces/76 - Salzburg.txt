@@ -2,7 +2,7 @@
 owner = AQU
 controller = AQU
 culture = bavarian
-religion = catholic
+religion = arianism
 capital = "Salzburg"
 trade_goods = salt
 hre = yes

@@ -2,7 +2,7 @@
 owner = ETH
 controller = ETH
 culture = nubian
-religion = coptic
+religion = waaqeffanna
 capital = "Sennar"
 is_city = yes
 trade_goods = livestock

@@ -2,7 +2,7 @@
 owner = KHM
 controller = KHM
 culture = cham
-religion = hinduism
+religion = buddhism
 capital = "Panduranga"
 trade_goods = fish
 base_tax = 4

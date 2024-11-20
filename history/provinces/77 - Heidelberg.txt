@@ -1,7 +1,7 @@
 #77 - Heidelberg
 capital = "Heidelberg"
 culture = hessian
-religion = catholic
+religion = arianism
 trade_goods = wine
 owner = THU
 base_tax = 5

@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = gutian
-religion = sunni
+religion = nestorian
 capital = "Arbil"
 trade_goods = cloth
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = KRY
 controller = KRY
 culture = sogdian
-religion = sunni
+religion = manichaean
 capital = "Munjan"
 trade_goods = gems#Rubies, Saphires
 base_tax = 1

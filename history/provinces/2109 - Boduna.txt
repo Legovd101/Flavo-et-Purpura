@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 culture = chahar
-religion = vajrayana
+religion = tengri_pagan_reformed
 capital = "Boduna"
 trade_goods = iron
 base_tax = 3

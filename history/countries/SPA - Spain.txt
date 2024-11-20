@@ -1,11 +1,11 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = castillian
+primary_culture = strait_greek
 add_accepted_culture = sicilian
 add_accepted_culture = leonese
 add_accepted_culture = neapolitan
 add_accepted_culture = wallonian
-religion = catholic
+religion = west_orthodox
 technology_group = western
 historical_friend = POR
 capital = 221# Toledo

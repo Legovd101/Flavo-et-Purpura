@@ -2,7 +2,7 @@
 owner = CND
 controller = CND
 culture = euxine
-religion = sunni
+religion = orthodox
 capital = "Kangiri"
 trade_goods = wool
 base_tax = 2

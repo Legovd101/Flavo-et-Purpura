@@ -2,7 +2,7 @@
 capital = "Jokkmokk"
 culture = sapmi
 add_core = SMI
-religion = catholic
+religion = finnish_pagan
 base_tax = 1
 base_production = 1
 trade_goods = unknown

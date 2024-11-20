@@ -1,6 +1,6 @@
 #366 - The Canarias
-culture = berber
-religion = animism
+culture = gaetuli
+religion = mauri_pagan
 capital = "Las Palmas"
 trade_goods = unknown
 base_tax = 3

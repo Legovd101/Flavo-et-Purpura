@@ -52,10 +52,9 @@ leader_names = {
 	Çerkes Civan Çuhadar Damad Dervis Defterdar Gedik Gazi Gümülcineli Gürcü
 	Hadim Hekimoglu Hersekli Köprülü Kemal Küçük Koca Karamanli Köse Kara
 	Kanijeli Kemankes Kaymak Kavalali Ishak Izzed Lala Lefkeli Malkoç Müezzinzade
-	Nevsehirli Nisanci Oruç Uluç Osmancikli Ohrili Oflu Rumi
-	Piri Pargali Piyale Pehlivan Salih Sokullu Sari Silahdar Semiz Serdar
-	Topal Tayyar Turgut Tarhuncu Veli
-	Yemisçi
+	Nevsehirli Nisanci Oruç Uluç Osmancikli Ohrili Oflu Rumi Piri Pargali
+	Piyale Pehlivan Salih Sokullu Sari Silahdar Semiz Serdar Topal Tayyar
+	Turgut Tarhuncu Veli Yemisçi 
 }
 ship_names = { 
 	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek Mut Gülnar Mer Silifke Cilicia Larande

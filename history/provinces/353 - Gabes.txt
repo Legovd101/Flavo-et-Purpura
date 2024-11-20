@@ -2,7 +2,7 @@
 owner = MSL
 controller = MSL
 culture = garamantian
-religion = sunni
+religion = west_orthodox
 capital = "Tataouine"
 trade_goods = grain
 base_tax = 1

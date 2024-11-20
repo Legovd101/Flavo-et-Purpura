@@ -1,6 +1,6 @@
 #1220 - Dar Ja'al
 culture = nubian
-religion = sunni
+religion = coptic
 capital = "Bayuda"
 owner = ETH
 controller = ETH

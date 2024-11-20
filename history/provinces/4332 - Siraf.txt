@@ -2,7 +2,7 @@
 owner = FRS
 controller = FRS
 culture = farsi
-religion = shiite
+religion = zoroastrian
 capital = "Siraf"
 trade_goods = spices
 base_tax = 1

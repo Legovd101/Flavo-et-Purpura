@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = sogdian
-religion = shiite
+religion = manichaean
 capital = "Bamyan"
 trade_goods = dyes
 base_tax = 2

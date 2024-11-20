@@ -2,7 +2,7 @@
 owner = FZA
 controller = FZA
 culture = garamantian
-religion = ibadi
+religion = west_orthodox
 capital = "Zuwarah"
 trade_goods = fish
 base_tax = 1

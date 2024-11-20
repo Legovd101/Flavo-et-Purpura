@@ -2,7 +2,7 @@
 owner = SYP
 controller = SYP
 culture = massylian
-religion = sunni
+religion = west_orthodox
 capital = "Medea"
 trade_goods = grain
 base_tax = 1

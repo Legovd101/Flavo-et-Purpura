@@ -2,7 +2,7 @@
 owner = DAI
 controller = DAI
 culture = vietnamese
-religion = mahayana
+religion = confucianism
 capital = "Thanh Hoa"
 trade_goods = grain
 base_tax = 7

@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = roman_cappadocian
-religion = sunni
+religion = west_orthodox
 capital = "Adalia"
 trade_goods = cotton
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = cyrtian
-religion = sunni
+religion = zoroastrian
 capital = "Khoy"
 trade_goods = wool
 base_tax = 2

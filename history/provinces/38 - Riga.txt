@@ -2,7 +2,7 @@
 owner = EST
 controller = EST
 culture = estonian
-religion = catholic
+religion = orthodox
 base_tax = 5
 base_production = 5
 trade_goods = naval_supplies

@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = shiite
+religion = manichaean
 capital = "Manama"
 trade_goods = gems#Pearls
 base_tax = 1

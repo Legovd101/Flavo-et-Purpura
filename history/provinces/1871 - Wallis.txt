@@ -2,7 +2,7 @@
 owner = BUR
 controller = BUR
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "Sion"
 trade_goods = livestock
 hre = yes

@@ -2,7 +2,7 @@
 owner = SAV
 controller = SAV
 culture = piedmontese
-religion = catholic
+religion = arianism
 hre = yes
 base_tax = 7
 base_production = 7

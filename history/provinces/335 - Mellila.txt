@@ -2,7 +2,7 @@
 owner = SPA
 controller = SPA
 culture = gaetuli
-religion = sunni
+religion = west_orthodox
 capital = "Melilla"
 trade_goods = fish
 base_tax = 3

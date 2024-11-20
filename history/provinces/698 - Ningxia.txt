@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = mongol
-religion = confucianism
+religion = nestorian
 capital = "Ningxia"
 trade_goods = salt
 base_tax = 3

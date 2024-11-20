@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = shiite
+religion = manichaean
 capital = "Sila"
 trade_goods = fish
 base_tax = 1

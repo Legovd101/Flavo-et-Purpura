@@ -1,8 +1,8 @@
 #468 - Khazaria
 owner = GLH
 controller = GLH
-culture = astrakhani
-religion = sunni
+culture = khazar
+religion = manichaean
 capital = "Cherny Yar"
 trade_goods = livestock
 base_tax = 2

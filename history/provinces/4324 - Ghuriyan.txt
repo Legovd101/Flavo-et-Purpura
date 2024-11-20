@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = margianan
-religion = sunni
+religion = manichaean
 capital = "Ghuriyan"
 trade_goods = livestock
 base_tax = 1

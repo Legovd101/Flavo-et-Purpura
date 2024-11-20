@@ -1,6 +1,6 @@
 #651 - Sulu
 culture = filipino
-religion = sunni
+religion = animism
 capital = "Jolo"
 trade_goods = unknown
 base_tax = 4

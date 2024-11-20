@@ -2,7 +2,7 @@
 owner = CHH
 controller = CHH
 culture = oirats
-religion = vajrayana
+religion = nestorian
 capital = "Yumen"
 trade_goods = livestock
 base_tax = 2

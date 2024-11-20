@@ -2,7 +2,7 @@
 owner = GEN
 controller = GEN
 culture = sardinian
-religion = catholic
+religion = lutetian
 capital = "Bastia"
 hre = yes
 base_tax = 3

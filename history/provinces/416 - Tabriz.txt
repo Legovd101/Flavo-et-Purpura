@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = cyrtian
-religion = shiite
+religion = manichaean
 capital = "Tabriz"
 trade_goods = silk
 base_tax = 7

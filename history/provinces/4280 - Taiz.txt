@@ -2,7 +2,7 @@
 owner = HDR
 controller = HDR
 culture = yemeni
-religion = shiite
+religion = arab_pagan
 capital = "Taiz"
 trade_goods = coffee
 base_tax = 4

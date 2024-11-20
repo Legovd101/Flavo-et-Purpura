@@ -2,7 +2,7 @@
 owner = ANZ
 controller = ANZ
 culture = perso_levantine
-religion = sunni
+religion = orthodox
 capital = "Aqaba"
 trade_goods = fish
 base_tax = 1

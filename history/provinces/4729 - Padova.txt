@@ -2,7 +2,7 @@
 owner = PDV
 controller = PDV
 culture = venetian
-religion = catholic
+religion = west_orthodox
 base_tax = 4
 base_production = 3
 trade_goods = paper

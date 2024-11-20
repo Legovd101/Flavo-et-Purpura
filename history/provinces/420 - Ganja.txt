@@ -2,7 +2,7 @@
 owner = GEO
 controller = GEO
 culture = cauc_albanian
-religion = shiite
+religion = jewish
 capital = "Ganja"
 trade_goods = cotton
 base_tax = 2

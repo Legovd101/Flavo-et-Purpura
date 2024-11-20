@@ -1,7 +1,7 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 1
-religion = catholic
+religion = arianism
 primary_culture = gallic_greek
 add_accepted_culture = cosmopolitan_french
 technology_group = western

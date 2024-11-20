@@ -2,7 +2,7 @@
 owner = ZNG
 controller = ZNG
 culture = zenata
-religion = sunni
+religion = west_orthodox
 capital = "Tunis"
 trade_goods = cloth
 base_tax = 6

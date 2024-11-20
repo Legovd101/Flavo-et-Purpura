@@ -2,7 +2,7 @@
 owner = ZNG
 controller = ZNG
 culture = african_greek
-religion = ibadi
+religion = west_orthodox
 capital = "Djerba"
 trade_goods = grain
 base_tax = 1

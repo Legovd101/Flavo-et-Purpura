@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = bornean
-religion = sunni
+religion = hinduism
 capital = "Sibu"
 trade_goods = spices
 base_tax = 4

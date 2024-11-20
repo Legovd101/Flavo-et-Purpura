@@ -2,7 +2,7 @@
 owner = OMA
 controller = OMA
 culture = old_omani
-religion = ibadi
+religion = manichaean
 capital = "Ibra"
 trade_goods = grain
 base_tax = 2

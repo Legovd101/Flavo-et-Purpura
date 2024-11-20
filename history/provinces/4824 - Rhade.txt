@@ -2,7 +2,7 @@
 owner = KHM
 controller = KHM
 culture = cham
-religion = animism
+religion = hinduism
 capital = "Rhade"
 trade_goods = copper
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = DAM
 controller = DAM
 culture = sidamo
-religion = shamanism#Fetishism
+religion = waaqeffanna#Fetishism
 capital = "Gambela"
 is_city = yes
 base_manpower = 1

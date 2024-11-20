@@ -2,7 +2,7 @@
 owner = LDK
 controller = LDK
 culture = tibetan
-religion = vajrayana
+religion = manichaean
 #capital = "Ngari"
 trade_goods = gold
 base_tax = 1

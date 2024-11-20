@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = bactrian
-religion = sunni
+religion = zoroastrian
 capital = "Khiva"
 trade_goods = wool
 base_tax = 3

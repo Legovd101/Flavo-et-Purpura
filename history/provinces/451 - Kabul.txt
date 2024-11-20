@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = sogdian
-religion = sunni
+religion = manichaean
 capital = "Kabul"
 trade_goods = gems#Emeralds
 base_tax = 4

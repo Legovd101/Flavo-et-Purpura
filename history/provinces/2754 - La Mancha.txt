@@ -2,7 +2,7 @@
 owner = BAE#Juan II of Castille
 controller = BAE
 culture = toledan
-religion = catholic
+religion = arianism
 base_tax = 3
 base_production = 3
 trade_goods = gold#Almadén

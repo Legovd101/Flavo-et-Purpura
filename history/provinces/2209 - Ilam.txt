@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = persian_assyrian
-religion = shiite
+religion = manichaean
 capital = "Ilam"
 trade_goods = wool
 base_tax = 2

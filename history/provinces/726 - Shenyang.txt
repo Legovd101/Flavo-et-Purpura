@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 culture = manchu
-religion = confucianism
+religion = tengri_pagan_reformed
 capital = "Shenyang"
 trade_goods = gems#Youyan Jade
 base_tax = 5

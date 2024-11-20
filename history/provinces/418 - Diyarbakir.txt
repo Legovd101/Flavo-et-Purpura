@@ -2,7 +2,7 @@
 owner = KAR
 controller = KAR
 culture = syriac
-religion = sunni
+religion = orthodox
 capital = "Diyar Bekir"
 trade_goods = livestock
 base_tax = 3

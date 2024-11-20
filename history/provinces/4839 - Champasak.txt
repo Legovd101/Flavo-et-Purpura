@@ -1,7 +1,7 @@
 owner = KHM
 controller = KHM
 culture = lao
-religion = animism
+religion = buddhism
 capital = "Champasak"
 trade_goods = tea
 base_tax = 4

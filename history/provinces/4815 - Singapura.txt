@@ -1,7 +1,7 @@
 owner = MSA
 controller = MSA
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Singapura"
 trade_goods = fish
 base_tax = 2

@@ -1,6 +1,6 @@
 #368 - Madeira
-culture = berber
-religion = animism
+culture = gaetuli
+religion = mauri_pagan
 capital = "Funchal"
 trade_goods = unknown
 base_tax = 4

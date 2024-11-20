@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = sumatran
-religion = buddhism
+religion = hinduism
 capital = "Pagarruyung"
 trade_goods = gold
 base_tax = 3

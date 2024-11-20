@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = lullubi
-religion = shiite
+religion = manichaean
 capital = "Marageh"
 trade_goods = wool
 base_tax = 2

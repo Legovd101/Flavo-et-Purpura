@@ -2,7 +2,7 @@
 owner = MSL
 controller = MSL
 culture = massylian
-religion = sunni
+religion = mauri_pagan
 capital = "Biskra"
 trade_goods = wool
 base_tax = 1

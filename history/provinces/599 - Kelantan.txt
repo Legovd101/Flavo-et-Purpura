@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Kelantan"
 trade_goods = naval_supplies
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = lutetian
 capital = "Tafilalt"
 trade_goods = gold
 base_tax = 4

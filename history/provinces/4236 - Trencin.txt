@@ -2,7 +2,7 @@
 owner = AVR
 controller = AVR
 culture = slovak
-religion = catholic
+religion = manichaean
 capital = "Trencin"
 trade_goods = iron
 base_tax = 2

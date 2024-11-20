@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = xibei
-religion = confucianism
+religion = nestorian
 capital = "Hanzhong"
 trade_goods = iron
 base_tax = 4

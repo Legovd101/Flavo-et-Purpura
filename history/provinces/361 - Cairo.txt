@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = al_misr_arabic
-religion = sunni
+religion = manichaean
 capital = "Al Qahira"
 trade_goods = cloth
 base_tax = 9

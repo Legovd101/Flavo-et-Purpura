@@ -1,6 +1,6 @@
 #1119 - Grain Coast
 culture = dyola
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Mesurado"
 trade_goods = unknown#Malaguetta Pepper dominant in early eras
 base_tax = 1

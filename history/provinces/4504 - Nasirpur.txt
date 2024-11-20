@@ -2,7 +2,7 @@
 owner = SND
 controller = SND
 culture = sindhi
-religion = sunni
+religion = manichaean
 capital = "Nasirpur"
 trade_goods = cotton
 base_tax = 3

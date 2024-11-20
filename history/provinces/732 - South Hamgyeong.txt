@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = korean
-religion = confucianism
+religion = mahayana
 trade_goods = fish
 base_tax = 1
 base_production = 1

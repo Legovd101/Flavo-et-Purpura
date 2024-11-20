@@ -2,7 +2,7 @@
 owner = ETH
 controller = ETH
 culture = amhara
-religion = coptic
+religion = waaqeffanna
 capital = "Nekemte"
 is_city = yes
 base_manpower = 2

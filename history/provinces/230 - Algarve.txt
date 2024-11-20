@@ -2,7 +2,7 @@
 owner = SPA
 controller = SPA
 culture = strait_greek
-religion = catholic
+religion = west_orthodox
 capital = "Faro"
 trade_goods = salt
 base_tax = 3

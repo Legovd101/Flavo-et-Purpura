@@ -2,7 +2,7 @@
 owner = IRE
 controller = IRE
 culture = dumnonian
-religion = catholic
+religion = lutetian
 base_tax = 1
 base_production = 1
 trade_goods = copper

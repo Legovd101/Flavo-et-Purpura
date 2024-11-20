@@ -2,7 +2,7 @@
 owner = ZNG
 controller = ZNG
 culture = mauri_sardinian
-religion = catholic
+religion = west_orthodox
 base_tax = 2
 base_production = 2
 trade_goods = grain

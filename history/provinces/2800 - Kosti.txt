@@ -1,6 +1,6 @@
 #2800 - Kosti
 culture = nubian
-religion = shamanism#Fetishism
+religion = waaqeffanna#Fetishism
 capital = "Kosti"
 native_size = 50
 native_ferocity = 4

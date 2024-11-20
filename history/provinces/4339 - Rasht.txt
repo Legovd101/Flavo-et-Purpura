@@ -2,7 +2,7 @@
 owner = SRV
 controller = SRV
 culture = persian_caspian
-religion = sunni
+religion = manichaean
 capital = "Rasht"
 trade_goods = silk
 base_tax = 4

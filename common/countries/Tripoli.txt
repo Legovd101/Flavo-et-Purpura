@@ -76,15 +76,12 @@ monarch_names = {
 }
 leader_names = { 
 	Balina
-	Djordjic Dobrovski Frujin
-	Karposh Konstantin Marinov
-	Peyachevich
+	Djordjic Dobrovski Frujin Karposh Konstantin Marinov Peyachevich
 	Radic Rali Shishman Sorkochovich Strahil Stratimirovich 
 }
 ship_names = { 
 	Alhtpolo
-	Kiten Kraymorie Lozenets
-	Promorsko
+	Kiten Kraymorie Lozenets Promorsko
 	Rezovo
-	Sarafovo Sinemorets Sozopol Varara
+	Sarafovo Sinemorets Sozopol Varara 
 }

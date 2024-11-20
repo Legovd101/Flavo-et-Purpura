@@ -2,7 +2,7 @@
 owner = FRS
 controller = FRS
 culture = farsi
-religion = shiite
+religion = manichaean
 capital = "Saidabad"
 trade_goods = livestock
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = rhoman
-religion = orthodox
+religion = manichaean
 capital = "Edirne"
 trade_goods = cloth
 base_tax = 6

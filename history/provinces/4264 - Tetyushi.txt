@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = kazani
-religion = sunni
+religion = manichaean
 capital = "Tetyushi"
 trade_goods = grain
 base_tax = 2

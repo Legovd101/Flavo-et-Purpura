@@ -2,7 +2,7 @@
 owner = AVR
 controller = AVR
 culture = slovak
-religion = catholic
+religion = orthodox
 capital = "Spiš"
 trade_goods = copper
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = acehnese
-religion = sunni
+religion = hinduism
 capital = "Gayo"
 trade_goods = tropical_wood
 base_tax = 3

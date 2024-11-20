@@ -2,7 +2,7 @@
 owner = LIV
 controller = LIV
 culture = levantine_greek
-religion = sunni
+religion = orthodox
 capital = "Halab"
 trade_goods = silk
 base_tax = 9

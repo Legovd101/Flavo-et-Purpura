@@ -2,7 +2,7 @@
 owner = BUL
 controller = BUL
 culture = molisian
-religion = catholic
+religion = west_orthodox
 base_tax = 2
 base_production = 3
 trade_goods = livestock

@@ -2,7 +2,7 @@
 owner = CRT
 controller = CRT
 culture = rhoman
-religion = orthodox
+religion = west_orthodox
 capital = "Heraklion"
 trade_goods = fish
 base_tax = 5

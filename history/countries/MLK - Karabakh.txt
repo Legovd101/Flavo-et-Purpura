@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = armenian
-religion = coptic
+religion = manichaean
 technology_group = eastern
-capital = 508# Melikates
+capital = 4449# Melikates
 government_rank = 1
 1443.1.1 = { 
 	monarch = { 

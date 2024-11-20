@@ -2,7 +2,7 @@
 owner = SOR
 controller = SOR
 culture = schlesian
-religion = catholic
+religion = orthodox
 capital = "Glogau"
 trade_goods = iron
 hre = yes

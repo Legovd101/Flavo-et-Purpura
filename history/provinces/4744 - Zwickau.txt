@@ -2,7 +2,7 @@
 owner = ANH
 controller = ANH
 culture = saxon
-religion = catholic
+religion = arianism
 hre = yes
 base_tax = 2
 base_production = 3

@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = tibetan
-religion = vajrayana
+religion = nestorian
 capital = "Taozhou"
 trade_goods = chinaware
 base_tax = 2

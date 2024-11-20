@@ -1,8 +1,8 @@
 #2406 - Ingil
 owner = GLH
 controller = GLH
-culture = crimean
-religion = sunni
+culture = west_uyghur
+religion = manichaean
 base_tax = 1
 base_production = 1
 trade_goods = wine

@@ -1,7 +1,7 @@
 #1127 - Tuat
 culture = tuareg
 capital = "Tawat"
-religion = sunni
+religion = mauri_pagan
 trade_goods = unknown
 base_tax = 1
 base_production = 1

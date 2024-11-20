@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = breton
-religion = catholic
+primary_culture = armorican
+religion = lutetian
 technology_group = western
 capital = 171
 1345.9.16 = { 

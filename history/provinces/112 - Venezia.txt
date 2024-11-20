@@ -2,7 +2,7 @@
 owner = VEN
 controller = VEN
 culture = venetian
-religion = catholic
+religion = west_orthodox
 base_tax = 10
 base_production = 12
 trade_goods = glass

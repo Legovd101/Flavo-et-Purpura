@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = roman_cappadocian
-religion = sunni
+religion = orthodox
 capital = "Ankara"
 trade_goods = cloth
 base_tax = 3

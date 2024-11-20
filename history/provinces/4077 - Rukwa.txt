@@ -1,6 +1,6 @@
 #4077 - Rukwa
 culture = bena
-religion = shamanism#Fetishism
+religion = swahili_pagan#Fetishism
 trade_goods = unknown
 base_tax = 2
 base_production = 2

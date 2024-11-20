@@ -2,7 +2,7 @@
 owner = ZNG
 controller = ZNG
 culture = zenata
-religion = catholic
+religion = west_orthodox
 base_tax = 2
 base_production = 3
 trade_goods = fish

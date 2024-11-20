@@ -2,7 +2,7 @@
 owner = BAL
 controller = BAL
 culture = arachoisan
-religion = sunni
+religion = zoroastrian
 capital = "Chabahar"
 trade_goods = fish
 base_tax = 1

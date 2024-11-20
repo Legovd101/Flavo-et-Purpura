@@ -2,7 +2,7 @@
 owner = ENG
 controller = ENG
 culture = angle
-religion = catholic
+religion = arianism
 hre = yes
 base_tax = 7
 base_production = 7

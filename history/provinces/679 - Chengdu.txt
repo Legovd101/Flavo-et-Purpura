@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = sichuanese
-religion = confucianism
+religion = nestorian
 capital = "Chengdu"
 trade_goods = silk
 base_tax = 9

@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = lutetian
 capital = "Marrakech"
 trade_goods = sugar
 base_tax = 5

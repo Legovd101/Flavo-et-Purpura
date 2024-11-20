@@ -2,7 +2,7 @@
 owner = SRV
 controller = SRV
 culture = persian_caspian
-religion = shiite
+religion = zoroastrian
 capital = "Ardabil"
 trade_goods = dyes
 base_tax = 3

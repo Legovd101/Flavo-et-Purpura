@@ -2,7 +2,7 @@
 owner = BUL# Ravenna was seized by Venice in 1441
 controller = BUL
 culture = romagnan
-religion = catholic
+religion = arianism
 base_tax = 4
 base_production = 5
 trade_goods = salt

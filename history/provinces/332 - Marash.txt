@@ -2,7 +2,7 @@
 owner = LIV
 controller = LIV
 culture = roman_cappadocian
-religion = sunni
+religion = orthodox
 capital = "Maras"
 trade_goods = wool
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = PAP
 controller = PAP
 culture = umbrian
-religion = catholic
+religion = west_orthodox
 base_tax = 9
 base_production = 9
 trade_goods = paper

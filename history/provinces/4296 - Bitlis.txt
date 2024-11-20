@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = carduchoi
-religion = sunni
+religion = coptic
 capital = "Bitlis"
 trade_goods = wool
 base_tax = 2

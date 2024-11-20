@@ -2,7 +2,7 @@
 owner = BNG
 controller = BNG
 culture = chin
-religion = animism
+religion = buddhism
 capital = "Imphal"
 trade_goods = cloth
 base_tax = 2

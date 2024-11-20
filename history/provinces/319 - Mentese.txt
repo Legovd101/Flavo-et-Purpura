@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = rhoman
-religion = sunni
+religion = orthodox
 capital = "Mughla"
 trade_goods = salt
 base_tax = 3

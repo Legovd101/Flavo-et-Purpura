@@ -2,7 +2,7 @@
 owner = KAR
 controller = KAR
 culture = roman_cappadocian
-religion = sunni
+religion = orthodox
 capital = "Kayseri"
 trade_goods = iron
 base_tax = 3

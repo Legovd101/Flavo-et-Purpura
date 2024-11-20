@@ -2,7 +2,7 @@
 owner = SIL
 controller = SIL
 culture = polish
-religion = catholic
+religion = orthodox
 capital = "Gniezno"
 trade_goods = cloth
 base_tax = 3

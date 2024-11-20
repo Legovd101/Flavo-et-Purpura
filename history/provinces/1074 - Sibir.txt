@@ -1,6 +1,6 @@
 #1074 - Sibir
 culture = ostyaki
-religion = sunni
+religion = manichaean
 capital = "Qashliq"
 trade_goods = fur
 base_tax = 2

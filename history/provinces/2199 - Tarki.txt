@@ -2,7 +2,7 @@
 owner = KHZ
 controller = KHZ
 culture = khazar
-religion = sunni
+religion = jewish
 capital = "Tarku"
 trade_goods = fish
 base_tax = 2

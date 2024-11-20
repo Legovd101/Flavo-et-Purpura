@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = mauri_pagan
 capital = "Demnate"
 trade_goods = wool
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = MDY
 controller = MDY
 culture = isfahani
-religion = shiite
+religion = manichaean
 capital = "Teheran"
 trade_goods = silk
 base_tax = 5

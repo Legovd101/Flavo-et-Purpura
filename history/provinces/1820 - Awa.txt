@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = japanese
-religion = shinto
+religion = tengri_pagan_reformed
 capital = "Tokushima"
 trade_goods = fish
 base_tax = 3

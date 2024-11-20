@@ -3,3 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 capital = 343
+religion = lutetian
+primary_culture = gaetuli

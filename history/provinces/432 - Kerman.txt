@@ -2,7 +2,7 @@
 owner = ISF
 controller = ISF
 culture = isfahani
-religion = sunni
+religion = manichaean
 capital = "Kerman"
 trade_goods = paper
 base_tax = 2

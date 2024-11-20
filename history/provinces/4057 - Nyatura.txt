@@ -1,6 +1,6 @@
 #4057 - Nyatura
 culture = takama
-religion = shamanism#Fetishism
+religion = swahili_pagan#Fetishism
 trade_goods = unknown
 base_tax = 1
 base_production = 1

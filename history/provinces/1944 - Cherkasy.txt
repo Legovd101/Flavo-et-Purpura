@@ -1,7 +1,7 @@
 #Cherkasy
 owner = KIE
 controller = KIE
-culture = ruthenian
+culture = west_uyghur
 religion = orthodox
 base_tax = 1
 base_production = 1

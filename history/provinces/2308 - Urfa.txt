@@ -2,7 +2,7 @@
 owner = LIV
 controller = LIV
 culture = syriac
-religion = sunni
+religion = orthodox
 capital = "Urfa"
 trade_goods = wool
 base_tax = 3

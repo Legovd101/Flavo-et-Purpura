@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = beylik_government
 government_rank = 1
-primary_culture = turkish
-religion = sunni
+primary_culture = roman_cappadocian
+religion = manichaean
 technology_group = ottoman
 capital = 4307# Karaman
 religious_school = hanafi_school

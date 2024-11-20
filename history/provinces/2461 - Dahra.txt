@@ -2,7 +2,7 @@
 owner = SYP
 controller = SYP
 culture = numidian
-religion = sunni
+religion = west_orthodox
 capital = "Mostaganem"
 trade_goods = grain
 base_tax = 3

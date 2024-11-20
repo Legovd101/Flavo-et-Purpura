@@ -2,7 +2,7 @@
 owner = LUS
 controller = LUS
 culture = strait_greek
-religion = catholic
+religion = arianism
 capital = "Lisboa"
 trade_goods = fish
 base_tax = 6

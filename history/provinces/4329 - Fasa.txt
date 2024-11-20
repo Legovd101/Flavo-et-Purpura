@@ -2,7 +2,7 @@
 owner = UZI
 controller = UZI
 culture = farsi
-religion = sunni
+religion = zoroastrian
 capital = "Fasa"
 trade_goods = silk#And Paper in Jahrum
 base_tax = 4

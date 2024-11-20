@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = avar
-religion = catholic
+religion = orthodox
 capital = "Fehérvár"
 trade_goods = livestock
 base_tax = 3

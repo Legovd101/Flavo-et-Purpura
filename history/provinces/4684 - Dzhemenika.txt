@@ -2,7 +2,7 @@
 owner = QAS
 controller = QAS
 culture = oirats
-religion = sunni
+religion = manichaean
 capital = "Dzhemenika"
 trade_goods = fish
 base_tax = 1

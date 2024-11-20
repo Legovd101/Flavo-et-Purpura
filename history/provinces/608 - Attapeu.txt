@@ -1,7 +1,7 @@
 owner = KHM
 controller = KHM
 culture = lao
-religion = animism
+religion = hinduism
 capital = "Attapeu"
 trade_goods = ivory
 base_tax = 2

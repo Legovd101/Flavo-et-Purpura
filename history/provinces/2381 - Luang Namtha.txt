@@ -2,7 +2,7 @@
 owner = LXA
 controller = LXA
 culture = lao
-religion = animism
+religion = buddhism
 capital = "Luang Namtha"
 trade_goods = tea
 base_tax = 2

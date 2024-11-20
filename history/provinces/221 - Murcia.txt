@@ -2,7 +2,7 @@
 owner = SPA# Juan II of Castille
 controller = SPA
 culture = strait_greek
-religion = catholic
+religion = west_orthodox
 base_tax = 4
 base_production = 3
 trade_goods = grain

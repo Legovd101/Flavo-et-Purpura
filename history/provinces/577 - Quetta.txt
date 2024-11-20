@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = arachoisan
-religion = sunni
+religion = manichaean
 capital = "Quetta"
 trade_goods = grain
 base_tax = 3

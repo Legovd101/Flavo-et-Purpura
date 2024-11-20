@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = al_suryah_arabic
-religion = sunni
+primary_culture = syriac
+religion = nestorian
 technology_group = muslim
-capital = 411	# Nineveh
+capital = 411# Nineveh
 religious_school = shafii_school
-
-1444.11.11 = {
-	monarch = {
+1444.11.11 = { 
+	monarch = { 
 		name = "Izz al-Din"
 		dynasty = "Buhtur"
 		adm = 3
@@ -18,3 +17,4 @@ religious_school = shafii_school
 	add_ruler_personality = kind_hearted_personality
 	add_ruler_personality = well_advised_personality
 }
+government_rank = 1

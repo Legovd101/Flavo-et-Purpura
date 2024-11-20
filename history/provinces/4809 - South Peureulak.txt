@@ -1,7 +1,7 @@
 owner = MSA
 controller = MSA
 culture = acehnese
-religion = sunni
+religion = hinduism
 capital = "Langkat"
 trade_goods = spices
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = FRS
 controller = FRS
 culture = farsi
-religion = sunni
+religion = manichaean
 capital = "Bandar Langeh"
 trade_goods = spices
 base_tax = 2

@@ -3,7 +3,7 @@
 owner = MVA
 controller = MVA
 culture = schlesian
-religion = catholic
+religion = orthodox
 capital = "Liegnitz"
 trade_goods = glass
 hre = yes

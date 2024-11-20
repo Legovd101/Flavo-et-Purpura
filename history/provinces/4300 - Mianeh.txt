@@ -2,7 +2,7 @@
 owner = MDY
 controller = MDY
 culture = persian_caspian
-religion = sunni
+religion = manichaean
 capital = "Mianeh"
 trade_goods = paper
 base_tax = 2

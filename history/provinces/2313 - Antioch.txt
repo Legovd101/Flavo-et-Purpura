@@ -2,7 +2,7 @@
 owner = LIV
 controller = LIV
 culture = levantine_greek
-religion = sunni
+religion = west_orthodox
 capital = "Antakya"
 trade_goods = cloth
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = RFR
 controller = RFR
 culture = oirats
-religion = vajrayana
+religion = nestorian
 capital = "Ejin"
 trade_goods = livestock
 base_tax = 1

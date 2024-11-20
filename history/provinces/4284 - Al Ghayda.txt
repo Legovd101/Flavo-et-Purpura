@@ -2,7 +2,7 @@
 owner = HDR
 controller = HDR
 culture = yemeni
-religion = sunni
+religion = arab_pagan
 capital = "Al Ghaydah"
 trade_goods = fish
 base_tax = 1

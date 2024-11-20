@@ -1,8 +1,8 @@
 #284 - Crimea
 owner = GLH
 controller = GLH
-culture = crimean
-religion = sunni
+culture = west_uyghur
+religion = manichaean
 base_tax = 6
 base_production = 6
 trade_goods = salt

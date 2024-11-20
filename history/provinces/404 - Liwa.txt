@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = old_omani
-religion = sunni
+religion = manichaean
 capital = "Liwa"
 trade_goods = spices#Dates
 base_tax = 1

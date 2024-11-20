@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = japanese
-religion = shinto
+religion = tengri_pagan_reformed
 capital = "Yuzuki"
 trade_goods = copper
 base_tax = 3

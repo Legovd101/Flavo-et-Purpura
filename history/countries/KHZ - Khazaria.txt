@@ -3,3 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 capital = 4306
+religion = jewish
+primary_culture = khazak

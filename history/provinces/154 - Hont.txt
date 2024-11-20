@@ -2,7 +2,7 @@
 owner = AVR
 controller = AVR
 culture = slovak
-religion = catholic
+religion = manichaean
 capital = "Hont"
 trade_goods = gold#Schemnitz / Banská Štiavnica
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = CRO
 controller = CRO
 culture = croatian
-religion = catholic
+religion = orthodox
 capital = "Osijek"
 trade_goods = livestock
 base_tax = 2

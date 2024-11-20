@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = cosmopolitan_french
-religion = catholic
+primary_culture = neapolitan
+religion = west_orthodox
 technology_group = eastern
 capital = 1855# Jerusalem
 government_rank = 1

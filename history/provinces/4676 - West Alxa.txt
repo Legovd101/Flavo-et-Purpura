@@ -1,7 +1,7 @@
 owner = CHH
 controller = CHH
 culture = mongol
-religion = vajrayana
+religion = nestorian
 capital = "Badain Jaran"
 trade_goods = livestock
 base_tax = 1

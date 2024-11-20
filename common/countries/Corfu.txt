@@ -1,12 +1,8 @@
 #Country Name: Please see filename.
-
 graphical_culture = easterngfx
-
 color = { 210 241 252 }
-
 revolutionary_colors = { 4 8 13 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	religious_ideas
 	defensive_ideas
 	spy_ideas
@@ -16,8 +12,7 @@ historical_idea_groups = {
 	maritime_ideas
 	diplomatic_ideas
 }
-
-historical_units = {
+historical_units = { 
 	eastern_medieval_infantry
 	eastern_knights
 	slavic_stradioti
@@ -35,8 +30,7 @@ historical_units = {
 	ottoman_new_model
 	ottoman_lancer
 }
-
-monarch_names = {
+monarch_names = { 
 	"Carlo #0" = 40
 	"Leonardo #1" = 20
 	"Giovanni #1" = 10
@@ -44,19 +38,19 @@ monarch_names = {
 	"Carlo Antonio #0" = 10
 	"Restaiano Gioachinno #0" = 10
 	"Akakios #0" = 0
-    "Alexandros #0" = 0
+	"Alexandros #0" = 0
 	"Anargyros #0" = 0
 	"Anastasios #0" = 0
-    "Andreas #0" = 0
+	"Andreas #0" = 0
 	"Angelos #0" = 0
-    "Aniketos #0" = 0
+	"Aniketos #0" = 0
 	"Apostolos #0" = 0
 	"Argyros #0" = 0
 	"Athanasios #0" = 0
 	"Charalampos #0" = 0
 	"Chrysanthos #0" = 0
 	"Demetrios #0" = 0
-    "Dimosthenes #0" = 0
+	"Dimosthenes #0" = 0
 	"Dionysios #0" = 0
 	"Dorotheos #0" = 0
 	"Efsthathios #0" = 0
@@ -77,31 +71,18 @@ monarch_names = {
 	"Theophylaktos #0" = 0
 	"Vasilis #0" = 0
 	"Vlasis #0" = 0
-	
 	"Xenia #0" = -1
 	"Zinovia #0" = -1
 	"Melina #0" = -1
 	"Petronella #0" = -1
 }
-
 leader_names = { 
-	Balbi Bouas 
-	Capodistria 
-	Fadrigue Flamburiari
-	Gentilini Giallina Giorgio
-	Kourkoumelis
-	Marmora Minotto
-	Soranzo 
-	Pieri Prosalendi
-	Sordina Spathas
-	Theotokis Tocco
-	Voulgaris
+	Balbi Bouas Capodistria
+	Fadrigue Flamburiari Gentilini Giallina Giorgio Kourkoumelis
+	Marmora Minotto Soranzo
+	Pieri Prosalendi Sordina Spathas Theotokis Tocco Voulgaris
 	Zorzi
 }
-
-ship_names = {
-	"Akra Mounta" "Akra Liakas" "Akra Gerogompos" "Akra Agiou Andreou"
-	"Kaplos Lagana" "Kolpos Argostolion" "Kolpos Myrtou" Kefallonia 
-	"Prothumos Zakynthou"
-	"Steno Ithoakis"
+ship_names = { 
+	"Akra Mounta" "Akra Liakas" "Akra Gerogompos" "Akra Agiou Andreou" "Kaplos Lagana" "Kolpos Argostolion" "Kolpos Myrtou" Kefallonia "Prothumos Zakynthou" "Steno Ithoakis"
 }

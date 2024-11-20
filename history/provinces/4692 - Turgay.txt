@@ -1,8 +1,8 @@
 # 4692 - Turgay
 owner = GLH
 controller = GLH
-culture = khazak
-religion = sunni
+culture = kipchak
+religion = manichaean
 capital = "Zhakeikin"
 trade_goods = iron
 base_tax = 1

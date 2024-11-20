@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = khazak
-religion = sunni
+religion = manichaean
 capital = "Narym"
 trade_goods = fish
 base_tax = 1

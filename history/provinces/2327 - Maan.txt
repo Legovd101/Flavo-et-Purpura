@@ -2,7 +2,7 @@
 owner = ANZ
 controller = ANZ
 culture = ghassanid
-religion = sunni
+religion = orthodox
 capital = "Maan"
 trade_goods = livestock
 base_tax = 2

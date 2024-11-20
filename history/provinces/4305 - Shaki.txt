@@ -2,7 +2,7 @@
 owner = GEO
 controller = GEO
 culture = cauc_albanian
-religion = sunni
+religion = jewish
 capital = "Shaki"
 trade_goods = wool
 base_tax = 2

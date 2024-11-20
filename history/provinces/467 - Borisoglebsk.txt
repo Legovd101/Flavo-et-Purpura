@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = mishary
-religion = sunni
+religion = manichaean
 capital = "Borisoglebsk"
 trade_goods = livestock
 base_tax = 2

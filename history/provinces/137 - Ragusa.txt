@@ -2,7 +2,7 @@
 owner = MON
 controller = MON
 culture = dalmatian
-religion = catholic
+religion = west_orthodox
 capital = "Ragusa"
 trade_goods = salt
 base_tax = 5

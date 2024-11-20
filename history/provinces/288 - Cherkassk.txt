@@ -1,8 +1,8 @@
 #288 - Cherkassk
 owner = GLH
 controller = GLH
-culture = mishary
-religion = sunni
+culture = cuman
+religion = manichaean
 base_tax = 3
 base_production = 3
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #281 - Podolia
 owner = KIE
 controller = KIE
-culture = ruthenian
+culture = hungarian
 religion = orthodox
 base_tax = 2
 base_production = 2

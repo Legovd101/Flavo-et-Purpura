@@ -2,7 +2,7 @@
 owner = MLO
 controller = MLO
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "Schwyz"
 trade_goods = iron
 hre = yes

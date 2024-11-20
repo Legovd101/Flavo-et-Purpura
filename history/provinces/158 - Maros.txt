@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = avar#Szeklers
-religion = catholic
+religion = orthodox
 capital = "Targu Mures"
 trade_goods = wool
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = NNG
 controller = NNG
 culture = filipino
-religion = animism
+religion = confucianism
 capital = "Tondo"
 trade_goods = spices
 base_tax = 5

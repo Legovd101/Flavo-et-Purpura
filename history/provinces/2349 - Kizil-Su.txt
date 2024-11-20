@@ -1,8 +1,8 @@
 # 2349 - Kizil-Su
 owner = SRV
 controller = SRV
-culture = turkmeni
-religion = sunni
+culture = pecheneg
+religion = zoroastrian
 capital = "Kizil-Su"
 trade_goods = fish
 base_tax = 1

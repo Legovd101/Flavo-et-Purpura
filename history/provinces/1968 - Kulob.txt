@@ -2,7 +2,7 @@
 owner = KOK
 controller = KOK
 culture = bactrian
-religion = sunni
+religion = manichaean
 capital = "Kulob"
 trade_goods = wool
 base_tax = 2

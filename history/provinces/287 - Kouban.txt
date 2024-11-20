@@ -1,8 +1,8 @@
 #287 - Kouban
 owner = GLH
 controller = GLH
-culture = crimean
-religion = sunni
+culture = khazar
+religion = manichaean
 base_tax = 3
 base_production = 3
 trade_goods = livestock

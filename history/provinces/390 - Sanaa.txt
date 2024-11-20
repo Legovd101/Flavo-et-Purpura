@@ -2,7 +2,7 @@
 owner = RAS
 controller = RAS
 culture = yemeni
-religion = shiite
+religion = arab_pagan
 capital = "Sana'a"
 trade_goods = wool
 base_tax = 4

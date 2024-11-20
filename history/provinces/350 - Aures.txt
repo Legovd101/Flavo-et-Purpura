@@ -2,7 +2,7 @@
 owner = LTN
 controller = LTN
 culture = lautana
-religion = sunni
+religion = mauri_pagan
 capital = "Laghwat"
 trade_goods = livestock
 base_tax = 1

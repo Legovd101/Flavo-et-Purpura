@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = korean
-religion = confucianism
+religion = mahayana
 capital = "Hanseong"
 trade_goods = paper
 base_tax = 9

@@ -2,7 +2,7 @@
 owner = HDR#Tahirids
 controller = HDR#Tahirids
 culture = yemeni
-religion = sunni
+religion = arab_pagan
 capital = "Aden"
 trade_goods = incense
 base_tax = 4

@@ -2,7 +2,7 @@
 owner = MDY
 controller = MDY
 culture = persian_assyrian
-religion = shiite
+religion = manichaean
 capital = "Khorramabad"
 trade_goods = grain
 base_tax = 3

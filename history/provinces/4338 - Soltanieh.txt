@@ -2,7 +2,7 @@
 owner = MDY
 controller = MDY
 culture = persian_caspian
-religion = sunni
+religion = manichaean
 capital = "Soltanieh"
 trade_goods = wine#Grapes and Fruits
 base_tax = 3

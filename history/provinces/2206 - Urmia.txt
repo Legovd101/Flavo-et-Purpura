@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = gutian
-religion = sunni
+religion = manichaean
 capital = "Urmiyeh"
 trade_goods = wine
 base_tax = 3

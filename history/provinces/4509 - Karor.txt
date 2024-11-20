@@ -2,7 +2,7 @@
 owner = HIN
 controller = HIN
 culture = panjabi
-religion = sunni
+religion = manichaean
 capital = "Karor"
 trade_goods = iron
 base_tax = 2

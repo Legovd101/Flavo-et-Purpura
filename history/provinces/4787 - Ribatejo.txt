@@ -2,7 +2,7 @@
 owner = SPA
 controller = SPA
 culture = strait_greek
-religion = catholic
+religion = west_orthodox
 capital = "Santarém"
 trade_goods = grain
 base_tax = 4

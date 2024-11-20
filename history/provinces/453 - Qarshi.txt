@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = bactrian
-religion = sunni
+religion = manichaean
 capital = "Qarshi"
 trade_goods = cotton
 base_tax = 1

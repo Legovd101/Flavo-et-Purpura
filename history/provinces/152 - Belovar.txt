@@ -2,7 +2,7 @@
 owner = CLI
 controller = CLI
 culture = croatian
-religion = catholic
+religion = orthodox
 capital = "Varazdin"
 trade_goods = cloth
 base_tax = 3

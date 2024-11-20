@@ -2,7 +2,7 @@
 owner = CHG
 controller = CHG
 culture = bactrian
-religion = sunni
+religion = manichaean
 capital = "Shymkent"
 trade_goods = tea
 base_tax = 1

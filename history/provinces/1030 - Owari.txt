@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = togoku
-religion = shinto
+religion = tengri_pagan_reformed
 capital = "Kiyosu"
 trade_goods = dyes
 base_tax = 4

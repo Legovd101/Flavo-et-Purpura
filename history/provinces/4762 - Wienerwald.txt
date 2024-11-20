@@ -2,7 +2,7 @@
 owner = CLI
 controller = CLI
 culture = austrian
-religion = catholic
+religion = orthodox
 base_tax = 3
 base_production = 3
 trade_goods = wine

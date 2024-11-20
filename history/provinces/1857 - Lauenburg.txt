@@ -2,7 +2,7 @@
 owner = ENG
 controller = ENG
 culture = angle
-religion = catholic
+religion = arianism
 capital = "Lauenburg"
 trade_goods = salt
 hre = yes

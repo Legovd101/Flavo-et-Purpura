@@ -2,7 +2,7 @@
 owner = DAM
 controller = DAM
 culture = sidamo
-religion = coptic
+religion = waaqeffanna
 capital = "Anderaccha"
 is_city = yes
 base_manpower = 4

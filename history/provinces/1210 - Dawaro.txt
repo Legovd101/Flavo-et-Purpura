@@ -2,7 +2,7 @@
 owner = SOA
 controller = SOA
 culture = harari
-religion = sunni
+religion = waaqeffanna
 capital = "Gende Belo"
 is_city = yes
 base_manpower = 1

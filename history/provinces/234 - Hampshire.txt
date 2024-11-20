@@ -2,7 +2,7 @@
 owner = BRY
 controller = BRY
 culture = britannian
-religion = catholic
+religion = lutetian
 base_tax = 3
 base_production = 3
 trade_goods = fish

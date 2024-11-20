@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = xibei
-religion = vajrayana
+religion = nestorian
 capital = "Xining"
 trade_goods = salt
 base_tax = 3

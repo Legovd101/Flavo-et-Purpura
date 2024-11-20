@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = sumatran
-religion = sunni
+religion = hinduism
 capital = "Indragiri"
 trade_goods = copper
 base_tax = 2

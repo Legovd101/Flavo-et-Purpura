@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = mauri_pagan
 capital = "Tlemcen"
 trade_goods = cloth
 base_tax = 5

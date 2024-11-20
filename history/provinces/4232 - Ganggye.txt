@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 culture = korean
-religion = confucianism
+religion = tengri_pagan_reformed
 capital = "Ganggye"
 trade_goods = fur
 base_tax = 2

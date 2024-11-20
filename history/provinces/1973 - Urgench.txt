@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = bactrian
-religion = sunni
+religion = zoroastrian
 capital = "Urgench"
 trade_goods = grain
 base_tax = 4

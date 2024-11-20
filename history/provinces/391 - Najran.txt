@@ -2,7 +2,7 @@
 owner = HED
 controller = HED
 culture = yemeni
-religion = shiite
+religion = arab_pagan
 capital = "Najran"
 trade_goods = cloth
 base_tax = 2

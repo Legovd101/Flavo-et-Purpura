@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 technology_group = muslim
-religion = sunni
+religion = manichaean
 primary_culture = sogdian
 capital = 2226# Kabul
 religious_school = hanafi_school

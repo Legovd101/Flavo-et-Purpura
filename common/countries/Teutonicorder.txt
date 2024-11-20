@@ -87,8 +87,7 @@ ship_names = {
 	Elbing
 	Gottersweder
 	Königsberg
-	Marienburg Mittenburg Mitau Thorn
-	Windau
+	Marienburg Mittenburg Mitau Thorn Windau
 	Goldingen
 	"von Bassenheim" "Otto von Kerpen" "Heinrich von Tunna" "Hermann von Salza" "Konrad von Thüringen" "Gerhard von Malberg" "von Hohenlohe" "von Wüllersleben" "Poppo von Osterna" "von Sangershausen"
 	"von Heldrungen" "Burkhard von Schwanden" "von Feuchtwangen" "von Trier" "Werner von Orseln" "von Braunschweig" "Dietrich von Altenburg" "von Wattzau" "von Arfberg" "Winrich von Kniprode"

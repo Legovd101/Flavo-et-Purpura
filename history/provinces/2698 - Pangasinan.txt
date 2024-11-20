@@ -1,6 +1,6 @@
 #2698 - Pangasinan
 culture = filipino
-religion = animism
+religion = confucianism
 capital = "Binalatongan"
 trade_goods = salt
 base_tax = 2

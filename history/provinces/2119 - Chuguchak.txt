@@ -2,7 +2,7 @@
 owner = QAS
 controller = QAS
 culture = oirats
-religion = sunni
+religion = manichaean
 capital = "Chugachak"
 trade_goods = fur
 base_tax = 1

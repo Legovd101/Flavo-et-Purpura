@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = circassian
-religion = orthodox
+religion = jewish
 capital = "Sochi"
 trade_goods = livestock
 base_tax = 2

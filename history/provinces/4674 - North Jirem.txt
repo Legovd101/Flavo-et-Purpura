@@ -1,7 +1,7 @@
 owner = OIR
 controller = OIR
 culture = chahar
-religion = vajrayana
+religion = tengri_pagan_reformed
 capital = "Korchin"
 trade_goods = livestock
 base_tax = 1

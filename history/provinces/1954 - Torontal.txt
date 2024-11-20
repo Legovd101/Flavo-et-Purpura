@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = early_romylian
-religion = catholic
+religion = orthodox
 capital = "Nagybecskerek"
 trade_goods = livestock
 base_tax = 3

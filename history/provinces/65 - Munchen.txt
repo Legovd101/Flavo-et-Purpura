@@ -2,7 +2,7 @@
 owner = TNT
 controller = TNT
 culture = bavarian
-religion = catholic
+religion = arianism
 base_tax = 6
 base_production = 5
 trade_goods = grain

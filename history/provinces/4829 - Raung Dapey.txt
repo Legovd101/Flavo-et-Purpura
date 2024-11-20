@@ -1,7 +1,7 @@
 owner = KHM
 controller = KHM
 culture = khmer
-religion = hinduism
+religion = buddhism
 capital = "Raung Dapey"
 trade_goods = grain
 base_tax = 2

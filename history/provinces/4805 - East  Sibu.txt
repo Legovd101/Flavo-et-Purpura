@@ -1,7 +1,7 @@
 owner = BEI
 controller = BEI
 culture = bornean
-religion = sunni
+religion = hinduism
 capital = "Bintulu"
 trade_goods = fish
 base_tax = 3

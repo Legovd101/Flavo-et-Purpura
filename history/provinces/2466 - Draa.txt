@@ -1,6 +1,6 @@
 # - Draa
 culture = gaetuli
-religion = sunni
+religion = mauri_pagan
 capital = "Tagmadert"
 trade_goods = spices#Dates
 base_tax = 4

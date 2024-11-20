@@ -1,6 +1,6 @@
 #1097 - Fernando Po
 culture = yorumba
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Fernando Po"
 trade_goods = unknown
 base_tax = 2

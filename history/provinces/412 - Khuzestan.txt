@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = shiite
+religion = zoroastrian
 capital = "Ahvaz"
 trade_goods = sugar
 base_tax = 4

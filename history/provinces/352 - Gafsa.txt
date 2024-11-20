@@ -2,7 +2,7 @@
 owner = MSL
 controller = MSL
 culture = massylian
-religion = sunni
+religion = west_orthodox
 capital = "Gafsa"
 trade_goods = salt
 base_tax = 2

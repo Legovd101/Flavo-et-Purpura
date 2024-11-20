@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = persian_babylonian
-religion = shiite
+religion = zoroastrian
 capital = "Shushtar"
 trade_goods = silk
 base_tax = 2

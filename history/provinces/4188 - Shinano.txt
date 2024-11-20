@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = togoku
-religion = shinto
+religion = tengri_pagan_reformed
 capital = "Nagano"
 trade_goods = livestock
 base_tax = 2

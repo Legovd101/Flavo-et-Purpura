@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = mongol
-religion = vajrayana
+religion = nestorian
 capital = "Alxa"
 trade_goods = gems#Manao Jade
 base_tax = 1

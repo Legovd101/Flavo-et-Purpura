@@ -1,6 +1,6 @@
 #1800 - Limpopo
 culture = nguni
-religion = shamanism#Fetishism
+religion = swahili_pagan#Fetishism
 capital = "Gaza"
 trade_goods = unknown
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = MUL
 controller = MUL
 culture = arachoisan
-religion = sunni
+religion = manichaean
 capital = "Bela"
 trade_goods = fish
 base_tax = 2

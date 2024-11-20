@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = hungarian
-religion = orthodox
+religion = manichaean
 base_tax = 5
 base_production = 4
 capital = "Kilia"

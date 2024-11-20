@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = korean
-religion = confucianism
+religion = mahayana
 capital = "Suwon"
 trade_goods = chinaware
 base_tax = 3

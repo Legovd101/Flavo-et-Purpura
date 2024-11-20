@@ -2,7 +2,7 @@
 owner = KBO
 controller = KBO
 culture = hausa
-religion = sunni
+religion = chad_pagan
 capital = "Rano"
 trade_goods = dyes
 base_tax = 2

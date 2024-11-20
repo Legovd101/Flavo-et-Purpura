@@ -2,7 +2,7 @@
 owner = KAR
 controller = KAR
 culture = euxine
-religion = sunni
+religion = orthodox
 capital = "Tokat"
 trade_goods = cloth
 base_tax = 3

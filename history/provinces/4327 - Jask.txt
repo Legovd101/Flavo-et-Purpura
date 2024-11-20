@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = arachoisan
-religion = sunni
+religion = zoroastrian
 capital = "Jask"
 trade_goods = fish
 base_tax = 1

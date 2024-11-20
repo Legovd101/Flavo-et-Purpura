@@ -2,7 +2,7 @@
 owner = FRI
 controller = FRI
 culture = hannoverian
-religion = catholic
+religion = arianism
 capital = "Oldenburg"
 trade_goods = salt
 hre = yes

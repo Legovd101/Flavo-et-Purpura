@@ -2,7 +2,7 @@
 owner = MDY
 controller = MDY
 culture = persian_caspian
-religion = sunni
+religion = manichaean
 capital = "Qazvin"
 trade_goods = silk
 base_tax = 3

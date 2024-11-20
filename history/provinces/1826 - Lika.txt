@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = croatian
-religion = catholic
+religion = orthodox
 capital = "Senj"
 trade_goods = fish
 base_tax = 3

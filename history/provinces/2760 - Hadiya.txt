@@ -2,7 +2,7 @@
 owner = DAM
 controller = DAM
 culture = sidamo
-religion = sunni
+religion = waaqeffanna
 capital = "Angacha"
 is_city = yes
 base_manpower = 2

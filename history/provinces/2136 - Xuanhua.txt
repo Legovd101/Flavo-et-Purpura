@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = jin
-religion = confucianism
+religion = nestorian
 capital = "Xuanhua"
 trade_goods = grain
 base_tax = 3

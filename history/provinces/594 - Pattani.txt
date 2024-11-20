@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Pattani"
 trade_goods = tropical_wood
 base_tax = 6

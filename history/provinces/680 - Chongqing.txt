@@ -2,7 +2,7 @@
 owner = CDL
 controller = CDL
 culture = sichuanese
-religion = confucianism
+religion = nestorian
 capital = "Chongqing"
 trade_goods = spices
 base_tax = 8

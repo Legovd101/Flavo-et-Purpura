@@ -2,7 +2,7 @@
 owner = NMD
 controller = NMD
 culture = numidian
-religion = sunni
+religion = mauri_pagan
 capital = "El Kef"
 trade_goods = wool
 base_tax = 2

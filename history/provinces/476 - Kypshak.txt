@@ -1,8 +1,8 @@
 #476 - Kypshak
 owner = GLH
 controller = GLH
-culture = khazak
-religion = sunni
+culture = kipchak
+religion = manichaean
 capital = "Orda-Bazar"
 trade_goods = grain
 base_tax = 6

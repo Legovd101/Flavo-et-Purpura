@@ -1,7 +1,7 @@
 owner = TRI
 controller = TRI
 culture = hessian
-religion = catholic
+religion = arianism
 trade_goods = grain
 capital = "Koblenz"
 base_tax = 4

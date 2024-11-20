@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = persian_babylonian
-religion = shiite
+religion = manichaean
 capital = "Basra"
 trade_goods = salt
 base_tax = 3

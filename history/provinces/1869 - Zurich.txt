@@ -2,7 +2,7 @@
 owner = SWI
 controller = SWI
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "Zürich"
 trade_goods = wool
 hre = yes

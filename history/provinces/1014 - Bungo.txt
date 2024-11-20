@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = kyushuan
-religion = shinto
+religion = tengri_pagan_reformed
 capital = "Funai"
 trade_goods = tropical_wood
 base_tax = 4

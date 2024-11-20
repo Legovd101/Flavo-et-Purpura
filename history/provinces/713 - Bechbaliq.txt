@@ -2,7 +2,7 @@
 owner = RFR
 controller = RFR
 culture = uyghur
-religion = tengri_pagan_reformed
+religion = nestorian
 capital = "Bechbaliq"
 trade_goods = salt
 base_tax = 2

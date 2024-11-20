@@ -2,7 +2,7 @@
 owner = TRP
 controller = TRP
 culture = perso_levantine
-religion = sunni
+religion = orthodox
 capital = "Homs"
 trade_goods = cotton
 base_tax = 2

@@ -2,7 +2,7 @@
 owner = FRS
 controller = FRS
 culture = farsi
-religion = sunni
+religion = zoroastrian
 capital = "Lar"
 trade_goods = iron
 base_tax = 2

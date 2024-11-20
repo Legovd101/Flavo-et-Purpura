@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = greco_romanian
-religion = orthodox
+religion = manichaean
 capital = "Tîrgoviste"
 trade_goods = livestock
 base_tax = 5

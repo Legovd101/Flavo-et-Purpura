@@ -2,7 +2,7 @@
 owner = KAR
 controller = KAR
 culture = roman_cappadocian
-religion = shiite
+religion = manichaean
 capital = "Sivas"
 trade_goods = livestock
 base_tax = 3

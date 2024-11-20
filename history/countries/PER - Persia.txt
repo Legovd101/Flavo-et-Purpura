@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudal_theocracy
 primary_culture = persian
-religion = shiite
+religion = manichaean
 technology_group = muslim
 capital = 358# Tabriz
 add_army_professionalism = 0.05

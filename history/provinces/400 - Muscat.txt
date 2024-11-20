@@ -2,7 +2,7 @@
 owner = OMA
 controller = OMA
 culture = old_omani
-religion = ibadi
+religion = manichaean
 capital = "Masqat"
 trade_goods = gems#Mother of Pearl and dates
 base_tax = 4

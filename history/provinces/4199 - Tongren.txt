@@ -2,7 +2,7 @@
 owner = YUE
 controller = YUE
 culture = miao
-religion = animism
+religion = confucianism
 capital = "Tongren"
 trade_goods = tea
 base_tax = 1

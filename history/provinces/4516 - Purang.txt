@@ -2,7 +2,7 @@
 owner = LDK
 controller = LDK
 culture = tibetan
-religion = vajrayana
+religion = manichaean
 capital = "Purang"
 trade_goods = wool
 base_tax = 1

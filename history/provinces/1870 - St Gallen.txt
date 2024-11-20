@@ -2,7 +2,7 @@
 owner = MLO
 controller = MLO
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "St Gallen"
 trade_goods = livestock
 hre = yes

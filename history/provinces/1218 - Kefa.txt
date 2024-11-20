@@ -2,7 +2,7 @@
 owner = SOA
 controller = SOA
 culture = sidamo
-religion = shamanism
+religion = waaqeffanna
 capital = "Irgalem"
 is_city = yes
 base_manpower = 2

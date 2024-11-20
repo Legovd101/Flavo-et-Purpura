@@ -1,8 +1,8 @@
 # 2362 - Gurganj
 owner = GLH
 controller = GLH
-culture = turkmeni
-religion = sunni
+culture = pecheneg
+religion = zoroastrian
 capital = "Gurganj"
 trade_goods = wool
 base_tax = 1

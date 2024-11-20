@@ -1,6 +1,6 @@
 #574 - The Andamans (and Nicobars)
 culture = filipino#closest we can get without making a new culture
-religion = animism
+religion = hinduism
 capital = "The Andamans"
 trade_goods = unknown
 base_tax = 1

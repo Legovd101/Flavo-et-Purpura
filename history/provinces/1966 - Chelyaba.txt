@@ -2,8 +2,8 @@
 owner = GLH
 controller = GLH
 capital = "Chelyaba"
-culture = bashkir
-religion = sunni
+culture = kipchak
+religion = manichaean
 trade_goods = fur
 base_tax = 3
 base_production = 3

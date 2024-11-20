@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = sumatran
-religion = sunni
+religion = hinduism
 capital = "Lingga"
 trade_goods = fish
 base_tax = 1

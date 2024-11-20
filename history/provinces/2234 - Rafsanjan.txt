@@ -2,7 +2,7 @@
 owner = ISF
 controller = ISF
 culture = farsi
-religion = sunni
+religion = zoroastrian
 capital = "Rafsanjan"
 trade_goods = copper
 base_tax = 2

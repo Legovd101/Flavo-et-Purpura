@@ -2,7 +2,7 @@
 owner = SAX
 controller = SAX
 culture = pommeranian
-religion = catholic
+religion = arianism
 trade_goods = naval_supplies
 hre = yes
 base_tax = 5

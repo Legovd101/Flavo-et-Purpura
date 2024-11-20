@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = rhoman
-religion = sunni
+religion = orthodox
 capital = "Karahisar"
 trade_goods = livestock
 base_tax = 2

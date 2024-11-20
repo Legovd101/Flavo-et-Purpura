@@ -2,7 +2,7 @@
 owner = BRY
 controller = BRY
 culture = durotrigian
-religion = catholic
+religion = lutetian
 base_tax = 2
 base_production = 2
 trade_goods = naval_supplies

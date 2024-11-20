@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = al_misr_arabic
-religion = sunni
+religion = coptic
 capital = "Ras Gharib"
 trade_goods = fish
 base_tax = 1

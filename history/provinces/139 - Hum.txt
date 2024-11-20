@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = early_romylian
-religion = catholic
+religion = manichaean
 capital = "Mostar"# Unofficial capital of Herzegovina
 trade_goods = wool
 base_tax = 3

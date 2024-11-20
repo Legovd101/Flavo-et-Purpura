@@ -1,6 +1,6 @@
 #1111 - Arguin
 culture = berber
-religion = sunni
+religion = west_african_pagan
 capital = "Arguin"
 trade_goods = unknown
 base_tax = 1

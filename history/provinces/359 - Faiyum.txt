@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = perso_egyptian
-religion = sunni
+religion = coptic
 capital = "Al Fayyum"
 trade_goods = cotton
 base_tax = 5

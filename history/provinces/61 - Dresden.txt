@@ -2,7 +2,7 @@
 owner = ANH
 controller = ANH
 culture = saxon
-religion = catholic
+religion = arianism
 capital = "Meissen"
 trade_goods = iron
 hre = yes

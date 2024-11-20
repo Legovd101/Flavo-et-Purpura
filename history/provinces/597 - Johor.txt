@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Johor"
 trade_goods = chinaware
 base_tax = 5

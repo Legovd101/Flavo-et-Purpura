@@ -2,7 +2,7 @@
 owner = KIC
 controller = KIC
 culture = wu
-religion = confucianism
+religion = nestorian
 capital = "Ningguo"
 trade_goods = paper
 base_tax = 3

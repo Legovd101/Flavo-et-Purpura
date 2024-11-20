@@ -1,6 +1,6 @@
 #738 - Taiwan
 culture = polynesian
-religion = animism
+religion = nestorian
 capital = "Sakam"
 trade_goods = unknown
 base_tax = 4

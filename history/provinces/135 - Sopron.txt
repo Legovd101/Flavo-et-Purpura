@@ -2,7 +2,7 @@
 owner = CLI
 controller = CLI
 culture = avar
-religion = catholic
+religion = orthodox
 capital = "Sopron"
 trade_goods = grain
 base_tax = 3

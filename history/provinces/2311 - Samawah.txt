@@ -2,7 +2,7 @@
 owner = LKH
 controller = LKH
 culture = lakhmid
-religion = shiite
+religion = manichaean
 capital = "Najaf"
 trade_goods = spices#Dates
 base_tax = 3

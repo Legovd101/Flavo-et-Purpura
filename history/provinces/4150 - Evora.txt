@@ -2,7 +2,7 @@
 owner = BAE
 controller = BAE
 culture = baetican
-religion = catholic
+religion = arianism
 capital = "Évora"
 trade_goods = wine
 base_tax = 3

@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = perso_egyptian
-religion = sunni
+religion = coptic
 capital = "Qus"
 trade_goods = livestock
 base_tax = 1

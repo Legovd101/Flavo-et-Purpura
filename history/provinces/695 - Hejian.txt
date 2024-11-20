@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = chihan
-religion = confucianism
+religion = nestorian
 capital = "Hejian"
 trade_goods = salt
 base_tax = 3

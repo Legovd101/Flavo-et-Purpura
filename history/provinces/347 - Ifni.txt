@@ -2,7 +2,7 @@
 owner = GAE
 controller = GAE
 culture = gaetuli
-religion = sunni
+religion = lutetian
 capital = "Sidi Ifni"
 trade_goods = fish
 base_tax = 1

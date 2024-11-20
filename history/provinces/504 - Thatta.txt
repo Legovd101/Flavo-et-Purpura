@@ -2,7 +2,7 @@
 owner = SND
 controller = SND
 culture = sindhi
-religion = sunni
+religion = manichaean
 capital = "Thatta"
 trade_goods = cloth
 base_tax = 4

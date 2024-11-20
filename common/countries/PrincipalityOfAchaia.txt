@@ -1,11 +1,8 @@
 #Country Name: Please see filename.
-
 graphical_culture = easterngfx
-
 color = { 241 179 218 }
 revolutionary_colors = { 4 8 4 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	religious_ideas
 	defensive_ideas
 	spy_ideas
@@ -15,8 +12,7 @@ historical_idea_groups = {
 	maritime_ideas
 	diplomatic_ideas
 }
-
-historical_units = {
+historical_units = { 
 	eastern_medieval_infantry
 	eastern_knights
 	slavic_stradioti
@@ -34,8 +30,7 @@ historical_units = {
 	ottoman_new_model
 	ottoman_lancer
 }
-
-monarch_names = {
+monarch_names = { 
 	"Centurione #0" = 20
 	"Pietro #0" = 20
 	"Tommasso #0" = 20
@@ -75,32 +70,22 @@ monarch_names = {
 	"Theophylaktos #0" = 0
 	"Vasilis #0" = 0
 	"Vlasis #0" = 0
-	
 	"Maria #1" = -15
 	"Alexandra #0" = -1
 	"Antonia #0" = -1
 	"Anna #0" = -1
-}	
-
+}
 leader_names = { 
-	Angelus Asan
-	Branas	
-	Cantacuzene Comnenus 
-	Ducas
-	Mavros 
+	Angelus Asan Branas
+	Cantacuzene Comnenus Ducas
+	Mavros
 	Notaras
-	Palaeologus Phocas
-	Raoul
-	Spagnoli Sphrantzes
-	Tocco
+	Palaeologus Phocas Raoul
+	Spagnoli Sphrantzes Tocco
 	Zaccaria
 }
-
-ship_names = {
-	"Agios Kyprianos" Areopoli
-	Elika
-	Geronlimenas Gytheio
-	Kardamyli Kokkala Kotronas
-	Skoutari
+ship_names = { 
+	"Agios Kyprianos" Areopoli Elika
+	Geronlimenas Gytheio Kardamyli Kokkala Kotronas Skoutari
 	Vathia
 }

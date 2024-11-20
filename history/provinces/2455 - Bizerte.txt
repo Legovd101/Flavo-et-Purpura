@@ -2,7 +2,7 @@
 owner = ZNG
 controller = ZNG
 culture = zenata
-religion = sunni
+religion = west_orthodox
 capital = "Bizerte"
 trade_goods = grain
 base_tax = 4

@@ -1,7 +1,7 @@
 #4536 - Lida
 owner = PLT
 controller = PLT
-religion = "catholic"
+religion = "orthodox"
 culture = lithuanian
 capital = "Lyda"
 trade_goods = livestock

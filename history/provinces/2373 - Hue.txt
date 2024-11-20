@@ -2,7 +2,7 @@
 owner = DAI
 controller = DAI
 culture = vietnamese
-religion = mahayana
+religion = hinduism
 capital = "Hue"
 trade_goods = incense
 base_tax = 5

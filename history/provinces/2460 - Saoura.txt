@@ -1,6 +1,6 @@
 # - Saoura
 culture = gaetuli
-religion = sunni
+religion = mauri_pagan
 capital = "Oulad Mhedi"
 trade_goods = livestock
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = SRV
 controller = SRV
 culture = persian_caspian
-religion = shiite
+religion = zoroastrian
 capital = "Astara"
 trade_goods = fish
 base_tax = 1

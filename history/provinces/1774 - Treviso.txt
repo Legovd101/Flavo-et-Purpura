@@ -2,7 +2,7 @@
 owner = AQU
 controller = AQU
 culture = alpine
-religion = catholic
+religion = arianism
 base_tax = 7
 base_production = 7
 trade_goods = paper

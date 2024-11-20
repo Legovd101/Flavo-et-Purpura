@@ -2,7 +2,7 @@
 owner = SND
 controller = SND
 culture = sindhi
-religion = sunni
+religion = manichaean
 capital = "Umarkot"
 trade_goods = wool
 base_tax = 1

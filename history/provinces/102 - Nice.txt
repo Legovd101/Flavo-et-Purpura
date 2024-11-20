@@ -2,7 +2,7 @@
 owner = PRO
 controller = PRO
 culture = gallic_greek
-religion = catholic
+religion = lutetian
 hre = yes
 base_tax = 4
 base_production = 4

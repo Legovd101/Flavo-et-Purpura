@@ -1,6 +1,6 @@
 #1126 - Ivory Coast
 culture = aka
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Assinie"
 trade_goods = unknown
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = BYZ
 controller = BYZ
 culture = euxine
-religion = sunni
+religion = orthodox
 capital = "Bolu"
 trade_goods = fish
 base_tax = 2

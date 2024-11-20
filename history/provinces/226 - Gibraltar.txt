@@ -2,7 +2,7 @@
 owner = SPA# Mustapha Sa'd King of Granada
 controller = SPA
 culture = strait_greek
-religion = sunni
+religion = west_orthodox
 base_tax = 1
 base_production = 1
 trade_goods = fish

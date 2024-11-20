@@ -2,7 +2,7 @@
 owner = NMD
 controller = NMD
 culture = numidian
-religion = sunni
+religion = west_orthodox
 capital = "Bejaia"
 trade_goods = iron
 base_tax = 3

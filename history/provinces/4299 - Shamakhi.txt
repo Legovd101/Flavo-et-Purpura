@@ -2,7 +2,7 @@
 owner = SRV
 controller = SRV
 culture = cauc_albanian
-religion = sunni
+religion = jewish
 capital = "Shamakhi"
 trade_goods = wool
 base_tax = 2

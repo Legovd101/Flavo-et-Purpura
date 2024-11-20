@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = astrakhani
-religion = sunni
+religion = manichaean
 capital = "Sarai"
 trade_goods = wool
 base_tax = 6

@@ -2,7 +2,7 @@
 owner = LUS
 controller = LUS
 culture = lusitanian
-religion = catholic
+religion = arianism
 capital = "Aveiro"
 trade_goods = salt
 base_tax = 4

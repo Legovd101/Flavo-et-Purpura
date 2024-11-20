@@ -1,5 +1,5 @@
 culture = aka
-religion = shamanism#Fetishism
+religion = west_african_pagan#Fetishism
 capital = "Dunkwa"
 trade_goods = coffee#Kola nuts
 base_tax = 2

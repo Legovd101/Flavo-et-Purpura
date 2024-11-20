@@ -2,7 +2,7 @@
 owner = SYP
 controller = SYP
 culture = massylian
-religion = sunni
+religion = mauri_pagan
 capital = "Ouarsenis"
 trade_goods = livestock
 base_tax = 2

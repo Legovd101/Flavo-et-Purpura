@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = avar#Transylvanian Saxons
-religion = catholic
+religion = manichaean
 capital = "Sibiu"
 trade_goods = cloth
 base_tax = 3

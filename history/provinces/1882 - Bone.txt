@@ -2,7 +2,7 @@
 owner = NMD
 controller = NMD
 culture = numidian
-religion = sunni
+religion = west_orthodox
 capital = "Annaba"
 trade_goods = naval_supplies
 base_tax = 2

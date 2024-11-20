@@ -2,7 +2,7 @@
 owner = ILK
 controller = ILK
 culture = margianan
-religion = sunni
+religion = manichaean
 capital = "Konjikala"
 trade_goods = copper
 base_tax = 1

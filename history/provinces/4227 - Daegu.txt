@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = korean
-religion = confucianism
+religion = tengri_pagan_reformed
 capital = "Jinju"
 trade_goods = paper
 base_tax = 4

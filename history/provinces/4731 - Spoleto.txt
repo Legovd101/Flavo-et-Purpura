@@ -2,7 +2,7 @@
 owner = PAP
 controller = PAP
 culture = spoletian
-religion = catholic
+religion = west_orthodox
 base_tax = 3
 base_production = 2
 trade_goods = livestock

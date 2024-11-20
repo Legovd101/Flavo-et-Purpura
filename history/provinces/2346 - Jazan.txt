@@ -2,7 +2,7 @@
 owner = MFL
 controller = MFL
 culture = muslim
-religion = shiite
+religion = arab_pagan
 capital = "Jazan"
 trade_goods = fish
 base_tax = 3

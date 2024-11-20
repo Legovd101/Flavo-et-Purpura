@@ -1,7 +1,7 @@
 #2429 - Agan
 add_core = SIB
 culture = ostyaki
-religion = sunni
+religion = manichaean
 capital = "Variegansk"
 trade_goods = fur
 base_tax = 1

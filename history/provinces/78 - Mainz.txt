@@ -1,7 +1,7 @@
 # 78 - Mainz
 capital = "Mainz"
 culture = hessian
-religion = catholic
+religion = arianism
 trade_goods = paper
 owner = THU
 base_tax = 4

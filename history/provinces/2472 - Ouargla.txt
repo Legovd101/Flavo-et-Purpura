@@ -2,7 +2,7 @@
 owner = FZA
 controller = FZA
 culture = lautana
-religion = ibadi
+religion = mauri_pagan
 capital = "Ouargla"
 trade_goods = slaves
 base_tax = 1

@@ -2,7 +2,7 @@
 owner = HIN
 controller = HIN
 culture = panjabi
-religion = sunni
+religion = manichaean
 capital = "Multan"
 trade_goods = cloth#Chintz
 base_tax = 5

@@ -2,7 +2,7 @@
 owner = BLU
 controller = BLU
 culture = avar
-religion = catholic
+religion = manichaean
 capital = "Szolnok"
 trade_goods = livestock
 base_tax = 3

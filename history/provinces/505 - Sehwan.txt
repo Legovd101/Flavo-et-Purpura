@@ -2,7 +2,7 @@
 owner = MUL
 controller = MUL
 culture = sindhi
-religion = sunni
+religion = manichaean
 capital = "Sehwan"
 trade_goods = silk#Silk cloth, fine calicoes, painted cloth
 base_tax = 2

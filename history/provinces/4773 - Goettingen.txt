@@ -2,7 +2,7 @@
 owner = SAX
 controller = SAX
 culture = lower_saxon
-religion = catholic
+religion = arianism
 capital = "Göttingen"
 trade_goods = cloth
 hre = yes

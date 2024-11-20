@@ -2,7 +2,7 @@
 owner = QAS
 controller = QAS
 culture = khazak
-religion = sunni
+religion = manichaean
 capital = "Karamegdan"
 trade_goods = wool
 base_tax = 2

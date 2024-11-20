@@ -2,7 +2,7 @@
 owner = BPR
 controller = BPR
 culture = kachin
-religion = animism
+religion = buddhism
 capital = "Minsin"
 trade_goods = grain
 base_tax = 1

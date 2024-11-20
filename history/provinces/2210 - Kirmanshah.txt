@@ -2,7 +2,7 @@
 owner = SYR
 controller = SYR
 culture = persian_assyrian
-religion = sunni
+religion = manichaean
 capital = "Kirmanshah"
 trade_goods = cloth
 base_tax = 2

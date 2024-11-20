@@ -2,7 +2,7 @@
 owner = EST
 controller = EST
 culture = latvian
-religion = catholic
+religion = arianism
 base_tax = 3
 base_production = 3
 trade_goods = naval_supplies

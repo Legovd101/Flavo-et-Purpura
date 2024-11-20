@@ -1,6 +1,6 @@
 #2801 - Medwa
 culture = tunjur
-religion = shamanism#Fetishism
+religion = chad_pagan#Fetishism
 capital = "Medowa"
 add_core = DAR
 native_size = 50

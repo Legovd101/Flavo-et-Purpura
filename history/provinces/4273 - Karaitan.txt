@@ -2,7 +2,7 @@
 owner = NAJ
 controller = NAJ
 culture = muslim
-religion = sunni
+religion = manichaean
 capital = "Kariatan"
 trade_goods = livestock
 base_tax = 1

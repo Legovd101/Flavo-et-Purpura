@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 culture = manchu
-religion = confucianism
+religion = tengri_pagan_reformed
 capital = "Hetu Ala"
 trade_goods = iron
 base_tax = 4

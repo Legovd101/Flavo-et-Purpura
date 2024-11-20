@@ -2,7 +2,7 @@
 owner = TRI
 controller = TRI
 culture = hessian
-religion = catholic
+religion = arianism
 trade_goods = paper
 capital = "Köln"
 base_tax = 6

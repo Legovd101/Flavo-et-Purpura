@@ -2,7 +2,7 @@
 owner = SWI
 controller = SWI
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "Lausanne"
 trade_goods = livestock
 hre = yes

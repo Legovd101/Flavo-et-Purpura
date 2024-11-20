@@ -1,6 +1,6 @@
 #1249 - Yola
 culture = jukun
-religion = shamanism#Fetishism
+religion = chad_pagan#Fetishism
 capital = "Kwararafa"
 trade_goods = unknown
 base_tax = 1

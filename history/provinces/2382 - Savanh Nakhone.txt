@@ -2,7 +2,7 @@
 owner = KHM
 controller = KHM
 culture = lao
-religion = animism
+religion = buddhism
 capital = "Luang Namtha"
 trade_goods = copper
 base_tax = 3

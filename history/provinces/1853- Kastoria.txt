@@ -2,7 +2,7 @@
 owner = ATH
 controller = ATH
 culture = rhoman
-religion = orthodox
+religion = manichaean
 capital = "Kastoria"
 trade_goods = wine
 base_tax = 3

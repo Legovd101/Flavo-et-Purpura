@@ -1,6 +1,6 @@
 #4350 - Mindoro
 culture = filipino
-religion = mahayana
+religion = confucianism
 capital = "Caminawit"
 trade_goods = gems
 base_tax = 2

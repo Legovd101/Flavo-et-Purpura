@@ -2,7 +2,7 @@
 owner = SAX
 controller = SAX
 culture = lower_saxon
-religion = catholic
+religion = arianism
 capital = "Verden"
 trade_goods = livestock
 hre = yes

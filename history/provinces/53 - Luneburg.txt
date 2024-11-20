@@ -2,7 +2,7 @@
 owner = DAN
 controller = DAN
 culture = lower_saxon
-religion = catholic
+religion = arianism
 capital = "Lüneburg"
 trade_goods = salt
 hre = yes

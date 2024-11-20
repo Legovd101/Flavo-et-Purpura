@@ -2,7 +2,7 @@
 owner = DAM
 controller = DAM
 culture = sidamo
-religion = shamanism
+religion = waaqeffanna
 capital = "Fofa"
 is_city = yes
 base_manpower = 1

@@ -2,7 +2,7 @@
 owner = CDL
 controller = CDL
 culture = sichuanese
-religion = confucianism
+religion = nestorian
 capital = "Luzhou"
 trade_goods = grain
 base_tax = 2

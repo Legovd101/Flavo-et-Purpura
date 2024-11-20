@@ -1,7 +1,7 @@
 owner = FRI
 controller = FRI
 culture = hessian
-religion = catholic
+religion = arianism
 trade_goods = cloth
 capital = "Kleves"
 base_tax = 5

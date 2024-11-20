@@ -1,8 +1,8 @@
 #471 - Alimuly
 owner = GLH
 controller = GLH
-culture = nogaybak
-religion = sunni
+culture = pecheneg
+religion = manichaean
 capital = "Alimuly"
 trade_goods = livestock
 base_tax = 2

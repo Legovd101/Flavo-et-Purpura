@@ -2,7 +2,7 @@
 owner = SRV
 controller = SRV
 culture = khazar
-religion = sunni
+religion = jewish
 capital = "Derbent"
 trade_goods = fish
 base_tax = 3

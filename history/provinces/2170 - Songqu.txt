@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = tibetan
-religion = vajrayana
+religion = nestorian
 capital = "Songqu"
 trade_goods = livestock
 base_tax = 1

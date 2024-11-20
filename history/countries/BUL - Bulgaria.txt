@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = eastern
-primary_culture = bulgarian
-religion = orthodox
+primary_culture = molisian
+religion = west_orthodox
 capital = 4733# Sofia
 government_rank = 1

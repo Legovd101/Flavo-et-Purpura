@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = sumatran
-religion = sunni
+religion = hinduism
 capital = "Siak"
 trade_goods = chinaware
 base_tax = 5

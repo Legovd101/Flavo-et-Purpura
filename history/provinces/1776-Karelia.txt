@@ -2,8 +2,8 @@
 owner = FIN
 controller = FIN
 capital = "Kem"
-culture = karelian
-religion = orthodox
+culture = finnish
+religion = finnish_pagan
 add_core = KRL
 is_city = yes
 base_tax = 1

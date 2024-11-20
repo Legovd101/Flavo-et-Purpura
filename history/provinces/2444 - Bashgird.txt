@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = bashkir
-religion = sunni
+religion = manichaean
 capital = "Bashgird"
 trade_goods = gold
 base_tax = 2

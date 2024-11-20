@@ -2,7 +2,7 @@
 owner = MSA
 controller = MSA
 culture = acehnese
-religion = sunni
+religion = hinduism
 capital = "Peureulak"
 trade_goods = spices
 base_tax = 4

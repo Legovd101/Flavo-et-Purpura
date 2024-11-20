@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = iqta
 technology_group = muslim
-religion = sunni
-primary_culture = tunisian
+religion = west_orthodox
+primary_culture = molisian
 government_rank = 1
 capital = 378# Tripoli
 fixed_capital = 354# Cannot move capital away from this province & no power cost to move to it

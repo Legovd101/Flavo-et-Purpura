@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = circassian
-religion = orthodox
+religion = manichaean
 capital = "Nalchik"
 trade_goods = wool
 base_tax = 1

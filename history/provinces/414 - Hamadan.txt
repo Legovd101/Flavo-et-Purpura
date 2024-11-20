@@ -2,7 +2,7 @@
 owner = MDY
 controller = MDY
 culture = persian_assyrian
-religion = sunni
+religion = manichaean
 capital = "Hamedan"
 trade_goods = cloth
 base_tax = 2

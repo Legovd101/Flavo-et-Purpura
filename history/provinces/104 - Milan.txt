@@ -2,7 +2,7 @@
 owner = PDV
 controller = PDV
 culture = alpine
-religion = catholic
+religion = arianism
 hre = yes
 base_tax = 8
 base_production = 7

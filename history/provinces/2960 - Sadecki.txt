@@ -2,7 +2,7 @@
 owner = AVR
 controller = AVR
 culture = polish
-religion = catholic
+religion = orthodox
 capital = "Nowy Sacz"
 base_tax = 6
 base_production = 6

@@ -2,7 +2,7 @@
 owner = KOJ
 controller = KOJ
 culture = perso_levantine
-religion = sunni
+religion = orthodox
 capital = "Dimashq"
 trade_goods = iron
 base_tax = 7

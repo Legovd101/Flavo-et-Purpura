@@ -2,7 +2,7 @@
 owner = TRS
 controller = TRS
 culture = bactrian
-religion = sunni
+religion = manichaean
 capital = "Tashkent"
 trade_goods = tea
 base_tax = 3

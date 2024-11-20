@@ -1,6 +1,6 @@
 #367 - The Azores
-culture = berber
-religion = animism
+culture = gaetuli
+religion = mauri_pagan
 capital = "The Azores"
 trade_goods = fish
 base_tax = 3

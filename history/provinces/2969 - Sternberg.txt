@@ -2,7 +2,7 @@
 owner = SOR
 controller = SOR
 culture = saxon
-religion = catholic
+religion = orthodox
 hre = yes
 base_tax = 3
 base_production = 3

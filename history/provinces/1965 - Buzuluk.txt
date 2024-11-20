@@ -1,8 +1,8 @@
 #1965 - Buzuluk
 owner = GLH
 controller = GLH
-culture = nogaybak
-religion = sunni
+culture = cuman
+religion = manichaean
 capital = "Buzuluk"
 trade_goods = iron
 base_tax = 2

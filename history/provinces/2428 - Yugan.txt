@@ -1,7 +1,7 @@
 #2428 - Yugan
 add_core = SIB
 culture = ostyaki
-religion = sunni
+religion = manichaean
 capital = "Yugan"
 trade_goods = fur
 base_tax = 1

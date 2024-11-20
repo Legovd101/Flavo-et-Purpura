@@ -2,7 +2,7 @@
 owner = KHI
 controller = KHI
 culture = uyghur
-religion = sunni
+religion = manichaean
 capital = "Yarkant"
 trade_goods = wool
 base_tax = 3

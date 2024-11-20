@@ -1,7 +1,7 @@
 owner = BUR
 controller = BUR
 culture = swiss
-religion = catholic
+religion = arianism
 capital = "Geneva"
 trade_goods = cloth
 hre = yes

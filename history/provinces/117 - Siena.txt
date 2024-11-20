@@ -2,7 +2,7 @@
 owner = PAP
 controller = PAP
 culture = tuscan
-religion = catholic
+religion = west_orthodox
 hre = yes
 base_tax = 8
 base_production = 8

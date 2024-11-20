@@ -2,7 +2,7 @@
 owner = GLH
 controller = GLH
 culture = khazar
-religion = sunni
+religion = jewish
 capital = "Khunzah"
 trade_goods = livestock
 base_tax = 2

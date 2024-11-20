@@ -2,7 +2,7 @@
 owner = PER
 controller = PER
 culture = perso_levantine
-religion = sunni
+religion = west_orthodox
 capital = "Al Quds"
 trade_goods = grain
 base_tax = 5

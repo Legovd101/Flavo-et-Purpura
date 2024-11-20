@@ -2,7 +2,7 @@
 owner = KBO
 controller = KBO
 culture = bilala
-religion = sunni
+religion = chad_pagan
 capital = "Yao"
 trade_goods = grain
 base_tax = 3

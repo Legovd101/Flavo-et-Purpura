@@ -2,7 +2,7 @@
 owner = LIT
 controller = LIT
 culture = latvian
-religion = catholic
+religion = orthodox
 capital = "Wenden"
 trade_goods = livestock
 base_tax = 2

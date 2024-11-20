@@ -2,7 +2,7 @@
 owner = KOR
 controller = KOR
 culture = korean
-religion = confucianism
+religion = mahayana
 capital = "Yeongbyeon"
 trade_goods = naval_supplies
 base_tax = 2

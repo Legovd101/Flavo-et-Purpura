@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 culture = manchu
-religion = confucianism
+religion = mahayana
 capital = "Gyeongseong"
 trade_goods = fur
 base_tax = 1

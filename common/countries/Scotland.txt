@@ -1,13 +1,9 @@
 #Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 136 77 70 }
 revolutionary_colors = { 15 0 15 }
-
 preferred_religion = reformed
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	administrative_ideas
 	defensive_ideas
 	exploration_ideas
@@ -17,8 +13,7 @@ historical_idea_groups = {
 	trade_ideas
 	innovativeness_ideas
 }
-
-historical_units = {
+historical_units = { 
 	western_medieval_infantry
 	western_medieval_knights
 	gaelic_galloglaigh
@@ -34,29 +29,18 @@ historical_units = {
 	napoleonic_square
 	napoleonic_lancers
 }
-
-leader_names = {
-	Adam Alexander
-	Bruce Beaton Boyd
-	Cameron Campbell Cochrane Crichton Cunynghame Crawford Carnegie Colyear
-	Douglas Duncan "de Dunbar" Dalzell Drummond
-	Erskine
-	Forbes Ferguson Fletcher Fleming
-	Gordon Graham Gilchrist
-	Hume Hepburn Hamilton
+leader_names = { 
+	Adam Alexander Bruce Beaton Boyd Cameron Campbell Cochrane Crichton Cunynghame
+	Crawford Carnegie Colyear Douglas Duncan "de Dunbar" Dalzell Drummond Erskine
+	Forbes Ferguson Fletcher Fleming Gordon Graham Gilchrist Hume Hepburn Hamilton
 	Johnstone
-	Knox Keith Kerr
-	Law Leslie Livingston Lindsay
-	MacKenzie MacDonald MacGregor Malise MacTaggart Montgomerie Maxwell Murray Maitland
-	Nasmyth
+	Knox Keith Kerr Law Leslie Livingston Lindsay MacKenzie MacDonald MacGregor
+	Malise MacTaggart Montgomerie Maxwell Murray Maitland Nasmyth
 	Ogilvy
-	Playfair Paterson
-	Raeburn Randolph Ruthven
-	Selkirk Strathbogie Sinclair Stewart Seton
-	Wilkie Wishart Wemyss	
+	Playfair Paterson Raeburn Randolph Ruthven Selkirk Strathbogie Sinclair Stewart Seton
+	Wilkie Wishart Wemyss 
 }
-
-monarch_names = {
+monarch_names = { 
 	"James #0" = 120
 	"Robert #2" = 20
 	"Henry #0" = 20
@@ -102,28 +86,14 @@ monarch_names = {
 	"Euphemia #0" = -1
 	"Anabella  #0" = -1
 }
-
-ship_names = {
-	"Alexander Gaily" "Ann of Anstruther" "Ann of Caledonia" Annandale Anthony
-	Bonaventure Bosse
-	Caledonia "Christian of Bo'ness" Christopher Colomb Continent
-	David "Dogarvine of Londonderry" Dolphin "Duke of Hamilton" "Dumbarton Castle"
-	Eagle "Effenying Castle" Elizabeth Endeavour
-	Flower Fortune
-	"Good Fortune" "Great Lyon" "Great Spaniard" "Great Unicorn" Greentree
-	Hope "Hope of Bo'ness" "Hopeful Beginning"
-	Instauration
-	James "James of Anstruther" Janet "Jennet Purwyn"
-	"King's Carvel"
-	"Lamb of Glasgow" "Lamb of Leith" Lesley "Little Unicorn" Lyon
-	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Michael Moriset Morton
-	"Olive Branch"
-	Pelican Phoenix "Prince Rupert" "Providence of Dundee" "Providence of Kirkcaldy"
-	Rainbow "Reid Lyon" "Rising Sun" Rothes "Royal Mary" "Royal William"
-	"Saint Andrew" Salamander Society Speedwell "Speedy Return"
-	Thistle Towaich Treasurer
-	Unicorn Union
-	Venture "Phoenix of Glasgow"
-	Wemyss "William and George" "William and Mary"
-	"Yellow Carvel"
+ship_names = { 
+	"Alexander Gaily" "Ann of Anstruther" "Ann of Caledonia" Annandale Anthony Bonaventure Bosse Caledonia "Christian of Bo'ness" Christopher
+	Colomb Continent David "Dogarvine of Londonderry" Dolphin "Duke of Hamilton" "Dumbarton Castle" Eagle "Effenying Castle" Elizabeth
+	Endeavour Flower Fortune "Good Fortune" "Great Lyon" "Great Spaniard" "Great Unicorn" Greentree Hope "Hope of Bo'ness"
+	"Hopeful Beginning" Instauration
+	James "James of Anstruther" Janet "Jennet Purwyn" "King's Carvel" "Lamb of Glasgow" "Lamb of Leith" Lesley "Little Unicorn" Lyon
+	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Michael Moriset Morton "Olive Branch" Pelican
+	Phoenix "Prince Rupert" "Providence of Dundee" "Providence of Kirkcaldy" Rainbow "Reid Lyon" "Rising Sun" Rothes "Royal Mary" "Royal William"
+	"Saint Andrew" Salamander Society Speedwell "Speedy Return" Thistle Towaich Treasurer Unicorn Union
+	Venture "Phoenix of Glasgow" Wemyss "William and George" "William and Mary" "Yellow Carvel" 
 }

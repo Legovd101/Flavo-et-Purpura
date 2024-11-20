@@ -2,7 +2,7 @@
 owner = AFG
 controller = AFG
 culture = sogdian
-religion = sunni
+religion = manichaean
 capital = "Kunduz"
 trade_goods = cotton
 base_tax = 1

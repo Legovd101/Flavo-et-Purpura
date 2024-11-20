@@ -2,8 +2,8 @@
 owner = GLH
 controller = GLH
 capital = "Bolgar"
-culture = kazani
-religion = sunni
+culture = cuman
+religion = manichaean
 trade_goods = iron
 base_tax = 2
 base_production = 2

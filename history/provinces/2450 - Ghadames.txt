@@ -2,7 +2,7 @@
 owner = FZA
 controller = FZA
 culture = african_greek
-religion = sunni
+religion = mauri_pagan
 capital = "Ghadames"
 trade_goods = spices#Dates
 base_tax = 1

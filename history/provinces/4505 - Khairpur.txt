@@ -2,7 +2,7 @@
 owner = SND
 controller = SND
 culture = sindhi
-religion = sunni
+religion = manichaean
 capital = "Khairpur"
 trade_goods = livestock
 base_tax = 2

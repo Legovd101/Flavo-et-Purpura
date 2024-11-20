@@ -2,7 +2,7 @@
 owner = TEU
 controller = TEU
 culture = roman_cappadocian
-religion = sunni
+religion = orthodox
 capital = "Karaman"
 trade_goods = livestock
 base_tax = 5

@@ -2,7 +2,7 @@
 owner = CYP
 controller = CYP
 culture = levantine_greek
-religion = orthodox
+religion = west_orthodox
 capital = "Nicosia"
 trade_goods = wine
 base_tax = 6

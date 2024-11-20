@@ -2,7 +2,7 @@
 owner = SIN
 controller = SIN
 culture = mongol
-religion = vajrayana
+religion = nestorian
 capital = "Hohhot"
 trade_goods = iron
 base_tax = 4
