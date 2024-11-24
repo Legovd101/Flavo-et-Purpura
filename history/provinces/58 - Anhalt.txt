@@ -5,7 +5,7 @@ culture = saxon
 religion = arianism
 capital = "Dessau"
 trade_goods = wool
-hre = yes
+
 base_tax = 2
 base_production = 2
 base_manpower = 2

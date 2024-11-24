@@ -1,0 +1,22 @@
+bookmark =
+{
+	name = "FEP_Mongols"
+	desc = "FEP_Mongols"
+	date = 1300.1.1
+	
+	center = 151
+	default = yes
+	
+	country = BLU
+	country = BYZ
+	country = GLH	
+	country = ILK
+	country = CHG
+	country = OIR
+	country = NTK	
+	country = ADE
+	
+	# easy_country = CAS
+	# easy_country = POR
+	# easy_country = TUR
+}

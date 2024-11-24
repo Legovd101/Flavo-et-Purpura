@@ -1,0 +1,49 @@
+l_english:
+
+ #---------------------------------------------------------
+ # Blu 3
+ #---------------------------------------------------------
+
+ clergy_trust_title: "Clergy Trust"
+ clergy_trust_desc: ""
+ faith_of_people_title: "Faith Of People"
+ faith_of_people_desc: ""
+ expanding_yoke_title: "Expanding Yoke"
+ expanding_yoke_desc: ""
+ maramar_domination_title: "Maramar Domination"
+ maramar_domination_desc: ""
+
+ #---------------------------------------------------------
+ # Blu 1
+ #---------------------------------------------------------
+
+ our_new_home_title: "Our New Home"
+ our_new_home_desc: ""
+ placating_naysayers_title: "Placating Naysayers"
+ placating_naysayers_desc: ""
+ accommodating_subjects_title: "Accommodating Subjects"
+ accommodating_subjects_desc: ""
+ integrating_slavs_title: "Integrating Slavs"
+ integrating_slavs_desc: ""
+ carpathian_border_title: "Carpathian Border"
+ carpathian_border_desc: ""
+
+ #---------------------------------------------------------
+ # Blu 2
+ #---------------------------------------------------------
+
+ soothe_separatists_title: "Soothe Separatists"
+ soothe_separatists_desc: ""
+ reining_in_subjects_title: "Reining In Subjects"
+ reining_in_subjects_desc: ""
+ reuniting_rhomans_title: "Reuniting Rhomans"
+ reuniting_rhomans_desc: ""
+ slavic_frontier_title: "Slavic Frontier"
+ slavic_frontier_desc: ""
+
+ #---------------------------------------------------------
+ # Blu 4
+ #---------------------------------------------------------
+
+ restoring_hegemony_title: "Restoring Hegemony"
+ restoring_hegemony_desc: ""

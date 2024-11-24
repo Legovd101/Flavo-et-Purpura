@@ -5,7 +5,7 @@ culture = bavarian
 religion = arianism
 capital = "Salzburg"
 trade_goods = salt
-hre = yes
+
 base_tax = 5
 base_production = 5
 base_manpower = 4

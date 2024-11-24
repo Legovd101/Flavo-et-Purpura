@@ -5,7 +5,7 @@ culture = saxon
 religion = arianism
 capital = "Plauen"
 trade_goods = wool
-hre = yes
+
 base_tax = 3
 base_production = 3
 base_manpower = 1

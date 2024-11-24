@@ -10,7 +10,7 @@ trade_goods = grain
 base_manpower = 3
 capital = "Graz"
 is_city = yes
-hre = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

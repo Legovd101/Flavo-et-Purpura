@@ -100,7 +100,7 @@ capital = 1876# Weimar
 		mil = 1
 	}
 }
-1464.9.7 = { elector = yes }
+1464.9.7 = {  }
 1482.9.17 = { 
 	monarch = { 
 		name = "Ernst I"

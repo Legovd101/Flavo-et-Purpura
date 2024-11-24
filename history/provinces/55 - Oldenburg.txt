@@ -5,7 +5,7 @@ culture = hannoverian
 religion = arianism
 capital = "Oldenburg"
 trade_goods = salt
-hre = yes
+
 base_tax = 3
 base_production = 2
 base_manpower = 2

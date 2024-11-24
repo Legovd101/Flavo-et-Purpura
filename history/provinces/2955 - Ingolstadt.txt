@@ -9,7 +9,7 @@ trade_goods = wine#Would shift to beer over time
 base_manpower = 3
 capital = "Ingolstadt"
 is_city = yes
-hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

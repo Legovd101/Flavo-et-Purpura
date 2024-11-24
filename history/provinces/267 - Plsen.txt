@@ -5,7 +5,7 @@ capital = "Plzen"
 culture = czech
 religion = arianism
 trade_goods = naval_supplies
-hre = yes
+
 base_tax = 5
 base_production = 5
 base_manpower = 1

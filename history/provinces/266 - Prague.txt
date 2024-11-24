@@ -5,7 +5,7 @@ capital = "Praha"
 culture = czech
 religion = arianism
 trade_goods = cloth
-hre = yes
+
 base_tax = 8
 base_production = 8
 base_manpower = 6

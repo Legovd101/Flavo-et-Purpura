@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_blue_horde_reform"
+		texturefile = "gfx/interface/governemnt_reform_icons/blue_horde_reform.dds"
+	}
+}

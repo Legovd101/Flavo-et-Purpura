@@ -9,7 +9,7 @@ base_production = 4
 is_city = yes
 add_core = TRI
 base_manpower = 2
-hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

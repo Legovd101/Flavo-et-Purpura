@@ -19,3 +19,4 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 add_core = BLU
+add_core = AVR

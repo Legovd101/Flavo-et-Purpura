@@ -3,7 +3,7 @@ owner = PRO
 controller = PRO
 culture = gallic_greek
 religion = lutetian
-hre = yes
+
 base_tax = 4
 base_production = 4
 trade_goods = fish

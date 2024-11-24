@@ -2,7 +2,7 @@ owner = OPL
 controller = OPL
 culture = schlesian
 religion = orthodox
-hre = yes
+
 base_tax = 3
 base_production = 3
 capital = "Opole"

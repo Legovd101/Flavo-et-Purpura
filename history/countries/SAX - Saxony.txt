@@ -3,7 +3,6 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = saxon
 religion = arianism
-elector = yes
 technology_group = western
 capital = 52#Elector
 1388.1.1 = { 
@@ -202,7 +201,7 @@ capital = 52#Elector
 		mil = 1
 	}
 }
-1547.5.19 = { elector = yes }
+1547.5.19 = {  }
 1550.1.1 = { leader = { name = "F. von Leignitz" type = general fire = 3 shock = 3 manuever = 3 siege = 0 death_date = 1570.12.15 } }
 1553.7.11 = { 
 	monarch = { 

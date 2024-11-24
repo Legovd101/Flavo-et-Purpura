@@ -4,7 +4,7 @@ controller = SOR
 #add_core = BRA
 culture = saxon
 religion = orthodox
-hre = yes
+
 base_tax = 2
 base_production = 2
 trade_goods = livestock

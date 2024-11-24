@@ -1,7 +1,29 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = blue_horde_reform
 government_rank = 1
 technology_group = western
 capital = 151
 religion = orthodox
 primary_culture = early_romylian
+1241.1.1 = { 
+	monarch = { 
+		name = "Kaidu"
+		dynasty = "Ogedeid"
+		birth_date = 1235.1.17
+		dip = 4
+		mil = 6
+		adm = 3
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = zealot_personality
+	add_piety = 0.25
+	add_ruler_modifier = {
+		name = ogedei_legacy
+	}
+	set_government_power = { # sets the power to the specified amount
+        mechanic_type = mongol_yoke
+        power_type = stranglehold
+        value = 65
+	}
+
+}

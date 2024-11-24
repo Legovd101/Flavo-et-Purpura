@@ -3,7 +3,7 @@ owner = PDV# From 1426
 controller = PDV
 culture = alpine
 religion = arianism
-hre = yes
+
 base_tax = 5
 base_production = 5
 trade_goods = cloth

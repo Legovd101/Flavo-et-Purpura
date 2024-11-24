@@ -9,7 +9,7 @@ trade_goods = cloth#fustians
 base_manpower = 4
 capital = "Augsburg"
 is_city = yes
-hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

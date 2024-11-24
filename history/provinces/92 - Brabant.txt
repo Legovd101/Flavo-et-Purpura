@@ -5,7 +5,7 @@ is_city = yes
 capital = "Brussel"
 culture = belgican
 religion = lutetian
-hre = yes
+
 base_tax = 7
 base_production = 7
 trade_goods = cloth

@@ -1,0 +1,348 @@
+########################################
+# Flavor Events for Ogedeid
+#
+# written by Sara Wendel-Ortqvist
+# Events rewritten and adapted for patch 1.22 by Henrik Lohmander
+########################################
+
+namespace = flavor_blu
+normal_or_historical_nations = yes
+
+# The Yoke Enters a New Millenium
+country_event = {
+	id = flavor_blu.0
+	title = "flavor_blu.0.t"
+	desc = "flavor_blu.0.d"
+	picture = OVEREXTENSION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BLU
+		has_ruler = "Kaidu"
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = { # Best make use of this prosperity while it lasts
+		name = "flavor_blu.0.a"
+		custom_tooltip = flavor_blu.0.a.tt
+		
+	}
+}
+
+# Death of Kaidu Khan
+country_event = {
+	id = flavor_blu.1
+	title = "flavor_blu.1.t"
+	desc = "flavor_blu.1.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BLU
+		NOT = { has_global_flag = death_of_kaidu_khan }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = death_of_kaidu_khan
+		every_subject_country = {
+			add_liberty_desire = 20
+		}
+		add_government_power = { # sets the power to the specified amount
+			mechanic_type = mongol_yoke
+			power_type = stranglehold
+			value = -25
+		}
+	}
+	
+	option = { 
+		name = "flavor_blu.1.a" # May the Pax Mongolica ever thrive
+		custom_tooltip = flavor_blu.1.a.tt
+		hidden_effect = {
+			every_country = {
+				limit = {
+					OR = {
+						NOT = { OR = { tag = ROOT tag = GRE } }
+						is_subject_of = ROOT
+						is_neighbor_of = ROOT
+						any_neighbor_country = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+				country_event = { id = flavor_blu.2 }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_subject_of_type_with_overlord = {
+							who = FROM
+							type = tributary_state
+						}
+					}
+				}
+				country_event = { 
+					id = flavor_blu.4 
+					days = 1825
+					random = 90
+				}
+			}
+		}
+	}
+}
+
+# Death of Kaidu Khan
+country_event = {
+	id = flavor_blu.2
+	title = "flavor_blu.2.t"
+	desc = "flavor_blu.2.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "flavor_blu.2.a" # This is our chance to finally shake the yoke off our necks!
+		trigger = {
+			is_subject_of_type_with_overlord = {
+				who = FROM
+				type = tributary_state
+			}
+			border_distance = {
+				who = FROM
+				distance = 95
+			}
+		}
+		FROM = {
+			country_event = { 
+				id = flavor_blu.3 
+				days = 30
+				random = 60
+			}
+		}
+	}
+	option = {
+		name = "flavor_blu.2.b" # Interesting Development...
+	}
+}
+
+country_event = { # [From.GetName] Declares Their Independence!
+	id = flavor_blu.3
+	title = "flavor_blu.3.t"
+	desc = "flavor_blu.3.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "flavor_blu.3.a" # So it's treason, then.
+		FROM = {
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_independence_war
+			}
+			add_stability = 2
+			add_war_exhaustion = -3
+			set_country_flag = shaking_off_yoke
+		}
+	}
+	option = {
+		name = "flavor_blu.3.b" # Damnation! But we have bigger problems..
+		FROM = {
+			grant_independence = yes
+		}
+		add_government_power = { # sets the power to the specified amount
+			mechanic_type = mongol_yoke
+			power_type = stranglehold
+			value = -5
+		}
+	}
+}
+
+# A chance at freedom
+country_event = {
+	id = flavor_blu.4
+	title = "flavor_blu.4.t"
+	desc = "flavor_blu.4.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		is_subject_of_type_with_overlord = {
+			who = BLU
+			type = tributary_state
+		}
+		NOT = { war_with = BLU }
+	}
+
+	option = {
+		name = "flavor_blu.4.a" # This is our chance to finally shake the yoke off our necks!
+		BLU = {
+			country_event = { 
+				id = flavor_blu.3 
+				days = 30
+				random = 60
+			}
+		}
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 50
+				NOT = { liberty_desire = 50 }
+				liberty_desire = 25
+			}
+			modifier = {
+				factor = 0
+				NOT = { liberty_desire = 25 }
+			}
+		}
+	}
+	option = {
+		name = "flavor_blu.4.b" # I don't feel confident in our ability to take on the Mongols...
+		country_event = { 
+			id = flavor_blu.4 
+			days = 1825
+			random = 90
+		}
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				overlord = {
+					is_at_war = yes
+				}
+			}
+		}
+	}
+}
+
+# The Dissolution of the Blue Horde
+country_event = {
+	id = flavor_blu.5
+	title = "flavor_blu.5.t"
+	desc = "flavor_blu.5.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "flavor_blu.5.a" # We stray further from Ogedei's legacy every day...
+		custom_tooltip = flavor_blu.5.a.tt
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = macedonia_area
+						area = serbia_area
+						area = rascia_area
+						area = albania_area
+						area = northern_greece_area
+					}
+					owned_by = ROOT
+				}
+				if = {
+					limit = { 
+						culture = early_romylian
+					}
+					change_culture = macedonian
+				}
+				add_core = MQD
+				remove_core = ROOT
+				cede_province = MQD
+			}
+			every_province = {
+				limit = {
+					OR = {
+						area = bosnia_area
+						area = east_adriatic_coast_area
+						area = croatia_area
+						area = slavonia_area
+					}
+					owned_by = ROOT
+				}
+				if = {
+					limit = { 
+						culture = early_romylian
+					}
+					change_culture = illyrian
+				}
+				add_core = ILY
+				remove_core = ROOT
+				cede_province = ILY
+			}
+			every_province = {
+				limit = {
+					OR = {
+						area = transdanubia_area
+						area = alfold_area
+						area = slovakia_area
+						area = transylvania_area
+					}
+					owned_by = ROOT
+				}
+				if = {
+					limit = { 
+						culture = early_romylian
+					}
+					change_culture = pannonian
+				}
+				add_core = PMN
+				remove_core = ROOT
+				cede_province = PMN
+			}
+			every_province = {
+				limit = {
+					OR = {
+						area = southern_transylvania_area
+						area = wallachia_area
+						area = moldavia_area
+						area = red_ruthenia_area
+					}
+					owned_by = ROOT
+				}
+				if = {
+					limit = { 
+						culture = early_romylian
+					}
+					change_culture = dacian
+				}
+				add_core = DKA
+				remove_core = ROOT
+				cede_province = DKA
+			}
+			every_province = {
+				limit = {
+					OR = {
+						area = thrace_area
+						area = bulgaria_area
+						area = silistria_area
+					}
+					owned_by = ROOT
+				}
+				if = {
+					limit = { 
+						culture = early_romylian
+					}
+					change_culture = romylian
+				}
+			}
+			change_tag = RML
+			every_subject_country = {
+				limit = {
+					NOT = { tag = GRE}
+				}
+				grant_independence = yes
+			}
+		}
+	}
+}

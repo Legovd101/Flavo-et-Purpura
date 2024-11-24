@@ -6,7 +6,7 @@ culture = schlesian
 religion = orthodox
 capital = "Liegnitz"
 trade_goods = glass
-hre = yes
+
 base_tax = 4
 base_production = 4
 is_city = yes

@@ -3,7 +3,7 @@ owner = PDV
 controller = PDV
 culture = romagnan
 religion = arianism
-hre = yes
+
 base_tax = 8
 base_production = 8
 trade_goods = livestock

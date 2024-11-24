@@ -1,0 +1,100 @@
+#For Replacing Base Game ideas
+
+#Hybernian Ideas
+IRE_ideas = {
+
+	start = {
+		monthly_reform_progress_modifier = 0.1
+		infantry_cost = -0.10
+	}
+	bonus = {
+	development_cost = -0.1
+	}
+	
+	trigger = {
+		tag = IRE
+	}
+	
+	free = yes
+	
+	IRE_the_charter_of_clanns = {
+		stability_cost_modifier = -0.15 #
+	}
+	
+	IRE_visions_of_st._brendan = {
+		global_colonial_growth = 15 #
+	}
+	
+	IRE_dail_of_shepherds = {
+		local_production_efficiency = 0.1 #
+	}
+	
+	IRE_fisheries_of_atlantis = {
+		global_sailors_modifier = 0.1
+		sailors_recovery_speed = 0.1 #
+	}
+	
+	IRE_insular_renaissance = {
+		innovativeness_gain = 0.5 #
+	}
+	
+	IRE_stalwart_of_the_west = {
+		ship_trade_power_modifier = 0.2 #
+	}
+	
+	IRE_oireachtas_of_the_tanists = {
+		local_manpower_modifier = 0.15 #
+	}
+}
+
+#Spanian Ideas
+SPA_ideas = {
+
+	start = {
+		naval_morale = 0.15
+		trade_efficiency = 0.1
+	}
+	bonus = {
+		fire_damage_received = -0.10
+	}
+	
+	trigger = {
+	
+	tag = SPA
+	}
+	
+	free = yes
+
+	
+	SPA_the_nation_of_atlas = {
+		local_defensiveness = 0.15 #
+	}
+	
+	SPA_beyond_ecumene = {
+		leader_naval_manuever = 1
+		naval_attrition = -0.1 #
+	}
+	
+	SPA_nea_chora = {
+		global_institution_spread = 0.1 #
+	}
+	
+	SPA_the_six_exarchs = {
+		global_colonial_growth = 10
+		global_tariffs = 0.05 #
+	}
+	
+	SPA_the_caravel_wars_our_trieres = {
+		galley_power = 0.1 #
+	}
+	
+	SPA_the_litoral_scheme = {
+		garrison_size = 0.10
+		fort_maintenance_modifier = -0.10 #
+	}
+	
+	SPA_ten_centuries_of_orthodoxy = {
+		global_heretic_missionary_strength = 0.01
+		yearly_patriarch_authority = 0.05 #
+	}
+}

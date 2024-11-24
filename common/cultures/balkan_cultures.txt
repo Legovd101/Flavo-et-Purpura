@@ -11,6 +11,21 @@ blue_roman = {
 	early_romylian = {
 		primary = BLU
 	}
+	romylian = {
+		primary = BLU
+	}
+	macedonian = {
+		primary = BLU
+	}
+	dacian = {
+		primary = BLU
+	}
+	pannonian = {
+		primary = BLU
+	}
+	illyrian = {
+		primary = BLU
+	}
 	male_names = {
 		Ogadai Goyouk
 		Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 

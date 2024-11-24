@@ -2,7 +2,7 @@ owner = THU
 controller = THU
 capital = "Wiesbaden"
 trade_goods = copper
-hre = yes
+
 culture = hessian
 religion = arianism
 base_tax = 3

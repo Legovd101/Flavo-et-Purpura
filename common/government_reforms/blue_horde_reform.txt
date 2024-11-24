@@ -1,0 +1,43 @@
+blue_horde_reform = {
+	icon = "government_reform_blue_horde_reform"
+	allow_normal_conversion = no
+	potential = {
+		tag = BLU
+	}
+	monarchy = yes
+	raze_province = yes
+	valid_for_nation_designer = yes
+	queen = yes
+	heir = yes
+	royal_marriage = yes
+	government_abilities = {
+		mongol_yoke
+	}
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		technology_group = nomad_group
+	}
+
+	lock_level_when_selected = yes
+
+	start_territory_to_estates = 0.5
+
+	modifiers = {
+		loot_amount = 0.50
+		global_institution_spread = -0.15
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		years_of_nationalism = -5
+		reinforce_cost_modifier = -0.5
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+		has_unify_china_cb = yes
+	}
+	ai = {
+		factor = 1000
+	}
+}

@@ -3,5 +3,5 @@ add_government_reform = autocracy_reform
 primary_culture = miao
 religion = confucianism
 technology_group = chinese
-capital = 2174# Umung
+capital = 2156# Umung
 government_rank = 1

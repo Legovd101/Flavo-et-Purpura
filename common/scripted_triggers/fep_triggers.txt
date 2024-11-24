@@ -1,0 +1,13 @@
+is_in_roman_borders = {
+	OR = {
+		region = balkan_region
+		region = british_isles_region
+		region = france_region
+		region = iberia_region
+		region = maghreb_region
+		region = egypt_region
+		region = mashriq_region
+		region = italy_region
+		region = anatolia_region
+	}
+}

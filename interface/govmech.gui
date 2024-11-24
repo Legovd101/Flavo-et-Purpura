@@ -1,0 +1,22 @@
+guiTypes = {
+	windowType = {
+		name = "stranglehold_gov_mech_power"
+		size = { x = 300 y = 72 }
+		moveable = 0
+
+		# background / the eagle
+		iconType = { 
+				name = "government_power_bar"
+				spriteType = "GFX_stranglehold_power_bar"
+				position = { x = 16 y = 49 }
+		}       
+
+		# Frame
+		iconType = {
+				name = "government_power_bar_frame"
+				spriteType = "GFX_stranglehold_frame"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+		}
+	}
+}

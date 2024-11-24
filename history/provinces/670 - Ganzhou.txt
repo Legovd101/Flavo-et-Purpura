@@ -13,3 +13,4 @@ add_core = NNG
 discovered_by = chinese
 discovered_by = nomad_group
 add_core = SST
+hre = yes

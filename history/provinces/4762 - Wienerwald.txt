@@ -9,7 +9,7 @@ trade_goods = wine
 base_manpower = 3
 capital = "Sankt Pölten"
 is_city = yes
-hre = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

@@ -5,7 +5,7 @@ capital = "Utrecht"
 is_city = yes
 culture = dutch
 religion = arianism
-hre = yes
+
 base_tax = 5
 base_production = 5
 trade_goods = cloth

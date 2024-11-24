@@ -3,8 +3,7 @@ add_government_reform = autocracy_reform
 technology_group = chinese
 religion = confucianism
 primary_culture = shan
-capital = 582# Mong Yang
-# Mong Yang Dynasty
+capital = 670# Mong Yang Dynasty
 1460.1.1 = { 
 	monarch = { 
 		name = "Sawlon"

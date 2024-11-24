@@ -1,0 +1,6 @@
+ogedei_legacy = {
+	reduced_liberty_desire = 25
+	imperial_mandate = 0.05
+	monthly_stranglehold = 0.01
+	yearly_army_professionalism = 0.1
+}

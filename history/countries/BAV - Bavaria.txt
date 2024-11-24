@@ -165,7 +165,7 @@ capital = 4709# München!
 1609.7.1 = { 
 	join_league = catholic
 }
-1623.1.1 = { elector = yes }
+1623.1.1 = {  }
 1630.1.1 = { leader = { name = "Mercy" type = general fire = 3 shock = 3 manuever = 1 siege = 0 death_date = 1645.8.3 } }
 1635.1.1 = { leader = { name = "von Werth" type = general fire = 3 shock = 2 manuever = 4 siege = 0 death_date = 1652.9.16 } }
 1635.7.15 = { 
@@ -284,7 +284,7 @@ capital = 4709# München!
 	}
 }
 1706.1.1 = { elector = no }
-1714.1.1 = { elector = yes }
+1714.1.1 = {  }
 1726.2.25 = { 
 	monarch = { 
 		name = "Karl Albrecht I"

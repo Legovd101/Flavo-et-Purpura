@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = western
 capital = 4433
 religion = hinduism
+primary_culture = marathi

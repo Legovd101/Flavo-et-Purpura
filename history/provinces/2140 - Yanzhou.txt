@@ -16,3 +16,4 @@ add_province_triggered_modifier = temple_of_confucius_modifier
 discovered_by = chinese
 discovered_by = nomad_group
 add_core = WUU
+hre = yes

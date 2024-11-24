@@ -3,7 +3,7 @@ owner = VRN
 controller = VRN
 culture = alpine
 religion = arianism
-hre = yes
+
 base_tax = 4
 base_production = 3
 trade_goods = iron

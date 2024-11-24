@@ -4,7 +4,7 @@ controller = GEN
 add_core = GEN
 culture = ligurian
 religion = lutetian
-hre = yes
+
 base_tax = 6
 base_production = 6
 trade_goods = naval_supplies

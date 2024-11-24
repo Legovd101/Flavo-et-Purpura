@@ -3,7 +3,7 @@ owner = SAX
 controller = SAX
 culture = saxon
 religion = arianism
-hre = yes
+
 base_tax = 4
 base_production = 4
 trade_goods = cloth

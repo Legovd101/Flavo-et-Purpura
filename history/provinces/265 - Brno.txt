@@ -5,7 +5,7 @@ capital = "Brno"
 culture = czech
 religion = orthodox
 trade_goods = wine
-hre = yes
+
 base_tax = 3
 base_production = 3
 base_manpower = 2

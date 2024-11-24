@@ -8,7 +8,7 @@ capital = "Namur"
 is_city = yes
 culture = belgican
 religion = lutetian
-hre = yes
+
 base_tax = 7
 base_production = 7
 trade_goods = iron

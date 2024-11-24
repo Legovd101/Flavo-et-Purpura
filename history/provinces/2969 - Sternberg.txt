@@ -3,7 +3,7 @@ owner = SOR
 controller = SOR
 culture = saxon
 religion = orthodox
-hre = yes
+
 base_tax = 3
 base_production = 3
 trade_goods = cloth

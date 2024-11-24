@@ -10,7 +10,7 @@ trade_goods = iron
 base_manpower = 3
 capital = "Klagenfurt"
 is_city = yes
-hre = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -13,3 +13,4 @@ add_core = HUA
 discovered_by = chinese
 discovered_by = nomad_group
 add_core = CMI
+hre = yes

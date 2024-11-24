@@ -5,7 +5,7 @@ culture = lower_saxon
 religion = arianism
 capital = "Stade"
 trade_goods = fish
-hre = yes
+
 base_tax = 2
 base_production = 2
 base_manpower = 2

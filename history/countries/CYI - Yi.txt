@@ -3,5 +3,6 @@ add_government_reform = autocracy_reform
 primary_culture = yi
 religion = confucianism
 technology_group = chinese
-capital = 675# Umung
+capital = 691# Umung
 government_rank = 1
+elector = yes

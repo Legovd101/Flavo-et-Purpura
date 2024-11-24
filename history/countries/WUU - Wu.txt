@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = wu
+capital = 2140#Hangzhou
+government_rank = 1
+elector = yes

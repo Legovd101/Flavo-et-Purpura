@@ -10,7 +10,7 @@ trade_goods = wine
 base_manpower = 2
 capital = "Celje"
 is_city = yes
-hre = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

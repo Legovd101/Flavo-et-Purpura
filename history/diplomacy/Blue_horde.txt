@@ -1,0 +1,211 @@
+# Guyuk marries Mongk into Adrianopolitan nobility
+union =  {
+	first = BLU
+	second = GRE
+	start_date = 1250.1.1
+	end_date = 1479.1.20
+}
+
+# # Louis of Spain and Louise Elisabeth d'Orléans
+# royal_marriage = {
+# 	first = SPA
+# 	second = FRA
+# 	start_date = 1722.1.20
+# 	end_date = 1724.8.3
+# }
+
+# Blue Horde Yoke
+
+vassal = {
+	first = BLU
+	second = RAG
+	start_date = 1243.6.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = BLU
+	second = CRO
+	start_date = 1242.3.21
+	end_date = 1553.12.31
+}
+vassal = {
+	first = BLU
+	second = BOS
+	start_date = 1242.5.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = BLU
+	second = SER
+	start_date = 1242.9.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = BLU
+	second = AVR
+	start_date = 1241.8.21
+	end_date = 1553.12.31
+}
+
+#Kingom of Moravia
+vassal = {
+	first = MVA
+	second = OPL
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = MVA
+	second = GLG
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}
+
+#Mongol Tributaries
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = CLI
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = VOL
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = MVA
+	start_date = 1242.1.1
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = CHR
+	start_date = 1238.9.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = UKR
+	start_date = 1239.1.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = PLT
+	start_date = 1239.6.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = PRU
+	start_date = 1241.2.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = MAZ
+	start_date = 1240.6.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = KRA
+	start_date = 1240.8.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = SIL
+	start_date = 1241.5.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = SLO
+	start_date = 1241.5.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = SOR
+	start_date = 1241.7.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = POM
+	start_date = 1241.5.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = SAX
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = FRI
+	start_date = 1242.7.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = ANH
+	start_date = 1241.8.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BLU
+	second = LPP
+	start_date = 1242.8.21
+	end_date = 1644.4.22
+}
+
+# Spain and Etruria
+# alliance = {
+# 	first = SPA
+# 	second = ETR
+# 	start_date = 1801.3.21
+# 	end_date = 1807.12.10
+# }

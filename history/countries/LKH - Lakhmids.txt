@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = western
 capital = 2312
 religion = manichaean
+primary_culture = lakhmid

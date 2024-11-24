@@ -3,7 +3,7 @@ owner = BUR
 controller = BUR
 culture = burgundii
 religion = arianism
-hre = yes
+
 base_tax = 6
 base_production = 6
 trade_goods = cloth

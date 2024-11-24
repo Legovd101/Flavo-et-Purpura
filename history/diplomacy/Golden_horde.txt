@@ -1,0 +1,40 @@
+#Mongol Tributaries
+dependency = {
+	subject_type = "tributary_state"
+	first = GLH
+	second = KIE
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GLH
+	second = RYA
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GLH
+	second = OKA
+	start_date = 1242.1.1
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GLH
+	second = SMO
+	start_date = 1238.9.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GLH
+	second = TVE
+	start_date = 1239.1.21
+	end_date = 1644.4.22
+}

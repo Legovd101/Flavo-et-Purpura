@@ -13,3 +13,4 @@ add_core = MIN
 discovered_by = chinese
 discovered_by = nomad_group
 add_core = CMI
+hre = yes

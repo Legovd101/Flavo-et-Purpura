@@ -5,7 +5,7 @@ capital = "Hradec Králové"
 culture = czech
 religion = orthodox
 trade_goods = grain
-hre = yes
+
 base_tax = 3
 base_production = 3
 base_manpower = 2

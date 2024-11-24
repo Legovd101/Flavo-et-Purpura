@@ -9,7 +9,7 @@ trade_goods = grain
 base_manpower = 4
 capital = "München"
 is_city = yes
-hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

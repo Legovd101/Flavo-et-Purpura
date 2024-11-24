@@ -1,0 +1,39 @@
+on_new_monarch = {
+	events = {
+		flavor_blu.1			#Death of Kaidu Khan
+	}
+}
+
+# root = loser country, from = winner country
+on_war_lost = {
+	if = {
+		limit = {
+			FROM = { has_country_flag = shaking_off_yoke }
+		}
+		FROM = { clr_country_flag = shaking_off_yoke }
+		BLU = {
+			add_government_power = { # sets the power to the specified amount
+				mechanic_type = mongol_yoke
+				power_type = stranglehold
+				value = -15
+			}
+		}
+	}
+}
+
+# root = winning country, from = loser country
+on_war_won = {
+	if = {
+		limit = {
+			FROM = { has_country_flag = shaking_off_yoke }
+		}
+		FROM = { clr_country_flag = shaking_off_yoke }
+		BLU = {
+			add_government_power = { # sets the power to the specified amount
+				mechanic_type = mongol_yoke
+				power_type = stranglehold
+				value = 10
+			}
+		}
+	}
+}

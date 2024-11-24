@@ -4,7 +4,7 @@ controller = SAX
 culture = pommeranian
 religion = arianism
 trade_goods = naval_supplies
-hre = yes
+
 base_tax = 5
 base_production = 4
 base_manpower = 3

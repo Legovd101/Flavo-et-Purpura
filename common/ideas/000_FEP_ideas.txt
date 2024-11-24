@@ -1,0 +1,148 @@
+#Sinayese Ideas
+SIN_ideas = {
+
+	start = {
+		global_missionary_strength = 0.02
+		local_governing_cost = -0.20
+	}
+	bonus = {
+	prestige = 1
+	}
+	
+	trigger = {
+		tag = SIN
+	}
+	free = yes
+	
+	SIN_the_horizon_of_faith = {
+		land_attrition = -0.1 #
+	}
+	
+	SIN_fleets_of_the_silent_quarter_of_the_earth = {
+		merchants = 1
+		trade_range_modifier = 0.25 #
+	}
+	
+	SIN_complex_of_the_patricians = {
+		local_build_cost = -0.15 #
+	}
+	
+	SIN_the_hermit_empire = {
+		min_local_autonomy = -10
+		local_autonomy = 0.05 #
+	}
+	
+	SIN_new_mogao_libraries = {
+		institution_spread_from_true_faith = 0.10 #
+	}
+	
+	SIN_steles_of_the_north = {
+		colonists = 1 #
+	}
+	
+	SIN_the_banners_of_vindication = {
+		land_forcelimit_modifier = 0.15 #
+	}
+}
+
+#Brythonic Ideas
+BRY_ideas = {
+
+	start = {
+		infantry_power = 0.1
+		defensiveness = 0.10
+	}
+	bonus = {
+	land_morale = 0.1
+	}
+	
+	trigger = {
+		tag = BRY
+	}
+	
+	free = yes
+	
+	
+	BRY_the_veil_of_britain = {
+		hostile_attrition = 1 #
+	}
+	
+	BRY_echoes_of_king_arthur = {
+		infantry_shock = 0.15 #
+	}
+	
+	BRY_the_great_expulsions = {
+		autonomy_change_time = -0.25
+		harsh_treatment_cost = -0.2 #
+	}
+	
+	BRY_the_new_romanization = {
+		improve_relation_modifier = 0.2 #
+	}
+	
+	BRY_1642_codex_britannica = {
+		global_tax_modifier = 0.1 #
+	}
+	
+	BRY_order_of_the_green_knight = {
+		spy_offence = 0.15 #
+	}
+	
+	BRY_the_black_tin = {
+		trade_goods_size_modifier = 0.10 #
+	}
+}
+
+#Northern Ideas
+tag_ideas = {
+
+	start = {
+		shock_damage = 0.10
+		navy_tradition = 1
+	}
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+	
+	always = no
+	}
+	
+	free = yes
+	
+	
+	tag_the_grand_reunion = {
+		nobles_loyalty_modifier = 0.15
+		nobles_influence_modifier = -0.1 #
+	}
+	
+	tag_eric's_ambition = {
+		range = 0.5
+		ship_durability = 0.1 #
+	}
+	
+	tag_thorfinn's_dream = {
+		colonists = 1
+		native_assimilation = 0.5 #
+	}
+	
+	tag_ulfilianism = {
+		tolerance_own = 0.5
+		monthly_church_power = 0.05 #
+	}
+	
+	tag_the_baltic_wars = {
+		leader_naval_shock = 1
+		naval_morale_damage = 0.15 #
+	}
+	
+	tag_the_northern_passages = {
+		global_foreign_trade_power = 0.2 #
+	}
+	
+	tag_the_new_jomsvikings = {
+		discipline = 0.05
+		allowed_marine_fraction = 0.1 #
+	}
+}

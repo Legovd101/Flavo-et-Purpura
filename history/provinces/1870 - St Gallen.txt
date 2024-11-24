@@ -5,7 +5,7 @@ culture = swiss
 religion = arianism
 capital = "St Gallen"
 trade_goods = livestock
-hre = yes
+
 base_tax = 4
 base_production = 4
 base_manpower = 2

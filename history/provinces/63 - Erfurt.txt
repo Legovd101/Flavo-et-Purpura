@@ -5,7 +5,7 @@ culture = saxon
 religion = arianism
 capital = "Erfurt"
 trade_goods = dyes#Woad, also a center for glassmaking
-hre = yes
+
 base_tax = 5
 base_production = 4
 base_manpower = 3

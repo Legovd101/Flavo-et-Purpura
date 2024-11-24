@@ -4,7 +4,7 @@ controller = GEN
 add_core = GEN
 culture = ligurian
 religion = arianism
-hre = yes
+
 base_tax = 10
 base_production = 10
 trade_goods = paper

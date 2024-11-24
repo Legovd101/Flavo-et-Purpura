@@ -3,7 +3,7 @@ owner = BUL
 controller = BUL
 culture = tuscan
 religion = west_orthodox
-hre = yes
+
 base_tax = 6
 base_production = 6
 trade_goods = wine

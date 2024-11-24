@@ -6,7 +6,7 @@ capital = "Budyšín"
 culture = sorbian
 religion = orthodox
 trade_goods = cloth
-hre = yes
+
 base_tax = 2
 base_production = 2
 base_manpower = 1

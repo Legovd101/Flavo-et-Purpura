@@ -9,7 +9,7 @@ trade_goods = wine
 base_manpower = 2
 capital = "Braunau am Inn"
 is_city = yes
-hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

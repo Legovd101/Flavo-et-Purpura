@@ -10,7 +10,7 @@ trade_goods = wool
 base_manpower = 2
 capital = "Meran"
 is_city = yes
-hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

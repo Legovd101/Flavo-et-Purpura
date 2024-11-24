@@ -3,7 +3,7 @@ owner = TRI
 controller = TRI
 is_city = yes
 capital = "Antwerp"
-hre = yes
+
 culture = flemish
 religion = arianism
 base_tax = 8

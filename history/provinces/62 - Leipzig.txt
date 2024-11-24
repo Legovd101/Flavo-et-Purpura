@@ -8,7 +8,7 @@ culture = saxon
 religion = arianism
 capital = "Leipzig"
 trade_goods = wool
-hre = yes
+
 base_tax = 4
 base_production = 4
 base_manpower = 2
