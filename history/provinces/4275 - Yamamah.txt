@@ -1,7 +1,7 @@
 #4275 - Al-Yamamah
 owner = NAJ
 controller = NAJ
-culture = muslim
+culture = central_arab
 religion = sunni
 capital = "Kharj"
 trade_goods = livestock

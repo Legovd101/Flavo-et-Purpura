@@ -94,7 +94,7 @@ BRY_ideas = {
 }
 
 #Northern Ideas
-tag_ideas = {
+NSE_ideas = {
 
 	start = {
 		shock_damage = 0.10
@@ -106,43 +106,152 @@ tag_ideas = {
 	
 	trigger = {
 	
-	always = no
+	tag = NSE
 	}
 	
 	free = yes
 	
 	
-	tag_the_grand_reunion = {
+	NSE_the_grand_reunion = {
 		nobles_loyalty_modifier = 0.15
 		nobles_influence_modifier = -0.1 #
 	}
 	
-	tag_eric's_ambition = {
+	NSE_eric's_ambition = {
 		range = 0.5
 		ship_durability = 0.1 #
 	}
 	
-	tag_thorfinn's_dream = {
+	NSE_thorfinn's_dream = {
 		colonists = 1
 		native_assimilation = 0.5 #
 	}
 	
-	tag_ulfilianism = {
+	NSE_ulfilianism = {
 		tolerance_own = 0.5
 		monthly_church_power = 0.05 #
 	}
 	
-	tag_the_baltic_wars = {
+	NSE_the_baltic_wars = {
 		leader_naval_shock = 1
 		naval_morale_damage = 0.15 #
 	}
 	
-	tag_the_northern_passages = {
+	NSE_the_northern_passages = {
 		global_foreign_trade_power = 0.2 #
 	}
 	
-	tag_the_new_jomsvikings = {
+	NSE_the_new_jomsvikings = {
 		discipline = 0.05
 		allowed_marine_fraction = 0.1 #
+	}
+}
+
+#Gallian Ideas
+GLL_ideas = {
+
+		start = {
+		diplomatic_reputation = 1
+		leader_land_shock = 1
+	}
+	bonus = {
+		legitimacy = 1
+		horde_unity = 1
+		devotion = 1
+		republican_tradition = 0.3
+	}
+
+	trigger = {
+
+		tag = GLL
+	}
+
+	free = yes
+
+
+	GLL_heirs_of_the_west = {
+		land_morale = 0.1 #
+	}
+
+	GLL_neo-catonism = {
+		yearly_corruption = -0.1
+		idea_cost = -0.05 #
+	}
+
+	GLL_integratio_militarium = {
+		fire_damage = 0.05
+		fire_damage_received = -0.05 #
+	}
+
+	GLL_atlantean_vineyards = {
+		improve_relation_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05 #
+	}
+
+	GLL_lutetian_papism = {
+		diplomats = 1 
+		vassal_income = 0.1 #
+	}
+
+	GLL_lessons_of_the_consular_wars = {
+		stability_cost_modifier = -0.1 #
+	}
+
+	GLL_return_of_the_prodigial_son = {
+		imperial_mandate = 0.1
+		prestige = 0.5 #
+	}
+}
+
+#Romylian Ideas
+BLU_ideas = {
+
+	start = {
+		tolerance_own = 1
+		mil_tech_cost_modifier = -0.1
+	}
+	bonus = {
+		governing_capacity_modifier = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = RML
+			tag = BLU
+		}
+	}
+	
+	free = yes
+	
+	BLU_the_blue_romans = {
+		legitimacy = 1
+		horde_unity = 1
+		devotion = 1
+		republican_tradition = 0.3 #
+	}
+	
+	BLU_banner_of_the_final_khanate = {
+		discipline = 0.05 #
+	}
+	
+	BLU_universal_dominance = {
+		diplomatic_reputation = 1
+		ae_impact = -0.1 #
+	}
+	
+	BLU_crossroads_of_the_world = {
+		trade_steering = 0.15 #
+	}
+	
+	BLU_the_guttural_choir_of_hagia_sophia = {
+		advisor_pool = 2 #
+	}
+	
+	BLU_wrath_of_st._ogdei = {
+		artillery_power = 0.15 #
+	}
+	
+	BLU_1744_monastery_reform = {
+		global_unrest = -1 #
 	}
 }

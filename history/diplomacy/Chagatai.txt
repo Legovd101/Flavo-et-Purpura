@@ -1,0 +1,80 @@
+#Mongol Tributaries
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = KSH
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = AFG
+	start_date = 1242.3.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = TRS
+	start_date = 1242.1.1
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = KOK
+	start_date = 1238.9.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = KRY
+	start_date = 1239.1.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = KHI
+	start_date = 1239.6.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = QAS
+	start_date = 1241.2.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = KRC
+	start_date = 1240.6.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = RFR
+	start_date = 1240.8.21
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CHG
+	second = CHH
+	start_date = 1241.5.21
+	end_date = 1644.4.22
+}

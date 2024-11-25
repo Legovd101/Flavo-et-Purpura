@@ -1,0 +1,468 @@
+country_decisions = {
+	norse_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_northern_empire_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = NSE }
+			NOT = { tag = FIN }
+			NOT = { tag = SMI }
+			culture_group = scandinavian
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 12		# Sjaelland (Seeland)
+				province_id = 45		# Lubeck (Angulland)
+				province_id = 1		# Stockholm (Sweden)
+				province_id = 248		# Lothian (Skotland)
+				province_id = 370		# Reykjavik (Iceland)
+				province_id = 17		# Akerhus (Norway)
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = {	is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 12
+			owns_core_province = 45
+			owns_core_province = 1
+			owns_core_province = 248
+			owns_core_province = 370
+			owns_core_province = 17
+		}
+		effect = {
+			change_tag = NSE
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			scandinavia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_northern_empire_flag
+			newfoundland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			labrador_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			cote_nord_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+		if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = NSE_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_importance = 400
+	}
+	
+	norse_nation_diplomatically = {
+		major = yes
+		potential = {
+			OR = {
+				NOT = { has_government_attribute = english_parliament }	#Formation through the Parliament
+				ai = yes
+			}
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = NSE }
+			NOT = { tag = FIN }
+			NOT = { tag = SMI }
+			culture_group = scandinavian
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
+				AND = {
+					OR = {
+						tag = NOR
+						tag = SWE
+					}
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							SCO = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							SCO = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+						AND = {
+							LOI = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							LOI = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+						AND = {
+							DAN = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							DAN = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+						AND = {
+							ENG = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							ENG = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+						AND = {
+							ICE = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							ICE = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+					}
+				}
+				AND = {
+					tag = SCO
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							NOR = {
+								OR = {
+									is_subject_of = SCO
+									is_subject_of = LOI
+									is_subject_of = ENG
+									is_subject_of = DAN
+									is_subject_of = ICE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							NOR = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+						AND = {
+							ai = yes
+							SWE = {
+								OR = {
+									is_subject_of = SCO
+									is_subject_of = LOI
+									is_subject_of = ENG
+									is_subject_of = DAN
+									is_subject_of = ICE
+								}
+							}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							SWE = { NOT = { num_of_cities = 30 } } #Keep this number the same as in allow
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			legitimacy = 100
+			custom_trigger_tooltip = {
+				tooltip = all_nordic_countries_as_subjects
+				OR = {
+					AND = {
+						OR = {
+							tag = NOR
+							tag = SWE
+						}
+						OR = {
+							SCO = {
+								OR = {
+									junior_union_with = NOR
+									junior_union_with = SWE
+								}
+							}
+							SCO = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+						}
+						OR = {
+							LOI = {
+								OR = {
+									junior_union_with = NOR
+									junior_union_with = SWE
+								}
+							}
+							LOI = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+						}
+						LOI = { NOT = { num_of_cities = 30 } } #Keep this number the same as in potential
+						OR = {
+							ENG = {
+								OR = {
+									junior_union_with = NOR
+									junior_union_with = SWE
+								}
+							}
+							ENG = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+						}
+						ENG = { NOT = { num_of_cities = 30 } } #Keep this number the same as in potential
+						OR = {
+							DAN = {
+								OR = {
+									junior_union_with = NOR
+									junior_union_with = SWE
+								}
+							}
+							DAN = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+						}
+						DAN = { NOT = { num_of_cities = 30 } } #Keep this number the same as in potential
+						OR = {
+							ICE = {
+								OR = {
+									junior_union_with = NOR
+									junior_union_with = SWE
+								}
+							}
+							ICE = {
+								OR = {
+									is_subject_of = NOR
+									is_subject_of = SWE
+								}
+							}
+						}
+						ICE = { NOT = { num_of_cities = 30 } } #Keep this number the same as in potential
+					}
+					AND = {
+						OR = {
+							tag = ENG
+							tag = LOI
+							tag = SCO
+							tag = DAN
+							tag = ICE
+						}
+						OR = {
+							SWE = {
+								OR = {
+									junior_union_with = SCO
+									junior_union_with = LOI
+									junior_union_with = ENG
+									junior_union_with = DAN
+									junior_union_with = ICE
+								}
+							}
+							SWE = {
+								OR = {
+									is_subject_of = SCO
+									is_subject_of = LOI
+									is_subject_of = ENG
+									is_subject_of = DAN
+									is_subject_of = ICE
+								}
+							}
+						}
+						SWE = { NOT = { num_of_cities = 30 } } #Keep this number the same as in potential
+						OR = {
+							NOR = {
+								OR = {
+									junior_union_with = SCO
+									junior_union_with = LOI
+									junior_union_with = ENG
+									junior_union_with = DAN
+									junior_union_with = ICE
+								}
+							}
+							NOR = {
+								OR = {
+									is_subject_of = SCO
+									is_subject_of = LOI
+									is_subject_of = ENG
+									is_subject_of = DAN
+									is_subject_of = ICE
+								}
+							}
+						}
+						NOR = { NOT = { num_of_cities = 30 } } #Keep this number the same as in potential
+					}
+				}
+			}
+		}
+		effect = {
+			every_subject_country = {
+				limit = {
+					OR = {
+						tag = NOR
+						tag = SWE
+						tag = DAN
+						tag = LOI
+						tag = SCO
+						tag = ENG
+						tag = NOL
+						tag = ICE
+					}
+					ai = yes
+				}
+				ROOT = {
+					inherit = PREV
+				}
+
+			}
+			change_tag = NSE
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			scandinavia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_northern_empire_flag
+			newfoundland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			labrador_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			cote_nord_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 200
+		do_not_integrate = ENG
+		do_not_integrate = SCO
+		do_not_integrate = NOR
+		do_not_integrate = SWE
+		do_not_integrate = ICE
+		do_not_integrate = LOI
+		do_not_integrate = DAN
+	}
+}

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = mahri_culture
+primary_culture = old_mahri
 religion = arab_pagan
 technology_group = muslim
 capital = 2342# Qishn

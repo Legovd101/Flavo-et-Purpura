@@ -1,2 +1,8 @@
 #1804 - Greenland
 is_city = no
+discovered_by = ICE
+discovered_by = NOR
+discovered_by = SWE
+discovered_by = DAN
+discovered_by = SCO
+discovered_by = LOI

@@ -1,4 +1,8 @@
 #1229 - Berber
+owner = ETH
+controller = ETH
+add_core = ETH
+add_core = BEJ
 culture = beja
 religion = coptic
 capital = "Berber"

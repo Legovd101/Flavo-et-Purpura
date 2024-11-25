@@ -1,7 +1,7 @@
 #4274 - Sudayr
 owner = NAJ
 controller = NAJ
-culture = muslim
+culture = central_arab
 religion = manichaean
 capital = "al-Hauta"
 trade_goods = grain

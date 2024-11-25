@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = arabic_plutocracy_reform
-primary_culture = omani_culture
+primary_culture = old_omani
 religion = manichaean
 technology_group = muslim
 capital = 403# Muscat

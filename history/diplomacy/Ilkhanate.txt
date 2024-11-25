@@ -29,7 +29,7 @@ vassal = {
 
 vassal = {
 	first = ILK
-	second = AFG
+	second = TAB
 	start_date = 1241.8.21
 	end_date = 1553.12.31
 }

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = scottish_monarchy_reform
-primary_culture = scottish
+primary_culture = viking_scottish
 add_accepted_culture = highland_scottish
 religion = arianism
 technology_group = western

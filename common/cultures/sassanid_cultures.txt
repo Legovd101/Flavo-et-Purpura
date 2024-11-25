@@ -80,7 +80,7 @@ arabian = {
 	ghassanid = {
 		primary = ANZ
 	}
-	muslim = {
+	central_arab = {
 	}
 }
 assyrian = {

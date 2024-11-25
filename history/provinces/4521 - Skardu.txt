@@ -1,6 +1,6 @@
 #4521 - Skardu
-owner = LDK
-controller = LDK
+owner = KHI
+controller = KHI
 culture = kashmiri
 religion = vajrayana
 capital = "Skardu"
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = LDK
+add_core = KHI
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

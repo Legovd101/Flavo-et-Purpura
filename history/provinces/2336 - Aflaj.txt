@@ -1,7 +1,7 @@
 #2336 - Aflaj
 owner = HED
 controller = HED
-culture = muslim
+culture = central_arab
 religion = sunni
 capital = "Aflaj"
 trade_goods = livestock

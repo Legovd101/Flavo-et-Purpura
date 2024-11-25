@@ -1,7 +1,7 @@
 #392 - Al-Arid
 owner = NAJ
 controller = NAJ
-culture = muslim
+culture = central_arab
 religion = manichaean
 capital = "Diriyah"
 trade_goods = livestock

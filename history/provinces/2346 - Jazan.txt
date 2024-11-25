@@ -1,7 +1,7 @@
 #2346 - Jazan
 owner = MFL
 controller = MFL
-culture = muslim
+culture = central_arab
 religion = arab_pagan
 capital = "Jazan"
 trade_goods = fish

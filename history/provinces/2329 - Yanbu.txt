@@ -1,7 +1,7 @@
 #2329 - Yanbu
 owner = HED
 controller = HED
-culture = muslim
+culture = central_arab
 religion = sunni
 capital = "Yanbu"
 trade_goods = cloth

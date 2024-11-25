@@ -81,6 +81,5 @@ leader_names = {
 }
 ship_names = { 
 	Alhtpolo
-	Kiten Kraymorie Lozenets Promorsko Rezovo
-	Sarafovo Sinemorets Sozopol Varara 
+	Kiten Kraymorie Lozenets Promorsko Rezovo Sarafovo Sinemorets Sozopol Varara 
 }

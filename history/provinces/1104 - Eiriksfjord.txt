@@ -1,6 +1,6 @@
 #1104 - Eiriksfjord
-culture = inuit
-religion = totemism
+culture = icelandic
+religion = arianism
 capital = "Eiriksfjord"
 trade_goods = unknown
 base_tax = 1
@@ -13,3 +13,9 @@ is_city = no
 add_core = ICE
 owner = ICE
 controller = ICE
+discovered_by = LOI
+discovered_by = DAN
+discovered_by = SCO
+discovered_by = NOR
+discovered_by = SWE
+discovered_by = ICE

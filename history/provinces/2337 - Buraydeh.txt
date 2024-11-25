@@ -1,7 +1,7 @@
 #2337 - Buraydeh
 owner = NAJ
 controller = NAJ
-culture = muslim
+culture = central_arab
 religion = manichaean
 capital = "Buraydeh"
 trade_goods = livestock

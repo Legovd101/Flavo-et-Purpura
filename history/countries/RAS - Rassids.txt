@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudal_theocracy
-primary_culture = yemeni_culture
+primary_culture = yemeni
 religion = arab_pagan
 technology_group = muslim
 capital = 390# Sana'a

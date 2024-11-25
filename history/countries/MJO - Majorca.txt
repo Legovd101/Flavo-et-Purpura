@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 religion = west_orthodox
-primary_culture = catalan
+primary_culture = balearic_greek
 technology_group = western
 capital = 333# Majorca
 government_rank = 1

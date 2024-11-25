@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = blue_horde_reform
 government_rank = 1
-technology_group = western
+technology_group = eastern
 capital = 151
 religion = orthodox
 primary_culture = early_romylian

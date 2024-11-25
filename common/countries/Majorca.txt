@@ -87,14 +87,13 @@ monarch_names = {
 leader_names = { 
 	Anina Angelopoulos Androutsos Aulakos Botsaris Bouboulis Chatzeris Christianopoulos Chatzimoschos Dalianis
 	Doumpiotis Diakos Danglis Dagres Deligiannis Damodos Flessas Farmakidis Gotzias Gonemis
-	Gouras Giatrakos Gazalis Hatzipetros
-	Kapodistrias Kolokotronis Karaiskakis Kanaris Katsonis Karykes Kontares Karatzas Kriezotis Kirezis
-	Kountouriotis Korais Kairis Kyriazis Kontostavlos Loukaris Livinis Mavrokordatos Mavrikios Makris
-	Mavromichalis Meletopoulos Metaxas Milios Meintanis Mavrogenes Notaras
-	Pegas Patelaros Pelekasis Petrovas Panourgias Pappas Papatsonis Papazafiropoulos Psalidas Papanikolis
-	Pinotsis Ratzikotsikas
-	Serpetzoglou Skoufas Sachtouris Skourtis Stamatelopoulos Soumalis Triantaphyllos Tsakalov Tsokris Tombazis
-	Vokos Verousis Vasileiou Voulgaris Xanthos Xiros Ypsilantis Yiannouzas Zalykis Zeras
+	Gouras Giatrakos Gazalis Hatzipetros Kapodistrias Kolokotronis Karaiskakis Kanaris Katsonis Karykes
+	Kontares Karatzas Kriezotis Kirezis Kountouriotis Korais Kairis Kyriazis Kontostavlos Loukaris
+	Livinis Mavrokordatos Mavrikios Makris Mavromichalis Meletopoulos Metaxas Milios Meintanis Mavrogenes
+	Notaras Pegas Patelaros Pelekasis Petrovas Panourgias Pappas Papatsonis Papazafiropoulos Psalidas
+	Papanikolis Pinotsis Ratzikotsikas Serpetzoglou Skoufas Sachtouris Skourtis Stamatelopoulos Soumalis Triantaphyllos
+	Tsakalov Tsokris Tombazis Vokos Verousis Vasileiou Voulgaris Xanthos Xiros Ypsilantis
+	Yiannouzas Zalykis Zeras 
 }
 ship_names = { 
 	Ydra Lesvos Limnos Mikonos Salamis Samos Themistoklis Evripidis Aischylos Aristofanis
