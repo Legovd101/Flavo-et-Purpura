@@ -3,6 +3,10 @@ owner = ALS
 controller = ALS
 capital = "Nancy"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = burgundii
 religion = lutetian
 

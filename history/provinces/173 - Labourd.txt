@@ -3,6 +3,10 @@ owner = NAV
 controller = NAV
 capital = "Bayonne"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = vasconian
 religion = lutetian
 base_tax = 3

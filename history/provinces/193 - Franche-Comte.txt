@@ -3,6 +3,10 @@ owner = BUR
 controller = BUR
 capital = "Besançon"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = burgundii
 religion = arianism
 

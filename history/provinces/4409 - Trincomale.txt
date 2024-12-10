@@ -1,6 +1,6 @@
 #4409 - Trincomale
-owner = PGS
-controller = PGS
+owner = MAD
+controller = MAD
 culture = sinhala
 religion = buddhism
 capital = "Trincomale"
@@ -16,4 +16,4 @@ discovered_by = chinese
 discovered_by = east_african
 extra_cost = 8
 center_of_trade = 1
-add_core = PGS
+add_core = MAD

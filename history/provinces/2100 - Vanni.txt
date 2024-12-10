@@ -1,6 +1,6 @@
 #2100 - Vanni
-owner = PGS
-controller = PGS
+owner = MAD
+controller = MAD
 culture = tamil
 religion = hinduism
 capital = "Yapapatuna"
@@ -14,4 +14,4 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = chinese
 discovered_by = east_african
-add_core = PGS
+add_core = MAD

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = asturian
-religion = lutetian
+religion = arianism
 technology_group = western
 capital = 207#Asturias
 government_rank = 1

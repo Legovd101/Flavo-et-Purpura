@@ -3,6 +3,10 @@ owner = BUR
 controller = BUR
 capital = "Salins"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 add_local_autonomy = 30# The counts of Chalon-Arlay were very dominant in the region
 culture = burgundii
 religion = arianism

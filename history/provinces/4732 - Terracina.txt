@@ -9,6 +9,10 @@ trade_goods = fish
 base_manpower = 1# Pontine Marshes
 capital = "Terracina"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 add_core = PAP
 discovered_by = western
 discovered_by = eastern

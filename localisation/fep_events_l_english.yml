@@ -24,3 +24,17 @@
  flavor_blu.5.a: "We stray further from righteousness every day..."
  flavor_blu.5.a.tt: "Ogedei's Empire will split into @RML Romylia, @MQD Maqedonia, @ILY Lirya, @PMN Pammongrii, and @DKA Dakya."
  ogedei_legacy: "Ogedei's Legacy"
+
+#Reformation
+ corkish_flavor.0.t: "'On the Power of the Church in Lutetia'"
+ corkish_flavor.0.d: "A number of peasants have declared that the priests in Gallia "seek only to serve their pouches and not their fellow man," and have declared themselves free from church bureacracy as a whole, claiming to operate under the "Corkish Orthodoxy," a spiritual successor to the Celtic Orthodox churches of old."
+ corkish_flavor.0.a: "Smite these fools like the heretics they are!"
+ dolettan_flavor.0.t: "The recession of Church Bureaucracy in the South"
+ dolettan_flavor.0.d: "In a bid to restore their legitimacy, the Kings of the North have declared the clergy subservient to them, and have founded their own papacy in Oslo!"
+ dolettan_flavor.0.a: "Smite these fools like the heretics they are!"
+ oslite_flavor.0.t: "The recession of Church Bureaucracy in the North"
+ oslite_flavor.0.d: "REPLACE_ME"
+ oslite_flavor.0.a: "Let this be the start of a brighter future for the North!"
+ rhenish_flavor.0.t: "'A Christian Perspective'"
+ rhenish_flavor.0.d: "The priest known as Hildirik has published a book of fallacious claims about the Arian church, claiming their teachings contradict the bible!"
+ rhenish_flavor.0.a: "Smite these fools like the heretics they are!"

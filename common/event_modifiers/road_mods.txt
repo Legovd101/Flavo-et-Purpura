@@ -1,0 +1,9 @@
+historic_highways = {
+	# province_trade_power_modifier = 0.25
+	province_trade_power_value = 1
+	local_friendly_movement_speed = 0.25
+	local_hostile_movement_speed = 0.2
+	local_development_cost = -0.1
+	local_institution_spread = 0.10
+	picture = "historic_highways"
+}

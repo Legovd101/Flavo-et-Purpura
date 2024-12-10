@@ -1,0 +1,50 @@
+country_decisions = {
+	oslite = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_northern_empire_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			any_province = {
+				religion = corkish
+			}
+			NOT = { is_religion_enabled = oslite }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			culture_group = scandinavian
+		}
+		provinces_to_highlight = {
+		}
+		allow = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 75
+			}
+			legitimacy = 60
+			NOT = {
+				has_idea_group = religious_ideas
+			}
+		}
+		effect = {
+			country_event = {
+				id = oslite_flavor.0
+			}
+		}
+		ai_importance = 400
+	}
+	
+}

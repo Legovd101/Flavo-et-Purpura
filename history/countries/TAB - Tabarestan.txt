@@ -1,0 +1,6 @@
+government = monarchy
+primary_culture = margianan
+religion = manichaean
+technology_group = muslim
+capital = 426 # Mazandaran
+

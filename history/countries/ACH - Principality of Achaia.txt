@@ -61,7 +61,7 @@ capital = 1773# Mystras
 		mil = 0
 	}
 }
-1432.1.1 = { primary_culture = greek religion = orthodox }
+1432.1.1 = { primary_culture = rhoman religion = orthodox }
 # 1432, Despotate of Morea
 1453.5.29 = { 
 	monarch = { 

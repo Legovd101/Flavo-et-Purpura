@@ -9,6 +9,10 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 add_core = IRQ
 add_core = BHT
 discovered_by = east_african

@@ -1,5 +1,5 @@
 #1111 - Arguin
-culture = berber
+culture = gaetuli
 religion = west_african_pagan
 capital = "Arguin"
 trade_goods = unknown

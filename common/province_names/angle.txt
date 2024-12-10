@@ -1,0 +1,33 @@
+# Schleswig-Holstein
+1775 = {"Holcstat" "Holcstat"}
+13 = {"Sclesvic" "Sclesvic"}
+4141 = {"Detmearc" "Detmearc"}
+
+# Lower Saxony
+1857 = {"Lawenburh" "Lawenburh"}
+53 = {"Lonburh" "Lonburh"}
+44 = {"Hamburh" "Hamburh"}
+4772 = {"Scel" "Scel"}
+
+# Mecklenburg
+45 = {"Lubiscland" "Lubiscland"}
+2996 = {"Wisamear" "Wisamear"}
+46 = {"Rostocc" "Rostocc"}
+4786 = {"Pancsburh" "Pancsburh"}
+4749 = {"Strelcs" "Strelcs"}
+
+# Vorpommern
+47 = {"Strolsondas" "Strolsondas"}
+4745 = {"Ryccen" "Ryccen"}
+2994 = {"Wolcas" "Wolcas"}
+1858 = {"Statburh" "Statburh"}
+
+# Hinterpommern
+4746 = {"Staracc" "Staracc"}
+48 = {"Colburh" "Colburh"}
+2995 = {"Stolsc" "Stolsc"}
+
+# West Prussia
+43 = {"Dentscic" "Dentscic"}
+2997 = {"Tuscel" "Tuscel"}
+1841 = {"Meareburh" "Meareburh"}

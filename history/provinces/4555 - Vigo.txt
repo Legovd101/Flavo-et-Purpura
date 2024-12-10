@@ -10,6 +10,10 @@ trade_goods = fish
 base_manpower = 2
 capital = "Pontevedra"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 # Santiago de Compostela pilgrimage
 discovered_by = eastern
 discovered_by = western

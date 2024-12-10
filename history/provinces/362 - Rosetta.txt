@@ -1,6 +1,6 @@
 #362 - Delta
-owner = PER
-controller = PER
+owner = MAM
+controller = MAM
 culture = perso_egyptian
 religion = coptic
 capital = "Rashid"
@@ -9,6 +9,10 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
@@ -26,4 +30,4 @@ add_permanent_province_modifier = {
 	name = granary_of_the_mediterranean
 	duration = -1
 }
-add_core = PER
+add_core = MAM

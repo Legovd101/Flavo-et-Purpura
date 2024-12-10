@@ -3,6 +3,10 @@ owner = GUY
 controller = GUY
 capital = "Poitiers"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = aquitanian
 religion = lutetian
 base_tax = 4

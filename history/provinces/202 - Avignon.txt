@@ -3,6 +3,10 @@ owner = AVI# The great Schism
 controller = AVI
 capital = "Avignon"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = gallic_greek
 religion = arianism
 base_tax = 4

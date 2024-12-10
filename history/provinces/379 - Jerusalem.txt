@@ -1,6 +1,6 @@
 #379 - Judea
-owner = PER
-controller = PER
+owner = MAM
+controller = MAM
 culture = perso_levantine
 religion = west_orthodox
 capital = "Al Quds"
@@ -9,6 +9,10 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
@@ -18,4 +22,4 @@ discovered_by = indian
 discovered_by = east_african
 add_province_triggered_modifier = jerusalem_held
 add_province_triggered_modifier = promised_land_modifier
-add_core = PER
+add_core = MAM

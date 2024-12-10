@@ -1,0 +1,42 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_confucian"
+		texturefile = "gfx/interface/icon_eastern_school_confucian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_buddhist"
+		texturefile = "gfx/interface/icon_eastern_school_buddhist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_daoist"
+		texturefile = "gfx/interface/icon_eastern_school_daoist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_mohist"
+		texturefile = "gfx/interface/icon_eastern_school_mohist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_legalist"
+		texturefile = "gfx/interface/icon_eastern_school_legalist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_nestorian"
+		texturefile = "gfx/interface/icon_eastern_school_nestorian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eastern_school_diplomatic"
+		texturefile = "gfx/interface/icon_eastern_school_diplomatic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_eastern_school_logician"
+		texturefile = "gfx/interface/icon_eastern_school_logician.dds"
+	}
+}

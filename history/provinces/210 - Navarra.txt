@@ -11,6 +11,10 @@ base_manpower = 2
 #fort_15th = yes #Fortifications of Pamplona and Saint-Jean-Pied-de-Port
 capital = "Pamplona"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

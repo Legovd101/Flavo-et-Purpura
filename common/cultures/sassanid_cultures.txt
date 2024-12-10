@@ -9,7 +9,7 @@ parsig = {
 		Abed Afshar Alemzadeh-Gorji Amoli Ardabil Ardavan Bakhtiari Baluchkhani Boukani Borojeni Chabahari Darvishan Shahsavan Shajari Zandpor
 	}
 	perso_egyptian = {
-		primary = PER
+		primary = MAM
 	}
 	perso_levantine = {
 	}
@@ -19,6 +19,9 @@ parsig = {
 	}
 	persian_caspian = {
 		primary = SRV
+	}
+	persian_cappadocian = {
+		primary = KAR
 	}
 	farsi = {
 		primary = FRS

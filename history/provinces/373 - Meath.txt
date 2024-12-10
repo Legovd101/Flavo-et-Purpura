@@ -1,7 +1,6 @@
 #373 - Meath
 owner = IRE
 controller = IRE
-add_core = MTH
 culture = hibernian
 religion = lutetian
 base_tax = 3

@@ -3,6 +3,10 @@ owner = VRN
 controller = VRN
 capital = "Bregenz"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = austrian
 religion = arianism
 

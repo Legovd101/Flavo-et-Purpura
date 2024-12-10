@@ -1,7 +1,7 @@
 #361 - Cairo
-owner = PER
-controller = PER
-culture = al_misr_arabic
+owner = MAM
+controller = MAM
+culture = nubian
 religion = manichaean
 capital = "Al Qahira"
 trade_goods = cloth
@@ -18,5 +18,5 @@ discovered_by = indian
 discovered_by = east_african
 extra_cost = 16
 center_of_trade = 2
-add_core = PER
+add_core = MAM
 fort_15th = yes

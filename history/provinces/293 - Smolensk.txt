@@ -1,6 +1,6 @@
 #293 - Smolensk
-owner = UKR
-controller = UKR
+owner = SMO
+controller = SMO
 culture = ryazanian
 religion = orthodox
 base_tax = 4
@@ -15,5 +15,5 @@ discovered_by = eastern
 discovered_by = nomad_group
 extra_cost = 16
 center_of_trade = 2
-add_core = UKR
+add_core = SMO
 fort_15th = yes

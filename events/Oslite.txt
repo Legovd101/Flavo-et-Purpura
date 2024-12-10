@@ -1,0 +1,74 @@
+# The Oslite Split [Initiator]
+namespace = oslite_flavor
+
+country_event = {
+	id = oslite_flavor.0
+	title = oslite_flavor.0.t
+	desc = oslite_flavor.0.d
+	picture = {	
+		trigger = {
+			has_dlc = "Emperor"
+		}
+		picture = LUTHER_eventPicture
+	}
+	picture = {	
+		trigger = {
+			NOT = { has_dlc = "Emperor" }
+		}
+		picture = RELIGION_eventPicture
+	}
+	
+	major = yes
+	
+	trigger = {
+		overlord = {
+			has_country_flag = oslite_reformation
+		}
+		NOT = {
+			has_country_flag = oslite_reformation
+		}
+	}
+	immediate = {
+		enable_religion = oslite
+	}
+	option = {
+		name = "oslite_flavor.0.a"
+		change_religion = oslite
+		capital_scope = {
+			if = {
+					limit = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = oslite
+						}
+						owner = { is_free_or_tributary_trigger = yes }
+					}
+				change_religion = oslite
+				add_reform_center = oslite
+				add_permanent_province_modifier = {
+					name = "religious_zeal_at_conv"
+					duration = 9000
+				}
+			}
+		}
+		every_owned_province = {
+			random = {
+				chance = 50
+				change_religion = oslite
+				add_permanent_province_modifier = {
+					name = "religious_zeal_at_conv"
+					duration = 9000
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_subject_of = ROOT
+			}
+			country_event = {
+				id = oslite_flavor.0
+			}
+		}
+		set_country_flag = oslite_reformation
+	}
+}
+

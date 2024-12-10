@@ -1,0 +1,17 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_great_project_narbaion_port"
+		texturefile = "gfx/interface/great_projects/great_project_narbaion_port.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_massalia_university"
+		texturefile = "gfx/interface/great_projects/great_project_massalia_university.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_hill_of_tara"
+		texturefile = "gfx/interface/great_projects/great_project_hill_of_tara.dds"
+	}
+}

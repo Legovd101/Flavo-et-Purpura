@@ -137,3 +137,47 @@
  swahili_pagan_rebels_name: "$RELIGION$ Zealots"
  swahili_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  swahili_pagan_rebels_army: "$RELIGION$ Army"
+ 
+ #Corkish
+ corkish: "Corkish"
+ corkish_religion_desc: "Corkish Orthodoxy originated in the fear that the Lutetian clergy was growing too centralized and powerful, and cared not for the "frontiers" of the faith. As such, they practice a strict decentralized ecumenism in which each priest is beholden to his parishoners first, and his superiors second."
+ corkish_rebels_demand: "Convert $COUNTRYNAME$"
+ corkish_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ corkish_rebels_title: "Religious"
+ corkish_rebels_name: "$RELIGION$ Zealots"
+ corkish_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ corkish_rebels_army: "$RELIGION$ Army"
+ corkish_center_of_reformation: "Center of Reformation"
+ 
+ #Rhenish
+ rhenish: "Rhenish"
+ rhenish_religion_desc: "Founded by the priest Hildirik, the Free Arian Church seeks to level the inequality brought about by the overabundance of the Church in Ravenna."
+ rhenish_rebels_demand: "Convert $COUNTRYNAME$"
+ rhenish_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ rhenish_rebels_title: "Religious"
+ rhenish_rebels_name: "$RELIGION$ Zealots"
+ rhenish_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ rhenish_rebels_army: "$RELIGION$ Army"
+ rhenish_center_of_reformation: "Center of Reformation"
+ 
+ #Dolettan
+ dolettan: "Dolettan"
+ dolettan_religion_desc: "Gothic Adoptionism is a natural consequence of the centralization of the Arian Church around Ravenna."
+ dolettan_rebels_demand: "Convert $COUNTRYNAME$"
+ dolettan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ dolettan_rebels_title: "Religious"
+ dolettan_rebels_name: "$RELIGION$ Zealots"
+ dolettan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ dolettan_rebels_army: "$RELIGION$ Army"
+ dolettan_center_of_reformation: "Center of Reformation"
+  
+ #Oslite
+ oslite: "Oslite"
+ oslite_religion_desc: "Northern Arianism originated in the fear that the Lutetian clergy was growing too centralized and powerful, and cared not for the "frontiers" of the faith. As such, they practice a strict decentralized ecumenism in which each priest is beholden to his parishoners first, and his superiors second."
+ oslite_rebels_demand: "Convert $COUNTRYNAME$"
+ oslite_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ oslite_rebels_title: "Religious"
+ oslite_rebels_name: "$RELIGION$ Zealots"
+ oslite_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ oslite_rebels_army: "$RELIGION$ Army"
+ oslite_center_of_reformation: "Center of Reformation"

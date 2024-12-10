@@ -1,0 +1,42 @@
+﻿l_english:
+ confucianism: "Zhu Zi"
+
+ confucian_school: "Ru Jia"
+ confucian_school_desc: "Confucianism focuses on the relationship between humanity and heaven. The principle or way of Heaven (tian li or tian tao) is the order of the world and the source of divine authority."
+ confucian_scholar_modifier: "Confucianist Scholars"
+ desc_confucian_scholar_modifier: "We are currently entertaining Confucianist Scholars to further the theological discussion in our country."
+
+ diplomatic_school: "Zong Heng Jia"
+ diplomatic_school_desc: "The School of Vertical and Horizontal Alliances (or School of Diplomacy) is split into the supporters of "Vertical Alliance," who encourage the weak multitude to attack the one strong side, and those of the "Horizontal Alliance," who promote the one strong side attacking the weak multitude."
+ diplomatic_scholar_modifier: "Diplomatic Scholars"
+ desc_diplomatic_scholar_modifier: "We are currently entertaining Diplomatic Scholars to further the theological discussion in our country."
+
+ daoist_school: "Dao Jia"
+ daoist_school_desc: "Daoism postulates that the Dao is a natural order that enables all things to exist and dominate every action, not so much through force as through a natural curvature of space and time. It is the origin and power of all creation - its essence is unknown, but it can be observed in its manifestation."
+ daoist_scholar_modifier: "Daoist Scholars"
+ desc_daoist_scholar_modifier: "We are currently entertaining Daoist Scholars to further the theological discussion in our country."
+
+ legalist_school: "Fa Jia"
+ legalist_school_desc: "Legalism centers around the aim of attaining "a rich state and a powerful army" and ensuring domestic stability. Any functioning Legalist system should allow individuals to pursue their selfish interests exclusively in the ways that benefit the state, and allow officials to benefit from ranks and emoluments, but also prevent them from subverting the ruler's power."
+ legalist_scholar_modifier: "Legalist Scholars"
+ desc_legalist_scholar_modifier: "We are currently entertaining Legalist Scholars to further the theological discussion in our country."
+
+ logician_school: "Ming Jia"
+ logician_school_desc: "The School of Names (or School of Logicians) acts as a bridge between the Mohists and Daoists. Although not originally a formalized school, they have grown more distinct as the years have passed."
+ logician_scholar_modifier: "Logician Scholars"
+ desc_logician_scholar_modifier: "We are currently entertaining Legalist Scholars to further the theological discussion in our country."
+
+ mohist_school: "Mo Jia"
+ mohist_school_desc: "Mohism, founded by the philosopher Mozi, places a special influence on the concept of "impartial care." This extends into their managing of the state, from distributing grain to the promotion of meritocracy."
+ mohist_scholar_modifier: "Mohist Scholars"
+ desc_mohist_scholar_modifier: "We are currently entertaining Mohist Scholars to further the theological discussion in our country."
+
+ nestorian_school: "Jing Jiao"
+ nestorian_school_desc: "Nestorianism first reached China in the 6th century, slowly syncretizing and blending with the local philosophies over centuries."
+ nestorian_scholar_modifier: "Nestorian Scholars"
+ desc_nestorian_scholar_modifier: "We are currently entertaining Nestorian Scholars to further the theological discussion in our country."
+
+ buddhist_school: "Da Sheng"
+ buddhist_school_desc: "Buddhism is a sinicized form of Mahayana Buddhism, which draws on the Chinese Buddhist Canon and believes in many realms of existence, the existence of many Buddhas and bodhisattvas, as well as many other kinds of divine beings, ghosts, and so on."
+ buddhist_scholar_modifier: "Buddhist Scholars"
+ desc_buddhist_scholar_modifier: "We are currently entertaining Buddhist Scholars to further the theological discussion in our country."

@@ -3,6 +3,10 @@ owner = FLA
 controller = FLA
 capital = "Amiens"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = gallic
 religion = lutetian
 base_tax = 6

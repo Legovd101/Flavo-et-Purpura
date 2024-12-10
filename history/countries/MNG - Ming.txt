@@ -3,6 +3,7 @@ add_government_reform = celestial_empire
 government_rank = 3
 technology_group = chinese
 religion = confucianism
+religious_school = logician_school
 add_harmonized_religion = mahayana
 primary_culture = jianghuai
 capital = 669# Nanjing

@@ -204,7 +204,7 @@ GLL_ideas = {
 }
 
 #Romylian Ideas
-BLU_ideas = {
+RML_ideas = {
 
 	start = {
 		tolerance_own = 1
@@ -215,43 +215,89 @@ BLU_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = RML
-			tag = BLU
-		}
+		tag = RML
 	}
 	
 	free = yes
 	
-	BLU_the_blue_romans = {
+	RML_the_blue_romans = {
 		legitimacy = 1
 		horde_unity = 1
 		devotion = 1
 		republican_tradition = 0.3 #
 	}
 	
-	BLU_banner_of_the_final_khanate = {
+	RML_banner_of_the_final_khanate = {
 		discipline = 0.05 #
 	}
 	
-	BLU_universal_dominance = {
+	RML_universal_dominance = {
 		diplomatic_reputation = 1
 		ae_impact = -0.1 #
 	}
 	
-	BLU_crossroads_of_the_world = {
+	RML_crossroads_of_the_world = {
 		trade_steering = 0.15 #
 	}
 	
-	BLU_the_guttural_choir_of_hagia_sophia = {
+	RML_the_guttural_choir_of_hagia_sophia = {
 		advisor_pool = 2 #
 	}
 	
-	BLU_wrath_of_st._ogdei = {
+	RML_wrath_of_st._ogdei = {
 		artillery_power = 0.15 #
 	}
 	
-	BLU_1744_monastery_reform = {
+	RML_1744_monastery_reform = {
 		global_unrest = -1 #
+	}
+}
+
+#Blue Horde Ideas
+BLU_ideas = {
+
+	start = {
+		cavalry_power = 0.15
+		siege_ability = 0.10
+	}
+	bonus = {
+		imperial_mandate = 0.1
+	}
+	
+	trigger = {
+	
+		tag = BLU
+	}
+	
+	free = yes
+	
+	BLU_the_scourge_of_god = {
+		morale_damage = 0.1 #
+	}
+	
+	BLU_steppification = {
+		culture_conversion_cost = -0.1
+		cavalry_cost = -0.05 #
+	}
+	
+	BLU_our_city_of_world's_desire = {
+		prestige_decay = -0.01 #
+	}
+	
+	BLU_the_yoke's_grand_summon = {
+		liberty_desire = -10 #
+	}
+	
+	BLU_school_of_epidemology = {
+		leader_siege = 2 #
+	}
+	
+	BLU_true_blue_blood = {
+		heir_chance = 0.25
+		country_military_power = 1 #
+	}
+	
+	BLU_doctrina_interioris = {
+		core_creation = -0.1 #
 	}
 }

@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = confucian_bureaucracy
 primary_culture = vietnamese
 religion = confucianism
+religious_school = buddhist_school
 technology_group = chinese
 capital = 613# Hanoi
 # Tran Dynasty, Later Le Dynasty, Mac Dynasty and Tay Son Dynasty

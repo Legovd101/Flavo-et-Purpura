@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = chinese_warlord
 technology_group = chinese
 religion = confucianism
+religious_school = mohist_school
 primary_culture = zhongyuan
 capital = 690#Nanyang
 government_rank = 1

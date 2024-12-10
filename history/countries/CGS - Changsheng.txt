@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = chinese_warlord
 technology_group = chinese
 religion = confucianism
+religious_school = nestorian_school
 primary_culture = zhuang
 capital = 2172# Lingyun
 government_rank = 1

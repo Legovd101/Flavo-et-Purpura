@@ -1,6 +1,6 @@
 #358 - Alexandria
-owner = PER
-controller = PER
+owner = MAM
+controller = MAM
 culture = perso_egyptian
 religion = manichaean
 capital = "Al Iskandirya"
@@ -9,6 +9,10 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
@@ -20,5 +24,5 @@ add_province_triggered_modifier = coptic_alexandria
 extra_cost = 8
 center_of_trade = 1
 #1477.1.1 = { } #Citadel of Qaitbay
-add_core = PER
+add_core = MAM
 fort_15th = yes

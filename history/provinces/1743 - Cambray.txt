@@ -6,6 +6,10 @@ owner = LOR
 controller = LOR
 capital = "Cambray"
 is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
 culture = belgican
 religion = lutetian
 

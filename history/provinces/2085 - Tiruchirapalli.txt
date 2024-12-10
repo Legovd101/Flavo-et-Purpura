@@ -1,6 +1,6 @@
 #2003 - Tiruchirapalli
-owner = PGS
-controller = PGS
+owner = MAD
+controller = MAD
 culture = tamil
 religion = hinduism
 capital = "Tiruchirapalli"
@@ -16,4 +16,4 @@ discovered_by = nomad_group
 discovered_by = chinese
 add_local_autonomy = 25
 add_vaisyas_or_burghers_effect = yes
-add_core = PGS
+add_core = MAD

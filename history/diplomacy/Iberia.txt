@@ -1,0 +1,20 @@
+union =  {
+	first = LUS
+	second = GAL
+	start_date = 1028.1.1
+	end_date = 1479.1.20
+}
+
+vassal = {
+	first = GTC
+	second = ARA
+	start_date = 1028.6.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = SAB
+	second = ASU
+	start_date = 856.3.21
+	end_date = 1553.12.31
+}

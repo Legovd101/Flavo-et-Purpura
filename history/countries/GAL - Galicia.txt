@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = galician
-religion = lutetian
+religion = arianism
 technology_group = western
 capital = 206# Galicia
 government_rank = 1
