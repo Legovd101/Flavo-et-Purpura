@@ -1,7 +1,7 @@
 #448 - Gazni
 owner = AFG
 controller = AFG
-culture = sogdian
+culture = arachoisan
 religion = manichaean
 capital = "Gazni"
 trade_goods = grain

@@ -1,7 +1,7 @@
 #444 - Charjuy
 owner = ILK
 controller = ILK
-culture = margianan
+culture = sogdian
 religion = manichaean
 capital = "Charjuy"
 trade_goods = livestock

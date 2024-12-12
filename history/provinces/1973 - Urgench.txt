@@ -1,7 +1,7 @@
 #1973 - Urgench
 owner = GLH
 controller = GLH
-culture = bactrian
+culture = pecheneg
 religion = zoroastrian
 capital = "Urgench"
 trade_goods = grain

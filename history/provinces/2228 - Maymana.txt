@@ -1,7 +1,7 @@
 #2228 - Maymana
 owner = TAB
 controller = TAB
-culture = margianan
+culture = sogdian
 religion = manichaean
 capital = "Maymana"
 trade_goods = cotton

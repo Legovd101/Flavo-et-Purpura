@@ -1,7 +1,7 @@
 #452 - Badakhshan
 owner = KRY
 controller = KRY
-culture = sogdian
+culture = bactrian
 religion = manichaean
 capital = "Munjan"
 trade_goods = gems#Rubies, Saphires

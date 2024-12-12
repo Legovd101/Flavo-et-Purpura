@@ -74,8 +74,7 @@ dependency = {
 	end_date = 1644.4.22
 }
 
-dependency = {
-	subject_type = "tributary_state"
+march = {
 	first = NTK
 	second = HIN
 	start_date = 1239.1.21

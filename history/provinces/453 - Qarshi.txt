@@ -1,7 +1,7 @@
 #453 - Qarshi
 owner = ILK
 controller = ILK
-culture = bactrian
+culture = sogdian
 religion = manichaean
 capital = "Qarshi"
 trade_goods = cotton

@@ -1,7 +1,7 @@
 #578 - Roh
-owner = HIN
-controller = HIN
-culture = sogdian
+owner = NTK
+controller = NTK
+culture = bactrian
 religion = manichaean
 capital = "Peshawar"
 trade_goods = livestock
@@ -17,5 +17,5 @@ discovered_by = ottoman
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
-add_core = HIN
+add_core = NTK
 fort_15th = yes

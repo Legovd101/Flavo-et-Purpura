@@ -8,23 +8,20 @@
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
 blue_roman = {
-	early_romylian = {
-		primary = BLU
-	}
 	romylian = {
-		primary = BLU
+		primary = RML
 	}
 	macedonian = {
-		primary = BLU
+		primary = MQD
 	}
 	dacian = {
-		primary = BLU
+		primary = DKA
 	}
 	pannonian = {
-		primary = BLU
+		primary = PMN
 	}
 	illyrian = {
-		primary = BLU
+		primary = ILY
 	}
 	male_names = {
 		Ogadai Goyouk

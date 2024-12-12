@@ -1,7 +1,7 @@
 #438 - Kara Kum
 owner = SRV
 controller = SRV
-culture = pecheneg
+culture = sogdian
 religion = zoroastrian
 capital = "Geok-Tepe"
 trade_goods = livestock

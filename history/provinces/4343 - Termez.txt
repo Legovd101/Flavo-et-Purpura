@@ -1,7 +1,7 @@
 #4343 - Termez
 owner = TAB
 controller = TAB
-culture = bactrian
+culture = sogdian
 religion = manichaean
 capital = "Termez"
 trade_goods = livestock

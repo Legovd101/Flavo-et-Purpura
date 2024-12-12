@@ -1,7 +1,7 @@
 #441 - Khiva
 owner = ILK
 controller = ILK
-culture = bactrian
+culture = sogdian
 religion = zoroastrian
 capital = "Khiva"
 trade_goods = wool

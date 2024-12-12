@@ -1,7 +1,7 @@
 #442 - Bukhara
 owner = ILK
 controller = ILK
-culture = bactrian
+culture = sogdian
 religion = manichaean
 capital = "Bukhara"
 trade_goods = salt

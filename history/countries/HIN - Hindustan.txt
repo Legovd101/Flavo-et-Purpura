@@ -1,18 +1,18 @@
 government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 1
 technology_group = indian
-capital = 2065
 religion = manichaean
-primary_culture = mongol
+primary_culture = panjabi
+capital = 506 # Delhi
+government_rank = 3
 1241.1.1 = { 
 	monarch = { 
-		name = "Dulma"
+		name = "Dari"
 		dynasty = "Mongkeid"
 		birth_date = 1272.1.17
-		dip = 1
-		mil = 1
-		adm = 6
+		dip = 6
+		mil = 3
+		adm = 2
+		culture = mongol
 	}
 	add_ruler_personality = conqueror_personality
 	add_ruler_personality = zealot_personality
