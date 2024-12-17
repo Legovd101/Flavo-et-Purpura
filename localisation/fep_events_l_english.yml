@@ -38,3 +38,6 @@
  rhenish_flavor.0.t: "'A Christian Perspective'"
  rhenish_flavor.0.d: "The priest known as Hildirik has published a book of fallacious claims about the Arian church, claiming their teachings contradict the bible!"
  rhenish_flavor.0.a: "Smite these fools like the heretics they are!"
+ varangian_flavor.0.t: "[returning_corps.GetName] Leave for Home!"
+ varangian_flavor.0.d: "Due to a number of circumstances, the home of the [returning_corps.GetName] no longer agrees to leave their men in our service."
+ varangian_flavor.0.a: "Blast!"

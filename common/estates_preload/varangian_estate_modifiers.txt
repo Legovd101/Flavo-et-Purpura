@@ -1,0 +1,27 @@
+#Define estate loyalty and influence modifiers here
+
+estate_varangians = {
+	modifier_definition = {
+		type = loyalty
+		key = varangians_loyalty_modifier
+		trigger = {
+			has_estate = estate_varangians
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = varangians_influence_modifier
+		trigger = {
+			has_estate = estate_varangians
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = varangians_privilege_slots
+		trigger = {
+			has_estate = estate_varangians
+		}
+	}
+}

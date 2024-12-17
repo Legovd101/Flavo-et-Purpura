@@ -43,6 +43,7 @@
 
  lost_control_of_rome:0 "Emperor does not own and control Rome"
  lost_control_of_constantinople:0 "Emperor does not own and control Constantinople"
+ lost_control_of_antioch:0 "Emperor does not own and control Antioch"
  lost_control_of_gallia:0 "Emperor does not own and control Lutetia"
  lost_control_of_egypt:0 "Emperor does not own and control Alexandria"
  lost_control_of_africa:0 "Emperor does not own and control Carthago"

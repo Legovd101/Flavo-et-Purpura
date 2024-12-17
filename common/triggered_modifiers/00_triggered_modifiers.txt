@@ -662,6 +662,26 @@ lost_control_of_rome = {
 	imperial_mandate = -0.05
 }
 
+lost_control_of_antioch = {
+	potential = {
+		is_emperor_of_china = yes
+		has_dlc = "Mandate of Heaven"
+	}
+
+	trigger = {
+		OR = {
+			NOT = { owns = 2313 }
+			NOT = { controls = 2313 }
+		}
+	}
+
+	ai_weight = {
+		factor = -1000 # Do what you can to avoid this modifier
+	}
+
+	imperial_mandate = -0.01
+}
+
 lost_control_of_gallia = {
 	potential = {
 		is_emperor_of_china = yes

@@ -11,3 +11,166 @@ is_in_roman_borders = {
 		region = anatolia_region
 	}
 }
+
+# Varangian Triggers
+has_country_varangian_flag_trigger = {
+	has_country_flag = is_varangian_country_@ROOT
+}
+
+varangians_enabled = {
+	normal_or_historical_nations = yes
+}
+
+has_available_varangians_for_root = {
+	can_send_varangians = yes
+	has_sent_varangians = no
+	has_opinion = {
+		who = ROOT
+		value = 75
+	}
+}
+any_available_varangians_for_root = {
+	any_province = {
+		province_group = varangians_group
+		owner = {
+			has_available_varangians_for_root = yes
+		}
+	}
+}
+
+currently_employing_varangians_trigger = {
+	any_hired_mercenary_company = {
+		OR = {
+			template = merc_danish_varangians
+			template = merc_swedish_varangians
+			template = merc_norwegian_varangians
+			template = merc_anglish_varangians
+			template = merc_novgorodian_varangians
+		}
+	} 
+}
+
+can_send_varangians = {
+	OR = {
+		culture_group = east_slavic
+		culture_group = scandinavian	
+	}
+	any_owned_province = {
+		province_group = varangians_group
+	}
+}
+has_sent_varangians = {
+	has_country_flag = sent_varangians
+}
+
+can_hire_varangians = {
+	OR = {
+		culture = rhoman
+		culture = euxine
+	}
+}
+has_hired_varangians = {
+	has_country_flag = hired_varangians
+}
+
+varangian_home_province_trigger = {
+	OR = {
+		AND = {
+			any_hired_mercenary_company = {
+				template = merc_swedish_varangians
+			}
+			1 = {
+				owner = {
+					OR = {
+						has_country_varangian_flag_trigger = no
+						AND = {
+							has_country_varangian_flag_trigger = yes
+							NOT = {
+								has_opinion = {
+									who = ROOT
+									value = 75
+								}		
+							}
+						}
+					}
+				}
+			}
+		}
+		AND = {
+			any_hired_mercenary_company = {
+				template = merc_danish_varangians
+			}
+			12 = {
+				owner = {
+					OR = {
+						has_country_varangian_flag_trigger = no
+						has_available_varangians_for_root = no
+					}
+				}
+			}
+		}
+		AND = {
+			any_hired_mercenary_company = {
+				template = merc_norwegian_varangians
+			}
+			17 = {
+				owner = {
+					OR = {
+						has_country_varangian_flag_trigger = no
+						AND = {
+							has_country_varangian_flag_trigger = yes
+							NOT = {
+								has_opinion = {
+									who = ROOT
+									value = 75
+								}		
+							}
+						}
+					}
+				}
+			}
+		}
+		AND = {
+			any_hired_mercenary_company = {
+				template = merc_anglish_varangians
+			}
+			45 = {
+				owner = {
+					OR = {
+						has_country_varangian_flag_trigger = no
+						AND = {
+							has_country_varangian_flag_trigger = yes
+							NOT = {
+								has_opinion = {
+									who = ROOT
+									value = 75
+								}		
+							}
+						}
+					}
+				}
+			}
+		}
+		AND = {
+			any_hired_mercenary_company = {
+				template = merc_novgorodian_varangians
+			}
+			310 = {
+				owner = {
+					OR = {
+						has_country_varangian_flag_trigger = no
+						AND = {
+							has_country_varangian_flag_trigger = yes
+							NOT = {
+								has_opinion = {
+									who = ROOT
+									value = 75
+								}		
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

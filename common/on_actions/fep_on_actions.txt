@@ -37,3 +37,17 @@ on_war_won = {
 		}
 	}
 }
+
+on_mercenary_recruited = {
+	if = {
+		limit = {
+			FROM = {
+				currently_employing_varangians_trigger = yes
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_varangians
+			loyalty = 5
+		}
+	}
+}

@@ -4,3 +4,8 @@
  norse_nation_diplomatically_title:0 "Unite the Northern Realms"
  norse_nation_diplomatically_desc:0 "REPLACE_ME"
  all_nordic_countries_as_subjects:0 "Have all other countries within the §YNordic§! culture group as either vassals or unions with less than §Y30§! provinces."
+ establish_varangians_title:0 "Establish the Varangian Guard"
+ establish_varangians_desc:0 "REPLACE_ME"
+ estate_varangians_established_tt:0 "Any country within the §YNordic§! or §YEast Slavic§! culture group which has at least 75 opinion of us will give us access to a 3,000-man-strong company of Varangians"
+ expand_varangians_title:0 "Expand the Varangian Guard"
+ expand_varangians_desc:0 "REPLACE_ME"

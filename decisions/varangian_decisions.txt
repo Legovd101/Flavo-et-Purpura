@@ -1,0 +1,76 @@
+country_decisions = {
+	establish_varangians = {
+		potential = {
+			varangians_enabled = yes
+			can_hire_varangians = yes
+			has_hired_varangians = no
+		}
+		provinces_to_highlight = {
+			province_group = varangians_group
+		}
+		allow = {
+			any_available_varangians_for_root = yes
+		}
+		effect = {
+			custom_tooltip = estate_varangians_established_tt
+			hidden_effect = {
+				hire_varangians = yes
+			}
+			every_country = {
+				limit = {
+					has_country_varangian_flag_trigger = no
+					has_available_varangians_for_root = yes
+				}
+				set_country_varangian_flag_effect = yes
+			}
+}
+		ai_importance = 400
+	}
+	expand_varangians = {
+		potential = {
+			varangians_enabled = yes
+			can_hire_varangians = yes
+			has_hired_varangians = yes
+		}
+		provinces_to_highlight = {
+			province_group = varangians_group
+		}
+		allow = {
+			any_country = {
+				has_country_varangian_flag_trigger = no
+				has_available_varangians_for_root = yes
+			}
+		}
+		effect = {
+			custom_tooltip = x
+			hidden_effect = {
+				hire_varangians = yes
+			}
+			every_country = {
+				limit = {
+					has_country_varangian_flag_trigger = no
+					has_available_varangians_for_root = yes
+				}
+				set_country_varangian_flag_effect = yes
+			}
+
+		}
+		ai_importance = 400
+	}
+	disband_varangians = {
+		potential = {
+			varangians_enabled = yes
+			has_hired_varangians = yes
+		}
+		allow = {
+			has_hired_varangians = yes
+		}
+		effect = {
+			custom_tooltip = x
+			hidden_effect = {
+				fire_varangians = yes
+			}
+		}
+		ai_importance = 0
+	}
+}

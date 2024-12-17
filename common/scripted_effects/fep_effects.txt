@@ -1,0 +1,122 @@
+set_country_varangian_flag_effect = {
+	set_country_flag = is_varangian_country_@ROOT
+}
+
+clear_country_varangian_flag_effect = {
+	clr_country_flag = is_varangian_country_@ROOT
+}
+
+hire_varangians = {
+	set_country_flag = hired_varangians
+}
+fire_varangians = {
+	clr_country_flag = hired_varangians
+	every_country = {
+		limit = {
+			has_sent_varangians = yes
+		}
+		return_varangians = yes
+	}
+}
+
+on_completed_agenda_effect_estate_varangians = {}
+
+send_varangians = {
+	set_country_flag = sent_varangians
+}
+return_varangians = {
+	clr_country_flag = sent_varangians
+}
+
+varangian_home_province_effect = {
+	if = {
+		limit = {
+			1 = {
+				owner = {
+					has_available_varangians_for_root = no
+				}
+			}
+			any_hired_mercenary_company= {
+					template = merc_swedish_varangians
+			}
+		}
+		random_hired_mercenary_company= {
+			limit = {
+				template = merc_swedish_varangians
+			}
+			save_event_target_as = returning_corps
+		}
+	}
+	else_if = {
+		limit = {
+			12 = {
+				owner = {
+					has_available_varangians_for_root = no
+				}
+			}
+			any_hired_mercenary_company= {
+					template = merc_danish_varangians
+			}
+		}
+		random_hired_mercenary_company= {
+			limit = {
+				template = merc_danish_varangians
+			}
+			save_event_target_as = returning_corps
+		}
+	}
+	else_if = {
+		limit = {
+			17 = {
+				owner = {
+					has_available_varangians_for_root = no
+				}
+			}
+			any_hired_mercenary_company= {
+					template = merc_norwegian_varangians
+			}
+		}
+		random_hired_mercenary_company= {
+			limit = {
+				template = merc_norwegian_varangians
+			}
+			save_event_target_as = returning_corps
+		}
+	}
+	else_if = {
+		limit = {
+			45 = {
+				owner = {
+					has_available_varangians_for_root = no
+				}
+			}
+			any_hired_mercenary_company= {
+					template = merc_anglish_varangians
+			}
+		}
+		random_hired_mercenary_company= {
+			limit = {
+				template = merc_anglish_varangians
+			}
+			save_event_target_as = returning_corps
+		}
+	}
+	else_if = {
+		limit = {
+			310 = {
+				owner = {
+					has_available_varangians_for_root = no
+				}
+			}
+			any_hired_mercenary_company= {
+					template = merc_novgorodian_varangians
+			}
+		}
+		random_hired_mercenary_company= {
+			limit = {
+				template = merc_novgorodian_varangians
+			}
+			save_event_target_as = returning_corps
+		}
+	}
+}

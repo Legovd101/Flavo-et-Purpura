@@ -1,0 +1,45 @@
+# [x merc company] leave for Home!
+namespace = varangian_flavor
+
+country_event = {
+	id = varangian_flavor.0
+	title = varangian_flavor.0.t
+	desc = varangian_flavor.0.d
+	picture = COSSACK_CONQUISTADOR_COSSACKS
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		can_hire_varangians = yes
+		varangians_group = {
+			owner = {
+				OR = {
+					has_country_varangian_flag_trigger = no
+					has_available_varangians_for_root = no
+				}
+			}
+		}
+		varangian_home_province_trigger = yes
+		}
+	immediate = {
+		varangian_home_province_effect = yes
+	}
+	option = {
+		name = "varangian_flavor.0.a"
+		event_target:returning_corps = {
+			disband_mercenary_company = THIS
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					has_country_varangian_flag_trigger = yes
+					has_available_varangians_for_root = no
+				}
+				clear_country_varangian_flag_effect = yes
+			}
+		}
+	}
+}
+

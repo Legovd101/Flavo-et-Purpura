@@ -1,0 +1,160 @@
+# Swedish Varangians (Stockholm)
+merc_swedish_varangians = {
+    regiments_per_development = 3
+    cavalry_weight = 0.0
+	artillery_weight = 0.0
+    cavalry_cap = 0
+	cost_modifier = 1.25
+    min_size = 3
+    max_size = 3
+	trigger = {
+        ROOT = {
+            OR = {
+                primary_culture = rhoman
+                primary_culture = euxine
+                primary_culture = roman_cappadocian
+            }
+        }
+		1 = {
+            owner = {
+                has_opinion = {
+					who = ROOT
+					value = 75
+				}
+				has_country_varangian_flag_trigger = yes
+            }
+        }
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
+# Seelandic Varangians (Sylland)
+merc_danish_varangians = {
+    regiments_per_development = 3
+    cavalry_weight = 0.0
+	artillery_weight = 0.0
+    cavalry_cap = 0
+	cost_modifier = 1.25
+    min_size = 3
+    max_size = 3
+	trigger = {
+        ROOT = {
+            OR = {
+                primary_culture = rhoman
+                primary_culture = euxine
+                primary_culture = roman_cappadocian
+            }
+        }
+		12 = {
+            owner = {
+                has_opinion = {
+					who = ROOT
+					value = 75
+				}
+				has_country_varangian_flag_trigger = yes
+            }
+        }
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
+# Norwegian Varangians (Akerhus/Oslo)
+merc_norwegian_varangians = {
+    regiments_per_development = 3
+    cavalry_weight = 0.0
+	artillery_weight = 0.0
+    cavalry_cap = 0
+	cost_modifier = 1.25
+    min_size = 3
+    max_size = 3
+	trigger = {
+        ROOT = {
+            OR = {
+                primary_culture = rhoman
+                primary_culture = euxine
+                primary_culture = roman_cappadocian
+            }
+        }
+		17 = {
+            owner = {
+                has_opinion = {
+					who = ROOT
+					value = 75
+				}
+				has_country_varangian_flag_trigger = yes
+            }
+        }
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
+# Anglish Varangians (Lubeck)
+merc_anglish_varangians = {
+    regiments_per_development = 3
+    cavalry_weight = 0.0
+	artillery_weight = 0.0
+    cavalry_cap = 0
+	cost_modifier = 1.25
+    min_size = 3
+    max_size = 3
+	trigger = {
+        ROOT = {
+            OR = {
+                primary_culture = rhoman
+                primary_culture = euxine
+                primary_culture = roman_cappadocian
+            }
+        }
+		45 = {
+            owner = {
+                has_opinion = {
+					who = ROOT
+					value = 75
+				}
+				has_country_varangian_flag_trigger = yes
+            }
+        }
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
+# Novgorodian Varangians (Novgorod)
+merc_novgorodian_varangians = {
+    regiments_per_development = 3
+    cavalry_weight = 0.0
+	artillery_weight = 0.0
+    cavalry_cap = 0
+	cost_modifier = 1.25
+    min_size = 3
+    max_size = 3
+	trigger = {
+        ROOT = {
+            OR = {
+                primary_culture = rhoman
+                primary_culture = euxine
+                primary_culture = roman_cappadocian
+            }
+        }
+		310 = {
+            owner = {
+                has_opinion = {
+					who = ROOT
+					value = 75
+				}
+				has_country_varangian_flag_trigger = yes
+            }
+        }
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
