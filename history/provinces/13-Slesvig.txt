@@ -1,6 +1,6 @@
 #Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
-owner = DAN
-controller = DAN
+owner = SHL
+controller = SHL
 culture = danish
 religion = arianism
 base_tax = 4
@@ -13,4 +13,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = DAN
+add_core = SHL

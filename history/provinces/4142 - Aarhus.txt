@@ -1,7 +1,7 @@
 #Eastern Jutland, incl. Aarhus, Djursland and Randers.
-owner = DAN
-controller = DAN
-add_core = DAN
+owner = SHL
+controller = SHL
+add_core = SHL
 culture = danish
 religion = arianism
 base_tax = 4

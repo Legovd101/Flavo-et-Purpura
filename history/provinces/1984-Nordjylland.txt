@@ -1,7 +1,7 @@
 #Nordjylland incl. Aalborg, Hjorring, Thisted, and Viborg
-owner = DAN
-controller = DAN
-add_core = DAN
+owner = SHL
+controller = SHL
+add_core = SHL
 culture = danish
 religion = arianism
 base_tax = 3

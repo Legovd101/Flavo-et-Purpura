@@ -1,0 +1,7 @@
+varangian_vets = {
+	local_manpower_modifier = 1.0
+	local_development_cost_modifier = -0.05
+	local_culture_conversion_cost = 10.0
+	local_unrest = 2.0
+	# picture = "historic_highways"
+}

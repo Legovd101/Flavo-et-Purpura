@@ -1,6 +1,6 @@
 #Denmark
 graphical_culture = westerngfx
-color = { 190 70 70 }
+color = { 255 205 80 }
 revolutionary_colors = { 5 0 5 } #Made up
 historical_score = 1700
 historical_idea_groups = { 

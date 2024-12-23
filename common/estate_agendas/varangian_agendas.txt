@@ -333,724 +333,6 @@ estate_varangians_reply_of_the_zaporozhian = {
     }
 }
 
-#Conquer X steppe area from country you don't have great relations with
-estate_varangians_expand_into_x = {
-	can_select = {
-		is_free_or_tributary_trigger = yes
-		is_at_war = no
-		any_neighbor_country = {
-			num_of_cities = 6
-			is_free_or_tributary_trigger = yes
-			NOT = { is_subject_of = root }
-			NOT = { overlord_of = root }
-			NOT = { alliance_with = root }
-			NOT = { ROOT = { truce_with = prev } }
-			NOT = { 
-				has_opinion = {
-					who = root
-					value = 25
-				}
-			}
-			NOT = {
-				any_owned_province = { #No need for this agenda if covered by a mission
-					OR = {
-						is_permanent_claim = root
-						is_core = root
-					}
-				}
-			}
-			ROOT = {
-				knows_country = prev
-			}
-			any_owned_province = {
-				OR = {
-					has_terrain = steppe
-					culture_group = east_slavic
-					culture_group = slavic
-					region = east_siberia_region
-					region = west_siberia_region
-				}
-				any_neighbor_province = {
-					owned_by = root
-				}
-				NOT = {
-					area_for_scope_province = {
-						OR = {
-							is_empty = yes
-							country_or_subject_holds = ROOT
-						}
-					}
-				}
-			}
-			OR = {
-				is_part_of_hre = no
-				NOT = { hre_reform_passed = landfriede }
-				ROOT = { is_part_of_hre = no }
-			}
-		}
-	}
-	selection_weight = {
-		factor = 2
-		modifier = {
-			factor = 0.5
-			has_non_generic_missions = yes
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 20
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 25
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 30
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 40
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 50
-		}
-		modifier = {
-			factor = 0.25
-			any_country = {
-				coalition_target = root
-			}
-		}
-	}
-	pre_effect = {
-		random_neighbor_country = {
-			limit = {
-				num_of_cities = 6
-				is_free_or_tributary_trigger = yes
-				NOT = { is_subject_of = root }
-				NOT = { overlord_of = root }
-				NOT = { alliance_with = root }
-				NOT = { ROOT = { truce_with = prev } }
-				NOT = { 
-					has_opinion = {
-						who = root
-						value = 25
-					}
-				}
-				NOT = {
-					any_owned_province = { #No need for this agenda if covered by a mission
-						OR = {
-							is_permanent_claim = root
-							is_core = root
-						}
-					}
-				}
-				ROOT = {
-					knows_country = prev
-				}
-				any_owned_province = {
-					OR = {
-						has_terrain = steppe
-						culture_group = east_slavic
-						culture_group = slavic
-						region = east_siberia_region
-						region = west_siberia_region
-					}
-					any_neighbor_province = {
-						owned_by = root
-					}
-					NOT = {
-						area_for_scope_province = {
-							OR = {
-								is_empty = yes
-								country_or_subject_holds = ROOT
-							}
-						}
-					}
-				}
-				OR = {
-					is_part_of_hre = no
-					NOT = { hre_reform_passed = landfriede }
-					ROOT = { is_part_of_hre = no }
-				}
-			}
-			random_owned_province = {
-				limit = {
-					OR = {
-						has_terrain = steppe
-						culture_group = east_slavic
-						culture_group = slavic
-						region = east_siberia_region
-						region = west_siberia_region
-					}
-					any_neighbor_province = {
-						owned_by = root
-					}
-					area_for_scope_province = {
-						type = all
-						NOT = { owned_by = root }
-						is_empty = no
-					}
-				}
-				save_event_target_as = agenda_province
-			}
-		}
-	}
-	immediate_effect = {
-		if = {
-			limit = {
-				event_target:agenda_province = {
-					area_for_scope_province = {
-						NOT = { is_claim = root }
-						NOT = { is_core = root }
-					}
-				}
-			}
-			event_target:agenda_province = {
-				area = {
-					limit = {
-						NOT = { is_claim = root }
-						NOT = { is_core = root }
-					}
-					add_claim = root
-				}
-			}
-		}
-	}
-	on_invalid = {
-		if = {
-			limit = {
-				event_target:agenda_province = {
-					area_for_scope_province = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-				}
-			}
-			event_target:agenda_province = {
-				area = {
-					limit = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-					remove_claim = root
-				}
-			}
-		}
-	}
-	provinces_to_highlight = {
-		area_for_scope_province = {
-			province_id = event_target:agenda_province
-		}
-	}
-	task_requirements = {
-		if = {
-			limit = {
-				has_estate_agenda_auto_completion = {
-					estate = estate_varangians
-				}
-			}
-			has_estate_agenda_auto_completion = {
-				estate = estate_varangians
-			}
-		}
-		else = {
-			event_target:agenda_province = {
-				area_for_scope_province = {
-					country_or_subject_holds = ROOT
-				}
-			}
-		}
-	}
-	fail_if = {
-		event_target:agenda_province = {
-			area_for_scope_province = {
-				type = all
-				NOT = { is_claim = root }
-				NOT = { is_core = root }
-				NOT = { country_or_subject_holds = ROOT }
-			}
-		}
-	}
-    task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_varangians
-		}
-		add_estate_loyalty = {
-			estate = estate_varangians
-			loyalty = 15
-		}
-		add_adm_power = 50
-	}
-    failing_effect = {
-		on_failed_agenda_effect = yes
-		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
-			desc = EST_VAL_AGENDA_DENIED
-			loyalty = -5
-			duration = 7300
-        }
-		if = {
-			limit = {
-				event_target:agenda_province = {
-					area_for_scope_province = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-				}
-			}
-			event_target:agenda_province = {
-				area = {
-					limit = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-					remove_claim = root
-				}
-			}
-		}
-	}
-}
-
-#Complete conquest of X steppe area from country you don't have great relations with
-estate_varangians_complete_conquest_of_x = {
-	can_select = {
-		is_free_or_tributary_trigger = yes
-		is_at_war = no
-		any_neighbor_country = {
-			num_of_cities = 6
-			is_free_or_tributary_trigger = yes
-			NOT = { is_subject_of = root }
-			NOT = { overlord_of = root }
-			NOT = { alliance_with = root }
-			NOT = { ROOT = { truce_with = prev } }
-			NOT = { 
-				has_opinion = {
-					who = root
-					value = 25
-				}
-			}
-			NOT = {
-				any_owned_province = { #No need for this agenda if covered by a mission
-					OR = {
-						is_permanent_claim = root
-						is_core = root
-					}
-				}
-			}
-			ROOT = {
-				knows_country = prev
-			}
-			any_owned_province = {
-				OR = {
-					has_terrain = steppe
-					culture_group = east_slavic
-					culture_group = slavic
-				}
-				any_neighbor_province = {
-					owned_by = root
-				}
-				area_for_scope_province = {
-					owned_by = root
-				}
-				NOT = {
-					area_for_scope_province = {
-						owner = {
-							OR = {
-								alliance_with = root
-								ROOT = { truce_with = prev }
-								is_subject_of = root
-								AND = {
-									is_part_of_hre = yes
-									hre_reform_passed = landfriede
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	selection_weight = {
-		factor = 2.5
-		modifier = {
-			factor = 0.5
-			has_non_generic_missions = yes
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 20
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 25
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 30
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 40
-		}
-		modifier = {
-			factor = 1.5
-			num_of_cities = 50
-		}
-		modifier = {
-			factor = 0.25
-			any_country = {
-				coalition_target = root
-			}
-		}
-	}
-	pre_effect = {
-		random_neighbor_country = {
-			limit = {
-				num_of_cities = 6
-				is_free_or_tributary_trigger = yes
-				NOT = { is_subject_of = root }
-				NOT = { overlord_of = root }
-				NOT = { alliance_with = root }
-				NOT = { ROOT = { truce_with = prev } }
-				NOT = { 
-					has_opinion = {
-						who = root
-						value = 25
-					}
-				}
-				NOT = {
-					any_owned_province = { #No need for this agenda if covered by a mission
-						OR = {
-							is_permanent_claim = root
-							is_core = root
-						}
-					}
-				}
-				ROOT = {
-					knows_country = prev
-				}
-				any_owned_province = {
-					OR = {
-						has_terrain = steppe
-						culture_group = east_slavic
-						culture_group = slavic
-					}
-					any_neighbor_province = {
-						owned_by = root
-					}
-					area_for_scope_province = {
-						owned_by = root
-					}
-					NOT = {
-						area_for_scope_province = {
-							owner = {
-								OR = {
-									alliance_with = root
-									ROOT = { truce_with = prev }
-									is_subject_of = root
-									AND = {
-										is_part_of_hre = yes
-										hre_reform_passed = landfriede
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			random_owned_province = {
-				limit = {
-					OR = {
-						has_terrain = steppe
-						culture_group = east_slavic
-						culture_group = slavic
-					}
-					any_neighbor_province = {
-						owned_by = root
-					}
-					area_for_scope_province = {
-						owned_by = root
-					}
-					NOT = {
-						area_for_scope_province = {
-							owner = {
-								OR = {
-									alliance_with = root
-									ROOT = { truce_with = prev }
-									is_subject_of = root
-									AND = {
-										is_part_of_hre = yes
-										hre_reform_passed = landfriede
-									}
-								}
-							}
-						}
-					}
-				}
-				save_event_target_as = agenda_province
-			}
-		}
-	}
-	immediate_effect = {
-		if = {
-			limit = {
-				event_target:agenda_province = {
-					area_for_scope_province = {
-						NOT = { is_claim = root }
-						NOT = { is_core = root }
-					}
-				}
-			}
-			event_target:agenda_province = {
-				area = {
-					limit = {
-						NOT = { is_claim = root }
-						NOT = { is_core = root }
-					}
-					add_claim = root
-				}
-			}
-		}
-	}
-	on_invalid = {
-		if = {
-			limit = {
-				event_target:agenda_province = {
-					area_for_scope_province = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-				}
-			}
-			event_target:agenda_province = {
-				area = {
-					limit = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-					remove_claim = root
-				}
-			}
-		}
-	}
-	provinces_to_highlight = {
-		area_for_scope_province = {
-			province_id = event_target:agenda_province
-		}
-		NOT = { owned_by = root }
-	}
-	task_requirements = {
-		if = {
-			limit = {
-				has_estate_agenda_auto_completion = {
-					estate = estate_varangians
-				}
-			}
-			has_estate_agenda_auto_completion = {
-				estate = estate_varangians
-			}
-		}
-		else = {
-			event_target:agenda_province = {
-				area_for_scope_province = {
-					type = all
-					OR = {
-						owned_by = root
-						owner = {
-							is_subject_of = root
-						}
-					}
-				}
-			}
-		}
-	}
-	fail_if = {
-		event_target:agenda_province = {
-			area_for_scope_province = {
-				type = all
-				NOT = { is_claim = root }
-				NOT = { is_core = root }
-				NOT = { owned_by = root }
-			}
-		}
-	}
-    task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_varangians
-		}
-		add_estate_loyalty = {
-			estate = estate_varangians
-			loyalty = 15
-		}
-		add_adm_power = 50
-	}
-    failing_effect = {
-		on_failed_agenda_effect = yes
-		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
-			desc = EST_VAL_AGENDA_DENIED
-			loyalty = -5
-			duration = 7300
-        }
-		if = {
-			limit = {
-				event_target:agenda_province = {
-					area_for_scope_province = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-				}
-			}
-			event_target:agenda_province = {
-				area = {
-					limit = {
-						is_claim = root
-						NOT = { is_permanent_claim = root }
-					}
-					remove_claim = root
-				}
-			}
-		}
-    }
-}
-
-
-#Settle random neighbouring steppe province
-estate_varangians_colonise_X = {
-	can_select = {
-		OR = {
-			num_of_colonists = 1
-			has_idea = siberian_frontier
-		}
-		any_owned_province = {
-			any_empty_neighbor_province = {
-				ROOT = { has_discovered = prev }
-				is_city = no
-				is_wasteland = no
-				OR = {
-					region = ural_region
-					region = west_siberia_region
-					region = east_siberia_region
-				}
-			}
-		}
-	}
-	selection_weight = {
-		factor = 2.5
-		modifier = {
-			factor = 2
-			num_of_colonists = 2
-		}
-		modifier = {
-			factor = 2
-			tag = RUS
-		}
-	}
-	pre_effect = {
-		random_owned_province = {
-			limit = {
-				any_empty_neighbor_province = {
-					has_discovered = root
-					is_city = no
-					is_wasteland = no
-					OR = {
-						region = ural_region
-						region = west_siberia_region
-						region = east_siberia_region
-					}
-				}
-			}
-			random_empty_neighbor_province = {
-				limit = {
-					has_discovered = root
-					is_city = no
-					is_wasteland = no
-					OR = {
-						region = ural_region
-						region = west_siberia_region
-						region = east_siberia_region
-					}
-				}
-				save_event_target_as = agenda_province
-				choose_random_development_bonus_effect = yes
-			}
-		}
-	}
-	on_invalid = {
-		event_target:agenda_province = {
-			clear_random_development_bonus_flags_effect = yes
-		}
-	}
-	provinces_to_highlight = {
-		province_id = event_target:agenda_province
-	}
-	task_requirements = {
-		if = {
-			limit = {
-				has_estate_agenda_auto_completion = {
-					estate = estate_varangians
-				}
-			}
-			has_estate_agenda_auto_completion = {
-				estate = estate_varangians
-			}
-		}
-		else = {
-			event_target:agenda_province = {
-				owned_by = root
-				is_city = yes
-			}
-		}
-	}
-    task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_varangians
-		}
-		add_estate_loyalty = {
-			estate = estate_varangians
-			loyalty = 10
-		}
-		event_target:agenda_province = {
-			apply_random_development_bonus_bonus_effect = yes
-		}
-	}
-	fail_if = {
-		OR = {
-			AND = {
-				NOT = { num_of_colonists = 1 }
-				NOT = { has_idea = siberian_frontier }
-				event_target:agenda_province = {
-					NOT = { owned_by = root }
-				}
-			}
-			event_target:agenda_province = {
-				NOT = { range = root }
-			}
-			event_target:agenda_province = {
-				is_city = yes
-				NOT = { owned_by = root }
-			}
-		}
-	}
-    failing_effect = {
-		on_failed_agenda_effect = yes
-		clr_auto_complete_flag = yes
-		event_target:agenda_province = {
-			clear_random_development_bonus_flags_effect = yes
-		}
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
-			desc = EST_VAL_AGENDA_DENIED
-			loyalty = -5
-			duration = 7300
-        }
-    }
-}
-
-
 #Privateer
 estate_varangians_go_privateering = {
 	can_select = {
@@ -1248,91 +530,526 @@ estate_varangians_go_privateering_2 = {
     }
 }
 
-#Loot X province with at least 12 development ("Despoil X")
-estate_varangians_despoil_x = {
+#Conquer X area from country you don't have great relations with
+estate_varangians_expand_into_x = {
 	can_select = {
-		is_at_war = yes
-		NOT = {
-			is_in_war = {
-				duration = 1825
-			}
-		}
+		is_free_or_tributary_trigger = yes
+		is_at_war = no
 		any_neighbor_country = {
-			war_with = root
-			any_owned_province = {
-				development = 12
-				is_looted = no
-				continent = root
-				controlled_by = owner
-				area_for_scope_province = {
-					type = all
-					owned_by = prev
+			num_of_cities = 6
+			is_free_or_tributary_trigger = yes
+			NOT = { is_subject_of = root }
+			NOT = { overlord_of = root }
+			NOT = { alliance_with = root }
+			NOT = { ROOT = { truce_with = prev } }
+			NOT = { 
+				has_opinion = {
+					who = root
+					value = 25
 				}
 			}
+			NOT = {
+				any_owned_province = { #No need for this agenda if covered by a mission
+					OR = {
+						is_permanent_claim = root
+						is_core = root
+					}
+				}
+			}
+			ROOT = {
+				knows_country = prev
+			}
+			any_owned_province = {
+				OR = {
+					NOT = { development = 10 }
+					culture_group = east_slavic
+					culture_group = scandinavian
+				}
+				any_neighbor_province = {
+					owned_by = root
+				}
+				NOT = {
+					area_for_scope_province = {
+						OR = {
+							is_empty = yes
+							country_or_subject_holds = ROOT
+						}
+					}
+				}
+			}
+			OR = {
+				is_part_of_hre = no
+				NOT = { hre_reform_passed = landfriede }
+				ROOT = { is_part_of_hre = no }
+			}
 		}
-		NOT = { has_country_modifier = agenda_looting_zeal }
 	}
 	selection_weight = {
-		factor = 2.5
+		factor = 2
+		modifier = {
+			factor = 0.5
+			has_non_generic_missions = yes
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 25
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 30
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 40
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 50
+		}
+		modifier = {
+			factor = 0.25
+			any_country = {
+				coalition_target = root
+			}
+		}
 	}
 	pre_effect = {
 		random_neighbor_country = {
 			limit = {
-				war_with = root
+				num_of_cities = 6
+				is_free_or_tributary_trigger = yes
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				NOT = { 
+					has_opinion = {
+						who = root
+						value = 25
+					}
+				}
+				NOT = {
+					any_owned_province = { #No need for this agenda if covered by a mission
+						OR = {
+							is_permanent_claim = root
+							is_core = root
+						}
+					}
+				}
+				ROOT = {
+					knows_country = prev
+				}
 				any_owned_province = {
-					development = 12
-					is_looted = no
-					continent = root
-					controlled_by = owner
-					area_for_scope_province = {
-						type = all
-						owned_by = prev
+					OR = {
+						NOT = { development = 10 }
+						culture_group = east_slavic
+						culture_group = scandinavian
+						}
+					any_neighbor_province = {
+						owned_by = root
 					}
+					NOT = {
+						area_for_scope_province = {
+							OR = {
+								is_empty = yes
+								country_or_subject_holds = ROOT
+							}
+						}
+					}
+				}
+				OR = {
+					is_part_of_hre = no
+					NOT = { hre_reform_passed = landfriede }
+					ROOT = { is_part_of_hre = no }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					development = 12
-					is_looted = no
-					continent = root
-					controlled_by = owner
-					area_for_scope_province = {
-						type = all
-						owned_by = prev
+					OR = {
+						NOT = { development = 10 }
+						culture_group = east_slavic
+						culture_group = scandinavian
 					}
-				}
-				save_event_target_as = agenda_province
-			}
-			random_owned_province = {
-				limit = {
-					development = 16
-					is_looted = no
-					continent = root
-					controlled_by = owner
-					area_for_scope_province = {
-						type = all
-						owned_by = prev
+					any_neighbor_province = {
+						owned_by = root
 					}
-				}
-				save_event_target_as = agenda_province
-			}
-			random_owned_province = {
-				limit = {
-					development = 20
-					is_looted = no
-					continent = root
-					controlled_by = owner
 					area_for_scope_province = {
 						type = all
-						owned_by = prev
+						NOT = { owned_by = root }
+						is_empty = no
 					}
 				}
 				save_event_target_as = agenda_province
 			}
 		}
 	}
+	immediate_effect = {
+		if = {
+			limit = {
+				event_target:agenda_province = {
+					area_for_scope_province = {
+						NOT = { is_claim = root }
+						NOT = { is_core = root }
+					}
+				}
+			}
+			event_target:agenda_province = {
+				area = {
+					limit = {
+						NOT = { is_claim = root }
+						NOT = { is_core = root }
+					}
+					add_claim = root
+				}
+			}
+		}
+	}
+	on_invalid = {
+		if = {
+			limit = {
+				event_target:agenda_province = {
+					area_for_scope_province = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+				}
+			}
+			event_target:agenda_province = {
+				area = {
+					limit = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+					remove_claim = root
+				}
+			}
+		}
+	}
 	provinces_to_highlight = {
-		province_id = event_target:agenda_province
+		area_for_scope_province = {
+			province_id = event_target:agenda_province
+		}
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_varangians
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_varangians
+			}
+		}
+		else = {
+			event_target:agenda_province = {
+				area_for_scope_province = {
+					country_or_subject_holds = ROOT
+				}
+			}
+		}
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			area_for_scope_province = {
+				type = all
+				NOT = { is_claim = root }
+				NOT = { is_core = root }
+				NOT = { country_or_subject_holds = ROOT }
+			}
+		}
+	}
+    task_completed_effect = {
+		on_completed_agenda_effect = {
+			estate = estate_varangians
+		}
+		add_estate_loyalty = {
+			estate = estate_varangians
+			loyalty = 15
+		}
+		add_adm_power = 50
+		random_province = {
+			limit = {
+				area_for_scope_province = {
+					province_id = event_target:agenda_province
+				}
+				owned_by = ROOT		
+			}
+			random_list = {
+				50 = {
+					change_culture = anglo_greek
+				}
+				50 = {
+					change_culture = scando_greek
+				}
+				50 = {
+					change_culture = russo_greek
+				}
+			}
+		}
+	}
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_varangians
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+		if = {
+			limit = {
+				event_target:agenda_province = {
+					area_for_scope_province = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+				}
+			}
+			event_target:agenda_province = {
+				area = {
+					limit = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+					remove_claim = root
+				}
+			}
+		}
+	}
+}
+
+#Complete conquest of X area from country you don't have great relations with
+estate_varangians_complete_conquest_of_x = {
+	can_select = {
+		is_free_or_tributary_trigger = yes
+		is_at_war = no
+		any_neighbor_country = {
+			num_of_cities = 6
+			is_free_or_tributary_trigger = yes
+			NOT = { is_subject_of = root }
+			NOT = { overlord_of = root }
+			NOT = { alliance_with = root }
+			NOT = { ROOT = { truce_with = prev } }
+			NOT = { 
+				has_opinion = {
+					who = root
+					value = 25
+				}
+			}
+			NOT = {
+				any_owned_province = { #No need for this agenda if covered by a mission
+					OR = {
+						is_permanent_claim = root
+						is_core = root
+					}
+				}
+			}
+			ROOT = {
+				knows_country = prev
+			}
+			any_owned_province = {
+				OR = {
+					NOT = { development = 10 }
+					culture_group = east_slavic
+					culture_group = scandinavian
+				}
+				any_neighbor_province = {
+					owned_by = root
+				}
+				area_for_scope_province = {
+					owned_by = root
+				}
+				NOT = {
+					area_for_scope_province = {
+						owner = {
+							OR = {
+								alliance_with = root
+								ROOT = { truce_with = prev }
+								is_subject_of = root
+								AND = {
+									is_part_of_hre = yes
+									hre_reform_passed = landfriede
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	selection_weight = {
+		factor = 2.5
+		modifier = {
+			factor = 0.5
+			has_non_generic_missions = yes
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 25
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 30
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 40
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 50
+		}
+		modifier = {
+			factor = 0.25
+			any_country = {
+				coalition_target = root
+			}
+		}
+	}
+	pre_effect = {
+		random_neighbor_country = {
+			limit = {
+				num_of_cities = 6
+				is_free_or_tributary_trigger = yes
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				NOT = { 
+					has_opinion = {
+						who = root
+						value = 25
+					}
+				}
+				NOT = {
+					any_owned_province = { #No need for this agenda if covered by a mission
+						OR = {
+							is_permanent_claim = root
+							is_core = root
+						}
+					}
+				}
+				ROOT = {
+					knows_country = prev
+				}
+				any_owned_province = {
+					OR = {
+						NOT = { development = 10 }
+						culture_group = east_slavic
+						culture_group = scandinavian
+					}
+					any_neighbor_province = {
+						owned_by = root
+					}
+					area_for_scope_province = {
+						owned_by = root
+					}
+					NOT = {
+						area_for_scope_province = {
+							owner = {
+								OR = {
+									alliance_with = root
+									ROOT = { truce_with = prev }
+									is_subject_of = root
+									AND = {
+										is_part_of_hre = yes
+										hre_reform_passed = landfriede
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						NOT = { development = 10 }
+						culture_group = east_slavic
+						culture_group = scandinavian
+					}
+					any_neighbor_province = {
+						owned_by = root
+					}
+					area_for_scope_province = {
+						owned_by = root
+					}
+					NOT = {
+						area_for_scope_province = {
+							owner = {
+								OR = {
+									alliance_with = root
+									ROOT = { truce_with = prev }
+									is_subject_of = root
+									AND = {
+										is_part_of_hre = yes
+										hre_reform_passed = landfriede
+									}
+								}
+							}
+						}
+					}
+				}
+				save_event_target_as = agenda_province
+			}
+		}
+	}
+	immediate_effect = {
+		if = {
+			limit = {
+				event_target:agenda_province = {
+					area_for_scope_province = {
+						NOT = { is_claim = root }
+						NOT = { is_core = root }
+					}
+				}
+			}
+			event_target:agenda_province = {
+				area = {
+					limit = {
+						NOT = { is_claim = root }
+						NOT = { is_core = root }
+					}
+					add_claim = root
+				}
+			}
+		}
+	}
+	on_invalid = {
+		if = {
+			limit = {
+				event_target:agenda_province = {
+					area_for_scope_province = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+				}
+			}
+			event_target:agenda_province = {
+				area = {
+					limit = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+					remove_claim = root
+				}
+			}
+		}
+	}
+	provinces_to_highlight = {
+		area_for_scope_province = {
+			province_id = event_target:agenda_province
+		}
+		NOT = { owned_by = root }
 	}
 	task_requirements = {
 		if = {
@@ -1349,17 +1066,23 @@ estate_varangians_despoil_x = {
 			event_target:agenda_province = {
 				area_for_scope_province = {
 					type = all
-					is_looted = yes
+					OR = {
+						owned_by = root
+						owner = {
+							is_subject_of = root
+						}
+					}
 				}
 			}
 		}
 	}
 	fail_if = {
 		event_target:agenda_province = {
-			owner = {
-				NOT = {
-					war_with = root
-				}
+			area_for_scope_province = {
+				type = all
+				NOT = { is_claim = root }
+				NOT = { is_core = root }
+				NOT = { owned_by = root }
 			}
 		}
 	}
@@ -1369,13 +1092,29 @@ estate_varangians_despoil_x = {
 		}
 		add_estate_loyalty = {
 			estate = estate_varangians
-			loyalty = 10
+			loyalty = 15
 		}
-		add_country_modifier = {
-			name = agenda_looting_zeal
-			duration = 3650
+		add_adm_power = 50
+		random_province = {
+			limit = {
+				area_for_scope_province = {
+					province_id = event_target:agenda_province
+				}
+				owned_by = ROOT		
+			}
+			random_list = {
+				50 = {
+					change_culture = anglo_greek
+				}
+				50 = {
+					change_culture = scando_greek
+				}
+				50 = {
+					change_culture = russo_greek
+				}
+			}
 		}
-    }
+	}
     failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
@@ -1385,9 +1124,27 @@ estate_varangians_despoil_x = {
 			loyalty = -5
 			duration = 7300
         }
+		if = {
+			limit = {
+				event_target:agenda_province = {
+					area_for_scope_province = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+				}
+			}
+			event_target:agenda_province = {
+				area = {
+					limit = {
+						is_claim = root
+						NOT = { is_permanent_claim = root }
+					}
+					remove_claim = root
+				}
+			}
+		}
     }
 }
-
 
 #Recruit more varangians
 estate_varangians_recruit_more_varangians = {

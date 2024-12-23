@@ -73,4 +73,259 @@ country_decisions = {
 		}
 		ai_importance = 0
 	}
+	# Settle Varangian Veterans
+	estate_varangians_settle_varangian_veterans = {
+		color = { 195 160 20 }
+		potential = {
+			has_enabled_estate_action = {
+				estate_action = SETTLE_VARANGIAN_VETS
+			}
+			has_estate = estate_varangians
+		}
+		allow = {
+			any_hired_mercenary_company = {
+				is_varangians_trigger = yes
+				location = {
+					owned_by = ROOT
+				}
+			}
+			has_not_any_estate_disaster_active = yes
+			estate_action_off_cooldown = {
+				estate_action = SETTLE_VARANGIAN_VETS
+				days = 7300
+			}
+		}
+		effect = {
+			random_hired_mercenary_company = {
+				limit = {
+					is_varangians_trigger = yes
+					location = {
+						owned_by = ROOT
+						NOT = { is_capital = yes }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							template = merc_anglish_varangians
+						}
+					}
+					location = {
+						change_culture = anglo_greek
+						add_province_modifier = {
+							name = varangian_vets
+							duration = 9125
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							template = merc_novgorodian_varangians
+						}
+					}
+					location = {
+						change_culture = russo_greek
+						add_province_modifier = {
+							name = varangian_vets
+							duration = 9125
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							template = merc_swedish_varangians
+							template = merc_norwegian_varangians
+							template = merc_danish_varangians
+						}
+					}
+					location = {
+						change_culture = scando_greek
+						add_province_modifier = {
+							name = varangian_vets
+							duration = 9125
+						}
+					}
+				}
+			}
+			set_estate_action_cooldown = {
+				estate_action = SETTLE_VARANGIAN_VETS
+			}
+			estate_action = {
+				estate_action = SETTLE_VARANGIAN_VETS
+			}
+			increase_estate_action_counter = {
+				estate = estate_varangians
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				estate_influence = {
+					estate = estate_varangians
+					influence = 60
+				}				
+			}
+			modifier = {
+				factor = 0
+				estate_loyalty = {
+					estate = estate_varangians
+					loyalty = 30
+				}				
+			}
+		}
+	}
+
+	estate_varangians_permit_self_governance = {
+		color = { 195 160 20 }
+		potential = {
+			has_enabled_estate_action = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+			}
+			has_estate = estate_varangians
+		}
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			estate_action_off_cooldown = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+				days = 7300
+			}
+		}
+		effect = {
+			set_estate_action_cooldown = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+			}
+			estate_action = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+			}
+			increase_estate_action_counter = {
+				estate = estate_varangians
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				estate_loyalty = {
+					estate = estate_varangians
+					loyalty = 40
+				}
+			}
+		}
+	}
+	estate_varangians_recruit_minister = {
+		color = { 195 160 20 }
+		potential = {
+			has_enabled_estate_action = {
+				estate_action = RECRUIT_MINISTER_VARANGIANS
+			}
+			has_estate = estate_varangians
+		}
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			estate_influence = {
+				estate = estate_varangians
+				influence = 40
+			}
+			estate_action_off_cooldown = {
+				estate_action = RECRUIT_MINISTER_VARANGIANS
+				days = 10950
+			}
+		}
+		effect = {
+			set_estate_action_cooldown = {
+				estate_action = RECRUIT_MINISTER_VARANGIANS
+			}
+			estate_action = {
+				estate_action = RECRUIT_MINISTER_VARANGIANS
+			}
+			increase_estate_action_counter = {
+				estate = estate_varangians
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	estate_varangians_permit_self_governance = {
+		color = { 195 160 20 }
+		potential = {
+			has_enabled_estate_action = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+			}
+			has_estate = estate_varangians
+		}
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			estate_action_off_cooldown = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+				days = 7300
+			}
+		}
+		effect = {
+			set_estate_action_cooldown = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+			}
+			estate_action = {
+				estate_action = PERMIT_SELF_GOVERNANCE_VARANGIANS
+			}
+			increase_estate_action_counter = {
+				estate = estate_varangians
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				estate_loyalty = {
+					estate = estate_varangians
+					loyalty = 40
+				}
+			}
+		}
+	}
+	estate_varangians_conscript_cossack_elite = {
+		color = { 195 160 20 }
+		potential = {
+			has_enabled_estate_action = {
+				estate_action = CONSCRIPT_VARANGIAN_ELITE_VARANGIANS
+			}
+			has_estate = estate_varangians
+		}
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			any_owned_province = {
+				has_terrain = steppe
+			}
+			estate_action_off_cooldown = {
+				estate_action = CONSCRIPT_VARANGIAN_ELITE_VARANGIANS
+				days = 7300
+			}
+		}
+		effect = {
+			set_estate_action_cooldown = {
+				estate_action = CONSCRIPT_VARANGIAN_ELITE_VARANGIANS
+			}
+			estate_action = {
+				estate_action = CONSCRIPT_VARANGIAN_ELITE_VARANGIANS
+			}
+			increase_estate_action_counter = {
+				estate = estate_varangians
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					estate_loyalty = {
+						estate = estate_varangians
+						loyalty = 60
+					}
+				}
+			}
+		}
+	}
 }

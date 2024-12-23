@@ -3,20 +3,30 @@ estate_varangians = {
 	
 	# Used for when declaring independence
 	independence_government = republic
-	starting_reform = cossacks_reform
+	starting_reform = mercenary_leadership_reform
 	independence_tech_group = eastern
 
-	province_independence_weight = {
-		factor = 1
-		modifier = {
-			factor = 2
-			has_terrain = steppe
-		}
+    province_independence_weight = {
+        factor = 1
+        modifier = {
+            factor = 2
+            owner = {
+                any_hired_mercenary_company = {
+                    is_varangians_trigger = yes
+                    location = {
+                        any_province_in_state = {
+                            province_id = ROOT
+                        }
+                    }
+                }
+            }
+        }
 		modifier = {
 			factor = 2
 			OR = {
 				culture_group = east_slavic
-				culture_group = slavic
+				culture_group = varangian
+				culture_group = scandinavian
 			}
 		}
 		modifier = {
@@ -50,20 +60,20 @@ estate_varangians = {
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		cavalry_cost = -0.2
-		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.10
+		merc_maintenance_modifier = -0.35
+		mercenary_discipline = 0.2
+		mercenary_cost = -0.2
 	}
 	country_modifier_neutral = {
 		cavalry_power = 0.2
 	}	
 	country_modifier_angry = {
-		cavalry_cost = 0.2
-		cavalry_power = -0.1
+		merc_maintenance_modifier = 0.35
+		mercenary_discipline = -0.2
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
-		cossacks_loyalty_modifier = 0.2
+		varangians_loyalty_modifier = 0.2
 	}
 
 	# Influence modifiers
@@ -100,14 +110,10 @@ estate_varangians = {
 
 	privileges = {
 		estate_varangians_land_rights
-		estate_varangians_cossack_self_governance
-		estate_varangians_establish_the_cossack_regiments
-		estate_varangians_expand_the_cossack_regiments
-		estate_varangians_recruit_cossack_generals
-		estate_varangians_freedom_of_the_steppes
+		estate_varangians_recruit_varangian_generals
 		estate_varangians_grant_military_leadership
 		estate_varangians_exempt_from_bureaucracy
-		estate_varangians_military_service
+		estate_varangians_settlement_rights
 		estate_varangians_expand_cossacks_raiders
 	}
 
@@ -116,10 +122,8 @@ estate_varangians = {
 		estate_varangians_reply_of_the_zaporozhian
 		estate_varangians_expand_into_x
 		estate_varangians_complete_conquest_of_x
-		estate_varangians_colonise_X
 		estate_varangians_go_privateering
 		estate_varangians_go_privateering_2
-		estate_varangians_despoil_x
 		estate_varangians_recruit_more_varangians
 		estate_varangians_hire_advisor
 		estate_varangians_fire_advisor

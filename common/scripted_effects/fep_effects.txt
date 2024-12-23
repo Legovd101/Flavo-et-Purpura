@@ -28,6 +28,59 @@ return_varangians = {
 	clr_country_flag = sent_varangians
 }
 
+estate_action_RECRUIT_MINISTER_VARANGIANS = {
+	generate_estate_advisor = {
+		estate = estate_varangians
+		type = army_reformer
+	}
+	add_estate_loyalty = {
+		estate = estate_varangians
+		loyalty = -10
+	}
+	#add_estate_influence_modifier = {
+	#	estate = estate_varangians
+	#	desc = EST_VAL_COSSACKS_MINISTER
+	#	influence = 20
+	#	duration = 10950
+	#}
+	if = {
+		limit = {
+			has_estate = estate_nobles
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -15
+		}
+	}
+}
+
+estate_action_PERMIT_SELF_GOVERNANCE_VARANGIANS = {
+	add_estate_loyalty = {
+		estate = estate_varangians
+		loyalty = 5
+	}
+	add_estate_influence_modifier = {
+		estate = estate_varangians
+		desc = EST_VAL_SELF_GOVERNANCE
+		influence = 15
+		duration = 7300
+	}
+	auto_complete_estate_agenda = {
+		estate = estate_varangians
+	}
+}
+
+estate_action_CONSCRIPT_VARANGIAN_ELITE_VARANGIANS = {
+	estate_action_tradition = {
+		type = army
+		estate = estate_varangians
+	}
+	add_estate_loyalty = {
+		estate = estate_varangians
+		loyalty = -15
+	}
+}
+
 varangian_home_province_effect = {
 	if = {
 		limit = {

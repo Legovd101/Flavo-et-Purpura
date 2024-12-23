@@ -40,16 +40,19 @@ any_available_varangians_for_root = {
 
 currently_employing_varangians_trigger = {
 	any_hired_mercenary_company = {
-		OR = {
-			template = merc_danish_varangians
-			template = merc_swedish_varangians
-			template = merc_norwegian_varangians
-			template = merc_anglish_varangians
-			template = merc_novgorodian_varangians
-		}
+		is_varangians_trigger = yes
 	} 
 }
 
+is_varangians_trigger = {
+	OR = {
+		template = merc_danish_varangians
+		template = merc_swedish_varangians
+		template = merc_norwegian_varangians
+		template = merc_anglish_varangians
+		template = merc_novgorodian_varangians
+	}
+}
 can_send_varangians = {
 	OR = {
 		culture_group = east_slavic

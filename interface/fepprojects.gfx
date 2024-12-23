@@ -14,4 +14,9 @@ spriteTypes = {
 		name = "GFX_great_project_hill_of_tara"
 		texturefile = "gfx/interface/great_projects/great_project_hill_of_tara.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_danevirke"
+		texturefile = "gfx/interface/great_projects/great_project_danevirke.dds"
+	}
 }

@@ -1,0 +1,9 @@
+government_rank = 1
+government = republic
+technology_group = western
+religion = arianism
+primary_culture = lower_saxon
+capital = 4141 #Ditmarschen
+
+
+#Annexed by Denmark
