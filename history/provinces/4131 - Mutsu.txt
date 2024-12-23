@@ -1,7 +1,7 @@
 #Northern Mutsu
 owner = ANU
 controller = ANU
-culture = togoku
+culture = emishi
 religion = shinto
 capital = "Sannohe"
 trade_goods = livestock

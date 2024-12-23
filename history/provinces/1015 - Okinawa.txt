@@ -1,7 +1,7 @@
 #1015 - Okinawa
 owner = RYU
 controller = RYU
-culture = kyushuan#Was really Ryukuan
+culture = okinawan
 religion = animism
 capital = "Shuri"
 trade_goods = chinaware
