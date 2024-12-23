@@ -44,6 +44,9 @@ jiedushi_reform = {
 	modifiers = {
 		max_absolutism = -10
 		merchants = 1
+		yearly_corruption = -0.1
+		global_colonial_growth = 10
+		global_tariffs = 0.25
 	}
 
 	conditional = {
