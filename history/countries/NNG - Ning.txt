@@ -1,4 +1,4 @@
-government = monarchy
+government = republic
 add_government_reform = jiedushi_reform
 technology_group = chinese
 religion = confucianism
