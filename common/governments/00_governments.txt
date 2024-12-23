@@ -666,6 +666,8 @@ republic = {
 				egyptian_government_reform
 				city_alliance_reform
 				turkoman_ottoman_institutions
+				#FEP
+				jiedushi_reform
 			}
 		}
 		republican_virtues = {
