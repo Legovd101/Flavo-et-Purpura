@@ -1,5 +1,5 @@
 #738 - Taiwan
-culture = polynesian
+culture = formosan
 religion = nestorian
 capital = "Sakam"
 trade_goods = unknown
