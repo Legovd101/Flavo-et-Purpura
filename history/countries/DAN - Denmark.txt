@@ -8,5 +8,15 @@ capital = 12 #Sjaelland
 set_estate_privilege = DAN_triducal_monarchy
 change_estate_land_share = {
 	estate = estate_nobles
-	share = 50
+	share = 20
+}
+1286.1.1 = { 
+	monarch = { 
+		name = "Ømund"
+		dynasty = "Ulfing"
+		birth_date = 1273.1.17
+		dip = 2
+		mil = 4
+		adm = 2
+	}
 }

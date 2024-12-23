@@ -6,4 +6,3 @@ tags={
 }
 name="Flavo et Purpura"
 supported_version="v1.37.5.0"
-replace_path="missions"

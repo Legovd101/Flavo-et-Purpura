@@ -59,7 +59,7 @@ DAN_2 = {
 			}
 		}
 		effect = {
-		    remove_estate_privilege = estate_nobles_anglish_nobility
+		    remove_estate_privilege = estate_burghers_anglish_nobility
 		} 
 	}
 
@@ -183,7 +183,7 @@ DAN_3 = {
 			}
 			AND = {
 				advisor = inquisitor
-				has_adm_advisor_1 = yes
+				has_adm_advisor = yes
 			}
 		}
 
@@ -255,11 +255,11 @@ DAN_3 = {
 			else = {
 			}
 			custom_tooltip = danish_wendish_crusade_tt
-			any_province = {
+			every_province = {
 			    if = {
 			        limit = {
 				        OR = {
-					        culture = pomeranian
+					        culture = pommeranian
 						    culture = prussian
 					    }
 				    }
@@ -335,31 +335,15 @@ new_branch = {
 
 		effect = {
 		    custom_tooltip = danish_add_baltic_claims_tt
-		    25 = {
-			    add_permanent_claim = yes
-			}
-			43 = {
-			    add_permanent_claim = yes
-			}
-			41 = {
-			    add_permanent_claim = yes
-			}
-			38 = {
-			    add_permanent_claim = yes
-			}
-			36 = {
-			    add_permanent_claim = yes
-			}
-			33 = {
-			    add_permanent_claim = yes
-			}
-			1 = {
-			    add_permanent_claim = yes
-			}
-			47 = {
-			    add_permanent_claim = yes
-			}
-			add_country_modifier = {
+		    add_permanent_claim = 25
+		    add_permanent_claim = 43
+		    add_permanent_claim = 41
+		    add_permanent_claim = 38
+		    add_permanent_claim = 36
+		    add_permanent_claim = 33
+		    add_permanent_claim = 1
+		    add_permanent_claim = 47
+		    add_country_modifier = {
 				name = "oresund_dominance"
 				duration = 5475
 			}
