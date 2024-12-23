@@ -301,6 +301,8 @@ BLU_ideas = {
 		core_creation = -0.1 #
 	}
 }
+
+#Cantonese ideas
 cantonese_ideas = {
     start = {
         global_manpower_modifier = 0.10
@@ -341,4 +343,50 @@ cantonese_ideas = {
     cantonese_whampoa = {
         land_morale = 0.10
     }
+}
+
+#Sian ideas
+sian_ideas = {
+	start = {
+		governing_capacity_modifier = 0.1
+		idea_cost = -0.10
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = xiang
+			primary_culture = hubei
+		}
+	}
+	free = yes
+	
+	sian_ancient_chu = {
+		legitimacy = 1
+		republican_tradition = 0.5
+		horde_unity = 1
+		devotion = 1
+		meritocracy = 1
+	}
+	sian_generals = {
+		army_tradition = 0.5
+	}
+	sian_philosophy = {
+		prestige = 0.5
+	}
+	sian_hegemony = {
+		core_creation = -0.1
+	}
+	sian_embroidery = {
+		global_unrest = -1
+	}
+	sian_trade = {
+		global_trade_power = 0.1
+	}
+	sian_dongting = {
+		production_efficiency = 0.05
+	}
 }
