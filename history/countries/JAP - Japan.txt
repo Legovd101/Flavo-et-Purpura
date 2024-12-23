@@ -1,0 +1,49 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 1020	# Kyoto
+
+1260.1.1 = {
+	capital = 1026	# Rikuzen
+}
+
+1298.8.30 = {
+	monarch = {
+		name = "Tanehito"
+		dynasty = "Yamato"
+		birth_date = 1288.4.5
+		death_date = 1336.5.17
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1298.8.30 = {
+	heir = {
+		name = "Kuniharu"
+		dynasty = "Yamato"
+		monarch_name = "Kuniharu"
+		birth_date = 1285.3.9
+		death_date = 1308.9.10
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1301.3.2 = {
+	monarch = {
+		name = "Kuniharu"
+		dynasty = "Yamato"
+		birth_date = 1285.3.9
+		death_date = 1308.9.10
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
