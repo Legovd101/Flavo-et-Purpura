@@ -1,7 +1,7 @@
 #2740 - Jeju
 owner = KOR
 controller = KOR
-culture = korean
+culture = jeju_culture
 religion = mahayana
 capital = "Jeju"
 trade_goods = fish
