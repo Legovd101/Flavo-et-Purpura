@@ -10,6 +10,7 @@ capital = 1020	# Kyoto
 	capital = 1026	# Rikuzen
 }
 
+#Emperor Go-Fushimi
 1298.8.30 = {
 	monarch = {
 		name = "Tanehito"
@@ -36,6 +37,7 @@ capital = 1020	# Kyoto
 	}
 }
 
+#Emperor Go-Nijō
 1301.3.2 = {
 	monarch = {
 		name = "Kuniharu"
