@@ -3,6 +3,6 @@ add_government_reform = chinese_warlord
 technology_group = chinese
 religion = confucianism
 religious_school = logician_school
-primary_culture = gan
+primary_culture = cantonese
 capital = 668#Nanchang
 government_rank = 1

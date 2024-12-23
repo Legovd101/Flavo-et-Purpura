@@ -1,5 +1,5 @@
 #4193 - Oshima
-culture = togoku
+culture = ainu
 religion = shinto
 capital = "Katsuyama"
 trade_goods = fish

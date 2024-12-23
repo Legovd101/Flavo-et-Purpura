@@ -3,6 +3,6 @@ add_government_reform = chinese_warlord
 technology_group = chinese
 religion = confucianism
 religious_school = diplomatic_school
-primary_culture = cantonese
+primary_culture = ping_culture
 capital = 1840#Canton
 government_rank = 1

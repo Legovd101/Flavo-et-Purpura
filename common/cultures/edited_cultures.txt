@@ -1691,7 +1691,7 @@ east_asian = {	# Chinese Group
 		}
 	}
 	cantonese = {
-		primary = YUE
+		primary = NNG
 		male_names = {
 			
 			#chief executuve
@@ -1807,7 +1807,7 @@ east_asian = {	# Chinese Group
 		}
 	}
 	tanka = {
-		primary = YUE
+		primary = NNG
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
 			Jianze Jianjun Jianzhi Jianpei Jianji Youji Youtang Youwan Youlun Youbing Youyun Youheng You'kai Houzhao 
