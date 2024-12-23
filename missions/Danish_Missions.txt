@@ -1,0 +1,450 @@
+DAN_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = DAN } 
+
+	DAN_claim_norway = {
+		icon = mission_conquer_norway
+		position = 3
+		required_missions = { DAN_reforge_the_realm } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		} 
+
+		effect = {
+		} 
+	}
+
+	DAN_claim_sweden = {
+		icon = mission_conquer_sweden
+		position = 5
+		required_missions = { DAN_claim_norway } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+DAN_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = DAN } 
+
+	DAN_appease_the_jutes = {
+		icon = mission_eastern_european_city
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+		    OR = {
+			    HOL = {
+					has_opinion = {
+						who = DAN
+						value = 150
+					}
+				}
+				HOL = {
+				    exists = no
+				}
+			}
+		}
+		effect = {
+		    remove_estate_privilege = estate_nobles_anglish_nobility
+		} 
+	}
+
+	DAN_the_danevirke = {
+		icon = mission_castle_construction
+		position = 3
+		required_missions = { DAN_reforge_the_realm } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    13 = {
+			    province_has_current_tech_fort_trigger = yes
+				has_manpower_building_trigger = yes
+				base_manpower = 6
+			}
+		}
+
+		effect = {
+		    13 = {
+			    add_province_modifier = {
+					name = "danevirke_restored"
+					duration = -1
+				}
+			}
+			mecklenburg_area = {
+				add_permanent_claim = ROOT
+			}
+			vorpommern_area = {
+				add_permanent_claim = ROOT
+			}
+			holstein_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	DAN_the_wendish_crusade = {
+		icon = mission_holy_horde
+		position = 5
+		required_missions = { DAN_annihilate_the_angles } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	DAN_second_valdemarian_age = {
+		icon = mission_crown_of_denmark
+		position = 6
+		required_missions = {
+			DAN_the_wendish_crusade
+			DAN_claim_sweden
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {
+		    if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				custom_tooltip = danish_if_used_ge_rest_else_30_years_extension_tt 
+				if = {
+					limit = { has_had_golden_age = yes } 
+					reset_golden_age = yes 
+				}
+				else_if = {
+					limit = { in_golden_age = yes } 
+					extend_golden_age = 360
+				}
+				add_country_modifier = {
+					name = "second_valdemarian_age"
+					duration = 18250
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = "second_valdemarian_age2"
+					duration = 18250
+				}
+			}
+		}
+	}
+
+	DAN_a_nordic_empire = {
+		icon = mission_unite_scandinavia
+		position = 8
+		required_missions = {
+			DAN_second_valdemarian_age
+			DAN_the_western_isles
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    scandinavia_region = {
+			    type = all
+				owned_by = ROOT
+			}
+		} 
+
+		effect = {  } 
+	}
+}
+DAN_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = DAN } 
+
+	DAN_renovate_roskilde = {
+		icon = mission_market_place_with_asian_traders
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    12 = {
+			    has_tax_building_trigger = yes
+			}
+			AND = {
+				advisor = inquisitor
+				has_adm_advisor_1 = yes
+			}
+		}
+
+		effect = {
+		    12 = {
+		        add_building = cathedral
+			}
+		}
+	}
+
+	DAN_reforge_the_realm = {
+		icon = mission_danish_flag
+		position = 2
+		required_missions = {
+			DAN_appease_the_jutes
+			DAN_renovate_roskilde
+			DAN_secure_scania
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    HOL = { exists = no }
+			SCN = { exists = no }
+			stability = 1
+		} 
+
+		effect = {
+		    override_country_name = DENMARK
+			set_government_rank = 2
+			add_country_modifier = {
+			    name = resurgent_denmark
+				duration = 9125
+			}
+		}
+	}
+
+	DAN_annihilate_the_angles = {
+		icon = mission_humiliate_lubeck
+		position = 4
+		required_missions = {
+			DAN_the_oresund_toll
+			DAN_the_danevirke
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		
+		    mecklenburg_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			vorpommern_area = {
+				type = all
+				owned_by = ROOT
+			}
+			holstein_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+		    custom_tooltip = danish_england_destroyed_tt
+			if = {
+				limit = {
+					ENG = { exists = no }
+				}
+				add_mil_power = 100
+			}
+			else = {
+			}
+			custom_tooltip = danish_wendish_crusade_tt
+			any_province = {
+			    if = {
+			        limit = {
+				        OR = {
+					        culture = pomeranian
+						    culture = prussian
+					    }
+				    }
+				}
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	DAN_the_western_isles = {
+		icon = mission_rb_conquer_the_isles
+		position = 7
+		required_missions = { DAN_dominate_the_waves } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+new_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = DAN } 
+
+	DAN_secure_scania = {
+		icon = mission_the_sound_toll
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 60
+			}
+			OR = {
+			    SCN = { #check what the tag is 
+					has_opinion = {
+						who = DAN
+						value = 150
+					}
+				}
+				SCN = {
+				    exists = no
+				}
+			}
+		} 
+
+		effect = {
+		    remove_estate_privilege = estate_burghers_disloyal_magnates
+		}
+	}
+
+	DAN_the_oresund_toll = {
+		icon = mission_rb_monopolize_the_channel
+		position = 3
+		required_missions = { DAN_reforge_the_realm } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    4142 = {
+			    has_trade_building_trigger = yes
+			}
+			12 = {
+			    has_trade_building_trigger = yes
+			}
+			6 = {
+			    has_trade_building_trigger = yes
+			}
+		}
+
+		effect = {
+		    custom_tooltip = danish_add_baltic_claims_tt
+		    25 = {
+			    add_permanent_claim = yes
+			}
+			43 = {
+			    add_permanent_claim = yes
+			}
+			41 = {
+			    add_permanent_claim = yes
+			}
+			38 = {
+			    add_permanent_claim = yes
+			}
+			36 = {
+			    add_permanent_claim = yes
+			}
+			33 = {
+			    add_permanent_claim = yes
+			}
+			1 = {
+			    add_permanent_claim = yes
+			}
+			47 = {
+			    add_permanent_claim = yes
+			}
+			add_country_modifier = {
+				name = "oresund_dominance"
+				duration = 5475
+			}
+		}
+	}
+
+	DAN_dominate_the_waves = {
+		icon = mission_rb_grow_the_channel
+		position = 6
+		required_missions = { DAN_the_oresund_toll } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    navy_size_percentage = 0.9
+			num_of_owned_provinces_with = {
+				value = 10
+				has_shipyard_building_trigger = yes
+			}
+		} 
+
+		effect = {  } 
+	}
+}
+new_branch = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = DAN } 
+
+	DAN_the_academy_of_lund = {
+		icon = leiden_university
+		position = 2
+		required_missions = { DAN_secure_scania } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    6 = {
+			    development = 25
+			}
+			treasury = 150
+		}
+
+		effect = {
+		    add_treasury = -150
+			add_country_modifier = {
+				name = danish_rennaisance
+				duration = 7300
+			}
+		}
+	}
+
+	DAN_into_the_baltic = {
+		icon = mission_heart_of_the_hansa
+		position = 4
+		required_missions = { DAN_the_oresund_toll } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	DAN_the_duchy_of_estland = {
+		icon = mission_conquer_baltic_region
+		position = 5
+		required_missions = { DAN_into_the_baltic } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	DAN_dominium_maris_baltici = {
+		icon = mission_baltic_empire
+		position = 7
+		required_missions = {
+			DAN_dominate_the_waves
+			DAN_the_duchy_of_estland
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
