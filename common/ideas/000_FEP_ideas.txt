@@ -301,3 +301,44 @@ BLU_ideas = {
 		core_creation = -0.1 #
 	}
 }
+cantonese_ideas = {
+    start = {
+        global_manpower_modifier = 0.10
+        global_prov_trade_power_modifier = 0.1
+    }
+    
+    bonus = {
+        discipline = 0.01
+    }
+    
+    trigger = {
+        primary_culture = cantonese
+    }
+    free = yes
+    
+    cantonese_maritime = {
+        global_naval_engagement_modifier = 0.2
+        global_ship_cost = -0.1
+    }
+    cantonese_ningnam = {
+        global_prosperity_growth = 0.1
+        development_cost_modifier = -0.1
+    }
+    cantonese_canton_system = {
+        global_trade_power = 0.2
+    }
+    cantonese_pearl_delta = {
+        production_efficiency = 0.1
+    }
+    cantonese_culture = {
+        monthly_splendor = 1
+        global_unrest = -2
+    }
+    cantonese_diaspora = {
+        global_colonial_growth = 10
+        range = 0.5
+    }
+    cantonese_whampoa = {
+        land_morale = 0.10
+    }
+}
