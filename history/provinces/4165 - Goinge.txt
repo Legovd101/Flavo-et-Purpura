@@ -2,7 +2,7 @@
 add_core = SCN
 owner = SCN
 controller = SCN
-culture = danish
+culture = geatish
 religion = arianism
 base_tax = 3
 base_production = 3

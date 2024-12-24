@@ -2,7 +2,7 @@
 add_core = SWE
 owner = SWE
 controller = SWE
-culture = swedish
+culture = geatish
 religion = arianism
 base_tax = 1
 base_production = 1
