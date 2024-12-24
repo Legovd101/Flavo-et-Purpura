@@ -375,12 +375,12 @@ JAP_ideas = {
 	}
 	free = yes
 	
-	reformed_land_holding = {
+	reformed_land_holding_new = {
 		global_manpower_modifier = 0.2
 		allowed_samurai_fraction = 0.15
 		has_samurai = yes 
 	}
-	jap_unification_under_the_emperor = {
+	jap_unification_under_the_emperor_new = {
 		global_unrest = -2
 	}
 	jap_modernization = {
