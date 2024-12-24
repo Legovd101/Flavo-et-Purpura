@@ -1,6 +1,6 @@
 # 2145 - Zhenjiang
-owner = RYU
-controller = RYU
+owner = QIN
+controller = QIN
 culture = jianghuai
 religion = confucianism
 capital = "Zhenjiang"
@@ -11,5 +11,5 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = RYU
+add_core = QIN
 hre = yes

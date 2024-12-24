@@ -1,6 +1,6 @@
 #1821 - Nanjing
-owner = RYU
-controller = RYU
+owner = QIN
+controller = QIN
 culture = jianghuai
 religion = confucianism
 capital = "Nanjing"
@@ -11,6 +11,6 @@ base_manpower = 3
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = RYU
+add_core = QIN
 fort_15th = yes
 hre = yes
