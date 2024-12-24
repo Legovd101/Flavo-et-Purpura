@@ -400,3 +400,46 @@ JAP_ideas = {
 		ae_impact = -0.15
 	}
 }
+
+CDL_ideas = {
+	start = {
+		tolerance_own = 1
+		land_forcelimit_modifier = 0.10
+	}
+	
+	bonus = {
+		diplomatic_upkeep = 1
+	}
+	
+	trigger = {
+		tag = CDL
+	}
+	free = yes
+	
+	CDL_buddhism = {
+		yearly_karma_decay = 0.005
+	}
+	CDL_Duainb = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+	}
+	CDL_marble_trade = {
+		merchants = 1
+	}
+	CDL_yunnan_hills = {
+		defensiveness = 0.10
+		morale_damage_received = -0.025
+	}
+	CDL_martial_tradition = {
+		discipline = 0.05
+	}
+	CDL_prosperity = {
+		global_prosperity_growth = 0.1
+		monthly_splendor = 1
+	}
+	CDL_diplomacy = {
+		diplomatic_reputation = 1
+	}
+}

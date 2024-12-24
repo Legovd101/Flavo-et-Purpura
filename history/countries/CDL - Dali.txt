@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = bai
+religion = buddhism
+technology_group = chinese
+capital = 661	# Dali
+1284.1.1 = { 
+	monarch = { 
+		name = "Qing"
+		dynasty = "Duainb"
+		birth_date = 1227.1.1
+		death_date = 1307.1.1
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	heir = { 
+		name = "Zheng"
+		dynasty = "Duainb"
+		birth_date = 1230.1.1
+		death_date = 1316.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
