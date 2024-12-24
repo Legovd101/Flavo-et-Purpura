@@ -1,0 +1,30 @@
+dablit_guaif_reform = {
+	icon = "religious_harmony_reform"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			primary_culture = bai
+			tag = CDL
+		}
+	}
+	trigger = {
+		OR = {
+			primary_culture = bai
+			tag = CDL
+		}
+	}
+	maintain_dynasty = yes
+	allow_force_tributary = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	modifiers = {
+		tolerance_own = 1
+		global_unrest = -1
+		yearly_karma_decay = 0.005
+	}
+	
+	ai = {
+		factor = 1000
+	}
+}
