@@ -1,0 +1,61 @@
+# Dablit/Dali Kingdom events
+namespace = dablit_flavor
+
+#abdicate to be monk?
+country_event = {
+	id = dablit_flavor.0
+	title = dablit_flavor.0.t
+	desc = dablit_flavor.0.d
+	picture = {	
+		picture = BUDDHA_eventPicture
+	}
+	
+	major = yes
+	
+	trigger = {
+		has_reform = dablit_guaif_reform
+		months_of_ruling = 60
+		NOT = { has_ruler_flag = dablit_ruler_continue_rule }
+		has_heir = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.9
+			months_of_ruling = 120
+		}
+		modifier = {
+			factor = 0.8
+			months_of_ruling = 180
+		}
+		modifier = {
+			factor = 0.7
+			months_of_ruling = 240
+		}
+		modifier = {
+			factor = 0.6
+			months_of_ruling = 300
+		}
+		modifier = {
+			factor = 0.5
+			months_of_ruling = 360
+		}
+	}
+
+	#abdicate to be monk
+	option = {
+		name = "dablit_flavor.0.a"
+		exile_heir_as = dablit_successor
+		set_ruler = dablit_successor
+	}
+
+	#continue rule
+	option = {
+		name = "dablit_flavor.0.b"
+		set_ruler_flag = dablit_ruler_continue_rule
+		add_prestige = -10
+	}
+}
+

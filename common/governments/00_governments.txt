@@ -131,6 +131,7 @@ monarchy = {
 				gothic_monarchy_reform
 				#FEP
 				blue_horde_reform
+				dablit_guaif_reform
 			}
 		}
 		hereditary_vs_nobility = {

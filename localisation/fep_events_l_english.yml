@@ -41,3 +41,9 @@
  varangian_flavor.0.t: "[returning_corps.GetName] Leave for Home!"
  varangian_flavor.0.d: "Due to a number of circumstances, the home of the [returning_corps.GetName] no longer agrees to leave their men in our service."
  varangian_flavor.0.a: "Blast!"
+
+ #Dablit/Dali events
+ dablit_flavor.0.t: "Monastic life"
+ dablit_flavor.0.d: "Many rulers before us has abdicated the throne in favour of a monastic life, with us having ruled for quite a while for now and our succession secured, a monastic lifestyle in the temples seems ever more tempting..."
+ dablit_flavor.0.a: "I shall abdicate in favour for my heir and become a monk"
+ dablit_flavor.0.b: "I shall rule till I leave this world"
