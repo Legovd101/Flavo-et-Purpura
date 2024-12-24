@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = exiled_yamato_court
 government_rank = 2
 primary_culture = japanese
 religion = shinto
@@ -7,7 +7,7 @@ technology_group = chinese
 capital = 1020	# Kyoto
 
 1260.1.1 = {
-	capital = 1026	# Rikuzen
+	capital = 1026	# Rikuzen (when we finally add Rikuchu, change it there, Hiraizumi is suppose to be there but Rikuchu and Mutsu got combined in eu4)
 }
 
 #Emperor Go-Fushimi
