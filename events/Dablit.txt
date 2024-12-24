@@ -14,7 +14,7 @@ country_event = {
 	
 	trigger = {
 		has_reform = dablit_guaif_reform
-		months_of_ruling = 60
+		months_of_ruling = 120
 		NOT = { has_ruler_flag = dablit_ruler_continue_rule }
 		has_heir = yes
 		heir_age = 15
@@ -24,28 +24,36 @@ country_event = {
 		months = 120
 		
 		modifier = {
-			factor = 0.9
+			factor = 0.95
 			months_of_ruling = 120
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.90
 			months_of_ruling = 180
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.85
 			months_of_ruling = 240
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.80
 			months_of_ruling = 300
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.75
 			months_of_ruling = 360
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.70
 			ruler_age = 50
+		}
+		modifier = {
+			factor = 0.65
+			ruler_age = 60
+		}
+		modifier = {
+			factor = 0.50
+			ruler_age = 70
 		}
 	}
 
