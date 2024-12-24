@@ -7,3 +7,18 @@ dablit_ruler_dip = {
 excalibur_of_the_six_veins = {
 	monarch_military_power = 1
 }
+CDL_prosperity = {
+	local_build_cost = -0.20
+	local_development_cost = -0.1
+}
+CDL_buddhism_reward = {
+	tolerance_own = 1
+	local_unrest = -1
+}
+CDL_dablit_growth = {
+	local_prosperity_growth = 0.1
+	province_trade_power_modifier = 0.1
+	local_development_cost = -0.1
+	build_cost = -0.1
+	local_institution_spread = 0.1
+}

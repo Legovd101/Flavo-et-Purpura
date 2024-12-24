@@ -5,7 +5,40 @@ dablit_slot_1 = {
 	potential = {
 		tag = CDL
 	}
-
+	
+    CDL_dali_city = {
+        icon = mission_chinese_general_riding
+        position = 2
+        completed_by = 9999.12.31
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+            CDL_prospering
+        }
+        
+        provinces_to_highlight = {
+			province_id = 661
+        }
+    
+        trigger = {
+			661 = {
+				num_of_times_improved_by_owner = 10
+				num_of_buildings_in_province = 3
+				NOT = { devastation = 1 }
+			}
+        }
+        
+        effect = {
+			661 = {
+				add_center_of_trade_level = 1
+				add_random_development = 1
+				add_province_modifier = {
+					name = "CDL_dablit_growth"
+					duration = 3650
+				}
+			}
+        }
+    }
 }
 
 dablit_slot_2 = {
@@ -45,7 +78,24 @@ dablit_slot_2 = {
 		}
 
 		effect = {
-
+			yun_gui_area = {
+				add_province_modifier = {
+					name = "CDL_prosperity"
+					duration = 3650
+				}
+			}
+			yun_gui_borderland_area = {
+				add_province_modifier = {
+					name = "CDL_prosperity"
+					duration = 3650
+				}
+			}
+			chuannan_area = {
+				add_province_modifier = {
+					name = "CDL_prosperity"
+					duration = 3650
+				}
+			}
         }
 	}
 }
@@ -67,7 +117,32 @@ dablit_slot_4 = {
 	potential = {
 		tag = CDL
 	}
+	
+	CDL_buddhism_mission = {
+    	icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
 
+		provinces_to_highlight = {
+			owner = ROOT
+			NOT = {
+				religion = buddhism
+				religion = vajrayana
+				religion = mahayana
+			}
+		}
+
+		trigger = {
+			religious_unity = 1.00
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_buddhism_reward"
+				duration = 3650
+			}
+        }
+	}
 }
 
 dablit_slot_5 = {
