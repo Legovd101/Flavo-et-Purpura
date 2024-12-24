@@ -27,13 +27,6 @@ exiled_yamato_court = {
 	lock_level_when_selected = yes
 	can_change_primary_culture = no
 
-	conditional = {
-		allow = { has_dlc = "Mandate of Heaven" }
-		government_abilities = {
-			shogunate_mechanic
-		}
-	}
-
 	modifiers = {
 		diplomats = 1
 		envoy_travel_time = -0.25
@@ -67,13 +60,6 @@ yamato_court = {
 	allow_vassal_alliance = yes
 	lock_level_when_selected = yes
 	can_change_primary_culture = no
-
-	conditional = {
-		allow = { has_dlc = "Mandate of Heaven" }
-		government_abilities = {
-			shogunate_mechanic
-		}
-	}
 
 	modifiers = {
 		diplomats = 1
