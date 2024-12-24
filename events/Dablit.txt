@@ -66,6 +66,7 @@ country_event = {
 				value = 1
 			}
 		}
+		desc = CDL_abdication_tooltip
 	}
 
 	#continue rule

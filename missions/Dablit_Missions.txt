@@ -402,9 +402,7 @@ dablit_slot_4 = {
         completed_by = 9999.12.31
         
         # Which missions must be completed before this mission is active.
-        required_missions = {
-            dablit_slot_4
-        }
+        required_missions = { CDL_buddhism_mission }
         
         provinces_to_highlight = {
 			OR = {
@@ -477,7 +475,7 @@ dablit_slot_5 = {
 	CDL_pious_rulers = {
     	icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = {  }
+		required_missions = { CDL_buddhism_mission }
 
 		provinces_to_highlight = {
 			
@@ -488,6 +486,7 @@ dablit_slot_5 = {
 				which = CDLAbdicationCount
 				value = 5
 			}
+			desc = CDL_5_abdication_tooltip
 		}
 
 		effect = {

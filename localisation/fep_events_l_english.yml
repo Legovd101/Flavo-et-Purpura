@@ -51,3 +51,4 @@
  dablit_flavor.1.d: "The city of Sit Zaind was founded during the Nanzhao period as a secondary city the the Yunnan region. With recent growth of the city into another regional centre, there has been suggestions to move our capital there."
  dablit_flavor.1.a: "$CAPITAL_CITY$ is fine"
  dablit_flavor.1.b: "It does seem like a nice city"
+ CDL_abdication_tooltip: "$MONARCH$ Abdicates the throne to live a monastic lifestyle"
