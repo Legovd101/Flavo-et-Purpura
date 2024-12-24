@@ -538,7 +538,7 @@ dablit_slot_5 = {
 		required_missions = { CDL_buddhism_mission }
 
 		provinces_to_highlight = {
-			
+			CDL_pious_rulers
 		}
 
 		trigger = {
