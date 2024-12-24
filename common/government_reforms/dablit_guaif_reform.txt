@@ -17,6 +17,7 @@ dablit_guaif_reform = {
 	allow_force_tributary = no
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	lock_level_when_selected = yes 
 
 	modifiers = {
 		tolerance_own = 1
