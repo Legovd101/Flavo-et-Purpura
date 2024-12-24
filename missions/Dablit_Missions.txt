@@ -1,0 +1,23 @@
+dablit_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = CDL
+	}
+
+	placeholder1 = {
+    	icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			
+		}
+		effect = {
+
+        }
+	}
+}

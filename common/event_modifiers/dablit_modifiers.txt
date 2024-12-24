@@ -1,0 +1,9 @@
+dablit_ruler_adm = {
+	monarch_admin_power = 1
+}
+dablit_ruler_dip = {
+	monarch_diplomatic_power = 1
+}
+excalibur_of_the_six_veins = {
+	monarch_military_power = 1
+}
