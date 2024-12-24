@@ -118,10 +118,11 @@ dablit_slot_4 = {
 		tag = CDL
 	}
 	
-	CDL_buddhism = {
+	CDL_buddhism_mission = {
     	icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
+
 		provinces_to_highlight = {
 			owner = ROOT
 			NOT = {
