@@ -482,11 +482,13 @@ dablit_slot_5 = {
 		}
 
 		trigger = {
-			check_variable = {
-				which = CDLAbdicationCount
-				value = 5
+			custom_trigger_tooltip = {
+				tooltip = CDL_5_abdication_tooltip.tooltip
+				check_variable = {
+					which = CDLAbdicationCount
+					value = 5
+				}
 			}
-			desc = CDL_5_abdication_tooltip
 		}
 
 		effect = {
