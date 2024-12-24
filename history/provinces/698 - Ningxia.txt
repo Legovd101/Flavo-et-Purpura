@@ -1,7 +1,7 @@
 #698 - Guyuan
 owner = SIN
 controller = SIN
-culture = mongol
+culture = tangut
 religion = nestorian
 capital = "Ningxia"
 trade_goods = salt
