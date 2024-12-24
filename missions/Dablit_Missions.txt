@@ -124,7 +124,7 @@ dablit_slot_4 = {
 		required_missions = {  }
 
 		provinces_to_highlight = {
-			owner = ROOT
+			owned_by = ROOT
 			NOT = {
 				religion = buddhism
 				religion = vajrayana
