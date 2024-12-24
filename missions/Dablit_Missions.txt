@@ -286,12 +286,16 @@ dablit_slot_2 = {
 						has_building = furnace
 					}
 					OR = {
-						area = taiwan_area
-						area = north_taiwan_area
+						area = yun_gui_area
+						area = yun_gui_borderland_area
+						area = chuannan_area
 					}
 				}
 				amount = 8
 			}
+        }
+        
+        effect = {
 			yun_gui_area = {
 				add_province_modifier = {
 					name = "CDL_industrialised"
@@ -307,21 +311,6 @@ dablit_slot_2 = {
 			chuannan_area = {
 				add_province_modifier = {
 					name = "CDL_industrialised"
-					duration = -1
-				}
-			}
-        }
-        
-        effect = {
-			taiwan_area = {
-				add_province_modifier = {
-					name = "FRM_taiwan_industrialised"
-					duration = -1
-				}
-			}
-			north_taiwan_area = {
-				add_province_modifier = {
-					name = "FRM_taiwan_industrialised"
 					duration = -1
 				}
 			}
