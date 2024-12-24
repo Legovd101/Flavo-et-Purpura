@@ -132,6 +132,8 @@ monarchy = {
 				#FEP
 				blue_horde_reform
 				dablit_guaif_reform
+				exiled_yamato_court
+				yamato_court
 			}
 		}
 		hereditary_vs_nobility = {

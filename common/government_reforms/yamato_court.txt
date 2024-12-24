@@ -40,6 +40,7 @@ exiled_yamato_court = {
 		max_absolutism = 10
 		amount_of_samurai = 10
 		has_samurai = yes
+		prestige = -0.5
 	}
 
 	custom_attributes = {
