@@ -6,18 +6,76 @@ dablit_slot_1 = {
 		tag = CDL
 	}
 
-	placeholder1 = {
+}
+
+dablit_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = CDL
+	}
+
+	CDL_prospering = {
     	icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
 		provinces_to_highlight = {
-			
+			OR = {
+				area = yun_gui_area
+				area = yun_gui_borderland_area
+				area = chuannan_area
+			}
 		}
+
 		trigger = {
-			
+			yun_gui_area = {
+				type = all
+				is_prosperous = yes
+				NOT = { unrest = 1 }
+			}
+			yun_gui_borderland_area = {
+				type = all
+				is_prosperous = yes
+			}
+			chuannan_area = {
+				type = all
+				is_prosperous = yes
+			}
 		}
+
 		effect = {
 
         }
 	}
+}
+
+dablit_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = CDL
+	}
+
+}
+
+dablit_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = CDL
+	}
+
+}
+
+dablit_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = CDL
+	}
+	
 }
