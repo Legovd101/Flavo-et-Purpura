@@ -118,6 +118,7 @@ country_event = {
 	picture = {	picture = BUDDHA_eventPicture }
 	major = yes
 	fire_only_once = yes
+	hidden = yes
 	
 	trigger = {
 		is_year = 1300
@@ -134,6 +135,48 @@ country_event = {
 	#old capital
 	option = {
 		name = "dablit_flavor.2.a"
+	}
+}
+
+#extra mana mission
+country_event = {
+	id = dablit_flavor.3
+	title = dablit_flavor.3.t
+	desc = dablit_flavor.3.d
+	picture = {	picture = BUDDHA_eventPicture }
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		
+	}
+
+	#adm
+	option = {
+		name = "dablit_flavor.3.a"
+		add_country_modifier = {
+			name = "dablit_ruler_adm"
+			duration = -1
+		}
+	}
+
+	#dip
+	option = {
+		name = "dablit_flavor.3.b"
+		add_country_modifier = {
+			name = "dablit_ruler_dip"
+			duration = -1
+		}
+	}
+
+	#mil
+	option = {
+		name = "dablit_flavor.3.c"
+		add_country_modifier = {
+			name = "dablit_ruler_mil"
+			duration = -1
+		}
 	}
 }
 

@@ -462,6 +462,39 @@ dablit_slot_4 = {
 			}
         }
     }
+	
+    CDL_library = {
+        icon = mission_chinese_general_riding
+        position = 2
+        completed_by = 9999.12.31
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+            CDL_educated CDL_temples CDL_pious_rulers
+        }
+        
+        provinces_to_highlight = {
+			
+        }
+    
+		trigger = {
+			if = {
+				limit = {
+					has_dlc = "Rule Britannia"
+				}
+				innovativeness = 20
+			}
+			else = {
+				full_idea_group = innovativeness_ideas
+			}
+		}
+        
+        effect = {
+			country_event = { 
+				id = dablit_flavor.3
+			}
+        }
+    }
 }
 
 dablit_slot_5 = {
@@ -499,4 +532,167 @@ dablit_slot_5 = {
         }
 	}
 	
+	CDL_buddhist_court = {
+    	icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { CDL_buddhism_mission }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			OR = {
+				employed_advisor = {
+					religion = buddhism
+					type = theologian
+					skill = 3
+				}
+				employed_advisor = {
+					religion = buddhism
+					type = inquisitor
+					skill = 3
+				}
+				employed_advisor = {
+					religion = vajrayana
+					type = theologian
+					skill = 3
+				}
+				employed_advisor = {
+					religion = vajrayana
+					type = inquisitor
+					skill = 3
+				}
+				employed_advisor = {
+					religion = mahayana
+					type = theologian
+					skill = 3
+				}
+				employed_advisor = {
+					religion = mahayana
+					type = inquisitor
+					skill = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_pious_court"
+				duration = 3650
+			}
+        }
+	}
+	
+
+dablit_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = CDL
+	}
+	
+	CDL_pious_rulers = {
+    	icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { CDL_buddhism_mission }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = CDL_5_abdication_tooltip.tooltip
+				check_variable = {
+					which = CDLAbdicationCount
+					value = 5
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_pious_rulers_reward"
+				duration = 3650
+			}
+        }
+	}
+	
+	CDL_buddhist_court = {
+    	icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { CDL_pious_rulers }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			OR = {
+				employed_advisor = {
+					religion = buddhism
+					type = theologian
+					skill = 3
+				}
+				employed_advisor = {
+					religion = buddhism
+					type = inquisitor
+					skill = 3
+				}
+				employed_advisor = {
+					religion = vajrayana
+					type = theologian
+					skill = 3
+				}
+				employed_advisor = {
+					religion = vajrayana
+					type = inquisitor
+					skill = 3
+				}
+				employed_advisor = {
+					religion = mahayana
+					type = theologian
+					skill = 3
+				}
+				employed_advisor = {
+					religion = mahayana
+					type = inquisitor
+					skill = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_pious_court"
+				duration = 3650
+			}
+        }
+	}
+	
+	CDL_enlightened_kingdom = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_buddhist_court }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			has_institution = enlightenment
+			every_owned_province = {
+				enlightenment = 100
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_enlightened"
+				duration = 3650
+			}
+        }
+	}
 }

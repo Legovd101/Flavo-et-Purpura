@@ -52,3 +52,8 @@
  dablit_flavor.1.a: "$CAPITAL_CITY$ is fine"
  dablit_flavor.1.b: "It does seem like a nice city"
  CDL_abdication_tooltip: "$MONARCH$ Abdicates the throne to live a monastic lifestyle"
+ dablit_flavor.3.t: "Royal Library of Dablit"
+ dablit_flavor.3.d: "With the founding of our library, we need to start accumulating literatures. What kind of literatures should we focus on collecting?"
+ dablit_flavor.3.a: "We should collect literature on Philosophies"
+ dablit_flavor.3.b: "We should collect Epic Poetry"
+ dablit_flavor.3.c: "We should collect Martial Arts guides"

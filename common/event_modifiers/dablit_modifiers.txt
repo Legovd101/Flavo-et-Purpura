@@ -1,11 +1,16 @@
 dablit_ruler_adm = {
 	monarch_admin_power = 1
+	yearly_karma_decay = 0.05
+	tolerance_own = 1
 }
 dablit_ruler_dip = {
 	monarch_diplomatic_power = 1
+	monthly_splendor = 1
+	prestige = 1
 }
-excalibur_of_the_six_veins = {
+dablit_ruler_mil = {
 	monarch_military_power = 1
+	leader_fire = 1
 }
 CDL_prosperity = {
 	local_build_cost = -0.20
@@ -38,6 +43,7 @@ CDL_university = {
 	idea_cost = -0.1
 	technology_cost = -0.1
 	meritocracy = 1
+	monarch_lifespan = 0.1
 }
 CDL_temples_built = {
 	tolerance_own = 1
@@ -47,4 +53,13 @@ CDL_pious_rulers_reward = {
 	church_loyalty_modifier = 0.1
 	tolerance_own = 1
 	global_unrest = -1
+}
+CDL_pious_court = {
+	institution_spread_from_true_faith = 0.1
+	prestige = 0.5
+	yearly_karma_decay = 0.0125
+}
+CDL_enlightened = {
+	global_unrest = -1
+	idea_cost = -0.1
 }
