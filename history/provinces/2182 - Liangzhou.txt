@@ -1,7 +1,7 @@
 # 2182 - Liangzhou
 owner = CHH
 controller = CHH
-culture = xibei
+culture = oirats
 religion = nestorian
 capital = "Liangzhou"
 trade_goods = livestock

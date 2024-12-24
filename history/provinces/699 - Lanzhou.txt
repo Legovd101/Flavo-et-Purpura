@@ -1,7 +1,7 @@
 #699 - Lanzhou
 owner = SIN
 controller = SIN
-culture = xibei
+culture = tangut
 religion = nestorian
 capital = "Lanzhou"
 trade_goods = grain

@@ -1,7 +1,7 @@
 #708 - Gansu
 owner = CHH
 controller = CHH
-culture = xibei
+culture = oirats
 religion = nestorian
 capital = "Zhangye"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 # 2181 - Pingliang
 owner = SIN
 controller = SIN
-culture = xibei
+culture = tangut
 religion = nestorian
 capital = "Pingliang"
 trade_goods = livestock

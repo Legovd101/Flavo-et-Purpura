@@ -1,7 +1,7 @@
 # 2170 - Tianshui
 owner = SIN
 controller = SIN
-culture = xibei
+culture = tangut
 religion = nestorian
 capital = "Tianshui"
 trade_goods = grain

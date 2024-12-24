@@ -1,7 +1,7 @@
 # 2184 - Xining
 owner = SIN
 controller = SIN
-culture = xibei
+culture = tibetan
 religion = nestorian
 capital = "Xining"
 trade_goods = salt
