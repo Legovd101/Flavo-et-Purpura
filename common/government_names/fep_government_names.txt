@@ -1,0 +1,40 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_yamato = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		3 = TENNO
+	}
+	
+	ruler_female = {
+		3 = TENNO
+	}
+	consort_male = {
+		3 = LORD
+	}
+
+	consort_female = {
+		3 = LADY
+	}
+
+	heir_male = {
+		3 = HEIR
+	}
+
+	heir_female = {
+		3 = HEIR_fem
+	}
+	
+	trigger = {
+		OR = {
+			has_reform = exiled_yamato_court
+			has_reform = yamato_court
+		}
+	}
+}
