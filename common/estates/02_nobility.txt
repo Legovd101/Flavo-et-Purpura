@@ -520,7 +520,9 @@ estate_nobles = {
 		estate_nobles_four_class_system
 		estate_nobles_hungarian_nobility_privileges
 		estate_nobles_austrian_nobility_privileges
-		DAN_triducal_monarchy
+		# FEP
+		estate_nobles_triducal_monarchy
+		estate_nobles_anglish_nobility
 	}
 
 	agendas = {
