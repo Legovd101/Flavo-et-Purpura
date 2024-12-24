@@ -110,47 +110,47 @@ assyrian = {
 		Bawa Helo Timur Ahmad Soleiman Sobhanverdi Khosrow Bozorg Hosayn Aman-Allah Faqi Ahmad Mohammad 
 		Khalid Nawaub Salim Abdolla Mahmoud Ibrahim Abdurrahman Kulos Isa Mir Saifeddin Saidi Budak
 		Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
-		Behrad Behram Bahram Behrouz BextÃ®yar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir 
-		CehanÅ¡ah Jahanshah CemÅ¡Ã®d Jamshid Cevid Javeed DanÃ»Å¡ Danush Darab DaryÃ»Å¡ Darius Davud David 
-		Ebrahim Abraham Efrasiyab Afrasiyab EfÅ¡er Afshar Ehmed Ahmad Ehsan Ekber Akbar ElÃ® Ali 
-		EnÃ»Å¡irwan Anushirvan Erdehan Ardahan Erdewan Ardavan ErdeÅ¡Ã®r Ardeshir Esfendiyar Esfandiar 
-		Eskander Alexander EÅ¡ot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
-		Ferhan Farhan Ferheng Farhang Feriburz Fariborz FerÃ®d Farid FerÃ®dun Feridun Ferux Farroukh 
+		Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir 
+		Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+		Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Ekber Akbar Elî Ali 
+		Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir Esfendiyar Esfandiar 
+		Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+		Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid Ferîdun Feridun Ferux Farroukh 
 		Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun Firdews Ferdows Ghobad Gholam Godarz 
-		GoÅ¡tasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat Hesen Hasan HisÃªn Hussein Hormoz Hosen 
-		Hossein Humayun Hurmiz Hormazd ÃsmaÃ®l Ismail Kambiz Kamran Keyghobad Keyxusrew Keykhosrau KÃ¢vus 
-		Kavoos KÃ»ruÅ¡Ãª Cyrus Mamlan Muhammad Mashad MehmÃ»d Mahmud Mehrab Mehrzad MensÃ»r Mansur MenÃ»Ã§ihr 
-		Manuchihr MenÃ»Å¡ihr Manushihr Merwan Marwan Merzuban Marzuban MesÃ»d Masud Mihemed Muhammad MÃ®rza 
+		Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat Hesen Hasan Hisên Hussein Hormoz Hosen 
+		Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz Kamran Keyghobad Keyxusrew Keykhosrau Kâvus 
+		Kavoos Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+		Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud Mihemed Muhammad Mîrza 
 		Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid Nesir Nazir Nesr Nasr 
-		Nezam NoÅ¡Ã®rwan Nawshirwan NÃªÃ§Ã®rvan Nechirwan Parviz Pujman PÃªÅ¡eng Pashang PÃ®roz Peroz Revend 
+		Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz Revend 
 		Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb Vahhab 
-		Vahid Vahusdan Wahustan Vali VarÅ¡asp Varshasb VÃ®Å¡tap Vishtasb Xarmandar Kharmandar XaÅ¡ayar 
-		Khashayar XurÅ¡Ã®d Khurshid Xusrew Khosrau XuÅ¡yar Hooshyar Xwedadad Khodadad Xwedayar Khudayar 
-		YezÃ®d Yazid Yousef Zahak Zakaria Zand ZerdeÅ¡t Zartosht Zia Å adÃ® Shadhi Å ahab Shahab Å ahbaz 
-		Shahbaz Å ahenÅ¡ah Shahanshah Å ahin Shahin Å ahram Shahram Å ahryar Shahryar Å ahrux Shahrokh Å ahruz 
-		Shahruz Å apur Shapur Å arvin Sharwin Å awur Shavur Å ayan Shayan Å Ã®rkÃ»h Shirkuh
+		Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar Xašayar 
+		Khashayar Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar 
+		Yezîd Yazid Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia Šadî Shadhi Šahab Shahab Šahbaz 
+		Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar Shahryar Šahrux Shahrokh Šahruz 
+		Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan Šîrkûh Shirkuh
 	}
 	female_names = {
-		Adan Adar Ara Ardil Arezo Arezu Ariyan ArÃªz ArÃ®man ArÃ®n Asan Asteng AsÃª Avan AzadÃ® AzrÃ®n AÅ¡tÃ® 
-		Badil Bahar BalnexÅ¡Ã®n BanÃª BarÃ®n Bawan Baziyan BazÃª Befraw BefrÃ®n BegÃ®xan BelalÃ»k Belqis 
-		BelÃ®can Benav Benaz BerbijÃ®n Berdar Berdil BersÃ®n BerÃ®can BexÅ¡Ã®n Beyan BeybÃ®n BeybÃ»n BezÃ®n 
-		Bihar BijÃ®n BilÃªse Binar Binav BinefÅ¡ BinevÅ¡ Biyan BiÅ¡koj BiÅ¡kurÃ®n Bohar BÃªnaz BÃªrÃ®can BÃªrÃ®van 
-		Burandoxt Pourandokht DengÃ®n Derav DerzÃ®n Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber 
-		Dilcan Dildar Dilgerm Dilistan DilkanÃ® Dilnaz DilvÃ®n DilxoÅ¡ DilxweÅ¡ DiyarÃ® Doman DÃªrsim DÃ®lan 
-		DÃ®ristan Esmercan Esmerxan EstÃªre EvÃ®n EwrÃ®n EyÅ¡an Ezcan Felek Fener FeraÅ¡Ã®n FirmÃªsk FÃ®dan 
-		GazÃ® GelavÃªj Gerdengaz Gozel GozÃª GrÃ®van Guhtem Gulbehar Golbahar GulÅ¡en Gulnar Gulnaz Golnaz 
-		GÃªlas Helez Heliz HelvÃ®n HemayÃ®l KejÃª Keser Kevok KevÃ® Kewser KezÃ®zer KoÃ§er LeylÃª LeymÃ®n LezÃ®n 
-		Lolav LorkÃª LorÃ® LorÃ®can LorÃ®n LÃªlav LÃªvken LÃ®lyan LÃ®za MaÅ¡a Mebest MehrÃ®ban MehrÃ®can MehrÃ®van 
-		MejbÃ®r Mendal Mercam MerÃ®van MirarÃ®xan Miryem Mariam MizgÃ®n Muhabad MÃªmÃª MÃªrdÃ®n MÃªxek MÃ®dya 
-		MÃ®ran NarÃ®man NarÃ®ncan Navbihar NawxoÅ¡ Naz Nazdar NazenÃ®n Nazgul Nazgol Nazik Naznaz NazÃª NermÃª 
-		NermÃ®n NesrÃ®n Newbohar NexÅ¡Ã®n NeÅ¡mÃ®l NeÅ¡mÃ®n Norcan NÃªrgiz NÃªrÃ®n NÃªzÃ®k NÃ®dar NÃ®gar NÃ®roj NÃ®Å¡an 
-		NÃ®Å¡tÃ®man PerjÃ®n PervÃ®n Perwane Parvaneh PerwÃ®n PerÃ§em PerÃ® PerÃ®gul PerÃ®naz PerÃ®xan PerÃ®Å¡an 
-		PexÅ¡an Peyman PirjÃ®n PirÅ¡eng PirÅ¡ing Pore PorÅ¡eng PÃªlÃ®n PÃ®roz PÃ®Å¡eng Rana RengÃ®n RewÅ¡a RewÅ¡en 
-		Rihan RindÃª Rojhelat RojÃª RonahÃ® Ronak Rondik RÃªjÃ®n RÃªzan RÃ®han RÃ®ken RÃ»ciwan RÃ»geÅ¡ RÃ»ken 
-		RÃ»zerÃ®n SarÃª Serbar Sercan Serferaz Serfiraz Sergul SerÃ§inar Seyran XatÃ»n XÃªlÃ®can XonÃ§e 
-		Ghoncheh ZernÃ®Å¡an Zerya ZerÃª ZerÃ® ZerÃ®xan ZeytÃ®n ZeytÃ»n ZilfÃª Zoya Zozan ZÃªrÃ®n ZÃ®lan ZÃ®net ZÃ®nÃª 
-		Å ana Å anaz Å ayan Å ehrÃ®ban Å elal Å emam Å engÃª Å epal Å epirze Å ermÃ®n Å evba Å evÃ®n Å Ãªlaz Å Ã®lan Å Ã®nÃ® 
-		Å Ã®wen Atiya
+		Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+		Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis 
+		Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+		Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+		Burandoxt Pourandokht Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber 
+		Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan 
+		Dîristan Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan 
+		Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz 
+		Gêlas Helez Heliz Helvîn Hemayîl Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn 
+		Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan 
+		Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+		Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+		Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan 
+		Nîštîman Perjîn Pervîn Perwane Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan 
+		Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng Rana Rengîn Rewša Rewšen 
+		Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken 
+		Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn Xêlîcan Xonçe 
+		Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+		Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî 
+		Šîwen Atiya
 	}
 
 }

@@ -38,11 +38,11 @@ mauri = {
 		Umaler Zawgha Zeghiga Zira
 	}
 	dynasty_names = {
-		Aatabou Abrika Abusahmain Afellay AlMarrakchi A√Øt A√Øtbrahim Amentague Ameziane Amirouche
-		Amrouche Assaidi Assala Atiqui Ayour Azem Azergui Belaid Belkacem ben "M'Hidi" Benboula√Ød Bensaddek 
-		Bessaoud Bouatoura Bouglas Boulahrouz Boumedienne Bourog√¢a Boussouf Boutmazought Bouziane
+		Aatabou Abrika Abusahmain Afellay AlMarrakchi AÔt AÔtbrahim Amentague Ameziane Amirouche
+		Amrouche Assaidi Assala Atiqui Ayour Azem Azergui Belaid Belkacem ben "M'Hidi" BenboulaÔd Bensaddek 
+		Bessaoud Bouatoura Bouglas Boulahrouz Boumedienne Bourog‚a Boussouf Boutmazought Bouziane
 		Chafik Chaker Chamkh Chaoui Chouhad Choukri Dahmani Demciri Demsiri Djaout "el Djermouni" "el Hasnaoui"
-		Enn Feraoun Hadda Hadji Halo Hamouda Haou√®s Ihihi Izem Izri Jlassi Kazti "Kha√Ør-Eddine" Khedam
+		Enn Feraoun Hadda Hadji Halo Hamouda HaouËs Ihihi Izem Izri Jlassi Kazti "KhaÔr-Eddine" Khedam
 		Labyad Lahcen Leghrour Lmrabet Madjer Mahrez Mammeri Massi Mbarek Menguellet Mezaguer Meziane Meziani
 		Mokhtari Mokrani Mouloudji Mourad "Mua'amar" "n'Soumer" Onzar Othmani Ouaaki Ouaddou Ouali Oualline
 		Oubjna Ouettar Ouyahia Radjef Raghibou Ramdane Rouicha Sadi Said Sawajiri Slimani Taarabt Tabaamrant
