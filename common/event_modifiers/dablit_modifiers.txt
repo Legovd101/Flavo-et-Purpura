@@ -34,3 +34,17 @@ CDL_industrialised = {
 	trade_goods_size_modifier = 0.5
 	province_trade_power_modifier = 0.1
 }
+CDL_university = {
+	idea_cost = -0.1
+	technology_cost = -0.1
+	meritocracy = 1
+}
+CDL_temples_built = {
+	tolerance_own = 1
+	yearly_karma_decay = 0.0125
+}
+CDL_pious_rulers_reward = {
+	church_loyalty_modifier = 0.1
+	tolerance_own = 1
+	global_unrest = -1
+}

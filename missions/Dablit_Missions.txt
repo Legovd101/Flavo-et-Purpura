@@ -325,7 +325,41 @@ dablit_slot_3 = {
 	potential = {
 		tag = CDL
 	}
-
+	
+    CDL_educated = {
+        icon = mission_chinese_general_riding
+        position = 2
+        completed_by = 9999.12.31
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+            CDL_prospering CDL_buddhism_mission
+        }
+        
+        provinces_to_highlight = {
+			OR = {
+				area = yun_gui_area
+				area = yun_gui_borderland_area
+				area = chuannan_area
+			}
+        }
+    
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					has_building = university
+				}
+				amount = 8
+			}
+		}
+        
+        effect = {
+			add_country_modifier = {
+				name = "CDL_university"
+				duration = -1
+			}
+        }
+    }
 }
 
 dablit_slot_4 = {
@@ -361,6 +395,75 @@ dablit_slot_4 = {
 			}
         }
 	}
+	
+    CDL_temples = {
+        icon = mission_chinese_general_riding
+        position = 2
+        completed_by = 9999.12.31
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+            dablit_slot_4
+        }
+        
+        provinces_to_highlight = {
+			OR = {
+				area = yun_gui_area
+				province_id = 662
+				province_id = 663
+				province_id = 675
+			}
+        }
+    
+        trigger = {
+			yun_gui_area = {
+				type = all
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			662 = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			663 = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			675 = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+        }
+        
+        effect = {
+			yun_gui_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			yun_gui_borderland_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			chuannan_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+        }
+    }
 }
 
 dablit_slot_5 = {
@@ -369,6 +472,30 @@ dablit_slot_5 = {
 	ai = yes
 	potential = {
 		tag = CDL
+	}
+	
+	CDL_pious_rulers = {
+    	icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = {  }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			check_variable = {
+				which = CDLAbdicationCount
+				value = 5
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_pious_rulers_reward"
+				duration = 3650
+			}
+        }
 	}
 	
 }
