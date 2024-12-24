@@ -1,7 +1,7 @@
 #4529 - Iasi
 owner = KIE
 controller = KIE
-culture = hungarian
+culture = magyar
 religion = orthodox
 capital = "Iasi"
 trade_goods = wine

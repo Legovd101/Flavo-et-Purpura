@@ -1,7 +1,7 @@
 #309 - Olonets
 owner = FIN
 controller = FIN
-culture = karelian
+culture = karel
 religion = arianism
 base_tax = 3
 base_production = 3

@@ -1,7 +1,7 @@
 #4269 - Al Wajh
 owner = ANZ
 controller = ANZ
-culture = ghassanid
+culture = nabatean
 religion = orthodox
 capital = "Al Wajh"
 trade_goods = fish

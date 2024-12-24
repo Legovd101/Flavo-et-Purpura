@@ -2,7 +2,7 @@
 owner = SMI
 controller = SMI
 add_core = SMI
-culture = sapmi
+culture = davvisami
 religion = finnish_pagan
 base_tax = 1
 base_production = 1

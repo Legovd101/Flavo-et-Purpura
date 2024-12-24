@@ -1,7 +1,7 @@
 #380 - Al Karak
 owner = LKH
 controller = LKH
-culture = ghassanid
+culture = nabatean
 religion = orthodox
 capital = "Al Karak"
 trade_goods = grain

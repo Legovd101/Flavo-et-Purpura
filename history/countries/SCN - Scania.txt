@@ -2,6 +2,17 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = geatish
+add_core = SCN
 religion = arianism
 technology_group = western
 capital = 6	# Lund
+1270.12.24 = { 
+	monarch = { 
+		name = "Stenkil"
+		dynasty = "Ålfilas"
+		birth_date = 1269.4.5
+		adm = 2
+		dip = 3
+		mil = 6
+	}
+}

@@ -1,7 +1,7 @@
 #4270 - Azraq
 owner = LKH
 controller = LKH
-culture = ghassanid
+culture = nabatean
 religion = orthodox
 capital = "Al Azraq"
 trade_goods = livestock

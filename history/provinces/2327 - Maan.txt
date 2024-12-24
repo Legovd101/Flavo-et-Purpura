@@ -1,7 +1,7 @@
 #2327 - Maan
 owner = ANZ
 controller = ANZ
-culture = ghassanid
+culture = nabatean
 religion = orthodox
 capital = "Maan"
 trade_goods = livestock

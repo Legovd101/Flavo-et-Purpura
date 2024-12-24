@@ -2,7 +2,7 @@
 owner = NOV
 controller = NOV
 add_core = NOV
-culture = karelian
+culture = savonian
 religion = arianism
 base_tax = 3
 base_production = 3

@@ -1,7 +1,7 @@
 #4258 - Onega
 owner = NOV
 controller = NOV
-culture = karelian
+culture = karel
 religion = orthodox
 base_tax = 1
 base_production = 1

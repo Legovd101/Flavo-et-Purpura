@@ -1,7 +1,7 @@
 #4172 - Jawf
 owner = ANZ
 controller = ANZ
-culture = ghassanid
+culture = nabatean
 religion = orthodox
 capital = "Karah"
 trade_goods = livestock

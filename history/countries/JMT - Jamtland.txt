@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = peasants_republic
+primary_culture = norwegian
+add_accepted_culture = aarjelsami
+religion = arianism
+technology_group = western
+historical_friend = NOR
+capital = 17 #Akershus
+government_rank = 2

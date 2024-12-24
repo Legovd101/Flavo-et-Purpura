@@ -5,3 +5,14 @@ primary_culture = danish
 religion = arianism
 technology_group = western
 capital = 4149	# Kolding
+1270.12.24 = { 
+	monarch = { 
+		name = "Ælfwine"
+		dynasty = "Eastengla"
+		birth_date = 1269.4.5
+		adm = 2
+		dip = 3
+		mil = 6
+		culture = angle
+	}
+}

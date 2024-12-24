@@ -1,7 +1,7 @@
 #313 - Soroka
 owner = FIN
 controller = FIN
-culture = finnish
+culture = karel
 religion = finnish_pagan
 base_tax = 1
 base_production = 2

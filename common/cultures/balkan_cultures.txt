@@ -100,4 +100,18 @@ west_turkic = {
 	female_names = {
 		Chichek Chichäk Tzitzak Khatun Parsbit Barsbek Serakh Serah			
 	}
+	avar = {
+		primary = AVR
+		dynasty_names = {
+			Shamkhal Kumukh
+		}
+		male_names = {
+			Surkhay Eldar Budai Alibek Aidemer Magomed Hassan Khalil Bahram Farrukhsiyar Ghazi Farrukhsiyar Mahmud Ghazi
+		}
+		female_names = {
+			Elisu Gulandash Aamnat Ajmaani Ajsyat Ajza Ajzan Albiika Albiina Amiina Asma Asyat Azman Aznii Beliita Bilquis 
+			Busana Dagman Dagmani Dagmara Deshi Dikman Duqyaakha Eliina Eliita Eliiza Esiila Havaa Kamiila Kamiisa Kariina 
+			
+		}
+	}
 }

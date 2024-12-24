@@ -1,7 +1,7 @@
 #2328 - Al-Ula
 owner = ANZ
 controller = ANZ
-culture = ghassanid
+culture = nabatean
 religion = orthodox
 capital = "Al-Ula"
 trade_goods = salt

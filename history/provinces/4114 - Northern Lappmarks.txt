@@ -1,6 +1,6 @@
 #Lapland, the far north wastelands.
 capital = "Jokkmokk"
-culture = sapmi
+culture = aarjelsami
 add_core = SMI
 religion = finnish_pagan
 base_tax = 1

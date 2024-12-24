@@ -80,7 +80,7 @@ arabian = {
 	lakhmid = {
 		primary = LKH
 	}
-	ghassanid = {
+	nabatean = {
 		primary = ANZ
 	}
 	central_arab = {

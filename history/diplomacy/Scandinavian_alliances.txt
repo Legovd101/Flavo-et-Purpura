@@ -2,18 +2,24 @@
 vassal = {
 	first = DAN
 	second = SHL
-	start_date = 1078.1.20
+	start_date = 1241.1.20
 	end_date = 1450.2.14
 }
 vassal = {
 	first = DAN
 	second = SCN
-	start_date = 1078.1.20
+	start_date = 1241.1.20
 	end_date = 1450.2.14
 }
 march = {
 	first = DAN
 	second = DTT
-	start_date = 1078.1.20
+	start_date = 1241.1.20
+	end_date = 1450.2.14
+}
+vassal = {
+	first = NOR
+	second = JMT
+	start_date = 978.1.20
 	end_date = 1450.2.14
 }

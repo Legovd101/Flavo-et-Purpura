@@ -88,89 +88,89 @@ gaelic_group = {
 		"O'Donnell" "O'Neill" "O'Connor" "O'Brien" MacLochlainn MacMurrough MacWilliam
 		MacNamara "O'Reilly"  "FitzGerald" Kelly
 		# CKII
-		"Meic Braenain" "MacMorrough Kavanagh" "Dal gCais" "Ua Faelain" "Shannon"
+		"Meic Bráenáin" "MacMorrough Kavanagh" "Dál gCais" "Ua Fáeláin" "Shannon"
 		"FitzPatrick" "O Ruairc" "O'More" "O' Conchobair" "MacDermot" "O' Cellaigh"
 		"Mac Sweeney" "O'Doherty" "Burke" "O' Cathail" "O'Clery" "Mac Egan" "O' Fergail"
-		"O'Flaherty" "O' Gallchobhair" "Cotter" "O' Faolain" "MacIntyre" "O'Queely"
-		"Corcu Loigde"
+		"O'Flaherty" "O' Gallchobhair" "Cotter" "O' Faoláin" "MacIntyre" "O'Queely"
+		"Corcu Loígde"
 	}
 	male_names = {
-		Turlough Donal Muireadhach Conchobhar Feidlimidh Cathaoir Muchadh Aed Fonnchadh Brian Criomhthann Art Cathal 
-		Gearoid Muiris Tadhg Sean Niall Einri Conn Eoghan Aonghus Comhghall Maeleachlain Diarmaid Flann Aerdghal 
-		Bearach Caoimhin Donnabhain Eihmhin Fearghal Iarfhlaith Lorccan Mathuin Naomhan Oisin Padraig Riagain 
+		Turlough Donal Muireadhach Conchobhar Feidlimidh Cathaoir Muchadh Áed Fonnchadh Brian Criomhthann Art Cathal 
+		Gearóid Muiris Tadhg Seán Niall Einrí Conn Eoghan Aonghus Comhghall Maeleachlain Diarmaid Flann Aerdghal 
+		Bearach Caoímhin Donnabhain Eíhmhín Fearghal Iarfhlaith Lorccán Mathúin Naomhán Oisín Pádraig Ríagáin 
 		Somhairle
-		Aaron Aaron Abban Abner Abner Abel Abel Adomnan Aed Hugh Aedgen Aeducan Aedan Hugh Aengus 
-		Affiath Ailbe Ailbrend Ailbrenn Ailchu Aildobur Ailgel Ailgenan Ailgus Ailill Ailpin Alwin 
-		Ainbchellach Aindle Ainftech Enfidaig Ainmere Airechtach Airfhindan Airfhindan Airfhinnan 
-		Airleid Airmedach Amalgaid Amlaib Olaf Anfudan Anlon Anmchaid Anrothan Ardgal Ardgar Art 
+		Aaron Aaron Abbán Abner Abner Abél Abel Adomnán Áed Hugh Áedgen Áeducán Áedán Hugh Áengus 
+		Affiath Ailbe Ailbrend Ailbrenn Ailchú Aildobur Ailgel Áilgenán Ailgus Ailill Ailpín Alwin 
+		Ainbchellach Áindle Ainftech Enfidaig Ainmere Airechtach Airfhindán Airfhindán Airfhinnán 
+		Airleid Airmedach Amalgaid Amlaíb Olaf Anfudán Anlón Anmchaid Ánrothán Ardgal Ardgar Art 
 		Arthur Angus
-		Artbran Artgal Artgus Artucan Artur Arthur Assiucc Augaire Augustin Augustine Aurthuile 
-		Baethgalach Baethine Baetan Beoaed Barrfhind Beccan Berrach Bhatair Walter Blathmacc Bran 
-		Brandub Brangen Bressal Brian Brian Briccene Briccine Broccan Bruatur Bruide Bride Brenaind 
-		Brenainn Broen Buaidbeo Caicher Cailech Cailte Cairbre Carbrey Cairell Caissene Caissin 
-		Canann Canannan Carlus Charles Cathal Cathalan Cathassach Cathbad Cathmael Cathmal Cathnio 
-		Cathub Causantin Constantine Cailte Cainchomrac Caindelban Ceithernach Cellach Cellachan 
-		Cennetig Kentigern Cenn-Faelad Cennlachan Cerball Cernach Cernachan Cian Ciaran Cillene 
-		Cinaed Kenneth Clemens Clement Cobthach Coirpre Colcu Colman Nicholas Columb Nicholas Comgan 
-		Conaing Conall Conall Conallan Conamail Conan Conan Conchenn Conchobar Condla Condla Congal 
-		Congalach Congus Conlang Conmac Conmacc Conmael Conmal Conn Conn Connla Conri Constans 
-		Constantius Constantin Constantine Corbb Corban Corccan Corcran Cormac Coscrach Coilboth 
-		Crimthann Crundmael Crundmael Cruinnmael Crundmael Crichan Cronan Cuilen Cuindles Cuircthe 
-		Cummascach Caeman Coelbad Coelub Coeman Cu-Allaid Cu-Bretan Cu-Caech Cu-Cen Cu-Cen-Mathair 
-		Cu-Cuarain Cu-Gamna Cu-Roi Cuanu Culdub Cuan Cuanan Dabid David Daigre Dalbach Dallan Daniel 
-		Daniel Dathal Dathgus Demman Diarmait Dermid Doedgus Domangart Domnall Donald Donn Donnchad 
-		Duncan Donncuan Duncan Donnduban Donngal Donnucan Duncan Doelgus Drost Drust Dub-da-Lethe 
-		Dubcenn Dubgenn Dubh Duff Dubhghall Dugald Dubhglais Douglas Dubthach Dubaed Duban Duiblesc 
-		Duibne Dunaed Dalach Dicuill Diglach Dimmae Dimmasach Dimman Dinertach Dunacan Dunadach 
-		Duncan Dungal Dungalach Dunlang Eamonn Edmund Echmarcach Echtgal Echtgus Echthigern Echuid 
-		Eicnech Eicnechan Elair Enna Enri Henry Eochad Eochaid Eochaid Eochu Eochucan Eogan Eugene 
-		Eric Ercaid Ercaed Ercan Eremon Erennach Ernan Eterscel Eogan Eugene Eoganan Eugene Fachtna 
-		Fairchellach Fallaman Farannan Failbe Fearghus Fergus Fechtnach Fedach Fearchar Farquhar 
+		Artbran Artgal Artgus Artucán Artúr Arthur Assiucc Augaire Augustín Augustine Aurthuile 
+		Báethgalach Báethíne Báetán Béoáed Barrfhind Beccán Berrach Bhátair Walter Blathmacc Bran 
+		Brandub Brangen Bressal Brian Brian Briccéne Briccíne Broccán Bruatur Bruide Bride Brénaind 
+		Brénainn Bróen Búaidbéo Caicher Cailech Cailte Cairbre Carbrey Cairell Caisséne Caissín 
+		Canann Canannán Carlus Charles Cathal Cathalán Cathassach Cathbad Cathmáel Cathmál Cathnio 
+		Cathub Causantín Constantine Caílte Caínchomrac Caíndelbán Ceithernach Cellach Cellachán 
+		Cennétig Kentigern Cenn-Fáelad Cennlachán Cerball Cernach Cernachán Cian Ciarán Cilléne 
+		Cináed Kenneth Clemens Clement Cobthach Coirpre Colcu Colmán Nicholas Columb Nicholas Comgán 
+		Conaing Conall Conall Conallán Conamail Conán Conan Conchenn Conchobar Condla Condla Congal 
+		Congalach Congus Conlang Conmac Conmacc Conmáel Conmál Conn Conn Connla Conrí Constans 
+		Constantius Constantín Constantine Corbb Corbán Corccán Corcrán Cormac Coscrach Coílboth 
+		Crimthann Crundmáel Crundmáel Cruinnmáel Crundmáel Críchán Crónán Cuilén Cuindles Cuircthe 
+		Cummascach Cáemán Cóelbad Cóelub Cóemán Cú-Allaid Cú-Bretan Cú-Caech Cú-Cen Cú-Cen-Máthair 
+		Cú-Cúaráin Cú-Gamna Cú-Roí Cúanu Cúldub Cúán Cúánán Dabíd David Daigre Dalbach Dallán Daniél 
+		Daniel Dathal Dathgus Demmán Diarmait Dermid Doedgus Domangart Domnall Donald Donn Donnchad 
+		Duncan Donncuan Duncan Donndubán Donngal Donnucán Duncan Doélgus Drost Drust Dub-dá-Lethe 
+		Dubcenn Dubgenn Dubh Duff Dubhghall Dugald Dubhglais Douglas Dubthach Dubáed Dubán Duiblesc 
+		Duibne Dunáed Dálach Dícuill Díglach Dímmae Dímmasach Dímmán Dínertach Dúnacán Dúnadach 
+		Duncan Dúngal Dúngalach Dúnlang Éamonn Edmund Echmarcach Échtgal Échtgus Echthigern Echuid 
+		Éicnech Éicnechán Eláir Énna Énri Henry Éochad Eochaid Eochaid Eochu Eochucán Éogan Eugene 
+		Eric Ercaid Ercáed Ercán Éremón Érennach Ernán Eterscél Eógan Eugene Eóganán Eugene Fachtna 
+		Fairchellach Fallaman Farannán Faílbe Fearghus Fergus Fechtnach Fedach Fearchar Farquhar 
 		Fedelmid Feirgil Felic Fer-Fugaill Feradach Feradach Ferdomnach Fergal Fergus Fergus 
-		Fianchu Findbarr Fingen Finguine Finn Finn Finnacan Finnbarr Finnchu Finnlagh Findlay 
-		Finnsnechtae Fintan Flaithbertach Flaithem Flaitheman Flaithgus Flaithri Flann Flannacan 
-		Flannchad Flannan Fogartach Folachtach Forannan Forbassach Fothad Fothud Fuacarta Fubthad 
-		Fuirechtach Fursu Faelcar Faelchad Faelchu Faeldobur Faelgus Faelan Faelbe Fiachnae Fiadchu 
-		Fingin Finsnechta Focarta Gabran Garalt Garbith Gilla-Iosa Gilla-Brigte Gilbert Gilla-Coluim 
-		Gilla-Comgain Gilla-Crist Gilchrist Gilla-na-Naem Gilla-Patraic Gilpatrick Gilla-Ruad Gilroy 
-		Glaisiuc Glaschu Glun-Iairn Gofraid Godfrey Gormacan Gormgus Gorman Guaire Gaethan Gaethine 
-		Gosacht Iacob Jacob Iarlaithe Imchad Indrechtach Ioseph Joseph Iomhar Ivar Labraid Lachtnae 
-		Lachtnan Lachtnene Laidcenn Laidgenn Laidine Laisren Lennan Lennon Lethlobur Liam William 
-		Lochlann Loingsech Lonan Lorcan Lugh Leon Lugaid Lugaed Laegaire Lochene Lochine Loeguire 
-		Mac-Laisre Mainchine Maine Manchan Martan Mathgamain Matudan Minchan Mo-Chonna Mo-Lua 
-		Moenach Mael-Anfaid Liber Fiachnae Erc Dunchad Cilline Caissine Bran
-		Morand Morann Mugron Muirchertach Muirecan Muiredach Murdoch Muirgius Murchad Murchu 
-		Mael-Bresail Mael-Brigte Mael-Cein Mael-Cianain Mael-Ciarain Mael-Coluim Malcolm Mael-Corgis 
-		Mael-Dubh Maldoven Mael-Duin Mael-Fothartaig Mael-Fabaill Mael-Iosa Malise Mael-Maedoc 
-		Mael-Martain Mael-Morda Mael-Muire Malmure Mael-Michil Mael-Petair Mael-Patraic Mael-Ruanaid 
-		Mael-Sechnaill Mael-Tolai Maelan Maenach Mathair Muadan Nadarchu Nannid Natfraech Natfraich 
-		Natsluaig Nechtan Nathan Niall Nigel Niallgus Niallan Nuadu Odran Oengus Angus Oenucan 
-		Oissine Olcan Olchobar Onchu Orthanach Oscar Oscar Patraic Patrick Petair Peter Pilib Pol 
-		Paul Proinsias Francis Rechtabra Riacan Riaguil Robartach Rogallach Rogellach Ruah Roy 
-		Roderick Ruarcc Rumann Rathach Rigan Rian Rodan Ronchu Ronan Ronan Ruadacan Ruadan Scandal 
-		Scandlan Scellan Scolaige Seaghdha Shaw Seafra Godfrey Seamas Jacob Sean John Sechnassach 
-		Selbach Senchan Seoan John Sinach Siothrun Godfrey Slebine Snedgus Sogan Somhairle Somerled 
-		Suibne Sweeny Saerbrethach Saran Seigine Setna Setnae Tadg Tadg Taithlech Talorc Talore 
-		Talorcan Temnen Tigernach Tigernan Tipraite Tomaltach Tomas Thomas Torccan Trenchad Trengus 
-		Tressach Tuathalan Tuireann Taran Talan Tola Tuathal Tuathal Ualgarg Ualan Valentin Ualtar 
-		Walter Uamnachan Uargal Uargalach Uargus Uilliam William Ultan Ruaidri Philip Oissene
+		Fianchú Findbarr Fingen Finguine Finn Finn Finnacán Finnbarr Finnchú Finnlagh Findlay 
+		Finnsnechtae Fintan Flaithbertach Flaithem Flaithemán Flaithgus Flaithrí Flann Flannacán 
+		Flannchad Flannán Fogartach Folachtach Forannán Forbassach Fothad Fothud Fuacarta Fubthad 
+		Fuirechtach Fursu Fáelcar Fáelchad Fáelchú Fáeldobur Fáelgus Fáelán Fáelbe Fíachnae Fíadchú 
+		Fíngin Fínsnechta Fócarta Gabrán Garalt Garbith Gilla-Íosa Gilla-Brígte Gilbert Gilla-Coluim 
+		Gilla-Comgáin Gilla-Críst Gilchrist Gilla-na-Náem Gilla-Pátraic Gilpatrick Gilla-Ruad Gilroy 
+		Glaisiuc Glaschu Glún-Iairn Gofraid Godfrey Gormacán Gormgus Gormán Guaire Gáethán Gáethíne 
+		Gósacht Iacob Jacob Iarlaithe Imchad Indrechtach Ioseph Joseph Íomhar Ivar Labraid Lachtnae 
+		Lachtnán Lachtnéne Laidcenn Laidgenn Laidíne Laisrén Lennán Lennon Lethlobur Liam William 
+		Lochlann Loingsech Lonán Lorcán Lugh Leon Lugaid Lugáed Láegaire Lóchéne Lóchíne Lóeguire 
+		Mac-Laisre Mainchíne Maine Manchán Martan Mathgamain Matudán Minchán Mo-Chonna Mo-Lua 
+		Móenach Máel-Anfaid Liber Fiachnae Erc Dúnchad Cillíne Caissíne Bran
+		Morand Morann Mugrón Muirchertach Muirecán Muiredach Murdoch Muirgius Murchad Murchú 
+		Máel-Bresail Máel-Brígte Máel-Cein Máel-Cianáin Máel-Ciaráin Máel-Coluim Malcolm Máel-Corgis 
+		Máel-Dubh Maldoven Máel-Dúin Máel-Fothartaig Máel-Fábaill Máel-Íosa Malise Máel-Máedóc 
+		Máel-Martain Máel-Mórda Máel-Muire Malmure Máel-Míchíl Máel-Petair Máel-Pátraic Máel-Ruanaid 
+		Máel-Sechnaill Máel-Tólai Máelán Máenach Máthair Múadán Nadarchu Nannid Natfraech Natfraich 
+		Natsluaig Nechtan Nathan Niall Nigel Niallgus Niallán Nuadu Odrán Óengus Angus Óenucán 
+		Oissíne Olcán Ólchobar Onchú Orthanach Oscar Oscar Pátraic Patrick Petair Peter Pilib Pól 
+		Paul Proinsias Francis Rechtabra Riacán Riaguil Robartach Rogallach Rogellach Ruah Roy 
+		Roderick Ruarcc Rumann Ráthach Rígán Ríán Ródán Rónchú Rónán Ronan Rúadacán Rúadán Scandal 
+		Scandlán Scellán Scolaige Séaghdha Shaw Séafra Godfrey Séamas Jacob Seán John Sechnassach 
+		Selbach Senchán Seoán John Sinach Siothrún Godfrey Slébíne Snedgus Sogan Somhairle Somerled 
+		Suibne Sweeny Sáerbrethach Sárán Séigíne Sétna Sétnae Tadg Tadg Taithlech Talorc Talore 
+		Talorcán Temnén Tigernach Tigernán Tipraite Tomaltach Tomás Thomas Torccán Trenchad Trengus 
+		Tressach Tuathalán Tuireann Taran Tálán Tóla Túathal Tuathal Ualgarg Ualan Valentin Ualtar 
+		Walter Úamnachán Uargal Uargalach Uargus Uilliam William Ultán Ruaidrí Philip Oisséne
 	}
 	female_names = {
-		Saraid Orfhlaith Fedelma
-		Ablach Aedammair Affraic Euphemia Aibinn Aibilin Eva Aileann Aine Agnes Anlaith Aroc Aibinn 
-		Barrdub Ben-Laigen Ben-Mide Ben-Muman Ben-Ulad Brigit Brigit Be-Fail Bebinn Cacht 
-		Caillech-Fhinnein Cainnech Caissene Caitilin Catherine Caintigern Cairech Cathan Catriona 
-		Catherine Cellach Ciar Cnes Coblaith Cobflaith Cobflaith Cobflaith Conchenn Condal Crinoch 
-		Cristina Christina Cumman Deirdre Der-bForgaill Devorguilla Derbail Derborgaill Devorguilla 
+		Saraid Órfhlaith Fedelma
+		Ablach Áedammair Affraic Euphemia Aíbinn Aibilín Eva Aileann Áine Agnes Anlaith Aróc Aíbinn 
+		Barrdub Ben-Laigen Ben-Míde Ben-Muman Ben-Ulad Brigit Brigit Bé-Fáil Bébinn Cacht 
+		Caillech-Fhinnéin Cainnech Caisséne Caitilín Catherine Caíntigern Caírech Cathán Catríona 
+		Catherine Cellach Ciar Cnes Coblaith Cobflaith Cobflaith Cobflaith Conchenn Condál Crínóch 
+		Crístina Christina Cumman Deirdre Der-bForgaill Devorguilla Derbáil Derborgaill Devorguilla 
 		Der-Ilei Derilla Der-Lugdach Dianaim Doriend Dub-Dil Dub-Essa Dub-Lemna Dubchoblaig Dubgilla 
-		Duinsech Dunlaith Echrad Eibhleann Eilionora Eleanor Eithne Eithne Ellbrig Emer Emer Etain 
-		Eva Euginia Eugenia Failenn Fedelm Finneacht Finnguala Finnguala Flann Forbflaith Fine Garb 
-		Gelgeis Gerroc Gnathnad Gormflaith Gormflaith Gormlaith Gormflaith Grainne Imag Ite Lann 
-		Lasairfiona Lathir Lerben Lerthan Ligach Lucia Lucia Martha Martha Mauda Matilda Muadhnait 
-		Muirenn Murron Muirgel Muriel Muirne Morna Mael-Mide Mael-Muire Malmure Maire Maria Mairead 
-		Mairgred Margaret Mor Mor Mor-Muman Narbflaith Nuala Finnguala Orlaith Ornat Rois Ros Sadb 
-		Samthann Scathach Sebdann Selblaith Seonaid Joan Sinech Sioban Joan Sisuile Slaine Slaine 
-		Sorcha Suaibsech Saerlaith Setach Sithmaith Tailefhlaith Tailltiu Temair Tuathflaith Tomnat 
-		Uallach Uasal Una Una Mona Eua
+		Dúinsech Dúnlaith Echrad Éibhleann Eilionora Eleanor Eithne Eithne Ellbríg Emer Emer Étaín 
+		Eva Euginia Eugenia Faílenn Fedelm Finneacht Finnguala Finnguala Flann Forbflaith Fíne Garb 
+		Gelgéis Gerróc Gnathnad Gormflaith Gormflaith Gormlaith Gormflaith Gráinne Imag Íte Lann 
+		Lasairfíona Lathir Lerben Lerthan Lígach Lucia Lucia Martha Martha Mauda Matilda Muadhnait 
+		Muirenn Murron Muirgel Muriel Muirne Morna Máel-Mide Máel-Muire Malmure Máire Maria Máiread 
+		Máirgred Margaret Mór Mor Mór-Muman Nárbflaith Nuala Finnguala Órlaith Órnat Róis Ros Sadb 
+		Samthann Scáthach Sébdann Selblaith Seonaid Joan Sinech Siobán Joan Sisuile Sláíne Slaine 
+		Sorcha Suaibsech Sáerlaith Sétach Síthmaith Tailefhlaith Tailltiu Temair Tuathflaith Tómnat 
+		Uallach Uasal Úna Una Mona Éua
 	}
 }

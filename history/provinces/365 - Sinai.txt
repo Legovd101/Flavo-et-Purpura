@@ -1,7 +1,7 @@
 #365 - Sinai
 owner = MAM
 controller = MAM
-culture = ghassanid
+culture = nabatean
 religion = coptic
 capital = "At Tur"
 trade_goods = gems#Turquoise

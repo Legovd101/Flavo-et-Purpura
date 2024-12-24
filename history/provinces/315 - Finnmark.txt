@@ -2,7 +2,7 @@
 owner = NOR
 controller = NOR
 add_core = SMI
-culture = sapmi
+culture = davvisami
 religion = arianism
 base_tax = 1
 base_production = 1

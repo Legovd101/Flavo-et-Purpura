@@ -2,7 +2,7 @@
 owner = FIN
 controller = FIN
 capital = "Kem"
-culture = finnish
+culture = karel
 religion = finnish_pagan
 add_core = KRL
 is_city = yes

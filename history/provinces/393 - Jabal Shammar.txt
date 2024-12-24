@@ -1,7 +1,7 @@
 #393 - Jabal Shammar
 owner = NAJ
 controller = NAJ
-culture = ghassanid
+culture = nabatean
 religion = manichaean
 capital = "Ha'il"
 trade_goods = grain
