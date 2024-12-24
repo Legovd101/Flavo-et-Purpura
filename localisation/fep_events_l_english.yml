@@ -47,3 +47,7 @@
  dablit_flavor.0.d: "Many rulers before us has abdicated the throne in favour of a monastic life, with us having ruled for quite a while for now and our succession secured, a monastic lifestyle in the temples seems ever more tempting..."
  dablit_flavor.0.a: "I shall abdicate in favour for my heir and become a monk"
  dablit_flavor.0.b: "I shall rule till I leave this world"
+ dablit_flavor.1.t: "A New Capital?"
+ dablit_flavor.1.d: "The city of Sit Zaind was founded during the Nanzhao period as a secondary city the the Yunnan region. With recent growth of the city into another regional centre, there has been suggestions to move our capital there."
+ dablit_flavor.1.a: "$CAPITAL_CITY$ is fine"
+ dablit_flavor.1.b: "It does seem like a nice city"

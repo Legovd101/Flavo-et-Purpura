@@ -13,9 +13,9 @@ CDL_prosperity = {
 }
 CDL_buddhism_reward = {
 	tolerance_own = 1
-	local_unrest = -1
+	global_unrest = -1
 }
-CDL_dablit_growth = {
+CDL_city_growth = {
 	local_prosperity_growth = 0.1
 	province_trade_power_modifier = 0.1
 	local_development_cost = -0.1

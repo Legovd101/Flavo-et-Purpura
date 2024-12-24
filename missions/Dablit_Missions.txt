@@ -33,8 +33,50 @@ dablit_slot_1 = {
 				add_center_of_trade_level = 1
 				add_random_development = 1
 				add_province_modifier = {
-					name = "CDL_dablit_growth"
+					name = "CDL_city_growth"
 					duration = 3650
+				}
+			}
+        }
+    }
+	
+    CDL_build_kunming = {
+        icon = mission_chinese_general_riding
+        position = 3
+        completed_by = 9999.12.31
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+            CDL_dali_city
+        }
+        
+        provinces_to_highlight = {
+			province_id = 662
+        }
+    
+        trigger = {
+			662 = {
+				num_of_times_improved_by_owner = 10
+				num_of_buildings_in_province = 3
+				NOT = { devastation = 1 }
+			}
+        }
+        
+        effect = {
+			662 = {
+				add_center_of_trade_level = 1
+				add_random_development = 1
+				add_province_modifier = {
+					name = "CDL_city_growth"
+					duration = 3650
+				}
+			}
+			if = {
+				limit = {
+					NOT = { capital = 662 }
+				}
+				country_event = { 
+					id = dablit_flavor.1
 				}
 			}
         }
