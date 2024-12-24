@@ -59,7 +59,7 @@ DAN_2 = {
 			}
 		}
 		effect = {
-		    remove_estate_privilege = estate_burghers_anglish_nobility
+		    remove_estate_privilege = estate_nobles_anglish_nobility
 		} 
 	}
 
