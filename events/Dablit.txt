@@ -17,6 +17,7 @@ country_event = {
 		months_of_ruling = 60
 		NOT = { has_ruler_flag = dablit_ruler_continue_rule }
 		has_heir = yes
+		heir_age = 15
 	}
 	
 	mean_time_to_happen = {
