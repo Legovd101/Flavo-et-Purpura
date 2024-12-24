@@ -12,6 +12,23 @@ change_estate_land_share = {
 	estate = estate_nobles
 	share = 20
 }
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}
+add_estate_loyalty = {
+	estate = estate_burghers
+	loyalty = -40
+}
+add_estate_loyalty = {
+	estate = estate_nobles
+	loyalty = -40
+}
+add_estate_loyalty = {
+	estate = estate_church
+	loyalty = -10
+}
+
 1286.1.1 = { 
 	monarch = { 
 		name = "Ømund"
