@@ -42,13 +42,17 @@ country_event = {
 			factor = 0.5
 			months_of_ruling = 360
 		}
+		modifier = {
+			factor = 0.5
+			ruler_age = 50
+		}
 	}
 
 	#abdicate to be monk
 	option = {
 		name = "dablit_flavor.0.a"
-		exile_heir_as = dablit_successor
-		set_ruler = dablit_successor
+		kill_ruler = yes
+		add_stability = 1
 	}
 
 	#continue rule
