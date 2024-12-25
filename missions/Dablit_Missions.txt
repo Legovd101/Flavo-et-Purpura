@@ -634,32 +634,26 @@ dablit_slot_5 = {
 				employed_advisor = {
 					religion = buddhism
 					type = theologian
-					skill = 3
 				}
 				employed_advisor = {
 					religion = buddhism
 					type = inquisitor
-					skill = 3
 				}
 				employed_advisor = {
 					religion = vajrayana
 					type = theologian
-					skill = 3
 				}
 				employed_advisor = {
 					religion = vajrayana
 					type = inquisitor
-					skill = 3
 				}
 				employed_advisor = {
 					religion = mahayana
 					type = theologian
-					skill = 3
 				}
 				employed_advisor = {
 					religion = mahayana
 					type = inquisitor
-					skill = 3
 				}
 			}
 		}
