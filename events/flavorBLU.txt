@@ -1,8 +1,5 @@
 ########################################
 # Flavor Events for Ogedeid
-#
-# written by Sara Wendel-Ortqvist
-# Events rewritten and adapted for patch 1.22 by Henrik Lohmander
 ########################################
 
 namespace = flavor_blu
@@ -70,8 +67,8 @@ country_event = {
 		hidden_effect = {
 			every_country = {
 				limit = {
+					NOT = { OR = { tag = ROOT tag = GRE } }
 					OR = {
-						NOT = { OR = { tag = ROOT tag = GRE } }
 						is_subject_of = ROOT
 						is_neighbor_of = ROOT
 						any_neighbor_country = {
@@ -113,7 +110,7 @@ country_event = {
 		name = "flavor_blu.2.a" # This is our chance to finally shake the yoke off our necks!
 		trigger = {
 			is_subject_of_type_with_overlord = {
-				who = FROM
+				who = BLU
 				type = tributary_state
 			}
 			border_distance = {
@@ -186,6 +183,9 @@ country_event = {
 
 	option = {
 		name = "flavor_blu.4.a" # This is our chance to finally shake the yoke off our necks!
+		trigger = {
+			is_subject_of = BLU
+		}
 		BLU = {
 			country_event = { 
 				id = flavor_blu.3 
