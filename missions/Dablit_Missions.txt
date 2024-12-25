@@ -583,7 +583,7 @@ dablit_slot_5 = {
 			}
         }
 	}
-	
+}
 
 dablit_slot_5 = {
 	slot = 5
