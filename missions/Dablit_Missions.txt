@@ -596,7 +596,7 @@ dablit_slot_5 = {
 	CDL_pious_rulers = {
     	icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { CDL_buddhism_mission }
+		required_missions = { CDL_buddhist_court }
 
 		provinces_to_highlight = {
 			
