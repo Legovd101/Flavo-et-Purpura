@@ -139,6 +139,75 @@ dablit_slot_1 = {
 			}
         }
     }
+	
+	CDL_sichuan_conquer = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_forcelimit }
+
+		provinces_to_highlight = {
+			OR = {
+				area = chuanbei_area
+				area = sichuan_area
+				area = chuannan_area
+			}
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = chuanbei_area
+					area = sichuan_area
+					area = chuannan_area
+				}
+			}
+		}
+
+		effect = {
+			gansu_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			shaanxi_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			shanxi_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			north_henan_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			hebei_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			south_hebei_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			add_casus_belli = {
+				target = SIN
+				type = cb_religious_conformance
+				months = 120
+			}
+        }
+	}
 }
 
 dablit_slot_2 = {
@@ -316,6 +385,100 @@ dablit_slot_2 = {
 			}
         }
     }
+	
+	CDL_kwangsi_conquer = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_forcelimit }
+
+		provinces_to_highlight = {
+			OR = {
+				area = west_guangdong_area
+				area = guangxi_area
+			}
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8
+				OR = {
+					area = west_guangdong_area
+					area = guangxi_area
+				}
+			}
+		}
+
+		effect = {
+			667 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			chuanbei_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sichuan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			chuannan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+	}
+	
+	CDL_canton_trade = {
+    	icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { CDL_kwangsi_conquer }
+
+		provinces_to_highlight = {
+			province_id = 667
+		}
+
+		trigger = {
+			1371 = {
+				has_most_province_trade_power = ROOT
+			}
+		}
+
+		effect = {
+			guangdong_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			fujian_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			taiwan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+	}
 }
 
 dablit_slot_3 = {
@@ -363,7 +526,7 @@ dablit_slot_3 = {
 	
 	CDL_forcelimit = {
     	icon = mission_build_up_to_force_limit
-		position = 2
+		position = 3
 		required_missions = {  }
 
 		provinces_to_highlight = {
@@ -381,26 +544,92 @@ dablit_slot_3 = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_core = ROOT
+				add_permanent_claim = ROOT
 			}
 			guangxi_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_core = ROOT
+				add_permanent_claim = ROOT
 			}
 			west_guangdong_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_core = ROOT
+				add_permanent_claim = ROOT
 			}
+        }
+	}
+	
+	CDL_vietnam_threat = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_forcelimit }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			if = {
+				limit = {
+					exists = DAI
+				}
+				total_own_and_non_tributary_subject_development = DAI
+				total_own_and_non_tributary_subject_development = 118
+			}
+			else = {
+				total_own_and_non_tributary_subject_development = 118
+			}
+		}
+
+		effect = {
 			add_casus_belli = {
 				target = DAI
 				type = cb_vassalize_mission
 				months = 120
+			}
+        }
+	}
+	
+	CDL_vietnam_conquer = {
+    	icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { CDL_vietnam_threat }
+
+		provinces_to_highlight = {
+			OR = {
+				area = vietnam_area
+				area = red_river_delta_area
+			}
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 9
+				OR = {
+					area = vietnam_area
+					area = red_river_delta_area
+				}
+			}
+		}
+
+		effect = {
+			champa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tay_nguyen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
         }
 	}
