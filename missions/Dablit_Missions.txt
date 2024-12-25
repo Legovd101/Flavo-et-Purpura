@@ -683,7 +683,7 @@ dablit_slot_5 = {
 
 		trigger = {
 			has_institution = enlightenment
-			every_owned_province = {
+			all_owned_province = {
 				enlightenment = 100
 			}
 		}
