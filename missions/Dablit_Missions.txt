@@ -360,6 +360,50 @@ dablit_slot_3 = {
 			}
         }
     }
+	
+	CDL_forcelimit = {
+    	icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = {  }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			army_size_percentage = 1.0
+			manpower_percentage = 0.50
+		}
+
+		effect = {
+			yun_gui_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_core = ROOT
+			}
+			guangxi_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_core = ROOT
+			}
+			west_guangdong_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_core = ROOT
+			}
+			add_casus_belli = {
+				target = DAI
+				type = cb_vassalize_mission
+				months = 120
+			}
+        }
+	}
 }
 
 dablit_slot_4 = {
@@ -508,7 +552,7 @@ dablit_slot_5 = {
 	CDL_pious_rulers = {
     	icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { CDL_buddhist_court }
+		required_missions = { CDL_buddhism_mission }
 
 		provinces_to_highlight = {
 			
