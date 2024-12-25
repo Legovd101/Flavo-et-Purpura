@@ -1,6 +1,6 @@
 #711 - Qarqan
-owner = TIB
-controller = TIB
+owner = AMD
+controller = AMD
 culture = uyghur
 religion = vajrayana
 capital = "Qarqan"
@@ -11,4 +11,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = TIB
+add_core = AMD

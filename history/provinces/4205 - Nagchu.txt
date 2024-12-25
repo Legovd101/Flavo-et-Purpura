@@ -1,6 +1,6 @@
 #4205 - Nagchu
-owner = TIB
-controller = TIB
+owner = AMD
+controller = AMD
 culture = tibetan
 religion = vajrayana
 capital = "Nagchu"
@@ -12,4 +12,4 @@ is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-add_core = TIB
+add_core = AMD

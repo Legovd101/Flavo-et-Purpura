@@ -1,6 +1,6 @@
 #4204 - Anding
-owner = TIB
-controller = TIB
+owner = AMD
+controller = AMD
 culture = oirats
 religion = nestorian
 capital = "Anding"
@@ -12,4 +12,4 @@ is_city = yes
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-add_core = TIB
+add_core = AMD
