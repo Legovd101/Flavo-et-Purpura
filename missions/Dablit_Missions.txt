@@ -668,7 +668,7 @@ dablit_slot_5 = {
 	
 	CDL_enlightened_kingdom = {
     	icon = mission_build_up_to_force_limit
-		position = 4
+		position = 3
 		required_missions = { CDL_buddhist_court }
 
 		provinces_to_highlight = {
