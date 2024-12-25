@@ -10,7 +10,7 @@ dablit_ruler_dip = {
 }
 dablit_ruler_mil = {
 	monarch_military_power = 1
-	leader_fire = 1
+	leader_land_fire = 1
 }
 CDL_prosperity = {
 	local_build_cost = -0.20
