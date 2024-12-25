@@ -1,0 +1,110 @@
+# Danish Events
+namespace = fep_scandinavian_flavor
+
+country_event = { # Approaching the Norwegian Throne
+	id = fep_scandinavian_flavor.0
+	title = fep_scandinavian_flavor.0.t
+	desc = fep_scandinavian_flavor.0.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # Let's pray they get the message.
+		name = fep_scandinavian_flavor.0.a
+		NOR = {
+			country_event = {
+				id = fep_scandinavian_flavor.1
+				days = 30
+			}
+		}
+	}
+
+}
+
+country_event = { # An Envoy Approaches...
+	id = fep_scandinavian_flavor.1
+	title = fep_scandinavian_flavor.1.t
+	desc = fep_scandinavian_flavor.1.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # Let the historic bonds between our people grow ever stronger!
+		name = fep_scandinavian_flavor.1.a
+		FROM = {
+		country_event = {
+				id = fep_scandinavian_flavor.2
+				days = 15
+			}
+		}
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 2
+				NOT = { army_size = FROM }
+			}
+			modifier = {
+				factor = 1.25
+				alliance_with = FROM
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 0
+					}
+				}
+			}
+		}
+	}
+
+	option = { # Are they mad? Do they think us mad??
+		name = fep_scandinavian_flavor.1.b
+		FROM = {
+			country_event = {
+				id = fep_scandinavian_flavor.3
+				days = 15
+			}
+		}
+	}
+
+}
+
+country_event = { # Norway Accepts!
+	id = fep_scandinavian_flavor.2
+	title = fep_scandinavian_flavor.2.t
+	desc = fep_scandinavian_flavor.2.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # What a joyous day!
+		name = fep_scandinavian_flavor.2.a
+		create_union = FROM
+	}
+
+}
+
+country_event = { # Norway Refuses!
+	id = fep_scandinavian_flavor.3
+	title = fep_scandinavian_flavor.3.t
+	desc = fep_scandinavian_flavor.3.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # Well, it's their funeral...
+		name = fep_scandinavian_flavor.3.a
+		add_casus_belli = {
+			type = cb_claim_throne
+			target = FROM
+			months = 240
+		}
+	}
+
+}

@@ -38,11 +38,28 @@
  rhenish_flavor.0.t: "'A Christian Perspective'"
  rhenish_flavor.0.d: "The priest known as Hildirik has published a book of fallacious claims about the Arian church, claiming their teachings contradict the bible!"
  rhenish_flavor.0.a: "Smite these fools like the heretics they are!"
+
+#Varangians
  varangian_flavor.0.t: "[returning_corps.GetName] Leave for Home!"
  varangian_flavor.0.d: "Due to a number of circumstances, the home of the [returning_corps.GetName] no longer agrees to leave their men in our service."
  varangian_flavor.0.a: "Blast!"
 
- #Dablit/Dali events
+#Swedish Events
+ fep_scandinavian_flavor.0.t: "Approaching the Norwegian Throne"
+ fep_scandinavian_flavor.0.d: "A diplomat has been sent with the message of unification of our kingdoms to Norway."
+ fep_scandinavian_flavor.0.a: "Let's pray they get the message."
+ fep_scandinavian_flavor.1.t: "An Envoy from the [From.GetAdjective] Court Approaches..."
+ fep_scandinavian_flavor.1.d: "The normal humdrum of court life was interrupted today when a diplomat from [From.GetName] sought an audience with the [Root.Monarch.GetTitle], offering a deal of union and peace between our people."
+ fep_scandinavian_flavor.1.a: "Let the historic bonds between our people grow ever stronger!"
+ fep_scandinavian_flavor.1.b: "Are they mad? Do they think *us* mad??"
+ fep_scandinavian_flavor.2.t: "[From.GetName] Accepts!"
+ fep_scandinavian_flavor.2.d: "The [From.GetAdjective] [From.Monarch.GetTitle] has accepted our offer of union!"
+ fep_scandinavian_flavor.2.a: "What a joyous day!"
+ fep_scandinavian_flavor.3.t: "[From.GetName] Refuses!"
+ fep_scandinavian_flavor.3.d: "The [From.GetAdjective] [From.Monarch.GetTitle] has refused our offer of union!"
+ fep_scandinavian_flavor.3.a: "Well, it's their funeral..."
+
+#Dablit/Dali events
  dablit_flavor.0.t: "Monastic life"
  dablit_flavor.0.d: "Many rulers before us has abdicated the throne in favour of a monastic life, with us having ruled for quite a while for now and our succession secured, a monastic lifestyle in the temples seems ever more tempting..."
  dablit_flavor.0.a: "I shall abdicate in favour for my heir and become a monk"

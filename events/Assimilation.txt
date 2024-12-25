@@ -1,0 +1,32 @@
+# Cultural Assimilation events
+namespace = cultural_flavor
+
+# Osterlander Divergence
+province_event = {
+	id = cultural_flavor.0
+	title = cultural_flavor.0.t
+	desc = cultural_flavor.0.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = { culture = swedo_rus }
+		region = russia_region
+		owner = {
+			mission_completed = SWE_heir_of_the_rus
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		change_culture = swedo_rus
+	}
+
+}
+
