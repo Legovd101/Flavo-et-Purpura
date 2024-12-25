@@ -139,6 +139,74 @@ dablit_slot_1 = {
 			}
         }
     }
+	
+	CDL_sichuan_conquer = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_kwangsi_conquer }
+
+		provinces_to_highlight = {
+			OR = {
+				area = chuanbei_area
+				area = sichuan_area
+				area = chuannan_area
+			}
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = chuanbei_area
+					area = sichuan_area
+					area = chuannan_area
+				}
+			}
+		}
+
+		effect = {
+			gansu_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			shaanxi_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			shanxi_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			hebei_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			south_hebei_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_casus_belli = {
+				target = SIN
+				type = cb_religious_conformance
+				months = 120
+			}
+        }
+	}
 }
 
 dablit_slot_2 = {
@@ -316,6 +384,143 @@ dablit_slot_2 = {
 			}
         }
     }
+	
+	CDL_kwangsi_conquer = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_forcelimit }
+
+		provinces_to_highlight = {
+			OR = {
+				area = west_guangdong_area
+				area = guangxi_area
+			}
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8
+				OR = {
+					area = west_guangdong_area
+					area = guangxi_area
+				}
+			}
+		}
+
+		effect = {
+			667 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			chuanbei_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sichuan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			chuannan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+	}
+	
+	CDL_canton_trade = {
+    	icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { CDL_kwangsi_conquer }
+
+		provinces_to_highlight = {
+			province_id = 667
+		}
+
+		trigger = {
+			1371 = {
+				has_most_province_trade_power = ROOT
+			}
+		}
+
+		effect = {
+			guangdong_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			fujian_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			taiwan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+	}
+	
+	CDL_defeat_sinaye = {
+    	icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { CDL_sichuan_conquer }
+
+		provinces_to_highlight = {
+			owned_by = SIN
+		}
+
+		trigger = {
+			if = {
+				limit = {
+					exists = SIN
+				}
+				SIN = {
+					OR = {
+						NOT = { development = 100 }
+						religion = buddhism
+					}
+				}
+			}
+			else = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 20
+					OR = {
+						area = gansu_area
+						area = shaanxi_area
+						area = shanxi_area
+						area = hebei_area
+						area = south_hebei_area
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_knows_no_bounds"
+				duration = -1
+			}
+        }
+	}
 }
 
 dablit_slot_3 = {
@@ -360,6 +565,116 @@ dablit_slot_3 = {
 			}
         }
     }
+	
+	CDL_forcelimit = {
+    	icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = {  }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			army_size_percentage = 1.0
+			manpower_percentage = 0.50
+		}
+
+		effect = {
+			yun_gui_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			guangxi_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			west_guangdong_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+	}
+	
+	CDL_vietnam_threat = {
+    	icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CDL_forcelimit }
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = {
+			if = {
+				limit = {
+					exists = DAI
+				}
+				total_own_and_non_tributary_subject_development = DAI
+				total_own_and_non_tributary_subject_development = 118
+			}
+			else = {
+				total_own_and_non_tributary_subject_development = 118
+			}
+		}
+
+		effect = {
+			add_casus_belli = {
+				target = DAI
+				type = cb_vassalize_mission
+				months = 120
+			}
+        }
+	}
+	
+	CDL_vietnam_conquer = {
+    	icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { CDL_vietnam_threat }
+
+		provinces_to_highlight = {
+			OR = {
+				area = vietnam_area
+				area = red_river_delta_area
+			}
+		}
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 9
+				OR = {
+					area = vietnam_area
+					area = red_river_delta_area
+				}
+			}
+		}
+
+		effect = {
+			champa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tay_nguyen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+	}
 }
 
 dablit_slot_4 = {
@@ -534,94 +849,6 @@ dablit_slot_5 = {
 	
 	CDL_buddhist_court = {
     	icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { CDL_buddhism_mission }
-
-		provinces_to_highlight = {
-			CDL_pious_rulers
-		}
-
-		trigger = {
-			OR = {
-				employed_advisor = {
-					religion = buddhism
-					type = theologian
-					skill = 3
-				}
-				employed_advisor = {
-					religion = buddhism
-					type = inquisitor
-					skill = 3
-				}
-				employed_advisor = {
-					religion = vajrayana
-					type = theologian
-					skill = 3
-				}
-				employed_advisor = {
-					religion = vajrayana
-					type = inquisitor
-					skill = 3
-				}
-				employed_advisor = {
-					religion = mahayana
-					type = theologian
-					skill = 3
-				}
-				employed_advisor = {
-					religion = mahayana
-					type = inquisitor
-					skill = 3
-				}
-			}
-		}
-
-		effect = {
-			add_country_modifier = {
-				name = "CDL_pious_court"
-				duration = 3650
-			}
-        }
-	}
-	
-
-dablit_slot_5 = {
-	slot = 5
-	generic = no
-	ai = yes
-	potential = {
-		tag = CDL
-	}
-	
-	CDL_pious_rulers = {
-    	icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { CDL_buddhism_mission }
-
-		provinces_to_highlight = {
-			
-		}
-
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = CDL_5_abdication_tooltip.tooltip
-				check_variable = {
-					which = CDLAbdicationCount
-					value = 5
-				}
-			}
-		}
-
-		effect = {
-			add_country_modifier = {
-				name = "CDL_pious_rulers_reward"
-				duration = 3650
-			}
-        }
-	}
-	
-	CDL_buddhist_court = {
-    	icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { CDL_pious_rulers }
 
@@ -634,32 +861,26 @@ dablit_slot_5 = {
 				employed_advisor = {
 					religion = buddhism
 					type = theologian
-					skill = 3
 				}
 				employed_advisor = {
 					religion = buddhism
 					type = inquisitor
-					skill = 3
 				}
 				employed_advisor = {
 					religion = vajrayana
 					type = theologian
-					skill = 3
 				}
 				employed_advisor = {
 					religion = vajrayana
 					type = inquisitor
-					skill = 3
 				}
 				employed_advisor = {
 					religion = mahayana
 					type = theologian
-					skill = 3
 				}
 				employed_advisor = {
 					religion = mahayana
 					type = inquisitor
-					skill = 3
 				}
 			}
 		}
@@ -674,7 +895,7 @@ dablit_slot_5 = {
 	
 	CDL_enlightened_kingdom = {
     	icon = mission_build_up_to_force_limit
-		position = 4
+		position = 3
 		required_missions = { CDL_buddhist_court }
 
 		provinces_to_highlight = {

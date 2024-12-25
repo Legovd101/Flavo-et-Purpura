@@ -10,7 +10,7 @@ dablit_ruler_dip = {
 }
 dablit_ruler_mil = {
 	monarch_military_power = 1
-	leader_fire = 1
+	leader_land_fire = 1
 }
 CDL_prosperity = {
 	local_build_cost = -0.20
@@ -62,4 +62,8 @@ CDL_pious_court = {
 CDL_enlightened = {
 	global_unrest = -1
 	idea_cost = -0.1
+}
+CDL_knows_no_bounds = {
+	prestige = 1
+	tolerance_own = 1
 }
