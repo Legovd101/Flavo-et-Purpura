@@ -143,7 +143,7 @@ dablit_slot_1 = {
 	CDL_sichuan_conquer = {
     	icon = mission_build_up_to_force_limit
 		position = 4
-		required_missions = { CDL_forcelimit }
+		required_missions = { CDL_kwangsi_conquer }
 
 		provinces_to_highlight = {
 			OR = {
@@ -166,40 +166,39 @@ dablit_slot_1 = {
 
 		effect = {
 			gansu_area = {
-				add_province_modifier = {
-					name = "CDL_shangri_la_reward"
-					duration = 3650
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
 				}
+				add_permanent_claim = ROOT
 			}
 			shaanxi_area = {
-				add_province_modifier = {
-					name = "CDL_shangri_la_reward"
-					duration = 3650
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
 				}
+				add_permanent_claim = ROOT
 			}
 			shanxi_area = {
-				add_province_modifier = {
-					name = "CDL_shangri_la_reward"
-					duration = 3650
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
 				}
-			}
-			north_henan_area = {
-				add_province_modifier = {
-					name = "CDL_shangri_la_reward"
-					duration = 3650
-				}
+				add_permanent_claim = ROOT
 			}
 			hebei_area = {
-				add_province_modifier = {
-					name = "CDL_shangri_la_reward"
-					duration = 3650
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
 				}
+				add_permanent_claim = ROOT
 			}
 			south_hebei_area = {
-				add_province_modifier = {
-					name = "CDL_shangri_la_reward"
-					duration = 3650
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
 				}
+				add_permanent_claim = ROOT
 			}
 			add_casus_belli = {
 				target = SIN
@@ -476,6 +475,49 @@ dablit_slot_2 = {
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
+			}
+        }
+	}
+	
+	CDL_defeat_sinaye = {
+    	icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { CDL_sichuan_conquer }
+
+		provinces_to_highlight = {
+			owned_by = SIN
+		}
+
+		trigger = {
+			if = {
+				limit = {
+					exists = SIN
+				}
+				SIN = {
+					OR = {
+						NOT = { development = 100 }
+						religion = buddhism
+					}
+				}
+			}
+			else = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 20
+					OR = {
+						area = gansu_area
+						area = shaanxi_area
+						area = shanxi_area
+						area = hebei_area
+						area = south_hebei_area
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "CDL_knows_no_bounds"
+				duration = -1
 			}
         }
 	}
