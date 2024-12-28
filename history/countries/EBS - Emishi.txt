@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+primary_culture = emishi
+religion = animism
+technology_group = chinese
+capital = 4131 #Mutsu

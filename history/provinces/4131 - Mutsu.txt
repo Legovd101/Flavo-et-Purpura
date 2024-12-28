@@ -1,6 +1,6 @@
 #Northern Mutsu
-owner = ANU
-controller = ANU
+owner = EBS
+controller = EBS
 culture = emishi
 religion = shinto
 capital = "Sannohe"
@@ -15,4 +15,5 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-add_core = ANU
+discovered_by = EBS
+add_core = EBS

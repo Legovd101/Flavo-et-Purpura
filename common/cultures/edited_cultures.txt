@@ -16,11 +16,11 @@ germanic = {
 			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
 			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
 			Janusz John Jaromar
-			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirï¿½ George Jozef Joseph 
 			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
 			Koloman Kornel Cornelius Kresimir Krzeslaw
 			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
-			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
+			Martin Mateusz Matthew Mieszko Mikolï¿½s Nicholas Miloslaw Milosz Miroslaw 
 			Mscislaw Mstislav Msciwoj
 			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
 			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
@@ -37,15 +37,15 @@ germanic = {
 			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
 			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
 			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
-			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
+			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markï¿½ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna Rï¿½za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Vï¿½clava 
 			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
 		}
 		dynasty_names = {
 			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
 			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
-			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
+			"von Schï¿½ning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
 			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
 			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
 			"von Zepelin" "von Gostowski" "von Wakenitz"
@@ -87,7 +87,7 @@ germanic = {
 		primary = HAN
 		male_names = {
 			Ernst Adolf Alfred August Christian Eduard Friedrich Georg Karl Philipp Maximilian Octavius Wilhelm 
-			Alexander Alois Anton Bruno Clemens Denis Gerfried Gottfried Günther Helmut Herbert Ignatz Isidor 
+			Alexander Alois Anton Bruno Clemens Denis Gerfried Gottfried Gï¿½nther Helmut Herbert Ignatz Isidor 
 			Konstantin Kuno Markus Martin Oskar Reinhard Silvester Stefan Waldemar Jakob
 		}
 		female_names = {
@@ -98,7 +98,7 @@ germanic = {
 		primary = WES
 		male_names = {
 			Ernst Adolf Alfred August Christian Eduard Friedrich Georg Karl Philipp Maximilian Octavius Wilhelm 
-			Alexander Alois Anton Bruno Clemens Denis Gerfried Gottfried Günther Helmut Herbert Ignatz Isidor 
+			Alexander Alois Anton Bruno Clemens Denis Gerfried Gottfried Gï¿½nther Helmut Herbert Ignatz Isidor 
 			Konstantin Kuno Markus Martin Oskar Reinhard Silvester Stefan Waldemar Jakob
 		}
 		female_names = {
@@ -122,11 +122,11 @@ germanic = {
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor 
 			Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang 
-			Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred
-			Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar
+			Andreas Bruno Burkhard Gï¿½nther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred
+			Alwin Adï¿½mar Alwin Adolf Albert Albrecht Arnold Baltasar
 			Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard 
 			Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard 
-			Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans 
+			Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Gï¿½nther Hans 
 			Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten 
 			Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig
 			Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf 
@@ -152,15 +152,15 @@ germanic = {
 			Wiltrud Wulfhild Ulfhild
 		}
 		dynasty_names = {
-			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Schwarzburg" "von Schï¿½nburg" "von Schlotheim" "von Salza" "von Kospoth"
 			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe"
-			"von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna"
-			"von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel"
+			"von Westernhagen" "von Jena" "von Trï¿½tzschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thï¿½na"
+			"von Thï¿½ringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschï¿½tz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel"
 			"von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach"
-			"von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz"
-			"von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel"
-			"von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig"
-			"von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+			"von Breitenbuch" "von Brï¿½hl" "von Bï¿½nau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Gï¿½rschen" "von Glaubitz"
+			"von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mï¿½cheln" "von Pflugk" "von Pï¿½lnitz" "von Ponickau" "von Rackel"
+			"von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schï¿½nberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig"
+			"von Liebenau" "von Loeben" "von Logau" "von Lï¿½ttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wï¿½hrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
 		}
 	}
 	franconian = {
@@ -174,7 +174,7 @@ germanic = {
 		male_names = {
 			Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert 
 			Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich 
-			Vinzenz André Charles Didier Emmanuel Frédéric Gérard Henri Jules Matthieu Nicolas Pascal 
+			Vinzenz Andrï¿½ Charles Didier Emmanuel Frï¿½dï¿½ric Gï¿½rard Henri Jules Matthieu Nicolas Pascal 
 			Vincent Claudio Edmondo Leonardo Timoteo
 		}
 		female_names = {
@@ -185,7 +185,7 @@ germanic = {
 		male_names = {
 			Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert 
 			Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich 
-			Vinzenz André Charles Didier Emmanuel Frédéric Gérard Henri Jules Matthieu Nicolas Pascal 
+			Vinzenz Andrï¿½ Charles Didier Emmanuel Frï¿½dï¿½ric Gï¿½rard Henri Jules Matthieu Nicolas Pascal 
 			Vincent Claudio Edmondo Leonardo Timoteo
 		}
 		female_names = {
@@ -196,7 +196,7 @@ germanic = {
 		male_names = {
 			Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert 
 			Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich 
-			Vinzenz André Charles Didier Emmanuel Frédéric Gérard Henri Jules Matthieu Nicolas Pascal 
+			Vinzenz Andrï¿½ Charles Didier Emmanuel Frï¿½dï¿½ric Gï¿½rard Henri Jules Matthieu Nicolas Pascal 
 			Vincent Claudio Edmondo Leonardo Timoteo
 		}
 		female_names = {
@@ -217,15 +217,15 @@ germanic = {
 		dynasty_names = {
 			"von Pappenheim" "von Westernhagen" "von Henneberg" "von Flemming"
 			"von Arnim" "von Baudissin" "zu Eulenburg" "von Etzdorff" "von Keller" "von Hohenzollern" "von Wittelsbach"
-			"von Württemberg" "von Aham"  "von Arco" "von Armansperg" "von Bibra" "von Chlingensperg" "von Closen" "von Degenberg" "von Durkheim" "Echter" "von Fraunberg"
+			"von Wï¿½rttemberg" "von Aham"  "von Arco" "von Armansperg" "von Bibra" "von Chlingensperg" "von Closen" "von Degenberg" "von Durkheim" "Echter" "von Fraunberg"
 			"von Freundsberg" "Fugger" "Gabelkofen" "von Gaisberg" "von Gebsattel" "von Gravenreuth"
 			"Griespek von Griespach" "von Trockau" "von Grumbach" "von Guttenberg" "von Gumppenberg"
 			"von Grumbach" "von Hackledt" "von Haslang" "Hofer von Lobenstein" "von Holnstein"
-			"von Knöringen" "von Laiming" "von Leublfing" "von Quirnheim" "Notthafft" "von Ortenburg"
-			"von Parsberg" "Pfäffinger" "von Pienzenau" "von Pudewels" "von Raumer" "von Rehlinger"
+			"von Knï¿½ringen" "von Laiming" "von Leublfing" "von Quirnheim" "Notthafft" "von Ortenburg"
+			"von Parsberg" "Pfï¿½ffinger" "von Pienzenau" "von Pudewels" "von Raumer" "von Rehlinger"
 			"von Reitzenstein" "von Rohr"
-			"Rotenhan" "Rüdt von Collenberg" "von Waldow" "von Wartenberg" "von Sandizell" "von Sinzendorf" "von der Tann" "von Tattenbach"
-			"von Thuengen" "von Thürheim" "von Thurn und Taxis" "von Toerring"
+			"Rotenhan" "Rï¿½dt von Collenberg" "von Waldow" "von Wartenberg" "von Sandizell" "von Sinzendorf" "von der Tann" "von Tattenbach"
+			"von Thuengen" "von Thï¿½rheim" "von Thurn und Taxis" "von Toerring"
 			"von Koenigsegg"
 		}
 	}
@@ -235,15 +235,15 @@ germanic = {
 			Albrecht Maximilian Friedrich Ladislav Matthias Ernst Ferdinand Wenzel Georg Philipp Joseph 
 			Rudolf Gerhard Wolfgang Leopold Florian
 			Alexander Anton Franz Karl Johann Ludwig Rainer Adolf Alfred Benno Bruno Cristoph Clemens  
-			Günther Heinrich Jakob Joachim Jörg Michael Oskar Otto Siegfried Stefan Ulrich Viktor Wilhelm 
+			Gï¿½nther Heinrich Jakob Joachim Jï¿½rg Michael Oskar Otto Siegfried Stefan Ulrich Viktor Wilhelm 
 		}
 		female_names = {
 			Maria Theresia Viktoria
 		}
 		dynasty_names = {
 			"Gabelkofen" "von und zu Goldegg und Lindenburg" "von Haunsperger" "von Pranckh" "von Rohr" "von Aichen" "Enenkel" "Geymann" "von Eggendorf" "von Albrechtsburg"
-			"von Thürheim" "von Thurn und Taxis" "von Tippelskirch" "von Falkenberg" "von Polheim"
-			"von Wagrain" "von Tollet" "Fieger" "Ennenkel" "Hayden von Dorff" Volkenstorfer "von Tannberg" Hätzenberg Moser "von Felsach" "von Daun" "von Unverzagt"
+			"von Thï¿½rheim" "von Thurn und Taxis" "von Tippelskirch" "von Falkenberg" "von Polheim"
+			"von Wagrain" "von Tollet" "Fieger" "Ennenkel" "Hayden von Dorff" Volkenstorfer "von Tannberg" Hï¿½tzenberg Moser "von Felsach" "von Daun" "von Unverzagt"
 		}
 	}
 	dutch = {
@@ -285,7 +285,7 @@ germanic = {
 		dynasty_names = {
 			"van Oranje" Nassau "van Wassenberg" "van Henegouwen" "de Friesland"
 			"van Haspinga" "van Limburg" "van Lotharingen"  "von der Mark"
-			"van Leuven" "van Brabant" "van Egmont" "de Reginar" "van Jülich-Hengebach"
+			"van Leuven" "van Brabant" "van Egmont" "de Reginar" "van Jï¿½lich-Hengebach"
 			# CKII
 			"van Loon" "von Geldern" "van Sulzbach" "von Salm"
 			"van Bergh" "van Heinsberg" "van de Veluwe" "De Graeff"
@@ -302,7 +302,7 @@ germanic = {
 			dynasty_names = {
 			"van Oranje" Nassau "van Wassenberg" "van Henegouwen" "de Friesland"
 			"van Haspinga" "van Limburg" "van Lotharingen"  "von der Mark"
-			"van Leuven" "van Brabant" "van Egmont" "de Reginar" "van Jülich-Hengebach"
+			"van Leuven" "van Brabant" "van Egmont" "de Reginar" "van Jï¿½lich-Hengebach"
 			# CKII
 			"van Loon" "von Geldern" "van Sulzbach" "von Salm"
 			"van Bergh" "van Heinsberg" "van de Veluwe" "De Graeff"
@@ -315,7 +315,7 @@ germanic = {
 		}
 		male_names = {
 			Filips Jan Boudewijn Arnolf Lodewijk Robrecht Willem Diederik Gwijde Karel Antoon Abraham Alexander Alfons 
-			Andries Balthasar Bartholomeus Christoffel Constantijn Cornelis Daniël David Ernst Erwin Ewoud Floris 
+			Andries Balthasar Bartholomeus Christoffel Constantijn Cornelis Daniï¿½l David Ernst Erwin Ewoud Floris 
 			Gabriel Godfried Hans Jacob Kasper Ludger Luuk Marinus Pieter Renate Rodolf Roeland Valentijn
 		}
 		female_names = {
@@ -359,11 +359,11 @@ germanic = {
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
 		Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese 
-		Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara Bärbel Beate Beatrice Beatrix 
-		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brünhild Brunhilde Brünhilde Cäcilia 
-		Cäcilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
+		Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara Bï¿½rbel Beate Beatrice Beatrix 
+		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brï¿½nhild Brunhilde Brï¿½nhilde Cï¿½cilia 
+		Cï¿½cilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
 		Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna 
-		Cornelia Dagmar Daniela Denise Desirée Désirée Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena 
+		Cornelia Dagmar Daniela Denise Desirï¿½e Dï¿½sirï¿½e Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena 
 		Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie 
 		Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn 
 		Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke 
@@ -373,7 +373,7 @@ germanic = {
 		Hertha Hilda Hilde Hildegard Hulda Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela 
 		Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Jacqueline Jana Janina Janine Jaqueline Jasmin 
 		Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Kai Karen Karin Karina Karla 
-		Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin 
+		Karolin Karoline Katarina Kï¿½te Katharina Kï¿½the Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin 
 		Kristina Kunigunde Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly 
 		Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Madeleine 
 		Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha 
@@ -387,54 +387,54 @@ germanic = {
 		Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Tabea Tamara Tanja Tatjana Teresa Thekla 
 		Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike Ursel Ursula Uta Ute Valentina Valerie Vanessa 
 		Vera Verena Verona Veronika Victoria Viktoria Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud 
-		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zäzilia Zäzilie Zoe
+		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zï¿½zilia Zï¿½zilie Zoe
 	}
 	dynasty_names = {
 		"von Oldenburg" "von Mecklenburg" "von Hohenzollern" "von Habsburg"
-		"von Zweibrücken" "von Wittelsbach" "von Holstein" "von Hesse-Kassel" "von Holstein-Gottorp"
-		"von Pfalz-Neumarkt" "von Braunschweig-Lüneburg" "von Hannover" "von Wettin"
+		"von Zweibrï¿½cken" "von Wittelsbach" "von Holstein" "von Hesse-Kassel" "von Holstein-Gottorp"
+		"von Pfalz-Neumarkt" "von Braunschweig-Lï¿½neburg" "von Hannover" "von Wettin"
 		# CKII
-		"von Rügen" "von Diepholz" "von Silesia-Glogau" "von Bibra" "von Bodeck" 
-		"Boeselager" "Jaworski" "Brauchitsch" "von Bülow" 
+		"von Rï¿½gen" "von Diepholz" "von Silesia-Glogau" "von Bibra" "von Bodeck" 
+		"Boeselager" "Jaworski" "Brauchitsch" "von Bï¿½low" 
 		"von Calw" "von Cham" "von Steutzlingen" "von Wetterau" "von Julichgau" 
 		"von Helffenstein" "von Venis" "von Kyburg" "von Arbon" "von Urach" "von Cilli" "von Utlede" 
 		"von Katzenelnbogen" "von Altena" "von der Marck" "von Hessen" "von Arnsberg" "von Bucheck" 
 		"Walter" "Grelle" "von Dolen" "von Liebnitz" "von Virneberg"
-		"Rübsamen" "von Bardewik" "Vorrade" "Warendorp" "Lüneburg" "Wittenborg" "von Klingenberg" 
-		"von Parchim" "von Kärnten" "von Rügen" "von Neuenburg" "von Werle" "von Mecklemburg" 
+		"Rï¿½bsamen" "von Bardewik" "Vorrade" "Warendorp" "Lï¿½neburg" "Wittenborg" "von Klingenberg" 
+		"von Parchim" "von Kï¿½rnten" "von Rï¿½gen" "von Neuenburg" "von Werle" "von Mecklemburg" 
 		"von Wittenberg" "von Brandenburg" "von Glogau" "von Rendsburg" "von Pommern" 
 		"von Slesvig" "von Plain" "von Formbach" "von Wasserburg" 
 		"von Lengenfeld" "von Eberstein" "von Heinsberg" "von Weimar"
 		"von Andechs" "von Sulzbach" "von Kleve" "von Versfleth" "von Wickerode" 
-		"von Winzenburg" "von Thüringen" "von Bogen" "von Meissen" "von Genf" 
+		"von Winzenburg" "von Thï¿½ringen" "von Bogen" "von Meissen" "von Genf" 
 		"von Arstein" "von Veldenz" "von Landsberg" "von Franken" "von Babenberg" "von Berg" "von Hohenstauf" 
 		"von Saarbrucken" "von Puteledorg" "von Henneberg" "von Stade" "von Sommerchenberg" 
-		"von Kirchberg" "von Württemberg" "von Tübingen" "von Raabs" 
-		"von Heimbach" "von Nörvenich" "von Jülich" "von Metz" "von Limburg" 
+		"von Kirchberg" "von Wï¿½rttemberg" "von Tï¿½bingen" "von Raabs" 
+		"von Heimbach" "von Nï¿½rvenich" "von Jï¿½lich" "von Metz" "von Limburg" 
 		"von Eppstein" "von Luxemburg" "von Hornes" "von Sachsen" 
 		"von Beilstein" "von Eppenstein" "von Lusatia" "Orlamunde"
 		"von Hohenstaufen" "von Otakar" "Weimar" "von Tirol"
 		"von Haldensleben" "von Schweinfurt" "von Stad" "von Rheinfelden" 
 		"von Ringelheim" "de Luxembourg" "Hainaut" "von Lenzburg" "Prochaska" 
 		"von Boulogne" "von Nordheim" "von Egisheim" "Asperger" "Hunfriding" 
-		"Witte" "von Hagen" "von Mölln" "Runese" Pleskow 
+		"Witte" "von Hagen" "von Mï¿½lln" "Runese" Pleskow 
 		"von Supplingenburg" "von Plotzkau" "von Katlenburg" "von Goslar"
-		"von Wunstorf" "von Goltern" "von Wölpe" "von Nellenburg" "von Arnstein" "von Holte"
-		"von Wippra" "von der Mark" "von Diest" "von Rietberg" "von Löningen" "von Corvey" 
-		"von Steinfurt" "von Tecklenburg" "von Rüssel" "von Waldeck" "von Ravensberg" "von Weyhe" "von Hoya" 
+		"von Wunstorf" "von Goltern" "von Wï¿½lpe" "von Nellenburg" "von Arnstein" "von Holte"
+		"von Wippra" "von der Mark" "von Diest" "von Rietberg" "von Lï¿½ningen" "von Corvey" 
+		"von Steinfurt" "von Tecklenburg" "von Rï¿½ssel" "von Waldeck" "von Ravensberg" "von Weyhe" "von Hoya" 
 		"von Dachau" "von Bassenheim" "von Kerpen" "von Tunna" "von Salza" "von Malberg" "von Hohenlohe" 
-		"von Wüllersleben" "von Osterna" "von Sangershausen" "von Heldrungen" 
+		"von Wï¿½llersleben" "von Osterna" "von Sangershausen" "von Heldrungen" 
 		"von Orseln" "von Nauen" "Suerbeer" "von Lunen" 
 		"von Vechta" "Pernstein" "von Schwerin" "von Dorpat" "von Haseldorf" "von Vyshusen" "von Dolen" 
-		"von Friesack" "von Hildesheim" "von Lechsgmünd" "von Komburg" 
+		"von Friesack" "von Hildesheim" "von Lechsgmï¿½nd" "von Komburg" 
 		"von Stahleck" "von Ziegenhain" "von Dinslaken" "von Lambach" "von Pluyvoise" 
 		"von Scharfenberg" "von Leistenberg" "von Schwarzburg" "von Badewide" "von Wassel" 
-		"von Dassel" "von Greyerz" "von Grenchen" "von Abensberg" "von Grünberg" 
+		"von Dassel" "von Greyerz" "von Grenchen" "von Abensberg" "von Grï¿½nberg" 
 		"von Lichtenberg" "von Hachberg" "von Wartenberg" "von Wolfach" "von Gudensberg"
 		"von Gerhausen" "von Signau" "von Groitzsch" "von Frickingen" "von Sigmaringen" "von Regensburg" 
 		"von Lurngau" "von Leibrechtskirchen" "von Meran" "von Treven" "Gross" "Gualch" "Beck"
-		"zu Schwaben" "von Attems" "von Schweipünt" "von Saffenberg" "von Nörvenich" "von Querfurt" 
-		"von Mansfeld" "von Kärnten" "von Eschenloch" "von Naumburg" "von Schrapelnau" 
+		"zu Schwaben" "von Attems" "von Schweipï¿½nt" "von Saffenberg" "von Nï¿½rvenich" "von Querfurt" 
+		"von Mansfeld" "von Kï¿½rnten" "von Eschenloch" "von Naumburg" "von Schrapelnau" 
 		"von Magdeburg" "von Hardegg" "von Arneburg" "von Seeburg" "von Veldenz" "von Schmidtburg" 
 		"von Bamberg" "von Kyrburg" "von Baumberg" "von Stolzenberg" "von Altenbaumberg" "von Tyrol" 
 		"von Ortenburg" "von Wangen" "von Frontenhausen" "von Andechs" "von Eurasburg" "von Geroldseck" 
@@ -442,22 +442,22 @@ germanic = {
 		"von Hohenfels" "von Hunolstein" "von Blankenheim" "von Salm" "von Falkenstein" "von Sponheim" 
 		"von Brunshorn" "von Stein" "von Bikkenbach" "von Heinsberg" "van Valkenburg" "von Sayn" 
 		"von Veringen" "von Gruningen" "von Eselsberg" "von Muhlhausen" "von Pfirt" 
-		"von Lövenstein" "von Landau" "von Tschudi" "von Glarus" "von Chalôns" "von Ratzeburg" 
+		"von Lï¿½venstein" "von Landau" "von Tschudi" "von Glarus" "von Chalï¿½ns" "von Ratzeburg" 
 		"von Schlawe" "von Schwelz" "von Liebschau" "von der Lippe" "von Schauenburg" "von Rostock" 
 		"von Gustrow" "von Rendsburg" "von Segeberg" "von Neuhaus" "von Friedenthal" "von Rosenberg" 
 		"von Waldenstein" "von Altenburg" "von Pernstein" "von Monheim" "von Urslingen" 
-		"von Assel" "von Osnabrück" "von Münster" "von Kleve" "von Jülich" 
-		"von Andernach" "von Göttingen"
+		"von Assel" "von Osnabrï¿½ck" "von Mï¿½nster" "von Kleve" "von Jï¿½lich" 
+		"von Andernach" "von Gï¿½ttingen"
 		"von Pfalz" "von Baden" "von Nordgau" "von Metz" "von Sundgau" "von Bern" 
-		"von Schwyz" "von Neuchatel" "von Aargau" "von Breisgau" "von Fürstenberg"
-		"von Württemberg" "von Franken" "von Thüringen" "von Weimar" "von Celle" 
+		"von Schwyz" "von Neuchatel" "von Aargau" "von Breisgau" "von Fï¿½rstenberg"
+		"von Wï¿½rttemberg" "von Franken" "von Thï¿½ringen" "von Weimar" "von Celle" 
 		"von Amsberg" "von Wolgast" "von Altmark" "von Anhalt" 
 		"von Plauen" "von Ansbach" "von Kempten" "von Arnim" "von Trent" 
 		"von Innsbruck" "von Lausitz" "von Stettin" 
 		"von Abensberg"  "von Berlichingen" "von Beetzen" 
 		"Sieghardinger" "von Walbeck"
 		#Prussian
-		"von Knorring" "von Creytzen" Sack "von Taube" "Wöhrmann"
+		"von Knorring" "von Creytzen" Sack "von Taube" "Wï¿½hrmann"
 		#Rheinlaender
 		"von Keller" "von der Mark" "von Wittelsbach" "von Baden" "Rotberg"
 		#Hessian
@@ -472,20 +472,20 @@ carpathian = {
 	transylvanian = {
 		primary = TRA
 		male_names = {
-			Ulászló László Lajos Albert János Mátyás Zsigmond András Károly István Béla Anasztáz Barnabás 
-			Boldizsár Dávid Dömötör Edvárd Ernö Ferenc Gábor György Izsák Jenö József Kálmán Kázmér Lörinc 
-			Miklós Oszkár Ottó Patrik Péter Simon Tamás Vencel
-			Ábel Ádárn Ágoston Álmos Árpád Õdön Otto Alajos Ambrus András Andrew Antal Attila Bálint 
-			Albert Balázs Benedek Benedict Bernát Bernard Bertók Bertalan Boldizsár Bonuslo
-			Borisz Boris Csák Csaba Csongor Dénes Dömötör Dezsõ Domoszló Donát Elek Elemér Endre Ernõ 
-			Philip Ferenc Francis Frigyes Gábor Gábriel Gabriel Gáspár Caspar Géza Gazsi
-			Gellért Gergely György George Gyula Imre István Stephen Izsák Jákob Jacob János John József 
-			Joseph Jenõ Kálmán Károly Charles Konrád Konrad Kornél Kristóf László Lázár Lõrinc Lajos 
-			Lampert Levente Lukács Márk Marcus Márton Martin Máté Mátyás Matthew Móric Mózes Mihály 
-			Michael Louis Fulöp Béla
-			Miklós Nándor Orbán Oszkár Pál Paul Péter Peter Sámuel Samuel Sándor Alexander Salamon 
-			Szilveszter Silvester Tádor Tacsony Tamás Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
-			Zoltán Zsigmond Sigmund Zsolt Saul Soma
+			Ulï¿½szlï¿½ Lï¿½szlï¿½ Lajos Albert Jï¿½nos Mï¿½tyï¿½s Zsigmond Andrï¿½s Kï¿½roly Istvï¿½n Bï¿½la Anasztï¿½z Barnabï¿½s 
+			Boldizsï¿½r Dï¿½vid Dï¿½mï¿½tï¿½r Edvï¿½rd Ernï¿½ Ferenc Gï¿½bor Gyï¿½rgy Izsï¿½k Jenï¿½ Jï¿½zsef Kï¿½lmï¿½n Kï¿½zmï¿½r Lï¿½rinc 
+			Miklï¿½s Oszkï¿½r Ottï¿½ Patrik Pï¿½ter Simon Tamï¿½s Vencel
+			ï¿½bel ï¿½dï¿½rn ï¿½goston ï¿½lmos ï¿½rpï¿½d ï¿½dï¿½n Otto Alajos Ambrus Andrï¿½s Andrew Antal Attila Bï¿½lint 
+			Albert Balï¿½zs Benedek Benedict Bernï¿½t Bernard Bertï¿½k Bertalan Boldizsï¿½r Bonuslo
+			Borisz Boris Csï¿½k Csaba Csongor Dï¿½nes Dï¿½mï¿½tï¿½r Dezsï¿½ Domoszlï¿½ Donï¿½t Elek Elemï¿½r Endre Ernï¿½ 
+			Philip Ferenc Francis Frigyes Gï¿½bor Gï¿½briel Gabriel Gï¿½spï¿½r Caspar Gï¿½za Gazsi
+			Gellï¿½rt Gergely Gyï¿½rgy George Gyula Imre Istvï¿½n Stephen Izsï¿½k Jï¿½kob Jacob Jï¿½nos John Jï¿½zsef 
+			Joseph Jenï¿½ Kï¿½lmï¿½n Kï¿½roly Charles Konrï¿½d Konrad Kornï¿½l Kristï¿½f Lï¿½szlï¿½ Lï¿½zï¿½r Lï¿½rinc Lajos 
+			Lampert Levente Lukï¿½cs Mï¿½rk Marcus Mï¿½rton Martin Mï¿½tï¿½ Mï¿½tyï¿½s Matthew Mï¿½ric Mï¿½zes Mihï¿½ly 
+			Michael Louis Fulï¿½p Bï¿½la
+			Miklï¿½s Nï¿½ndor Orbï¿½n Oszkï¿½r Pï¿½l Paul Pï¿½ter Peter Sï¿½muel Samuel Sï¿½ndor Alexander Salamon 
+			Szilveszter Silvester Tï¿½dor Tacsony Tamï¿½s Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
+			Zoltï¿½n Zsigmond Sigmund Zsolt Saul Soma
 			Alexandru Radu Vlad Constantin Mihail Mircea George Grigore Mihnea Nicolae Besarab Vladislav Mattia 
 			Radu Ilias Scarlat Stefan Dan Alexandru Ilias Gabriel Ioan George Leon Moise Neagoie Besarab 
 			Leon Radu Mihnea Serban Simeon Teodosiu Vintila Vladut Milos Corneliu Flaviu Iuliu Octavian Sergiu 
@@ -503,16 +503,16 @@ carpathian = {
 			Victor Vilhelm William Vintila Vlad
 		}
 		female_names = {
-			Ágnes Agnes Éva Eva Adelaida Adelaide Agáta Agatha Amália Amelia Angyalka Anikó Aranka 
-			Bertha Borbála Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emõke Emese Erika Erzsébet 
+			ï¿½gnes Agnes ï¿½va Eva Adelaida Adelaide Agï¿½ta Agatha Amï¿½lia Amelia Angyalka Anikï¿½ Aranka 
+			Bertha Borbï¿½la Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emï¿½ke Emese Erika Erzsï¿½bet 
 			Elisabeth Eszter Berta Anna
-			Etel Euphemia Euphemia Gizella Gisela Györgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikó 
-			Irén Irene Jácinta Józsa Júlia Juliana Jolán Judith Judith Kamilla Camilla Katalin 
-			Kinga Klára Catherine Illona
-			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mária Maria Márta Martha 
-			Magdolna Magdalena Margaréta Margaret Margit Matild Matilda Natália Natalia Odola Orsolya 
-			Panni Piroska Rózsa Rosa Sára Sarah Sarolt Zsuzsa Zsanett
-			Skolasztika Sophia Tundér Terezia Viola Virág Zoltána Zsófia Adelina Adriana Afina Alexandra Alexia Ana Anna Anastasia Anastasia Angela Arina Christina 
+			Etel Euphemia Euphemia Gizella Gisela Gyï¿½rgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikï¿½ 
+			Irï¿½n Irene Jï¿½cinta Jï¿½zsa Jï¿½lia Juliana Jolï¿½n Judith Judith Kamilla Camilla Katalin 
+			Kinga Klï¿½ra Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mï¿½ria Maria Mï¿½rta Martha 
+			Magdolna Magdalena Margarï¿½ta Margaret Margit Matild Matilda Natï¿½lia Natalia Odola Orsolya 
+			Panni Piroska Rï¿½zsa Rosa Sï¿½ra Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Tundï¿½r Terezia Viola Virï¿½g Zoltï¿½na Zsï¿½fia Adelina Adriana Afina Alexandra Alexia Ana Anna Anastasia Anastasia Angela Arina Christina 
 			Christina Dana Ecatarina
 			Elena Helen Elisabeta Elisabeth Emilia Emily Eufroysina Euphrosyne Felicia Floarea Flora 
 			Ioana Ionela Irina Iulia Juliana Maria Maria Monica Iacoba
@@ -521,15 +521,15 @@ carpathian = {
 			Tereza Teresa Vasilica Violeta Yolanda Voica Zina 			 
 		}
 		dynasty_names = {
-			Báthory Hunyadi Szapolyai Rákóczy Bocskai Bethlen Almásy Andrássy Batthyány Csáky Dessewffy
-			Erdody Eszterházy Festetics Hajdú Károlyi Kun Magyary Perényi Rónai Széchenyi Szepessy 
-			Thököly Tisza Zrínyi Teleki
-			Majláth Dóczy Dobó Koháry Orczy Frankopan Garay Mikes Szécsi Imreffy Nádasdy Rhédey
-			Zrinski Hadik Both "Rákóczi" Forgách Cseszneky Derencsényi Décsey Révay Esterházy
-			Kállay Kemény Thurzó Zichy
+			Bï¿½thory Hunyadi Szapolyai Rï¿½kï¿½czy Bocskai Bethlen Almï¿½sy Andrï¿½ssy Batthyï¿½ny Csï¿½ky Dessewffy
+			Erdody Eszterhï¿½zy Festetics Hajdï¿½ Kï¿½rolyi Kun Magyary Perï¿½nyi Rï¿½nai Szï¿½chenyi Szepessy 
+			Thï¿½kï¿½ly Tisza Zrï¿½nyi Teleki
+			Majlï¿½th Dï¿½czy Dobï¿½ Kohï¿½ry Orczy Frankopan Garay Mikes Szï¿½csi Imreffy Nï¿½dasdy Rhï¿½dey
+			Zrinski Hadik Both "Rï¿½kï¿½czi" Forgï¿½ch Cseszneky Derencsï¿½nyi Dï¿½csey Rï¿½vay Esterhï¿½zy
+			Kï¿½llay Kemï¿½ny Thurzï¿½ Zichy
 			"Basarab" "Danesti" "Draculesti"
 			Callimachi Ghica Cantacuzino Cantemiresti Racovita Caradja Sturdza 
-			Conachi Soutzos Golescu Vacarescu Mavrocordatos Craiovesti Hâjdau
+			Conachi Soutzos Golescu Vacarescu Mavrocordatos Craiovesti Hï¿½jdau
 			Kogalniceanu Movilesti
 		}
 	}
@@ -538,7 +538,7 @@ carpathian = {
 		dynasty_names = {
 			"Basarab" "Danesti" "Draculesti"
 			Callimachi Ghica Cantacuzino Cantemiresti Racovita Caradja Sturdza 
-			Conachi Soutzos Golescu Vacarescu Mavrocordatos Craiovesti Hâjdau
+			Conachi Soutzos Golescu Vacarescu Mavrocordatos Craiovesti Hï¿½jdau
 			Kogalniceanu Movilesti
 		}
 		male_names = {
@@ -579,55 +579,55 @@ scandinavian = {
 		
 		
 		male_names = {
-			Christian Christoph Oskar Adolf August Göran Sigismund Alfred Axel Edvard Gottfrid 
+			Christian Christoph Oskar Adolf August Gï¿½ran Sigismund Alfred Axel Edvard Gottfrid 
 			Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante 
 			Tomas Ulrik
 			Albrikt Albert Alf Algot Anders Arne Arnfast Astrad 
-			Bengt Benedict Bertil Birger Björn Bo Borkvard Brage Bror
+			Bengt Benedict Bertil Birger Bjï¿½rn Bo Borkvard Brage Bror
 			Dag Dan Dyre Egil Einar Erik Eskild Faste Fredrik Frederick Filip 
 			Folke Georg Greger Gregory Gunnar Gustav Halsten Hans Harald Harold
-			Helge Henrik Hjalmar Holmger Håkan Inge Ingemar Ingvar
+			Helge Henrik Hjalmar Holmger Hï¿½kan Inge Ingemar Ingvar
 			Edward Johan John Karl Klas Knut Lars Magnus
 			Markus Marcus 
 			Mats Matthew Nils Nicholas Niklas Odd Olaf Peter Ragnar Rolf 
-			Ragnvald Sörkver Sigurd Starkad Sten Styrbjörn Sune Sven
-			Sverker Sölve Thomas Tjudmund Toke Torbjörn Tord Torbrand Torkel Torolf 
-			Thorolf Torsten Toste Totil Tyke Ulf Valdemar Åke Osten 
+			Ragnvald Sï¿½rkver Sigurd Starkad Sten Styrbjï¿½rn Sune Sven
+			Sverker Sï¿½lve Thomas Tjudmund Toke Torbjï¿½rn Tord Torbrand Torkel Torolf 
+			Thorolf Torsten Toste Totil Tyke Ulf Valdemar ï¿½ke Osten 
 		}
 		female_names = {
 			Christina Ulrika Eleonora Hedwig
 			Anna Asta Astrid Beata Birgitta Brigid Bothild Cecilia Elin 
 			Elisabet Gunhild Helena Holmfrid Iliana Inga 
 			Ingeborg Ingegerd Ingfrid Ingrid Karin Katarina Kristina Linda 
-			Margareta Märta Martha Ragnhild Sara Sarah Sigrid Sofia 
-			Sophia Thordis Ulvhilde Åsa
+			Margareta Mï¿½rta Martha Ragnhild Sara Sarah Sigrid Sofia 
+			Sophia Thordis Ulvhilde ï¿½sa
 		}
 		dynasty_names = {
 			"Bonde" "Vasa" "Tre Rosor" "Oxenstierna" "Sparre" "Sture" "Tott" "Trolle" "Bielke" "Brahe"
-			"Horn" "Ribbing" "Skytte" "Banér" "Fleming" "Gyllenstierna" "de la Gardie" "Leijonhufvud" 
-			"Natt och Dag" "Grip" "Stenbock" "Bure" "Drake" "Hand" "Burensköld"
-			"Böllja" "Cruus" "Geete" "Grubbenhielm" "Soop" "Ekeblad" "Svinhufvud"
-			"Hård" "Forstena" "Kurck" "Eka" "Hjort" "Jägerhorn" "Lilliehöök"
+			"Horn" "Ribbing" "Skytte" "Banï¿½r" "Fleming" "Gyllenstierna" "de la Gardie" "Leijonhufvud" 
+			"Natt och Dag" "Grip" "Stenbock" "Bure" "Drake" "Hand" "Burenskï¿½ld"
+			"Bï¿½llja" "Cruus" "Geete" "Grubbenhielm" "Soop" "Ekeblad" "Svinhufvud"
+			"Hï¿½rd" "Forstena" "Kurck" "Eka" "Hjort" "Jï¿½gerhorn" "Lilliehï¿½ï¿½k"
 			"Porse" "Palme" Gumsehuvud
-			"Bååt" "Ulv" "Sjöblad" "Läma" "Posse" "Rosenstråle" "Thott" "Bagge"
-			"Bese" "Gädda" "Hatt" "Marsvin" "Oxhufvud" "Stake" "Tre Rutor" "Hästesko"
-			"Ulfsax" "Tre Sjöblad" "Bratt" "Munk" "Eketrä" "Gera"
+			"Bï¿½ï¿½t" "Ulv" "Sjï¿½blad" "Lï¿½ma" "Posse" "Rosenstrï¿½le" "Thott" "Bagge"
+			"Bese" "Gï¿½dda" "Hatt" "Marsvin" "Oxhufvud" "Stake" "Tre Rutor" "Hï¿½stesko"
+			"Ulfsax" "Tre Sjï¿½blad" "Bratt" "Munk" "Eketrï¿½" "Gera"
 			"Gylta" "Lillie" "Puke" "Slatte"  "Stiernkors" "Fincke" "Dufva" "Cronstedt"
 		}
 	}
 	danish = {
 		primary = DAN
 		male_names = {
-			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward 
-			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik 
-			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf Jørn Jakob Jacob Jens Joakim Johann
+			Anders Andrew Anund Asger Balder Benedikt Benedict Bjï¿½rn Beorn Bo Christopher Edvard Edward 
+			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hï¿½rik 
+			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf Jï¿½rn Jakob Jacob Jens Joakim Johann
 			John Charles Knut Kristian Leif Lennart Ludvig Louis Malthe Mads Matthew Mikkel Michael 
-			Mogens Nicholas Odd Olav Olaf Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin 
-			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven Sämund Thorolf Thorvald Torben Torbjørn
-			Torbjörn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Mogens Nicholas Odd Olav Olaf Peder Pridbjï¿½rn Ragnar Ragnvald Rolf Rune Rï¿½rik Rurik Severin 
+			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven Sï¿½mund Thorolf Thorvald Torben Torbjï¿½rn
+			Torbjï¿½rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
 			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm 
 			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans Henrik 
-			Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Holger Jï¿½rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
 			Frans Gnupa
 		}
 		female_names = {
@@ -637,62 +637,62 @@ scandinavian = {
 			Frederique Freja Grethe Gudrun Gunhild Gyda Gytha Helena Helen Ida Ingeborg Ingegerd Ingrid 
 			Johanne Jutta Karin Karoline Katarina Katrine Catherine Kirsten Klara Lise Luitgard Lykke
 			Magdalene Magdalena Maren Margrethe Margaret Maria Martha Ragnfrid Ragnhild Rikissa Runa 
-			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Åse Åsa
+			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis ï¿½se ï¿½sa
 		}
 		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gï¿½ye" "Trolle" "Rantzau"
 			"Friis" "Gyllenstierna" #Gyldenstierne
 			"Bille" "Adeler" "Arenstorff" "Brockenhuus"
 			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
 			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
 			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			"Frille" "Rønnow"
+			"Frille" "Rï¿½nnow"
 			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grï¿½n" "Daa"
 			"Reventlow" "Juul" "Ulfeldt" "Bang"
 		}
 	}
 	norwegian = {
 		primary = NOR
 		male_names = {
-				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjörn Arngrimr Arni Arne Arnfast 
-				Asbjörn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Björn Beorn Bo Borkvard 
-				Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik 
+				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjï¿½rn Arngrimr Arni Arne Arnfast 
+				Asbjï¿½rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjï¿½rn Beorn Bo Borkvard 
+				Botulfr Bragi Brage Buï¿½li Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik 
 				Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke 
-				Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr 
-				Gudmund Gudröd Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming 
-				Holmger Hrafn Hrolfr Rolf Hrane Hæsteinn Hjalmar Hysing 
-				Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund 
-				Kjartan Klas Knut Kol Kolbjörn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr 
-				Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr 
-				Ragnvald Skuli Skule Snorri Sigbjörn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten 
-				Sturla Styrbjörn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sæmundr Sämund 
-				Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjörn Torbjörn Þorfinn Torfinn Þorbrandr Torbrand 
-				Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf 
-				Vagn Valdemar Vladimir Åke Yngvar Ingvar Orvar Orvar Oysteinn Eysteinn Håkon Olav 
-				Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben 
-				Kasper Kennet Knut Ludvig Mikael Njåld Njord Oddmund Peder Rikard Simon Søren Tollak
+				Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guï¿½mundr 
+				Gudmund Gudrï¿½d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming 
+				Holmger Hrafn Hrolfr Rolf Hrane Hï¿½steinn Hjalmar Hysing 
+				Ingï¿½lfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund 
+				Kjartan Klas Knut Kol Kolbjï¿½rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr 
+				Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rï¿½gnvaldr 
+				Ragnvald Skuli Skule Snorri Sigbjï¿½rn Sigtrygg Sigurï¿½r Sigurd Starkad Steinn Sten 
+				Sturla Styrbjï¿½rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sï¿½mundr Sï¿½mund 
+				Sï¿½lvi Sï¿½lve Sï¿½rkver Tjudmund Toke Tolir ï¿½orbjï¿½rn Torbjï¿½rn ï¿½orfinn Torfinn ï¿½orbrandr Torbrand 
+				ï¿½ordr Tord ï¿½orgil Torkel ï¿½orsteinn Torsten ï¿½orolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf 
+				Vagn Valdemar Vladimir ï¿½ke Yngvar Ingvar Orvar Orvar Oysteinn Eysteinn Hï¿½kon Olav 
+				Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjï¿½rn Daniel Edvard Eilert Elias Esben 
+				Kasper Kennet Knut Ludvig Mikael Njï¿½ld Njord Oddmund Peder Rikard Simon Sï¿½ren Tollak
 		}
 		female_names = {
-			Torhild Aleta Alfhildr Alfhild Alfridh Alvör Anna Asa Åsa Aslaug Asta Astrid Beata 
-			Birgitta Brigid Björg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja 	
+			Torhild Aleta Alfhildr Alfhild Alfridh Alvï¿½r Anna Asa ï¿½sa Aslaug Asta Astrid Beata 
+			Birgitta Brigid Bjï¿½rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja 	
 			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena 
-			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerðr Ingegerd Ingrid Karin 
-			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfrið Malmfrid Margareta Margaret 
-			Maria Rikissa Rögnfrid Ragnfrid Rögnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia 
-			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra 
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjï¿½rg Ingeborg Ingjerï¿½r Ingegerd Ingrid Karin 
+			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfriï¿½ Malmfrid Margareta Margaret 
+			Maria Rikissa Rï¿½gnfrid Ragnfrid Rï¿½gnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia 
+			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa ï¿½ora Thora ï¿½ordis Thordis ï¿½yra 
 			Thyra
 		}
 		dynasty_names = {
-			"Hårfagreætta" "Bielke" "Bildt" "Galte" "Paus" "Smør" "Benkestok" "Kane" "Bonde"
-			"Drake" "av Hafrsfjord" "Ytra" "av Askø" "Koss" "av Røra" "av Nordland" "Hylling"
-			"Alfr" "Herja" "Vansö" "Flod" "af Vendel" "av Alfheim" Vidfamne "Bille"
+			"Hï¿½rfagreï¿½tta" "Bielke" "Bildt" "Galte" "Paus" "Smï¿½r" "Benkestok" "Kane" "Bonde"
+			"Drake" "av Hafrsfjord" "Ytra" "av Askï¿½" "Koss" "av Rï¿½ra" "av Nordland" "Hylling"
+			"Alfr" "Herja" "Vansï¿½" "Flod" "af Vendel" "av Alfheim" Vidfamne "Bille"
 			"Iuel" "Kaas" "Rosenkrantz" "Urne" "Adeler" "Blixenskiold" "Gyldenpalm" "Holberg"
 			"Rosenheim" "Schouboe" "Tordenskiold" "Wessel" "Westervick" "Falsen" "Knagenhjelm"
-			"Galtung" "Heubsch" "Kløcker" "Løvenskiold" "Rosenvinge" "Werenskiold" "Kruckow"
-			"Mowat" "Rømer" "Handingmann" "Skaktavl" "Tordenstierne" Roos 
+			"Galtung" "Heubsch" "Klï¿½cker" "Lï¿½venskiold" "Rosenvinge" "Werenskiold" "Kruckow"
+			"Mowat" "Rï¿½mer" "Handingmann" "Skaktavl" "Tordenstierne" Roos 
 			# CKII
-			"Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswärd" "Kane" "Blixen" "Løvendal" "Balke"
+			"Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswï¿½rd" "Kane" "Blixen" "Lï¿½vendal" "Balke"
 			"Vedel" "Bjelke" "Galle" "Griis"
 		}
 	}
@@ -700,16 +700,16 @@ scandinavian = {
 		primary = ICE
 		male_names = {
 			Andreas Arnaldur Arnmundur Ari Axel Baldur Bjargmundur Bernhard Benedikt Brynjar Carl Cecil Christian Christopher Cyrus Daggeir Daniel Dvalinn Draupnir Dufgus Egill Erlendur Esra Eymundur Eyvindur Fenrir 
-			Finngeir Floki Francis Frosti Geirfinnur Grímkell Gunnar Gunnlaugur Gustav Hagar Hafthor Hildimundur Hrafnkell Huginn Hakon Ingar Ingibjartur Ingimundur Ismael Ivar Jani Jesper Johan Jonmundur Jorgen Kalmar 
+			Finngeir Floki Francis Frosti Geirfinnur Grï¿½mkell Gunnar Gunnlaugur Gustav Hagar Hafthor Hildimundur Hrafnkell Huginn Hakon Ingar Ingibjartur Ingimundur Ismael Ivar Jani Jesper Johan Jonmundur Jorgen Kalmar 
 			Kasper Kornelius Kjartan Kristmundur Lars  Leonhard Lindberg Ljotur Loki Magni Manfred Merlin Muninn Mikael Nanni Nikolas Njall Nonni Norbert Oddgeir Oddvar Olaf Odinn Ormur Patrekur Per Petur Palli Rafael 
 			Ragnar Rolf Rudolf Rurik Safir Snorri Steinfinnur Svanmundur Soren Teitur Thor Thorvald Torfi Tristan Ulrich Unnar Uddur Valbergur Vermundur Vignir Vilbergur Vilmundur Walter Wilhelm Willard William Willum 
 			Ylur Ymir Yngvar Yngvi Yrar Yrkill
 		}
 		female_names = {
-			Aldinborg Alexandra Arja Astrid Aurora Benediktína Bergey Birgitta Bogga Brynja Camilla Catarina Charlotte Cicilia Clara Dagmar Daldis Dara Donna Droplaug Dyrunn Edith Elektra Eleonora Esmeralda Esther Filippa 
-			Finney Freydís Freyja Frigg Geira Gissunn Greta Gunndis Gunnur Hallbera Helga Herborg Hulda Hertha Ida Ingeborg Ingunn Inna Irja Jakobína Jara Jensina Judit Justina Kamilla Kata Kendra Kristin Kolfinna Lena Lillian 
-			Linda Lotta Lydia Magdalena Malena Margret Melkorka Monika Nadja Nana Nella Nina Norma Oddlaug Olga Ottilia Otta Perla Peta Petra Petrea Petronella Rakel Rannveig Risa Renata Rut Salka Selja Sigurveig Sofía Sveindís 
-			Tamara Telma Tinna Torborg Tryggvína Una Unndís Unnur Ursilla Valdis Vendela Veronica Vivan Yana Ylva Yrsa
+			Aldinborg Alexandra Arja Astrid Aurora Benediktï¿½na Bergey Birgitta Bogga Brynja Camilla Catarina Charlotte Cicilia Clara Dagmar Daldis Dara Donna Droplaug Dyrunn Edith Elektra Eleonora Esmeralda Esther Filippa 
+			Finney Freydï¿½s Freyja Frigg Geira Gissunn Greta Gunndis Gunnur Hallbera Helga Herborg Hulda Hertha Ida Ingeborg Ingunn Inna Irja Jakobï¿½na Jara Jensina Judit Justina Kamilla Kata Kendra Kristin Kolfinna Lena Lillian 
+			Linda Lotta Lydia Magdalena Malena Margret Melkorka Monika Nadja Nana Nella Nina Norma Oddlaug Olga Ottilia Otta Perla Peta Petra Petrea Petronella Rakel Rannveig Risa Renata Rut Salka Selja Sigurveig Sofï¿½a Sveindï¿½s 
+			Tamara Telma Tinna Torborg Tryggvï¿½na Una Unndï¿½s Unnur Ursilla Valdis Vendela Veronica Vivan Yana Ylva Yrsa
 		}
 		dynasty_names = {
 			Andersen Bender Bergmann Bernhoeft Bloendal Briem Claessen Clausen Duus Eldjarn Ellingsen Finsen Gnarr Gudjohnsen Haarde Hansen Hjaltalin Hjaltested Jensen Johnsen Joergensen Kaaber Kragh Kvaran Kuld Malmquist 
@@ -720,88 +720,88 @@ scandinavian = {
 		country = {  }
 		province = { local_has_carolean = yes }
 		male_names = {
-			Aðalsteinn Aghi Agmundr Agnarr Áki Áleifr Alfarr Alfvin Algautr Ari Arnfinnr Árni Arnórr Arnþórr Arnviðr Ásbjörn Ásgeirr Ásketill Ásmundr Ásvaldr Auðr Baggi Bárðr Birgir Bjarni Bjartr Björn Brandr Bróðir # La Pléiade
-			Brynjarr Búi Dagfinnr Dagr Danr Egill Eileifr Einarr Eindriði Eiríkr Erlendr Erlingr Eysteinn Eyvindr Félagi Finnr Flæmingr Fólki Friðþjófr Fróði Gauti Gautstafr Geirr Górmr Guðbrandr Guðfriðr Guðini # La Pléiade
-			Guðleifr Guðmundr Gulbrandr Gunnarr Gunni Gunnvaldr Hákon Hálfdan Hallbjörn Halli Hallr Hallsteinn Hallþórr Hallvarðr Haraldr Hávarðr Helgi Hemingr Herleifr Hildingr Hjálmarr Hólmgeirr Hrafn Hreiðarr Hróaldr # La Pléiade
-			Hróarr Hróðgeirr Hróðólfr Hróðvaldr Hrólfr Hrörekr Hugleikr Ingi Ingimárr Ingólfr Ívarr Jarl Jósteinn Kálfr Kári Ketill Knútr Kóri Leifr Magni Mundi Njáll Oddbjörn Oddr Oddvarr Olvir Ráðúlfr Ragnarr Ragnvaldr # La Pléiade
-			Randúlfr Rúni Sigfröðr Sigmundr Sigsteinn Sigurðr Sindri Snorri Stáli Steinarr Steingrímr Steinn Stígandr Stigr Sumarliði Sundri Suni Svantepolk Sveinn Sverrir Þórarinn Þórbjörn Þórfastr Þórfreðr Þórgeirr # La Pléiade
-			Þórgísl Þórgnýr Þórir Þórketill Þórleifr Þórleikr Þórmóðr Þórsteinn Þórvaldr Þróndr Tófi Tóki Tryggvi Úlfr Uni Valdimárr Végarðr Vetrliði Vígi Víkingr Vragi Yngvarr # La Pléiade
+			Aï¿½alsteinn Aghi Agmundr Agnarr ï¿½ki ï¿½leifr Alfarr Alfvin Algautr Ari Arnfinnr ï¿½rni Arnï¿½rr Arnï¿½ï¿½rr Arnviï¿½r ï¿½sbjï¿½rn ï¿½sgeirr ï¿½sketill ï¿½smundr ï¿½svaldr Auï¿½r Baggi Bï¿½rï¿½r Birgir Bjarni Bjartr Bjï¿½rn Brandr Brï¿½ï¿½ir # La Plï¿½iade
+			Brynjarr Bï¿½i Dagfinnr Dagr Danr Egill Eileifr Einarr Eindriï¿½i Eirï¿½kr Erlendr Erlingr Eysteinn Eyvindr Fï¿½lagi Finnr Flï¿½mingr Fï¿½lki Friï¿½ï¿½jï¿½fr Frï¿½ï¿½i Gauti Gautstafr Geirr Gï¿½rmr Guï¿½brandr Guï¿½friï¿½r Guï¿½ini # La Plï¿½iade
+			Guï¿½leifr Guï¿½mundr Gulbrandr Gunnarr Gunni Gunnvaldr Hï¿½kon Hï¿½lfdan Hallbjï¿½rn Halli Hallr Hallsteinn Hallï¿½ï¿½rr Hallvarï¿½r Haraldr Hï¿½varï¿½r Helgi Hemingr Herleifr Hildingr Hjï¿½lmarr Hï¿½lmgeirr Hrafn Hreiï¿½arr Hrï¿½aldr # La Plï¿½iade
+			Hrï¿½arr Hrï¿½ï¿½geirr Hrï¿½ï¿½ï¿½lfr Hrï¿½ï¿½valdr Hrï¿½lfr Hrï¿½rekr Hugleikr Ingi Ingimï¿½rr Ingï¿½lfr ï¿½varr Jarl Jï¿½steinn Kï¿½lfr Kï¿½ri Ketill Knï¿½tr Kï¿½ri Leifr Magni Mundi Njï¿½ll Oddbjï¿½rn Oddr Oddvarr Olvir Rï¿½ï¿½ï¿½lfr Ragnarr Ragnvaldr # La Plï¿½iade
+			Randï¿½lfr Rï¿½ni Sigfrï¿½ï¿½r Sigmundr Sigsteinn Sigurï¿½r Sindri Snorri Stï¿½li Steinarr Steingrï¿½mr Steinn Stï¿½gandr Stigr Sumarliï¿½i Sundri Suni Svantepolk Sveinn Sverrir ï¿½ï¿½rarinn ï¿½ï¿½rbjï¿½rn ï¿½ï¿½rfastr ï¿½ï¿½rfreï¿½r ï¿½ï¿½rgeirr # La Plï¿½iade
+			ï¿½ï¿½rgï¿½sl ï¿½ï¿½rgnï¿½r ï¿½ï¿½rir ï¿½ï¿½rketill ï¿½ï¿½rleifr ï¿½ï¿½rleikr ï¿½ï¿½rmï¿½ï¿½r ï¿½ï¿½rsteinn ï¿½ï¿½rvaldr ï¿½rï¿½ndr Tï¿½fi Tï¿½ki Tryggvi ï¿½lfr Uni Valdimï¿½rr Vï¿½garï¿½r Vetrliï¿½i Vï¿½gi Vï¿½kingr Vragi Yngvarr # La Plï¿½iade
 		}
 		female_names = {
-			Alfhildr Álöf Arnbjörg Ása Ásdís Áshildr Áslaug Ásta Ástríðr Auðr Auðrhildr Bergljót Björg Borghildr Bóþildr Brynhildr Brynja Dagmár Dagný Dagrún Edda Eydís Fríða Grímhildr Guðlaug Guðleif Guðríðr Guðrún Gulla # La Pléiade
-			Gunna Gunnbjörg Gunnhildr Gunnvör Gyða Hallþóra Helga Hildr Hjördís Hlíf Hrafnhildr Hreiðunn Iðunn Inga Ingibjörg Ingigerðr Ingríðr Ingunn Ingvildr Jórunnr Katla Ketilriðr Magnhildr Myrgjöl Ólaug Ragna Ragnbjörg # La Pléiade
-			Ragnfríðr Ragnheiðr Ragnhildr Rúna Saldís Signý Sigríðr Sigrún Sólveig Steinunn Svanhildr Þone Þóra Þórbjörg Þórdís Þórfríðr Þórhildr Þórný Þórunn Þórveig Þórví Þrud Þrúðr Þýri Tófa Unnr Valdís Vígdís # La Pléiade
+			Alfhildr ï¿½lï¿½f Arnbjï¿½rg ï¿½sa ï¿½sdï¿½s ï¿½shildr ï¿½slaug ï¿½sta ï¿½strï¿½ï¿½r Auï¿½r Auï¿½rhildr Bergljï¿½t Bjï¿½rg Borghildr Bï¿½ï¿½ildr Brynhildr Brynja Dagmï¿½r Dagnï¿½ Dagrï¿½n Edda Eydï¿½s Frï¿½ï¿½a Grï¿½mhildr Guï¿½laug Guï¿½leif Guï¿½rï¿½ï¿½r Guï¿½rï¿½n Gulla # La Plï¿½iade
+			Gunna Gunnbjï¿½rg Gunnhildr Gunnvï¿½r Gyï¿½a Hallï¿½ï¿½ra Helga Hildr Hjï¿½rdï¿½s Hlï¿½f Hrafnhildr Hreiï¿½unn Iï¿½unn Inga Ingibjï¿½rg Ingigerï¿½r Ingrï¿½ï¿½r Ingunn Ingvildr Jï¿½runnr Katla Ketilriï¿½r Magnhildr Myrgjï¿½l ï¿½laug Ragna Ragnbjï¿½rg # La Plï¿½iade
+			Ragnfrï¿½ï¿½r Ragnheiï¿½r Ragnhildr Rï¿½na Saldï¿½s Signï¿½ Sigrï¿½ï¿½r Sigrï¿½n Sï¿½lveig Steinunn Svanhildr ï¿½one ï¿½ï¿½ra ï¿½ï¿½rbjï¿½rg ï¿½ï¿½rdï¿½s ï¿½ï¿½rfrï¿½ï¿½r ï¿½ï¿½rhildr ï¿½ï¿½rnï¿½ ï¿½ï¿½runn ï¿½ï¿½rveig ï¿½ï¿½rvï¿½ ï¿½rud ï¿½rï¿½ï¿½r ï¿½ï¿½ri Tï¿½fa Unnr Valdï¿½s Vï¿½gdï¿½s # La Plï¿½iade
 			Yngvildr
 		}
 		dynasty_names = {
-			Áslaugsson Ástriðarson Ásvaldsson Eindriðesson Eiríksson Gormsson Hákonarson Haraldsson Loðbrok Munsö Ragnarsson Sigurðarson Skjöldung Snorrason Þórgilsson Þórsteinsson Þórvaldsson Tryggvason Völsung # La Pléiade
-			Wægmunding Ylfing Yngling # La Pléiade
+			ï¿½slaugsson ï¿½striï¿½arson ï¿½svaldsson Eindriï¿½esson Eirï¿½ksson Gormsson Hï¿½konarson Haraldsson Loï¿½brok Munsï¿½ Ragnarsson Sigurï¿½arson Skjï¿½ldung Snorrason ï¿½ï¿½rgilsson ï¿½ï¿½rsteinsson ï¿½ï¿½rvaldsson Tryggvason Vï¿½lsung # La Plï¿½iade
+			Wï¿½gmunding Ylfing Yngling # La Plï¿½iade
 		}
 	}
 	jutish = {
 		primary = NOL
 		dynasty_names = {
-			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
-			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Godhelming Beorming Eorling ï¿½bbing Hï¿½sting ï¿½lling Eadricing Eadwulfing Leodwalding
+			ï¿½thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmï¿½r Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornrï¿½d Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenrï¿½d Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthrï¿½d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmï¿½r Eadric
+			Eadrï¿½d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdrï¿½d Ealdwine
 			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwï¿½r Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mï¿½rleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osrï¿½d Osulf Osweald Oswine Oswulf Peter Rï¿½dwulf_Ralph Rï¿½genweald Scule
+			Sigeberht Sigehelm Sigeric Sigerï¿½d Sighere Siweard Stigand Swegn Swithelm Swithrï¿½d Swï¿½frï¿½d Sï¿½bert Sï¿½lrï¿½d Sï¿½weald
+			Sï¿½xbald Sï¿½xrï¿½d Thorï¿½d Thurcytel Thurfrith Tostig Uhtrï¿½d Ulfcytel Waltheof Werestan Wiglaf Wihtrï¿½d
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmï¿½r Wulfnoth Wulfstan ï¿½lfgar ï¿½lfmï¿½r ï¿½lfnoth ï¿½lfric ï¿½lfrï¿½d_Alfred ï¿½lfsige
+			ï¿½lfstan ï¿½lfwald ï¿½lfweard ï¿½lfwig ï¿½lfwine ï¿½lle ï¿½thelbald ï¿½thelberht ï¿½thelfrith ï¿½thelhere ï¿½thelmï¿½r
+			ï¿½thelric ï¿½thelrï¿½d_Ailred ï¿½thelsige ï¿½thelstan ï¿½thelweald ï¿½thelweard ï¿½thelwine ï¿½thelwold ï¿½thelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rï¿½dwald
 		}
 		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
+			Agatha Balthild Beorhtflï¿½d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflï¿½d Beorngyth Blï¿½ja Burgflï¿½d Ceolflï¿½d Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflï¿½d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflï¿½d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflï¿½d Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflï¿½d Sigrid Sï¿½thryth Wulfflï¿½d Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflï¿½d Wï¿½rburg ï¿½bba ï¿½lfflï¿½d ï¿½lfgifu ï¿½lfgyth ï¿½lflï¿½da_ï¿½lflï¿½da ï¿½lfrida
+			ï¿½lfswith ï¿½lfthryth ï¿½lfwynn ï¿½thelburg ï¿½thelflï¿½d ï¿½thelgifu ï¿½thelhild ï¿½thelrï¿½da_ï¿½thelreda ï¿½thelswith ï¿½thelthryth
+			ï¿½thelburh Seaxburh Wihtburh
 		}
 	}
 	angle = {
 		primary = ENG
 		dynasty_names = {
-			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
-			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Godhelming Beorming Eorling ï¿½bbing Hï¿½sting ï¿½lling Eadricing Eadwulfing Leodwalding
+			ï¿½thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmï¿½r Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornrï¿½d Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenrï¿½d Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthrï¿½d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmï¿½r Eadric
+			Eadrï¿½d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdrï¿½d Ealdwine
 			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwï¿½r Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mï¿½rleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osrï¿½d Osulf Osweald Oswine Oswulf Peter Rï¿½dwulf_Ralph Rï¿½genweald Scule
+			Sigeberht Sigehelm Sigeric Sigerï¿½d Sighere Siweard Stigand Swegn Swithelm Swithrï¿½d Swï¿½frï¿½d Sï¿½bert Sï¿½lrï¿½d Sï¿½weald
+			Sï¿½xbald Sï¿½xrï¿½d Thorï¿½d Thurcytel Thurfrith Tostig Uhtrï¿½d Ulfcytel Waltheof Werestan Wiglaf Wihtrï¿½d
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmï¿½r Wulfnoth Wulfstan ï¿½lfgar ï¿½lfmï¿½r ï¿½lfnoth ï¿½lfric ï¿½lfrï¿½d_Alfred ï¿½lfsige
+			ï¿½lfstan ï¿½lfwald ï¿½lfweard ï¿½lfwig ï¿½lfwine ï¿½lle ï¿½thelbald ï¿½thelberht ï¿½thelfrith ï¿½thelhere ï¿½thelmï¿½r
+			ï¿½thelric ï¿½thelrï¿½d_Ailred ï¿½thelsige ï¿½thelstan ï¿½thelweald ï¿½thelweard ï¿½thelwine ï¿½thelwold ï¿½thelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rï¿½dwald
 		}
 		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
+			Agatha Balthild Beorhtflï¿½d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflï¿½d Beorngyth Blï¿½ja Burgflï¿½d Ceolflï¿½d Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflï¿½d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflï¿½d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflï¿½d Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflï¿½d Sigrid Sï¿½thryth Wulfflï¿½d Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflï¿½d Wï¿½rburg ï¿½bba ï¿½lfflï¿½d ï¿½lfgifu ï¿½lfgyth ï¿½lflï¿½da_ï¿½lflï¿½da ï¿½lfrida
+			ï¿½lfswith ï¿½lfthryth ï¿½lfwynn ï¿½thelburg ï¿½thelflï¿½d ï¿½thelgifu ï¿½thelhild ï¿½thelrï¿½da_ï¿½thelreda ï¿½thelswith ï¿½thelthryth
+			ï¿½thelburh Seaxburh Wihtburh
 		}
 	}
 	viking_scottish = {
@@ -817,44 +817,44 @@ scandinavian = {
 		primary = SWE
 	}
 	male_names = {
-		Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjörn Arngrimr Arni Arne Arnfast 
-		Asbjörn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Björn Beorn Bo Borkvard 
-		Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik 
+		Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjï¿½rn Arngrimr Arni Arne Arnfast 
+		Asbjï¿½rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjï¿½rn Beorn Bo Borkvard 
+		Botulfr Bragi Brage Buï¿½li Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik 
 		Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke 
-		Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr 
-		Gudmund Gudröd Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming 
-		Holmger Hrafn Hrolfr Rolf Hrane Hæsteinn Hjalmar Hysing 
-		Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund 
-		Kjartan Klas Knut Kol Kolbjörn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr 
-		Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr 
-		Ragnvald Skuli Skule Snorri Sigbjörn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten 
-		Sturla Styrbjörn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sæmundr Sämund 
-		Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjörn Torbjörn Þorfinn Torfinn Þorbrandr Torbrand 
-		Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf 
-		Vagn Valdemar Vladimir Åke Yngvar Ingvar Orvar Orvar Oysteinn Eysteinn Håkon Olav 
-		Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben 
-		Kasper Kennet Knut Ludvig Mikael Njåld Njord Oddmund Peder Rikard Simon Søren Tollak
+		Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guï¿½mundr 
+		Gudmund Gudrï¿½d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming 
+		Holmger Hrafn Hrolfr Rolf Hrane Hï¿½steinn Hjalmar Hysing 
+		Ingï¿½lfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund 
+		Kjartan Klas Knut Kol Kolbjï¿½rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr 
+		Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rï¿½gnvaldr 
+		Ragnvald Skuli Skule Snorri Sigbjï¿½rn Sigtrygg Sigurï¿½r Sigurd Starkad Steinn Sten 
+		Sturla Styrbjï¿½rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sï¿½mundr Sï¿½mund 
+		Sï¿½lvi Sï¿½lve Sï¿½rkver Tjudmund Toke Tolir ï¿½orbjï¿½rn Torbjï¿½rn ï¿½orfinn Torfinn ï¿½orbrandr Torbrand 
+		ï¿½ordr Tord ï¿½orgil Torkel ï¿½orsteinn Torsten ï¿½orolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf 
+		Vagn Valdemar Vladimir ï¿½ke Yngvar Ingvar Orvar Orvar Oysteinn Eysteinn Hï¿½kon Olav 
+		Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjï¿½rn Daniel Edvard Eilert Elias Esben 
+		Kasper Kennet Knut Ludvig Mikael Njï¿½ld Njord Oddmund Peder Rikard Simon Sï¿½ren Tollak
 	}
 	female_names = {
-		Torhild Aleta Alfhildr Alfhild Alfridh Alvör Anna Asa Åsa Aslaug Asta Astrid Beata 
-		Birgitta Brigid Björg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja 	
+		Torhild Aleta Alfhildr Alfhild Alfridh Alvï¿½r Anna Asa ï¿½sa Aslaug Asta Astrid Beata 
+		Birgitta Brigid Bjï¿½rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja 	
 		Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena 
-		Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerðr Ingegerd Ingrid Karin 
-		Katarina Catherine Kraka Kristina Christina Linda Maer Malmfrið Malmfrid Margareta Margaret 
-		Maria Rikissa Rögnfrid Ragnfrid Rögnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia 
-		Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra 
+		Helen Holmfrid Iliana Inga Ingfrid Ingibjï¿½rg Ingeborg Ingjerï¿½r Ingegerd Ingrid Karin 
+		Katarina Catherine Kraka Kristina Christina Linda Maer Malmfriï¿½ Malmfrid Margareta Margaret 
+		Maria Rikissa Rï¿½gnfrid Ragnfrid Rï¿½gnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia 
+		Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa ï¿½ora Thora ï¿½ordis Thordis ï¿½yra 
 		Thyra
 	}
 	dynasty_names = {
-		"Hårfagreætta" "Bielke" "Bildt" "Galte" "Paus" "Smør" "Benkestok" "Kane" "Bonde"
-		"Drake" "av Hafrsfjord" "Ytra" "av Askø" "Koss" "av Røra" "av Nordland" "Hylling"
-		"Alfr" "Herja" "Vansö" "Flod" "af Vendel" "av Alfheim" Vidfamne "Bille"
+		"Hï¿½rfagreï¿½tta" "Bielke" "Bildt" "Galte" "Paus" "Smï¿½r" "Benkestok" "Kane" "Bonde"
+		"Drake" "av Hafrsfjord" "Ytra" "av Askï¿½" "Koss" "av Rï¿½ra" "av Nordland" "Hylling"
+		"Alfr" "Herja" "Vansï¿½" "Flod" "af Vendel" "av Alfheim" Vidfamne "Bille"
 		"Iuel" "Kaas" "Rosenkrantz" "Urne" "Adeler" "Blixenskiold" "Gyldenpalm" "Holberg"
 		"Rosenheim" "Schouboe" "Tordenskiold" "Wessel" "Westervick" "Falsen" "Knagenhjelm"
-		"Galtung" "Heubsch" "Kløcker" "Løvenskiold" "Rosenvinge" "Werenskiold" "Kruckow"
-		"Mowat" "Rømer" "Handingmann" "Skaktavl" "Tordenstierne" Roos 
+		"Galtung" "Heubsch" "Klï¿½cker" "Lï¿½venskiold" "Rosenvinge" "Werenskiold" "Kruckow"
+		"Mowat" "Rï¿½mer" "Handingmann" "Skaktavl" "Tordenstierne" Roos 
 		# CKII
-		"Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswärd" "Kane" "Blixen" "Løvendal" "Balke"
+		"Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswï¿½rd" "Kane" "Blixen" "Lï¿½vendal" "Balke"
 		"Vedel" "Bjelke" "Galle" "Griis"
 	}
 }
@@ -866,20 +866,20 @@ finno_ugric = { #Ugric
 		primary = PRM
 		male_names = {
 			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr 
-			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör 
+			Kos'ta ï¿½ndrey Stepan ï¿½lyï¿½ksey Boris Danil Dmitry Pedot Illya Segï¿½ Semï¿½ Pedï¿½r 
 		}
 		female_names = {
-			Nasta Katyö Ölga
+			Nasta Katyï¿½ ï¿½lga
 		}
 	}
 	samoyed = {
 		male_names = {
-			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
-			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngï¿½noh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xï¿½ryuchi Yadne 
 			Yar Yavlad Yurak Pudak Yapti
 		}
 		female_names = {
-			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+			Atpï¿½lha Auli Galya Ilme Kat Khatyako Kontï¿½w Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
 		}
 		dynasty_names = {
 			# CKII
@@ -890,29 +890,29 @@ finno_ugric = { #Ugric
 	
 	ostyaki = {
 		male_names = {
-			Ággi Áigesárri Áilu Ámmot Ára Árrajuoksa Ásllat Èoavvá Ahkemiella Algebaeivi Baeivi Aare Agul Ahas Aho Ahti Ahvo 
-			Alar Alo Alur Aopelg Aotõiv Arp Arvet Arvo Atko Aul Aulemb Kaur Kiur Kiurupelg Koit Kosk Kudres Susi Sutemeel Meigo 
-			Neeme Niglas Vilitõiv Vilivald Tasulemb Toivo Toom Tunne Tutkas Tuul Tõeleid Tõiv Tõivulemb Tõll Urmas Uru Valdur 
+			ï¿½ggi ï¿½igesï¿½rri ï¿½ilu ï¿½mmot ï¿½ra ï¿½rrajuoksa ï¿½sllat ï¿½oavvï¿½ Ahkemiella Algebaeivi Baeivi Aare Agul Ahas Aho Ahti Ahvo 
+			Alar Alo Alur Aopelg Aotï¿½iv Arp Arvet Arvo Atko Aul Aulemb Kaur Kiur Kiurupelg Koit Kosk Kudres Susi Sutemeel Meigo 
+			Neeme Niglas Vilitï¿½iv Vilivald Tasulemb Toivo Toom Tunne Tutkas Tuul Tï¿½eleid Tï¿½iv Tï¿½ivulemb Tï¿½ll Urmas Uru Valdur 
 			Kezhevat Kichay Koksha Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas 
 			Velmayka Virdyan Viryas Viryay Vokan Yirkap Ylvan Andyamo Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar 
 			Oshypel Ovtay Ozheg Ozhmeg Zhebeg Zhuneg Zyryan Zarny Zhebeg Zhuneg Zyryan Andyamo Chichayka Chumbulat Dergun Deryab 
 			Uchva Varaka Vechkas Velmayka Virdyan Viryas Viryay Atyamas Azyren Chipaz Kardaz Kinyak 
 		}
 		female_names = {
-			Áidná Álgen Állet Èuvje Biellá Biergá Buohttá Duojá Gealá Gierá Giste Juoksáhkká Leandu Kati Kiir Kiire Killu Käbi 
+			ï¿½idnï¿½ ï¿½lgen ï¿½llet ï¿½uvje Biellï¿½ Biergï¿½ Buohttï¿½ Duojï¿½ Gealï¿½ Gierï¿½ Giste Juoksï¿½hkkï¿½ Leandu Kati Kiir Kiire Killu Kï¿½bi 
 			Lagle Laine Lee Leek Leelo Leili Lemme Liis Lill Linda Luule Elyuva Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka 
 			Litava Liyava Mazava Megurka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka Tekay Tetyava Tikshayka 
 			Toyaksha Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa 
-			Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Yugörka Anava Ashava Asrava Avya Azra-Va 
+			Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Yugï¿½rka Anava Ashava Asrava Avya Azra-Va 
 			Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva Kirdyava 
 			Kunava Kunyavka Litava 
 		}
 	}
 	ingrian = {
 		male_names = {
-			Kahru Kahrulemb Gáktu Henes Járre Jeansa Juvven John Lágon Lávrrohas Leammá Mellet Mihka Igalemb Ihameel Ihar 
-			Ihatõiv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep Lättelemb Manivald Mart Maru Mati Mats Meelis Mehis 
-			Ohetõiv Ohevald Olev Onni Otelemb Ott Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun 
+			Kahru Kahrulemb Gï¿½ktu Henes Jï¿½rre Jeansa Juvven John Lï¿½gon Lï¿½vrrohas Leammï¿½ Mellet Mihka Igalemb Ihameel Ihar 
+			Ihatï¿½iv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep Lï¿½ttelemb Manivald Mart Maru Mati Mats Meelis Mehis 
+			Ohetï¿½iv Ohevald Olev Onni Otelemb Ott Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun 
 			Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Dobrinya Dokya 
 			Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka 
 			Tikshayka Tuhan Tyueykezhut Tyutyuk Meltsayka Mordvinko Moksha Nalka Nuyaksha Nuyanza Nuyat Ovtay Pakstyan Paksyay 
@@ -920,10 +920,10 @@ finno_ugric = { #Ugric
 		}
 		female_names = {
 			Aasa Ahma Aime Aimo Aita Aldi Ann Anni Annika Are Auli Aune Eha Elo Ere Helbe Hele Helgi Tiiu Tuuli Urve Viire Vilja 
-			Virge Virve Värvu Õie Õnne Ülane Ülle Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa 
-			Chindyayka Chinzhay Chitska Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka 
+			Virge Virve Vï¿½rvu ï¿½ie ï¿½nne ï¿½lane ï¿½lle Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa 
+			Chindyayka Chinzhay Chitska Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama ï¿½shkamï¿½shka 
 			Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava 
-			Yugörka Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva 
+			Yugï¿½rka Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva 
 			Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nuyanza 
 			Nyal'ka 
 		}
@@ -931,47 +931,47 @@ finno_ugric = { #Ugric
 	magyar = {
 		primary = HUN
 		dynasty_names = {
-			Báthory Hunyadi Szapolyai Rákóczy Bocskai Bethlen Almásy Andrássy Batthyány Csáky Dessewffy
-			Erdody Eszterházy Festetics Hajdú Károlyi Kun Magyary Perényi Rónai Széchenyi Szepessy 
-			Thököly Tisza Zrínyi Teleki
-			Majláth Dóczy Dobó Koháry Orczy Frankopan Garay Mikes Szécsi Imreffy Nádasdy Rhédey
+			Bï¿½thory Hunyadi Szapolyai Rï¿½kï¿½czy Bocskai Bethlen Almï¿½sy Andrï¿½ssy Batthyï¿½ny Csï¿½ky Dessewffy
+			Erdody Eszterhï¿½zy Festetics Hajdï¿½ Kï¿½rolyi Kun Magyary Perï¿½nyi Rï¿½nai Szï¿½chenyi Szepessy 
+			Thï¿½kï¿½ly Tisza Zrï¿½nyi Teleki
+			Majlï¿½th Dï¿½czy Dobï¿½ Kohï¿½ry Orczy Frankopan Garay Mikes Szï¿½csi Imreffy Nï¿½dasdy Rhï¿½dey
 			
 			#CK2
-			Zrinski Hadik Both "Rákóczi" Forgách Cseszneky Derencsényi Décsey Révay Esterházy
-			Kállay Kemény Thurzó Zichy
+			Zrinski Hadik Both "Rï¿½kï¿½czi" Forgï¿½ch Cseszneky Derencsï¿½nyi Dï¿½csey Rï¿½vay Esterhï¿½zy
+			Kï¿½llay Kemï¿½ny Thurzï¿½ Zichy
 		}
 		male_names = {
-			Ulászló László Lajos Albert János Mátyás Zsigmond András Károly István Béla Anasztáz Barnabás 
-			Boldizsár Dávid Dömötör Edvárd Ernö Ferenc Gábor György Izsák Jenö József Kálmán Kázmér Lörinc 
-			Miklós Oszkár Ottó Patrik Péter Simon Tamás Vencel
-			Ábel Ádárn Ágoston Álmos Árpád Õdön Otto Alajos Ambrus András Andrew Antal Attila Bálint 
-			Albert Balázs Benedek Benedict Bernát Bernard Bertók Bertalan Boldizsár Bonuslo
-			Borisz Boris Csák Csaba Csongor Dénes Dömötör Dezsõ Domoszló Donát Elek Elemér Endre Ernõ 
-			Philip Ferenc Francis Frigyes Gábor Gábriel Gabriel Gáspár Caspar Géza Gazsi
-			Gellért Gergely György George Gyula Imre István Stephen Izsák Jákob Jacob János John József 
-			Joseph Jenõ Kálmán Károly Charles Konrád Konrad Kornél Kristóf László Lázár Lõrinc Lajos 
-			Lampert Levente Lukács Márk Marcus Márton Martin Máté Mátyás Matthew Móric Mózes Mihály 
-			Michael Louis Fulöp Béla
-			Miklós Nándor Orbán Oszkár Pál Paul Péter Peter Sámuel Samuel Sándor Alexander Salamon 
-			Szilveszter Silvester Tádor Tacsony Tamás Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
-			Zoltán Zsigmond Sigmund Zsolt Saul Soma
+			Ulï¿½szlï¿½ Lï¿½szlï¿½ Lajos Albert Jï¿½nos Mï¿½tyï¿½s Zsigmond Andrï¿½s Kï¿½roly Istvï¿½n Bï¿½la Anasztï¿½z Barnabï¿½s 
+			Boldizsï¿½r Dï¿½vid Dï¿½mï¿½tï¿½r Edvï¿½rd Ernï¿½ Ferenc Gï¿½bor Gyï¿½rgy Izsï¿½k Jenï¿½ Jï¿½zsef Kï¿½lmï¿½n Kï¿½zmï¿½r Lï¿½rinc 
+			Miklï¿½s Oszkï¿½r Ottï¿½ Patrik Pï¿½ter Simon Tamï¿½s Vencel
+			ï¿½bel ï¿½dï¿½rn ï¿½goston ï¿½lmos ï¿½rpï¿½d ï¿½dï¿½n Otto Alajos Ambrus Andrï¿½s Andrew Antal Attila Bï¿½lint 
+			Albert Balï¿½zs Benedek Benedict Bernï¿½t Bernard Bertï¿½k Bertalan Boldizsï¿½r Bonuslo
+			Borisz Boris Csï¿½k Csaba Csongor Dï¿½nes Dï¿½mï¿½tï¿½r Dezsï¿½ Domoszlï¿½ Donï¿½t Elek Elemï¿½r Endre Ernï¿½ 
+			Philip Ferenc Francis Frigyes Gï¿½bor Gï¿½briel Gabriel Gï¿½spï¿½r Caspar Gï¿½za Gazsi
+			Gellï¿½rt Gergely Gyï¿½rgy George Gyula Imre Istvï¿½n Stephen Izsï¿½k Jï¿½kob Jacob Jï¿½nos John Jï¿½zsef 
+			Joseph Jenï¿½ Kï¿½lmï¿½n Kï¿½roly Charles Konrï¿½d Konrad Kornï¿½l Kristï¿½f Lï¿½szlï¿½ Lï¿½zï¿½r Lï¿½rinc Lajos 
+			Lampert Levente Lukï¿½cs Mï¿½rk Marcus Mï¿½rton Martin Mï¿½tï¿½ Mï¿½tyï¿½s Matthew Mï¿½ric Mï¿½zes Mihï¿½ly 
+			Michael Louis Fulï¿½p Bï¿½la
+			Miklï¿½s Nï¿½ndor Orbï¿½n Oszkï¿½r Pï¿½l Paul Pï¿½ter Peter Sï¿½muel Samuel Sï¿½ndor Alexander Salamon 
+			Szilveszter Silvester Tï¿½dor Tacsony Tamï¿½s Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
+			Zoltï¿½n Zsigmond Sigmund Zsolt Saul Soma
 		}
 		female_names = {
-			Ágnes Agnes Éva Eva Adelaida Adelaide Agáta Agatha Amália Amelia Angyalka Anikó Aranka 
-			Bertha Borbála Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emõke Emese Erika Erzsébet 
+			ï¿½gnes Agnes ï¿½va Eva Adelaida Adelaide Agï¿½ta Agatha Amï¿½lia Amelia Angyalka Anikï¿½ Aranka 
+			Bertha Borbï¿½la Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emï¿½ke Emese Erika Erzsï¿½bet 
 			Elisabeth Eszter Berta Anna
-			Etel Euphemia Euphemia Gizella Gisela Györgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikó 
-			Irén Irene Jácinta Józsa Júlia Juliana Jolán Judith Judith Kamilla Camilla Katalin 
-			Kinga Klára Clara Catherine Illona
-			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mária Maria Márta Martha 
-			Magdolna Magdalena Margaréta Margaret Margit Matild Matilda Natália Natalia Odola Orsolya 
-			Panni Piroska Rózsa Rosa Sára Sarah Sarolt Zsuzsa Zsanett
-			Skolasztika Sophia Sophia Tundér Terezia Teresa Viola Viola Virág Zoltána Zsófia Sophia
+			Etel Euphemia Euphemia Gizella Gisela Gyï¿½rgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikï¿½ 
+			Irï¿½n Irene Jï¿½cinta Jï¿½zsa Jï¿½lia Juliana Jolï¿½n Judith Judith Kamilla Camilla Katalin 
+			Kinga Klï¿½ra Clara Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mï¿½ria Maria Mï¿½rta Martha 
+			Magdolna Magdalena Margarï¿½ta Margaret Margit Matild Matilda Natï¿½lia Natalia Odola Orsolya 
+			Panni Piroska Rï¿½zsa Rosa Sï¿½ra Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Sophia Tundï¿½r Terezia Teresa Viola Viola Virï¿½g Zoltï¿½na Zsï¿½fia Sophia
 		}
 	}
 	dynasty_names = {
 		# CKII - Lappish
-		"Ubmeje" "Nuoráne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
+		"Ubmeje" "Nuorï¿½ne" "Gï¿½jka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guolï¿½dat"
 		# Komi
 		"Azegid" "Gachegid" "Zhebegid" "Lunegid" "Zhunegid" "Irtegid" "Moshegid" "Nydogid" "Nylogid" "Ozhegid" "Odegid" 
 		"Rategid" "Permyakid" "Yugra" "Syktyvkar"
@@ -994,18 +994,18 @@ baltic	= {
 			Endel Endrik Enn Enno Ergo Erik Erki Erko Erlend Ermo Evald Evert Feliks Georg Gert Gunnar Gustav Hannes Hans 
 			Hardi Harri Heigo Heiki Heino Heiti Hendrik Henn Henri Hillar Iisak Illar Illimar Ilmar Ilmo Imre Indrek Innar 
 			Ivar Ivari Ivo Jaagup Jaak Jaakob Jaan Jaanus Jakob Janar Janek Janno Jass Joel Johannes Joona Joonas Joonatan 
-			Joosep Juhan Juho Jukk Juss Jürgen Jüri Jürjo Kaarel Kaido Kajar Kalev Kaljo Kalju Kalle Kardo Karl Kaspar 
+			Joosep Juhan Juho Jukk Juss Jï¿½rgen Jï¿½ri Jï¿½rjo Kaarel Kaido Kajar Kalev Kaljo Kalju Kalle Kardo Karl Kaspar 
 			Kaupo Kaur Kauri Ken Kermo Kert Kevin Koit Kristen Kristian Kristjan Kristo Kristofer Kuldar Kunnar Kusta 
-			Kustas Kustav Küllo Laur Lauri Leevi Leho Lembit Lennart Luukas Maanus Maarjo Madi Madis Magnus Maido Mairo 
+			Kustas Kustav Kï¿½llo Laur Lauri Leevi Leho Lembit Lennart Luukas Maanus Maarjo Madi Madis Magnus Maido Mairo 
 			Mait Marek Margo Margus Mario Mark Marko Markus Marten Marti Martin Mati Matteus Mattias Meelis Meeme Mehis 
-			Mihkel Miikael Mikk Märt Neeme Nigul Nigulas Niilo Nuut Olari Olavi Olev Oliver Oskar Ott Otto Paavo Paul 
+			Mihkel Miikael Mikk Mï¿½rt Neeme Nigul Nigulas Niilo Nuut Olari Olavi Olev Oliver Oskar Ott Otto Paavo Paul 
 			Paulus Peep Peeter Peetrus Priidu Priit Ragnar Raido Raigo Raiko Raimo Raimond Rain Rainer Rait Raivo Rando 
 			Ranno Rasmus Raul Rauno Reedik Reigo Rein Reio Rene Richard Rihard Riho Riivo Risto Robert Robi Robin Roland 
-			Roman Romet Roomet Rudolf Ruuben Ruudi Ruut Rünno Saamuel Sander Siim Siimeon Siimon Silver Sten Sulev Sven 
+			Roman Romet Roomet Rudolf Ruuben Ruudi Ruut Rï¿½nno Saamuel Sander Siim Siimeon Siimon Silver Sten Sulev Sven 
 			Taaniel Taavet Taavi Taavo Taivo Tambet Tanel Tarmo Tarvi Tarvo Tauno Tauri Teet Tiidrik Tiit Tiitus Timmo 
-			Timmu Timo Toivo Toomas Tormi Tuudor Tõnis Tõnu Udo Uku Uno Urmas Urmet Urmo Uudo Vahur Vaiko Vaino Valdeko 
+			Timmu Timo Toivo Toomas Tormi Tuudor Tï¿½nis Tï¿½nu Udo Uku Uno Urmas Urmet Urmo Uudo Vahur Vaiko Vaino Valdeko 
 			Valdo Valdur Valentin Vallo Valter Vambola Veiko Veljo Vello Verner Vidrik Viktor Viljar Viljo Ville Villem 
-			Villu Voldemar Vootele Väino Ülari Üllar Üllo Ülo Ürjo
+			Villu Voldemar Vootele Vï¿½ino ï¿½lari ï¿½llar ï¿½llo ï¿½lo ï¿½rjo
 		}
 		female_names = {
 			Aada Aasa Aet Age Agnes Aile Aili Aino Ainu Aire Airi Aita Aive Aleksandra Alina Andra Anete Angela Angelika 
@@ -1016,15 +1016,15 @@ baltic	= {
 			Ingel Ingrid Inna Irene Iris Irja Irma Ivi Ivika Jaana Jaanika Jana Jane Janne Johanna Juta Kaarin Kadi Kadri 
 			Kai Kaia Kaidi Kaie Kaili Kairi Kaisa Kaja Karin Karina Karmen Karoliina Karoliine Karolin Katariina Kati Katre 
 			Katri  Katriin Katrin Keiu Kelli Kerli Kersti Kerstin Kertu Kirke Koidu Krista Kristel Kristen Kristi Kristiina 
-			Kristin Kristina Kärt Kätlin Külli Küllike Lagle Laine Laura Lea Leelo Lehte Leida Leili Lembi Lemme Lii Liia 
-			Liidia Liilia Liina Liis Liisa Liisbet Liisi Liivi Lilian Lilli Linda Luule Lüüdia Maarika Maarja Made Madli 
+			Kristin Kristina Kï¿½rt Kï¿½tlin Kï¿½lli Kï¿½llike Lagle Laine Laura Lea Leelo Lehte Leida Leili Lembi Lemme Lii Liia 
+			Liidia Liilia Liina Liis Liisa Liisbet Liisi Liivi Lilian Lilli Linda Luule Lï¿½ï¿½dia Maarika Maarja Made Madli 
 			Mai Maia Maie Maila Maimu Maire Malle Mare Maret Margareeta Margaret Marge Margit Margot Mari Mari-Liis Maria 
 			Marika Mariliis Marina Maris Marit Marje Marju Marleen Marta Marve Meeli Meelika Meelike Merike Merili Merilin 
 			Merit Merje Merle Miia Miina Minna Mirjam Monika Moonika Nele Olli Paula Piia Pille Pilvi Piret Raahel Rahel 
 			Raili Rebeka Reeli Reelika Reet Regina Reili Renate Riin Riina Riinu Rita Ruth Rutt Ruut Saara Saima Salme 
 			Sandra Sigrid Siiri Silja Silvi Silvia Siret Sirje Sirli Susanna Taimi Talvi Tea Teele Terje Tiia Tiina Tiiu 
-			Triin Triinu Tuule Tuuli Ursula Urve Vaike Valli Veronika Viia Viiu Viive Viivi Vilja Virge Virve Õie Õnne 
-			Õnnela Ülle
+			Triin Triinu Tuule Tuuli Ursula Urve Vaike Valli Veronika Viia Viiu Viive Viivi Vilja Virge Virve ï¿½ie ï¿½nne 
+			ï¿½nnela ï¿½lle
 		}
 	}
 	lithuanian = {
@@ -1037,10 +1037,10 @@ baltic	= {
 			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
 		}
 		female_names = {
-			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Aušra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
-			Edita Egle Elena Elžbieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Agnï¿½ Morta Viltautï¿½ Agnï¿½ Aldona Amalija Audra Aurelija Auï¿½ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena Elï¿½bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
 			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
-			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Rože Ruta Sandra Saule 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Roï¿½e Ruta Sandra Saule 
 			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
 		}
 		dynasty_names = {
@@ -1079,10 +1079,10 @@ baltic	= {
 			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
 		}
 		female_names = {
-			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Aušra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
-			Edita Egle Elena Elžbieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Agnï¿½ Morta Viltautï¿½ Agnï¿½ Aldona Amalija Audra Aurelija Auï¿½ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena Elï¿½bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
 			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
-			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Rože Ruta Sandra Saule 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Roï¿½e Ruta Sandra Saule 
 			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
 		}
 		dynasty_names = {
@@ -1112,11 +1112,11 @@ baltic	= {
 		Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
 		Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
 		# CKII
-		"von Finckenstein" "Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan" "von Preussen" "von Königsberg" 
+		"von Finckenstein" "Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan" "von Preussen" "von Kï¿½nigsberg" 
 		"Jankowskie" "von Danzig" "von Seidlitz" "von Marienburg" "Konopacki"
 		"von Memel" "von Kurs" "von Rohrbach" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
 		# Ugric Baltic
-		"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
+		"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Lï¿½ï¿½nemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
 		"Ridala" "Saaremaa" "Vaiga" "Turaida"
 	}
 }
@@ -1245,7 +1245,7 @@ caucasian = {
 		}
 		dynasty_names = {
 			Guaye Adamiy Abzakh Zhaney Mamkhegh Mokhosh Natukhai Temirgoy
-			Hatuqwai Khegaik Khetuk Cöbein Shapsug Beslenei Ubykh Tazryt Okhlov
+			Hatuqwai Khegaik Khetuk Cï¿½bein Shapsug Beslenei Ubykh Tazryt Okhlov
 		}
 	}
 	dagestani = {
@@ -1309,59 +1309,59 @@ altaic = {
 	mongol = {
 		primary = KHA
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke 
-			Manduulun Öljei Örüg Oyiradai Ögödei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtï¿½ Dayan 
+			Delbeg Ejei Elbeg Engke Gï¿½yï¿½k Gï¿½n Gulichi Irinchibal Jorightu Kublai Kï¿½ke Ligdan Markï¿½rgis Mï¿½ngke 
+			Manduulun ï¿½ljei ï¿½rï¿½g Oyiradai ï¿½gï¿½dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temï¿½r Toghun 
+			Tolui Toq Uskhal Yesï¿½n Ariq Batu Eljigidei Joichi Darayisung Tï¿½men
 		}
 		female_names = {
-			Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 		dynasty_names = {
 			# CKII
 			"Onggirat" "Naiman" "Kereyid" "Sartaq" "Mengu-Timur" "Uriankhai" "Bujakhin" "Besud" "Noyan" 
 			"Jochid" "Chagatayid" "Borjigin" "Chupanid" "Injuid" "Toluid" "Ganbold" "Bolormaa" "Batbayar" 
-			"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergüi" "Lkhagvasüren" "Enkhjargal" 
-			"Ganzorig" "Narantsetseg" "Pürevsüren" "Ganbaatar" "Mönkhtsetseg" "Mönkhbat" "Mönkh-Erdene" 
+			"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergï¿½i" "Lkhagvasï¿½ren" "Enkhjargal" 
+			"Ganzorig" "Narantsetseg" "Pï¿½revsï¿½ren" "Ganbaatar" "Mï¿½nkhtsetseg" "Mï¿½nkhbat" "Mï¿½nkh-Erdene" 
 			"Jalair" "Sartuul" "Olkhunut" "Khatagin" "Iljigin" "Tsookhor" "Qarakhanid"
 		}
 	}
 	chahar = { # now korchin
 		primary = KRC
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke 
-			Manduulun Öljei Örüg Oyiradai Ögödei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtï¿½ Dayan 
+			Delbeg Ejei Elbeg Engke Gï¿½yï¿½k Gï¿½n Gulichi Irinchibal Jorightu Kublai Kï¿½ke Ligdan Markï¿½rgis Mï¿½ngke 
+			Manduulun ï¿½ljei ï¿½rï¿½g Oyiradai ï¿½gï¿½dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temï¿½r Toghun 
+			Tolui Toq Uskhal Yesï¿½n Ariq Batu Eljigidei Joichi Darayisung Tï¿½men
 		}
 		female_names = {
-			Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	khalkha = {
 		primary = KLK
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke 
-			Manduulun Öljei Örüg Oyiradai Ögödei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtï¿½ Dayan 
+			Delbeg Ejei Elbeg Engke Gï¿½yï¿½k Gï¿½n Gulichi Irinchibal Jorightu Kublai Kï¿½ke Ligdan Markï¿½rgis Mï¿½ngke 
+			Manduulun ï¿½ljei ï¿½rï¿½g Oyiradai ï¿½gï¿½dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temï¿½r Toghun 
+			Tolui Toq Uskhal Yesï¿½n Ariq Batu Eljigidei Joichi Darayisung Tï¿½men
 		}
 		female_names = {
-			Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	oirats = {
 		primary = ZUN
 		male_names = {
-			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten 
-			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori 
-			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlök
+			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Gï¿½shi Lha-bzang Khara Khula Kho Sengge Tseten 
+			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bï¿½ki Bayan Dayan Hami Molon Oori 
+			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlï¿½k
 		}
 		female_names = {
-			Hoelun Tamülün Sorghaghtani Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Hoelun Tamï¿½lï¿½n Sorghaghtani Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	uzbehk = {
@@ -1376,7 +1376,7 @@ altaic = {
 			Iskandar
 		}
 		female_names = {
-			Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	turkmeni = {
@@ -1403,15 +1403,15 @@ altaic = {
 	uyghur = {
 		primary = KAS
 		male_names = {
-			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temür Buzan 
-			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temür Eljigidey Esen Buqa Ilbars Ilyas Ismail 
-			Khabul Khizr Könchek Mahmud Mansur Mubarak Muhammad Muhammad Amin Muhammad Mumin Naqsh-i-Jahan 
+			Abdul-Karim Abdul-Latif Abdul-Rashï¿½d Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temï¿½r Buzan 
+			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temï¿½r Eljigidey Esen Buqa Ilbars Ilyas Ismail 
+			Khabul Khizr Kï¿½nchek Mahmud Mansur Mubarak Muhammad Muhammad Amin Muhammad Mumin Naqsh-i-Jahan 
 			Hulagu Qazaghan Qazan Quraysh Sa'id Satuq Shams-i-Jahan Sher Muhammad Soyurghatmish Taliqu 
-			Temür Tughlugh Temür Uwais Yasa'ur Yesu Mongke Yesun Temür Yunus Chagatay Tarmashirin Negübei Qara 
+			Temï¿½r Tughlugh Temï¿½r Uwais Yasa'ur Yesu Mongke Yesun Temï¿½r Yunus Chagatay Tarmashirin Negï¿½bei Qara 
 			Kebek Yahballaha 
 		}
 		female_names = {
-			Sakina Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Sakina Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene "Fatima" "Ibtisam" "Jalila" "Janan" 
 			"Layla" "Sakina" "Sharifa"
 		}
@@ -1449,15 +1449,15 @@ altaic = {
 	kirgiz = {
 		primary = CHG
 		male_names = {
-			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temür Buzan 
-			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temür Eljigidey Esen Buqa Ilbars Ilyas Ismail 
-			Khabul Khizr Könchek Mahmud Mansur Mubarak Muhammad Muhammad Amin Muhammad Mumin Naqsh-i-Jahan 
+			Abdul-Karim Abdul-Latif Abdul-Rashï¿½d Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temï¿½r Buzan 
+			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temï¿½r Eljigidey Esen Buqa Ilbars Ilyas Ismail 
+			Khabul Khizr Kï¿½nchek Mahmud Mansur Mubarak Muhammad Muhammad Amin Muhammad Mumin Naqsh-i-Jahan 
 			Hulagu Qazaghan Qazan Quraysh Sa'id Satuq Shams-i-Jahan Sher Muhammad Soyurghatmish Taliqu 
-			Temür Tughlugh Temür Uwais Yasa'ur Yesu Mongke Yesun Temür Yunus Tarmashirin Negübei Qara Kebek 
+			Temï¿½r Tughlugh Temï¿½r Uwais Yasa'ur Yesu Mongke Yesun Temï¿½r Yunus Tarmashirin Negï¿½bei Qara Kebek 
 			Chagatay
 		}
 		female_names = {
-			Mandughai Hoelun Tamülün Kokachin Beki Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka 
+			Mandughai Hoelun Tamï¿½lï¿½n Kokachin Beki Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka 
 			Doquez-khatum Goland Ho'elun Khultulun  Qamish Orqina Sorghaghtani Toregene "Fatima" "Ibtisam" "Jalila" "Janan" Sakina
 		}
 	}
@@ -1474,60 +1474,60 @@ altaic = {
 		Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur Todogen Toghoril Toghtoga Tokhtamis 
 		Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
 		# PECHENEG
-		Çelgil Aba Baitzas Balgor Batan Batas Bator Bayça Biçkili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
+		ï¿½elgil Aba Baitzas Balgor Batan Batas Bator Bayï¿½a Biï¿½kili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
 		Kabuksin Karaca Kaydum Kegen Konel
-		Korkutan Kortan Kostas Kourkoutai Kuerçi Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
+		Korkutan Kortan Kostas Kourkoutai Kuerï¿½i Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
 		# CUMAN / KARLUK / KIRGHIZ
-		Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi 
-		Itlar Ituk Könçek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan 
-		Sokal Sotan Sugr Törtogul Togli Tolun Tugor Uzluk Uzur
+		ï¿½ilbu Aepak Asalup Asep Atrak Bï¿½nek Bachman Begluk Blush Bonyak Borï¿½ Eldeï¿½yuk Etrek Girgen Gzi 
+		Itlar Ituk Kï¿½nï¿½ek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenï¿½ Sirï¿½an 
+		Sokal Sotan Sugr Tï¿½rtogul Togli Tolun Tugor Uzluk Uzur
 		# AVAR
-		Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambär Balambar Barjik 
+		Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambï¿½r Balambar Barjik 
 		Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha 
-		Bughra Bulan Bulger Bulçan Busir Buzan Buzer Bälgiçi Böri 
+		Bughra Bulan Bulger Bulï¿½an Busir Buzan Buzer Bï¿½lgiï¿½i Bï¿½ri 
 		Chepa Chinialush Dengizikh Dizeng Dometa Dristar Drong Dukum Elemag Ellak Ernakh Eskhakh Goleda 
-		Gostun Guar Hudbad Iani Ilik Iltäbär Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
+		Gostun Guar Hudbad Iani Ilik Iltï¿½bï¿½r Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
 		Karan Karaton Kardam Kayghalagh Kharaton Khatir Khinialon 
-		Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundaç 
-		Kundaçiq Kurt Kutrigur Kälaç Labertam Magotin Malamir Mugel Mänär Mänäs Mënümarót Odolgan Okhsi 
+		Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundaï¿½ 
+		Kundaï¿½iq Kurt Kutrigur Kï¿½laï¿½ Labertam Magotin Malamir Mugel Mï¿½nï¿½r Mï¿½nï¿½s Mï¿½nï¿½marï¿½t Odolgan Okhsi 
 		Okhsun Okors Omurtag Onegavon Organ Organa Ornag 
-		Oshi Ostro Pagan Pakhtiyar Bakhtiar Papaçyz Paväl Praksa Rassate Rugila Sabin Samsam Sandil 
-		Sandilkh Sarkhan Sartäç Savin Sevar Shilki Simsam Sondoke Tabghaç Tarasiy Taridin Tarkhan Tarmaç 
-		Tatra Telec Telerig Tervel Timër Timur Timëreç Timërpälat 
-		Tingiz Tiradin Toghan Toghrïl Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Täbär Teber Tähtaman 
-		Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yençepi Yerneslu Yeçtirek Yilig 
-		Zabergan Zenti Çat Çat'n Çorpan Ötemis
+		Oshi Ostro Pagan Pakhtiyar Bakhtiar Papaï¿½yz Pavï¿½l Praksa Rassate Rugila Sabin Samsam Sandil 
+		Sandilkh Sarkhan Sartï¿½ï¿½ Savin Sevar Shilki Simsam Sondoke Tabghaï¿½ Tarasiy Taridin Tarkhan Tarmaï¿½ 
+		Tatra Telec Telerig Tervel Timï¿½r Timur Timï¿½reï¿½ Timï¿½rpï¿½lat 
+		Tingiz Tiradin Toghan Toghrï¿½l Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Tï¿½bï¿½r Teber Tï¿½htaman 
+		Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yenï¿½epi Yerneslu Yeï¿½tirek Yilig 
+		Zabergan Zenti ï¿½at ï¿½at'n ï¿½orpan ï¿½temis
 	}
 	female_names = { 
 		Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene 
 		Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin 
-		Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene 
+		Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Tï¿½regene 
 		Yesugun Yesui Hoelun
 		# PECHENEG
-		Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay 
+		ï¿½iï¿½ek ï¿½ilen ï¿½iltanesi ï¿½zgul ï¿½zlem Akgul Asli Ayasun Ayten Bozï¿½in Dilek Esin Gulï¿½iï¿½ek Gulay 
 		Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay 
-		Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		Sevindik Sibel Sirin Sirma Songul Tekï¿½e Tura Umay Usunbike Yasar Yeldem Yildiz
 		# CUMAN
-		Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz 
+		ï¿½iï¿½ek ï¿½ilen ï¿½iltanesi ï¿½zgul ï¿½zlem Akgul Asli Ayasun Ayten Bozï¿½in Dilek Esin Gulï¿½iï¿½ek Gulay Gunduz 
 		Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik 
-		Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		Sibel Sirin Sirma Songul Tekï¿½e Tura Umay Usunbike Yasar Yeldem Yildiz
 		# KHAZAR / BOLGHAR
-		Çiçäk Çiçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek 
-		Esin Gulçiçäk Gulçiçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
-		Karacik Kätyarikka Këlnissa Këlyamal Khatun Lärkka Lyukha Mala Maturkka Mutlu Naça Parsbit Patiyer 
-		Paykëlti Peksen Puyantay Samur Sarantay Sarä Sarica Sarikel 
-		Sati Savaçka Savkëlti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
-		Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
+		ï¿½iï¿½ï¿½k ï¿½iï¿½ek ï¿½eï¿½eppi ï¿½eï¿½ki ï¿½eï¿½tilet ï¿½ilen ï¿½iltanesi ï¿½zgul ï¿½zlem Akgul Asli Ayasun Ayten Bozï¿½in Dilek 
+		Esin Gulï¿½iï¿½ï¿½k Gulï¿½iï¿½ek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+		Karacik Kï¿½tyarikka Kï¿½lnissa Kï¿½lyamal Khatun Lï¿½rkka Lyukha Mala Maturkka Mutlu Naï¿½a Parsbit Patiyer 
+		Paykï¿½lti Peksen Puyantay Samur Sarantay Sarï¿½ Sarica Sarikel 
+		Sati Savaï¿½ka Savkï¿½lti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
+		Tï¿½htani Tekï¿½e Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
 		# AVAR
-		Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulay Gulçiçäk Gulçiçek Gundes Gunduz Gunes Ikalay Ilkay 
-		Ipek Ipekel Irge Karacik Khatun Kätyarikka Këlnissa Këlyamal Lyukha Lärkka Mala Maturkka Mutlu Naça 
-		Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarica Sarikel Sarä Sati Savaçka Savilay 
-		Sevilay Savintik Sevindik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekçe Tura Tähtani 
-		Umay Usunbike Yartilek Yasar Yeldem Yildiz Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Çiçäk Çiçek Özgul 
-		Özlem
+		Akgul Asli Ayasun Ayten Bozï¿½in Dilek Esin Gulay Gulï¿½iï¿½ï¿½k Gulï¿½iï¿½ek Gundes Gunduz Gunes Ikalay Ilkay 
+		Ipek Ipekel Irge Karacik Khatun Kï¿½tyarikka Kï¿½lnissa Kï¿½lyamal Lyukha Lï¿½rkka Mala Maturkka Mutlu Naï¿½a 
+		Parsbit Patiyer Paykï¿½lti Peksen Puyantay Samur Sarantay Sarica Sarikel Sarï¿½ Sati Savaï¿½ka Savilay 
+		Sevilay Savintik Sevindik Savkï¿½lti Savtilek Shurkka Sibel Sirin Sirma Songul Tekï¿½e Tura Tï¿½htani 
+		Umay Usunbike Yartilek Yasar Yeldem Yildiz ï¿½eï¿½eppi ï¿½eï¿½ki ï¿½eï¿½tilet ï¿½ilen ï¿½iltanesi ï¿½iï¿½ï¿½k ï¿½iï¿½ek ï¿½zgul 
+		ï¿½zlem
 	}
 	dynasty_names = {
-		"Chagatay" "Edigüid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
+		"Chagatay" "Edigï¿½id" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
 		Kirghiz
 		# CKII - KHANTY
 		"Sibirid" "Narima" "Mansi" "Khantys"
@@ -1539,7 +1539,7 @@ east_asian = {	# Chinese Group
 	vietnamese_new = {
 		#primary = DAI
 		dynasty_names = {
-			"Lê" "Tran" "Mac" "Nguyen" "Trinh" "Vu" "Nguyen Phuc" "Nguyen Quang"
+			"Lï¿½" "Tran" "Mac" "Nguyen" "Trinh" "Vu" "Nguyen Phuc" "Nguyen Quang"
 		}
 		male_names = {
 			"An" "Quy Ly" "Han Thuong" "Ngoi" "Quy Khoang" "Loi" "Nguyen Long" "Bang Co" "Nghi Dan" "Tu Thanh" "Tranh" 
@@ -1590,7 +1590,7 @@ east_asian = {	# Chinese Group
 			Khjungpo Dbas Mnyammed
 		}
 		male_names = {
-			"Gendun Drup" "Trakpa Chunge" "Sangye Gyantesen Pal Zangpo" "Dön-yö Dorje" "Ngawang Namgyal" "Töndup Tseten" "Phüntso Namgye" "Karma Tseten" "Lhawang Dorje" "Karma Ten-Kyong" "Gusri" "Dayan" "Tenzin Dalai" 
+			"Gendun Drup" "Trakpa Chunge" "Sangye Gyantesen Pal Zangpo" "Dï¿½n-yï¿½ Dorje" "Ngawang Namgyal" "Tï¿½ndup Tseten" "Phï¿½ntso Namgye" "Karma Tseten" "Lhawang Dorje" "Karma Ten-Kyong" "Gusri" "Dayan" "Tenzin Dalai" 
 			"Lhabzang" "Tsewang Arabtan" "Phola Sonam Topbgye" "Gyurme Namgyal" "Lozang Gyastro" "Tsangyang Gyatso" 
 			"Kelzang Gyatso" "Jamphel Gyatso" "Lungtok Gyatso" "Tsultrim Gyatso" "Gendun Gyastro" "Sonam Gyastro" "Desi Sangay Gyatso"
 			"Ngwaang Yeshi Gyatso" "Chang-chub" "Sakya Gyantsen" "Trakpa Richen" "Trakpa Chang-chub" 
@@ -1605,21 +1605,21 @@ east_asian = {	# Chinese Group
 		province = { local_has_banners = yes}
 		primary = YUA
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke 
-			Manduulun Öljei Örüg Oyiradai Ögödei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtï¿½ Dayan 
+			Delbeg Ejei Elbeg Engke Gï¿½yï¿½k Gï¿½n Gulichi Irinchibal Jorightu Kublai Kï¿½ke Ligdan Markï¿½rgis Mï¿½ngke 
+			Manduulun ï¿½ljei ï¿½rï¿½g Oyiradai ï¿½gï¿½dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temï¿½r Toghun 
+			Tolui Toq Uskhal Yesï¿½n Ariq Batu Eljigidei Joichi Darayisung Tï¿½men
 		}
 		female_names = {
-			Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 		dynasty_names = {
 			# CKII
 			"Onggirat" "Naiman" "Kereyid" "Sartaq" "Mengu-Timur" "Uriankhai" "Bujakhin" "Besud" "Noyan" 
 			"Jochid" "Chagatayid" "Borjigin" "Chupanid" "Injuid" "Toluid" "Ganbold" "Bolormaa" "Batbayar" 
-			"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergüi" "Lkhagvasüren" "Enkhjargal" 
-			"Ganzorig" "Narantsetseg" "Pürevsüren" "Ganbaatar" "Mönkhtsetseg" "Mönkhbat" "Mönkh-Erdene" 
+			"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergï¿½i" "Lkhagvasï¿½ren" "Enkhjargal" 
+			"Ganzorig" "Narantsetseg" "Pï¿½revsï¿½ren" "Ganbaatar" "Mï¿½nkhtsetseg" "Mï¿½nkhbat" "Mï¿½nkh-Erdene" 
 			"Jalair" "Sartuul" "Olkhunut" "Khatagin" "Iljigin" "Tsookhor" "Qarakhanid"
 		}
 	}
@@ -2464,6 +2464,7 @@ japanese_g = {
 		}
 	}
 	emishi = {
+		primary = EBS
 		dynasty_names = { 
 			Fujiwara Arisugawa Asaka Fushimi "Kan'in" Katsura Kaya Kitashirakawa 
 			Kuni Nashimoto Takeda Yamashina
@@ -2568,7 +2569,7 @@ tibetan_group = {
 			Khjungpo Dbas Mnyammed
 		}
 		male_names = {
-			"Gendun Drup" "Trakpa Chunge" "Sangye Gyantesen Pal Zangpo" "Dön-yö Dorje" "Ngawang Namgyal" "Töndup Tseten" "Phüntso Namgye" "Karma Tseten" "Lhawang Dorje" "Karma Ten-Kyong" "Gusri" "Dayan" "Tenzin Dalai" 
+			"Gendun Drup" "Trakpa Chunge" "Sangye Gyantesen Pal Zangpo" "Dï¿½n-yï¿½ Dorje" "Ngawang Namgyal" "Tï¿½ndup Tseten" "Phï¿½ntso Namgye" "Karma Tseten" "Lhawang Dorje" "Karma Ten-Kyong" "Gusri" "Dayan" "Tenzin Dalai" 
 			"Lhabzang" "Tsewang Arabtan" "Phola Sonam Topbgye" "Gyurme Namgyal" "Lozang Gyastro" "Tsangyang Gyatso" 
 			"Kelzang Gyatso" "Jamphel Gyatso" "Lungtok Gyatso" "Tsultrim Gyatso" "Gendun Gyastro" "Sonam Gyastro" "Desi Sangay Gyatso"
 			"Ngwaang Yeshi Gyatso" "Chang-chub" "Sakya Gyantsen" "Trakpa Richen" "Trakpa Chang-chub" 

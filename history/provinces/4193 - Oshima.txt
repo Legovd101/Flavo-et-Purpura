@@ -1,13 +1,13 @@
 #4193 - Oshima
-culture = ainu
+culture = emishi
 religion = shinto
 capital = "Katsuyama"
 trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
-owner = ANU
-controller = ANU
+owner = EBS
+controller = EBS
 is_city = yes
 discovered_by = JAP
 discovered_by = AMA
@@ -53,4 +53,5 @@ discovered_by = ASK
 discovered_by = SOL
 discovered_by = NVK
 discovered_by = NHX
-add_core = ANU
+discovered_by = EBS
+add_core = EBS
