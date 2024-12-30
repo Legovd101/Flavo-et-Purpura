@@ -1,0 +1,91 @@
+﻿l_english:
+ DAN_the_wendish_crusade_title:0 "The Wendish Crusade"
+ DAN_the_wendish_crusade_desc:0 " "
+ 
+ DAN_appease_the_jutes_title:0 "Appease the Jutes"
+ DAN_appease_the_jutes_desc:0 "After the crisis that followed the Valdemarian kings, Jutland has effectively become an independent nation paying lip-service to the king "
+ 
+ DAN_the_academy_of_lund_title:0 "The Academy of Lund"
+ DAN_the_academy_of_lund_desc:0 " "
+ 
+ DAN_renovate_roskilde_title:0 "Renovate Roskilde"
+ DAN_renovate_roskilde_desc:0 " "
+ 
+ DAN_ancient_brothers_title:0 "Ancient Brothers"
+ DAN_ancient_brothers_desc:0 " "
+ 
+ DAN_secure_scania_title:0 "Secure Scania"
+ DAN_secure_scania_desc:0 "The magnates of Scania, once leal subjects of our good king, have grown weary of our authority by taking control of the Øresund for themselves. If we are to rebuild our nation, Scania is an important cornerstone we simply cannot ignore."
+ 
+ DAN_claim_norway_title:0 "Northern Ambitions"
+ DAN_claim_norway_desc:0 "Our esteemed king has been hailed as king of Norway at the fortress of Akrshús, cementing the union between our twin realms.  "
+ 
+ DAN_claim_sweden_title:0 "Arch-King of the North"
+ DAN_claim_sweden_desc:0 " "
+ 
+ DAN_the_oresund_toll_title:0 "The Øresund Toll"
+ DAN_the_oresund_toll_desc:0 " "
+ 
+ DAN_the_danevirke_title:0 "The Danevirke"
+ DAN_the_danevirke_desc:0 "To the south lies the mighty Danevirke, a long stretch of fortifications built to withstand any invader, be they German or Mongol. But continued skirmishes with Angles and Wends has left it in a state of disrepair, a fact we ought to remedy if we are to safeguard the continued prosperity of Denmark."
+ 
+ DAN_reforge_the_realm_title:0 "Reforge the Realm"
+ DAN_reforge_the_realm_desc:0 "As the land of the Jutes have been pacificed and the Scanian magnate-lords have been brought to heel, the kingdom is once more remade, like in the days of Valdemar the Conqueror or Frode the Peaceful. Let us once more unfurl the Dannebrog and truly declare ourselves the rightful king of all Danes!"
+ 
+ DAN_annihilate_the_angles_title:0 "Annihilate the Angles"
+ DAN_annihilate_the_angles_desc:0 "The Angles have for ages been one of closest neighbours, often warring with our Lendsmenn in Jutland for control of the Baltic sea-straits. Yet in the days of Valdemar the Victorious, the English were all brought to heel by his armies, a deed we sorely need to emulate."
+ 
+ DAN_into_the_baltic_title:0 "Into the Baltic"
+ DAN_into_the_baltic_desc:0 "The Wendish coastline might have been tamed, but the vast riches of the Baltic remain outside of our reach."
+ 
+ DAN_a_nordic_empire_title:0 "A Nordic Empire"
+ DAN_a_nordic_empire_desc:0 " "
+ 
+ DAN_dominate_the_waves_title:0 "Dominate the Waves"
+ DAN_dominate_the_waves_desc:0 " "
+ 
+ DAN_the_western_isles_title:0 "The Western Isles"
+ DAN_the_western_isles_desc:0 " "
+ 
+ DAN_the_duchy_of_estland_title:0 "The Duchy of Estland"
+ DAN_the_duchy_of_estland_desc:0 " "
+ 
+ DAN_dominium_maris_baltici_title:0 "Dominium Maris Baltici"
+ DAN_dominium_maris_baltici_desc:0 " "
+ 
+ DAN_second_valdemarian_age_title:0 "Second Valdemarian Age"
+ DAN_second_valdemarian_age_desc:0 "The greatest kings of the 1200s were all named Valdemar, and they heralded a golden age of prosperity and strength for the Danish realm. With our reconquest of their rightful dominions, let us usher in a new era for Denmark, brighter than any before!"
+ 
+ danish_norway_friendship_tt:0 "If we complete this mission by having §Y200§! opinion with §YNorway§!, they might form a union with us peacefully.\n"
+ danish_norway_rival_tt:0 "If we complete this mission by rivaling and insulting §YNorway§!, we will gain §YRestoration of Union§! Casus Belli on them.\n"
+ danish_norway_bypass_tt:0 "If we complete this mission while §YNorway§! doesn't exist and we control the Østlandet area, Vestlandet area and Trøndelag area, we will gain:"
+ 
+ danish_wendish_crusade_tt:0 "§Y[Root.GetName]§! gains permanent claims on all §YPomeranian§!, §YWendish§! and §YPrusijan§! provinces."
+ danish_england_destroyed_tt:0 "If we complete this mission while §YAngulland§! doesn't exist, we will also get §G100§! military power.\n"
+ danish_norway_danified_tt:0 "Provinces in §YNorway§! will be §YDanified§!.\n"
+ danish_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years."
+ danish_add_baltic_claims_tt:0 "§Y[Root.GetName]§! gains permanent claims on all §YBaltic§! provinces with a Center of Trade.\n"
+ 
+ second_valdemarian_age:0 "Second Valdemarian Age"
+ second_valdemarian_age2:0 "Second Valdemarian Age"
+ dano_norwegian_unity:0 "Dano-Norwegian Unity"
+ danish_rennaisance:0 "Scanian Academia"
+ resurgent_denmark:0 "Resurgent Denmark"
+ danish_scandinavian_hegemony:0 "Scandinavian Hegemon"
+ jutish_support:0 "Jutish Support"
+ scanian_support:0 "Scanian Support"
+ oresund_dominance:0 "Øresund Dominance"
+ danish_baltic_dominance:0 "Dominium Maris Baltici"
+ danish_explorer_spirit:0 "Explorer Spirit"
+ 
+ DENMARK:0 "Denmark"
+ ESTLAND:0 "Estland"
+
+ scandinavian_flavo.0:0 "Heir of Valdemar"
+ scandinavian_flavo.0.t:0 "Heir of Valdemar"
+ scandinavian_flavo.0.d:0 "Something about the reconquest of Valdemar's empire"
+ scandinavian_flavo.0.a:0 "Sweet"
+ scandinavian_flavo.1:0 "Dreams of an Empire"
+ scandinavian_flavo.1.t:0 "Dreams of an Empire"
+ scandinavian_flavo.2.d:0 "We got scandinavia yo"
+ scandinavian_flavo.3.a:0 "Neat"
