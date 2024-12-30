@@ -1,0 +1,39 @@
+namespace = scandinavian_flavo
+normal_or_historical_nations = yes
+
+# The Wendish Crusade
+country_event = {
+	id = scandinavian_flavo.0
+	title = "scandinavian_flavo.0.t"
+	desc = "scandinavian_flavo.0.d"
+	picture = OVEREXTENSION_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "scandinavian_flavo.0.a"
+		add_mil_power = 50
+		add_dip_power = 50
+		add_adm_power = 50
+	}
+}
+
+# Final Danish Event
+country_event = {
+	id = scandinavian_flavo.1
+	title = "scandinavian_flavo.1.t"
+	desc = "scandinavian_flavo.1.d"
+	picture = OVEREXTENSION_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "scandinavian_flavo.1.a"
+		add_country_modifier = {
+		    name = danish_scandinavian_hegemony
+			duration = -1
+		}
+	}
+}
