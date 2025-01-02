@@ -1,0 +1,166 @@
+HUN_bohemian_integration = {
+	years_to_integrate_personal_union = -25
+}
+HUN_bohemian_integration_province = {
+	local_missionary_strength = 0.025
+}
+HUN_bohemian_victory = {
+	infantry_fire = 0.25
+}
+HUN_bohemian_assimilation = {
+	local_culture_conversion_cost = -0.25
+}
+HUN_serbian_defeat = {
+	infantry_power = 0.1
+}
+HUN_QUELING_SLAVS = {
+	local_defensiveness = -0.33
+}
+HUN_serbian_support = {
+	land_attrition = -0.25
+}
+HUN_SERBIAN_CAMPAIGN = {
+	morale_damage = 0.05
+}
+HUN_SERBIAN_INTEGRATION = {
+	local_culture_conversion_cost = -0.25
+}
+HUN_croatian_lands = {
+	local_core_creation = -0.25
+	local_years_of_nationalism = -10
+}
+HUN_coastal_merchants = {
+	trade_value_modifier = 0.1
+	local_ship_cost = -0.25
+	local_culture_conversion_cost = -0.1
+}
+HUN_bogomils_defeated = {
+	reverse_relation_with_same_religion = 25
+	missionary_maintenance_cost = -0.25	
+}
+HUN_command_wallachia = {
+	cavalry_power = 0.1
+	cavalry_cost = -0.25
+}
+HUN_targoviste_early_boost = {
+	local_development_cost = -0.15
+	local_production_efficiency = 0.15
+	local_culture_conversion_cost = -0.33
+}
+HUN_restored_wallachia = {
+	local_years_of_nationalism = -5
+	local_culture_conversion_cost = -0.33
+	local_missionary_strength = 0.03
+}
+HUN_preparing_for_war = {
+	local_hostile_movement_speed = -0.33
+	local_monthly_devastation = -0.1
+}
+HUN_cavalry_masters = {
+	cavalry_shock = 0.25
+}
+settling_the_steppe = {
+	local_development_cost = -0.1
+	local_tax_modifier = 0.15
+}
+HUN_the_wild_lands = {
+	years_of_nationalism = -10
+	movement_speed = 0.1
+}
+
+HUN_RUTHENIAN_INTEGRATION = {
+	local_culture_conversion_cost = -0.25
+}
+HUN_center_of_magyars = {
+	local_years_of_nationalism = -10
+	trade_goods_size_modifier = 0.15
+	local_culture_conversion_cost = -0.33
+}
+HUN_lesser_poland_claimed = {
+	local_tax_modifier = 0.25
+	local_culture_conversion_cost = -0.15
+	local_core_creation = -0.35
+}
+HUN_terms_made_clear = {
+	local_warscore_cost_modifier = -0.25
+}
+HUN_defeating_the_poles = {
+	ae_impact = -0.15
+}
+HUN_empire_claimer = {
+	shock_damage = 0.10
+	shock_damage_received = -0.10
+}
+HUN_command_polish = {
+	local_governing_cost = -0.25
+}
+HUN_mobilzie_the_slavs = {
+	manpower_recovery_speed = 0.25
+}
+HUN_polish_assimilation = {
+	local_culture_conversion_cost = -0.25
+}
+HUN_early_mining = {
+	local_development_cost = -0.25
+	local_production_efficiency = 0.1
+	local_build_cost = -0.25
+}
+HUN_surviving_the_religious_conflicts = {
+	same_religion_advisor_cost = -0.25
+	war_exhaustion = -0.02
+}
+HUN_educate_masses = {
+	culture_conversion_time = -0.1
+}
+HUN_seat_of_the_kingdoms = {
+	local_governing_cost = -0.5
+	local_development_cost_modifier = -0.10
+	local_prosperity_growth = 0.25
+}
+HUN_absolutism = {
+	max_absolutism = 25
+	yearly_absolutism = 0.5
+}
+HUN_rennaissance = {
+	allowed_num_of_buildings = 1
+	local_state_maintenance_modifier = -0.15
+}
+HUN_civil_war_debuff = {
+	min_autonomy = 45
+	land_forcelimit = -10
+	mercenary_cost = 6
+	tax_income = -24
+	manpower_recovery_speed = -0.5
+	capped_by_forcelimit = yes
+	can_not_declare_war = yes
+}
+HUN_civil_war_debuff_1 = {
+	capped_by_forcelimit = yes
+}
+HUN_merc_debuff = {
+	mercenary_cost = 6
+}
+HUN_fortress_hungary = {
+	fort_level = 1
+}
+HUN_local_devastation_increase = {
+	local_monthly_devastation = -0.25
+}
+HUN_local_religion_increase = {
+	local_missionary_strength = 0.03
+}
+HUN_local_build_increase = {
+	local_build_cost = -0.25
+}
+HUN_local_culture_increase = {
+	local_culture_conversion_cost = -0.33
+}
+HUN_local_governing_increase = {
+	local_governing_cost = -0.25
+}
+HUN_local_dev_cost_increase = {
+	local_development_cost = -0.10
+}
+securing_CW_province = {
+	
+}

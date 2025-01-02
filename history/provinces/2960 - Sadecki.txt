@@ -1,5 +1,6 @@
 #262 - Sadecki
 owner = AVR
+set_province_flag = support_koszegi
 controller = AVR
 culture = polish
 religion = orthodox

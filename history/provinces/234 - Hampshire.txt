@@ -1,5 +1,6 @@
 #234 - Hampshire + Wiltshire
 owner = BRY
+set_province_flag = support_hungary
 controller = BRY
 culture = britannian
 religion = lutetian

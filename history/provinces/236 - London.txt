@@ -1,6 +1,7 @@
 #236 - London
 #Middlesex+Hertfordshire+Surrey+parts of Kent and Essex
 owner = BRY
+set_province_flag = support_hungary
 controller = BRY
 culture = londoner
 religion = lutetian

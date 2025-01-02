@@ -1,5 +1,6 @@
 #1772 - Pozsony
 owner = AVR
+set_province_flag = support_kan
 controller = AVR
 culture = slovak
 religion = manichaean

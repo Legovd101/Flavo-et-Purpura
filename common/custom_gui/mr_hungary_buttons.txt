@@ -1,0 +1,2084 @@
+custom_button = {
+    name = brythonia_cw_window #Must match a scripted guiButtonType in a .gui file
+   	potential = {
+		tag = BRY
+	}
+    trigger = {
+
+	}
+    effect = { 
+		if = {
+			limit = {
+				has_country_flag = brythonia_cw_window_shown
+			}
+			clr_country_flag = brythonia_cw_window_shown
+		}
+		else = {
+			set_country_flag = brythonia_cw_window_shown
+		}
+		
+	}
+    tooltip = "Open Lordships Map" #Can use customizable localisation
+}
+custom_window = {
+	name = brythonia_cw_window_open
+	potential = {
+		has_country_flag = brythonia_cw_window_shown
+	}
+}
+custom_text_box = {
+    name = brythonia_menu_text #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	 } #Determines when the text is visible #Can use customizable localisation
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+custom_button = {
+    name = close_brythonia_cw_menu #Must match a scripted guiButtonType in a .gui file
+   	potential = {
+	}
+    trigger = {
+	}
+    effect = { 
+		if = {
+			limit = {
+				has_country_flag = brythonia_cw_window_shown
+			}
+			clr_country_flag = brythonia_cw_window_shown
+		}
+	}
+    tooltip = "Close Hungarian Civil War Menu" #Can use customizable localisation
+}
+custom_icon = {
+	name = brythonia_cw_window_bg
+	potential = { 
+	}
+}
+custom_button = {
+	name = BRY_prov_1 #Cantiaci
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Cantiaci"
+	effect = {
+		if = {
+			limit = {
+				236 = { owned_by = ROOT }
+				235 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 236
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					236 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 236 = { owned_by = ROOT } }
+				NOT = { 235 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 236
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 236
+						}
+					}
+				}
+				AND = {
+					236 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_2 #Regni
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Regni"
+	effect = {
+		if = {
+			limit = {
+				4371 = { owned_by = ROOT }
+				234 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 4371
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					4371 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 4371 = { owned_by = ROOT } }
+				NOT = { 234 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 4371
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 4371
+						}
+					}
+				}
+				AND = {
+					4371 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_3 #Dumnonii
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Dumnonii"
+	effect = {
+		if = {
+			limit = {
+				233 = { owned_by = ROOT }
+				4373 = { owned_by = ROOT }
+				4130 = { owned_by = ROOT }
+				4374 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 233
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					233 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 233 = { owned_by = ROOT } }
+				NOT = { 4373 = { owned_by = ROOT } }
+				NOT = { 4130 = { owned_by = ROOT } }
+				NOT = { 4374 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 233
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 233
+						}
+					}
+				}
+				AND = {
+					233 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_4 #Dobunii
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Dobunii"
+	effect = {
+		if = {
+			limit = {
+				239 = { owned_by = ROOT }
+				4372 = { owned_by = ROOT }
+				240 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 239
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					239 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 240 = { owned_by = ROOT } }
+				NOT = { 239 = { owned_by = ROOT } }
+				NOT = { 4372 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 239
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 239
+						}
+					}
+				}
+				AND = {
+					239 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_5 #Ordovices
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Ordovices"
+	effect = {
+		if = {
+			limit = {
+				242 = { owned_by = ROOT }
+				241 = { owned_by = ROOT }
+				4369 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 242
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					242 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 242 = { owned_by = ROOT } }
+				NOT = { 241 = { owned_by = ROOT } }
+				NOT = { 4369 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 242
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 242
+						}
+					}
+				}
+				AND = {
+					242 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_6  #Atrebates
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Atrebates"
+	effect = {
+		if = {
+			limit = {
+				237 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 237
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					237 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 237 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 237
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 237
+						}
+					}
+				}
+				AND = {
+					237 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_7  #Coriealtaulvi
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Coriealtaulvi"
+	effect = {
+		if = {
+			limit = {
+				1861 = { owned_by = ROOT }
+				4376 = { owned_by = ROOT }
+				4372 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 186
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					1861 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 1861 = { owned_by = ROOT } }
+				NOT = { 4376 = { owned_by = ROOT } }
+				NOT = { 4372 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 1861
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 1861
+						}
+					}
+				}
+				AND = {
+					1861 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_8  #Cornovii
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Cornovii"
+	effect = {
+		if = {
+			limit = {
+				244 = { owned_by = ROOT }
+				4375 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 244
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					244 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 244 = { owned_by = ROOT } }
+				NOT = { 4375 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 244
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 244
+						}
+					}
+				}
+				AND = {
+					244 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_9  #Votadini
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Votadini"
+	effect = {
+		if = {
+			limit = {
+				246 = { owned_by = ROOT }
+				245 = { owned_by = ROOT }
+				4368 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 245
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					245 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 246 = { owned_by = ROOT } }
+				NOT = { 245 = { owned_by = ROOT } }
+				NOT = { 4368 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 245
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 245
+						}
+					}
+				}
+				AND = {
+					245 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_10  #Brigantes
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Brigantes"
+	effect = {
+		if = {
+			limit = {
+				247 = { owned_by = ROOT }
+				4362 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 4362
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					4362 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 247 = { owned_by = ROOT } }
+				NOT = { 4362 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 4362
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 4362
+						}
+					}
+				}
+				AND = {
+					4362 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_11  #Iceni
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Iceni"
+	effect = {
+		if = {
+			limit = {
+				243 = { owned_by = ROOT }
+				4367 = { owned_by = ROOT }
+				4785 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 4367
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					4367 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 243 = { owned_by = ROOT } }
+				NOT = { 4367 = { owned_by = ROOT } }
+				NOT = { 4785 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 4367
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 4367
+						}
+					}
+				}
+				AND = {
+					4367 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_button = {
+	name = BRY_prov_12  #Catuvellauni
+	potential = { 
+	}
+	trigger = {
+
+	}
+	tooltip = "Catuvellauni"
+	effect = {
+		if = {
+			limit = {
+				243 = { owned_by = ROOT }
+				4367 = { owned_by = ROOT }
+				4785 = { owned_by = ROOT }
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						province_id = 4367
+					}
+				}
+				custom_tooltip = "Close Lordship Interactions"
+				hidden_effect = {
+					clear_global_event_target = focus_brythonia_province
+				}
+				
+			}
+			else = {
+				custom_tooltip = "Open Lordship Interactions"
+				hidden_effect = {
+					4367 = {
+						save_global_event_target_as = focus_brythonia_province
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = "You do not fully control this Lordship!"
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				NOT = { 243 = { owned_by = ROOT } }
+				NOT = { 4367 = { owned_by = ROOT } }
+				NOT = { 4785 = { owned_by = ROOT } }
+			}
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					province_id = 4367
+				}
+				NOT = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+					}
+				}
+			}
+		}
+	}
+	frame = {
+		number = 3
+		trigger = {
+			OR = {
+				AND = {
+					any_province = {
+						has_saved_global_event_target = focus_brythonia_province
+						NOT = {
+							province_id = 4367
+						}
+					}
+				}
+				AND = {
+					4367 = {
+						is_improving_province_HUN = yes
+					}
+				}
+			}
+			
+		}
+	}
+}
+custom_window = {
+	name = brythonia_cw_window_second_open
+	potential = {
+		any_owned_province = {
+			has_saved_global_event_target = focus_brythonia_province
+		}
+	}
+}
+custom_icon = {
+	name = brythonia_cw_window_second_bg
+	potential = { }
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_title #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_czak #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_aba #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_kan #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_koszegi #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_severin #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_text_box = {
+    name = brythonia_cw_window_second_tt_hungary #Must match a scripted instantTextBoxType in a .gui file
+    potential = {
+	} 
+}
+custom_button = {
+	name = sway_to_czak
+	tooltip = secure_province_tt
+	potential = { 
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			custom_trigger_tooltip = {
+				tooltip = does_not_already_support_czak
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_czak }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_securing_other_province
+				not = {
+					has_country_modifier = securing_CW_province
+				}
+			}
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = 25
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						OR = {
+							province_id = 135
+							province_id = 153
+							province_id = 236
+							province_id = 238
+							province_id = 158
+							province_id = 5439
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = provinces_either_a_capital_or_important_CW
+					NOT = {
+						event_target:focus_brythonia_province = {
+							OR = {
+								province_id = 135
+								province_id = 153
+								province_id = 236
+								province_id = 238
+								province_id = 158
+								province_id = 5439
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic_1
+				power_type = crown_authority_1
+				value = 1
+			}
+			event_target:focus_brythonia_1_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			add_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = -25
+			}
+			custom_tooltip = begin_securing_province_czak
+			hidden_effect = {
+				event_target:focus_brythonia_province = {
+					change_brythonia_support = { czak = yes }
+				}
+				add_country_modifier = {
+					name = securing_CW_province
+					hidden = yes
+					duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = league_restored
+				NOT = {
+					event_target:focus_brythonia_1_province = {
+						has_province_modifier = HUN_local_devastation_increase
+					}
+				}
+			}
+			custom_tooltip = modifier_will_go_away_hun_devastation
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					add_province_modifier = {
+						name = HUN_local_devastation_increase
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				has_country_flag = league_restored
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_devastation_increase
+				}
+			}
+			custom_tooltip = remove_modifier_will_go_away_hun_devastation
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					remove_province_modifier = HUN_local_devastation_increase
+				}
+			}
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_czak }
+				}
+				event_target:focus_brythonia_1_province = {
+					NOT = { has_province_modifier = HUN_local_devastation_increase }
+				}
+			}
+			
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					has_province_flag = support_czak
+				}
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_devastation_increase 
+				}
+			}
+		}
+	}
+}
+custom_button = {
+	name = sway_to_aba
+	tooltip = secure_province_tt
+	potential = { 
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			custom_trigger_tooltip = {
+				tooltip = does_not_already_support_aba
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_aba }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_securing_other_province
+				not = {
+					has_country_modifier = securing_CW_province
+				}
+			}
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = 25
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						OR = {
+							province_id = 135
+							province_id = 153
+							province_id = 236
+							province_id = 238
+							province_id = 158
+							province_id = 5439
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = provinces_either_a_capital_or_important_CW
+					NOT = {
+						event_target:focus_brythonia_province = {
+							OR = {
+								province_id = 135
+								province_id = 153
+								province_id = 236
+								province_id = 238
+								province_id = 158
+								province_id = 5439
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic_1
+				power_type = crown_authority_1
+				value = 1
+			}
+			event_target:focus_brythonia_1_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			add_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = -25
+			}
+			custom_tooltip = begin_securing_province_aba
+			hidden_effect = {
+				event_target:focus_brythonia_province = {
+					change_brythonia_support = { aba = yes }
+				}
+				add_country_modifier = {
+					name = securing_CW_province
+					hidden = yes
+					duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = league_restored
+				NOT = {
+					event_target:focus_brythonia_1_province = {
+						has_province_modifier = HUN_local_religion_increase
+					}
+				}
+			}
+			custom_tooltip = modifier_will_go_away_hun_religion
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					add_province_modifier = {
+						name = HUN_local_religion_increase
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				has_country_flag = league_restored
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_religion_increase
+				}
+			}
+			custom_tooltip = remove_modifier_will_go_away_hun_religion
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					remove_province_modifier = HUN_local_religion_increase
+				}
+			}
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_aba }
+				}
+				event_target:focus_brythonia_1_province = {
+					NOT = { has_province_modifier = HUN_local_religion_increase }
+				}
+			}
+			
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					has_province_flag = support_aba
+				}
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_religion_increase 
+				}
+			}
+		}
+	}
+}
+custom_button = {
+	name = sway_to_kan
+	tooltip = secure_province_tt
+	potential = { 
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			custom_trigger_tooltip = {
+				tooltip = does_not_already_support_kan
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_kan }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_securing_other_province
+				not = {
+					has_country_modifier = securing_CW_province
+				}
+			}
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = 25
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						OR = {
+							province_id = 135
+							province_id = 153
+							province_id = 236
+							province_id = 238
+							province_id = 158
+							province_id = 5439
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = provinces_either_a_capital_or_important_CW
+					NOT = {
+						event_target:focus_brythonia_province = {
+							OR = {
+								province_id = 135
+								province_id = 153
+								province_id = 236
+								province_id = 238
+								province_id = 158
+								province_id = 5439
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic_1
+				power_type = crown_authority_1
+				value = 1
+			}
+			event_target:focus_brythonia_1_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			add_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = -25
+			}
+			custom_tooltip = begin_securing_province_kan
+			hidden_effect = {
+				event_target:focus_brythonia_province = {
+					change_brythonia_support = { kan = yes }
+				}
+				add_country_modifier = {
+					name = securing_CW_province
+					hidden = yes
+					duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = league_restored
+				NOT = {
+					event_target:focus_brythonia_1_province = {
+						has_province_modifier = HUN_local_build_increase
+					}
+				}
+			}
+			custom_tooltip = modifier_will_go_away_hun_build
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					add_province_modifier = {
+						name = HUN_local_build_increase
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				has_country_flag = league_restored
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_build_increase
+				}
+			}
+			custom_tooltip = remove_modifier_will_go_away_hun_build
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					remove_province_modifier = HUN_local_build_increase
+				}
+			}
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_kan }
+				}
+				event_target:focus_brythonia_1_province = {
+					NOT = { has_province_modifier = HUN_local_build_increase }
+				}
+			}
+			
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					has_province_flag = support_kan
+				}
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_build_increase 
+				}
+			}
+		}
+	}
+}
+custom_button = {
+	name = sway_to_koszegi
+	tooltip = secure_province_tt
+	potential = { 
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			custom_trigger_tooltip = {
+				tooltip = does_not_already_support_koszegi
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_koszegi }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_securing_other_province
+				not = {
+					has_country_modifier = securing_CW_province
+				}
+			}
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = 25
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						OR = {
+							province_id = 135
+							province_id = 153
+							province_id = 236
+							province_id = 238
+							province_id = 158
+							province_id = 5439
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = provinces_either_a_capital_or_important_CW
+					NOT = {
+						event_target:focus_brythonia_province = {
+							OR = {
+								province_id = 135
+								province_id = 153
+								province_id = 236
+								province_id = 238
+								province_id = 158
+								province_id = 5439
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic_1
+				power_type = crown_authority_1
+				value = 1
+			}
+			event_target:focus_brythonia_1_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			add_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = -25
+			}
+			custom_tooltip = begin_securing_province_koszegi
+			hidden_effect = {
+				event_target:focus_brythonia_province = {
+					change_brythonia_support = { koszegi = yes }
+				}
+				add_country_modifier = {
+					name = securing_CW_province
+					hidden = yes
+					duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = league_restored
+				NOT = {
+					event_target:focus_brythonia_1_province = {
+						has_province_modifier = HUN_local_culture_increase
+					}
+				}
+			}
+			custom_tooltip = modifier_will_go_away_hun_culture
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					add_province_modifier = {
+						name = HUN_local_culture_increase
+						duration = -1
+						hidden = yes
+					}
+				}
+				
+			}
+		}
+		else_if = {
+			limit = { 
+				has_country_flag = league_restored
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_culture_increase
+				}
+			}
+			custom_tooltip = remove_modifier_will_go_away_hun_culture
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					remove_province_modifier = HUN_local_culture_increase
+				}
+				
+			}
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_koszegi }
+				}
+				event_target:focus_brythonia_1_province = {
+					NOT = { has_province_modifier = HUN_local_culture_increase }
+				}
+			}
+			
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					has_province_flag = support_koszegi
+				}
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_culture_increase 
+				}
+			}
+		}
+	}
+}
+custom_button = {
+	name = sway_to_severin
+	tooltip = secure_province_tt
+	potential = { 
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			custom_trigger_tooltip = {
+				tooltip = does_not_already_support_severin
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_severin }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_securing_other_province
+				not = {
+					has_country_modifier = securing_CW_province
+				}
+			}
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = 25
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						OR = {
+							province_id = 135
+							province_id = 153
+							province_id = 236
+							province_id = 238
+							province_id = 158
+							province_id = 5439
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = provinces_either_a_capital_or_important_CW
+					NOT = {
+						event_target:focus_brythonia_province = {
+							OR = {
+								province_id = 135
+								province_id = 153
+								province_id = 236
+								province_id = 238
+								province_id = 158
+								province_id = 5439
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic_1
+				power_type = crown_authority_1
+				value = 1
+			}
+			event_target:focus_brythonia_1_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			add_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = -25
+			}
+			custom_tooltip = begin_securing_province_severin
+			hidden_effect = {
+				event_target:focus_brythonia_province = {
+					change_brythonia_support = { severin = yes }
+				}
+				add_country_modifier = {
+					name = securing_CW_province
+					hidden = yes
+					duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = league_restored
+				NOT = {
+					event_target:focus_brythonia_1_province = {
+						has_province_modifier = HUN_local_governing_increase
+					}
+				}
+			}
+			custom_tooltip = modifier_will_go_away_hun_governing
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					add_province_modifier = {
+						name = HUN_local_governing_increase
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				has_country_flag = league_restored
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_governing_increase
+				}
+			}
+			custom_tooltip = remove_modifier_will_go_away_hun_governing
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					remove_province_modifier = HUN_local_governing_increase
+				}
+			}
+		}
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_severin }
+				}
+				event_target:focus_brythonia_1_province = {
+					NOT = { has_province_modifier = HUN_local_governing_increase }
+				}
+			}
+			
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					has_province_flag = support_severin
+				}
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_governing_increase 
+				}
+			}
+		}
+	}
+}
+custom_button = {
+	name = sway_to_hungary
+	tooltip = secure_province_tt
+	potential = { 
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			custom_trigger_tooltip = {
+				tooltip = does_not_already_support_hungary
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_hungary }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_securing_other_province
+				not = {
+					has_country_modifier = securing_CW_province
+				}
+			}
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = 25
+			}
+			if = {
+				limit = {
+					event_target:focus_brythonia_province = {
+						OR = {
+							province_id = 135
+							province_id = 153
+							province_id = 236
+							province_id = 238
+							province_id = 158
+							province_id = 5439
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = provinces_either_a_capital_or_important_CW
+					NOT = {
+						event_target:focus_brythonia_province = {
+							OR = {
+								province_id = 135
+								province_id = 153
+								province_id = 236
+								province_id = 238
+								province_id = 158
+								province_id = 5439
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			has_government_power = {
+				mechanic_type = crown_authority_mechanic_1
+				power_type = crown_authority_1
+				value = 1
+			}
+			event_target:focus_brythonia_1_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = league_restored }
+			}
+			add_government_power = {
+				mechanic_type = crown_authority_mechanic
+				power_type = crown_authority
+				value = -25
+			}
+			custom_tooltip = begin_securing_province_hungary
+			hidden_effect = {
+				event_target:focus_brythonia_province = {
+					change_brythonia_support = { hungary = yes }
+				}
+				add_country_modifier = {
+					name = securing_CW_province
+					hidden = yes
+					duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = league_restored
+				NOT = {
+					event_target:focus_brythonia_1_province = {
+						has_province_modifier = HUN_local_dev_cost_increase
+					}
+				}
+			}
+			custom_tooltip = modifier_will_go_away_hun_dev
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					add_province_modifier = {
+						name = HUN_local_dev_cost_increase
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				has_country_flag = league_restored
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_dev_cost_increase
+				}
+			}
+			custom_tooltip = remove_modifier_will_go_away_hun_dev
+			hidden_effect = {
+				event_target:focus_brythonia_1_province = {
+					remove_province_modifier = HUN_local_dev_cost_increase
+				}
+			}
+		}
+		
+	}
+	frame = {
+		number = 1
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					NOT = { has_province_flag = support_hungary }
+				}
+				event_target:focus_brythonia_1_province = {
+					NOT = { has_province_modifier = HUN_local_dev_cost_increase }
+				}
+			}
+			
+		}
+	}
+	frame = {
+		number = 2
+		trigger = {
+			OR = {
+				event_target:focus_brythonia_province = {
+					has_province_flag = support_hungary
+				}
+				event_target:focus_brythonia_1_province = {
+					has_province_modifier = HUN_local_dev_cost_increase 
+				}
+			}
+		}
+	}
+}
+custom_button = {
+	name = clear_all_focuses_HUN
+	potential = { 
+		has_country_flag = league_restored
+	}
+	trigger = {
+		any_owned_province = {
+			is_improving_province_HUN = yes
+		}
+	}
+	effect = {
+		custom_tooltip = "This will clear all focuses from all provinces."
+		hidden_effect = {
+			every_province = {
+				limit = {
+					is_improving_province_HUN = yes
+				}
+				remove_province_modifier = HUN_local_devastation_increase
+				remove_province_modifier = HUN_local_religion_increase
+				remove_province_modifier = HUN_local_build_increase
+				remove_province_modifier = HUN_local_culture_increase
+				remove_province_modifier = HUN_local_governing_increase
+				remove_province_modifier = HUN_local_dev_cost_increase
+			}
+		}
+	}
+}

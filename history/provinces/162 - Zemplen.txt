@@ -1,5 +1,6 @@
 #162 - Zemplén
 owner = AVR
+set_province_flag = support_aba
 controller = AVR
 culture = avar
 religion = orthodox

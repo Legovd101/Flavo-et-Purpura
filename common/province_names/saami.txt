@@ -1,5 +1,0 @@
-# Scandinavia
-1777 = { "Guolá" "Guolá"}
-4151 = { "Aanaar" "Aanaar" }
-315 = { "Finnmárku" "Finnmárku" }
-4151 = { "Aanaar" "Aanaar" }

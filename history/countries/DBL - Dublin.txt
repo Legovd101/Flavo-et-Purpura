@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = irish_highkingdom_reform
+technology_group = western
+primary_culture = hibernian
+religion = lutetian
+capital = 373 #Dublin
+government_rank = 2

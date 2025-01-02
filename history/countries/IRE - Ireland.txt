@@ -4,13 +4,4 @@ technology_group = western
 primary_culture = hibernian
 religion = lutetian
 capital = 373# Dublin
-1641.1.30 = { 
-	monarch = { 
-		name = "Aedh XIV"
-		dynasty = "mac Eóghain"
-		adm = 1
-		dip = 1
-		mil = 3
-	}
-}
 government_rank = 1

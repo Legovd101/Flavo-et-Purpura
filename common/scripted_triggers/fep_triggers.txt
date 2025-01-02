@@ -76,6 +76,18 @@ has_hired_varangians = {
 	has_country_flag = hired_varangians
 }
 
+is_improving_province_HUN = {
+	OR = {
+		has_province_modifier = HUN_local_devastation_increase
+		has_province_modifier = HUN_local_religion_increase
+		has_province_modifier = HUN_local_build_increase
+		has_province_modifier = HUN_local_culture_increase
+		has_province_modifier = HUN_local_governing_increase
+		has_province_modifier = HUN_local_dev_cost_increase
+
+	}
+}
+
 varangian_home_province_trigger = {
 	OR = {
 		AND = {

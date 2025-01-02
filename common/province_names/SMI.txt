@@ -1,0 +1,8 @@
+# Scandinavia
+1777 = { "Guolá" "Guolá"}
+4151 = { "Aanaar" "Aanaar" }
+315 = { "Finnmárku" "Finnmárku" }
+4114 = { "Jåhkåmåhkke" "Jåhkåmåhkke" }
+18 = { "Árviesjávrrie" "Árviesjávrrie" }
+11 = { "Ubmeje" "Ubmeje" }
+9 = { "Gävle" "Gävle" }

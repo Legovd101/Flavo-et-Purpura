@@ -1,0 +1,156 @@
+change_hungary_support = {
+	if = {
+		limit = {
+			has_province_flag = support_aba
+		}
+		HUN = {
+			subtract_variable = {
+				which = num_of_provinces_aba_controls
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_province_flag = support_czak
+		}
+		HUN = {
+			subtract_variable = {
+				which = num_of_provinces_czak_controls
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_province_flag = support_kan
+		}
+		HUN = {
+			subtract_variable = {
+				which = num_of_provinces_kan_controls
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_province_flag = support_koszegi
+		}
+		HUN = {
+			subtract_variable = {
+				which = num_of_provinces_koszegi_controls
+				value = 1
+			}
+		}
+
+	}
+	if = {
+		limit = {
+			has_province_flag = support_severin
+		}
+		HUN = {
+			subtract_variable = {
+				which = num_of_provinces_severin_controls
+				value = 1
+			}
+		}
+		
+	}
+	if = {
+		limit = {
+			has_province_flag = support_hungary
+		}
+		HUN = {
+			subtract_variable = {
+				which = num_of_provinces_hungary_controls
+				value = 1
+			}
+		}
+		
+	}
+		[[czak]
+			clr_province_flag = support_aba
+			clr_province_flag = support_hungary
+			clr_province_flag = support_kan
+			clr_province_flag = support_koszegi
+			clr_province_flag = support_severin
+			set_province_flag = support_czak
+			HUN = {
+				change_variable = {
+					which = num_of_provinces_czak_controls
+					value = 1
+				}
+			}
+		]
+		[[aba]
+			clr_province_flag = support_czak
+			clr_province_flag = support_hungary
+			clr_province_flag = support_kan
+			clr_province_flag = support_koszegi
+			clr_province_flag = support_severin
+			set_province_flag = support_aba 
+			HUN = {
+				change_variable = {
+					which = num_of_provinces_aba_controls
+					value = 1
+				}
+			}
+		]
+		[[kan]
+			clr_province_flag = support_czak
+			clr_province_flag = support_hungary
+			clr_province_flag = support_aba
+			clr_province_flag = support_koszegi
+			clr_province_flag = support_severin
+			set_province_flag = support_kan
+			HUN = {
+				change_variable = {
+					which = num_of_provinces_kan_controls
+					value = 1
+				}
+			}
+		]
+		[[koszegi]
+			clr_province_flag = support_czak
+			clr_province_flag = support_hungary
+			clr_province_flag = support_aba
+			clr_province_flag = support_kan
+			clr_province_flag = support_severin
+			set_province_flag = support_koszegi 
+			HUN = {
+				change_variable = {
+					which = num_of_provinces_koszegi_controls
+					value = 1
+				}
+			}
+		]
+		[[severin]
+			clr_province_flag = support_czak
+			clr_province_flag = support_hungary
+			clr_province_flag = support_aba
+			clr_province_flag = support_kan
+			clr_province_flag = support_koszegi
+			set_province_flag = support_severin
+			HUN = {
+				change_variable = {
+					which = num_of_provinces_severin_controls
+					value = 1
+				}
+			}
+		]
+		[[hungary]
+			clr_province_flag = support_czak
+			clr_province_flag = support_severin
+			clr_province_flag = support_aba
+			clr_province_flag = support_kan
+			clr_province_flag = support_koszegi
+			set_province_flag = support_hungary
+			HUN = {
+				change_variable = {
+					which = num_of_provinces_hungary_controls
+					value = 1
+				}
+			}
+		]
+
+}

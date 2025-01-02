@@ -1,6 +1,7 @@
 #238 - Essex
 #+part of Cambridgeshire
 owner = BRY
+set_province_flag = support_hungary
 controller = BRY
 culture = icenian
 religion = lutetian

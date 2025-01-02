@@ -1,5 +1,6 @@
 #4236 - Trencin
 owner = AVR
+set_province_flag = support_koszegi
 controller = AVR
 culture = slovak
 religion = manichaean

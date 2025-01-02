@@ -1,5 +1,6 @@
 #154 - Hont (Hont + Bars + Ersekujvar)
 owner = AVR
+set_province_flag = support_aba
 controller = AVR
 culture = slovak
 religion = manichaean

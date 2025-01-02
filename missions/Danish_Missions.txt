@@ -754,9 +754,10 @@ new_branch = {
 		} 
 
 		effect = {
-		add_country_modifier = {
-			name = "danish_baltic_dominance"
-			duration = -1
+			add_country_modifier = {
+				name = "danish_baltic_dominance"
+				duration = -1
+			}
 		}
 	}
 }

@@ -1,5 +1,6 @@
 #1318 - Spiš
 owner = AVR
+set_province_flag = support_kan
 controller = AVR
 culture = slovak
 religion = orthodox

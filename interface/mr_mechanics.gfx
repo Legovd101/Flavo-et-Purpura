@@ -1,0 +1,76 @@
+spriteTypes = {
+	#Hungary CW
+	spriteType = {
+        name = "GFX_open_brythonia_menu"
+        textureFile = "gfx//interface/hungary_civil_war/brythonia_map_BG.dds"
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_1"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_1.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_2"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_2.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_3"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_3.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_4"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_4.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_5"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_5.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_6"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_6.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_7"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_7.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_8"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_8.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_9"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_9.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_10"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_10.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_11"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_11.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_BRY_prov_12"
+        textureFile = "gfx//interface/hungary_civil_war/BRY_prov_12.dds"
+		noOfFrames = 3
+    }
+	spriteType = {
+        name = "GFX_HUN_window_2"
+        textureFile = "gfx//interface/hungary_civil_war/HUN_window_2.dds"
+    }
+	spriteType = {
+        name = "GFX_open_brythonia_menu_1"
+        textureFile = "gfx//interface/hungary_civil_war/open_brythonia_menu.dds"
+    }
+	
+}

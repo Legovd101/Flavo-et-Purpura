@@ -1,5 +1,6 @@
 #235 - Kent
 owner = BRY
+set_province_flag = support_hungary
 controller = BRY
 culture = kentish
 religion = lutetian
