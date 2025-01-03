@@ -1,6 +1,6 @@
 #4119 - Sligo
-owner = IRE
-controller = IRE
+owner = SLN
+controller = SLN
 culture = hibernian
 religion = lutetian
 base_tax = 3
@@ -13,4 +13,4 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = IRE
+add_core = SLN

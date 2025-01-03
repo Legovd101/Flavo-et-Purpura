@@ -1,0 +1,182 @@
+vassal = {
+	first = DBL
+	second = LEI
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = DMS
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = MCM
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = LUD
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = TYR
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = MNS
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = FLY
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = SLN
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = TRY
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = TRY
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = ULS
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = GLW
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = CMB
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = CON
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = EBR
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = DEI
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = CHS
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = DOR
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = COV
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = TRN
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = GWY
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = CRM
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = MRG
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = CRN
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = SLC
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+
+vassal = {
+	first = DBL
+	second = RSA
+	start_date = 1255.11.11
+	end_date = 1573.7.1
+}
+

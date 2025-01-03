@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = pirate_republic_reform
+technology_group = western
+primary_culture = galovidian
+religion = lutetian
+capital = 4365 #Mann
+government_rank = 2

@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = IRE
-controller = IRE
+owner = GLW
+controller = GLW
 culture = galovidian
 religion = lutetian
 base_tax = 4
@@ -18,4 +18,4 @@ discovered_by = ottoman
 discovered_by = eastern
 extra_cost = 8
 center_of_trade = 1
-add_core = IRE
+add_core = GLW

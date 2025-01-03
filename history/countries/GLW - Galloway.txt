@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = clann
+technology_group = western
+primary_culture = galovidian
+religion = lutetian
+capital = 249 #Ayrshire
+government_rank = 2

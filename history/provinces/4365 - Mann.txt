@@ -1,6 +1,6 @@
 #4365 - Mann
-owner = IRE
-controller = IRE
+owner = KOI
+controller = KOI
 culture = galovidian
 religion = lutetian
 base_tax = 1
@@ -10,9 +10,8 @@ base_manpower = 1
 capital = "Castletown"
 is_city = yes
 add_core = KOI
-add_core = SCO
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = IRE
+add_core = KOI

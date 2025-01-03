@@ -1,6 +1,6 @@
 #4118 - Earldom of Desmond
-owner = IRE
-controller = IRE
+owner = DMS
+controller = DMS
 culture = hibernian
 religion = lutetian
 base_tax = 2
@@ -15,4 +15,4 @@ discovered_by = ottoman
 discovered_by = eastern
 extra_cost = 8
 center_of_trade = 1
-add_core = IRE
+add_core = DMS
