@@ -1,6 +1,6 @@
 #4368 - Yorkshire - North Riding
-owner = CON
-controller = CON
+owner = CNA
+controller = CNA
 culture = jutish
 religion = lutetian
 base_tax = 2
@@ -14,4 +14,4 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = CON
+add_core = CNA

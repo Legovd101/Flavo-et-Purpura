@@ -91,7 +91,7 @@ vassal = {
 
 vassal = {
 	first = DBL
-	second = CON
+	second = CNA
 	start_date = 1255.11.11
 	end_date = 1573.7.1
 }

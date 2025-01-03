@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = kalmar_union
+government_rank = 1
 primary_culture = danish
 religion = arianism
 technology_group = western
