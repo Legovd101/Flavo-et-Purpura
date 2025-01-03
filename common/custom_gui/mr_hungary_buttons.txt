@@ -841,6 +841,7 @@ custom_button = {
 			limit = {
 				247 = { owned_by = ROOT }
 				4362 = { owned_by = ROOT }
+				4361 = { owned_by = ROOT }
 			}
 			if = {
 				limit = {
@@ -873,6 +874,7 @@ custom_button = {
 			OR = {
 				NOT = { 247 = { owned_by = ROOT } }
 				NOT = { 4362 = { owned_by = ROOT } }
+				NOT = { 4361 = { owned_by = ROOT } }
 			}
 		}
 	}
