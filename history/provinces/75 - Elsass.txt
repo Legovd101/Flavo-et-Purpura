@@ -3,7 +3,7 @@ owner = ALS
 controller = ALS
 capital = "Straﬂburg"
 is_city = yes
-culture = swabian
+culture = alemannic
 religion = arianism
 
 base_tax = 6

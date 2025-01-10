@@ -2,7 +2,8 @@
 owner = BAV
 controller = BAV
 capital = "Budejovice"
-culture = czech
+culture = rugian
+add_core = RUG
 religion = arianism
 trade_goods = grain
 

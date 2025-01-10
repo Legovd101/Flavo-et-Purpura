@@ -4,6 +4,12 @@ on_new_monarch = {
 	}
 }
 
+on_monarch_death = {
+	events = {
+		flavor_bry.1			#Brythonian Succession
+	}
+}
+
 # root = loser country, from = winner country
 on_war_lost = {
 	if = {

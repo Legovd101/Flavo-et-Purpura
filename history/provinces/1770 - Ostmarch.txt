@@ -1,7 +1,8 @@
 #1770 - Ostmarch
 owner = BAV
 controller = BAV
-culture = austrian
+culture = rugian
+add_core = RUG
 religion = orthodox
 base_tax = 3
 base_production = 3

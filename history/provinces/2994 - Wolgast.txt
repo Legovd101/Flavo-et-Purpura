@@ -1,7 +1,7 @@
 # - Wolgast
 owner = SAX
 controller = SAX
-culture = pommeranian
+culture = wendish
 religion = arianism
 
 base_tax = 3

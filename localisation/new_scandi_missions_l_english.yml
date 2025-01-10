@@ -81,11 +81,6 @@
  DENMARK:0 "Denmark"
  ESTLAND:0 "Estland"
 
- scandinavian_flavo.0:0 "Heir of Valdemar"
- scandinavian_flavo.0.t:0 "Heir of Valdemar"
- scandinavian_flavo.0.d:0 "Something about the reconquest of Valdemar's empire"
- scandinavian_flavo.0.a:0 "Sweet"
- scandinavian_flavo.1:0 "Dreams of an Empire"
- scandinavian_flavo.1.t:0 "Dreams of an Empire"
- scandinavian_flavo.2.d:0 "We got scandinavia yo"
- scandinavian_flavo.3.a:0 "Neat"
+
+ kievriket:0 "Kievriket"
+ fep_scandinavian_flavor.4.b.tt:1 "@IRE§YRussia§! will be released as a subject nation under a personal union with §Y[Root.GetName]§!."

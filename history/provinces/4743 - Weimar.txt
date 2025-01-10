@@ -1,7 +1,7 @@
 # 4743 - Weimar
 owner = ANH
 controller = ANH
-culture = saxon
+culture = thuringian
 religion = arianism
 
 base_tax = 3

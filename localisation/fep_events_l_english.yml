@@ -44,7 +44,7 @@
  varangian_flavor.0.d: "Due to a number of circumstances, the home of the [returning_corps.GetName] no longer agrees to leave their men in our service."
  varangian_flavor.0.a: "Blast!"
 
-#Swedish Events
+#Scandinavia
  fep_scandinavian_flavor.0.t: "Approaching the Norwegian Throne"
  fep_scandinavian_flavor.0.d: "A diplomat has been sent with the message of unification of our kingdoms to Norway."
  fep_scandinavian_flavor.0.a: "Let's pray they get the message."
@@ -58,7 +58,18 @@
  fep_scandinavian_flavor.3.t: "[From.GetName] Refuses!"
  fep_scandinavian_flavor.3.d: "The [From.GetAdjective] [From.Monarch.GetTitle] has refused our offer of union!"
  fep_scandinavian_flavor.3.a: "Well, it's their funeral..."
-
+ fep_scandinavian_flavor.4.t: "REPLACE_ME"
+ fep_scandinavian_flavor.4.desc: "REPLACE_ME"
+ fep_scandinavian_flavor.4.a: "REPLACE_ME"
+ fep_scandinavian_flavor.4.b: "REPLACE_ME"
+ fep_scandinavian_flavor.5: "Heir of Valdemar"
+ fep_scandinavian_flavor.5.t: "Heir of Valdemar"
+ fep_scandinavian_flavor.5.d: "Something about the reconquest of Valdemar's empire"
+ fep_scandinavian_flavor.5.a: "Sweet"
+ fep_scandinavian_flavor.6: "Dreams of an Empire"
+ fep_scandinavian_flavor.6.t: "Dreams of an Empire"
+ fep_scandinavian_flavor.6.d: "We got scandinavia yo"
+ fep_scandinavian_flavor.6.a: "Neat"
 #Dablit/Dali events
  dablit_flavor.0.t: "Monastic life"
  dablit_flavor.0.d: "Many rulers before us has abdicated the throne in favour of a monastic life, with us having ruled for quite a while for now and our succession secured, a monastic lifestyle in the temples seems ever more tempting..."
@@ -74,3 +85,14 @@
  dablit_flavor.3.a: "We should collect literature on Philosophies"
  dablit_flavor.3.b: "We should collect Epic Poetry"
  dablit_flavor.3.c: "We should collect Martial Arts guides"
+
+#Brythonia
+ flavor_bry.0.t: "REPLACE_ME"
+ flavor_bry.0.d: "REPLACE_ME"
+ flavor_bry.0.a: "REPLACE_ME"
+ flavor_bry.0.a.tt: "REPLACE_ME"
+ flavor_bry.1.t: "Succession!"
+ flavor_bry.1.d: "As is tradition in Brythonia, When the king dies, an election is held from the various lordships."
+ flavor_bry.1.a: "REPLACE_ME"
+ flavor_bry.1.a.tt: "REPLACE_ME"
+

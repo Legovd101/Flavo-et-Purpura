@@ -2,7 +2,7 @@ owner = LPP
 controller = LPP
 capital = "Coburg"
 is_city = yes
-culture = franconian
+culture = thuringian
 religion = arianism
 
 base_tax = 3

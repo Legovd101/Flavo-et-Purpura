@@ -2,7 +2,8 @@ owner = BAV
 controller = BAV
 capital = "Passau"
 is_city = yes
-culture = bavarian
+culture = rugian
+add_core = RUG
 religion = arianism
 
 base_tax = 5

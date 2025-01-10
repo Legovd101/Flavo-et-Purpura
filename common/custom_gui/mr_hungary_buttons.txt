@@ -324,7 +324,6 @@ custom_button = {
 		if = {
 			limit = {
 				239 = { owned_by = ROOT }
-				4372 = { owned_by = ROOT }
 				240 = { owned_by = ROOT }
 			}
 			if = {
@@ -358,7 +357,6 @@ custom_button = {
 			OR = {
 				NOT = { 240 = { owned_by = ROOT } }
 				NOT = { 239 = { owned_by = ROOT } }
-				NOT = { 4372 = { owned_by = ROOT } }
 			}
 		}
 	}
@@ -587,7 +585,7 @@ custom_button = {
 			if = {
 				limit = {
 					event_target:focus_brythonia_province = {
-						province_id = 186
+						province_id = 1861
 					}
 				}
 				custom_tooltip = "Close Lordship Interactions"
@@ -1013,14 +1011,14 @@ custom_button = {
 	effect = {
 		if = {
 			limit = {
-				243 = { owned_by = ROOT }
-				4367 = { owned_by = ROOT }
-				4785 = { owned_by = ROOT }
+				238 = { owned_by = ROOT }
+				4370 = { owned_by = ROOT }
+				1860 = { owned_by = ROOT }
 			}
 			if = {
 				limit = {
 					event_target:focus_brythonia_province = {
-						province_id = 4367
+						province_id = 1860
 					}
 				}
 				custom_tooltip = "Close Lordship Interactions"
@@ -1032,7 +1030,7 @@ custom_button = {
 			else = {
 				custom_tooltip = "Open Lordship Interactions"
 				hidden_effect = {
-					4367 = {
+					1860 = {
 						save_global_event_target_as = focus_brythonia_province
 					}
 				}
@@ -1046,9 +1044,9 @@ custom_button = {
 		number = 1
 		trigger = {
 			OR = {
-				NOT = { 243 = { owned_by = ROOT } }
-				NOT = { 4367 = { owned_by = ROOT } }
-				NOT = { 4785 = { owned_by = ROOT } }
+				NOT = { 238 = { owned_by = ROOT } }
+				NOT = { 4370 = { owned_by = ROOT } }
+				NOT = { 1860 = { owned_by = ROOT } }
 			}
 		}
 	}
@@ -1057,7 +1055,7 @@ custom_button = {
 		trigger = {
 			OR = {
 				event_target:focus_brythonia_province = {
-					province_id = 4367
+					province_id = 1860
 				}
 				NOT = {
 					any_province = {
@@ -1075,12 +1073,12 @@ custom_button = {
 					any_province = {
 						has_saved_global_event_target = focus_brythonia_province
 						NOT = {
-							province_id = 4367
+							province_id = 1860
 						}
 					}
 				}
 				AND = {
-					4367 = {
+					1860 = {
 						is_improving_province_HUN = yes
 					}
 				}

@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = novgorodian
+religion = orthodox
+technology_group = eastern
+historical_rival = NOV
+capital = 4117 # Rostov
+fixed_capital = 295# Cannot move capital away from this province & no power cost to move to it

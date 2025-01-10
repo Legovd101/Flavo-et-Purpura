@@ -1,8 +1,7 @@
 # 4745 - Rügen
 owner = DAN
 controller = DAN
-add_core = RUG
-culture = pommeranian
+culture = wendish
 religion = arianism
 
 base_tax = 2

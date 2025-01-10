@@ -163,7 +163,7 @@ DAN_1 = {
 				}
 			}
 			else = {
-			    add_adm = 100
+			    add_adm_power = 100
 			}
 		}
 	}
@@ -196,7 +196,6 @@ DAN_1 = {
 
 		effect = {
 			scandinavia_region = {
-		        type = all
 			    add_permanent_claim = ROOT
 			}
 			denmark_area = {
@@ -213,8 +212,8 @@ DAN_1 = {
 			    		1 = { add_base_manpower = 2 }
 			    	}
 			    }
+				else = { add_prosperity = 25 }
 			}
-			else = { add_prosperity = 25 }
 		}
 	}
 }
@@ -248,7 +247,7 @@ DAN_2 = {
 			}
 		}
 		effect = {
-		    remove_estate_privilege = estate_burghers_anglish_nobility
+		    remove_estate_privilege = estate_nobles_anglish_nobility
 		    add_country_modifier = {
 		        name = jutish_support
 		        duration = 5475
@@ -318,7 +317,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    country_event = { id = { scandinavian_flavo } } #talk about restoring valdemars empire																																									
+		    country_event = { id = fep_scandinavian_flavor.5 } #talk about restoring valdemars empire																																									
 		} 
 	}
 
@@ -393,7 +392,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    country_event = { id = { scandinavian_flavo.1 } } #talk about restoring valdemars empire																																									
+		    country_event = { id = fep_scandinavian_flavor.6 } #talk about restoring valdemars empire																																									
 		} 
 	}
 }
@@ -630,11 +629,9 @@ new_branch = {
 		effect = {
 		    subarctic_islands_area = {
 			    add_permanent_claim = ROOT
-				type = all
 			}
 			greenland_area = {
 			    add_permanent_claim = ROOT
-				type = all
 			}
 			add_navy_tradition = 20
 		}

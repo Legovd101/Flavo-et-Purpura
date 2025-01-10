@@ -1,7 +1,8 @@
 owner = MVA
 controller = MVA
 capital = "Jindrichuv Hradec"
-culture = czech
+culture = rugian
+add_core = RUG
 religion = arianism
 trade_goods = grain
 

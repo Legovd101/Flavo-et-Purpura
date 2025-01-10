@@ -1,7 +1,7 @@
 #47 - Stralsund
 owner = ENG
 controller = ENG
-culture = pommeranian
+culture = wendish
 religion = arianism
 
 base_tax = 2

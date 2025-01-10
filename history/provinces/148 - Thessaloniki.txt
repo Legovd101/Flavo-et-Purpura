@@ -1,8 +1,8 @@
 #148 - Macedonia
-owner = BYZ
-controller = BYZ
-culture = rhoman
-religion = orthodox
+owner = SNG
+controller = SNG
+culture = angle
+religion = arianism
 capital = "Thessaloniki"
 trade_goods = cloth
 base_tax = 4
@@ -13,8 +13,7 @@ add_permanent_province_modifier = {
 	name = historic_highways
 	duration = -1
 }
-add_core = BYZ
-add_core = VEN
+add_core = SNG
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

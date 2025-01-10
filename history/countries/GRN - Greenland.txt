@@ -1,0 +1,6 @@
+government = tribal
+government_rank = 1
+primary_culture = novgorodian
+religion = totemism
+technology_group = north_american
+capital = 1105 # Sermersooq

@@ -2,7 +2,7 @@ owner = SWI
 controller = SWI
 capital = "Reutlingen"
 is_city = yes
-culture = swabian
+culture = thuringian
 religion = arianism
 
 base_tax = 3

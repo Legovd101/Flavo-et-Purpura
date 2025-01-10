@@ -1,7 +1,7 @@
 #1856 - Abkhazia
 owner = GEO
 controller = GEO
-culture = laz
+culture = georgian
 religion = orthodox
 capital = "Sukhumi"
 trade_goods = wine

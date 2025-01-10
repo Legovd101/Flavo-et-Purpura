@@ -1,7 +1,8 @@
 #133 - Linz
 owner = BAV
 controller = BAV
-culture = austrian
+culture = rugian
+add_core = RUG
 religion = arianism
 base_tax = 4
 base_production = 4

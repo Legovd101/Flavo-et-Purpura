@@ -3,6 +3,7 @@ add_core = SWE
 owner = SWE
 controller = SWE
 culture = geatish
+add_core = GAU
 add_core = SCN
 religion = arianism
 base_tax = 1

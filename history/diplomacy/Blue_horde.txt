@@ -58,9 +58,17 @@ vassal = {
 	end_date = 1553.12.31
 }
 
-vassal = {
+march = {
 	first = MVA
 	second = GLG
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}
+
+# Byzantines
+vassal = {
+	first = BYZ
+	second = SNG
 	start_date = 1045.6.21
 	end_date = 1553.12.31
 }

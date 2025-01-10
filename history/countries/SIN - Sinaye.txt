@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = nestorian
 primary_culture = jin
+capital = 693

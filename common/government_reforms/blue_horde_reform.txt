@@ -41,3 +41,34 @@ blue_horde_reform = {
 		factor = 1000
 	}
 }
+
+varangian_state_reform = {
+	icon = "war_economy"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			NOT = { has_dlc = "Domination" }
+			NOT = { culture_group = hellenic }
+		}
+	}
+	trigger = {
+		tag = SNG
+	}
+	modifiers = {
+		mercenary_cost = -0.1
+		possible_condottieri = 0.5
+	}
+	
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				has_global_modifier_value = {
+					which = mercenary_discipline
+					value = 0.05
+				}
+			}
+		}
+	}
+}

@@ -14,3 +14,4 @@ discovered_by = western
 discovered_by = nomad_group
 discovered_by = KAZ
 add_core = TVE
+add_core = RTA

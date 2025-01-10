@@ -1,7 +1,8 @@
 #4760 - Innbaiern
 owner = BAV
 controller = BAV
-culture = bavarian
+culture = rugian
+add_core = RUG
 religion = arianism
 base_tax = 3
 base_production = 3

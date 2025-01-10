@@ -64,7 +64,7 @@ finnic = {
 		}
 	}
 	kven = {
-		primary = FIN
+		primary = KVE
 		country = {  }
 		province = { local_has_carolean = yes }
 		dynasty_names = {

@@ -1,3 +1,5 @@
+# Baltic Sea
+
 # Schleswig-Holstein
 1775 = {"Holcstat" "Holcstat"}
 13 = {"Sclesvic" "Sclesvic"}
@@ -31,3 +33,19 @@
 43 = {"Dentscic" "Dentscic"}
 2997 = {"Tuscel" "Tuscel"}
 1841 = {"Meareburh" "Meareburh"}
+
+# Balkans
+
+# Gallipoli
+151 = {"Myclaburh" "Myclaburh"}
+4779 = {"Celipland" "Celipland"}
+149 = {"Hadriena" "Hadriena"}
+1764 = {"Norþburh" "Norþburh"}
+4705 = {"Camotynas" "Camotynas"}
+
+# Macedonia
+148 = {"Suþangul" "Suþangul"}
+4702 = {"Macedonscir" "Macedonscir"}
+3001 = {"Scacaburh" "Scacaburh"}
+4780 = {"Oryddas" "Oryddas"}
+1853 = {"Ceaster" "Ceaster"}

@@ -25,7 +25,6 @@ irish_charter = {
 		capital_scope = { region = british_isles_region }
 		owns = 373
 	}
-	legacy_equivalent = shogunate_legacy
 	fixed_rank = 2
 	maintain_dynasty = yes
 	allow_vassal_war = yes
@@ -61,7 +60,6 @@ clann = {
 		overlord = { has_reform = irish_charter }
 	}
 	replacement_on_independence_war = indep_daimyo
-	legacy_equivalent = daimyo_legacy
 	fixed_rank = 1
 	maintain_dynasty = yes
 	valid_for_nation_designer = yes

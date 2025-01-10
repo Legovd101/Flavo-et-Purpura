@@ -3,6 +3,7 @@ owner = FIN
 controller = FIN
 add_core = SMI
 culture = kven
+add_core = KVE
 religion = finnish_pagan
 base_tax = 1
 base_production = 1

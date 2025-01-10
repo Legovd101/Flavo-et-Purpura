@@ -134,6 +134,8 @@ monarchy = {
 				dablit_guaif_reform
 				exiled_yamato_court
 				yamato_court
+				irish_charter
+				clann
 			}
 		}
 		hereditary_vs_nobility = {
@@ -671,6 +673,7 @@ republic = {
 				turkoman_ottoman_institutions
 				#FEP
 				jiedushi_reform
+				varangian_state_reform
 			}
 		}
 		republican_virtues = {

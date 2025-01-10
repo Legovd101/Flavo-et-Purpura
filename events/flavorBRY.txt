@@ -1,0 +1,288 @@
+########################################
+# Flavor Events for Ogedeid
+########################################
+
+namespace = flavor_bry
+normal_or_historical_nations = yes
+
+# 
+country_event = {
+	id = flavor_bry.0
+	title = "flavor_bry.0.t"
+	desc = "flavor_bry.0.d"
+	picture = OVEREXTENSION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		always = no
+	}
+	
+	option = { # 
+		name = "flavor_bry.0.a"
+		custom_tooltip = flavor_bry.0.a.tt
+		
+	}
+}
+
+# Brythonian Succession
+country_event = {
+	id = flavor_bry.1
+	title = "flavor_bry.1.t"
+	desc = "flavor_bry.1.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRY
+	}
+
+	
+	immediate = {
+		hidden_effect = {
+			# define_ruler = {
+			# 	adm = 0
+			# 	mil = 0
+			# 	dip = 0
+			# } 
+			random_list = {
+				50 = {
+					236 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 235 = { owned_by = ROOT } }
+							NOT = { 236 = { owned_by = ROOT } }
+						}
+					}
+				}
+				
+				50 = {
+					4371 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 4371 = { owned_by = ROOT } }
+							NOT = { 234 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				
+				50 = {
+					233 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 233 = { owned_by = ROOT } }
+							NOT = { 4373 = { owned_by = ROOT } }
+							NOT = { 4130 = { owned_by = ROOT } }
+							NOT = { 4374 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					239 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 239 = { owned_by = ROOT } }
+							NOT = { 240 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					242 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 242 = { owned_by = ROOT } }
+							NOT = { 4369 = { owned_by = ROOT } }
+							NOT = { 241 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					237 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 237 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					1861 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 1861 = { owned_by = ROOT } }
+							NOT = { 4376 = { owned_by = ROOT } }
+							NOT = { 4372 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					244 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 244 = { owned_by = ROOT } }
+							NOT = { 4375 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					245 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 245 = { owned_by = ROOT } }
+							NOT = { 246 = { owned_by = ROOT } }
+							NOT = { 4368 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					4362 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 4362 = { owned_by = ROOT } }
+							NOT = { 247 = { owned_by = ROOT } }
+							NOT = { 4361 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					4367 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 4367 = { owned_by = ROOT } }
+							NOT = { 243 = { owned_by = ROOT } }
+							NOT = { 4785 = { owned_by = ROOT } }
+						}
+					}
+				}				
+				50 = {
+					1860 = { save_event_target_as = new_brythonic_center } 
+					modifier = {
+						factor = 0
+						OR = {
+							NOT = { 238 = { owned_by = ROOT } }
+							NOT = { 4370 = { owned_by = ROOT } }
+							NOT = { 1860 = { owned_by = ROOT } }
+						}
+					}
+				}				
+			}
+		}
+	}
+	
+	option = { 
+		name = "flavor_bry.1.a" # May the Pax Mongolica ever thrive
+		custom_tooltip = flavor_bry.1.a.tt
+		hidden_effect = {
+			set_capital = event_target:new_brythonic_center
+			event_target:new_brythonic_center = {
+				if = {
+					limit = { province_id = 236 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Llundain"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 4371 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Caerfuddal"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 233 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Cernyw"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 239 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Caerloyw"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 242 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 1861 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Llancarw"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 244 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Gwersyllbom"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 237 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Rhydychen"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 245 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Efrog"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 4362 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Merin Rheged"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 4367 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Y Cefn"
+						}
+					}
+				}
+				else_if = {
+					limit = { province_id = 1860 }
+					ROOT = {
+						define_ruler = {
+							dynasty = "Dwyrain Lloegr"
+						}
+					}
+				}
+			}
+		}
+	}
+}

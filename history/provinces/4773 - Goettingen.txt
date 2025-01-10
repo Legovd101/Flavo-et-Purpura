@@ -1,7 +1,7 @@
 #4773 - Göttingen
 owner = SAX
 controller = SAX
-culture = lower_saxon
+culture = thuringian
 religion = arianism
 capital = "Göttingen"
 trade_goods = cloth

@@ -161,7 +161,7 @@ vassal = {
 
 vassal = {
 	first = DBL
-	second = CRN
+	second = COA
 	start_date = 1255.11.11
 	end_date = 1573.7.1
 }
