@@ -1,0 +1,177 @@
+# Danish Events
+namespace = flavor_sng
+
+country_event = { # A Varangian State?
+	id = flavor_sng.0
+	title = flavor_sng.0.t
+	desc = flavor_sng.0.d
+	picture = BYZ_BYZANTINE_EMPEROR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # We need all the help we can get.
+		name = flavor_sng.0.a
+		every_owned_province = {
+			limit = {
+				area = aegean_archipelago_area
+			}
+			add_core = SNG
+			cede_province = SNG
+			remove_core = ROOT
+		}
+		SNG = {
+			country_event = {
+				id = flavor_sng.1
+				days = 30
+			}
+		}
+	}
+
+	option = { # ...And we should say yes why?
+		name = flavor_sng.0.b
+		every_owned_province = {
+			limit = {
+				area = aegean_archipelago_area
+			}
+			add_permanent_claim = SNG
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+}
+
+country_event = { # The Conquest of Hellas
+	id = flavor_sng.1
+	title = flavor_sng.1.t
+	desc = flavor_sng.1.d
+	picture = BYZ_BYZANTINE_EMPEROR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # Athens
+		trigger = {
+			NOT = {
+				ATH = {
+					truce_with = ROOT
+				}
+			}
+		}
+		name = flavor_sng.1.a
+		grant_independence = yes
+		declare_war_with_cb = {
+			casus_belli = cb_vassalize_mission
+			who = ATH
+		}
+		overlord = { join_all_offensive_wars_of = ROOT }
+
+	}
+
+	option = { # Peloponnesia
+		name = flavor_sng.1.b
+		trigger = {
+			NOT = {
+				ACH = {
+					truce_with = ROOT
+				}
+			}
+		}
+		grant_independence = yes
+		declare_war_with_cb = {
+			casus_belli = cb_vassalize_mission
+			who = ACH
+		}
+		overlord = { join_all_offensive_wars_of = ROOT }
+	}
+
+	option = { # Epiros
+		name = flavor_sng.1.c
+		trigger = {
+			NOT = {
+				EPI = {
+					truce_with = ROOT
+				}
+			}
+		}
+		grant_independence = yes
+		declare_war_with_cb = {
+			casus_belli = cb_vassalize_mission
+			who = EPI
+		}
+		overlord = { join_all_offensive_wars_of = ROOT }
+	}
+
+	option = { # Cephalonia
+		name = flavor_sng.1.d
+		trigger = {
+			NOT = {
+				CEP = {
+					truce_with = ROOT
+				}
+			}
+		}
+		grant_independence = yes
+		declare_war_with_cb = {
+			casus_belli = cb_vassalize_mission
+			who = CEP
+		}
+		overlord = { join_all_offensive_wars_of = ROOT }
+	}
+
+	option = { # Crete
+		name = flavor_sng.1.d
+		trigger = {
+			NOT = {
+				CRT = {
+					truce_with = ROOT
+				}
+			}
+		}
+		grant_independence = yes
+		declare_war_with_cb = {
+			casus_belli = cb_vassalize_mission
+			who = CRT
+		}
+		overlord = { join_all_offensive_wars_of = ROOT }
+	}
+
+	option = { # Nevermind...
+		name = flavor_sng.1.d
+		if = {
+			limit = {
+				NOt = { num_of_subjects = 1 }
+			}
+			BYZ = { create_march = ROOT }
+		}
+	}
+
+}
+
+province_event = { # Angles offer to purchase [Root.GetName]
+	id = flavor_sng.2
+	title = flavor_sng.2.t
+	desc = flavor_sng.2.d
+	picture = BYZ_BYZANTINE_EMPEROR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # Athens
+		name = flavor_sng.2.a
+		FROM = {
+			add_treasury = -100
+		}
+		owner = {
+			add_treasury = 100
+		}
+		cede_province = FROM
+
+	}
+
+	option = { # Peloponnesia
+		name = flavor_sng.2.b
+		FROM = { add_permanent_claim = ROOT }
+		set_province_flag = SNG_refused
+	}
+
+}

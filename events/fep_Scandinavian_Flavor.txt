@@ -101,9 +101,9 @@ country_event = { # Norway Refuses!
 	option = { # Well, it's their funeral...
 		name = fep_scandinavian_flavor.3.a
 		add_casus_belli = {
-			type = cb_claim_throne
+			type = cb_restore_personal_union
 			target = FROM
-			months = 240
+			months = 300
 		}
 	}
 

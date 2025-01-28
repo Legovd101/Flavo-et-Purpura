@@ -3,5 +3,5 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = eastern
 religion = finnish_pagan
-primary_culture = sami
+primary_culture = sapmi
 capital = 1777

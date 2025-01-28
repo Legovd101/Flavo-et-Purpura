@@ -1,0 +1,5 @@
+governors_of_hellas = {
+	reduced_liberty_desire = 25
+	land_maintenance_modifier = -0.15
+	land_forcelimit_modifier = 0.2
+}

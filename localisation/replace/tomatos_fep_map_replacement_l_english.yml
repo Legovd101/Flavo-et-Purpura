@@ -1,0 +1,23 @@
+﻿l_english:
+# All of this was done by Tomato for his (thus far unreleased) mod
+ # Provinces
+ PROV684:0 "Hangtsei"
+ PROV_ADJ684:0 "Hangtsei"
+ PROV1247:0 "Alta Corsica"
+ PROV_ADJ1247:0 "Alta Corsica"
+ PROV2148:0 "Sohshing"
+ PROV_ADJ2148:0 "Sohshing"
+ PROV2150:0 "Tsinua"
+ PROV_ADJ2150:0 "Tsinua"
+ PROV2152:0 "Kuinan"
+ PROV_ADJ2152:0 "Kuinan"
+ PROV1838:0 "Luzhou"
+ PROV_ADJ1838:0 "Luzhou"
+ PROV2144:0 "Yingzhou"
+ PROV_ADJ2144:0 "Yingzhou"
+ PROV2146:0 "Ningko"
+ PROV_ADJ2146:0 "Ningko"
+ PROV2147:0 "Huetsei"
+ PROV_ADJ2147:0 "Hue"
+
+# Areas

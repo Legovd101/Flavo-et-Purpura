@@ -43,3 +43,202 @@ country_event = {
 	}
 }
 
+# The Varangians are revolting!
+country_event = {
+	id = varangian_flavor.1
+	title = varangian_flavor.1.t
+	desc = varangian_flavor.1.d
+	picture = COSSACK_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = varangians_estate_triggered
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						estate_territory = {
+							estate = estate_varangians
+							territory = 1
+						}
+					}
+				}
+				change_estate_land_share = {
+					estate = estate_varangians
+					share = 5
+				}
+			}
+		}
+	}
+
+	after = {
+		change_estate_land_share = {
+			estate = estate_varangians
+			share = -5
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				any_hired_mercenary_company = {
+					is_varangians_trigger = yes
+					location = {
+						NOT = { any_province_in_state = { is_capital_of = owner } }
+						owned_by = ROOT
+					}
+				}
+			}
+			random_hired_mercenary_company = {
+				limit = {
+					is_varangians_trigger = yes
+					location = {
+						NOT = { any_province_in_state = { is_capital_of = owner } }
+						owned_by = ROOT
+					}
+				}
+				location = {
+					save_event_target_as = varangian_rebellion
+				}
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					NOT = { any_province_in_state = { is_capital_of = owner } }
+				}
+			}
+			save_event_target_as = varangian_rebellion
+		}
+	}
+	
+	option = {
+		name = varangian_flavor.1.a	
+		add_country_modifier = {
+			name = "serf_desertion"
+			duration = 5475
+		}
+		event_target:varangian_rebellion = {
+			random_list = {
+				20 = { # Angles/Wærengia
+					add_core = VR1
+					ROOT = { release = VR1 }
+					change_culture = anglo_greek
+					change_religion = arianism
+					modifier = {
+						factor = 0
+						exists = VR1
+					}
+					area = {
+						if = {
+							limit = { owned_by = ROOT }
+							add_core = VR1
+							cede_province = VR1
+						}
+					}
+					VR1 = { set_capital = PREV }
+				}
+				20 = { # Swedes/Värinrike
+					add_core = VR2
+					ROOT = { release = VR2 }
+					change_culture = scando_greek
+					change_religion = arianism
+					modifier = {
+						factor = 0
+						exists = VR2
+					}
+					area = {
+						if = {
+							limit = { owned_by = ROOT }
+							add_core = VR2
+							cede_province = VR2
+						}
+					}
+					VR2 = { set_capital = PREV }
+				}
+				20 = { # Danes/Væringland
+					add_core = VR3
+					ROOT = { release = VR3 }
+					change_culture = scando_greek
+					change_religion = arianism
+					modifier = {
+						factor = 0
+						exists = VR3
+					}
+					area = {
+						if = {
+							limit = { owned_by = ROOT }
+							add_core = VR3
+							cede_province = VR3
+						}
+					}
+					VR3 = { set_capital = PREV }
+				}
+				20 = { # Norwegians/Værengra
+					add_core = VR4
+					ROOT = { release = VR4 }
+					change_culture = scando_greek
+					change_religion = arianism
+					modifier = {
+						factor = 0
+						exists = VR4
+					}
+					area = {
+						if = {
+							limit = { owned_by = ROOT }
+							add_core = VR4
+							cede_province = VR4
+						}
+					}
+					VR4 = { set_capital = PREV }
+				}
+				20 = { # Novgorodians/Varygrad
+					add_core = VR5
+					ROOT = { release = VR5 }
+					change_culture = russo_greek
+					change_religion = orthodox
+					modifier = {
+						factor = 0
+						exists = VR5
+					}
+					area = {
+						if = {
+							limit = { owned_by = ROOT }
+							add_core = VR5
+							cede_province = VR5
+						}
+					}
+					VR4 = { set_capital = PREV }
+				}
+			}
+		}
+	}
+	
+	# option = {
+	# 	name = varangian_flavor.1.b
+	# 	trigger = { 
+	# 		ai = no 
+	# 		has_dlc = "The Cossacks"
+	# 	}
+	# 	add_country_modifier = {
+	# 		name = "serf_desertion"
+	# 		duration = 5475
+	# 	}
+	# 	if = {
+	# 		limit = { has_government_mechanic = ottoman_decadence_mechanic }
+	# 		add_government_power = { 
+	# 			mechanic_type = ottoman_decadence_mechanic
+	# 			power_type = ottoman_decadence
+	# 			value = 5
+	# 		}
+	# 	}
+	# 	create_independent_estate = {
+	# 		estate = estate_varangians
+	# 		government = republic
+	# 		government_reform = varangian_state_reform
+	# 		custom_national_ideas = cossack_ideas
+	# 		play_as = yes
+	# 	}
+	# }
+}

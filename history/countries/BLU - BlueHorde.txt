@@ -27,3 +27,9 @@ primary_culture = early_romylian
 	}
 
 }
+historical_rival = BYZ
+historical_rival = GLL
+historical_rival = EPI
+historical_rival = ACH
+historical_rival = ATH
+historical_rival = CEP

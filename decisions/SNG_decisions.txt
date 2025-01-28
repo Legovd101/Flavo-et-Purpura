@@ -1,0 +1,97 @@
+country_decisions = {
+
+	thracian_crusade = {
+		major = yes
+		potential = {
+			tag = SNG
+			has_country_flag = SNG_thracian_crusade
+			NOT = {
+				has_country_flag = SNG_thracia_victory
+			}
+		}
+		allow = {
+			is_at_war = no
+			army_size_percentage = 1.0
+		}
+		effect = {
+			grant_independence = yes
+			declare_war_with_cb = {
+				casus_belli = cb_conquest
+				who = BLU
+				war_goal_province = 151
+			}	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	conquest_of_hellas = {
+		major = yes
+		potential = {
+			tag = SNG
+			has_country_flag = SNG_grekland
+		}
+		allow = {
+			stability = 2
+			reverse_has_opinion = {
+				who = overlord
+				value = 100
+			}
+			is_at_war = no
+		}
+		effect = {
+			add_stability = -1
+			country_event = {
+				id = flavor_sng.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	purchase_aegean = {
+		potential = {
+			tag = SNG
+			has_country_flag = SNG_in_the_market
+			any_province = {
+				area = aegean_archipelago_area
+				had_province_flag = {
+					flag = SNG_refused
+					days = 1825
+				}
+			}
+		}
+		allow = {
+			any_country = {
+				NOT = { tag = BYZ }
+				any_owned_province = {
+					area = aegean_archipelago_area
+				}
+				has_opinion = {
+					who = ROOT
+					value = 100
+				}
+				treasury = 200
+			}
+		}
+		effect = {
+			random_province = {
+				limit = {
+					area = aegean_archipelago_area
+					owner = {
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}		
+					}
+				}
+				province_event = {
+					id = flavor_sng.2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

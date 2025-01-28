@@ -54,6 +54,7 @@ varangian_state_reform = {
 	trigger = {
 		tag = SNG
 	}
+	royal_marriage = yes
 	modifiers = {
 		mercenary_cost = -0.1
 		possible_condottieri = 0.5

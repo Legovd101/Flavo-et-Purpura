@@ -1,3 +1,5 @@
+# Massive credit to "Gods and Kings" for the code for this!!
+
 custom_button = {
     name = brythonia_cw_window #Must match a scripted guiButtonType in a .gui file
    	potential = {

@@ -1,0 +1,6 @@
+government = monarchy
+religion = hinduism
+capital = 537
+technology_group = indian
+primary_culture = malayalam
+government_rank = 1

@@ -45,7 +45,22 @@
 
 # Macedonia
 148 = {"Suþangul" "Suþangul"}
-4702 = {"Macedonscir" "Macedonscir"}
+4702 = {"Mæcedonscir" "Mæcedonscir"}
 3001 = {"Scacaburh" "Scacaburh"}
 4780 = {"Oryddas" "Oryddas"}
 1853 = {"Ceaster" "Ceaster"}
+
+# Aegean
+163 = {"Cryta" "Crytaport"}
+4700 = {"Norþiegland" "Lesba"}
+2348 = {"Cyasieg" "Cyasieg"}
+164 = {"Naccas" "Naccas"}
+320 = {"Roðos" "Roðos"}
+3003 = {"Euburh" "Euburh"}
+
+# Northern Greece
+147 = {"Þisalia" "Þisalia"}
+144 = {"Æbrus" "Æbrus"}
+142 = {"Corcyra" "Corcyra"}
+4699 = {"Erta" "Erta"}
+4698 = {"Ceblona" "Ceblona"}
