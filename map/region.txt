@@ -865,8 +865,9 @@ japan_region = {
 		dewa_area
 		kii_area
 		north_hokuriku_area
-		west_sanindo_area
+		east_sanindo_area
 		sanyodo_area
+		north_hokkaido_area
 	}
 	monsoon = {
 		00.06.01
@@ -976,6 +977,11 @@ north_china_region = {
 		north_shaanxi_area
 		west_shaanxi_area
 		east_gansu_area
+		shanxi_east_area
+		shanxi_north_area
+		shanxi_south_area
+		east_hebei_area
+		west_hebei_area
 	}
 }
 

@@ -2918,12 +2918,20 @@ ngari_area = { #3
 	2128 4516 4520
 } #new!!
 
-hebei_area = { #4 (North Hebei)
-	703 1816 2136 4194
+hebei_area = {  #5 (North Hebei)
+	703 1816 2136 4194 5197
 }
 
 south_hebei_area = { #4
-	695 696 2137 4195
+	2137 5189 5190 5191
+}
+
+east_hebei_area = { #4
+	695 5192 5193 5194
+}
+
+west_hebei_area = { #4
+	696 4195 5195 5196
 }
 
 shandong_area = { #4
@@ -3122,8 +3130,20 @@ north_henan_area = { #5
 	692 1836 5123 5124 5125
 }
 
-shanxi_area = { #5
-	693 694 697 2177 2178
+shanxi_area = { #5	(Shanxi West)
+	693 5178 5184 5185 5186
+}
+
+shanxi_east_area = { #5
+	2178 5179 5180 5181 5182
+}
+
+shanxi_north_area = { #4
+	697 2177 5187 5188
+}
+
+shanxi_south_area = { #5
+	694 5175 5176 5177 5183
 }
 
 shaanxi_area = { #4 (east shaanxi)
