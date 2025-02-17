@@ -56,15 +56,24 @@
  DAN_second_valdemarian_age_title:0 "Second Valdemarian Age"
  DAN_second_valdemarian_age_desc:0 "The greatest kings of the 1200s were all named Valdemar, and they heralded a golden age of prosperity and strength for the Danish realm. With our reconquest of their rightful dominions, let us usher in a new era for Denmark, brighter than any before!"
  
- danish_norway_friendship_tt:0 "If we complete this mission by having §Y200§! opinion with §YNorway§!, they might form a union with us peacefully.\n"
- danish_norway_rival_tt:0 "If we complete this mission by rivaling and insulting §YNorway§!, we will gain §YRestoration of Union§! Casus Belli on them.\n"
- danish_norway_bypass_tt:0 "If we complete this mission while §YNorway§! doesn't exist and we control the Østlandet area, Vestlandet area and Trøndelag area, we will gain:"
+ danish_norway_friendship_tt:0 "£yes£ If we complete this mission by having §Y200§! opinion with §YNorway§!, they might form a union with us peacefully.\n"
+ danish_norway_rival_tt:0 "£yes£ If we complete this mission by rivaling and insulting §YNorway§!, we will gain §YRestoration of Union§! Casus Belli on them.\n"
+ danish_norway_bypass_tt:0 "£yes£ If we complete this mission while §YNorway§! doesn't exist and we control the Østlandet area, Vestlandet area and Trøndelag area, we will gain:"
+ 
+ danish_norway_friendship_no_tt:0 "£no£ If we complete this mission by having §Y200§! opinion with §YNorway§!, they might form a union with us peacefully.\n"
+ danish_norway_rival_no_tt:0 "£no£ If we complete this mission by rivaling and insulting §YNorway§!, we will gain §YRestoration of Union§! Casus Belli on them.\n"
+ danish_norway_bypass_no_tt:0 "£no£ If we complete this mission while §YNorway§! doesn't exist and we control the Østlandet area, Vestlandet area and Trøndelag area, we will gain:"
  
  danish_wendish_crusade_tt:0 "§Y[Root.GetName]§! gains permanent claims on all §YPomeranian§!, §YWendish§! and §YPrusijan§! provinces."
- danish_england_destroyed_tt:0 "If we complete this mission while §YAngulland§! doesn't exist, we will also get §G100§! military power.\n"
+ danish_england_destroyed_tt:0 "£yes£ If we complete this mission while §YAngulland§! doesn't exist, we will also get §G100§! military power.\n"
+ danish_england_destroyed_no_tt:0 "£no£ If we complete this mission while §YAngulland§! doesn't exist, we will also get §G100§! military power.\n"
  danish_norway_danified_tt:0 "Provinces in §YNorway§! will be §YDanified§!.\n"
  danish_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years."
  danish_add_baltic_claims_tt:0 "§Y[Root.GetName]§! gains permanent claims on all §YBaltic§! provinces with a Center of Trade.\n"
+ danish_estonia_tt:0 "£yes£ If we complete this mission while §YEstonia§! is our subject, they will be renamed to §YEstland§! and we will gain:"
+ danish_estonia_no_tt:0 "£no£ If we complete this mission while §YEstonia§! is our subject, they will be renamed to §YEstland§! and we will gain:"
+ 
+ mission_space:0 " "
  
  second_valdemarian_age:0 "Second Valdemarian Age"
  second_valdemarian_age2:0 "Second Valdemarian Age"
@@ -77,10 +86,95 @@
  oresund_dominance:0 "Øresund Dominance"
  danish_baltic_dominance:0 "Dominium Maris Baltici"
  danish_explorer_spirit:0 "Explorer Spirit"
+ danish_estonian_overlord:0 "Estlander Ports"
  
  DENMARK:0 "Denmark"
  ESTLAND:0 "Estland"
 
+ scandinavian_flavo.0:0 "Heir of Valdemar"
+ scandinavian_flavo.0.t:0 "Heir of Valdemar"
+ scandinavian_flavo.0.d:0 "Something about the reconquest of Valdemar's empire"
+ scandinavian_flavo.0.a:0 "Sweet"
+ scandinavian_flavo.1:0 "Dreams of an Empire"
+ scandinavian_flavo.1.t:0 "Dreams of an Empire"
+ scandinavian_flavo.2.d:0 "We got scandinavia yo"
+ scandinavian_flavo.3.a:0 "Neat"
+ 
+ SWE_the_falun_mines_title:0 "The Falun Mines"
+ SWE_the_falun_mines_desc:0 ""
 
- kievriket:0 "Kievriket"
- fep_scandinavian_flavor.4.b.tt:1 "@IRE§YRussia§! will be released as a subject nation under a personal union with §Y[Root.GetName]§!."
+ SWE_roros_prospecting_title:0 "Röros Prospecting"
+ SWE_roros_prospecting_desc:0 ""
+
+ SWE_beyond_the_cape_title:0 "Beyond the Cape"
+ SWE_beyond_the_cape_desc:0 ""
+
+ SWE_foothold_in_india_title:0 "Foothold in India"
+ SWE_foothold_in_india_desc:0 ""
+
+ SWE_the_furthest_east_title:0 "The Furthest East"
+ SWE_the_furthest_east_desc:0 ""
+
+ SWE_king_of_norway_title:0 "True King of Norway"
+ SWE_king_of_norway_desc:0 ""
+
+ SWE_gateway_to_the_west_title:0 "Gateway to the West"
+ SWE_gateway_to_the_west_desc:0 ""
+
+ SWE_vasterland_title:0 "Establish Västerland"
+ SWE_vasterland_desc:0 ""
+
+ SWE_swedish_new_world_title:0 "Swedish New World"
+ SWE_swedish_new_world_desc:0 ""
+
+ SWE_crown_of_hakan_title:0 "The Crown of St. Håkan"
+ SWE_crown_of_hakan_desc:0 ""
+
+ SWE_sway_the_scanians_title:0 "Sway the Scanians"
+ SWE_sway_the_scanians_desc:0 ""
+
+ SWE_across_the_belt_title:0 "March Across the Sound"
+ SWE_across_the_belt_desc:0 ""
+
+ SWE_bane_of_england_title:0 "Bane of the Ænglish"
+ SWE_bane_of_england_desc:0 ""
+
+ SWE_the_baltic_provinces_title:0 "The Baltic Provinces"
+ SWE_the_baltic_provinces_desc:0 ""
+
+ SWE_fourth_swedish_crusade_title:0 "Fourth Swedish Crusade"
+ SWE_fourth_swedish_crusade_desc:0 ""
+
+ SWE_fall_of_riga_title:0 "The Fall of Riga"
+ SWE_fall_of_riga_desc:0 ""
+
+ SWE_a_swedish_lake_title:0 "A Swedish Lake"
+ SWE_a_swedish_lake_desc:0 ""
+
+ SWE_heir_of_the_rus_title:0 "Heir to the Rus'"
+ SWE_heir_of_the_rus_desc:0 ""
+
+ SWE_eastern_frontier_title:0 "The Eastern Frontier"
+ SWE_eastern_frontier_desc:0 ""
+
+ SWE_settle_osterland_title:0 "Settle Österland"
+ SWE_settle_osterland_desc:0 ""
+
+ SWE_empower_birkarls_title:0 "Empower the Birkarls"
+ SWE_empower_birkarls_desc:0 ""
+
+ SWE_face_the_mongols_title:0 "Face the Mongols"
+ SWE_face_the_mongols_desc:0 ""
+
+ swedish_oresund_dominance_tt:0 "£yes£ If we complete this mission while §YDenmark§! doesn't exist, the duration of the following modifier is §Gdoubled§!:\n"
+ swedish_oresund_dominance_no_tt:0 "£no£ If we complete this mission while §YDenmark§! doesn't exist, the duration of the following modifier is §Gdoubled§!:\n"
+ swedish_pagan_claim_tt:0 "§Y[Root.GetName]§! gains permanent claims on all §YSuomenusko§! provinces.\n"
+ sweden_norwegian_sailors_tt:0 "£yes£ If we complete this mission while having unlocked at least §Y3 Exploration Ideas§!, we will also get:"
+ sweden_vassalize_scania_tt:0 "£yes£ If we complete this mission by having a spy network of §Y50§! in §YSkåne§!, we will vassalize them. Otherwise, gain §G100§! Administrative Power.\n"
+ sweden_vassalize_scania_no_tt:0 "£no£ If we complete this mission by having a spy network of §Y50§! in §YSkåne§!, we will vassalize them. Otherwise, gain §G100§! Administrative Power.\n"
+ sweden_anglo_conquest_tt:0 "Every owned §YÆnglish§! province will lose §G-25%§! Autonomy."
+ sweden_norwegian_sailors_no_tt:0 "£no£ If we complete this mission while having unlocked at least §Y3 Exploration Ideas§!, we will also get:"
+ sweden_east_europe_claims_tt:0 "§Y[Root.GetName]§! gains regular claims on all §YEast Slavic§! provinces."
+ sweden_release_rus_tt:0 "Unlocks a decision to release the §YKievan Rus'§! as a subject. As long as they are our subject, we will get:"
+ sweden_finnic_acceptance_tt:0 "§YFinnish§!, §YKarelian§! and §YSámi§! provinces do not suffer from the penalties of unaccepted culture as long as this modifier is active.\n"
+ 
