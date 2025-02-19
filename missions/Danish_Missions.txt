@@ -368,7 +368,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    country_event = { id = { scandinavian_flavo.0 } } #talk about restoring valdemars empire																																									
+		    country_event = { id = scandinavian_flavo.0 } #talk about restoring valdemars empire																																									
 		} 
 	}
 
@@ -443,7 +443,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    country_event = { id = { scandinavian_flavo.1 } } #talk about restoring valdemars empire																																									
+		    country_event = { id = scandinavian_flavo.1 } #talk about restoring valdemars empire																																									
 		} 
 	}
 }

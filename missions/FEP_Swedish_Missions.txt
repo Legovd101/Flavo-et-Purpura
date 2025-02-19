@@ -21,39 +21,20 @@ SWE_1 = {
 		    8 = {
 		        if = {
 			        limit = {
-					    has_great_project = {
-						    type = falun_copper_mine
-						    tier = 0
+						NOT = {
+							has_great_project = {
+								type = falun_copper_mine
+								tier = 3
+							}
 						}
 					}
-					set_great_project_tier_1 = {
-				        type = falun_copper_mine
-					}
-				}
-				else_if = {
-			        limit = {
-					    has_great_project = {
-						    type = falun_copper_mine
-						    tier = 1
-						}
-					}
-					set_great_project_tier_2 = {
-				        type = falun_copper_mine
-					}
-				}
-				else_if = {
-			        limit = {
-					    has_great_project = {
-						    type = falun_copper_mine
-						    tier = 2
-						}
-					}
-					set_great_project_tier_3 = {
-				        type = falun_copper_mine
+					add_great_project_tier = {
+						type = falun_copper_mine
+						tier = 1
 					}
 				}
 				else = {
-				    add_treasury = 500
+				    owner = { add_treasury = 500}
 				}
 			}	    
 		} 
