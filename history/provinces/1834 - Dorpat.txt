@@ -1,9 +1,9 @@
 #Dorpat
 owner = LIT
 controller = LIT
-add_core = EST
-culture = estonian
-religion = orthodox
+add_core = LIT
+culture = seto
+religion = seto_pagan
 base_tax = 3
 base_production = 3
 trade_goods = naval_supplies
@@ -17,4 +17,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-add_core = LIT
+add_core = STM

@@ -3704,6 +3704,36 @@ pagan = {
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan
 
+}
+
+finno_pagan = {
+
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+	defender_of_faith = yes
+
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_pagan
+
+
+	seto_pagan = { #Pekonusko
+	icon = 43
+	color = { 196 31 48 } #153 178.5 38.25
+	country = {
+		defensiveness = 0.15
+		num_accepted_cultures = 1
+	}
+	province = {
+		local_missionary_strength = -0.02
+	}
+	country_as_secondary = {
+		num_accepted_cultures = 1
+		defensiveness = 0.1
+	}
+	heretic = { FINNIC }
+	personal_deity = yes
+	}
+
 	finnish_pagan = { #Suomenusko
 		icon = 37
 		color = { 227 228 208 } #153 178.5 38.25
@@ -3721,7 +3751,35 @@ pagan = {
 		heretic = { FINNIC }
 		personal_deity = yes
 	}
+}
 
+samo_pagan = {
+
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+	defender_of_faith = yes
+
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_pagan
+
+
+	sami_pagan = { #Noaidevuohta
+	icon = 44
+	color = { 205 127 50 } #153 178.5 38.25
+	country = {
+		defensiveness = 0.15
+		num_accepted_cultures = 1
+	}
+	province = {
+		local_missionary_strength = -0.02
+		supply_limit = 0.05
+	}
+	country_as_secondary = {
+		num_accepted_cultures = 1
+		defensiveness = 0.1
+	}
+	heretic = { NOAIDO }
+	}
 }
 
 jewish_group = {

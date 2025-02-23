@@ -48,7 +48,7 @@
 
  #Arab Pagan
  arab_pagan: "Shami"
- arab_pagan_religion_desc: "Religion in Arabia was a polytheistic mixture of deities, aspects and demons, practiced in localities and enclaves around the region. Allah, the Creator-God, may have been worshiped as the head of the pantheon during this period, in some locations."
+ arab_pagan_religion_desc: "Religion in Arabia was a polytheistic mixture of deities, aspects and demons, practiced in localities and enclaves around the region. Allah, the Creator-God, may have been worshipped as the head of the pantheon during this period, in some locations."
  BEAR_SPIRIT: "Bear Spirit"
  SNAKE_CLAN: "Snake Clan"
  arab_pagan_rebels_demand: "Convert $COUNTRYNAME$"
@@ -83,7 +83,7 @@
 
  #Diimauri
  mauri_pagan: "Diimauri"
- mauri_pagan_religion_desc: "Diimauri, from Afro-Roman for "of the Mauri," is a blanket term for the various faiths of the Berbers. They brought with them various influences from the old Hellenic, Caananite, and even Egyptian pantheons, but have recently begun to fall out in favor of the Western orthodox church."
+ mauri_pagan_religion_desc: "Diimauri, from Afro-Roman for "of the Mauri," is a blanket term for the various faiths of the Berbers. They brought with them various influences from the old Hellenic, Caananite, and even Egyptian pantheons, but have recently begun to fall out in favor of the Western Orthodox Church."
  punic: "Qertaji"
  atenism: "Atenist"
  mauri_pagan_rebels_demand: "Convert $COUNTRYNAME$"
@@ -105,6 +105,7 @@
  manichaean_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  manichaean_rebels_army: "$RELIGION$ Army"
 
+ finno_pagan: "Finnic"
  #Suomenusko
  finnish_pagan: "Suomenusko"
  finnish_pagan_religion_desc: "Finnic paganism is diverse, varying a lot between tribes and regions. It reveres a multitude of gods, including Ukko/Perkele, Kuu and in the east, Mastor-Ava, goddess of the Earth."
@@ -115,6 +116,28 @@
  finnish_pagan_rebels_name: "$RELIGION$ Zealots"
  finnish_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  finnish_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Pekonusko
+ seto_pagan: "Pekonusko"
+ seto_pagan_religion_desc: "Pekonusko, or "Peko's Faith" is the henotheistic branch of Finnic paganism worshipped by the Seto people around Lake Peipus. Within this faith's structure, the deity Peko is elevated to the status of a God-King, with the ruler of Setomaa being elected yearly as Ülebtsootska, or "vice-king.""
+ seto_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ seto_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ seto_pagan_rebels_title: "Religious"
+ seto_pagan_rebels_name: "$RELIGION$ Zealots"
+ seto_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ seto_pagan_rebels_army: "$RELIGION$ Army"
+
+ samo_pagan: "Sámi"
+ #Suomenusko
+ sami_pagan: "Noaidevuohta"
+ sami_pagan_religion_desc: "The traditional form of Sámi Shamanism is no unified faith, but rather is one that differs from tribe to tribe. One of the persistent beliefs, however, is that the dead and living are "two halves of the same family.""
+ NOAIDO: "Noaido"
+ sami_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ sami_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ sami_pagan_rebels_title: "Religious"
+ sami_pagan_rebels_name: "$RELIGION$ Zealots"
+ sami_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ sami_pagan_rebels_army: "$RELIGION$ Army"
 
  #Maguzawa
  chad_pagan: "Maguzawa"
@@ -181,3 +204,20 @@
  oslite_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  oslite_rebels_army: "$RELIGION$ Army"
  oslite_center_of_reformation: "Center of Reformation"
+
+ # Deities
+ ukko: "Ukko"
+ tapio: "Tapio"
+ ahti: "Ahti"
+ mielikki: "Mielikki"
+ akras: "Äkräs"
+ tuoni: "Tuoni"
+ peko: "Peko"
+ # Deities desc
+ ukko_desc: "Ukko is the most important god in Finnic paganism. He is the god of thunder and the ruler of the heavens."
+ tapio_desc: "Tapio is the god of hunting and the ruler of the forests."
+ ahti_desc: "Ahti is the ruler of waters and the god of fishing."
+ mielikki_desc: "Mielikki is the goddess of forest and hunting."
+ akras_desc: "Äkräs is the god of agriculture and fertility."
+ tuoni_desc: "Tuoni is the god of death and the ruler of the underworld."
+ peko_desc: "Peko is the god of crops and brewing."

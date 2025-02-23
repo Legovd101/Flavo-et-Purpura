@@ -1,6 +1,6 @@
 #East Karelia
-owner = FIN
-controller = FIN
+owner = KRL
+controller = KRL
 capital = "Kem"
 culture = karel
 religion = finnish_pagan
@@ -13,4 +13,4 @@ base_manpower = 1
 discovered_by = western
 discovered_by = eastern
 add_local_autonomy = 25
-add_core = FIN
+add_core = KRL

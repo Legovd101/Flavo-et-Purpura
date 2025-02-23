@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = eastern
+religion = finnish_pagan
+primary_culture = tavastian
+capital = 29

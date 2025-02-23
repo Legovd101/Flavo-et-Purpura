@@ -1,6 +1,6 @@
 #313 - Soroka
-owner = FIN
-controller = FIN
+owner = KRL
+controller = KRL
 culture = karel
 religion = finnish_pagan
 base_tax = 1
@@ -16,4 +16,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
-add_core = FIN
+add_core = KRL

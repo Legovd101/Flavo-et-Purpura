@@ -1,8 +1,7 @@
 #Tavastland, incl. Tavastehus.
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = TVS
+controller = TVS
+add_core = TVS
 culture = tavastian
 religion = arianism
 base_tax = 1

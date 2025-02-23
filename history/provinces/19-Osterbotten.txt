@@ -2,9 +2,8 @@
 owner = SWE
 controller = SWE
 add_core = SWE
-add_core = FIN
-culture = kven
 add_core = KVE
+culture = kven
 religion = arianism
 base_tax = 1
 base_production = 1

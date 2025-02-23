@@ -12,6 +12,6 @@ native_size = 3
 native_ferocity = 2
 discovered_by = eastern
 discovered_by = western
-is_city = no
+is_city = yes
 owner = SMI
 controller = SMI

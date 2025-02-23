@@ -2,6 +2,7 @@
 owner = NOV
 controller = NOV
 add_core = NOV
+add_core = SVN
 culture = savonian
 religion = arianism
 base_tax = 3

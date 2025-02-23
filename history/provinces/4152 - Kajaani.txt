@@ -1,6 +1,6 @@
 #4152 - Kuusamo incl Maanselkä and Kitka
-owner = FIN
-controller = FIN
+owner = KRL
+controller = KRL
 add_core = SMI
 culture = kven
 add_core = KVE
@@ -14,4 +14,4 @@ capital = "Maanselkä"
 is_city = yes
 discovered_by = eastern
 discovered_by = western
-add_core = FIN
+add_core = KRL

@@ -1,8 +1,7 @@
 #Savolaks, incl. Nyslott(Olofsborg).
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = SVN
+controller = SVN
+add_core = SVN
 culture = savonian
 religion = finnish_pagan
 base_tax = 1
