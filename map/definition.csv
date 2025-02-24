@@ -1864,7 +1864,7 @@ province;red;green;blue;x;x
 1863;84;56;32;Graz;x
 1864;212;58;79;Somogy;x
 1865;84;60;126;Ghent;x
-1866;212;62;173;Namur ;x
+1866;212;62;173;Namur;x
 1867;84;64;32;Freiburg;x
 1868;212;66;79;Augsburg;x
 1869;84;68;126;Zï¿½rich;x
@@ -1936,7 +1936,7 @@ province;red;green;blue;x;x
 1935;52;0;240;Semigallia;x
 1936;55;0;0;Kovno;x
 1937;65;0;250;Grodno;x
-1938;75;0;25;Wizna;x 
+1938;75;0;25;Wizna;x
 1939;85;0;225;Leczyca;x
 1940;95;0;50;Belz;x
 1941;105;0;200;Turov;x
@@ -2001,7 +2001,7 @@ province;red;green;blue;x;x
 2000;60;221;221;Qinghai Lake;x
 2001;95;200;200;Siling Lake;x
 2002;200;135;255;Galï¿½pagos Islands;x
-2003;120;2;232;Ktunaxa;X
+2003;120;2;232;Ktunaxa;x
 2004;125;4;236;Niitsitapi;x
 2005;130;8;240;Asinaan;x
 2006;135;16;244;Apsï¿½alooke;x
@@ -2237,7 +2237,7 @@ province;red;green;blue;x;x
 2236;131;211;134;Bojnord;x
 2237;160;109;157;Tekrur;x
 2238;80;73;160;Kantor;x
-2239;120;75;185;Siine;x 
+2239;120;75;185;Siine;x
 2240;120;137;132;Galam;x
 2241;200;111;182;Beafada;x
 2242;240;69;110;Karou;x
@@ -2248,8 +2248,8 @@ province;red;green;blue;x;x
 2247;80;117;83;Walata;x
 2248;120;119;108;Do;x
 2249;160;151;133;Sibiridugu;x
-2250;160;77;210;Bendugu;x 
-2251;80;61;184;Bagoe;x 
+2250;160;77;210;Bendugu;x
+2251;80;61;184;Bagoe;x
 2252;200;117;235;Lobi;x
 2253;160;121;133;Gwiriko;x
 2254;240;125;232;Bonoman;x
@@ -2275,8 +2275,8 @@ province;red;green;blue;x;x
 2274;160;145;234;Agades;x
 2275;120;125;161;Tenere;x
 2276;80;123;136;Itesan;x
-2277;240;161;86;Kawar;x 
-2278;240;149;110;Kebbi;x 
+2277;240;161;86;Kawar;x
+2278;240;149;110;Kebbi;x
 2279;120;155;185;Daura;x
 2280;160;157;210;Biram;x
 2281;200;159;235;Rano;x
@@ -2287,7 +2287,7 @@ province;red;green;blue;x;x
 2286;240;131;236;Logone;x
 2287;40;163;11;Kotoko;x
 2288;40;133;82;Yao;x
-2289;40;71;135;Ondo;x 
+2289;40;71;135;Ondo;x
 2290;240;81;86;Ijebu;x
 2291;120;87;161;Ketu;x
 2292;140;145;232;Moshi;x
@@ -4650,7 +4650,7 @@ province;red;green;blue;x;x
 4649;62;137;250;Mayo;x
 4650;82;176;150;Opata;x
 4651;214;134;156;Tsushima;x
-4652;140;69;200;Haicheng;
+4652;140;69;200;Haicheng;x
 4653;117;192;171;Maolian;x
 4654;60;240;76;Fuerhe;x
 4655;194;93;131;Shilimian;x
@@ -5059,7 +5059,7 @@ province;red;green;blue;x;x
 5058;43;184;92;Caozhou;x
 5059;142;222;87;Jining;x
 5060;196;45;175;Tai'an;x
-5061;52;232;216;Dongchang;
+5061;52;232;216;Dongchang;x
 5062;52;156;34;Linqing;x
 5063;165;86;194;Lo'ding;x
 5064;52;204;230;Namhung;x
@@ -5196,3 +5196,9 @@ province;red;green;blue;x;x
 5195;53;209;31;Dingzhou;x
 5196;159;225;149;YizhouHebei;x
 5197;129;71;65;Zunhua;x
+5198;102;76;82;Norrbotten;x
+5199;164;43;139;Gävleborg;x
+5200;117;255;248;Raumaríki;x
+5201;255;0;106;Sogn;x
+5202;255;221;56;Härjedalen;x
+5203;204;77;94;Lofótr;x

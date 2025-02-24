@@ -621,11 +621,11 @@ svealand_area = { #3
 }
 
 ostra_svealand_area = { #4
-	1 4 1930
+	1 4 1930 5199
 }
 
 norrland_area = { #4
-	9 11 18 4114
+	9 11 18 4114 5198
 }
 
 finland_area = { #5
@@ -649,15 +649,15 @@ north_karelia = { #3
 }
 
 northern_norway = { #3
-	10 20 21
+	10 20 21 5202 5203
 }
 
-eastern_norway = { #4
-	17 22 4143 4144
+eastern_norway = { #5
+	17 22 4143 4144 5200
 }
 
 western_norway = { #4
-	23 24 2752 4145
+	23 24 2752 4145 5201
 }
 
 subarctic_islands_area = { #4
