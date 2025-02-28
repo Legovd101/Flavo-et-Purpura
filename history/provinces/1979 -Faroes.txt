@@ -1,6 +1,6 @@
 #1979 - Färöarna
-owner = LOI
-controller = LOI
+owner = FAR
+controller = FAR
 culture = viking_islander
 religion = arianism
 base_tax = 1
@@ -10,4 +10,4 @@ trade_goods = fish
 capital = "Torshavn"
 is_city = yes
 discovered_by = western
-add_core = LOI
+add_core = FAR

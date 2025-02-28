@@ -1016,6 +1016,7 @@ custom_button = {
 				238 = { owned_by = ROOT }
 				4370 = { owned_by = ROOT }
 				1860 = { owned_by = ROOT }
+				5021 = { owned_by = ROOT }
 			}
 			if = {
 				limit = {
@@ -1049,6 +1050,7 @@ custom_button = {
 				NOT = { 238 = { owned_by = ROOT } }
 				NOT = { 4370 = { owned_by = ROOT } }
 				NOT = { 1860 = { owned_by = ROOT } }
+				NOT = { 5021 = { owned_by = ROOT } }
 			}
 		}
 	}

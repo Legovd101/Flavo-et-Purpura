@@ -30,7 +30,7 @@ gothic_iberian = {
 		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brünhild Brunhilde Brünhilde Cäcilia 
 		Cäcilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
 		Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna 
-		Cornelia Dagmar Daniela Denise Desirée Désirée Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena 
+		Cornelia Dagmar Daniela Denise Desirie Disirie Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena 
 		Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie 
 		Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn 
 		Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke 
@@ -64,28 +64,28 @@ iberian_fep = {
 	sabarian = {
 		primary = SAB
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			"de Trastamara" "de Guzman" "alvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Tillez-Girun "Manrique de Lara" "de avalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
 			#CK2
 			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
 			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
 			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso alvaro Baltasar 
+			Bernardo Bertran Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco García Gumez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laín Lope Miguel Nuño Odun Ramun Rodrigo Tomas Valeriano
+			Alfonso Alphonse Alonso Alphonse alvar Oliver alvaro Oliver Bermudo Vermudo Diego Diaco 
 			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
-			Egidius Guillén Guillermo Juan 
+			Egidius Guillin Guillermo Juan 
 			Lupo Luis Manrique Martín Martin Munio Ordoño 
 			Obeko Pelayo Pelagius Roderick Salvador 
 			Tello Vela Suero Oveco
 		}
 		female_names = {
 			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
-			Elvira Estefanía Fronilda Gontroda Gotruda Inés Agnes 
+			Elvira Estefanía Fronilda Gontroda Gotruda Inis Agnes 
 			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Marina Marine 
 			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
@@ -93,28 +93,28 @@ iberian_fep = {
 	asturian = {
 		primary = ASU
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			"de Trastamara" "de Guzman" "alvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Tillez-Girun "Manrique de Lara" "de avalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
 			#CK2
 			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
 			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
 			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso alvaro Baltasar 
+			Bernardo Bertran Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco García Gumez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laín Lope Miguel Nuño Odun Ramun Rodrigo Tomas Valeriano
+			Alfonso Alphonse Alonso Alphonse alvar Oliver alvaro Oliver Bermudo Vermudo Diego Diaco 
 			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
-			Egidius Guillén Guillermo Juan 
+			Egidius Guillin Guillermo Juan 
 			Lupo Luis Manrique Martín Martin Munio Ordoño 
 			Obeko Pelayo Pelagius Roderick Salvador 
 			Tello Vela Suero Oveco
 		}
 		female_names = {
 			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
-			Elvira Estefanía Fronilda Gontroda Gotruda Inés Agnes 
+			Elvira Estefanía Fronilda Gontroda Gotruda Inis Agnes 
 			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Marina Marine 
 			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
@@ -133,28 +133,30 @@ iberian_fep = {
 		}
 		male_names = {
 			García Ordoño Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar Bernaldo Brais Carlos 
-			Cristovo Domingos Estevo Felipe Fernán Francisco Frederico Gonzalo Guillerme Gumersindo Henrique 
-			Hermenexildo Hixinio Hugo Iago Ignacio Leandro Lope Miguel Nuno Odón Paulo Pedro Ramón Roi Tomé 
+			Cristovo Domingos Estevo Felipe Fernan Francisco Frederico Gonzalo Guillerme Gumersindo Henrique 
+			Hermenexildo Hixinio Hugo Iago Ignacio Leandro Lope Miguel Nuno Odun Paulo Pedro Ramun Roi Tomi 
 			Vitor Xoan Xorxe
 		}
 		female_names = {
-			Branca Iria Sabela Lúa Rodolfa Sofía Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca 
+			Branca Iria Sabela Lúa Rodolfa Sofía Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengaria Berengaria Branca 
 			Blanche Antía Branca Carme Catarina Dores Iria Lía Margarida María Noela Rosalía Sabela Uxía Xoana
 		}
 	}
+}
+
+vasconic = {
 	vasconian = {
-		country = { } 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = NAV
 		dynasty_names = {
-			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
+			"Nafarroez" "Bomonez" "Leminez" "Montegudez" Ekorrez 
 			# CKII
-			"de Haro"
+			"Harez"
 		}
 		male_names = {
-			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
-			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
+			Enrique Carlos Francisco Juan Luis Gastun Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro alvaro Andris Antonio Bernardo Cisar 
+			Cristubal Diego Esteban Fernando Gaspar Josi Melchor Nicolas Simun Leonel
 			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
 			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
 			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
@@ -168,6 +170,63 @@ iberian_fep = {
 			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
 			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
 			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
+		}
+	}
+
+	vasconian = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = NAV
+		dynasty_names = {
+			"Nafarroez" "Bomonez" "Leminez" "Montegudez" Ekorrez 
+			# CKII
+			"Harez"
+		}
+		male_names = {
+			Enrique Carlos Francisco Juan Luis Gastun Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro alvaro Andris Antonio Bernardo Cisar 
+			Cristubal Diego Esteban Fernando Gaspar Josi Melchor Nicolas Simun Leonel
+			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
+			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
+			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
+			Zentulo Centule Ladron Ferdinand Bernart
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
+			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
+		}
+	}
+
+	basque_algonquian = {
+		primary = MIK
+		dynasty_names = {
+			Epekes Epeggoites Eskikewaks Esgiges Kespekes Gespegies Kespukwites Gespogoites Sikniktes Sigenitog sipeknekatik 
+			Segepenegatig Taqmkuk Tagamgoog Wunamakik Onamagig Aboushagan Antigonishe Bhicuctouche Chignecto Ekoupahag Jedaick 
+			Kigicapigiak Miramichi Nalkithoniash Nipigiguit Pohomoosh Shediac Tabogimkik Tabusintack Waycobah
+			Nafarroez Bomonez Leminez Montegudez Ekorrez Harez
+		}
+		male_names = {
+			Membectou Ounaginitish Eargamet Chickanicto Armquannott Attanas Rechibouctou Chichabenady Miductuk 
+			Enrique Carlos Francisco Juan Luis Gastun Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Alvaro Andris Antonio Bernardo Cisar 
+			Cristubal Diego Esteban Fernando Gaspar Josi Melchor Nicolas Simun Leonel
+			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
+			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuko Nuno Obeko Obeko Ordoño 
+			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
+			Zentulo Centule Ladron Ferdinand Bernart Spugonoit Nughquit Begamonit Chigaquisht Nelanoit
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Blanka 
+			Elbira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuka Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Mali Malian Maliazonis Azonis Malgelit
 		}
 	}
 

@@ -3,7 +3,6 @@ owner = ANH
 controller = ANH
 culture = saxon
 religion = arianism
-
 base_tax = 2
 base_production = 3
 trade_goods = cloth

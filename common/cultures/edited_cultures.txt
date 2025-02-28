@@ -747,6 +747,28 @@ scandinavian = {
 			Wïgmunding Ylfing Yngling # La Plïiade
 		}
 	}
+	vinlandic = {
+		primary = VIN
+		province = { local_has_carolean = yes }
+		male_names = {
+			Aïalsteinn Aghi Agmundr Agnarr ïki ïleifr Alfarr Alfvin Algautr Ari Arnfinnr ïrni Arnïrr Arnïïrr Arnviïr ïsbjïrn ïsgeirr ïsketill ïsmundr ïsvaldr Auïr Baggi Bïrïr Birgir Bjarni Bjartr Bjïrn Brandr Brïïir # La Plïiade
+			Brynjarr Bïi Dagfinnr Dagr Danr Egill Eileifr Einarr Eindriïi Eirïkr Erlendr Erlingr Eysteinn Eyvindr Fïlagi Finnr Flïmingr Fïlki Friïïjïfr Frïïi Gauti Gautstafr Geirr Gïrmr Guïbrandr Guïfriïr Guïini # La Plïiade
+			Guïleifr Guïmundr Gulbrandr Gunnarr Gunni Gunnvaldr Hïkon Hïlfdan Hallbjïrn Halli Hallr Hallsteinn Hallïïrr Hallvarïr Haraldr Hïvarïr Helgi Hemingr Herleifr Hildingr Hjïlmarr Hïlmgeirr Hrafn Hreiïarr Hrïaldr # La Plïiade
+			Hrïarr Hrïïgeirr Hrïïïlfr Hrïïvaldr Hrïlfr Hrïrekr Hugleikr Ingi Ingimïrr Ingïlfr ïvarr Jarl Jïsteinn Kïlfr Kïri Ketill Knïtr Kïri Leifr Magni Mundi Njïll Oddbjïrn Oddr Oddvarr Olvir Rïïïlfr Ragnarr Ragnvaldr # La Plïiade
+			Randïlfr Rïni Sigfrïïr Sigmundr Sigsteinn Sigurïr Sindri Snorri Stïli Steinarr Steingrïmr Steinn Stïgandr Stigr Sumarliïi Sundri Suni Svantepolk Sveinn Sverrir ïïrarinn ïïrbjïrn ïïrfastr ïïrfreïr ïïrgeirr # La Plïiade
+			ïïrgïsl ïïrgnïr ïïrir ïïrketill ïïrleifr ïïrleikr ïïrmïïr ïïrsteinn ïïrvaldr ïrïndr Tïfi Tïki Tryggvi ïlfr Uni Valdimïrr Vïgarïr Vetrliïi Vïgi Vïkingr Vragi Yngvarr # La Plïiade
+		}
+		female_names = {
+			Alfhildr ïlïf Arnbjïrg ïsa ïsdïs ïshildr ïslaug ïsta ïstrïïr Auïr Auïrhildr Bergljït Bjïrg Borghildr Bïïildr Brynhildr Brynja Dagmïr Dagnï Dagrïn Edda Eydïs Frïïa Grïmhildr Guïlaug Guïleif Guïrïïr Guïrïn Gulla # La Plïiade
+			Gunna Gunnbjïrg Gunnhildr Gunnvïr Gyïa Hallïïra Helga Hildr Hjïrdïs Hlïf Hrafnhildr Hreiïunn Iïunn Inga Ingibjïrg Ingigerïr Ingrïïr Ingunn Ingvildr Jïrunnr Katla Ketilriïr Magnhildr Myrgjïl ïlaug Ragna Ragnbjïrg # La Plïiade
+			Ragnfrïïr Ragnheiïr Ragnhildr Rïna Saldïs Signï Sigrïïr Sigrïn Sïlveig Steinunn Svanhildr ïone ïïra ïïrbjïrg ïïrdïs ïïrfrïïr ïïrhildr ïïrnï ïïrunn ïïrveig ïïrvï ïrud ïrïïr ïïri Tïfa Unnr Valdïs Vïgdïs # La Plïiade
+			Yngvildr
+		}
+		dynasty_names = {
+			ïslaugsson ïstriïarson ïsvaldsson Eindriïesson Eirïksson Gormsson Hïkonarson Haraldsson Loïbrok Munsï Ragnarsson Sigurïarson Skjïldung Snorrason ïïrgilsson ïïrsteinsson ïïrvaldsson Tryggvason Vïlsung # La Plïiade
+			Wïgmunding Ylfing Yngling # La Plïiade
+		}
+	}
 	jutish = {
 		primary = NOL
 		dynasty_names = {

@@ -1,7 +1,7 @@
 #Norrbotten
-owner = NOR
-controller = NOR
-add_core = NOR
+owner = JMT
+controller = JMT
+add_core = JMT
 culture = norwegian
 religion = arianism
 base_tax = 1

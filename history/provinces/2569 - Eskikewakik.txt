@@ -1,5 +1,5 @@
 # No previous file for Eskikewakik
-culture = mikmaq
+culture = basque_algonquian
 religion = totemism
 capital = "Eskikewakik"
 trade_goods = unknown
@@ -9,7 +9,8 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
-tribal_owner = MIK
-center_of_trade = 1
+owner = MIK
+controller = MIK
+add_core = MIKcenter_of_trade = 1
 discovered_by = north_american
 is_city = no

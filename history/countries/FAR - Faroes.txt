@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = pirate_republic_reform
+primary_culture = viking_islander
+religion = arianism
+technology_group = western
+capital = 1979 #Faroe Islands, duh
+government_rank = 1

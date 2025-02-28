@@ -5,7 +5,6 @@ culture = swiss
 religion = arianism
 capital = "Schwyz"
 trade_goods = iron
-
 base_tax = 4
 base_production = 4
 base_manpower = 2

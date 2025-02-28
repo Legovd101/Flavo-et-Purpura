@@ -2,7 +2,7 @@
 latent_trade_goods = { 
 	coal 
 }
-culture = mikmaq
+culture = basque_algonquian
 religion = totemism
 capital = "Unamakik"
 trade_goods = unknown
@@ -13,5 +13,6 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 1
 discovered_by = north_american
-tribal_owner = MIK
-is_city = no
+owner = MIK
+controller = MIK
+add_core = MIKis_city = no

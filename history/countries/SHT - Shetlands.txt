@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = pirate_republic_reform
+primary_culture = viking_islander
+religion = arianism
+technology_group = western
+capital = 1978 #Shetlands
+government_rank = 1

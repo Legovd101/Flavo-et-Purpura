@@ -1,4 +1,4 @@
-#248 - Lothian + Fife + Sterling
+#248 - Lothian
 owner = SCO
 controller = SCO
 culture = viking_scottish

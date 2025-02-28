@@ -2,7 +2,7 @@
 owner = KRL
 controller = KRL
 culture = karel
-religion = arianism
+religion = finnish_pagan
 base_tax = 3
 base_production = 3
 trade_goods = fur

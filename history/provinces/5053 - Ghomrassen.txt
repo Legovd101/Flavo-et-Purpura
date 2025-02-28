@@ -1,0 +1,21 @@
+#353 - Tataouine
+owner = MSL
+controller = MSL
+culture = garamantian
+religion = west_orthodox
+capital = "Tataouine"
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_permanent_province_modifier = { 
+	name = historic_highways
+	duration = -1
+}
+add_core = TRP
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+add_core = MSL

@@ -11,3 +11,10 @@
  PROV_ADJ5202:0 "Härjedalian"
  PROV5203:0 "Lofótr"
  PROV_ADJ5203:0 "Lofótrian"
+
+ cilicia_area: "Cilicia"
+ cilicia_area_adj: "Cilician"
+ cyprus_area: "Cyprus"
+ cyprus_area_adj: "Cypriote"
+ strymon_area: "Strymon"
+ strymon_area_adj: "Strymian"

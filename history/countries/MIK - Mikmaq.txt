@@ -1,0 +1,17 @@
+government = tribal
+government_rank = 2
+primary_culture = basque_algonquian
+religion = totemism
+technology_group = high_american
+capital = 4891
+
+1299.12.24 = { 
+	monarch = { 
+		name = "Mila"
+		dynasty = "Alfabez"
+		birth_date = 1260.4.5
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
