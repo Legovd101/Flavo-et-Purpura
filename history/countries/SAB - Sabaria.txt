@@ -5,3 +5,13 @@ technology_group = western
 capital = 4553
 religion = arianism
 primary_culture = sabarian
+1299.12.24 = { 
+	monarch = { 
+		name = "Uthmanus"
+		dynasty = "Tomanid"
+		birth_date = 1282.4.5
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
