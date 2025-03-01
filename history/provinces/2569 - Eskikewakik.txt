@@ -13,4 +13,5 @@ owner = MIK
 controller = MIK
 add_core = MIKcenter_of_trade = 1
 discovered_by = north_american
+discovered_by = high_american
 is_city = no

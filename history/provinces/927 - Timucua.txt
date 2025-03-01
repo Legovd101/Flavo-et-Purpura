@@ -10,4 +10,5 @@ native_size = 10
 native_ferocity = 2
 native_hostileness = 9
 discovered_by = north_american
+discovered_by = high_american
 is_city = no

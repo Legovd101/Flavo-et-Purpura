@@ -1,3 +1,5 @@
 discovered_by = north_american
+discovered_by = high_american
 is_city = no
 discovered_by = ICE
+discovered_by = VIN

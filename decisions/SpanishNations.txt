@@ -1,0 +1,186 @@
+country_decisions = {
+	iberian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_hispania_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = ISP }
+			OR = {
+				culture_group = iberian_fep
+				culture = vasconian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 6
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 210		# Navarra/Pamplona (Waskonia)
+				province_id = 207		# Asturias (Asturik)
+				province_id = 206		# A Corunna (Galicia)
+				province_id = 215		# Valladolid (Sabara)
+				province_id = 227		# Lisboa (Lusitanie)
+			}
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				NOT = {	is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			210 = { country_or_non_sovereign_subject_holds = ROOT }
+			207 = { country_or_non_sovereign_subject_holds = ROOT }
+			206 = { country_or_non_sovereign_subject_holds = ROOT }
+			215 = { country_or_non_sovereign_subject_holds = ROOT }
+			227 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			change_tag = ISP
+			trigger_switch = {
+				on_trigger = primary_culture
+				galician_fep = { ISP = { override_country_name = ISP_galician } }
+				vasconian = { ISP = { override_country_name = ISP_vasconian } }
+				sabarian = { ISP = { override_country_name = ISP_sabarian } }
+				sabaro_goth = { ISP = { override_country_name = ISP_sabarian } }
+				asturian = { ISP = { override_country_name = ISP_asturian } }
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			iberia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ISP
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_hispania_flag
+		# if = {
+		# 		limit = { 
+		# 			has_custom_ideas = no
+		# 			NOT = { has_idea_group = NSE_ideas }
+		# 		}
+		# 		country_event = { id = ideagroups.1 } #Swap Ideas
+		# 	}
+		}
+		ai_importance = 400
+	}
+
+	visigothic_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_visigothica_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = VSG }
+			OR = {
+				culture_group = gothic_iberian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 6
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 230		# Algarve (Spania)
+				province_id = 219		# Toledo (Gotika)
+				province_id = 333		# A Mallorca (Balleareis)
+				province_id = 2988		# Tarragona (Septimania)
+				province_id = 223		# Granada (Spania)
+			}
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				NOT = {	is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			230 = { country_or_non_sovereign_subject_holds = ROOT }
+			219 = { country_or_non_sovereign_subject_holds = ROOT }
+			333 = { country_or_non_sovereign_subject_holds = ROOT }
+			2988 = { country_or_non_sovereign_subject_holds = ROOT }
+			223 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			change_tag = VSG
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			iberia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ISP
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_visigothica_flag
+		# if = {
+		# 		limit = { 
+		# 			has_custom_ideas = no
+		# 			NOT = { has_idea_group = NSE_ideas }
+		# 		}
+		# 		country_event = { id = ideagroups.1 } #Swap Ideas
+		# 	}
+		}
+		ai_importance = 400
+	}
+}

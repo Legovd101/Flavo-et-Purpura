@@ -12,4 +12,5 @@ native_hostileness = 1
 owner = MIK
 controller = MIK
 add_core = MIKdiscovered_by = north_american
+discovered_by = high_american
 is_city = no

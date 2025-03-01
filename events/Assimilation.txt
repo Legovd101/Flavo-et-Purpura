@@ -30,3 +30,116 @@ province_event = {
 
 }
 
+# New Suebi Divergence
+province_event = {
+	id = cultural_flavor.1
+	title = cultural_flavor.1.t
+	desc = cultural_flavor.1.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			OR = {
+				culture = new_suebi 
+				culture = visigothic
+			}
+		}
+		culture_group = iberian_fep
+		owner = {
+			mission_completed = VSG_end_the_iberian_kingdoms
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		if = {
+			limit = { owner = { mission_completed = VSG_theodorics_legacy } }
+			change_culture = visigothic
+		}
+		else = {
+			change_culture = new_suebi
+		}
+	}
+
+}
+
+# Thephalian/Galatian Divergence
+province_event = {
+	id = cultural_flavor.2
+	title = cultural_flavor.2.t
+	desc = cultural_flavor.2.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			OR = {
+				culture = taifal 
+				culture = visigothic
+			}
+		}
+		OR = {
+			culture = vasconian
+			culture_group = roman_group
+			region = france_region
+		}
+		owner = {
+			mission_completed = VSG_subjugate_septimania
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		if = {
+			limit = { owner = { mission_completed = VSG_theodorics_legacy } }
+			change_culture = galatian
+		}
+		else = {
+			change_culture = taifal
+		}
+	}
+
+}
+
+# Ostrogothic Divergence
+province_event = {
+	id = cultural_flavor.3
+	title = cultural_flavor.3.t
+	desc = cultural_flavor.3.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = { culture = ostrogothic }
+		region = italy_region
+		owner = {
+			mission_completed = VSG_theodorics_legacy
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		change_culture = ostrogothic
+	}
+
+}
+

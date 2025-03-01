@@ -13,5 +13,6 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 4
 discovered_by = north_american
+discovered_by = high_american
 tribal_owner = LEN
 is_city = no

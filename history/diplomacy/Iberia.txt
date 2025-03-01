@@ -6,7 +6,7 @@ union =  {
 }
 
 vassal = {
-	first = GTC
+	first = TLD
 	second = ARA
 	start_date = 1028.6.21
 	end_date = 1553.12.31

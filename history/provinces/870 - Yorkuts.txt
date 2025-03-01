@@ -10,5 +10,6 @@ native_size = 50
 native_ferocity = 3
 native_hostileness = 5
 discovered_by = north_american
+discovered_by = high_american
 tribal_owner = YKT
 is_city = no

@@ -1,9 +1,8 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = monarchy
 government_rank = 1
 religion = arianism
 primary_culture = gallic_greek
-add_accepted_culture = cosmopolitan_french
+add_accepted_culture = catalan_greek
 technology_group = western
 capital = 2753# Avignon
 fixed_capital = 202# Cannot move capital away from this province & no power cost to move to it

@@ -1,0 +1,99 @@
+#Country Name: Please see filename.
+graphical_culture = easterngfx
+color = { 164 41 46 }
+revolutionary_colors = { 14 0 14 }
+historical_idea_groups = { 
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = { 
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+monarch_names = { 
+	"Alfonso #0" = 40
+	"Fernando #0" = 20
+	"Sancho #0" = 10
+	"Ramiro #0" = 10
+	"Juan #0" = 10
+	"Felipe #0" = 10
+	"Carlos #0" = 10
+	"Enrique #0" = 5
+	"Pedro #0" = 1
+	"Isabel #0" = -10
+	"Juana #0" = -10
+	"Marнa #0" = -5
+	"Urraca #0" = -5
+	"Alonso #0" = 0
+	"álvaro #0" = 0
+	"Baltasar #0" = 0
+	"Bernardo #0" = 0
+	"Bertrán #0" = 0
+	"Cristobal #0" = 0
+	"Diego #0" = 0
+	"Domingo #0" = 0
+	"Esteban #0" = 0
+	"Fadrique #0" = 0
+	"Francisco #0" = 0
+	"Garcнa #0" = 0
+	MONARCH_NAME_GOMEZ = 0
+	"Gonzalo #0" = 0
+	"Gutierre #0" = 0
+	"Hermenegildo #0" = 0
+	"Hernando #0" = 0
+	"Ignacio #0" = 0
+	"Laнn #0" = 0
+	"Lope #0" = 0
+	"Miguel #0" = 0
+	"Nuсo #0" = 0
+	MONARCH_NAME_ODON = 0
+	MONARCH_NAME_RAMON = 0
+	"Rodrigo #0" = 0
+	"Tomás #0" = 0
+	"Valeriano #0" = 0
+}
+leader_names = { 
+	"de Aguirre" "de Alarcón" "de Toledo" "de Andrade" "de Ayala" "de Bazán" "de Benavides" Campomanes "de Castilla" "de la Cerda"
+	Cienfuegos Colón Coronado Cortés "de Toledo" "de Córdoba" "de la Cueva" "de Figueroa" Fonseca Gálvez
+	Gómez "de Guzmán" "Jiménez de Cisneros" "de Leiva" "López de Haro" "de Luna" "de Lara" "de Velasco" "de Villena" "de Mendoza"
+	Narváez "de Nebrija" "Nuсez de Balboa" "de Ojeda" Orellana Osorio Pimentel Pinzón Pizarro "Ponce de León"
+	Portocarrero "de Rojas" Tellez-Girón "de la Vega" "de Zъсiga" 
+}
+ship_names = { 
+	León Argonauta Asturias Asunción Atrevido Azor Cartagonova Castilla "Castillo Negro" Castor
+	"Ciervo Volante" Doncella Dragón "El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espнritu Santo" Extremadura
+	Furor Galicia "Gran Grifón" Halcón Hércules Isabela Jъpiter "La Concepción" "La Magdalena" "La Manuela"
+	Ligera "Lobo Marino" Marte Mercurio Neptuno Niсa Orión "Paloma Blanca" Pegaso "Perro Marino"
+	Pinta Plutón Pollux "Prнncipe de Asturias" Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
+	"San Andrés" "San Antonio" "San Bartolomé" "San Bernabé" "San Cristobal" "San Enrique" "San Esteban" "San Fernando" "San Francisco" "San Gabriel"
+	"San Isidoro" "San Jerónimo" "San José" "San Juan" "San Juan Bautista" "San Leandro" "San Miguel" "San Pedro" "San Rafael" "San Salvador"
+	"San Sebastian" "Santa Ana" "Santa Bárbara" "Santa Beatriz" "Santa Catalina" "Santa Cruz" "Santa Fe" "Santa Isabel" "Santa Justa" "Santa Marнa"
+	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santнsima Trinidad" "Santo Domingo" Sirena Terror Toledo Trinidad
+	Tritón Unicornio Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zъсiga 
+}
+army_names = { 
+	"Guardia Real" "Ejército de $PROVINCE$" 
+}
+fleet_names = { 
+	"Armada Real" "Flota de $PROVINCE$" 
+}

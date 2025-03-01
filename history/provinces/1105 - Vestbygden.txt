@@ -13,6 +13,7 @@ is_city = yes
 add_core = ICE
 add_core = GRN
 discovered_by = ICE
+discovered_by = VIN
 discovered_by = NOR
 discovered_by = SWE
 discovered_by = DAN

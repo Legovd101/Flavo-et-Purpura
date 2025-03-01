@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = western
 capital = 217
 religion = arianism
-primary_culture = tarraconese
+primary_culture = toledan

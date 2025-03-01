@@ -12,4 +12,5 @@ native_hostileness = 2
 tribal_owner = LIP
 discovered_by = mesoamerican
 discovered_by = north_american
+discovered_by = high_american
 is_city = no

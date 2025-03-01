@@ -1,0 +1,765 @@
+VSG_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { culture_group = gothic_iberian } 
+
+	VSG_abode_of_the_sciences = {
+		icon = mission_develop_cordoba
+		position = 1
+		provinces_to_highlight = { province_id = 2754 } 
+
+		trigger = {
+			2754 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			    development = 25
+				num_of_buildings_in_province = 3
+			}
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					tag = BAE
+					NOT = {
+						OR = {
+							ruler_has_personality = patron_of_arts_personality
+							num_of_ruler_traits = no
+						}
+					}
+				}
+				add_ruler_personality = patron_of_arts_personality
+			}
+			else = {
+				add_mil_power = 100
+				add_adm_power = 100
+				add_dip_power = 100
+			}
+		} 
+	}
+
+	VSG_expand_the_liber_iudiciorum = {
+		icon = mission_book_of_royal_degrees
+		position = 3
+		required_missions = {
+			VSG_abode_of_the_sciences
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		} 
+
+		effect = {
+		}
+	}
+
+	VSG_integrate_the_romans = {
+		icon = mission_goths_and_romans
+		position = 5
+		required_missions = { VSG_the_fall_of_gaul VSG_expand_the_liber_iudiciorum } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_beacon_of_civilization = {
+		icon = mission_early_modern_university
+		position = 7
+		required_missions = { VSG_integrate_the_romans } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_the_new_hundafaths = {
+		icon = mission_modernized_vikings
+		position = 9
+		required_missions = { VSG_theodorics_legacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_faithful = {
+		icon = mission_european_church
+		position = 11
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_expel = {
+		icon = knights_of_the_new_world
+		position = 13
+		required_missions = {
+			VSG_faithful
+			VSG_knights
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_true_cross = {
+		icon = protectors_of_christendom
+		position = 14
+		required_missions = { VSG_expel } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+VSG_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { culture_group = gothic_iberian } 
+
+	VSG_the_northern_frontier = {
+		icon = king_of_aragon
+		position = 2
+		required_missions = { VSG_unite_the_goths } 
+		provinces_to_highlight = {
+			OR = {
+				area = aragon_area
+				area = catalonia_area
+			}
+		} 
+
+		trigger = {
+		    aragon_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    catalonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			guyenne_area = {
+				add_permanent_claim = ROOT
+			}
+			provence_area = {
+				add_permanent_claim = ROOT
+			}
+			pyrenees_area = {
+				add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	VSG_the_fall_of_gaul = {
+		icon = centralize_france
+		position = 4
+		required_missions = { VSG_the_northern_frontier VSG_subjugate_septimania } 
+		provinces_to_highlight = { region = france_region NOT = { country_or_non_sovereign_subject_holds = ROOT } }
+
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 30
+				region = france_region
+			}
+		}
+
+		effect = {
+		} 
+	}
+
+	VSG_italian_ventures = {
+		icon = adriatic_access
+		position = 6
+		required_missions = { VSG_land_of_the_lombards } 
+		provinces_to_highlight = { region = italy_region } 
+
+		trigger = {
+			trade_company_genua = {
+				has_most_province_trade_power = ROOT
+			}
+			trade_company_venice = {
+				has_most_province_trade_power = ROOT
+			}
+		} 
+
+		effect = {
+		} 
+	}
+
+	VSG_jewel_of_the_adriatic = {
+		icon = renaissance_city
+		position = 7
+		required_missions = { VSG_italian_ventures } 
+		provinces_to_highlight = { province_id = 112 } 
+
+		trigger = {
+			OR = {
+				112 = {
+					owned_by = ROOT
+					development = 25
+					num_of_buildings_in_province = 5
+				}
+				114 = {
+					owned_by = ROOT
+					development = 25
+					num_of_buildings_in_province = 5
+				}
+			}
+		} 
+
+		effect = {  } 
+	}
+
+	VSG_knights = {
+		icon = mission_knight
+		position = 12
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+VSG_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { culture_group = gothic_iberian } 
+
+	VSG_unite_the_goths = {
+		icon = gory_to_the_black_army
+		position = 1
+		provinces_to_highlight = {
+			owner = {
+				culture_group = gothic_iberian
+				NOT = { tag = ROOT }
+				is_subject = no
+			}
+		} 
+
+		trigger = {
+			culture_group = gothic_iberian
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = only_independent_visigoth_tt
+				all_country = {
+					OR = {
+						NOT = { culture_group = gothic_iberian }
+						is_subject = yes
+					}
+				}
+			}
+		} 
+
+		effect = {
+		    iberia_region = {
+				add_permanent_claim = ROOT
+			} 
+		} 
+	}
+
+	VSG_end_the_iberian_kingdoms = {
+		icon = hispaniae
+		position = 2
+		required_missions = { VSG_unite_the_goths } 
+		provinces_to_highlight = {
+			OR = {
+				area = galicia_area
+				area = leon_area
+				area = beieras_area
+				area = basque_country
+				area = asturias_area
+			}
+		} 
+
+		trigger = {
+		    galicia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    leon_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    beieras_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    basque_country = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    asturias_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_casus_belli = {
+				type = cb_restore_personal_union
+				target = AVI
+				months = 300
+			}
+		}
+	}
+	
+	VSG_subjugate_septimania = {
+		icon = mission_invade_occitania
+		position = 3
+		required_missions = { VSG_end_the_iberian_kingdoms } 
+		provinces_to_highlight = { owned_by = AVI } 
+
+		trigger = {
+		    tag = VSG
+			OR = {
+				AVI = {
+					junior_union_with = ROOT
+				}
+				AND = {
+					languedoc_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					provence_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					pyrenees_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}		
+					guyenne_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}		
+				}
+			}
+		}
+		
+		effect = {
+		    france_region = {
+				add_permanent_claim = ROOT
+			}
+			liguria_area = {
+				add_permanent_claim = ROOT
+			}		
+			po_valley_area = {
+				add_permanent_claim = ROOT
+			}		
+			venetia_area = {
+				add_permanent_claim = ROOT
+			}		
+			emilia_romagna_area = {
+				add_permanent_claim = ROOT
+			}		
+			lombardy_area = {
+				add_permanent_claim = ROOT
+			}		
+			piedmont_area = {
+				add_permanent_claim = ROOT
+			}		
+}
+	}
+	
+	VSG_land_of_the_lombards = {
+		icon = mission_conquer_north_italy
+		position = 5
+		required_missions = { VSG_subjugate_septimania } 
+		provinces_to_highlight = {
+			OR = {
+				area = liguria_area
+				area = po_valley_area
+				area = venetia_area
+				area = emilia_romagna_area
+				area = lombardy_area
+				area = piedmont_area
+			}
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = liguria_area 
+					area = po_valley_area
+					area = venetia_area
+					area = emilia_romagna_area
+					area = lombardy_area
+					area = piedmont_area
+				}
+			}
+		} 
+
+		effect = {
+		    italy_region = { add_permanent_claim = ROOT }
+			carinthia_area = { add_permanent_claim = ROOT }
+			croatia_area = { add_permanent_claim = ROOT }
+			
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+		}
+	}
+
+	VSG_the_vulgarian_gambit = {
+		icon = mission_rule_italy
+		position = 7
+		required_missions = { VSG_land_of_the_lombards } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = italy_region
+				value = 40
+			}
+		}
+
+		effect = {  } 
+	}
+
+	VSG_theodorics_legacy = {
+		icon = kingdom_of_lombardy
+		position = 8
+		required_missions = {
+			VSG_the_vulgarian_gambit
+			VSG_jewel_of_the_adriatic
+			VSG_beacon_of_civilization
+			VSG_the_gothic_armada
+			VSG_niujaland
+		} 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = italy_region
+				value = 40
+			}
+		}
+
+		effect = {
+			custom_tooltip = visigothic_conversion_tt
+			hidden_effect = {
+				every_owned_province = {
+					if = {
+						limit = {
+							culture_group = gothic_iberian
+							region = france_region
+						}
+						change_culture = galatian
+					}
+					else_if = {
+						limit = {
+							culture_group = gothic_iberian
+						}
+						change_culture = visigothic
+					}
+				}
+				change_primary_culture = visigothic
+			}
+			random_owned_province = {
+				limit = {
+					region = italy_region
+				}
+				change_culture = ostrogothic
+			}
+			change_tag = MKG
+		} 
+	}
+
+	VSG_pangothicism = {
+		icon = mission_court_education
+		position = 8
+		required_missions = {
+			VSG_theodorics_legacy
+		} 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = italy_region
+				culture = ostrogothic
+				value = 20
+			}
+		}
+
+		effect = {  } 
+	}
+
+	VSG_pax_gothica = {
+		icon = mission_gothic_invasion
+		position = 9
+		required_missions = { VSG_the_new_hundafaths VSG_pangothicism VSG_the_mantle_of_rome } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    france_region = {
+				type = all
+				owned_by = ROOT
+			}
+		    iberia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		    italy_region = {
+				type = all
+				owned_by = ROOT
+			}
+			total_development = 1000
+			stability = 3
+		}
+
+		effect = { every_province = {
+			limit = {
+				is_in_roman_borders = yes
+			}
+			add_permanent_claim = ROOT
+		} } 
+	}
+}
+
+VSG_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { culture_group = gothic_iberian } 
+
+	VSG_vanquish_the_hellenes = {
+		icon = foothold_in_greece
+		position = 2
+		required_missions = { VSG_unite_the_goths } 
+		provinces_to_highlight = { country_or_non_sovereign_subject_holds = SPA region = iberia_region } 
+
+		trigger = {
+			NOT = {
+				any_province = {
+					region = iberia_region
+					country_or_non_sovereign_subject_holds = SPA
+				}
+			}
+		} 
+
+		effect = {
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			baleares_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+	
+	VSG_secure_the_pillars = {
+		icon = mission_rb_take_gibraltar
+		position = 4
+		required_missions = { VSG_vanquish_the_hellenes } 
+		provinces_to_highlight = { area = northern_morocco_area NOT = { owned_by = ROOT } } 
+
+		trigger = {
+		    northern_morocco_area = {
+				type = all
+				owned_by = ROOT
+			}
+			num_of_owned_provinces_with = {
+				area = northern_morocco_area
+				fort_level = 2
+				value = 2
+			}
+		} 
+
+		effect = {
+			southern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+				add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	VSG_take_to_the_sea = {
+		icon = mission_aragonese_navy
+		position = 6
+		required_missions = { VSG_secure_the_pillars } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_the_gothic_armada = {
+		icon = mission_spanish_armada
+		position = 7
+		required_missions = { VSG_take_to_the_sea } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+VSG_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { culture_group = gothic_iberian } 
+
+	VSG_control_iberian_trade = {
+		icon = mission_african_gold
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_the_majorcan_conquest = {
+		icon = mission_mediterranean_islands
+		position = 3
+		required_missions = {
+			VSG_vanquish_the_hellenes
+			VSG_control_iberian_trade
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			baleares_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			algiers_area = {
+				add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+				add_permanent_claim = ROOT
+			}
+			kabylia_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	VSG_the_zangitanian = {
+		icon = mission_conquer_tunisia
+		position = 4
+		required_missions = { VSG_the_majorcan_conquest } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			algiers_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			barbary_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kabylia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			corsica_sardinia_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+			djerba_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	VSG_the_path_of_geiseric = {
+		icon = mission_control_the_barbary_coast
+		position = 5
+		required_missions = {
+			VSG_secure_the_pillars
+			VSG_the_zangitanian
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tunisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			djerba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			corsica_area = {
+				add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			calabria_area = {
+				add_permanent_claim = ROOT
+			}
+			maghreb_region = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	VSG_niujaland = {
+		icon = mission_new_kingdom_of_granada
+		position = 7
+		required_missions = { VSG_take_to_the_sea } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	VSG_the_mantle_of_rome = {
+		icon = a_roman_empire
+		position = 9
+		required_missions = { VSG_theodorics_legacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

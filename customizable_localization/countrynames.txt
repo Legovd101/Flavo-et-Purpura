@@ -1,0 +1,75 @@
+# defined_text = {
+#     name = CulturalHispania
+
+#     text = {
+#         localisation_key = ISP_asturean
+#         trigger = {
+#             primary_culture = asturian
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_sabir
+#         trigger = {
+#             OR = {
+# 				primary_culture = sabarian
+# 				primary_culture = sabaro_goth
+# 			}
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_gallaecian
+#         trigger = {
+#             primary_culture = galician_fep
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_wasconian
+#         trigger = {
+#             primary_culture = vasconian
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_asturian
+#         trigger = {
+#             primary_culture = asturian
+#         }
+#     }
+# }
+
+# defined_text = {
+#     name = CulturalHispania_ADJ
+
+#     text = {
+#         localisation_key = ISP_asturean_ADJ
+#         trigger = {
+#             primary_culture = asturian
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_sabir_ADJ
+#         trigger = {
+#             OR = {
+# 				primary_culture = sabarian
+# 				primary_culture = sabaro_goth
+# 			}
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_gallaecian_ADJ
+#         trigger = {
+#             primary_culture = galician_fep
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_wasconian_ADJ
+#         trigger = {
+#             primary_culture = vasconian
+#         }
+#     }
+#     text = {
+#         localisation_key = ISP_asturian_ADJ
+#         trigger = {
+#             primary_culture = asturian
+#         }
+#     }
+# }
