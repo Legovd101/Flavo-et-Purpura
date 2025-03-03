@@ -4,4 +4,4 @@ technology_group = western
 primary_culture = molisian
 religion = west_orthodox
 capital = 4733# Sofia
-government_rank = 1
+government_rank = 2

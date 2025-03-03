@@ -38,3 +38,191 @@ gov_yamato = {
 		}
 	}
 }
+
+gov_sabarian = {
+	rank = {
+		1 = DUCAT
+		2 = RENAT
+		3 = CAGANAT
+	}
+	
+	ruler_male = {
+		1 = DUC
+		2 = REN
+		3 = CAGAN
+	}
+	
+	ruler_female = {
+		1 = DUCESUM
+		2 = RENUM
+		3 = CATUN
+	}
+	
+	consort_male = {
+		1 = DUC
+		2 = REN
+		3 = CAGAN
+	}
+
+	consort_female = {
+		1 = DUCESUM
+		2 = RENUM
+		3 = CANUM
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = PRENCHI
+		3 = CANSHADA
+	}
+
+	heir_female = {
+		1 = HEIR
+		2 = PRENCHESUM
+		3 = CANSHUM
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = sabarian
+			primary_culture = sabaro_goth
+		}
+	}
+}
+
+gov_iberian = {
+	rank = {
+		1 = BEARIGAIDA
+		2 = RIGAIDA
+		3 = MAGRIGAIDA
+	}
+	
+	ruler_male = {
+		1 = TIERNA
+		2 = RI
+		3 = MAGRI
+	}
+	
+	ruler_female = {
+		1 = TIANA
+		2 = RIANA
+		3 = MAGRIANA
+	}
+	
+	consort_male = {
+		1 = TIERNA
+		2 = RI
+		3 = MAGRI
+	}
+
+	consort_female = {
+		1 = TIANA
+		2 = RIANA
+		3 = MAGRIANA
+	}
+	
+	heir_male = {
+		1 = MAQQI
+		2 = MAQQI
+		3 = MAQQI
+	}
+
+	heir_female = {
+		1 = DUATER
+		2 = DUATER
+		3 = DUATER
+	}
+	
+	trigger = {
+		OR = {
+			culture_group = iberian_fep
+		}
+	}
+}
+
+roman_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = REX
+		3 = IMPERATOR
+	}
+
+	ruler_female = {
+		1 = CHIEFTESS
+		2 = REGINA
+		3 = IMPERATRIX
+	}
+	consort_male = {
+		1 = CHIEF
+		2 = REX
+		3 = IMPERATOR
+	}
+
+	consort_female = {
+		1 = CHIEFTESS
+		2 = REGINA
+		3 = IMPERATRIX
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		government = monarchy
+		culture_group = roman_group
+		NOT = { primary_culture = armorican }
+	}
+}
+
+roman_republic = {
+	rank = {
+		1 = RES_PUBLICA
+		2 = RES_PUBLICA
+		3 = RES_PUBLICA
+	}
+
+	ruler_male = {
+		1 = CONSUL
+		2 = GRAND_CONSUL
+		3 = GREAT_CONSUL
+	}
+
+	ruler_female = {
+		1 = CONSULESS
+		2 = GRAND_CONSULESS
+		3 = GREAT_CONSULESS
+	}
+
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	trigger = {
+		government = republic
+		culture_group = roman_group
+		NOT = { primary_culture = armorican }
+	}
+}

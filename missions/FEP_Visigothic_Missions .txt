@@ -479,6 +479,7 @@ VSG_3 = {
 				change_culture = ostrogothic
 			}
 			change_tag = MKG
+			set_government_rank = 3
 		} 
 	}
 

@@ -1,0 +1,72 @@
+## GENERAL LINGUISTIC RULES FOR SABARIAN/SABIR TOPONYMS
+## Old Turkic "balïq" (settlement) --> "-balíga"
+## Old Turkic "bodan" (people) --> "-bóda"
+## "ci/ç" --> "ch"
+## "ll/j" --> "ch"
+## "ce/z" --> "sh"
+## "y/io/h" --> "j"
+## "v" --> "b"
+
+# Spain
+216 = {"Jelamenga" "Jelamenga"}
+4553 = {"Shamula" "Shamula"}
+208 = {"Legbalíga" "Legbalíga"}
+207 = {"Asubóda" "Asubóda"}
+215 = {"Balabalíga" "Balabalíga"}
+4552 = {"Palencha" "Palencha"}
+215 = {"Carmana" "Carmana"} # Old Turkic "Karman" (castle)
+1745 = {"Centabóda" "Centabóda"}
+1746 = {"Balígaja" "Balígaja"}
+209 = {"Bishcaja" "Bishcaja"}
+210 = {"Bascobóda" "Bascobóda"}
+2989 = {"Rijocha" "Rijocha"}
+4554 = {"Sentín Luca" "Sentín Luca"} # Latin "Sanctus" (saint) + Old Turkic "Tïn" (spirit) --> "sentín"
+4558 = {"Borga" "Borga"}
+206 = {"Acolunja" "Acolunja"}
+4555 = {"Betrabalíga" "Betrabalíga"}
+232 = {"Pregancha" "Pregancha"}
+231 = {"Purta" "Purta"}
+4556 = {"Abera" "Abera"}
+228 = {"Amenja" "Amenja"}
+227 = {"Lishpona" "Lishpona"}
+4787 = {"Tagoshub" "Tagoshub"} # Old Turkic "Sub" (river)
+4150 = {"Boraca" "Boraca"}
+229 = {"Agostobalíga" "Agostobalíga"}
+230 = {"Yarachun" "Yarachun"} # Old Turkic "Yar" (edge) + Old Turkic "Açun" (world) --> "Edge of the World"
+4788 = {"Plashencha" "Plashencha"}
+1747 = {"Cajishera" "Cajishera"}
+218 = {"Emarita" "Emarita"}
+4548 = {"Ajoneba" "Ajoneba"}
+224 = {"Shebija" "Shebija"}
+1749 = {"Gedish" "Gedish"}
+225 = {"Cordebalíga" "Cordebalíga"}
+1748 = {"Shajen" "Shajen"}
+226 = {"Ajerculija" "Ajerculija"}
+4546 = {"Melaca" "Melaca"}
+223 = {"Menaca" "Menaca"}
+222 = {"Pictebóda" "Pictebóda"}
+221 = {"Morecha" "Morecha"}
+4547 = {"Alebija" "Alebija"}
+2751 = {"Arcabóda" "Arcabóda"}
+219 = {"Taledabalíga" "Taledabalíga"}
+2754 = {"Caganabalíga" "Caganabalíga"} # Old Turkic "Qagan?" (king)
+1750 = {"Lacentija" "Lacentija"}
+4549 = {"Setabóda" "Setabóda"}
+220 = {"Balanchija" "Balanchija"}
+4550 = {"Castalen" "Castalen"}
+4551 = {"Belabalíga" "Belabalíga"}
+217 = {"Matenrija" "Matenrija"} # Old Turkic "Mag" (praise) + Old Turkic "Teñri" (God/Tengri) --> "Praise God"
+4789 = {"Sacobalíga" "Sacobalíga"}
+2755 = {"Ajora" "Ajora"}
+4557 = {"Belbelija" "Belbelija"}
+2990 = {"Tarbalíga" "Tarbalíga"}
+214 = {"Shaducen" "Shaducen"}
+211 = {"Ajosheca" "Ajosheca"}
+2988 = {"Tarecena" "Tarecena"}
+213 = {"Barchenoja" "Barchenoja"}
+2987 = {"Ragecha" "Ragecha"}
+212 = {"Carondas" "Carondas"}
+197 = {"Rushechen" "Rushechen"}
+4560 = {"Ebisha" "Ebisha"}
+333 = {"Mejorega" "Mejorega"}
+4559 = {"Majenorca" "Majenorca"}
