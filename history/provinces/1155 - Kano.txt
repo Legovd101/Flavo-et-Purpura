@@ -1,13 +1,13 @@
 #1155 - Kano
-owner = KBO
-controller = KBO
+owner = GLM
+controller = GLM
 culture = hausa
 is_city = yes
 base_manpower = 5
-religion = chad_pagan
+religion = vandal_syncretism
 capital = "Kano"
 trade_goods = dyes
 base_tax = 5
 base_production = 5
 discovered_by = sub_saharan
-add_core = KBO
+add_core = GLM

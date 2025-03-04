@@ -1,6 +1,6 @@
 # - Djado
 culture = tuareg
-religion = mauri_pagan
+religion = chad_pagan
 capital = "Djado"
 trade_goods = unknown
 base_tax = 1

@@ -1,7 +1,7 @@
 #1160 - Mandara
-owner = KBO
-controller = KBO
-add_core = KBO
+owner = BRN
+controller = BRN
+add_core = BRN
 culture = kanuri
 religion = chad_pagan#Fetishism
 capital = "Wandala"

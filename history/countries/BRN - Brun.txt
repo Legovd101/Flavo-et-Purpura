@@ -1,0 +1,6 @@
+government = monarchy
+technology_group = sub_saharan
+religion = vandal_syncretism
+primary_culture = borno_vandalic
+capital = 1157 # Brun
+historical_rival = KBO

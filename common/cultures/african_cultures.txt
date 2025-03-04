@@ -1,0 +1,26 @@
+vandal = {
+	graphical_culture = muslimgfx
+	
+	kanem_vandalic = {
+	}
+	borno_vandalic = {
+	}
+	daura_vandalic = {
+	}
+	male_names = { 
+	Gantra Roruf Libreck Billem Yahan Iesu Ernst Maximilian Imanel Sikmond Ludabiga Anton Kirisof Ferdi 
+	Lipold Pilip Tidora Adilber Alis Jahun Klimes Agusta Feridik Yosif  
+	Lupold Oto Meris Wulafgan Engilber Gotafri Eronimus Igenas Markus Menar 
+	Rafel Karl Kajetan Klemes Kilderik
+	}
+	female_names = {
+		Adel Adigun Atulb Ane Barbela Betris Emeli Ardamut Erica Felicia Ranziska Reya Frida Getrud Kirsten Klara Kostans Kiristin 
+		Kunigund Lara Sibil Terisa Utí Ute Balentina Baleri Banesa 
+		Bera Bictori Walbur Waltrud Walpurgi
+		Wanja Wibeke Wilelmina Wilma Xena Yasmin Ybon Zezil Zo
+	}
+	dynasty_names = {
+		Azna "Yan Korau" Dadi Yaji Saibou Bakara Mamami
+		Kountché Diore Balewa Aluko Bandele Kanu Kuti
+	}
+}

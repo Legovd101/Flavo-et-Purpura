@@ -1,9 +1,9 @@
 # No previous file for Daura
-owner = KBO
-controller = KBO
+owner = GLM
+controller = GLM
 is_city = yes
-culture = hausa
-religion = chad_pagan
+culture = daura_vandalic
+religion = vandal_syncretism
 capital = "Daura"
 trade_goods = dyes
 base_tax = 3
@@ -13,4 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
-add_core = KBO
+add_core = GLM

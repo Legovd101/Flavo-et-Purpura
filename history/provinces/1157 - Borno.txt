@@ -1,9 +1,9 @@
 #1157 - Borno
-owner = KBO
-controller = KBO
-add_core = KBO
-culture = kanuri
-religion = chad_pagan
+owner = BRN
+controller = BRN
+add_core = BRN
+culture = borno_vandalic
+religion = vandal_syncretism
 capital = "Gatiga"
 is_city = yes
 base_manpower = 1

@@ -1,10 +1,10 @@
 # No previous file for Bedde
-owner = KBO
-controller = KBO
-add_core = KBO
+owner = BRN
+controller = BRN
+add_core = BRN
 is_city = yes
 culture = kanuri
-religion = chad_pagan
+religion = vandal_syncretism
 capital = "Bedde"
 trade_goods = grain
 base_tax = 1

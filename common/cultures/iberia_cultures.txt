@@ -30,9 +30,9 @@ gothic_iberian = {
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
 		Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese 
-		Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara B?rbel Beate Beatrice Beatrix 
-		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Br?nhild Brunhilde Br?nhilde C?cilia 
-		C?cilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
+		Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara Barbel Beate Beatrice Beatrix 
+		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Branhild Brunhilde Branhilde Cacilia 
+		Cacilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
 		Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna 
 		Cornelia Dagmar Daniela Denise Desirie Disirie Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena 
 		Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie 
@@ -44,7 +44,7 @@ gothic_iberian = {
 		Hertha Hilda Hilde Hildegard Hulda Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela 
 		Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Jacqueline Jana Janina Janine Jaqueline Jasmin 
 		Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Kai Karen Karin Karina Karla 
-		Karolin Karoline Katarina K?te Katharina K?the Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin 
+		Karolin Karoline Katarina Kate Katharina Kathe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin 
 		Kristina Kunigunde Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly 
 		Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Madeleine 
 		Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha 
@@ -58,10 +58,10 @@ gothic_iberian = {
 		Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Tabea Tamara Tanja Tatjana Teresa Thekla 
 		Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike Ursel Ursula Uta Ute Valentina Valerie Vanessa 
 		Vera Verena Verona Veronika Victoria Viktoria Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud 
-		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Z?zilia Z?zilie Zoe
+		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zazilia Zazilie Zoe
 	}
 	dynasty_names = {
-		"von T?ld" "von Packensburg" "von Kaiserie" "von Isballen" "von Gatz" "von Ebor" "von Gaen" "von Kassel" "von Olshpen" "von Haven"
+		"von Töld" "von Packensburg" "von Kaiserie" "von Isballen" "von Gatz" "von Ebor" "von Gaen" "von Kassel" "von Olshpen" "von Haven"
 	}
 }
 iberian_fep = {
@@ -69,58 +69,58 @@ iberian_fep = {
 		primary = SAB
 		dynasty_names = {
 			"de Trastamara" "de Guzman" "alvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Tillez-Girun "Manrique de Lara" "de avalos" Enr?quez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
+			Tillez-Girun "Manrique de Lara" "de avalos" Enraquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
 			#CK2
 			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
 			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Z??iga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			Zaaiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 		}
 		male_names = {
 			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso alvaro Baltasar 
 			Bernardo Bertran Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco Garc?a Gumez Gonzalo Gutierre Hermenegildo 
-			Ignacio La?n Lope Miguel Nu?o Odun Ramun Rodrigo Tomas Valeriano
+			Cristobal Diego Domingo Esteban Fadrique Francisco Garcaa Gumez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laan Lope Miguel Nuao Odun Ramun Rodrigo Tomas Valeriano
 			Alfonso Alphonse Alonso Alphonse alvar Oliver alvaro Oliver Bermudo Vermudo Diego Diaco 
 			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
 			Egidius Guillin Guillermo Juan 
-			Lupo Luis Manrique Mart?n Martin Munio Ordo?o 
+			Lupo Luis Manrique Martan Martin Munio Ordoao 
 			Obeko Pelayo Pelagius Roderick Salvador 
 			Tello Vela Suero Oveco
 		}
 		female_names = {
 			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
-			Elvira Estefan?a Fronilda Gontroda Gotruda Inis Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda Mar?a Marina Marine 
-			Mayor Menc?a Milia Emily Sancha Teresa Toda Urraca Isabela
+			Elvira Estefanaa Fronilda Gontroda Gotruda Inis Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda Maraa Marina Marine 
+			Mayor Mencaa Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
 	}
 	asturian = {
 		primary = ASU
 		dynasty_names = {
 			"de Trastamara" "de Guzman" "alvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Tillez-Girun "Manrique de Lara" "de avalos" Enr?quez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
+			Tillez-Girun "Manrique de Lara" "de avalos" Enraquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
 			#CK2
 			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
 			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Z??iga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			Zaaiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 		}
 		male_names = {
 			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso alvaro Baltasar 
 			Bernardo Bertran Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco Garc?a Gumez Gonzalo Gutierre Hermenegildo 
-			Ignacio La?n Lope Miguel Nu?o Odun Ramun Rodrigo Tomas Valeriano
+			Cristobal Diego Domingo Esteban Fadrique Francisco Garcaa Gumez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laan Lope Miguel Nuao Odun Ramun Rodrigo Tomas Valeriano
 			Alfonso Alphonse Alonso Alphonse alvar Oliver alvaro Oliver Bermudo Vermudo Diego Diaco 
 			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
 			Egidius Guillin Guillermo Juan 
-			Lupo Luis Manrique Mart?n Martin Munio Ordo?o 
+			Lupo Luis Manrique Martan Martin Munio Ordoao 
 			Obeko Pelayo Pelagius Roderick Salvador 
 			Tello Vela Suero Oveco
 		}
 		female_names = {
 			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
-			Elvira Estefan?a Fronilda Gontroda Gotruda Inis Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda Mar?a Marina Marine 
-			Mayor Menc?a Milia Emily Sancha Teresa Toda Urraca Isabela
+			Elvira Estefanaa Fronilda Gontroda Gotruda Inis Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda Maraa Marina Marine 
+			Mayor Mencaa Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
 	}
 	galician_fep = {
@@ -132,18 +132,18 @@ iberian_fep = {
 			#CK2
 			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
 			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Z??iga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			Zaaiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 			"de Cabrera" "de Villena"
 		}
 		male_names = {
-			Garc?a Ordo?o Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar Bernaldo Brais Carlos 
+			Garcaa Ordoao Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar Bernaldo Brais Carlos 
 			Cristovo Domingos Estevo Felipe Fernan Francisco Frederico Gonzalo Guillerme Gumersindo Henrique 
 			Hermenexildo Hixinio Hugo Iago Ignacio Leandro Lope Miguel Nuno Odun Paulo Pedro Ramun Roi Tomi 
 			Vitor Xoan Xorxe
 		}
 		female_names = {
-			Branca Iria Sabela L?a Rodolfa Sof?a Aldara Alduara Aldon?a Aldonza Beatriz Beatrice Berengaria Berengaria Branca 
-			Blanche Ant?a Branca Carme Catarina Dores Iria L?a Margarida Mar?a Noela Rosal?a Sabela Ux?a Xoana
+			Branca Iria Sabela Laa Rodolfa Sofaa Aldara Alduara Aldonaa Aldonza Beatriz Beatrice Berengaria Berengaria Branca 
+			Blanche Antaa Branca Carme Catarina Dores Iria Laa Margarida Maraa Noela Rosalaa Sabela Uxaa Xoana
 		}
 	}
 }
@@ -159,12 +159,12 @@ vasconic = {
 		}
 		male_names = {
 			Enrique Carlos Francisco Juan Luis Gastun Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Mart?n Sancho Garc?a Felipe Teobaldo Alfonso Agust?n Alejandro alvaro Andris Antonio Bernardo Cisar 
+			Martan Sancho Garcaa Felipe Teobaldo Alfonso Agustan Alejandro alvaro Andris Antonio Bernardo Cisar 
 			Cristubal Diego Esteban Fernando Gaspar Josi Melchor Nicolas Simun Leonel
 			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
 			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
 			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Mart?n Martin Munio Munio Nu?o Nuno Obeko Obeko Ordo?o 
+			Lope Lupo Luis Louis Manrike Amalric Martan Martin Munio Munio Nuao Nuno Obeko Obeko Ordoao 
 			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
 			Zentulo Centule Ladron Ferdinand Bernart
 		}
@@ -172,7 +172,7 @@ vasconic = {
 			Juana Catalina Leonor Blanca
 			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
 			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
-			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nu?a Oneka Oneka Oria Plazentzia 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuaa Oneka Oneka Oria Plazentzia 
 			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
@@ -187,12 +187,12 @@ vasconic = {
 		}
 		male_names = {
 			Enrique Carlos Francisco Juan Luis Gastun Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Mart?n Sancho Garc?a Felipe Teobaldo Alfonso Agust?n Alejandro alvaro Andris Antonio Bernardo Cisar 
+			Martan Sancho Garcaa Felipe Teobaldo Alfonso Agustan Alejandro alvaro Andris Antonio Bernardo Cisar 
 			Cristubal Diego Esteban Fernando Gaspar Josi Melchor Nicolas Simun Leonel
 			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
 			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
 			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Mart?n Martin Munio Munio Nu?o Nuno Obeko Obeko Ordo?o 
+			Lope Lupo Luis Louis Manrike Amalric Martan Martin Munio Munio Nuao Nuno Obeko Obeko Ordoao 
 			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
 			Zentulo Centule Ladron Ferdinand Bernart
 		}
@@ -200,7 +200,7 @@ vasconic = {
 			Juana Catalina Leonor Blanca
 			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
 			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
-			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nu?a Oneka Oneka Oria Plazentzia 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuaa Oneka Oneka Oria Plazentzia 
 			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
@@ -216,12 +216,12 @@ vasconic = {
 		male_names = {
 			Membectou Ounaginitish Eargamet Chickanicto Armquannott Attanas Rechibouctou Chichabenady Miductuk 
 			Enrique Carlos Francisco Juan Luis Gastun Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Mart?n Sancho Garc?a Felipe Teobaldo Alfonso Agust?n Alejandro Alvaro Andris Antonio Bernardo Cisar 
+			Martan Sancho Garcaa Felipe Teobaldo Alfonso Agustan Alejandro Alvaro Andris Antonio Bernardo Cisar 
 			Cristubal Diego Esteban Fernando Gaspar Josi Melchor Nicolas Simun Leonel
 			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
 			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
 			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Mart?n Martin Munio Munio Nuko Nuno Obeko Obeko Ordo?o 
+			Lope Lupo Luis Louis Manrike Amalric Martan Martin Munio Munio Nuko Nuno Obeko Obeko Ordoao 
 			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
 			Zentulo Centule Ladron Ferdinand Bernart Spugonoit Nughquit Begamonit Chigaquisht Nelanoit
 		}
@@ -255,9 +255,9 @@ pangothic = {
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
 		Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese 
-		Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara B?rbel Beate Beatrice Beatrix 
-		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Br?nhild Brunhilde Br?nhilde C?cilia 
-		C?cilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
+		Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara Barbel Beate Beatrice Beatrix 
+		Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Branhild Brunhilde Branhilde Cacilia 
+		Cacilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine 
 		Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna 
 		Cornelia Dagmar Daniela Denise Desirie Disirie Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena 
 		Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie 
@@ -269,7 +269,7 @@ pangothic = {
 		Hertha Hilda Hilde Hildegard Hulda Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela 
 		Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Jacqueline Jana Janina Janine Jaqueline Jasmin 
 		Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Kai Karen Karin Karina Karla 
-		Karolin Karoline Katarina K?te Katharina K?the Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin 
+		Karolin Karoline Katarina Kate Katharina Kathe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin 
 		Kristina Kunigunde Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly 
 		Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Madeleine 
 		Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha 
@@ -281,11 +281,11 @@ pangothic = {
 		Ronja Rosa Rose Rosemarie Roswitha Ruth Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina 
 		Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia 
 		Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Tabea Tamara Tanja Tatjana Teresa Thekla 
-		Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike Ursel Ursula Uta Ute Valentina Valerie Vanessa 
+		Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike Ursel Ursula Utí Ute Valentina Valerie Vanessa 
 		Vera Verena Verona Veronika Victoria Viktoria Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud 
-		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Z?zilia Z?zilie Zoe
+		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zazilia Zazilie Zoe
 	}
 	dynasty_names = {
-		"von T?ld" "von Packensburg" "von Kaiserie" "von Isballen" "von Gatz" "von Ebor" "von Gaen" "von Kassel" "von Olshpen" "von Haven"
+		"von Töld" "von Packensburg" "von Kaiserie" "von Isballen" "von Gatz" "von Ebor" "von Gaen" "von Kassel" "von Olshpen" "von Haven"
 	}
 }

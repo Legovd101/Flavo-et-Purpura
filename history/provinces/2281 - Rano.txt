@@ -1,8 +1,8 @@
 # No previous file for Rano
-owner = KBO
-controller = KBO
+owner = ZZZ
+controller = ZZZ
 culture = hausa
-religion = chad_pagan
+religion = vandal_syncretism
 capital = "Rano"
 trade_goods = dyes
 base_tax = 2
@@ -10,4 +10,4 @@ base_production = 2
 is_city = yes
 base_manpower = 1
 discovered_by = sub_saharan
-add_core = KBO
+add_core = ZZZ

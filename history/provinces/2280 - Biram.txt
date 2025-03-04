@@ -1,8 +1,8 @@
 # No previous file for Biram
-owner = KBO
-controller = KBO
+owner = GLM
+controller = GLM
 culture = hausa
-religion = chad_pagan
+religion = vandal_syncretism
 capital = "Biram"
 trade_goods = dyes
 base_tax = 2
@@ -10,4 +10,4 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 discovered_by = sub_saharan
-add_core = KBO
+add_core = GLM
