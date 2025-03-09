@@ -1,6 +1,10 @@
 #Represents forts in western Ghana, from Axim to Elmina, mostly Elmina
-culture = aka
-religion = west_african_pagan#Fetishism
+owner = OGU
+controller = OGU
+add_core = OGU
+is_city = yes
+culture = bawule
+religion = dahomey_pagan#Fetishism
 capital = "Axim"
 trade_goods = unknown
 base_tax = 2
@@ -12,4 +16,3 @@ base_manpower = 1
 discovered_by = sub_saharan
 extra_cost = 8
 center_of_trade = 1
-is_city = no

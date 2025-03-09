@@ -1,11 +1,8 @@
 #1112 - Trarza
-owner = JOL
-controller = JOL
-add_core = JOL
 is_city = yes
 culture = senegambian
 capital = "Awlil"
-religion = west_african_pagan
+religion = senegambian_pagan
 trade_goods = salt
 base_tax = 1
 base_production = 1

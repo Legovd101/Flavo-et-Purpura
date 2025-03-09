@@ -1,6 +1,6 @@
 #1156 - Damagaram
-owner = KBO
-controller = KBO
+owner = WTS
+controller = WTS
 culture = tuareg
 religion = vandal_syncretism
 capital = "Mashina"
@@ -10,4 +10,4 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 discovered_by = sub_saharan
-add_core = KBO
+add_core = WTS

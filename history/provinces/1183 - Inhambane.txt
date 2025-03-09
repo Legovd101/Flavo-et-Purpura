@@ -1,6 +1,6 @@
 #1183 - Inhambane
 culture = nguni
-religion = swahili_pagan#Fetishism
+religion = swahili_pagan #Fetishism
 capital = "Inhambane"
 trade_goods = unknown
 base_tax = 4

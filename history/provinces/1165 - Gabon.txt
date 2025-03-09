@@ -1,6 +1,6 @@
 #1165 - Gabon
 culture = kongolese
-religion = west_african_pagan#Fetishism
+religion = yoruba_pagan #Fetishism
 capital = "Gabon"
 trade_goods = unknown
 base_tax = 2

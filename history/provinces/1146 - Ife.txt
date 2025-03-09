@@ -2,10 +2,10 @@
 owner = OYO
 controller = OYO
 add_core = OYO
-culture = yorumba
-religion = west_african_pagan#Fetishism
-capital = "Ife Ile"
+culture = yoruba
+religion = yoruba_pagan#Fetishism
 is_city = yes
+capital = "Ife Ile"
 base_manpower = 2
 trade_goods = glass#Ife Glass Beads
 base_tax = 3

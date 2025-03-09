@@ -1,7 +1,6 @@
 # 2273 - Ader
-owner = AIR
-controller = AIR
-add_core = AIR
+owner = TMB
+controller = TMB
 is_city = yes
 culture = tuareg
 religion = mauri_pagan
@@ -14,3 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
+add_core = TMB

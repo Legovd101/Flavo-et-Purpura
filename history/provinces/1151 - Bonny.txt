@@ -1,6 +1,9 @@
 #1151 - Bonny
-culture = sawabantu
-religion = west_african_pagan#Fetishism
+owner = WRR
+controller = WRR
+is_city = yes
+culture = ijo
+religion = yoruba_pagan#Fetishism
 capital = "Bonny"
 trade_goods = slaves
 base_tax = 1
@@ -10,4 +13,4 @@ native_size = 50
 native_ferocity = 4
 native_hostileness = 9
 discovered_by = sub_saharan
-is_city = no
+add_core = WRR

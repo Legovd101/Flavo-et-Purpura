@@ -1,7 +1,7 @@
 # No previous file for Rano
 owner = ZZZ
 controller = ZZZ
-culture = hausa
+culture = daura_vandalic
 religion = vandal_syncretism
 capital = "Rano"
 trade_goods = dyes

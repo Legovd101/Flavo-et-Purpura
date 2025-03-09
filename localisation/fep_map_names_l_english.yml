@@ -19,6 +19,10 @@
  strymon_area: "Strymon"
  strymon_area_adj: "Strymian"
 
+ # Trade Goods
+ steel: "Steel"
+ steelDESC: "Steel is an alloy of carbon and iron described by the Romans as being "harder than iron which fire tempers." Though it developed independently in different parts of the world, it mainly stayed in Southern India and Africa, with its only spread being the result of either conquest or trade."
+
  COLONIAL_CANADA_Demar: "Demar"
  COLONIAL_CANADA_Demar_ADJ: "Demarian"
  COLONIAL_CANADA_Afallon: "Afallon"

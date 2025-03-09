@@ -1,6 +1,6 @@
 #1163 - Calabar
 culture = sawabantu
-religion = west_african_pagan#Fetishism
+religion = yoruba_pagan #Fetishism
 capital = "Calabar"
 trade_goods = slaves
 base_tax = 1

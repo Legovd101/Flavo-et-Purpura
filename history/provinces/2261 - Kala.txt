@@ -1,10 +1,9 @@
 # No previous file for Kala
-owner = JNN
-controller = JNN
-add_core = JNN
+owner = TMB
+controller = TMB
 is_city = yes
 culture = bozo
-religion = west_african_pagan#Fetishism
+religion = soninke_pagan#Fetishism
 capital = "Isaq"
 trade_goods = fish#river fisheries
 base_tax = 4
@@ -14,3 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
+add_core = TMB

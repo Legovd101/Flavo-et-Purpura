@@ -479,7 +479,7 @@ can_have_center_of_reformation_trigger = { #Province Scope
 	#$RELIGION$ needs to match the religion of the center that is being spawned.
 	continent = europe
 	OR = {
-		religion = oslite
+		religion = nidarite
 		religion = rhenish
 		religion = arianism
 		religion = corkish

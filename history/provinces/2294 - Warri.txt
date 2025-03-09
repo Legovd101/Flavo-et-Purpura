@@ -1,16 +1,18 @@
 # No previous file for Warri
-owner = BEN
-controller = BEN
-add_core = BEN
+owner = WRR
+controller = WRR
 is_city = yes
-culture = yorumba
-religion = west_african_pagan#Fetishism
+culture = ijo
+religion = yoruba_pagan#Fetishism
 capital = "Warri"
-trade_goods = slaves
-base_tax = 1
-base_production = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
-base_manpower = 1
+trade_goods = steel
+base_tax = 3
+base_production = 7
+base_manpower = 4
 discovered_by = sub_saharan
+center_of_trade = 1
+add_permanent_province_modifier = { 
+	name = niger_estuary_modifier
+	duration = -1
+}
+add_core = WRR

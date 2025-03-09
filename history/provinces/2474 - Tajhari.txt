@@ -1,6 +1,6 @@
 # - Tajhari (Idehan Murzuq)
 culture = tuareg
-religion = chad_pagan
+religion = mauri_pagan
 capital = "Tajhari"
 trade_goods = unknown
 base_tax = 1

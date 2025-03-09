@@ -4,7 +4,7 @@ technology_group = sub_saharan
 unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
-religion = lutetian
+religion = vandal_syncretism
 primary_culture = bambara
 capital = 1123 # Segu
 #Bambara

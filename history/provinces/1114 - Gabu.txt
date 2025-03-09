@@ -1,15 +1,15 @@
 #1114 - Gabu
-owner = KBU
-controller = KBU
-culture = senegambian
+owner = BEN
+controller = BEN
+add_core = BEN
 is_city = yes
+culture = senegambian
 base_manpower = 2
-religion = west_african_pagan#Fetishism
+religion = yoruba_pagan #Fetishism
 capital = "Kansala"
 trade_goods = ivory
 base_tax = 3
 base_production = 3
-add_core = KBU#Subject province within the empire
 discovered_by = sub_saharan
 add_local_autonomy = 50
 extra_cost = 8

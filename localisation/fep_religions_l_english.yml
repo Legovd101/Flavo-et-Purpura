@@ -59,15 +59,15 @@
  arab_pagan_rebels_army: "$RELIGION$ Army"
 
  #West African Pagan
- west_african_pagan: "Vodun"
- west_african_pagan_religion_desc: "The West African religion includes many of the diverse pagan beliefs of the tribes of Sub-Saharan Africa. Ancestor worship, animism and totemistic shamanism dominate, but there also various pantheons of gods."
+ soninke_pagan: "Vodun"
+ soninke_pagan_religion_desc: "The West African religion includes many of the diverse pagan beliefs of the tribes of Sub-Saharan Africa. Ancestor worship, animism and totemistic shamanism dominate, but there also various pantheons of gods."
  GOAT_SKULL: "Goat Skull"
- west_african_pagan_rebels_demand: "Convert $COUNTRYNAME$"
- west_african_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
- west_african_pagan_rebels_title: "Religious"
- west_african_pagan_rebels_name: "$RELIGION$ Zealots"
- west_african_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
- west_african_pagan_rebels_army: "$RELIGION$ Army"
+ soninke_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ soninke_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ soninke_pagan_rebels_title: "Religious"
+ soninke_pagan_rebels_name: "$RELIGION$ Zealots"
+ soninke_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ soninke_pagan_rebels_army: "$RELIGION$ Army"
 
  #Waaqeffanna
  waaqeffanna: "Waaqeffanna"
@@ -195,17 +195,63 @@
  dolettan_center_of_reformation: "Center of Reformation"
   
  #Oslite
- oslite: "Oslite"
- oslite_religion_desc: "Northern Arianism originated in the fear that the Lutetian clergy was growing too centralized and powerful, and cared not for the "frontiers" of the faith. As such, they practice a strict decentralized ecumenism in which each priest is beholden to his parishoners first, and his superiors second."
- oslite_rebels_demand: "Convert $COUNTRYNAME$"
- oslite_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
- oslite_rebels_title: "Religious"
- oslite_rebels_name: "$RELIGION$ Zealots"
- oslite_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
- oslite_rebels_army: "$RELIGION$ Army"
- oslite_center_of_reformation: "Center of Reformation"
+ nidarite: "Nidarite"
+ nidarite_religion_desc: "Northern Arianism originated in the fear that the Lutetian clergy was growing too centralized and powerful, and cared not for the "frontiers" of the faith. As such, they practice a strict decentralized ecumenism in which each priest is beholden to his parishoners first, and his superiors second."
+ nidarite_rebels_demand: "Convert $COUNTRYNAME$"
+ nidarite_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ nidarite_rebels_title: "Religious"
+ nidarite_rebels_name: "$RELIGION$ Zealots"
+ nidarite_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ nidarite_rebels_army: "$RELIGION$ Army"
+ nidarite_center_of_reformation: "Center of Reformation"
 
- # Deities
+ #Kirisanci
+ vandal_syncretism: "Kirisanci"
+ vandal_syncretism_religion_desc: "Kirisanci originated from the vandal refugees who fled Justinian's conquest of the Kingdom of Africa, and the syncretism of Arian and Nicene Christianity that took place in the ensuing centuries."
+ IESU: "Iesusuma"
+ GARIMA: "Garimarism"
+ vandal_syncretism_rebels_demand: "Convert $COUNTRYNAME$"
+ vandal_syncretism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ vandal_syncretism_rebels_title: "Religious"
+ vandal_syncretism_rebels_name: "$RELIGION$ Zealots"
+ vandal_syncretism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ vandal_syncretism_rebels_army: "$RELIGION$ Army"
+
+ #Afat Roog
+ senegambian_pagan: "Afat Roog"
+ senegambian_pagan_religion_desc: "The traditional religion of the Serer people centers around the worship of Roog Sene, and often involves the presentation of offerings to this deity."
+ IFA: "Ifá"
+ senegambian_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ senegambian_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ senegambian_pagan_rebels_title: "Religious"
+ senegambian_pagan_rebels_name: "$RELIGION$ Zealots"
+ senegambian_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ senegambian_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Isese
+ yoruba_pagan: "Isése"
+ yoruba_pagan_religion_desc: ""
+ ISHE: "Ishe"
+ yoruba_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ yoruba_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ yoruba_pagan_rebels_title: "Religious"
+ yoruba_pagan_rebels_name: "$RELIGION$ Zealots"
+ yoruba_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ yoruba_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Hebiosomà
+ dahomey_pagan: "Hebiosomà"
+ dahomey_pagan_religion_desc: ""
+ XWETANU: "Xwetanu"
+ dahomey_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ dahomey_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ dahomey_pagan_rebels_title: "Religious"
+ dahomey_pagan_rebels_name: "$RELIGION$ Zealots"
+ dahomey_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ dahomey_pagan_rebels_army: "$RELIGION$ Army"
+
+ # Deities/Icons
+ # Finnic 
  ukko: "Ukko"
  tapio: "Tapio"
  ahti: "Ahti"
@@ -213,7 +259,26 @@
  akras: "Äkräs"
  tuoni: "Tuoni"
  peko: "Peko"
+
+ # Vandalic
+ iesu: "Iesu"
+ garimer: "Garimer"
+ bori: "Bori"
+ gasariken: "Gasariken"
+ mayali: "Mayali"
+ agelos: "Agelos"
+ babban_maza: "Babban Maza"
+ manzo: "Mazo"
+ bagiro: "Bagiro"
+
+ # Arian
+ acacius_creed: "Creed of Acacius"
+ ulfilas_creed: "Creed of Ulfilas"
+ arius_creed: "Creed of Arius"
+ olaf_creed: "Creed of St. Olaf"
+
  # Deities desc
+ # Finnic
  ukko_desc: "Ukko is the most important god in Finnic paganism. He is the god of thunder and the ruler of the heavens."
  tapio_desc: "Tapio is the god of hunting and the ruler of the forests."
  ahti_desc: "Ahti is the ruler of waters and the god of fishing."
@@ -221,3 +286,15 @@
  akras_desc: "Äkräs is the god of agriculture and fertility."
  tuoni_desc: "Tuoni is the god of death and the ruler of the underworld."
  peko_desc: "Peko is the god of crops and brewing."
+
+ # Vandalic
+ iesu_desc: "The first Sarkin Bori of all Kirisanci. Fought the evil Bori which held sway over Gut and managed to expel it, turning him into the benevolent deity he is now."
+ garimer_desc: "Led the Bandals into Brun many centuries ago to flee the wrath of Iusina"
+ bori_desc: ""
+ gasariken_desc: ""
+ mayali_desc: ""
+ agelos_desc: ""
+ babban_maza_desc: ""
+ manzo_desc: ""
+ bagiro_desc: ""
+

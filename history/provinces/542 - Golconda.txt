@@ -4,7 +4,7 @@ controller = TLG
 culture = telegu
 religion = hinduism
 capital = "Golconda"
-trade_goods = gems#trade_goods = silk
+trade_goods = steel#trade_goods = silk
 base_tax = 5
 base_production = 5
 base_manpower = 1

@@ -1,10 +1,10 @@
 #1140 - Abomey
-owner = DAH#Early kingdom of Allada/Ardra
+owner = DAH
 controller = DAH
 add_core = DAH
 is_city = yes
-culture = fon
-religion = west_african_pagan#Fetishism
+culture = fon_nu
+religion = dahomey_pagan#Fetishism
 capital = "Allada"
 trade_goods = slaves
 base_tax = 1

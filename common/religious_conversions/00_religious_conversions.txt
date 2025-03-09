@@ -540,7 +540,7 @@ corkish_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			religion = oslite
+			religion = nidarite
 		}
 		modifier = {
 			factor = 0
@@ -657,7 +657,7 @@ rhenish_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			religion = oslite
+			religion = nidarite
 		}
 		modifier = {
 			factor = 0
@@ -865,9 +865,9 @@ reformed_center_of_reformation = {
 	}
 }
 
-oslite_center_of_reformation = {
+nidarite_center_of_reformation = {
 	
-	religion = oslite
+	religion = nidarite
 
 	map_icon = GFX_religious_conversion_center_protestant
 
@@ -950,7 +950,7 @@ oslite_center_of_reformation = {
 		modifier = {
 			factor = 1.5
 			owner = {
-				religion = oslite
+				religion = nidarite
 			}
 		}
 		modifier = {
@@ -961,7 +961,7 @@ oslite_center_of_reformation = {
 			factor = 2
 			culture_group = FROM
 			development = 10
-			NOT = { num_of_centers_of_reformation = { religion = oslite count = 2 } }
+			NOT = { num_of_centers_of_reformation = { religion = nidarite count = 2 } }
 		}
 		modifier = {
 			factor = 0.01
@@ -1020,7 +1020,7 @@ dolettan_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			religion = oslite
+			religion = nidarite
 		}
 		modifier = {
 			factor = 0

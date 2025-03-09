@@ -2,7 +2,7 @@
 owner = KBO
 controller = KBO
 culture = bilala#bagirmi
-religion = chad_pagan#Fetishism
+religion = chad_pagan #Fetishism
 capital = "Massenya"
 is_city = yes
 base_manpower = 1

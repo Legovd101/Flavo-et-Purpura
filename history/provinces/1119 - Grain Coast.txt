@@ -1,8 +1,12 @@
 #1119 - Grain Coast
+owner = BEN
+controller = BEN
+add_core = BEN
+is_city = yes
 culture = dyola
-religion = west_african_pagan#Fetishism
+religion = yoruba_pagan #Fetishism
 capital = "Mesurado"
-trade_goods = unknown#Malaguetta Pepper dominant in early eras
+trade_goods = spices #Malaguetta Pepper dominant in early eras
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -17,4 +21,3 @@ discovered_by = HAU
 discovered_by = KBO
 discovered_by = OYO
 discovered_by = BEN
-is_city = no

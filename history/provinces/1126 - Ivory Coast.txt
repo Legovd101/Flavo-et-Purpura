@@ -1,6 +1,10 @@
 #1126 - Ivory Coast
-culture = aka
-religion = west_african_pagan#Fetishism
+owner = OGU
+controller = OGU
+add_core = OGU
+is_city = yes
+culture = bawule
+religion = dahomey_pagan #Fetishism
 capital = "Assinie"
 trade_goods = unknown
 base_tax = 1
@@ -17,4 +21,3 @@ discovered_by = HAU
 discovered_by = KBO
 discovered_by = OYO
 discovered_by = BEN
-is_city = no

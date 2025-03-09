@@ -1,9 +1,9 @@
 # No previous file for Kawar
-owner = KBO
-controller = KBO
+owner = WTS
+controller = WTS
 is_city = yes
-culture = tuareg
-religion = chad_pagan
+culture = kanem_vandalic
+religion = mauri_pagan
 capital = "Kawar"
 trade_goods = salt
 base_tax = 1
@@ -13,4 +13,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
-add_core = KBO
+add_core = WTS

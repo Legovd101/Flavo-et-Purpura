@@ -1,7 +1,7 @@
 # No previous file for Biram
 owner = GLM
 controller = GLM
-culture = hausa
+culture = daura_vandalic
 religion = vandal_syncretism
 capital = "Biram"
 trade_goods = dyes

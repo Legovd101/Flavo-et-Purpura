@@ -1,13 +1,13 @@
 # No previous file for Haayre
-owner = WGD
-controller = WGD
+owner = TMB
+controller = TMB
 is_city = yes
 culture = bozo
-religion = west_african_pagan#Fetishism
+religion = soninke_pagan#Fetishism
 capital = "Douentza"
 trade_goods = ivory
 base_tax = 1
 base_production = 1
 base_manpower = 1
 discovered_by = sub_saharan
-add_core = WGD
+add_core = TMB

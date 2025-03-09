@@ -2,8 +2,8 @@
 owner = BRN
 controller = BRN
 add_core = BRN
-culture = kanuri
-religion = chad_pagan#Fetishism
+culture = borno_vandalic
+religion = chad_pagan #Fetishism
 capital = "Wandala"
 is_city = yes
 base_manpower = 1

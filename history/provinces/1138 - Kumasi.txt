@@ -1,7 +1,7 @@
 #1138 - Kumasi
-culture = aka
+culture = akan
 base_manpower = 1
-religion = west_african_pagan#Fetishism
+religion = dahomey_pagan#Fetishism
 capital = "Akyem Kotoko"
 trade_goods = gold
 base_tax = 4
@@ -12,3 +12,6 @@ native_hostileness = 9
 add_core = ASH
 discovered_by = sub_saharan
 is_city = no
+owner = GAA
+controller = GAA
+add_core = GAA

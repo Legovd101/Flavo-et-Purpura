@@ -24,3 +24,203 @@ vandal = {
 		Kountché Diore Balewa Aluko Bandele Kanu Kuti
 	}
 }
+
+volta_niger = {
+	graphical_culture = muslimgfx
+	
+	edo = {
+		primary = BEN
+		dynasty_names = {
+			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
+			Ajuwa Ezinwa Kanu Opara Rufai
+		}
+		male_names = {
+			Oranyan Sango Ajaka Aganju Kari Oluaso Onigbogi Ofinran Eguguoju Orompoto Ajiboyede Abipa Obalokun Ajagbo 
+			Odorawu Kanran Jayin Ayibi Osiyago Ojigi Gberu Amuniwaiye Onisle Labisi Agboluaje Majeogbe Abiodun Awole 
+			Arongangan Adebo Maaku Aburumaku Majotu Do Aklim Dakondunu Ganye Hessu Wegbaja Akaba Agaja Tegbesu Kpengla 
+			Anonglo Haholo Kpasse Ayohuan Agbangia
+		}
+		female_names = {
+			Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo Alaba Ayo Ayodele Ayomide 
+			Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu Ife Ige Kayin Mojisola 
+			Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi Simisola Temitope 
+			Titilayo Yejide Yewande
+		}
+	}
+	fon_nu = {
+		primary = DAH
+		dynasty_names = {
+			Ajahutonon Ahosu Assogba Ahyi
+			Tometin Koukou Sessegnon
+			Séka Sinzogan
+		}
+		male_names = {
+			Agaja Doaklin Gangnihessou Dakodonou Houebadja Akaba Tegbessou Kpengla Agonglo Adandozan Ghezo Glele 
+			Behanzin Agoli-agbo Aidododo Togni-ahoussou Agolli-Agbo Houédogni Kokpon Te-Agdanlin Dosu Agbo Sassa Huffon 
+			Adoma Tomo
+		}
+		female_names = {
+			Hangbe Sehdong Hongbe Nawi Afyavi Ahwlikponuwa Asiba Ayàbà Abagbe Abegi Abeje Oluremi Winona Isi Abeni 
+			Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
+			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
+			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
+			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
+			Simisola Temitope Titilayo Yejide Yewande
+		}
+	}
+	ewe = {
+		primary = GAA
+		dynasty_names = {
+			Ajahutonon Ahosu Assogba Ahyi
+			Tometin Koukou Sessegnon
+			Séka Sinzogan
+		}
+		male_names = {
+			Agaja Doaklin Gangnihessou Dakodonou Houebadja Akaba Tegbessou Kpengla Agonglo Adandozan Ghezo Glele 
+			Behanzin Agoli-agbo Aidododo Togni-ahoussou Agolli-Agbo Houédogni Kokpon Te-Agdanlin Dosu Agbo Sassa Huffon 
+			Adoma Tomo
+		}
+		female_names = {
+			Hangbe Sehdong Hongbe Nawi Afyavi Ahwlikponuwa Asiba Ayàbà Abagbe Abegi Abeje Oluremi Winona Isi Abeni 
+			Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
+			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
+			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
+			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
+			Simisola Temitope Titilayo Yejide Yewande
+		}
+	}
+	yoruba = {
+		primary = OYO
+		dynasty_names = {
+			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
+			Ajuwa Ezinwa Kanu Opara Rufai
+		}
+		male_names = {
+			Oranyan Sango Ajaka Aganju Kari Oluaso Onigbogi Ofinran Eguguoju Orompoto Ajiboyede Abipa Obalokun Ajagbo 
+			Odorawu Kanran Jayin Ayibi Osiyago Ojigi Gberu Amuniwaiye Onisle Labisi Agboluaje Majeogbe Abiodun Awole 
+			Arongangan Adebo Maaku Aburumaku Majotu Do Aklim Dakondunu Ganye Hessu Wegbaja Akaba Agaja Tegbesu Kpengla 
+			Anonglo Haholo Kpasse Ayohuan Agbangia
+		}
+		female_names = {
+			Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo Alaba Ayo Ayodele Ayomide 
+			Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu Ife Ige Kayin Mojisola 
+			Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi Simisola Temitope 
+			Titilayo Yejide Yewande
+		}
+	}
+	igbo = {
+		dynasty_names = {
+			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
+			Ajuwa Ezinwa Kanu Opara Rufai
+		}
+		male_names = {
+			Oranyan Sango Ajaka Aganju Kari Oluaso Onigbogi Ofinran Eguguoju Orompoto Ajiboyede Abipa Obalokun Ajagbo 
+			Odorawu Kanran Jayin Ayibi Osiyago Ojigi Gberu Amuniwaiye Onisle Labisi Agboluaje Majeogbe Abiodun Awole 
+			Arongangan Adebo Maaku Aburumaku Majotu Do Aklim Dakondunu Ganye Hessu Wegbaja Akaba Agaja Tegbesu Kpengla 
+			Anonglo Haholo Kpasse Ayohuan Agbangia
+		}
+		female_names = {
+			Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo Alaba Ayo Ayodele Ayomide 
+			Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu Ife Ige Kayin Mojisola 
+			Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi Simisola Temitope 
+			Titilayo Yejide Yewande
+		}
+	}
+	igala = {
+		dynasty_names = {
+			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
+			Ajuwa Ezinwa Kanu Opara Rufai
+		}
+		male_names = {
+			Oranyan Sango Ajaka Aganju Kari Oluaso Onigbogi Ofinran Eguguoju Orompoto Ajiboyede Abipa Obalokun Ajagbo 
+			Odorawu Kanran Jayin Ayibi Osiyago Ojigi Gberu Amuniwaiye Onisle Labisi Agboluaje Majeogbe Abiodun Awole 
+			Arongangan Adebo Maaku Aburumaku Majotu Do Aklim Dakondunu Ganye Hessu Wegbaja Akaba Agaja Tegbesu Kpengla 
+			Anonglo Haholo Kpasse Ayohuan Agbangia
+		}
+		female_names = {
+			Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo Alaba Ayo Ayodele Ayomide 
+			Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu Ife Ige Kayin Mojisola 
+			Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi Simisola Temitope 
+			Titilayo Yejide Yewande
+		}
+	}
+	anufe = {
+		primary = NUP
+		dynasty_names = {
+			Etsu Ubah Solaja Umaru
+			Aliu Solaja Okara Ajuwa
+			Ezinwa Kanu Opara
+		}
+		male_names = {
+			"Edegi" "Abdu Waliyi" "Alyu" "Ganamace" "Ibrahima" "Idirisu" "Abd Allahi 'Tsado" "Abu Bakr Kolo" 
+			"Jibirin dan Au Bakr Kolo" "Ma'azu" "Majiya" "Ilyasu" "Ali Kolo Tankari" "Mamma" "Jimada" "Jia" "Masaba" 
+			"Maza" "Ma'azu 'Isa" "Tsoede" "'Usuman Zaki" "Bello" 
+			"Malam" "'Usman Sarki" "'Umaru Sanda Ndayako" "Yahaya" 
+		}
+		female_names = {
+			Abagbe Abegi Abeje Oluremi Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
+			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
+			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
+			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
+			Simisola Temitope Titilayo Yejide Yewande
+		}
+	}
+	gwari = {
+		dynasty_names = {
+			Etsu Ubah Solaja Umaru
+			Aliu Solaja Okara Ajuwa
+			Ezinwa Kanu Opara
+		}
+		male_names = {
+			"Edegi" "Abdu Waliyi" "Alyu" "Ganamace" "Ibrahima" "Idirisu" "Abd Allahi 'Tsado" "Abu Bakr Kolo" 
+			"Jibirin dan Au Bakr Kolo" "Ma'azu" "Majiya" "Ilyasu" "Ali Kolo Tankari" "Mamma" "Jimada" "Jia" "Masaba" 
+			"Maza" "Ma'azu 'Isa" "Tsoede" "'Usuman Zaki" "Bello" 
+			"Malam" "'Usman Sarki" "'Umaru Sanda Ndayako" "Yahaya" 
+		}
+		female_names = {
+			Abagbe Abegi Abeje Oluremi Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
+			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
+			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
+			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
+			Simisola Temitope Titilayo Yejide Yewande
+		}
+	}
+}
+
+kwa = {
+	akan = {
+		primary = ASH
+	}
+	bawule = {
+		primary = OGU
+	}
+	dynasty_names = {
+		Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+		Addy Afrifa Sadami Sabah Sribor Moyoyo
+	}
+	male_names = {
+		"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale" 
+		"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie" 
+		"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua" 
+		"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim" 
+		"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten" 
+		"Obiri Yeboa" "Opoku" "Antwi"
+	}
+	female_names = {
+		Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+		Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+		Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+		Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+		Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+	}
+}
+
+ijoid = {
+	ijo = {
+		primary = WRR
+	}
+}

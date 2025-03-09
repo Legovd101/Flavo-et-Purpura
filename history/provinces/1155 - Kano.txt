@@ -1,7 +1,7 @@
 #1155 - Kano
 owner = GLM
 controller = GLM
-culture = hausa
+culture = daura_vandalic
 is_city = yes
 base_manpower = 5
 religion = vandal_syncretism

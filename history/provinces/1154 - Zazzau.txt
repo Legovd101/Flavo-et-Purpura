@@ -2,7 +2,7 @@
 owner = ZZZ
 controller = ZZZ
 add_core = ZZZ
-culture = hausa
+culture = gwari
 is_city = yes
 base_manpower = 3
 religion = vandal_syncretism#Fetishism

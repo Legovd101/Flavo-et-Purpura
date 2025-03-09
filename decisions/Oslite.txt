@@ -1,5 +1,5 @@
 country_decisions = {
-	oslite = {
+	nidarite = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
@@ -16,7 +16,7 @@ country_decisions = {
 			any_province = {
 				religion = corkish
 			}
-			NOT = { is_religion_enabled = oslite }
+			NOT = { is_religion_enabled = nidarite }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -41,7 +41,7 @@ country_decisions = {
 		}
 		effect = {
 			country_event = {
-				id = oslite_flavor.0
+				id = nidarite_flavor.0
 			}
 		}
 		ai_importance = 400

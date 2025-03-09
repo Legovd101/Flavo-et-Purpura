@@ -1,6 +1,6 @@
 #1249 - Yola
 culture = jukun
-religion = chad_pagan#Fetishism
+religion = vandal_syncretism#Fetishism
 capital = "Kwararafa"
 trade_goods = unknown
 base_tax = 1
@@ -11,3 +11,6 @@ native_ferocity = 4
 native_hostileness = 9
 discovered_by = KBO
 is_city = no
+add_core = BRN
+owner = BRN
+controller = BRN

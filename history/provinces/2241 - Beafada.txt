@@ -1,5 +1,5 @@
 culture = senegambian
-religion = west_african_pagan#Fetishism
+religion = senegambian_pagan#Fetishism
 capital = "Beafada"
 trade_goods = slaves
 base_tax = 1

@@ -2,13 +2,12 @@
 government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = hausa
-religion = west_african_pagan#Fetishism
+religion = vandal_syncretism#Fetishism
 technology_group = sub_saharan
 unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
-capital = 1154# Niani
-#Extremely speculative attempt to reconcile some very conflicting sources on the dating. (Basically by assuminng there were two Bakwa Turunku)
+capital = 1154#Extremely speculative attempt to reconcile some very conflicting sources on the dating. (Basically by assuminng there were two Bakwa Turunku)
 1432.1.1 = { 
 	monarch = { 
 		name = "Amina"

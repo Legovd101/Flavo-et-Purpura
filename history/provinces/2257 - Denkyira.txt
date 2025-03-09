@@ -1,5 +1,5 @@
-culture = aka
-religion = west_african_pagan#Fetishism
+culture = bawule
+religion = dahomey_pagan#Fetishism
 capital = "Dunkwa"
 trade_goods = coffee#Kola nuts
 base_tax = 2
@@ -9,4 +9,7 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
-is_city = no
+is_city = yes
+add_core = OGU
+owner = OGU
+controller = OGU
