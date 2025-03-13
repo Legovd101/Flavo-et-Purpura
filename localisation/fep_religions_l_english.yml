@@ -58,17 +58,6 @@
  arab_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  arab_pagan_rebels_army: "$RELIGION$ Army"
 
- #West African Pagan
- soninke_pagan: "Vodun"
- soninke_pagan_religion_desc: "The West African religion includes many of the diverse pagan beliefs of the tribes of Sub-Saharan Africa. Ancestor worship, animism and totemistic shamanism dominate, but there also various pantheons of gods."
- GOAT_SKULL: "Goat Skull"
- soninke_pagan_rebels_demand: "Convert $COUNTRYNAME$"
- soninke_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
- soninke_pagan_rebels_title: "Religious"
- soninke_pagan_rebels_name: "$RELIGION$ Zealots"
- soninke_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
- soninke_pagan_rebels_army: "$RELIGION$ Army"
-
  #Waaqeffanna
  waaqeffanna: "Waaqeffanna"
  waaqeffanna_religion_desc: "Waaqeffanna is the traditional religion within much of the Horn of Africa. Centered around worship of the Supreme Creator Waaqa, Waaqeffataas believe that Waaqa sends messages to His creations through the Ayyaana, who in turn possess men and women known as Qaalluu. Their jobs are to be the temporal exemplars of Waaqa's ethics and supporters of the democratic Gadaa System."
@@ -148,18 +137,6 @@
  chad_pagan_rebels_name: "$RELIGION$ Zealots"
  chad_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  chad_pagan_rebels_army: "$RELIGION$ Army"
-
- #Nyamba
- swahili_pagan: "Nyamba"
- swahili_pagan_religion_desc: "The Bantu peoples worship a rotating pantheon of deities, usually centered around the sun deity called some variation of "Nyambe.""
- zoroaster: "Zoroastrian"
- manich: "Manichaean"
- swahili_pagan_rebels_demand: "Convert $COUNTRYNAME$"
- swahili_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
- swahili_pagan_rebels_title: "Religious"
- swahili_pagan_rebels_name: "$RELIGION$ Zealots"
- swahili_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
- swahili_pagan_rebels_army: "$RELIGION$ Army"
  
  #Corkish
  corkish: "Corkish"
@@ -217,6 +194,30 @@
  vandal_syncretism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  vandal_syncretism_rebels_army: "$RELIGION$ Army"
 
+
+ #Vodzu
+ soninke_pagan: "Vodzu"
+ soninke_pagan_religion_desc: "The West African religion includes many of the diverse pagan beliefs of the tribes of Sub-Saharan Africa. Ancestor worship, animism and totemistic shamanism dominate, but there also various pantheons of gods."
+ GOAT_SKULL: "Goat Skull"
+ soninke_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ soninke_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ soninke_pagan_rebels_title: "Religious"
+ soninke_pagan_rebels_name: "$RELIGION$ Zealots"
+ soninke_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ soninke_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Nyamba
+ swahili_pagan: "Nyamba"
+ swahili_pagan_religion_desc: "The Bantu peoples worship a rotating pantheon of deities, usually centered around the sun deity called some variation of "Nyambe.""
+ zoroaster: "Zoroastrian"
+ manich: "Manichaean"
+ swahili_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ swahili_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ swahili_pagan_rebels_title: "Religious"
+ swahili_pagan_rebels_name: "$RELIGION$ Zealots"
+ swahili_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ swahili_pagan_rebels_army: "$RELIGION$ Army"
+
  #Afat Roog
  senegambian_pagan: "Afat Roog"
  senegambian_pagan_religion_desc: "The traditional religion of the Serer people centers around the worship of Roog Sene, and often involves the presentation of offerings to this deity."
@@ -230,7 +231,7 @@
 
  #Isese
  yoruba_pagan: "Isése"
- yoruba_pagan_religion_desc: ""
+ yoruba_pagan_religion_desc: "The traditional religion of the Yoruba people, spread west by Benin. They believe in an all mighty, supreme diety known as Olodumare. Because of this Olodumare is distant and does not partake in human rituals, there are no shrines or rituals dedicated to it, although people can still send prayers its way."
  ISHE: "Ishe"
  yoruba_pagan_rebels_demand: "Convert $COUNTRYNAME$"
  yoruba_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."

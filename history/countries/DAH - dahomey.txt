@@ -1,5 +1,4 @@
-government = tribal
-add_government_reform = tribal_despotism
+government = monarchy
 primary_culture = fon_nu
 religion = dahomey_pagan #Fetishism
 technology_group = sub_saharan

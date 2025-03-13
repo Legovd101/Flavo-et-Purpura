@@ -482,3 +482,95 @@ ANU_ideas = {
 		infantry_power = 0.1
 	}
 }
+
+BEN_ideas = {
+	start = {
+		trade_steering = 0.33
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	bonus = {
+		galley_power = 0.25
+	}
+	
+	trigger = {
+		tag = BEN
+		NOT = { has_country_flag = ben_upgrade_state_inuisition_idea_flag }
+		NOT = { has_country_flag = LNS_ideas_flag }
+	}
+	free = yes		#will be added at load.
+	
+	siine_to_asaba = {
+		naval_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.1
+	}
+	steels_and_deals = {
+		trade_efficiency = 0.25
+	}
+	olokun = {
+		naval_attrition = -0.15
+	}
+	transactional_diplomacy = {
+		diplomats = 1 
+		improve_relation_modifier = 0.2
+	}
+	conscription = {
+		global_sailors_modifier = 0.33
+		allowed_marine_fraction = 0.1
+	}
+	defend_the_law = {
+		global_unrest = -2
+	}
+	provveditori_ai_beni_inculti = {
+		development_cost = -0.1
+	}
+}
+
+BEN_ideas_2 = {
+	start = {
+		trade_steering = 0.33
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	bonus = {
+		galley_power = 0.25
+	}
+	
+	trigger = {
+		tag = BEN
+		has_country_flag = ben_upgrade_transactional_diplomacy_idea_flag
+	}
+	free = yes		#will be added at load.
+	
+	siine_to_asaba = {
+		#Present in the previous BEN_ideas ideaset
+	}
+	steels_and_deals = {
+		#Present in the previous BEN_ideas ideaset
+	}
+	olokun = {
+		#Present in the previous BEN_ideas ideaset
+	}
+	transactional_diplomacy_2 = {
+		diplomats = 1 
+		improve_relation_modifier = 0.2
+		max_absolutism = 10
+	}
+	conscription = {
+		#Present in the previous BEN_ideas ideaset
+	}
+	defend_the_law = {
+		#Present in the previous BEN_ideas ideaset
+	}
+	provveditori_ai_beni_inculti = {
+		development_cost = -0.1
+	}
+}

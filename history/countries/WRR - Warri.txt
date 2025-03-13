@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = sub_saharan
 religion = yoruba_pagan
 primary_culture = ijo
+capital = 2294

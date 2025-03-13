@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = colonial_government
+technology_group = sub_saharan
+religion = yoruba_pagan #Fetishism
+primary_culture = yorubo_spanish
+capital = 227 # Lisboa
+government_rank = 1

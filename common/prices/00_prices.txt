@@ -109,6 +109,10 @@ dyes = {
 	base_price = 4 
 }
 
+purpura = {
+	base_price = 5 
+}
+
 #Additional Trade Goods
 
 livestock = {

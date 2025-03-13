@@ -2329,6 +2329,7 @@ textile = {
 		cloth
 		silk
 		dyes
+		purpura
 	}
 	onmap = yes
 	on_built = {

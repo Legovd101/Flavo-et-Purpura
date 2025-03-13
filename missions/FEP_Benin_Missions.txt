@@ -1,0 +1,1353 @@
+benin_missions_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_dlc = "Winds of Change"
+		tag = BEN
+		NOT = { map_setup = map_setup_random } 
+	}
+	potential_on_load = { has_dlc = "Winds of Change" } 
+
+	ben_embrace_centralization = {
+		icon = mission_mal_fighting_musa
+		position = 2
+		required_missions = { ben_scales_of_power } 
+		provinces_to_highlight = {  } 
+
+		trigger = { has_institution = feudalism } 
+
+		effect = {  }
+	}
+
+	ben_promote_the_carnevale = {
+		icon = mission_african_trade_post
+		position = 3
+		required_missions = { ben_embrace_centralization } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			treasurer = 3
+			if = {
+				limit = { has_dlc = "Mandate of Heaven" } 
+				splendor = 800
+			}
+			else = { prestige = 50 } 
+		}
+
+		effect = {  }
+	}
+
+	ben_ventures_in_the_volta = {
+		icon = mission_se_along_the_river
+		position = 9
+		required_missions = { ben_enemies_to_the_east } 
+		provinces_to_highlight = {
+			area = piedmont_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			piedmont_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			103 = {
+				num_of_times_improved = 5
+				if = {
+					limit = { has_dlc = "Mandate of Heaven" } 
+					NOT = { devastation = 1 } 
+				}
+				has_courthouse_building_trigger = yes
+			}
+		}
+
+		effect = {  }
+	}
+
+	ben_neverending_expulsion = {
+		icon = mission_kon_protector_of_africa
+		position = 10
+		required_missions = {
+			ben_ventures_in_the_volta
+			ben_bandalayan_undoing
+		}
+		provinces_to_highlight = {
+			owner = {
+				OR = {
+					religion = vandal_syncretism
+					religion = mauri_pagan
+				}
+			}
+		}
+
+		trigger = {
+			NOT = {
+				AND = {
+					religion = mauri_pagan
+					religion = vandal_syncretism
+				}
+			}
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = no_independent_heathens_tt
+				all_country = {
+					OR = {
+						NOT = {
+							AND = {
+								religion = mauri_pagan
+								religion = vandal_syncretism
+							}
+						}
+						is_subject = yes
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "stewards_of_ile_adulawo"
+				duration = -1
+			}
+			africa_superregion = { add_permanent_claim = ROOT } 
+		}
+	}
+}
+benin_missions_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_dlc = "Winds of Change"
+		tag = BEN
+		NOT = { map_setup = map_setup_random } 
+	}
+	potential_on_load = { has_dlc = "Winds of Change" } 
+
+	ben_scales_of_power = {
+		icon = ven_scales_of_power
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			if = {
+				limit = { has_reform = merchants_reform } 
+				OR = {
+					num_of_estate_privileges = {
+						estate = estate_burghers
+						value = 5
+					}
+					faction_influence = {
+						faction = mr_aristocrats
+						influence = 50
+					}
+					faction_influence = {
+						faction = mr_traders
+						influence = 50
+					}
+					faction_influence = {
+						faction = mr_guilds
+						influence = 50
+					}
+				}
+			}
+			else = { grown_by_development = 10 } 
+			estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 60
+			}
+		}
+
+		effect = {
+			add_republican_tradition = 10
+			add_legitimacy = 10
+			add_devotion = 10
+		}
+	}
+
+	ben_capital_of_africa = {
+		icon = ven_capital_of_europe
+		position = 2
+		required_missions = { ben_scales_of_power } 
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 1147
+					NOT = { is_capital_of = ROOT } 
+				}
+				AND = {
+					superregion = africa_superregion
+					NOT = { province_id = 1147 } 
+					higher_development_than = 1147
+				}
+				AND = {
+					province_id = 1147
+					OR = {
+						NOT = { owned_by = ROOT } 
+						NOT = { num_of_buildings_in_province = 5 } 
+						NOT = { development = 25 } 
+						has_trade_building_trigger = no
+					}
+				}
+			}
+		}
+
+		trigger = {
+			1147 = {
+				owned_by = ROOT
+				has_trade_building_trigger = yes
+				num_of_buildings_in_province = 5
+				development = 25
+			}
+			capital_scope = {
+				province_id = 1147
+				custom_trigger_tooltip = {
+					tooltip = ven_highest_dev_capital_tt
+					NOT = {
+						africa_superregion = {
+							NOT = { province_id = 1147 } 
+							higher_development_than = 1147
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { 1147 = { has_trade_building_trigger = no }  } 
+				custom_tooltip = 112_gets_trade_upgrade_tt
+			}
+			else = { 1147 = { upgrade_building = { trade = yes }  }  } 
+			1147 = {
+				add_scaled_local_adm_power = 11
+				add_scaled_local_dip_power = 12
+				add_scaled_local_mil_power = 9
+			}
+		}
+	}
+
+	ben_new_law_system = {
+		icon = expand_the_doges_palace
+		position = 4
+		required_missions = {
+			ben_capital_of_africa
+			ben_promote_the_carnevale
+		}
+		provinces_to_highlight = {
+			province_id = 1147
+			OR = {
+				NOT = { is_core = ROOT } 
+				NOT = { owned_by = ROOT } 
+			}
+		}
+
+		trigger = {
+			1147 = { has_courthouse_building_trigger = yes } 
+			owns_core_province = 1147
+		}
+
+		effect = {  }
+	}
+
+	ben_iwerre = {
+		icon = mission_dominate_genoa
+		position = 7
+		required_missions = { ben_army_republic } 
+		provinces_to_highlight = {
+			province_id = 2294
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = { 2294 = { country_or_non_sovereign_subject_holds = ROOT }  } 
+
+		effect = {
+			if = {
+				limit = { is_trade_league_leader = yes } 
+				custom_tooltip = ven_easier_to_invite_trade_league_members_yes_tt
+				set_country_flag = ven_easier_to_invite_trade_league_members_yes_flag
+			}
+			else_if = {
+				limit = { has_dlc = "Mare Nostrum" } 
+				custom_tooltip = ven_easier_to_invite_trade_league_members_no_tt
+			}
+			unlock_government_reform = { government_reform = merchant_representation_reform } 
+			define_admiral = {
+				shock = 4
+				fire = 4
+				manuever = 5
+			}
+		}
+	}
+
+	ben_enemies_to_the_east = {
+		icon = mission_mal_riches_of_trade
+		position = 8
+		required_missions = { ben_iwerre } 
+		provinces_to_highlight = {
+			OR = {
+				area = west_africa_coast_area
+				area = lower_niger_area
+			}
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+				owner = { NOT = { is_in_trade_league_with = ROOT }  } 
+			}
+		}
+
+		trigger = {
+			west_africa_coast_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					owner = { is_in_trade_league_with = ROOT } 
+				}
+			}
+			lower_niger_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					owner = { is_in_trade_league_with = ROOT } 
+				}
+			}
+		}
+
+		effect = {
+			atacora_oueme_area = { add_permanent_claim = ROOT } 
+			adamawa_plateau_area = { add_permanent_claim = ROOT } 
+			lower_volta_area = { add_permanent_claim = ROOT } 
+			hausa_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ben_bandalayan_undoing = {
+		icon = mission_conquer_kanem_bornu
+		position = 9
+		required_missions = { ben_iwerre } 
+		provinces_to_highlight = {
+			OR = {
+				area = hausa_area
+				area = adamawa_plateau_area
+			}
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+				owner = { NOT = { is_in_trade_league_with = ROOT }  } 
+			}
+		}
+
+		trigger = {
+			hausa_area = {
+				type = all
+				OR = { country_or_non_sovereign_subject_holds = ROOT } 
+			}
+			adamawa_plateau_area = {
+				type = all
+				OR = { country_or_non_sovereign_subject_holds = ROOT } 
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = { owner = { religion = vandal_syncretism }  } 
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ben_new_steel_age = {
+		icon = mission_iron_and_copper
+		position = 10
+		required_missions = { ben_to_the_source } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				trade_goods = steel
+				trade_node = 4097
+				value = 3
+			}
+		}
+
+		effect = {  } 
+	}
+
+	ben_southern_cape = {
+		icon = colonize_the_cape
+		position = 11
+		required_missions = { ben_exploration_missions } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			1117 = {
+				owned_by = ROOT
+			}
+		} 
+
+		effect = {  } 
+	}
+}
+benin_missions_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_dlc = "Winds of Change"
+		tag = BEN
+		NOT = { map_setup = map_setup_random } 
+	}
+	potential_on_load = { has_dlc = "Winds of Change" } 
+
+	ben_nuova_promissione_ducale = {
+		icon = mission_court_education
+		position = 3
+		required_missions = { ben_capital_of_africa } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			stability = 3
+			legitimacy_equivalent = 80
+			NOT = { corruption = 1 } 
+			reform_level = 3
+		}
+
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						has_reform = merchants_reform
+						has_reform = lottery_reform
+					}
+				}
+				change_ruler_stat = {
+					type = dip
+					amount = 1
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						current_age = age_of_absolutism
+						current_age = age_of_revolutions
+					}
+					NOT = { absolutism = 80 } 
+					is_revolutionary = no
+				}
+				add_absolutism = 20
+			}
+			else = { add_mil_power = 200 } 
+			if = {
+				limit = {
+					OR = {
+						has_reform = merchants_reform
+						has_reform = lottery_reform
+					}
+				}
+				unlock_government_reform = { government_reform = ven_promissione_ducale_reform } 
+			}
+		}
+	}
+
+	ben_standardize_relazioni = {
+		icon = personal_diplomacy
+		position = 4
+		required_missions = { ben_nuova_promissione_ducale } 
+		provinces_to_highlight = {
+			is_capital = yes
+			owner = {
+				NOT = { tag = ROOT } 
+				has_spy_network_in = {
+					who = ROOT
+					value = 25
+				}
+				NOT = {
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+				NOT = { truce_with = ROOT } 
+			}
+		}
+
+		trigger = {
+			all_neighbor_country = {
+				OR = {
+					NOT = {
+						has_spy_network_in = {
+							who = ROOT
+							value = 25
+						}
+					}
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+					truce_with = ROOT
+				}
+			}
+			OR = {
+				diplomat = 3
+				spymaster = 3
+			}
+			if = {
+				limit = {
+					tag = BEN
+					NOT = { has_country_flag = LNS_ideas_flag } 
+				}
+				has_idea = transactional_diplomacy
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { tag = BEN } 
+				custom_tooltip = ven_upgrade_state_inuisition_idea_tt
+				hidden_effect = {
+					set_country_flag = ben_upgrade_transactional_diplomacy_idea_flag
+					swap_free_idea_group = yes
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = "ven_standardized_relazioni"
+					duration = 7300
+				}
+			}
+		}
+	}
+
+	ben_of_wealth_and_power = {
+		icon = ven_of_wealth_and_power
+		position = 5
+		required_missions = {
+			ben_plague_doctor_training
+			ben_standardize_relazioni
+			ben_academy_of_the_unknowns
+			ben_new_law_system
+		}
+		provinces_to_highlight = { ROOT = { home_trade_node = { province_id = PREV_PREV }  }  } 
+
+		trigger = {
+			home_trade_node = { highest_value_trade_node = yes } 
+			num_of_trading_bonuses = 6
+		}
+
+		effect = {
+			add_power_projection = {
+				type = ven_cradle_of_opulence
+				amount = 20
+			}
+			country_event = { id = fep_west_african_flavor.0 } 
+		}
+	}
+
+	ben_army_republic = {
+		icon = mission_conquer_malwa_mer
+		position = 6
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			army_size_percentage = 0.9
+			num_of_generals = 1
+			num_of_galley = 10
+		}
+
+		effect = {
+			if = {
+				limit = { ai = no } 
+				enable_branching_mission_review_without_ai = { key = BEN } 
+			}
+			else = {
+				random_list = {
+					10 = { set_country_flag = ben_standing_army_missions_flag } 
+					10 = { set_country_flag = ben_mercenary_army_missions_flag } 
+					10 = { set_country_flag = ben_navy_missions_flag } 
+				}
+			}
+			benin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT
+			}
+			gulf_of_guinea_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT
+			}
+			sao_tome_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_niger_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT
+			}
+			west_africa_coast_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ben_contest_genoese_trade = {
+		icon = mission_sea_battles
+		position = 8
+		required_missions = { ben_iwerre } 
+		provinces_to_highlight = {
+			province_id = 1298
+			NOT = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		trigger = {
+			1298 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		effect = {
+			add_mercantilism_or_monarch_power = { amount = 1 } 
+			add_country_modifier = {
+				name = "ven_genoese_humiliation"
+				duration = 5475
+			}
+			coastal_kongo = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ben_to_the_source = {
+		icon = mission_kon_greatest_power_kongo
+		position = 9
+		required_missions = { ben_contest_genoese_trade } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			coastal_kongo = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { kongo_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ben_exploration_missions = {
+		icon = mission_look_west
+		position = 10
+		required_missions = { ben_to_the_source } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			OR = {
+				exploration_ideas = 1
+				num_of_colonists = 1
+				num_of_explorers = 1
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "swe_search_for_new_world"
+				duration = 5475
+			}
+			if = {
+				limit = { NOT = { national_focus = DIP }  } 
+				custom_tooltip = ven_yes_dip_power_tt
+				tooltip = { add_dip_power = 100 } 
+			}
+			else_if = {
+				limit = {
+					OR = {
+						national_focus = DIP
+						has_dlc = "Res Publica"
+						has_dlc = "Common Sense"
+					}
+				}
+				custom_tooltip = ven_no_dip_power_tt
+				tooltip = { add_dip_power = 100 } 
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { national_focus = DIP } 
+						OR = {
+							has_dlc = "Res Publica"
+							has_dlc = "Common Sense"
+						}
+					}
+					add_dip_power = 100
+				}
+			}
+		}
+	}
+
+	ben_triangle_trade = {
+		icon = mission_the_triangle_trade
+		position = 11
+		required_missions = { ben_exploration_missions } 
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	ben_discover_north_america = {
+		icon = mission_establish_high_seas_navy
+		position = 12
+		required_missions = { ben_triangle_trade } 
+		provinces_to_highlight = {
+			if = {
+				limit = { is_random_new_world = no } 
+				OR = {
+					colonial_region = colonial_eastern_america
+					colonial_region = colonial_the_carribean
+				}
+			}
+			else = { continent = new_world } 
+			NOT = { has_discovered = ROOT } 
+		}
+
+		trigger = {
+			if = {
+				limit = { is_random_new_world = no } 
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_eastern_america
+					colonial_eastern_america = { has_discovered = ROOT } 
+				}
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_caribbean
+					colonial_the_carribean = { has_discovered = ROOT } 
+				}
+			}
+			else = {
+				new_world = {
+					is_sea = no
+					has_discovered = ROOT
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_dlc = "Rule Britannia" } 
+				change_innovativeness = 3
+			}
+			else = {
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+			}
+			add_country_modifier = {
+				name = "ven_venetian_new_world_charters"
+				duration = 7300
+			}
+		}
+	}
+}
+benin_missions_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_dlc = "Winds of Change"
+		tag = BEN
+		NOT = { map_setup = map_setup_random } 
+	}
+	potential_on_load = { has_dlc = "Winds of Change" } 
+
+	ben_new_pilings = {
+		icon = mission_portuguese_malabar
+		position = 1
+		provinces_to_highlight = { province_id = 1147 } 
+
+		trigger = {
+			1147 = {
+				owned_by = ROOT
+				grown_by_development = 5
+			}
+		}
+
+		effect = {
+			1147 = {
+				add_province_modifier = {
+					name = "urban_expansion_modifier"
+					duration = 9125
+				}
+			}
+		}
+	}
+
+	ben_sempiterni_compagnie = {
+		icon = mission_invade_mali
+		position = 2
+		required_missions = { ben_new_pilings } 
+		provinces_to_highlight = {
+			province_id = 1147
+			NOT = { owned_by = ROOT } 
+		}
+
+		trigger = {
+			1147 = {
+				num_of_buildings_in_province = 4
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			country_event = { id = flavor_ven.46 } 
+			custom_tooltip = event_insight_flavor_ven.46
+		}
+	}
+
+	ben_modern_banking_system = {
+		icon = medici_bank_ledgers
+		position = 3
+		required_missions = { ben_sempiterni_compagnie } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					has_tax_building_trigger = yes
+				}
+				monthly_adm = 10
+			}
+			OR = {
+				full_idea_group = economic_ideas
+				monthly_income = 100
+				calc_true_if = {
+					all_ally = { subsidised_percent_amount = { value = 0.2 }  } 
+					amount = 3
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_reform = merchants_reform } 
+				custom_tooltip = ven_reduce_cost_of_guild_interactions_tt
+				custom_tooltip = empty_line_tt
+			}
+			else = {
+				add_inflation = -3
+				add_years_of_income = 1
+			}
+			add_years_of_owned_provinces_production_income = {
+				years = 5
+				trigger = { has_tax_building_trigger = yes } 
+				custom_tooltip = TAX_BUILDING_INCOME_DESC
+			}
+		}
+	}
+
+	ben_academy_of_the_unknowns = {
+		icon = mission_into_africa
+		position = 4
+		required_missions = { ben_modern_banking_system } 
+		provinces_to_highlight = {
+			NOT = { has_building = university } 
+			owned_by = ROOT
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				has_building = university
+				value = 10
+			}
+			1147 = {
+				owned_by = ROOT
+				has_building = university
+			}
+		}
+
+		effect = {
+			set_country_flag = ben_academy_of_the_unknowns_reward_flag
+			country_event = { id = flavor_ven.47 } 
+			custom_tooltip = event_insight_flavor_ven.47
+		}
+	}
+
+	ben_flagship = {
+		icon = mission_rb_grow_the_channel
+		position = 8
+		required_missions = { ben_iwerre } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			if = {
+				limit = { has_dlc = "Golden Century" } 
+				has_flagship = yes
+			}
+			if = {
+				limit = { has_dlc = "Rule Britannia" } 
+				has_naval_doctrine = any
+			}
+			else = { num_of_heavy_ship = 10 } 
+			capital_scope = { base_production = 15 } 
+		}
+
+		effect = {
+			country_event = { id = flavor_ven.53 } 
+			custom_tooltip = event_insight_flavor_ven.53
+		}
+	}
+
+	ben_round_the_cape = {
+		icon = mission_west_african_ports
+		position = 9
+		required_missions = { ben_flagship } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			navy_size = 200
+			has_discovered = 1111
+		}
+
+		effect = {
+			if = {
+				limit = { 1111 = { is_empty = yes }  } 
+				country_event = { id = fep_west_african_flavor.1 } 
+			}
+			else = { add_permanent_claim = 1111 } 
+			add_country_modifier = {
+				name = "ben_land_to_the_north"
+				duration = 9125
+			}
+			alentejo_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ben_owa_panyanan = {
+		icon = mission_rb_take_gibraltar
+		position = 10
+		required_missions = { ben_round_the_cape } 
+		provinces_to_highlight = {
+			region = iberia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				region = iberia_region
+				value = 5
+			}
+			227 = { owned_by = ROOT } 
+		}
+
+		effect = {
+			country_event = { id = fep_west_african_flavor.2 }
+			brittany_area = { add_permanent_claim = ROOT }
+			poitou_area = { add_permanent_claim = ROOT }
+			guyenne_area = { add_permanent_claim = ROOT }
+			pyrenees_area = { add_permanent_claim = ROOT }
+		} 
+	}
+
+	ben_kola_company = {
+		icon = mission_rb_conquer_brittany
+		position = 11
+		required_missions = { ben_owa_panyanan } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				region = france_region
+				value = 7
+			}
+			OR = {
+				174 = { owned_by = ROOT }
+				4386 = { owned_by = ROOT }
+				170 = { owned_by = ROOT }
+			} 
+		} 
+
+		effect = {
+			country_event = { id = fep_west_african_flavor.3 }
+		} 
+	}
+}
+benin_missions_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_dlc = "Winds of Change"
+		tag = BEN
+		NOT = { map_setup = map_setup_random } 
+	}
+	potential_on_load = { has_dlc = "Winds of Change" } 
+
+	ben_patronize_the_owa_iwe = {
+		icon = ven_patronize_the_scuole_grandi
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				NOT = { has_tax_building_trigger = yes } 
+				NOT = { has_trade_building_trigger = yes } 
+			}
+			is_capital_of = root
+		}
+
+		trigger = {
+			capital_scope = {
+				has_tax_building_trigger = yes
+				has_trade_building_trigger = yes
+			}
+			prestige = 20
+		}
+
+		effect = {
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+			}
+			set_country_flag = ben_establish_scuola_effect_flag
+		}
+	}
+
+	ben_standardize_edo_script = {
+		icon = aldine_press
+		position = 2
+		required_missions = {
+			ben_patronize_the_owa_iwe
+			ben_new_pilings
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			OR = {
+				has_institution = printing_press
+				AND = {
+					capital_scope = {
+						if = {
+							limit = { has_dlc = "Mandate of Heaven" } 
+							is_prosperous = yes
+						}
+						else = { has_production_building_trigger = yes } 
+					}
+					has_adm_advisor = yes
+					monthly_adm = 10
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					is_institution_enabled = printing_press
+					NOT = { has_institution = printing_press } 
+				}
+				capital_scope = {
+					area = {
+						limit = { owned_by = ROOT } 
+						add_institution_embracement = {
+							which = printing_press
+							value = 100
+						}
+					}
+				}
+			}
+			define_advisor = {
+				name = "Guosa Idahosa"
+				type = inquisitor
+				cost_multiplier = 0.25
+				skill = 3
+			}
+			custom_tooltip = empty_line_tt
+			capital_scope = {
+				add_province_modifier = {
+					name = "ven_first_printshops_of_italy_modifier"
+					duration = 3650
+				}
+			}
+		}
+	}
+
+	ben_plague_doctor_training = {
+		icon = plague_doctor_training
+		position = 4
+		required_missions = { ben_standardize_edo_script } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			development_in_provinces = {
+				value = 500
+				has_building = university
+			}
+		}
+
+		effect = {
+			remove_plague_events = yes
+			if = {
+				limit = { government = republic } 
+				custom_tooltip = ven_lichking_rulers_tt
+				set_country_flag = ben_lichking_rulers_flag
+				hidden_effect = {
+					add_ruler_modifier = {
+						name = "ven_plague_doctors_modifier"
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+	}
+
+	ben_expand_the_walls = {
+		icon = expand_the_arsenal
+		position = 6
+		provinces_to_highlight = { province_id = 1147 } 
+
+		trigger = {
+			if = {
+				limit = { has_dlc = "Leviathan" } 
+				1147 = {
+					has_great_project = {
+						type = walls_benin
+						tier = 2
+					}
+					has_dock_building_trigger = yes
+				}
+			}
+			else = {
+				1147 = {
+					num_of_times_improved = 4
+					has_dock_building_trigger = yes
+				}
+			}
+			1147 = { has_any_ongoing_construction = no } 
+		}
+
+		effect = {
+			futa_jallon_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			jolof_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			country_event = { id = flavor_ven.50 } 
+			custom_tooltip = event_insight_flavor_ven.50
+		}
+	}
+
+	ben_monopolize_chadic_trade = {
+		icon = mission_galleys_in_port
+		position = 7
+		required_missions = { ben_expand_the_walls } 
+		provinces_to_highlight = {
+			province_id = 1147
+			NOT = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		trigger = {
+			1147 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		effect = {
+			add_dip_power = 100
+			add_mercantilism_or_monarch_power = { amount = 2 } 
+		}
+	}
+
+	ben_claim_senegal = {
+		icon = reclaim_the_aegean
+		position = 8
+		required_missions = { ben_monopolize_chadic_trade } 
+		provinces_to_highlight = {
+			area = futa_jallon_area
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+				owner = { NOT = { is_in_trade_league_with = ROOT }  } 
+			}
+		}
+
+		trigger = {
+			if = {
+				limit = { has_dlc = "Mare Nostrum" } 
+				futa_jallon_area = {
+					type = all
+					OR = {
+						country_or_non_sovereign_subject_holds = ROOT
+						owner = { is_in_trade_league_with = ROOT } 
+					}
+				}
+			}
+			else = {
+				futa_jallon_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+
+		effect = {
+			guinea_coast_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+							owner = { NOT = { is_in_trade_league_with = ROOT }  } 
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			1466 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = 5475
+					power = 100
+					key = VENETIAN_ISLAND_STATIONS_KEY
+				}
+			}
+		}
+	}
+
+	ben_complete_guinea_colonization = {
+		icon = mission_northumberland_coast
+		position = 9
+		required_missions = { ben_claim_senegal } 
+		provinces_to_highlight = {
+			area = guinea_coast_area
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+				owner = { NOT = { is_in_trade_league_with = ROOT }  } 
+			}
+			is_empty = no
+		}
+
+		trigger = {
+			guinea_coast_area = {
+				OR = {
+					owner = { is_in_trade_league_with = ROOT } 
+					country_or_non_sovereign_subject_holds = ROOT
+					is_empty = yes
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "mediterranean_ambition"
+				duration = 3650
+			}
+			1118 = { add_siberian_construction = 200 } 
+			aleppo_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ben_control_the_delta = {
+		icon = control_the_means_of_transaction
+		position = 10
+		required_missions = { ben_complete_guinea_colonization } 
+		provinces_to_highlight = {
+			OR = {
+				area = jolof_area
+				area = tekrur_area
+			}
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+				owner = { NOT = { is_in_trade_league_with = ROOT }  } 
+			}
+		}
+
+		trigger = {
+			jolof_area = {
+				OR = {
+					owner = { is_in_trade_league_with = ROOT } 
+					country_or_non_sovereign_subject_holds = ROOT
+					is_empty = yes
+				}
+			}
+			tekrur_area = {
+				OR = {
+					owner = { is_in_trade_league_with = ROOT } 
+					country_or_non_sovereign_subject_holds = ROOT
+					is_empty = yes
+				}
+			}
+		}
+
+		effect = {
+			capital_scope = {
+				add_province_modifier = {
+					name = "ven_office_of_foreign_commercial_affairs"
+					duration = -1
+				}
+			}
+			2239 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = 5475
+					power = 50
+					key = PROTECTED_VENETIAN_MERCHANTS
+				}
+			}
+			1114 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = 5475
+					power = 50
+					key = PROTECTED_VENETIAN_MERCHANTS
+				}
+			}
+		}
+	}
+}

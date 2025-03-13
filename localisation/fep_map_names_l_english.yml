@@ -21,7 +21,10 @@
 
  # Trade Goods
  steel: "Steel"
- steelDESC: "Steel is an alloy of carbon and iron described by the Romans as being "harder than iron which fire tempers." Though it developed independently in different parts of the world, it mainly stayed in Southern India and Africa, with its only spread being the result of either conquest or trade."
+ steelDESC: "Steel is an alloy of carbon and iron described by the Romans as being 'harder than iron which fire tempers.' Though it developed independently in different parts of the world, it mainly stayed in Southern India and Africa, with its only spread being the result of either conquest or trade."
+
+ purpura: "Purpura"
+ purpuraDESC: "Purpura, or Tyrian Purple is a special kind of purple dye whose production originated in Phoenician Tyre. This dye has seen the rise and fall of The Achaemenids, Macedonia, Carthage, Rome, The Mauri, the Sassanids, and the Parsigs"
 
  COLONIAL_CANADA_Demar: "Demar"
  COLONIAL_CANADA_Demar_ADJ: "Demarian"

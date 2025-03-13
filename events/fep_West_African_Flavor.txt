@@ -1,0 +1,147 @@
+# Danish Events
+namespace = fep_west_african_flavor
+
+country_event = { # A New Era of Ascendancy
+	id = fep_west_african_flavor.0
+	title = fep_west_african_flavor.0.t
+	desc = fep_west_african_flavor.0.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # Let's pray they get the message.
+		name = fep_west_african_flavor.0.a
+		override_country_name = "OWA_EDO"
+		change_country_color = {
+			color = {
+				176 37 45
+			}
+		}
+	}
+
+}
+
+country_event = { # Rounding the Northern Cape
+	id = fep_west_african_flavor.1
+	title = fep_west_african_flavor.1.t
+	desc = fep_west_african_flavor.1.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # We shall establish a grand trading outpostin the area!
+		name = fep_west_african_flavor.1.a
+		trigger = {
+			treasury = 200
+		}
+		add_treasury = -200
+		1111 = {
+			add_core = ROOT 
+			change_culture = ROOT
+			change_religion = ROOT
+			cede_province = ROOT
+		}
+	}
+
+	option = { # Let us not overstretch ourselves.
+		name = fep_west_african_flavor.1.b
+		1111 = {
+			create_colony = 100
+		}
+	}
+
+}
+
+country_event = { # The Sipeeni Company
+	id = fep_west_african_flavor.2
+	title = fep_west_african_flavor.2.t
+	desc = fep_west_african_flavor.2.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # In the aftermath of our conquest in the land of the Sipeeni, the issue of distance has begin to rear its ugly head
+		name = fep_west_african_flavor.2.a
+		227 = {
+			change_religion = ROOT
+			change_culture = yorubo_spanish
+			add_core = LUZ
+		}
+		release = LUZ
+		every_owned_province = {
+			limit = {
+				region = iberia_region
+			}
+			cede_province = LUZ
+		}
+		create_subject = {
+			subject_type = european_colony
+			subject = LUZ
+		}
+		LUZ = {
+			change_religion = ROOT
+			change_country_color = {
+				color = { 179 68 108 }
+			}
+		}
+	}
+
+	option = { # Let us not overstretch ourselves.
+		name = fep_west_african_flavor.2.b
+		227 = {
+			change_religion = ROOT
+			change_culture = yorubo_spanish
+			add_core = ROOT
+		}
+	}
+
+}
+
+country_event = { # The Kola Company
+	id = fep_west_african_flavor.3
+	title = fep_west_african_flavor.3.t
+	desc = fep_west_african_flavor.3.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = { # In the aftermath of our conquest in the land of the Sipeeni, the issue of distance has begin to rear its ugly head
+		name = fep_west_african_flavor.3.a
+		227 = {
+			change_religion = ROOT
+			change_culture = yorubo_gallian
+			add_core = KLA
+		}
+		release = KLA
+		every_owned_province = {
+			limit = {
+				region = iberia_region
+			}
+			cede_province = KLA
+		}
+		create_subject = {
+			subject_type = european_colony
+			subject = KLA
+		}
+		KLA = {
+			change_religion = ROOT
+			change_country_color = {
+				color = { 102 56 84 }
+			}
+		}
+	}
+
+	option = { # Let us not overstretch ourselves.
+		name = fep_west_african_flavor.3.b
+		227 = {
+			change_religion = ROOT
+			change_culture = yorubo_spanish
+			add_core = ROOT
+		}
+	}
+
+}

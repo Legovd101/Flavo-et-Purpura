@@ -1,0 +1,15 @@
+﻿l_english:
+ #European Colonies:
+ european_colony:0 "Colony"
+ european_colony_long_desc:1 "A Colony's main purpose is to govern the people outside of our home with more efficiency, whilst also retaining our grip in the region."
+ european_colony_is_our:0 "$NAME|Y$ is a Colony of us"
+ european_colony_title:0 "Colony"
+ european_colony_plural:0 "Colonies"
+ european_colony_title_plural:0 "Colonies"
+ is_european_colony:0 "Is Colony"
+
+ create_european_colony:0 "Establish Colony"
+ create_european_colony_title:0 "Establish Colony"
+ create_european_colony_desc:1 "Make [From.GetName] into a §YColony§!, which functions similarly to other colonies. You can only establish one per region."
+ create_european_colony_tooltip:0 "Make [From.GetName] into a Colony."
+ create_european_colony_alert_tooltip:0 "Establish Colony"
