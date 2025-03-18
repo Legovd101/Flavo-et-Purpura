@@ -1,5 +1,6 @@
 spriteTypes = {	
 	
+	#Zhu Zi Schools
 	spriteType = {
 		name = "GFX_icon_eastern_school_confucian"
 		texturefile = "gfx/interface/icon_eastern_school_confucian.dds"
@@ -39,4 +40,36 @@ spriteTypes = {
 		name = "GFX_icon_eastern_school_logician"
 		texturefile = "gfx/interface/icon_eastern_school_logician.dds"
 	}
+	
+	#Mande Schools
+	spriteType = {
+		name = "GFX_icon_african_sect_amma"
+		texturefile = "gfx/interface/icon_african_sect_amma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_african_sect_sigui"
+		texturefile = "gfx/interface/icon_african_sect_sigui.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_african_sect_binou"
+		texturefile = "gfx/interface/icon_african_sect_binou.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_african_sect_lebe"
+		texturefile = "gfx/interface/icon_african_sect_lebe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_african_sect_twin"
+		texturefile = "gfx/interface/icon_african_sect_twin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_african_sect_mono"
+		texturefile = "gfx/interface/icon_african_sect_mono.dds"
+	}
+
 }

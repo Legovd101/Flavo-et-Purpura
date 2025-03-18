@@ -591,6 +591,7 @@ allow_baseline_invite_scholar_privilege = {
 
 disallow_baseline_invite_scholar = {
 	hidden_effect = {
+		# Zhu Zi
 		clr_country_flag = privilege_can_always_invite_mohist_school
 		clr_country_flag = privilege_can_always_invite_confucian_school
 		clr_country_flag = privilege_can_always_invite_nestorian_school
@@ -599,6 +600,14 @@ disallow_baseline_invite_scholar = {
 		clr_country_flag = privilege_can_always_invite_legalist_school
 		clr_country_flag = privilege_can_always_invite_diplomatic_school
 		clr_country_flag = privilege_can_always_invite_logician_school
+
+		# Mande
+		clr_country_flag = privilege_can_always_invite_amma_school
+		clr_country_flag = privilege_can_always_invite_sigui_school
+		clr_country_flag = privilege_can_always_invite_binou_school
+		clr_country_flag = privilege_can_always_invite_lebe_school
+		clr_country_flag = privilege_can_always_invite_twin_school
+		clr_country_flag = privilege_can_always_invite_mono_school
 	}
 }
 
@@ -608,6 +617,7 @@ disable_baseline_invite_scholar = {
 		clr_country_flag = enabled_baseline_invite_scholar
 		if = {
 			limit = { NOT = { has_country_flag = enabled_baseline_invite_scholar_no_priv } }
+			# Zhu Zi
 			clr_country_flag = privilege_can_always_invite_confucian_school
 			clr_country_flag = privilege_can_always_invite_nestorian_school
 			clr_country_flag = privilege_can_always_invite_buddhist_school
@@ -615,6 +625,14 @@ disable_baseline_invite_scholar = {
 			clr_country_flag = privilege_can_always_invite_legalist_school
 			clr_country_flag = privilege_can_always_invite_diplomatic_school
 			clr_country_flag = privilege_can_always_invite_logician_school
+
+			# Mande
+			clr_country_flag = privilege_can_always_invite_amma_school
+			clr_country_flag = privilege_can_always_invite_sigui_school
+			clr_country_flag = privilege_can_always_invite_binou_school
+			clr_country_flag = privilege_can_always_invite_lebe_school
+			clr_country_flag = privilege_can_always_invite_twin_school
+			clr_country_flag = privilege_can_always_invite_mono_school
 		}
 	}
 }

@@ -1,4 +1,5 @@
 ﻿l_english:
+ # Zhu ZI
  confucianism: "Zhu Zi"
 
  confucian_school: "Ru Jia"
@@ -40,3 +41,34 @@
  buddhist_school_desc: "Buddhism is a sinicized form of Mahayana Buddhism, which draws on the Chinese Buddhist Canon and believes in many realms of existence, the existence of many Buddhas and bodhisattvas, as well as many other kinds of divine beings, ghosts, and so on."
  buddhist_scholar_modifier: "Buddhist Scholars"
  desc_buddhist_scholar_modifier: "We are currently entertaining Buddhist Scholars to further the theological discussion in our country."
+
+ # Mande
+ amma_sect: "Amma Sect"
+ amma_sect_desc: "The sect of the creator god Amma. The celebration is once a year and consists of offering boiled millet on the conical altar of Amma, colouring it white. All other sects are directed to the god Amma."
+ amma_scholar_modifier: "Follower of the Amma Sect"
+ desc_amma_scholar_modifier: "The ruler or consort of [Root.GetName] currently follows the Amma Sect."
+
+ sigui_sect: "Sigui Sect"
+ sigui_sect_desc: "Sigui is the most important ceremony of the Mande. It takes place every 60 years and can take several years. The Sigui ceremony symbolises the death of the first ancestor until the moment that humanity acquired the use of the spoken word. The Sigui is a long procession that starts and ends in the village of Youga Dogorou, and goes from one village to another during several months or years."
+ sigui_scholar_modifier:  "Follower of the Sigui Sect"
+ desc_sigui_scholar_modifier:  "The ruler or consort of [Root.GetName] currently follows of the Sigui Sect."
+
+ binou_sect: "Binou Sect"
+ binou_sect_desc: "The Binou sect uses totems: common ones for the entire village and individual ones for totem priests. A totem animal is worshiped on a Binou altar. Totems are, for example, the buffalo and the panther. Normally, no one is harmed by their totem animal, even if this is a crocodile, but a totem animal might exceptionally harm if one has done something wrong"
+ binou_scholar_modifier: "Follower of the Binou Sect"
+ desc_binou_scholar_modifier: "The ruler or consort of [Root.GetName] currently follows of the Binou Sect."
+
+ lebe_sect: "Lébé Sect"
+ lebe_sect_desc: "The Lébé sect worships the ancestor Lébé Serou, the first mortal human being, who, in Mande myth, was transformed into a snake. The celebration takes place once a year and lasts for three days. The altar is a pointed conic structure on which the Hogon offers boiled millet while mentioning in his benediction eight grains plus one. Afterwards, the Hogon performs some rituals in his house, which is the home of Lébé. The last day, all the village men visit all the Binou altars and dance three times around the Lébé altar."
+ lebe_scholar_modifier: "Follower of the Lébé Sect"
+ desc_lebe_scholar_modifier: "The ruler or consort of [Root.GetName] currently follows of the Lébé Sect."
+
+ twin_sect: "Twin Sect"
+ twin_sect_desc: "The birth of twins is a sign of good luck. The extended Dogon families have common rituals, during which they evoke all their ancestors back to their origin—the ancient pair of twins from the creation of the world."
+ twin_scholar_modifier: "Follower of the Twin Sect"
+ desc_twin_scholar_modifier: "The ruler or consort of [Root.GetName] currently follows of the Twin Sect."
+
+ mono_sect: "Mono Sect"
+ mono_sect_desc: "The Mono altar is at the entry of every village. Unmarried young men celebrate the Mono sect once a year in January or February. They spend the night around the altar, singing and screaming and waving with fire torches. They hunt for mice that will be sacrificed on the altar at dawn."
+ mono_scholar_modifier: "Follower of the Mono Sect"
+ desc_mono_scholar_modifier: "The ruler or consort of [Root.GetName] currently follows of the Mono Sect."

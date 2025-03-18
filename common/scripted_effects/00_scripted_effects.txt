@@ -169,6 +169,7 @@ add_loot_from_rich_province_general_effect = {
 #Religious Schools:
 #Country Scope
 clear_religious_scholar_modifiers_effect = {
+	# Confucian
 	remove_country_modifier = mohist_scholar_modifier #
 	remove_country_modifier = confucian_scholar_modifier #
 	remove_country_modifier = nestorian_scholar_modifier #
@@ -177,6 +178,14 @@ clear_religious_scholar_modifiers_effect = {
 	remove_country_modifier = legalist_scholar_modifier #
 	remove_country_modifier = diplomatic_scholar_modifier #
 	remove_country_modifier = logician_scholar_modifier #
+
+	# Mande
+	remove_country_modifier = amma_scholar_modifier #
+	remove_country_modifier = sigui_scholar_modifier #
+	remove_country_modifier = binou_scholar_modifier #
+	remove_country_modifier = lebe_scholar_modifier #
+	remove_country_modifier = twin_scholar_modifier #
+	remove_country_modifier = mono_scholar_modifier #
 }
 
 #Move capital along with all that also needs to be done. Used in capital decisions.

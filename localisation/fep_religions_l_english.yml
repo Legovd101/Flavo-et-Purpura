@@ -127,16 +127,6 @@
  sami_pagan_rebels_name: "$RELIGION$ Zealots"
  sami_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  sami_pagan_rebels_army: "$RELIGION$ Army"
-
- #Maguzawa
- chad_pagan: "Maguzawa"
- chad_pagan_religion_desc: "The traditional faith of the Hausa people have a primary belief that every living or non-living thing in nature has connected to it a single, permanent soul, two supernatural guardian "angels," and a final spirit of the person's sex, known as a "bori.""
- chad_pagan_rebels_demand: "Convert $COUNTRYNAME$"
- chad_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
- chad_pagan_rebels_title: "Religious"
- chad_pagan_rebels_name: "$RELIGION$ Zealots"
- chad_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
- chad_pagan_rebels_army: "$RELIGION$ Army"
  
  #Corkish
  corkish: "Corkish"
@@ -194,10 +184,19 @@
  vandal_syncretism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  vandal_syncretism_rebels_army: "$RELIGION$ Army"
 
+ #Maguzawa
+ chad_pagan: "Maguzawa"
+ chad_pagan_religion_desc: "Maguzawa is the traditional belief of the Hausa people before the Bandal invasions. Although monotheistic, they mainly venerate the Bori (spirits), who act as the intermediates with the divine. Much of their rituals are done with the purpose of either appeasing or warding away the Bori. Each tribe has a totem representing their patron spirit."
+ chad_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ chad_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ chad_pagan_rebels_title: "Religious"
+ chad_pagan_rebels_name: "$RELIGION$ Zealots"
+ chad_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ chad_pagan_rebels_army: "$RELIGION$ Army"
 
- #Vodzu
- soninke_pagan: "Vodzu"
- soninke_pagan_religion_desc: "The West African religion includes many of the diverse pagan beliefs of the tribes of Sub-Saharan Africa. Ancestor worship, animism and totemistic shamanism dominate, but there also various pantheons of gods."
+ #Mande
+ soninke_pagan: "Mande"
+ soninke_pagan_religion_desc: "The traditional religion of the Mande people. They believe in a spiritual hierarchy with the allmighty Mangala on top, and many lesser gods beneath them. Unique to them is their strict cast system and the importance of fraternal secret societies, like the Donzo Ton (the society of hunters)."
  GOAT_SKULL: "Goat Skull"
  soninke_pagan_rebels_demand: "Convert $COUNTRYNAME$"
  soninke_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
@@ -220,7 +219,7 @@
 
  #Afat Roog
  senegambian_pagan: "Afat Roog"
- senegambian_pagan_religion_desc: "The traditional religion of the Serer people centers around the worship of Roog Sene, and often involves the presentation of offerings to this deity."
+ senegambian_pagan_religion_desc: "The traditional religion of the Serer people centers around the worship of Roog Sene, and often involves the presentation of offerings to this deity. It is a purely spiritual being and poseses both a male & female nature, which can be envoked by change the wording of the prayer."
  IFA: "Ifá"
  senegambian_pagan_rebels_demand: "Convert $COUNTRYNAME$"
  senegambian_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
@@ -240,9 +239,9 @@
  yoruba_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  yoruba_pagan_rebels_army: "$RELIGION$ Army"
 
- #Hebiosomà
- dahomey_pagan: "Hebiosomà"
- dahomey_pagan_religion_desc: ""
+ #Akom
+ dahomey_pagan: "Akom"
+ dahomey_pagan_religion_desc: "Akom believes in a all powerful, yet distant god who doestn interact with people and many gods that do. What separates it from the neighbouring faiths is its robust philosophy, concerned with metaphysics and personhood. They also venerate Anansi, the spider god, who playes the role of a trickster and is associated with wisdom and creating the first men."
  XWETANU: "Xwetanu"
  dahomey_pagan_rebels_demand: "Convert $COUNTRYNAME$"
  dahomey_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."

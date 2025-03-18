@@ -7,14 +7,14 @@ initialize_schools_effect = { #Used in on_startup on_action
 		random_country = { #legalists are disliked by all Sunnis at start.
 			limit = {
 				religious_school = {
-					group = muslim
+					group = eastern
 					school = legalist_school
 				}
 			}
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = mohist_school
 					}
 				}
@@ -26,7 +26,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = confucian_school
 					}
 				}
@@ -38,7 +38,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = nestorian_school
 					}
 				}
@@ -50,7 +50,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = daoist_school
 					}
 				}
@@ -62,7 +62,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = buddhist_school
 					}
 				}
@@ -75,14 +75,14 @@ initialize_schools_effect = { #Used in on_startup on_action
 		random_country = { #diplomatics are disliked by all Sunnis at start.
 			limit = {
 				religious_school = {
-					group = muslim
+					group = eastern
 					school = diplomatic_school
 				}
 			}
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = mohist_school
 					}
 				}
@@ -94,7 +94,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = confucian_school
 					}
 				}
@@ -106,7 +106,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = nestorian_school
 					}
 				}
@@ -118,7 +118,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = daoist_school
 					}
 				}
@@ -130,7 +130,7 @@ initialize_schools_effect = { #Used in on_startup on_action
 			random_country = {
 				limit = {
 					religious_school = {
-						group = muslim
+						group = eastern
 						school = buddhist_school
 					}
 				}

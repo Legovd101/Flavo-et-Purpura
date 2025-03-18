@@ -1,6 +1,6 @@
 #1134 - Jenne
-owner = MAL#In effect independant in the wake of Mali's weakening
-controller = MAL
+owner = JNN #In effect independant in the wake of Mali's weakening
+controller = JNN
 culture = bozo
 is_city = yes
 base_manpower = 3
@@ -14,5 +14,5 @@ native_hostileness = 7
 discovered_by = sub_saharan
 extra_cost = 16
 center_of_trade = 2
-add_core = MAL
+add_core = JNN
 fort_15th = yes

@@ -2306,7 +2306,6 @@ eastern = {
 						NOT = { religion = sunni }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2379,7 +2378,6 @@ eastern = {
 						NOT = { religion = sunni }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2452,7 +2450,6 @@ eastern = {
 						NOT = { religion = sunni }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2524,7 +2521,6 @@ eastern = {
 						NOT = { religion = sunni }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2596,7 +2592,6 @@ eastern = {
 						NOT = { religion = sunni }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2669,7 +2664,6 @@ eastern = {
 						NOT = { religion = shiite }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2744,7 +2738,6 @@ eastern = {
 						NOT = { religion = shiite }
 						NOT = { religion = ibadi }
 					}
-					NOT = { piety = -0.5 }
 				}
 				if = {
 					limit = {
@@ -2796,6 +2789,7 @@ eastern = {
 		}
 		
 	}
+
 	buddhism = { #Theravada
 		color = { 204 76 0 }
 		icon = 24
@@ -3791,10 +3785,444 @@ african = {
 	flag_emblem_index_range = { 83 96 }
 	defender_of_faith = yes
 
+	religious_schools = {
+		amma_sect = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_amma_sect
+					has_country_flag = privilege_can_always_invite_amma_sect
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				religion = soninke_pagan
+				NOT = { piety = -0.5 }
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_amma_sect }
+						NOT = { has_country_flag = privilege_can_always_invite_amma_sect }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = amma_scholar_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = amma_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = amma_scholar_modifier
+
+			picture = "GFX_icon_african_sect_amma"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			adm_tech_cost_modifier = -0.05
+		}
+		sigui_sect = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_sigui_sect
+					has_country_flag = privilege_can_always_invite_sigui_sect
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				religion = soninke_pagan
+				if = {
+					limit = {
+						NOT = { religion = sunni }
+						NOT = { religion = ibadi }
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_sigui_sect }
+						NOT = { has_country_flag = privilege_can_always_invite_sigui_sect }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = sigui_scholar_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = sigui_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = sigui_scholar_modifier
+
+			picture = "GFX_icon_african_sect_sigui"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			adm_tech_cost_modifier = -0.05
+		}
+		binou_sect = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_binou_sect
+					has_country_flag = privilege_can_always_invite_binou_sect
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				religion = soninke_pagan
+				if = {
+					limit = {
+						NOT = { religion = sunni }
+						NOT = { religion = ibadi }
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_binou_sect }
+						NOT = { has_country_flag = privilege_can_always_invite_binou_sect }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = binou_scholar_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = binou_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = binou_scholar_modifier
+
+			picture = "GFX_icon_african_sect_binou"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			adm_tech_cost_modifier = -0.05
+		}
+		lebe_sect = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_lebe_sect
+					has_country_flag = privilege_can_always_invite_lebe_sect
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				religion = soninke_pagan
+				if = {
+					limit = {
+						NOT = { religion = sunni }
+						NOT = { religion = ibadi }
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_lebe_sect }
+						NOT = { has_country_flag = privilege_can_always_invite_lebe_sect }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = lebe_scholar_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = lebe_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = lebe_scholar_modifier
+
+			picture = "GFX_icon_african_sect_lebe"
+
+			ae_impact = -0.1
+		}
+		twin_sect = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_twin_sect
+					has_country_flag = privilege_can_always_invite_twin_sect
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				religion = soninke_pagan
+				if = {
+					limit = {
+						NOT = { religion = sunni }
+						NOT = { religion = ibadi }
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_twin_sect }
+						NOT = { has_country_flag = privilege_can_always_invite_twin_sect }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = twin_scholar_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = twin_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = twin_scholar_modifier
+
+			picture = "GFX_icon_african_sect_twin"
+
+			development_cost = -0.1
+		}
+		mono_sect = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_mono_sect
+					has_country_flag = privilege_can_always_invite_mono_sect
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				religion = soninke_pagan
+				if = {
+					limit = {
+						NOT = { religion = sunni }
+						NOT = { religion = ibadi }
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_mono_sect }
+						NOT = { has_country_flag = privilege_can_always_invite_mono_sect }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = mono_scholar_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = mono_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = mono_scholar_modifier
+
+			picture = "GFX_icon_african_sect_mono"
+
+			merchants = 1
+		}
+	}
+
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan
 
-	soninke_pagan = { #Vodun
+
+	soninke_pagan = { #Mande
 		color = { 170 227 114 }
 		icon = 34
 		country = {
@@ -3809,7 +4237,6 @@ african = {
 			diplomatic_reputation = 1
 		}
 
-		fetishist_cult = yes
 		heretic = { GOAT_SKULL }
 	}
 
@@ -3849,7 +4276,7 @@ african = {
 		heretic = { ISHE }
 	}
 
-	dahomey_pagan = { #Hebiosomà
+	dahomey_pagan = { #Akom
 		color = { 107 159 213 }
 		icon = 48
 		country = {

@@ -1,6 +1,6 @@
 #1136 - Gurma
-owner = TMB
-controller = TMB
+owner = GUR
+controller = GUR
 is_city = yes
 culture = mossi#mossi
 religion = dahomey_pagan#Fetishism
@@ -13,4 +13,4 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 discovered_by = sub_saharan
-add_core = TMB
+add_core = GUR
