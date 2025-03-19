@@ -1,2 +1,3 @@
 discovered_by = MAL
 discovered_by = JOL
+discovered_by = BEN

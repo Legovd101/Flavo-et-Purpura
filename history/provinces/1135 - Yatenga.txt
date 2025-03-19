@@ -2,8 +2,8 @@
 owner = WGD
 controller = WGD
 is_city = yes
-culture = mossi
-religion = soninke_pagan #Fetishism
+culture = lobiri
+religion = soninke_pagan#Fetishism
 capital = "Gursi"
 trade_goods = livestock
 base_tax = 3

@@ -110,5 +110,5 @@ mono_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	global_manpower = 0.15
+	manpower_in_true_faith_provinces = 0.15
 }

@@ -1,6 +1,6 @@
 #1118 - Sierra Leone
 culture = dyola
-religion = senegambian_pagan #Fetishism
+religion = senegambian_pagan#Fetishism
 capital = "Sherbro"
 trade_goods = unknown
 base_tax = 1

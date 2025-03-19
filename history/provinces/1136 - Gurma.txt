@@ -2,7 +2,7 @@
 owner = GUR
 controller = GUR
 is_city = yes
-culture = mossi#mossi
+culture = gurma#mossi
 religion = dahomey_pagan#Fetishism
 capital = "Bilanga"
 trade_goods = ivory

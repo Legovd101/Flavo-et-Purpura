@@ -1,0 +1,12 @@
+#Ezigichor
+base_tax = 1
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Ezigichor"
+is_city = yes
+add_core = KBU
+owner = KBU
+culture = senegambian
+religion = senegambian_pagan
+controller = KBU

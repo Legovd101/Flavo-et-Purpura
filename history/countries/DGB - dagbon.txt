@@ -1,11 +1,10 @@
 government = tribal
 add_government_reform = tribal_despotism
-primary_culture = dagomba
-religion = soninke_pagan #Fetishism
+primary_culture = dagbamba
+religion = soninke_pagan#Fetishism
 technology_group = sub_saharan
 religious_school = binou_sect
-capital = 2256#Yendi
-#Rulers
+capital = 2256#Rulers
 1442.1.1 = { 
 	monarch = { 
 		name = "Bierigudeera"

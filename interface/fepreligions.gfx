@@ -72,4 +72,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/icon_african_sect_mono.dds"
 	}
 
+	#Diimauri Holy Sites
+	spriteType = {
+		name = "GFX_holy_site_341"
+		texturefile = "gfx//interface//holy_sites//carthage.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_343"
+		texturefile = "gfx//interface//holy_sites//marrakesh.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_1132"
+		texturefile = "gfx//interface//holy_sites//timbuktu.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_2984"
+		texturefile = "gfx//interface//holy_sites//cosenza.dds"
+		loadType = "INGAME"
+	}
 }

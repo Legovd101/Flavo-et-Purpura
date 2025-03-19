@@ -1,0 +1,12 @@
+#Catio
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Catio"
+is_city = yes
+add_core = BEN
+owner = BEN
+culture = senegambian
+trade_goods = ivory
+religion = yoruba_pagan
+controller = BEN

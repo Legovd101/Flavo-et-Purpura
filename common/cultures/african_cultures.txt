@@ -259,6 +259,41 @@ kwa = {
 	}
 }
 
+mabia = {
+	moore = {
+		primary = MSI
+	}
+	dagbamba = {
+		primary = DGB
+	}
+	bariba = {
+	}
+	gurma = {
+	}
+	lobiri = {
+	}
+	dynasty_names = {
+		"Tenga Niama" "Moogo" "Naaba"
+		Addy Afrifa Sadami Sabah Zakari
+		Offei Donkor Akoto
+		Naa Dagomba Mamprusi
+	}
+	male_names = {
+		Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi 
+		Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo 
+		Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+	}
+	female_names = {
+		Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi 
+		Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika  
+		Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere 
+		Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru 
+		Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+	}
+}	
+
+
+
 ijoid = {
 	ijo = {
 		primary = WRR

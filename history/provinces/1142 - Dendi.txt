@@ -1,7 +1,7 @@
 #1142 - Dendi
 owner = TMB
 controller = TMB
-culture = songhai
+culture = gurma
 is_city = yes
 base_manpower = 1
 religion = mauri_pagan

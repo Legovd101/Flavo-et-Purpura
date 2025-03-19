@@ -1,10 +1,9 @@
 #1139 - Gold Coast
 #Eastern part thereof, mostly Accra and Osu Castle
-owner = GAA
-controller = GAA
-add_core = GAA
+owner = OGU
+controller = OGU
 is_city = yes
-culture = ewe
+culture = bawule
 religion = dahomey_pagan#Fetishism
 capital = "Ga"
 trade_goods = unknown
@@ -17,3 +16,4 @@ native_hostileness = 9
 discovered_by = sub_saharan
 extra_cost = 8
 center_of_trade = 1
+add_core = OGU

@@ -2,7 +2,7 @@
 owner = TMB
 controller = TMB
 is_city = yes
-culture = dagomba
+culture = bariba
 religion = dahomey_pagan#Fetishism
 capital = "Bussa"
 base_tax = 1

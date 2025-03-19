@@ -1,0 +1,13 @@
+#Bol
+base_tax = 1
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Bol"
+is_city = yes
+add_core = KBO
+owner = KBO
+culture = bilala
+religion = chad_pagan
+controller = KBO
+discovered_by = sub_saharan

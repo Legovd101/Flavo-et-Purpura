@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = tribal_despotism
-primary_culture = mossi
-religion = soninke_pagan #Fetishism
+primary_culture = gurma
+religion = soninke_pagan#Fetishism
 technology_group = sub_saharan
 religious_school = twin_sect
 capital = 1136

@@ -1,0 +1,10 @@
+#Makeni
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Makeni"
+is_city = no
+culture = dyola
+religion = senegambian_pagan
+discovered_by = sub_saharan

@@ -2234,7 +2234,6 @@ eastern = {
 					adm_power_cost = 50
 				}
 				religion = confucianism
-				NOT = { piety = -0.5 }
 				if = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_confucian_school }
@@ -3793,6 +3792,7 @@ african = {
 					has_country_flag = can_always_invite_amma_sect
 					has_country_flag = privilege_can_always_invite_amma_sect
 				}
+				religion = soninke_pagan
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -3803,8 +3803,6 @@ african = {
 					}
 					adm_power_cost = 50
 				}
-				religion = soninke_pagan
-				NOT = { piety = -0.5 }
 				if = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_amma_sect }
@@ -3861,6 +3859,7 @@ african = {
 					has_country_flag = can_always_invite_sigui_sect
 					has_country_flag = privilege_can_always_invite_sigui_sect
 				}
+				religion = soninke_pagan
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -3871,7 +3870,6 @@ african = {
 					}
 					adm_power_cost = 50
 				}
-				religion = soninke_pagan
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -3934,6 +3932,7 @@ african = {
 					has_country_flag = can_always_invite_binou_sect
 					has_country_flag = privilege_can_always_invite_binou_sect
 				}
+				religion = soninke_pagan
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -3944,7 +3943,6 @@ african = {
 					}
 					adm_power_cost = 50
 				}
-				religion = soninke_pagan
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -4007,6 +4005,7 @@ african = {
 					has_country_flag = can_always_invite_lebe_sect
 					has_country_flag = privilege_can_always_invite_lebe_sect
 				}
+				religion = soninke_pagan
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4017,7 +4016,6 @@ african = {
 					}
 					adm_power_cost = 50
 				}
-				religion = soninke_pagan
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -4079,6 +4077,7 @@ african = {
 					has_country_flag = can_always_invite_twin_sect
 					has_country_flag = privilege_can_always_invite_twin_sect
 				}
+				religion = soninke_pagan
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4089,7 +4088,6 @@ african = {
 					}
 					adm_power_cost = 50
 				}
-				religion = soninke_pagan
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -4151,6 +4149,7 @@ african = {
 					has_country_flag = can_always_invite_mono_sect
 					has_country_flag = privilege_can_always_invite_mono_sect
 				}
+				religion = soninke_pagan
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4161,7 +4160,6 @@ african = {
 					}
 					adm_power_cost = 50
 				}
-				religion = soninke_pagan
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -4290,6 +4288,7 @@ african = {
 			tolerance_own = 2
 			diplomatic_reputation = 1
 		}
+		ancestors = yes
 
 		heretic = { XWETANU }
 	}
@@ -4379,7 +4378,7 @@ african = {
 	
 	}
 
-	mauri_pagan = {
+	mauri_pagan = { #Diimauri
 		color = { 4 228 210 }
 		icon = 35
 		country = {
@@ -4394,7 +4393,17 @@ african = {
 			diplomatic_reputation = 1
 		}
 
-		fetishist_cult = yes
+		
+		holy_sites = { 2475 1132 343 341 2984 }
+		
+		blessings = {
+			send_monks_to_establish_monasteries
+			encourage_warriors_of_the_faith
+			legitimize_government
+			promote_territorial_rights
+			will_of_the_martyrs
+		}
+
 		heretic = { PUNIC ATENIST }
 	}
 	
@@ -4639,8 +4648,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = sunni }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_mohist_school }
@@ -4712,8 +4720,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = sunni }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_nestorian_school }
@@ -4784,8 +4791,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = sunni }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_buddhist_school }
@@ -4856,8 +4862,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = sunni }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_daoist_school }
@@ -4929,8 +4934,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = shiite }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_legalist_school }
@@ -5004,8 +5008,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = shiite }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_diplomatic_school }
@@ -5076,8 +5079,7 @@ zoroastrian_group = {
 	# 					NOT = { religion = shiite }
 	# 					NOT = { religion = ibadi }
 	# 				}
-	# 				NOT = { piety = -0.5 }
-	# 			}
+	# 	# 			}
 	# 			if = {
 	# 				limit = {
 	# 					NOT = { has_country_flag = can_always_invite_zaidi_school }
