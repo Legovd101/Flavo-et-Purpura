@@ -1,3 +1,13 @@
+clear_current_pangool_effect = {
+	remove_country_modifier = mindis_effect
+	remove_country_modifier = njemeh_effect
+	remove_country_modifier = lungun_effect
+	remove_country_modifier = njoxona_effect
+	remove_country_modifier = ngolum_effect
+	remove_country_modifier = harwak_effect
+	clr_country_flag = @ROOT_has_pangool
+}
+
 set_country_varangian_flag_effect = {
 	set_country_flag = is_varangian_country_@ROOT
 }

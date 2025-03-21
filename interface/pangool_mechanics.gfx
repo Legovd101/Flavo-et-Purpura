@@ -1,0 +1,25 @@
+spriteTypes = {
+	#Pangool
+	spriteType = {
+        name = "GFX_open_pangool_menu_1"
+        textureFile = "gfx//interface/serer_pangool/open_pangool_menu.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_open_pangool_menu"
+        textureFile = "gfx//interface/serer_pangool/pangool_bg.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_base_eu4_button"
+        textureFile = "gfx//interface/base_eu4_button.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_question_button"
+        textureFile = "gfx//interface/question_button.dds"
+    }
+}	
+
+
+

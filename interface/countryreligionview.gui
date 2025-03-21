@@ -346,7 +346,6 @@ guiTypes = {
 			format = left
 			fixedsize = yes
 		}
-
 		iconType = {
 			name ="secondary_religion_banner"
 			spriteType = "GFX_secondary_religion_banner"
@@ -2639,6 +2638,264 @@ guiTypes = {
 				buttonText = "BACK"
 				buttonFont = "vic_18"
 			}
+		}
+
+		guiButtonType = {
+			name = "pangool_window"
+			scripted = yes
+			buttonText = " "
+			buttonFont = "vic_18"
+			position = { x = 30 y = 240 }
+			quadTextureSprite ="GFX_open_pangool_menu_1"    
+			Orientation = "UPPER_LEFT"
+		}
+		windowType = {
+			name = "pangool_window_open"
+			#position = { x=0 y=140 }
+			position = { x = 82 y = 235}
+			size = { x = 294 y = 583 }
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+
+			
+
+			iconType = {
+        	    name ="pangool_window_bg"
+        	    scripted = yes
+				quadTextureSprite = "GFX_open_pangool_menu"
+        	    position = { x = 0 y = 0 }
+        	    Orientation = "UPPER_LEFT"
+        	}
+			instantTextBoxType = {
+				name = "pangool_window_title"
+				position = { x = -210 y = 35 }
+				textureFile = ""
+				font = "vic_29s"
+				borderSize = {x = 4 y = 4}	
+				text = "Pangool"	
+				maxWidth = 583
+				maxHeight = 32
+				format = centre
+			}
+			instantTextBoxType = {
+				name = "pangool_header"
+				scripted = yes
+				position = { x = 25 y = 85 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "mindis_text"
+				scripted = yes
+				position = { x = 25 y = 150 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "njemeh_text"
+				scripted = yes
+				position = { x = 25 y = 208 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "lungun_text"
+				scripted = yes
+				position = { x = 25 y = 268 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "njoxona_text"
+				scripted = yes
+				position = { x = 25 y = 328 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "ngolum_text"
+				scripted = yes
+				position = { x = 25 y = 388 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "harwak_text"
+				scripted = yes
+				position = { x = 25 y = 448 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			guiButtonType = {
+				name = "select_mindis"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 140 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "select_njemeh"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 200 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "select_lungun"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 260 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "select_njoxona"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 320 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "select_ngolum"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 380 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "select_harwak"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 440 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "select_harwak"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 115 y = 440 }
+				quadTextureSprite = "GFX_base_eu4_button"    
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "pangool_effect_header"
+				scripted = yes
+				position = { x =175 y = 85 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "mindis_effect"
+				scripted = yes
+				position = { x = 175 y = 140 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "njemeh_effect"
+				scripted = yes
+				position = { x = 175 y = 198 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "lungun_effect"
+				scripted = yes
+				position = { x = 175 y = 258 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "njoxona_effect"
+				scripted = yes
+				position = { x = 175 y = 318 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "ngolum_effect"
+				scripted = yes
+				position = { x = 175 y = 378 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+			instantTextBoxType = {
+				name = "harwak_effect"
+				scripted = yes
+				position = { x = 175 y = 438 }
+				font = "vic_18"
+				maxWidth = 150
+				maxHeight = 18
+				Orientation = "UPPER_LEFT"
+				format = left
+				
+			}
+	
 		}
 	}
 	
