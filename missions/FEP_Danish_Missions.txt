@@ -208,7 +208,7 @@ DAN_1 = {
 				}
 			}
 			else = {
-			    add_adm = 100
+			    add_adm_power = 100
 			}
 		}
 	}
@@ -241,7 +241,6 @@ DAN_1 = {
 
 		effect = {
 			scandinavia_region = {
-		        type = all
 			    add_permanent_claim = ROOT
 			}
 			custom_tooltip = mission_space
@@ -261,8 +260,8 @@ DAN_1 = {
 			    		1 = { add_base_manpower = 2 }
 			    	}
 			    }
+				else = { add_prosperity = 25 }
 			}
-			else = { add_prosperity = 25 }
 		}
 	}
 }
@@ -296,7 +295,7 @@ DAN_2 = {
 			}
 		}
 		effect = {
-		    remove_estate_privilege = estate_burghers_anglish_nobility
+		    remove_estate_privilege = estate_nobles_anglish_nobility
 			SHL = {
 		        add_country_modifier = {
 		            name = jutish_support
@@ -692,11 +691,9 @@ new_branch = {
 		effect = {
 		    subarctic_islands_area = {
 			    add_permanent_claim = ROOT
-				type = all
 			}
 			greenland_area = {
 			    add_permanent_claim = ROOT
-				type = all
 			}
 			custom_tooltip = mission_space
 			add_navy_tradition = 20

@@ -303,11 +303,9 @@ SWE_3 = {
 				}
 			}
 			denmark_area = {
-			    type = all
 			    add_permanent_claim = ROOT
 			}
 			jutland_area = {
-			    type = all
 			    add_permanent_claim = ROOT
 			}
 		}
@@ -589,8 +587,8 @@ SWE_5 = {
 					}
 				}
 			}
-			novgorod_area = { add_permanent_claim = yes }
-			south_karelia_area = { add_permanent_claim = yes }
+			novgorod_area = { add_permanent_claim = ROOT }
+			karelia_area = { add_permanent_claim = ROOT }
 		}
 	}
 
@@ -623,7 +621,7 @@ SWE_5 = {
 						OR = {
 						    culture = finnish
 							culture = karelian
-							culture = sami
+							culture_group = saami
 						}
 						has_owner_accepted_culture = no
 						owner = {
@@ -641,7 +639,7 @@ SWE_5 = {
 						OR = {
 						    culture = finnish
 							culture = karelian
-							culture = sami
+							culture_group = saami
 						}
 						has_owner_accepted_culture = no
 						owner = {
@@ -672,7 +670,7 @@ SWE_5 = {
 				limit = {
 					region = scandinavia_region
 					OR = {
-					    culture = sami
+						culture_group = saami
 						culture = finnish
 						culture = karelian
 					}
