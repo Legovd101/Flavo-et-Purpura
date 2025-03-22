@@ -32,9 +32,54 @@ DAN_1 = {
 		}
 		
 		effect = {
-		    custom_tooltip = danish_norway_friendship_tt
-		    custom_tooltip = danish_norway_rival_tt
-			custom_tooltip = danish_norway_bypass_tt
+		    if = {
+			    limit = {
+			        NOR = {
+					    has_opinion = {
+			     	        who = ROOT
+			                value = 200
+					    }
+					}
+			    }
+				custom_tooltip = danish_norway_friendship_tt
+			}
+			else = { custom_tooltip = danish_norway_friendship_no_tt }
+			
+			if = {
+			    limit = {
+			        NOR = {
+					    has_been_insulted_by_root = yes
+					}
+					is_rival = NOR
+			    }
+				custom_tooltip = danish_norway_rival_tt
+			}
+			else = { custom_tooltip = danish_norway_rival_no_tt }
+            
+			if = {
+			    limit = {
+			        NOR = {
+					    exists = no
+						AND = {
+				            eastern_norway = {
+					        	type = all
+						    	owned_by = ROOT
+							}
+					        western_norway = {
+					        	type = all
+					    		owned_by = ROOT
+							}
+					    	northern_norway = {
+					        	type = all
+						    	owned_by = ROOT
+							}
+					    }
+					}
+			    }
+				custom_tooltip = danish_norway_bypass_tt
+			}
+			else = { custom_tooltip = danish_norway_bypass_no_tt }
+
 			tooltip = {
 			    add_country_modifier = {
 				    name = dano_norwegian_unity
@@ -52,7 +97,7 @@ DAN_1 = {
 				    add_casus_belli = {
 				        target = NOR
 				        type = cb_restore_personal_union
-						months = 300
+				        months = -1
 				    }
 			    }
 			    else_if = {
@@ -159,11 +204,11 @@ DAN_1 = {
 				add_casus_belli = {
 				    target = SWE
 				    type = cb_restore_personal_union
-					months = 300
+				    months = -1
 				}
 			}
 			else = {
-			    add_adm_power = 100
+			    add_adm = 100
 			}
 		}
 	}
@@ -196,8 +241,12 @@ DAN_1 = {
 
 		effect = {
 			scandinavia_region = {
+		        type = all
 			    add_permanent_claim = ROOT
 			}
+			custom_tooltip = mission_space
+			add_prestige = 25
+			custom_tooltip = mission_space
 			denmark_area = {
 			    random_list = {
 			    	1 = { add_base_tax = 2 }
@@ -212,8 +261,8 @@ DAN_1 = {
 			    		1 = { add_base_manpower = 2 }
 			    	}
 			    }
-				else = { add_prosperity = 25 }
 			}
+			else = { add_prosperity = 25 }
 		}
 	}
 }
@@ -247,10 +296,12 @@ DAN_2 = {
 			}
 		}
 		effect = {
-		    remove_estate_privilege = estate_nobles_anglish_nobility
-		    add_country_modifier = {
-		        name = jutish_support
-		        duration = 5475
+		    remove_estate_privilege = estate_burghers_anglish_nobility
+			SHL = {
+		        add_country_modifier = {
+		            name = jutish_support
+		            duration = 5475
+				}
 			}
 		}
 	}
@@ -317,7 +368,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    country_event = { id = fep_scandinavian_flavor.5 } #talk about restoring valdemars empire																																									
+		    country_event = { id = scandinavian_flavo.0 } #talk about restoring valdemars empire																																									
 		} 
 	}
 
@@ -392,7 +443,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    country_event = { id = fep_scandinavian_flavor.6 } #talk about restoring valdemars empire																																									
+		    country_event = { id = scandinavian_flavo.1 } #talk about restoring valdemars empire																																									
 		} 
 	}
 }
@@ -441,7 +492,9 @@ DAN_3 = {
 
 		effect = {
 		    override_country_name = DENMARK
+			custom_tooltip = mission_space
 			set_government_rank = 2
+			custom_tooltip = mission_space
 			add_country_modifier = {
 			    name = resurgent_denmark
 				duration = 9125
@@ -474,7 +527,15 @@ DAN_3 = {
 			}
 		}
 		effect = {
-		    custom_tooltip = danish_england_destroyed_tt
+		    if = {
+			    limit = { 
+				    ENG = { exists = no }
+				}
+				custom_tooltip = danish_england_destroyed_tt
+			}
+		    else = {
+			    custom_tooltip = danish_england_destroyed_no_tt
+			}
 			hidden_effect = {
 			    if = {
 				    limit = {
@@ -567,10 +628,12 @@ new_branch = {
 
 		effect = {
 		    remove_estate_privilege = estate_burghers_disloyal_magnates
-			add_country_modifier = {
-		        name = scanian_support
-		        duration = 5475
-		    }
+			SCN = {
+		        add_country_modifier = {
+		            name = scanian_support
+		            duration = 5475
+				}
+			}
 		}
 	}
 
@@ -629,10 +692,13 @@ new_branch = {
 		effect = {
 		    subarctic_islands_area = {
 			    add_permanent_claim = ROOT
+				type = all
 			}
 			greenland_area = {
 			    add_permanent_claim = ROOT
+				type = all
 			}
+			custom_tooltip = mission_space
 			add_navy_tradition = 20
 		}
 	}
@@ -685,6 +751,7 @@ new_branch = {
 				type = cb_vassalize_mission
 				target = EST
 			}
+			custom_tooltip = mission_space
 			add_mercantilism = 5
 		}
 	}
@@ -718,14 +785,35 @@ new_branch = {
 			karelia_area = {
 			    add_permanent_claim = ROOT
 			}
+			
+			custom_tooltip=mission_space
+			
 			if = {
 			    limit = {
 				    EST = { is_subject_of = ROOT }
 				}
-				EST = {
-				    override_country_name = ESTLAND
+				custom_tooltip = danish_estonia_tt
+			}
+			else = { custom_tooltip = danish_estonia_no_tt }
+			tooltip = {
+			    add_country_modifier = {
+				    name = danish_estonian_overlord
+			        duration = 9125
 				}
-				
+			}
+			hidden_effect = {
+			    if = {
+			        limit = {
+				        EST = { is_subject_of = ROOT }
+				    }
+				    EST = {
+				        override_country_name = ESTLAND
+				    }
+					add_country_modifier = {
+					    name = danish_estonian_overlord
+						duration = 9125
+					}
+				}
 			}
 		}
 	}

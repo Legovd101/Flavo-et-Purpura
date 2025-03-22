@@ -1,7 +1,10 @@
 custom_button = {
     name = pangool_window #Must match a scripted guiButtonType in a .gui file
    	potential = {
-		religion = senegambian_pagan
+		OR = {
+			religion = senegambian_pagan
+			has_global_flag = serer_reformed
+		}
 	}
     trigger = {
 

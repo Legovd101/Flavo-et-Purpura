@@ -2669,7 +2669,7 @@ guiTypes = {
         	}
 			instantTextBoxType = {
 				name = "pangool_window_title"
-				position = { x = -210 y = 35 }
+				position = { x = -180 y = 35 }
 				textureFile = ""
 				font = "vic_29s"
 				borderSize = {x = 4 y = 4}	
@@ -2832,7 +2832,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "mindis_effect"
 				scripted = yes
-				position = { x = 175 y = 140 }
+				position = { x = 175 y = 150 }
 				font = "vic_18"
 				maxWidth = 150
 				maxHeight = 18
@@ -2843,7 +2843,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "njemeh_effect"
 				scripted = yes
-				position = { x = 175 y = 198 }
+				position = { x = 175 y = 208 }
 				font = "vic_18"
 				maxWidth = 150
 				maxHeight = 18
@@ -2854,7 +2854,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "lungun_effect"
 				scripted = yes
-				position = { x = 175 y = 258 }
+				position = { x = 175 y = 268 }
 				font = "vic_18"
 				maxWidth = 150
 				maxHeight = 18
@@ -2865,7 +2865,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "njoxona_effect"
 				scripted = yes
-				position = { x = 175 y = 318 }
+				position = { x = 175 y = 328 }
 				font = "vic_18"
 				maxWidth = 150
 				maxHeight = 18
@@ -2876,7 +2876,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ngolum_effect"
 				scripted = yes
-				position = { x = 175 y = 378 }
+				position = { x = 175 y = 388 }
 				font = "vic_18"
 				maxWidth = 150
 				maxHeight = 18
@@ -2887,7 +2887,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "harwak_effect"
 				scripted = yes
-				position = { x = 175 y = 438 }
+				position = { x = 175 y = 448 }
 				font = "vic_18"
 				maxWidth = 150
 				maxHeight = 18

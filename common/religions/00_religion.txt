@@ -3792,7 +3792,10 @@ african = {
 					has_country_flag = can_always_invite_amma_sect
 					has_country_flag = privilege_can_always_invite_amma_sect
 				}
-				religion = soninke_pagan
+				OR = {
+					religion = soninke_pagan
+					has_global_flag = mande_reformed
+				}
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -3859,7 +3862,10 @@ african = {
 					has_country_flag = can_always_invite_sigui_sect
 					has_country_flag = privilege_can_always_invite_sigui_sect
 				}
-				religion = soninke_pagan
+				OR = {
+					religion = soninke_pagan
+					has_global_flag = mande_reformed
+				}
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -3932,7 +3938,10 @@ african = {
 					has_country_flag = can_always_invite_binou_sect
 					has_country_flag = privilege_can_always_invite_binou_sect
 				}
-				religion = soninke_pagan
+				OR = {
+					religion = soninke_pagan
+					has_global_flag = mande_reformed
+				}
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4005,7 +4014,10 @@ african = {
 					has_country_flag = can_always_invite_lebe_sect
 					has_country_flag = privilege_can_always_invite_lebe_sect
 				}
-				religion = soninke_pagan
+				OR = {
+					religion = soninke_pagan
+					has_global_flag = mande_reformed
+				}
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4077,7 +4089,10 @@ african = {
 					has_country_flag = can_always_invite_twin_sect
 					has_country_flag = privilege_can_always_invite_twin_sect
 				}
-				religion = soninke_pagan
+				OR = {
+					religion = soninke_pagan
+					has_global_flag = mande_reformed
+				}
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4149,7 +4164,10 @@ african = {
 					has_country_flag = can_always_invite_mono_sect
 					has_country_flag = privilege_can_always_invite_mono_sect
 				}
-				religion = soninke_pagan
+				OR = {
+					religion = soninke_pagan
+					has_global_flag = mande_reformed
+				}
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that sect
@@ -4238,6 +4256,24 @@ african = {
 		heretic = { GOAT_SKULL }
 	}
 
+	west_african_reformed = {
+		color = { 178 190 181 }
+		icon = 49
+		country = {
+			tolerance_heathen = -2
+			global_heathen_missionary_strength = 0.05
+		}
+		province = {
+			local_missionary_strength = -0.05
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
+
 	senegambian_pagan = { #Afat Roog
 		color = { 135 32 33 }
 		icon = 46
@@ -4308,7 +4344,6 @@ african = {
 			diplomatic_reputation = 1
 		}
 
-		fetishist_cult = yes
 		heretic = { ULTRACHAD }
 	}
 	

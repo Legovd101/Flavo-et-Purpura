@@ -57,3 +57,27 @@ on_mercenary_recruited = {
 		}
 	}
 }
+
+on_province_owner_change = {
+	if = {
+		limit = {
+			ROOT = {
+				owner = {
+					any_subject_country = {
+						is_subject_of_type = european_colony
+						capital_scope = { region = ROOT }
+					}
+				}
+			}
+		}
+		random_subject_country = {
+			limit = {
+				is_subject_of_type = european_colony
+				capital_scope = {
+					region = ROOT
+				}
+			}
+			ROOT = { cede_province = PREV }
+		}
+	}
+}

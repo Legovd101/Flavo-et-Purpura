@@ -250,6 +250,17 @@
  dahomey_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  dahomey_pagan_rebels_army: "$RELIGION$ Army"
 
+ #Vodun
+ west_african_reformed: "Vodun"
+ west_african_reformed_religion_desc: "Thanks to the efforts of the ruling class, the various faiths of west africa have united under one canon."
+ XWETANU: "Xwetanu"
+ west_african_reformed_rebels_demand: "Convert $COUNTRYNAME$"
+ west_african_reformed_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ west_african_reformed_rebels_title: "Religious"
+ west_african_reformed_rebels_name: "$RELIGION$ Zealots"
+ west_african_reformed_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ west_african_reformed_rebels_army: "$RELIGION$ Army"
+
  # Deities/Icons
  # Finnic 
  ukko: "Ukko"

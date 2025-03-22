@@ -1,10 +1,10 @@
 clear_current_pangool_effect = {
-	remove_country_modifier = mindis_effect
-	remove_country_modifier = njemeh_effect
-	remove_country_modifier = lungun_effect
-	remove_country_modifier = njoxona_effect
-	remove_country_modifier = ngolum_effect
-	remove_country_modifier = harwak_effect
+	remove_country_modifier = mindis_modi
+	remove_country_modifier = njemeh_modi
+	remove_country_modifier = lungun_modi
+	remove_country_modifier = njoxona_modi
+	remove_country_modifier = ngolum_modi
+	remove_country_modifier = harwak_modi
 	clr_country_flag = @ROOT_has_pangool
 }
 

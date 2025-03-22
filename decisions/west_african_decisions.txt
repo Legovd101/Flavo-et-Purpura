@@ -1,0 +1,175 @@
+country_decisions = {
+	canonize_vodun = {
+		major = yes
+		potential = {
+			OR = {
+				religion = soninke_pagan
+				religion = senegambian_pagan
+				religion = dahomey_pagan
+				religion = chad_pagan
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1116   #Wolof
+				province_id = 1140 #Dahomey
+				province_id = 1132  #Timbuktu
+				province_id = 1137  #Wagadugu
+				province_id = 2286   #Logone
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+
+		allow = {
+			government_rank = 2
+			stability = 2
+			1116 = {
+				owner = {
+					OR = {
+						tag = ROOT
+						alliance_with = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+				}
+			}
+			1140 = {
+				owner = {
+					OR = {
+						tag = ROOT
+						alliance_with = ROOT
+						has_opinion = {
+							who = ROOT
+							amount = 150
+						}
+					}
+				}
+			}
+			1132 = {
+				owner = {
+					OR = {
+						tag = ROOT
+						alliance_with = ROOT
+						has_opinion = {
+							who = ROOT
+							amount = 150
+						}
+					}
+				}
+			}
+			1137 = {
+				owner = {
+					OR = {
+						tag = ROOT
+						alliance_with = ROOT
+						has_opinion = {
+							who = ROOT
+							amount = 150
+						}
+					}
+				}
+			}
+			2286 = {
+				owner = {
+					OR = {
+						tag = ROOT
+						alliance_with = ROOT
+						has_opinion = {
+							who = ROOT
+							amount = 150
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					religion = senegambian_pagan
+				}
+				set_global_flag = serer_reformed
+			}
+			if = {
+				limit = {
+					religion = soninke_pagan
+				}
+				set_global_flag = mande_reformed
+			}
+			hidden_effect = {
+				set_global_flag = west_african_reformed
+				every_country = {
+					limit = {
+						OR = {
+							religion = soninke_pagan
+							religion = senegambian_pagan
+							religion = dahomey_pagan
+							religion = chad_pagan
+						}
+					}
+					country_event = { id = fep_west_african_flavor.4 }
+				}
+			}
+
+			add_prestige = 100
+			change_religion = west_african_reformed
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+			capital_scope = {
+				area = {
+					limit = {
+						religion_group = african
+						NOT = {
+							religion = vandal_syncretism
+							religion = mauri_pagan
+							religion = yoruba_pagan
+						}
+						owned_by = ROOT
+					}
+					change_religion = west_african_reformed
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					religion_group = african
+				}
+				random_list = {
+					90 = {
+						change_religion = west_african_reformed
+					}
+					10 = {
+						add_province_modifier = {
+							name = "heresy"
+							duration = 3650
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = {
+					owns_core_province = 1116   #Wolof
+					owns_core_province = 1140 #Dahomey
+					owns_core_province = 1132  #Timbuktu
+					owns_core_province = 1137  #Wagadugu
+					owns_core_province = 2286   #Logone
+				}
+				factor = 0
+			}
+		}
+	}
+}
