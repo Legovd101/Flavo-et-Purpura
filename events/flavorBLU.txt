@@ -326,6 +326,7 @@ country_event = {
 						area = thrace_area
 						area = bulgaria_area
 						area = silistria_area
+						area = strymon_area
 					}
 					owned_by = ROOT
 				}
@@ -337,6 +338,9 @@ country_event = {
 				}
 			}
 			change_tag = RML
+			change_primary_culture = romylian
+			set_ruler_culture = romylian
+			set_heir_culture = romylian
 			every_subject_country = {
 				limit = {
 					NOT = { tag = GRE}
