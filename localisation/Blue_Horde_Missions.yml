@@ -1,49 +1,30 @@
 l_english:
-
- #---------------------------------------------------------
- # Blu 3
- #---------------------------------------------------------
-
- clergy_trust_title: "Clergy Trust"
- clergy_trust_desc: ""
- faith_of_people_title: "Faith Of People"
- faith_of_people_desc: ""
- expanding_yoke_title: "Expanding Yoke"
- expanding_yoke_desc: ""
- maramar_domination_title: "Maramar Domination"
- maramar_domination_desc: ""
-
- #---------------------------------------------------------
- # Blu 1
- #---------------------------------------------------------
-
- our_new_home_title: "Our New Home"
- our_new_home_desc: ""
- placating_naysayers_title: "Placating Naysayers"
- placating_naysayers_desc: ""
- accommodating_subjects_title: "Accommodating Subjects"
- accommodating_subjects_desc: ""
- integrating_slavs_title: "Integrating Slavs"
- integrating_slavs_desc: ""
- carpathian_border_title: "Carpathian Border"
- carpathian_border_desc: ""
-
- #---------------------------------------------------------
- # Blu 2
- #---------------------------------------------------------
-
- soothe_separatists_title: "Soothe Separatists"
- soothe_separatists_desc: ""
- reining_in_subjects_title: "Reining In Subjects"
- reining_in_subjects_desc: ""
- reuniting_rhomans_title: "Reuniting Rhomans"
- reuniting_rhomans_desc: ""
- slavic_frontier_title: "Slavic Frontier"
- slavic_frontier_desc: ""
-
- #---------------------------------------------------------
- # Blu 4
- #---------------------------------------------------------
-
- restoring_hegemony_title: "Restoring Hegemony"
- restoring_hegemony_desc: ""
+ blu_enable_the_varangians:0 "Enable '§JVarangian§!' mercenaries, whose hiring will cost no §YArmy Professionalism§!."
+ blu_integrate_slavs_title:0 "Integrate the Slavs"
+ blu_integrate_slavs_desc:0 "We should work to integrate the Slavic tribes in the Haemus. These hardy, mountainous people will make good soldiers."
+ blu_rein_in_title:0 "Reaffirm the Yoke"
+ blu_rein_in_desc:0 "In recent decades our tributaries have shown worrying signs of independence. They believe we are incapable of defending them and have been shirking their dues. For now, let us use diplomacy to reaffirm their oaths of loyalty."
+ blu_build_army_title:0 "Restore our Army"
+ blu_build_army_desc:0 "If we wish to restart our conquests, then we must first rebuild our depleted armies."
+ blu_end_pretenders_title:0 "End the Roman Pretenders"
+ blu_end_pretenders_desc:0 "When Ogedei Khan took the City of the Caesars, not all remnants of the Roman regime were ended. A large mass of exiles escaped to Anatolia and founded a state in exile there. They've proved a thorn in our side for too long. Time to put them to the sword!"
+ blu_anatolia_title:0 "Anatolian Autocrats"
+ blu_anatolia_desc:0 "With the Roman pretenders gone, there is no one to stop us now from ending the petty Anatolian kingdoms and establishing our rule."
+ blu_rhom_title:0 "The Rhomaioi"
+ blu_rhom_desc:0 "Now with the last Roman remnants gone, let us integrate these proud, industrious people into our state and claim their legacy."
+ blu_varangoi_title:0 "Claim the Varangians"
+ blu_varangoi_desc:0 When the Roman empire fell, remnants of their powerful Varangian Guard and escaped the city and fought their way into control of strategic cities in Greece. Let us show these warriors that they are better off serving us than remaining independent."
+ blu_tame_greece_title:0 "Tame Greece"
+ blu_tame_greece_desc:0 "For too long Greece has stayed out of our grasp. It has remained divided between a bunch of native and western states and trading republics. The time is right for us to sweep in and plant our flag in the Morea."
+ blu_naval_title:0 "Mongol Aegean"
+ blu_naval_desc:0 "We Mongols were never a seafaring people. Perhaps this is why we have not been able to conquer the islands of the Aegean since the time of Ogedei. These islands are a threat to our trade and a source of piracy. What better way to prove our newfound strength than to finally take them?"
+ blu_balkans_title:0 "Haemic Hegemons"
+ blu_balkans_desc:0 "The last independent states in the Haemus are the Latin trading cities and the Dalmatians. With their conquest, we can establish absolute authority over this peninsula."
+ blu_basiliousa_title:0 "Queen of Cities"
+ blu_basiliousa_desc:0 "Of old the City was called the Basiliousa, Queen of Cities. But this city we control does not exactly match up to those descriptions. It's time to change that and restore the New Rome to it's old glory."
+ blu_establish_church_title:0 "Establish Clerical Authority"
+ blu_establish_church_desc:0 "Our conversion to Christianity is fairly recent and many still doubt our conviction. We must assuage the fears of the Holy Church and embrace orthodox ways."
+ blu_singular_faith_title:0 "One True Faith"
+ blu_singular_faith_desc:0 "Before we had embraced God's light, many of our people had been followers of the sinner Mani. Now that we have seen the light, we can only look askance at those among us who continue to follow the Gnostic ways. Let us stamp down on their pagan ways and enforce the one true faith on all."
+ blu_choose_path_title:0 "Now What?"
+ blu_choose_path_desc:0 "With the end of our woes, we are free to choose our new path. Will we hold on to the old ways, or will we give birth to a new civilization?"

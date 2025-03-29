@@ -1,180 +1,485 @@
-# BLU_1 = {
-# 	slot = 1
-# 	generic = no
-# 	ai = yes
-# 	potential = {
-# 		tag = BLU
-# 	}
+blu_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = BLU
+	}
+	has_country_shield = yes
 
-# 	our_new_home = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 1
-# 		required_missions = {  }
-# 		provinces_to_highlight = {
-# 			province_id = 151
-# 		}
-# 		trigger = {
-# 			151 = {
-# 				num_of_times_improved = 6
-# 			}
-# 		}
-# 		effect = {}
-# 	}
-# 	placating_naysayers = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 2
-# 		required_missions = { our_new_home soothe_separatists }
-# 		trigger = {
-# 			all_subject_country = {
-# 				num_of_owned_provinces_with = {
-# 					value = 2 # how many provinces should have the necessary building / buildings
-# 					OR = { # which buildings should be counted towards this total?
-# 						has_building = temple
-# 						num_of_times_improved = 5
-# 					}
-# 				}
-# 			}
-# 		}
-# 		effect = {}
-# 	}
-# 	accommodating_subjects = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 4
-# 		required_missions = { placating_naysayers }
-# 		trigger = {
-# 			all_owned_province = {
-# 				OR = {
-# 					NOT = { culture_group = hellenic }
-# 					num_of_times_improved = 1
-# 					num_of_buildings_in_province = 1
-# 				}
-# 			}
-# 		}
-# 		effect = {}
-# 	}
-# 	integrating_slavs = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 5
-# 		required_missions = { accommodating_subjects }
-# 		trigger = {
-# 			calc_true_if = {
-# 				amount = 2
-# 				OR = {
-# 					accepted_culture = croatian
-# 					accepted_culture = serbian
-# 					accepted_culture = bosnian
-# 					accepted_culture = dalmatian
-# 					accepted_culture = albanian
-# 					accepted_culture = slovak
-# 				}
-# 			}
-# 		}
-# 		effect = {}
-# 	}
-# 	carpathian_border = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 7
-# 		required_missions = { slavic_frontier }
-# 		trigger = {
-# 			carpathia_region = {
-# 				type = all
-# 				country_or_subject_holds = ROOT
-# 			}
-# 		}
-# 		effect = {}
-# 	}
-# }
+	blu_integrate_slavs = {
+		icon = promote_the_patriarchate
+		required_missions = { blu_build_army }
+		position = 2
+		trigger = {
+ 			calc_true_if = {
+ 				amount = 2
+ 				OR = {
+ 					accepted_culture = croatian
+ 					accepted_culture = serbian
+ 					accepted_culture = bosnian
+ 					accepted_culture = dalmatian
+ 					accepted_culture = albanian
+ 					accepted_culture = slovak
+ 				}
+ 			}
+ 		}
+		effect = {
+			add_government_power = {
+				mechanic_type = mongol_yoke
+				power_type = stranglehold
+				value = 10
+			}
+			every_country = {
+                limit = {
+                    NOT = { tag = ROOT }
+                    culture_group = south_slavic
+                }
+                ROOT = { inherit = PREV }
+            }
+		}
+	}
 
-# BLU_2 = {
-# 	slot = 2
-# 	generic = no
-# 	ai = yes
-# 	potential = {
-# 		tag = BLU
-# 	}
+	blu_rein_in = {
+		icon = mission_kowtow
+		required_missions = { blu_integrate_slavs }
+		position = 3
+		provinces_to_highlight = {
+			is_capital = yes
+			owner = {
+				is_subject_of = ROOT
+			}
+			OR = {
+				owner = { liberty_desire = 40 }
+				owner = {
+					NOT = {
+						has_opinion = {
+							who = ROOT
+							value = 80
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			all_subject_country = {
+				NOT = { liberty_desire = 40 }
+			}
+			all_subject_country = {
+				has_opinion = {
+					who = ROOT
+					value = 125
+				}
+			}
+		}
+		effect = {
+			add_government_power = {
+				mechanic_type = mongol_yoke
+				power_type = stranglehold
+				value = 10
+			}
+			if = { 
+				limit = {  
+					NOT = { num_of_ruler_traits = { amount = 3 } }
+				} 
+				add_ruler_personality = benevolent_personality
+			}
+		}
+	}
+}
 
-# 	soothe_separatists = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 1
-# 		required_missions = {  }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# 	reining_in_subjects = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 3
-# 		required_missions = { clergy_trust }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# 	reuniting_rhomans = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 5
-# 		required_missions = { accommodating_subjects expanding_yoke }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# 	slavic_frontier = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 6
-# 		required_missions = { integrating_slavs reuniting_rhomans }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# }
+blu_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = BLU
+	}
+	has_country_shield = yes
 
-# BLU_3 = {
-# 	slot = 3
-# 	generic = no
-# 	ai = yes
-# 	potential = {
-# 		tag = BLU
-# 	}
+	blu_build_army = { 
+		icon = mission_the_varangians
+		required_missions = {  }
+		position = 1
+		trigger = {
+			army_size_percentage = 1 
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			hudavendigar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
 
-# 	clergy_trust = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 2
-# 		required_missions = {  }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# 	faith_of_people = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 3
-# 		required_missions = { clergy_trust }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# 	expanding_yoke = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 4
-# 		required_missions = { faith_of_people }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# 	maramar_domination = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 6
-# 		required_missions = { expanding_yoke }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# }
+	blu_end_pretenders = {
+		icon = mission_unite_home_region
+		required_missions = { blu_build_army }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = aydin_area
+				area = hudavendigar_area
+				area = germiyan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			aydin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hudavendigar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			germiyan_area = {
+			    type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			anatolia_region = { 
+			    add_permanent_claim = ROOT 
+			} 
+		}
+	}
 
-# BLU_4 = {
-# 	slot = 4
-# 	generic = no
-# 	ai = yes
-# 	potential = {
-# 		tag = BLU
-# 	}
+	blu_anatolia = {
+		icon = unite_the_realm
+		position = 5
+		required_missions = { blu_end_pretenders }
+		provinces_to_highlight = {
+			region = anatolia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = anatolia_region
+				value = 35
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "hegemonic_ambition"
+				duration = 9125 #25 years
+			}
+			add_country_modifier = {
+				name = blu_eastern_flank
+				duration = -1
+			}
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+		}
+	}
 
-# 	restoring_hegemony = {
-# 		icon = mission_build_up_to_force_limit
-# 		position = 5
-# 		required_missions = { expanding_yoke }
-# 		trigger = {}
-# 		effect = {}
-# 	}
-# }
+}
 
+blu_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BLU
+	}
+	has_country_shield = yes
+
+	blu_rhom = {
+		icon = mission_into_persia_2
+		required_missions = { blu_end_pretenders blu_tame_greece }
+		position = 4
+		trigger = {
+			accepted_culture = rhoman
+		}
+		effect = {
+		    146 = {
+			    add_or_upgrade_tax_building = yes
+			}
+			148 = {
+			    add_or_upgrade_trade_building = yes
+			}
+            317 = {
+			    add_or_upgrade_shipyard_building = yes
+			}
+			318 = {
+			    add_or_upgrade_production_building = yes
+			}
+		}
+	}
+}
+
+blu_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = BLU
+	}
+	has_country_shield = yes
+
+	blu_varangoi = {
+		icon = mission_the_varangians
+		required_missions = { blu_build_army }
+		position = 2
+		trigger = {
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			custom_tooltip = blu_enable_the_varangians
+			add_country_modifier = {
+				name = blu_elite_forces
+				duration = 7300 
+			}
+			add_stability_or_adm_power = yes
+		}
+	}
+
+	blu_tame_greece = {
+		icon = mission_spoils_of_war
+		required_missions = { blu_varangoi }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = morea_area
+				area = peloponnese_area
+				area = central_greece
+				area = northern_greece_area
+				area = albania_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			peloponnese_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_greece = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			albania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_years_of_income = 0.5
+			add_yearly_manpower = 0.5
+			give_claims = { area = ionian_islands_area }
+			give_claims = { area = cyprus_area }
+			give_claims = { area = aegean_archipelago_area }
+			give_claims = { area = crete_area }
+		}
+	}
+
+	blu_naval = {
+		icon = overshadow_venice
+		required_missions = { blu_tame_greece }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = ionian_islands_area
+				area = cyprus_area
+				area = aegean_archipelago_area
+				area = crete_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			ionian_islands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cyprus_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aegean_archipelago_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			crete_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_navy_tradition = 20
+			set_country_flag = can_accept_tactica
+		}
+	}
+	
+	blu_balkans = {
+	    icon = secure_the_sava
+		required_missions = { blu_naval }
+		position = 5
+		provinces_to_highlight = {
+			region = balkan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			balkan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "hegemonic_ambition"
+				duration = 9125 #25 years
+			}
+			add_country_modifier = {
+				name = blu_western_flank
+				duration = -1
+			}
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+		}
+	}
+}
+
+blu_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = BLU
+	}
+	has_country_shield = yes
+
+	blu_basiliousa = {
+		icon = mission_renovate_kannauj
+		required_missions = {  }
+		position = 1
+		trigger = {
+			OR = { 
+				151 = {
+				    num_of_times_improved = 6
+			    }
+				grown_by_development = 35
+			}
+		}
+		effect = {
+			capital_scope = {
+				area = {
+					limit = { country_or_non_sovereign_subject_holds = ROOT }
+					add_province_modifier = {
+						name = "growth_of_capital"
+						duration = 9125 #25 years
+					}
+				}
+			}
+		}
+	}
+
+	blu_establish_church = {
+		icon = expand_the_confederacy
+		required_missions = { blu_basiliousa }
+		position = 2
+		trigger = {
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+			}
+			patriarch_authority = 0.20
+		}
+		effect = {
+			define_advisor = {
+				type = theologian
+				skill = 3
+				culture = ROOT
+				religion = ROOT
+				cost_multiplier = 0.4
+			}			
+		}
+	}
+
+	blu_singular_faith = {
+		icon = mission_hands_praying
+		required_missions = { blu_establish_church }
+		position = 3
+		trigger = {
+			calc_true_if = {
+			    num_of_religion = {
+	                religion = manichaean
+	                value = 0
+                }
+		    }
+		}
+		effect = {
+			add_country_modifier = {	
+				name = converter_blu
+				duration = 7300
+		    }
+			add_government_power = {
+				mechanic_type = mongol_yoke
+				power_type = stranglehold
+				value = 10
+			}
+		}
+	}
+
+	blu_choose_path = {
+		icon = mng_form_depots
+		required_missions = { blu_singular_faith blu_anatolia blu_balkans }
+		position = 6
+		trigger = { 
+			legitimacy = 100
+			stability = 3
+			has_government_power = {
+				mechanic_type = mongol_yoke
+				power_type = stranglehold
+				value = 100
+		    }
+		}
+		effect = {
+			country_event = {
+				id = flavor_blu.6
+			}
+		}
+	}
+}
