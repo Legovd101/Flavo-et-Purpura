@@ -55,6 +55,30 @@
 5121 = {"Swanti" "Swanti"}
 
 # Azerbaijan
-2199 = {"Krim" "Krim"}
-4305 = {"Panagoria" "Panagoria"}
-4299 = {"Koban" "Koban"}
+2199 = {"Tarek" "Tarek"}
+4305 = {"Shki" "Shki"}
+4299 = {"Shamki" "Shamki"}
+
+# Bactria
+453 = {"Karshi" "Karshi"}
+
+# Mumbai
+529 = {"Tana" "Tana"}
+
+# Deccan
+535 = {"Cochi" "Cochi"}
+
+# Sri Lanka
+4409 = {"Trinkomali" "Trinkomali"}
+
+# Andhra
+543 = {"Banda" "Banda"}
+
+# Burma
+2041 = {"Manipor" "Manipor"}
+
+# South China
+684 = {"Hango" "Hango"}
+
+# North China
+688 = {"Qayfeng" "Qayfeng"}

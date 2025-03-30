@@ -36,11 +36,13 @@ country_event = {
 	
 	trigger = {
 		tag = BRY
+		NOT = { has_country_flag = BRY_monarch_chosen }
 	}
 
 	
 	immediate = {
 		hidden_effect = {
+			set_country_flag = BRY_monarch_chosen
 			# define_ruler = {
 			# 	adm = 0
 			# 	mil = 0
@@ -283,6 +285,7 @@ country_event = {
 					}
 				}
 			}
+			clr_country_flag = BRY_monarch_chosen
 		}
 	}
 }

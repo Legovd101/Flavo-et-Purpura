@@ -232,40 +232,117 @@ SPA_far_east = {
 
 		trigger = { has_discovered = 1111 } 
 
-		effect = {  } 
+		effect = {
+			if = {
+				limit = { 1111 = { is_empty = yes } }
+				1111 = { add_colonysize = 100 }
+			}
+			else = {
+				1111 = { add_permanent_claim = ROOT }
+			}
+			guinea_region = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	SPA_gorillai_of_libya = {
 		icon = mission_mustansiriya_madrasah
 		position = 6
 		required_missions = { SPA_cape_of_kerne } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { region = guinea_region } 
 
-		trigger = {  } 
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 7
+				region = guinea_region
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			every_owned_province = {
+				limit = {
+					region = guinea_region
+				}
+				upgrade_production_building = yes
+			}
+		} 
 	}
 
 	SPA_libya_meridonalis = {
 		icon = mission_south_indian_trade
 		position = 7
 		required_missions = { SPA_gorillai_of_libya } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { province_id = 1177 } 
 
-		trigger = {  } 
+		trigger = { has_discovered = 1177 } 
 
-		effect = {  } 
+		effect = {
+			if = {
+				limit = { 1177 = { is_empty = yes } }
+				1177 = { add_colonysize = 100 }
+			}
+			else = {
+				1177 = { add_permanent_claim = ROOT }
+			}
+			central_swahili_coast_area = {
+				add_permanent_claim = ROOT
+			}
+			sakalava_area = {
+				add_permanent_claim = ROOT
+			}
+			betsimasaraka_area = {
+				add_permanent_claim = ROOT
+			}
+			madagascar_highlands_area = {
+				add_permanent_claim = ROOT
+			}
+			southern_madagascar = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	SPA_port_of_santhibara = {
 		icon = mission_zanzibari_trade
 		position = 9
 		required_missions = { SPA_libya_meridonalis } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				area = sakalava_area
+				area = betsimasaraka_area
+				area = madagascar_highlands_area
+				area = southern_madagascar
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {
+			sakalava_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			betsimasaraka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			madagascar_highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			southern_madagascar = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			south_lanka_area = {
+				add_permanent_claim = ROOT
+			}
+			lanka_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	SPA_taprobanan_expedition = {
@@ -275,7 +352,12 @@ SPA_far_east = {
 			SPA_port_of_santhibara
 			SPA_a_global_age
 		}
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				area = south_lanka_area
+				area = lanka_area
+			}
+		} 
 
 		trigger = {  } 
 

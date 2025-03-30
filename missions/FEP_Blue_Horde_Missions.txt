@@ -32,6 +32,7 @@ blu_missions_1 = {
                 limit = {
                     NOT = { tag = ROOT }
                     culture_group = south_slavic
+					is_subject_of = ROOT
                 }
                 ROOT = { inherit = PREV }
             }

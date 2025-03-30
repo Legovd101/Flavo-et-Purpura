@@ -16,4 +16,5 @@ discovered_by = north_american
 discovered_by = high_american
 owner = MIK
 controller = MIK
-add_core = MIKis_city = no
+add_core = MIK
+is_city = yes
