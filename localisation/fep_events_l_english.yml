@@ -23,6 +23,10 @@
  flavor_blu.5.d: "In spite of our best efforts, the Blue Horde is neither as strong nor as unified as it has been. Various relatives and generals of the Khan have arisen, seeking to carve out realms of their own in a vain attempt at mimicking Ogedei's great legacy. Whether the Mongols will remain a power in eastern Europe has yet to be seen, but this moment will surely prove a turning point in history."
  flavor_blu.5.a: "We stray further from righteousness every day..."
  flavor_blu.5.a.tt: "Ogedei's Empire will split into @RML Romylia, @MQD Maqedonia, @ILY Lirya, @PMN Pammongrii, and @DKA Dakya."
+ flavor_blu.6.t: "The Future of the Blue Horde"
+ flavor_blu.6.d: "It has been a long, tiresome journey. But at last, the Horde has beaten off all challengers and maintained the yoke. As [Root.Monarch.GetName] [Root.Monarch.GetTitle] sits on his throne, his courtiers come to him regarding the new direction of the realm. Will he fully embrace the dream of Rome? Or shall he stay true to the legacy of Genghis Khan above all?"
+ flavor_blu.6.a: "Restore the oikoumene! We are Rome reborn!"
+ flavor_blu.6.b: "From Qaraqorum to [151.GetName], the Ulus shall stretch once more!"
  ogedei_legacy: "Ogedei's Legacy"
  kaidu_death: "Kaidu's Death"
 
