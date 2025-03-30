@@ -2927,15 +2927,15 @@ dharmic = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
-	hinduism = {
+	hinduism = { # smarta
 		color = { 0 204 204 }
 		icon = 8
 		allowed_conversion = {
 			sikhism
 		}
 		country = {
-			tolerance_heathen = 1
-			tolerance_own = 1
+			tolerance_heretic = 3
+			yearly_corruption = -0.1 
 			brahmins_hindu_influence_modifier = 0.2
 		}
 		country_as_secondary = {
@@ -2944,6 +2944,7 @@ dharmic = {
 		}
 		
 		personal_deity = yes
+		misguided_heretic = yes
 		
 		on_convert = {
 			change_religion = hinduism
@@ -2955,7 +2956,120 @@ dharmic = {
 			}
 		}
 		
-		heretic = { BHAKTI }
+		heretic = { NASTIKA }
+	}
+	
+	shaivism = {
+		color = { 0 185 135 }
+		icon = 53
+		allowed_conversion = {
+			sikhism
+		}
+		country = {
+			tolerance_heretic = 2
+			ship_durability = 0.05
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = 2
+		}
+		
+		personal_deity = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = shaivism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { NASTIKA }
+	}
+	
+	shaktism = {
+		color = { 195 41 0 }
+		icon = 51
+		allowed_conversion = {
+			sikhism
+		}
+		country = {
+			shock_damage = 0.05
+			tolerance_heretic = 2
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = 2
+		}
+		
+		personal_deity = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = shaktism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { NASTIKA }
+	}
+	
+	vaishnavism = {
+		color = { 185 6 106 }
+		icon = 8
+		allowed_conversion = {
+			sikhism
+		}
+		country = {
+			state_maintenance_modifier = -0.10
+			tolerance_heretic = 2
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = 2
+		}
+		
+		personal_deity = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = vaishnavism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { NASTIKA }
+	}
+	
+	sarnaism = {
+		icon = 54
+		color = { 76 112 85 }
+		province = {
+			local_manpower_modifier = 0.1
+		}
+		country = {
+			assault_fort_ability = 0.25
+		}
+		country_as_secondary = {
+			assault_fort_ability = 0.1
+		}
+		#change the modifiers(its a tribal faith)
+		#also could something like the nahuatl religious reforms be added as a gov mechanic for them
+		heretic = { MARANGBURUISM }
 	}
 
 	sikhism = {
@@ -3569,6 +3683,8 @@ dharmic = {
 			}
 		}
 	}
+	
+	
 	
 	harmonized_modifier = harmonized_dharmic
 	
@@ -5171,6 +5287,7 @@ zoroastrian_group = {
 		icon = 32
 		allowed_center_conversion = {
 			zoroastrian
+			nanaism
 		}
 		country = {
 			cav_to_inf_ratio = 0.10
@@ -5187,6 +5304,24 @@ zoroastrian_group = {
 		heretic = { MAZDAKI ZOROASTER }
 		holy_sites = { 410 4430 2223 441 4336 }
 		
+	}
+	
+	nanaism = {
+		icon = 50
+		color = { 175 134 114 }
+		country = {
+			tolerance_heathen = 4
+			tolerance_heretic = 4
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = 2
+		}
+		personal_deity = yes
+		misguided_heretic = yes
+		can_have_secondary_religion = yes
+		
+		heretic = { ZUNIST }
 	}
 
 	zoroastrian = {
