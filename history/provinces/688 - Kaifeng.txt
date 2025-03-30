@@ -1,8 +1,12 @@
 #688 - Kaifeng (can't change file name)
 owner = JIN
 controller = JIN
-culture = zhongyuan
-religion = confucianism
+culture = qayfengim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Kaifeng"
 trade_goods = chinaware
 base_tax = 8

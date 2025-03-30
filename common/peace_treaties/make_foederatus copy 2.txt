@@ -1,0 +1,45 @@
+force_foederatus = {
+	category = 6 #  The tab of the peace option.  0 - 6.
+	power_projection = vassalized_rival # only applied if the giver is the taker's rival
+	power_cost_base = 1.0 # Base factor for unjustified demand dip cost, scales with the war score cost
+	prestige_base = 1.0 # Base factor for prestige, scales with war score cost
+	ae_base = 1.0 # Base factor for ae, also scales with war score cost.
+	warscore_cost = {
+		# The cost of the treaty, decides which of the provinces' war score costs are used 
+		all_provinces = 0.0 # All the giver's provinces
+		no_provinces = 1.0 # price for a single province of 1 war score cost, just a constant
+		owner_keeps = 0.0 # The provinces kept
+		conquered = 1.0 # Provinces that have been demanded by the taker
+		returned_core = 0.0 # Provinces that have been demanded as a 'return core'
+		released_nation = 0.0 # provinces that have been demanded to be released into a separate new nation
+		cancelled_subject = 0.0 # provinces of a cancelled_subject?
+		concede_colonial_region = 0.0 # provinces in a colonial region?
+	}
+	warscore_cap = -1 # cap for warscore if not negative
+	requires_demand_independence = yes # If former subjects in an independence war must ask for independence for this to work
+	is_make_subject = yes # Can this peace option be used with other force subject interactions or granting independance options
+	requires_is_allowed = no # Whether it is required to be specifically allowed by a cb (such as restoration of union). If no, unjustified demands is applied.
+	
+	is_visible = { #when is this option viewable
+		has_country_flag = can_establish_foederati
+		
+	}
+	is_allowed = { #when is this option allowed/selectable
+		has_country_flag = can_establish_foederati
+	}
+	effect = { # effect of peace 
+		create_subject = {
+			subject = FROM
+			subject_type = foederatus
+		}
+	}
+	 ai_weight = { 
+		export_to_variable = {
+			variable_name = ai_value # Must have variable called 'ai_value' as it is this variable which is evaluated at the end
+			value = 1
+		}
+		 limit = { # if limit is false, the ai_weight is 0
+			always = no
+		}
+	}
+}

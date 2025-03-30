@@ -1,8 +1,12 @@
 #344 - Marrakech
 owner = GAE
 controller = GAE
-culture = gaetuli
-religion = lutetian
+culture = marokaim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Marrakech"
 trade_goods = sugar
 base_tax = 5

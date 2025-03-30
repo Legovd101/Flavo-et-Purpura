@@ -43,7 +43,6 @@ mongol_yoke = {
 			on_min_reached = {
 				country_event = { 
 					id = flavor_blu.5 
-					days = 1825
 					random = 90
 				}
 			}

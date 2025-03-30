@@ -1,8 +1,12 @@
 #4299 - Shamakhi
 owner = SRV
 controller = SRV
-culture = cauc_albanian
+culture = juhurim
 religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Shamakhi"
 trade_goods = wool
 base_tax = 2

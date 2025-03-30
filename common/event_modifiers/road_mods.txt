@@ -7,3 +7,8 @@ historic_highways = {
 	local_institution_spread = 0.10
 	picture = "historic_highways"
 }
+local_jewish_community = {
+	local_missionary_strength = -0.05
+	trade_value_modifier = 0.25
+	local_production_efficiency = 0.05
+}

@@ -1,8 +1,12 @@
 #4409 - Trincomale
 owner = MAD
 controller = MAD
-culture = sinhala
-religion = buddhism
+culture = lankim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Trincomale"
 trade_goods = steel#Cinnamon
 base_tax = 2

@@ -1,4 +1,6 @@
 ﻿l_english:
+
+ # Reforms/Gov Abilities
  ability_mongol_yoke: "Mongol Yoke"
  stranglehold: "Stranglehold"
  monthly_stranglehold: "Monthly Stranglehold"
@@ -18,6 +20,7 @@
  varangian_state_reform: "Varangian State"
  varangian_state_reform_desc: "Founded in 1195 by refugees fleeing Valdemar the Conqueror, New Anglia (also known as South Anglia) was the result of the Basileus' generosity after the Angles lifted the Parsig siege of Constantinople."
 
+ # Rulers
  DUCAT: "Ducat"
  RENAT: "Renat"
  CAGANAT: "Caganat"
@@ -43,3 +46,53 @@
  MAGRIANA: "Magríana"
  MAQQI: "Maí"
  DUATER: "Duater"
+
+ # Peace Treaties
+ PEACE_force_foederatus: "Force Foederatus"
+ force_foederatus_desc: "Make [From.GetName] a Foederatus of [This.GetName]"
+ CB_ALLOWED_force_foederatus: "Force Foederatus"
+ PEACE_PO_foederatus: "Force Foederatus"
+
+ cb_establish_foederati: "Establish Foederatus"
+ cb_establish_foederati_desc: "Bring the target country firmly into our sphere of influence and establish them as a Foederatus!"
+
+ take_capital_federate: "Take the capital and establish their elite as our Foederatus"
+ take_capital_federate_desc: "War goal is to take the capital."
+
+ # Subjects
+ foederatus: "Foederatus"
+ foederatus_long_desc: "Foederati were historically used by the Roman Empire to denote client kingdoms or subjugated barbarians. They can wage their own wars and have high liberty desire, and can be centralized via a steady series of reforms over the course of 85 years."
+ foederatus_is_our: "$NAME|Y$ is a Foederatus of us"
+ foederatus_title: "Foederatus"
+ foederatus_title_plural: "Foederati"
+ is_foederatus: "Is Foederatus"
+
+ colonia: "Colonia"
+ colonia_long_desc: "A Colonia is a more centralized and loyal version of a Foederatus. They can be integrated after 50 years or turned into an Imperial Province and annexed."
+ colonia_is_our: "$NAME|Y$ is a Colonia of us"
+ colonia_title: "Colonia"
+ colonia_title_plural: "Coloniae"
+ is_colonia: "Is Colonia"
+
+ imperial_province: "Imperial Province"
+ imperial_province_long_desc: "An Imperial Province is the final stage of development of an Imperial subject. They take up a diplomatic slot at the tradeoff of much less liberty desire and an ability to be annexed after 10 years."
+ imperial_province_is_our: "$NAME|Y$ is a Colonia of us"
+ imperial_province_title: "Imperial Province"
+ imperial_province_title_plural: "Imperial Provinces"
+ is_imperial_province: "Is Imperial Province"
+
+ # Diplomacy
+ request_colonia: "Request Colonia"
+ request_colonia_title: "Request Colonia"
+ request_colonia_desc: "Bring the leaders of [From.GetName] closer to our glorious [Root.GovernmentName]"
+ request_colonia_tooltip: "Bring the leaders of [From.GetName] closer to our glorious [Root.GovernmentName]"
+ request_colonia_alert_tooltip: "Request Colonia"
+ has_been_foederatus_for_fifty_years_tt: "§Y[From.GetName]§! must have been our Foederatus for at least §Y50§! years!"
+
+ request_provincia: "Integrate as Provincia"
+ request_provincia_title: "Integrate as Provincia"
+ request_provincia_desc: "Bring the leaders of [From.GetName] closer to our glorious [Root.GovernmentName]"
+ request_provincia_tooltip: "Bring the leaders of [From.GetName] closer to our glorious [Root.GovernmentName]"
+ request_provincia_alert_tooltip: "Integrate as Provincia"
+ has_been_colonia_for_fifteen_years_tt: "§Y[From.GetName]§! must have been our Colonia for at least §Y25§! years!"
+

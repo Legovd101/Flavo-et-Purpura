@@ -18,3 +18,11 @@ vassal = {
 	start_date = 856.3.21
 	end_date = 1553.12.31
 }
+
+dependency = {
+	subject_type = imperial_province
+	first = SPA
+	second = MUR
+	start_date = 756.1.1
+	end_date = 1500.1.1
+}

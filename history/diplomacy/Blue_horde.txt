@@ -16,34 +16,39 @@ union =  {
 
 # Blue Horde Yoke
 
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = BLU
 	second = RAG
 	start_date = 1243.6.21
 	end_date = 1553.12.31
 }
 
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = BLU
 	second = CRO
 	start_date = 1242.3.21
 	end_date = 1553.12.31
 }
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = BLU
 	second = BOS
 	start_date = 1242.5.21
 	end_date = 1553.12.31
 }
 
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = BLU
 	second = SER
 	start_date = 1242.9.21
 	end_date = 1553.12.31
 }
 
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = BLU
 	second = AVR
 	start_date = 1241.8.21

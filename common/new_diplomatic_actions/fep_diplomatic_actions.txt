@@ -1,0 +1,97 @@
+request_colonia = {
+    category = influence          # Which diplomatic action list the action will appear in.
+    
+    alert_index = 30             # The alert to use for the action. Refer to static_actions for the indexes. Optional.
+    alert_tooltip = ICON_MARCH         # The localisation key to display in the alert tooltip. Optional.
+    
+    require_acceptance = no   # Whether the action needs to be accepted by the target country for the accept effect to execute.
+    
+    # Determines when the action is visible
+    is_visible = {
+        FROM = {
+			is_subject_of_type_with_overlord = {
+				who = ROOT
+				type = foederatus
+			}
+		}
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+		custom_trigger_tooltip = {
+			tooltip = has_been_foederatus_for_fifty_years_tt
+			had_country_flag = {
+				flag = foederatus_established
+				days = 18250
+			}
+		}
+        # variable_arithmetic_trigger can be used here to use export_to_variable to extract and compare values such as ruler_age, etc
+    }
+    
+    # Which effects to execute on acceptance
+    on_accept = {
+		create_subject = {
+			subject_type = imperial_province
+			who = FROM
+		}
+		clr_country_flag = foederatus_established
+		set_country_flag = colonia_established
+		FROM = {
+			change_country_color = {
+				country = ROOT
+			}
+		}
+    }
+    
+    
+    # Controls the AI's usage of the action
+    ai_will_do = {
+        always = yes
+    }
+}
+
+request_provincia = {
+    category = influence          # Which diplomatic action list the action will appear in.
+    
+    alert_index = 30             # The alert to use for the action. Refer to static_actions for the indexes. Optional.
+    alert_tooltip = ICON_MARCH         # The localisation key to display in the alert tooltip. Optional.
+    
+    require_acceptance = no   # Whether the action needs to be accepted by the target country for the accept effect to execute.
+    
+    # Determines when the action is visible
+    is_visible = {
+        FROM = {
+			is_subject_of_type_with_overlord = {
+				who = ROOT
+				type = colonia
+			}
+		}
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+		custom_trigger_tooltip = {
+			tooltip = has_been_colonia_for_fifteen_years_tt
+			had_country_flag = {
+				flag = colonia_established
+				days = 9125
+			}
+		}
+        # variable_arithmetic_trigger can be used here to use export_to_variable to extract and compare values such as ruler_age, etc
+    }
+    
+    # Which effects to execute on acceptance
+    on_accept = {
+		create_subject = {
+			subject_type = imperial_province
+			who = FROM
+		}
+		clr_country_flag = colonia_established
+    }
+    
+    
+    # Controls the AI's usage of the action
+    ai_will_do = {
+        always = yes
+    }
+}

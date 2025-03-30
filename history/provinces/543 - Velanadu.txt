@@ -1,8 +1,12 @@
 #543 - Velanadu
 owner = TLG
 controller = TLG
-culture = telegu
-religion = hinduism
+culture = talangim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Masulipatnam"
 trade_goods = gems
 base_tax = 4

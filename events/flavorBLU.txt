@@ -57,7 +57,11 @@ country_event = {
 		add_government_power = { # sets the power to the specified amount
 			mechanic_type = mongol_yoke
 			power_type = stranglehold
-			value = -25
+			value = -50
+		}
+		add_country_modifier = {
+			name = kaidu_death
+			duration = -1
 		}
 	}
 	

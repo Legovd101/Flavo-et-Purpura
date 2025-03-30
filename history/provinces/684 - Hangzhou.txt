@@ -1,8 +1,12 @@
 #684 - Hangzhou (can't change file name)
 owner = QIN
 controller = QIN
-culture = wu
-religion = confucianism
+culture = murim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Hangzhou"
 trade_goods = silk
 base_tax = 12

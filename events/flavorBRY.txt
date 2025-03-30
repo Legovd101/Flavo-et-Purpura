@@ -184,7 +184,7 @@ country_event = {
 		name = "flavor_bry.1.a" # May the Pax Mongolica ever thrive
 		custom_tooltip = flavor_bry.1.a.tt
 		hidden_effect = {
-			set_capital = event_target:new_brythonic_center
+			ROOT = { set_capital = event_target:new_brythonic_center }
 			event_target:new_brythonic_center = {
 				if = {
 					limit = { province_id = 236 }

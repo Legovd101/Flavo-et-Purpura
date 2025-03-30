@@ -1,8 +1,12 @@
 #5121 - Svaneti
 owner = GEO
 controller = GEO
-culture = georgian
-religion = orthodox
+culture = gruzim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Svaneti"
 trade_goods = cloth
 base_tax = 3

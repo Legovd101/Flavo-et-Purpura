@@ -1,8 +1,12 @@
 #4305 - Shakhi
 owner = GEO
 controller = GEO
-culture = cauc_albanian
+culture = juhurim
 religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Shaki"
 trade_goods = wool
 base_tax = 2

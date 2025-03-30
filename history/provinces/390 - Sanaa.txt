@@ -1,8 +1,12 @@
 #390 - Sana'a
 owner = RAS
 controller = RAS
-culture = yemeni
-religion = arab_pagan
+culture = teimanim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Sana'a"
 trade_goods = wool
 base_tax = 4

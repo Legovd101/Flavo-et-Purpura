@@ -49,7 +49,7 @@
 4547 = {"Alebija" "Alebija"}
 2751 = {"Arcabóda" "Arcabóda"}
 219 = {"Taledabalíga" "Taledabalíga"}
-2754 = {"Caganabalíga" "Caganabalíga"} # Old Turkic "Qagan?" (king)
+2754 = {"Caganabalíga" "Caganabalíga"} # Old Turkic "Qagan" (king)
 1750 = {"Lacentija" "Lacentija"}
 4549 = {"Setabóda" "Setabóda"}
 220 = {"Balanchija" "Balanchija"}

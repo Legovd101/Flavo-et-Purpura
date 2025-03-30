@@ -1,8 +1,12 @@
 #529 - North Konkan (Thana, Mahim, Bombay, Bassein, up to Daman)
 owner = YDV
 controller = YDV
-culture = marathi
-religion = hinduism
+culture = shanivarim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Thana"
 trade_goods = cloth
 base_tax = 4

@@ -1,7 +1,11 @@
 owner = CEP
 controller = CEP
-culture = rhoman
-religion = orthodox
+culture = romanyotim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Agios Georgios"
 trade_goods = wine
 base_tax = 2

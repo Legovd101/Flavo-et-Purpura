@@ -1,8 +1,12 @@
 #4342 - Malamir
 owner = UZI
 controller = UZI
-culture = persian_babylonian
-religion = zoroastrian
+culture = parsim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Malamir"
 trade_goods = wool
 base_tax = 1

@@ -1,8 +1,12 @@
 #227 - Estremadura
 owner = LUS
 controller = LUS
-culture = strait_greek
-religion = arianism
+culture = sephardim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Lisboa"
 trade_goods = fish
 base_tax = 6

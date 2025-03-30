@@ -1,6 +1,6 @@
 #334 - Tangiers
-owner = SPA
-controller = SPA
+owner = MUR
+controller = MUR
 culture = strait_greek
 religion = lutetian
 capital = "Tangier"
@@ -15,5 +15,5 @@ discovered_by = ottoman
 discovered_by = eastern
 extra_cost = 16
 center_of_trade = 2
-add_core = SPA
+add_core = MUR
 fort_15th = yes

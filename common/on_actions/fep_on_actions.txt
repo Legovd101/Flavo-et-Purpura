@@ -1,14 +1,14 @@
 on_new_monarch = {
 	events = {
 		flavor_blu.1			#Death of Kaidu Khan
-	}
-}
-
-on_monarch_death = {
-	events = {
 		flavor_bry.1			#Brythonian Succession
 	}
 }
+
+# on_monarch_death = {
+# 	events = {
+# 	}
+# }
 
 # root = loser country, from = winner country
 on_war_lost = {
@@ -79,5 +79,16 @@ on_province_owner_change = {
 			}
 			ROOT = { cede_province = PREV }
 		}
+	}
+}
+
+on_province_religion_converted = {
+}
+on_province_religion_changed = {
+	if = {
+		limit = {
+			has_province_modifier = local_jewish_community
+		}
+		remove_province_modifier = local_jewish_community
 	}
 }

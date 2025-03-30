@@ -4,3 +4,9 @@ ogedei_legacy = {
 	monthly_stranglehold = 0.01
 	yearly_army_professionalism = 0.1
 }
+kaidu_death = {
+	liberty_desire = 25
+	imperial_mandate = -0.05
+	monthly_stranglehold = -0.05
+	yearly_army_professionalism = -0.1
+}

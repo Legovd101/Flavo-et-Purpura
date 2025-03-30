@@ -1,6 +1,6 @@
 #335 - Melilla
-owner = SPA
-controller = SPA
+owner = MUR
+controller = MUR
 culture = gaetuli
 religion = west_orthodox
 capital = "Melilla"
@@ -18,4 +18,4 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = SPA
+add_core = MUR

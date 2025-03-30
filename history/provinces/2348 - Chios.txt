@@ -1,8 +1,12 @@
 #2348 - Chios
 owner = BYZ
 controller = BYZ
-culture = rhoman
-religion = orthodox
+culture = romanyotim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Chio"
 trade_goods = wine
 base_tax = 2

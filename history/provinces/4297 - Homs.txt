@@ -1,8 +1,12 @@
 #4397 - Homs
 owner = TRP
 controller = TRP
-culture = perso_levantine
-religion = orthodox
+culture = surim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Homs"
 trade_goods = cotton
 base_tax = 2

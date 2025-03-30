@@ -1,7 +1,11 @@
 # 4767 - Zweibrücken
 capital = "Zweibrücken"
-culture = hessian
-religion = arianism
+culture = yekkim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 trade_goods = cloth
 owner = TRI
 base_tax = 3

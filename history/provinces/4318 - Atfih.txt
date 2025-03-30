@@ -1,8 +1,12 @@
 #4318 - Atfih
 owner = MAM
 controller = MAM
-culture = nubian
-religion = coptic
+culture = mitzrim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Atfih"
 trade_goods = paper
 base_tax = 3

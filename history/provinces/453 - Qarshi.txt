@@ -1,8 +1,12 @@
 #453 - Qarshi
 owner = ILK
 controller = ILK
-culture = sogdian
-religion = manichaean
+culture = hayadkim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Qarshi"
 trade_goods = cotton
 base_tax = 1

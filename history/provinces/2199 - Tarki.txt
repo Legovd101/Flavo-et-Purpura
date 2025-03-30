@@ -1,8 +1,12 @@
 #2031 - Tarki
 owner = KHZ
 controller = KHZ
-culture = khazar
+culture = juhurim
 religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Tarku"
 trade_goods = fish
 base_tax = 2

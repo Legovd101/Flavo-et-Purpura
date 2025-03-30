@@ -1,8 +1,12 @@
 #535 - Kochin
 owner = VND
 controller = VND
-culture = malayalam
-religion = hinduism
+culture = kochinim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Kochin"
 trade_goods = spices
 base_tax = 3

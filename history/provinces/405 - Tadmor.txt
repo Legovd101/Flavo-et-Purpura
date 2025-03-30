@@ -1,8 +1,12 @@
 #405 - Tadmor
 owner = LKH
 controller = LKH
-culture = lakhmid
-religion = manichaean
+culture = surim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Tadmuriyah"
 trade_goods = livestock
 base_tax = 1

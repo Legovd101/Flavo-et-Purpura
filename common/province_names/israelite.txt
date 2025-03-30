@@ -1,0 +1,55 @@
+# Maghreb
+2470 = {"Ufran" "Ufran"}
+344 = {"Meraksh" "Meraksh"}
+2455 = {"Bizarta" "Bizarta"}
+2954 = {"Djerbah" "Djerbah"}
+
+# Italy
+2984 = {"Koznatza" "Koznatza"}
+4740 = {"Komo" "Komo"}
+104 = {"Milanu" "Milanu"}
+4735 = {"Oristanu" "Oristanu"}
+
+# Iberia
+1749 = {"Kadis" "Kadis"}
+227 = {"Lísbon" "Lísbon"}
+4560 = {"Iviza" "Iviza"}
+
+# Germany
+4767 = {"Zeibruck" "Zeibruck"}
+1871 = {"Walla" "Walla"}
+
+# Balkans
+142 = {"Qurfu" "Qurfu"}
+4698 = {"Kaplonia" "Kaplonia"}
+2348 = {"Kiyus" "Kiyus"}
+
+# Egypt
+4318 = {"Atafich" "Atafich"}
+
+# Horn of Africa
+2772 = {"Dambia" "Qurfu"}
+2771 = {"Simien" "Simien"}
+
+# Arabia
+2346 = {"Jazan" "Jazan"}
+390 = {"Sena" "Sena"}
+
+# Levant
+4297 = {"Hamath" "Hamath"}
+405 = {"Tadmór" "Tadmór"}
+
+# Mashriq
+4288 = {"Shata" "Shata"}
+
+# Persia
+4342 = {"Zeha" "HamZehaath"}
+2217 = {"Yasoge" "Yasoge"}
+
+# Crimea
+284 = {"Krim" "Krim"}
+2447 = {"Panagoria" "Panagoria"}
+287 = {"Koban" "Koban"}
+
+# Georgia
+5121 = {"Swanti" "Swanti"}

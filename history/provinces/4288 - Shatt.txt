@@ -1,8 +1,12 @@
 # - Cezair i-Arab -> al-Qurna, Zihiya, Rahmaniya
 owner = LKH
 controller = LKH
-culture = persian_babylonian
-religion = manichaean
+culture = bavlim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "al-Qurna"
 trade_goods = spices#Dates
 base_tax = 2

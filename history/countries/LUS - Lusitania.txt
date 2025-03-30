@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-capital = 227
+capital = 1851 # Coimbra
 religion = arianism
 primary_culture = lusitanian

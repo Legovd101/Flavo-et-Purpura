@@ -1,8 +1,12 @@
 #1871 - Wallis
 owner = BUR
 controller = BUR
-culture = swiss
-religion = arianism
+culture = yekkim
+religion = jewish
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
 capital = "Sion"
 trade_goods = livestock
 

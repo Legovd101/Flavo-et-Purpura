@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = colonial_government
+primary_culture = strait_greek
+religion = west_orthodox
+technology_group = western
+historical_friend = MJO
+capital = 1751 # Ceuta
+government_rank = 1

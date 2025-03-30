@@ -34,7 +34,7 @@ hagia_sophia = {
 					OR = {
 						religion = orthodox
 						religion = coptic
-						religion = catholic
+						religion = west_orthodox
 						religion_group = muslim
 					}
 					has_owner_religion = yes
@@ -44,7 +44,7 @@ hagia_sophia = {
 						OR = {
 							secondary_religion = orthodox
 							secondary_religion = coptic
-							secondary_religion = catholic
+							secondary_religion = west_orthodox
 							secondary_religion = sunni
 							secondary_religion = shiite
 							secondary_religion = ibadi
@@ -53,7 +53,7 @@ hagia_sophia = {
 					OR = {
 						religion = orthodox
 						religion = coptic
-						religion = catholic
+						religion = west_orthodox
 						religion_group = muslim
 						has_owner_religion = yes
 					}
@@ -90,7 +90,7 @@ hagia_sophia = {
 					OR = {
 						religion = orthodox
 						religion = coptic
-						religion = catholic
+						religion = west_orthodox
 						religion_group = muslim
 					}
 					has_owner_religion = yes
@@ -100,7 +100,7 @@ hagia_sophia = {
 						OR = {
 							secondary_religion = orthodox
 							secondary_religion = coptic
-							secondary_religion = catholic
+							secondary_religion = west_orthodox
 							secondary_religion = sunni
 							secondary_religion = shiite
 							secondary_religion = ibadi
@@ -109,7 +109,7 @@ hagia_sophia = {
 					OR = {
 						religion = orthodox
 						religion = coptic
-						religion = catholic
+						religion = west_orthodox
 						religion_group = muslim
 						has_owner_religion = yes
 					}
@@ -127,7 +127,7 @@ hagia_sophia = {
 					OR = {
 						religion = orthodox
 						religion = coptic
-						religion = catholic
+						religion = west_orthodox
 						religion_group = muslim
 					}
 					has_owner_religion = yes
@@ -137,7 +137,7 @@ hagia_sophia = {
 						OR = {
 							secondary_religion = orthodox
 							secondary_religion = coptic
-							secondary_religion = catholic
+							secondary_religion = west_orthodox
 							secondary_religion = sunni
 							secondary_religion = shiite
 							secondary_religion = ibadi
@@ -146,7 +146,7 @@ hagia_sophia = {
 					OR = {
 						religion = orthodox
 						religion = coptic
-						religion = catholic
+						religion = west_orthodox
 						religion_group = muslim
 						has_owner_religion = yes
 					}
@@ -2995,7 +2995,7 @@ stpeters_cathedral = {
 	#can we build it?
 	build_trigger = {
 		province_is_or_accepts_religion = {
-			religion = catholic
+			religion = west_orthodox
 		}
 	}
 
@@ -3012,14 +3012,14 @@ stpeters_cathedral = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion = {
-			religion = catholic
+			religion = west_orthodox
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion = {
-			religion = catholic
+			religion = west_orthodox
 		}
 	}
 
@@ -15312,7 +15312,7 @@ san_antonio_missions = {
 
 	build_trigger = {
 		province_is_or_accepts_religion = {
-			religion = catholic
+			religion = west_orthodox
 		}
 	}
 
@@ -15324,13 +15324,13 @@ san_antonio_missions = {
 
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion = {
-			religion = catholic
+			religion = west_orthodox
 		}
 	}
 
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion = {
-			religion = catholic
+			religion = west_orthodox
 		}
 	}
 
@@ -18118,7 +18118,7 @@ palace_of_the_popes = {
 			if = {
 				limit = { 
 					202 = { has_cardinal = no } 
-					owner = { religion = catholic }
+					owner = { religion = west_orthodox }
 				}
 				202 = { add_cardinal = yes }
 			}
@@ -18159,7 +18159,7 @@ palace_of_the_popes = {
 			if = {
 				limit = { 
 					202 = { has_cardinal = no } 
-					owner = { religion = catholic }
+					owner = { religion = west_orthodox }
 				}
 				202 = { add_cardinal = yes }
 			}
@@ -18198,7 +18198,7 @@ palace_of_the_popes = {
 			if = {
 				limit = { 
 					202 = { has_cardinal = no } 
-					owner = { religion = catholic }
+					owner = { religion = west_orthodox }
 				}
 				202 = { add_cardinal = yes }
 			}
@@ -21149,7 +21149,7 @@ citadel_of_aleppo = {
 
 # Port of Narbaion
 narbaion_port = {
-	start = 2753 #Zaragosa
+	start = 2753 #Narbonne
 	date = 1035.11.04
 	time = { months = 0	}
 	build_cost = 0

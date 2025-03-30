@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 primary_culture = galician_fep
 religion = arianism
 technology_group = western
-capital = 206# Galicia
+capital = 206 #Corunna
 government_rank = 1

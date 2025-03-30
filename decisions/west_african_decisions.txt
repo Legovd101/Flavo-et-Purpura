@@ -46,7 +46,7 @@ country_decisions = {
 						alliance_with = ROOT
 						has_opinion = {
 							who = ROOT
-							amount = 150
+							value = 150
 						}
 					}
 				}
@@ -58,7 +58,7 @@ country_decisions = {
 						alliance_with = ROOT
 						has_opinion = {
 							who = ROOT
-							amount = 150
+							value = 150
 						}
 					}
 				}
@@ -70,7 +70,7 @@ country_decisions = {
 						alliance_with = ROOT
 						has_opinion = {
 							who = ROOT
-							amount = 150
+							value = 150
 						}
 					}
 				}
@@ -82,7 +82,7 @@ country_decisions = {
 						alliance_with = ROOT
 						has_opinion = {
 							who = ROOT
-							amount = 150
+							value = 150
 						}
 					}
 				}

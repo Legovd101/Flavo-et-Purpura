@@ -1,0 +1,29 @@
+take_capital_federate = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 0.5
+
+		required_treaty_to_take_provinces = {
+			force_foederatus
+		}
+		
+		peace_options = {
+			force_foederatus
+		}
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = VASSAL_MISSION_WAR_NAME
+}
