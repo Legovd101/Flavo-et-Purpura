@@ -70,6 +70,8 @@ can_hire_varangians = {
 	OR = {
 		culture = rhoman
 		culture = euxine
+		culture = roman_cappadocian
+		mission_completed = blu_varangoi
 	}
 }
 has_hired_varangians = {

@@ -473,6 +473,10 @@ SPA_heptarchate = {
 			persia_region = {
 				add_permanent_claim = ROOT
 			}
+			add_country_modifier = {
+				name = europa_universalis
+				duration = -1
+			}
 		} 
 	}
 }

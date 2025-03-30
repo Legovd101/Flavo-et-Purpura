@@ -53,3 +53,8 @@
 
 # Georgia
 5121 = {"Swanti" "Swanti"}
+
+# Azerbaijan
+2199 = {"Krim" "Krim"}
+4305 = {"Panagoria" "Panagoria"}
+4299 = {"Koban" "Koban"}

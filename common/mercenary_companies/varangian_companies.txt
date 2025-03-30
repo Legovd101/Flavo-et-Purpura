@@ -8,21 +8,25 @@ merc_swedish_varangians = {
     min_size = 3
     max_size = 3
 	trigger = {
-	    mission_completed = blu_varangoi
-        ROOT = {
-            OR = {
-                primary_culture = rhoman
-                primary_culture = euxine
-                primary_culture = roman_cappadocian
-            }
-        }
-		1 = {
-            owner = {
-                has_opinion = {
-					who = ROOT
-					value = 75
-				}
-				has_country_varangian_flag_trigger = yes
+        OR = {
+            mission_completed = blu_varangoi
+            AND = {
+                ROOT = {
+                    OR = {
+                        primary_culture = rhoman
+                        primary_culture = euxine
+                        primary_culture = roman_cappadocian
+                    }
+                }
+                1 = {
+                    owner = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 75
+                        }
+                        has_country_varangian_flag_trigger = yes
+                    }
+                }
             }
         }
 	}
@@ -41,21 +45,25 @@ merc_danish_varangians = {
     min_size = 3
     max_size = 3
 	trigger = {
-	    mission_completed = blu_varangoi
-        ROOT = {
-            OR = {
-                primary_culture = rhoman
-                primary_culture = euxine
-                primary_culture = roman_cappadocian
-            }
-        }
-		12 = {
-            owner = {
-                has_opinion = {
-					who = ROOT
-					value = 75
-				}
-				has_country_varangian_flag_trigger = yes
+        OR = {
+            mission_completed = blu_varangoi
+            AND = {
+                ROOT = {
+                    OR = {
+                        primary_culture = rhoman
+                        primary_culture = euxine
+                        primary_culture = roman_cappadocian
+                    }
+                }
+                12 = {
+                    owner = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 75
+                        }
+                        has_country_varangian_flag_trigger = yes
+                    }
+                }
             }
         }
 	}
@@ -74,21 +82,25 @@ merc_norwegian_varangians = {
     min_size = 3
     max_size = 3
 	trigger = {
-	    mission_completed = blu_varangoi
-        ROOT = {
-            OR = {
-                primary_culture = rhoman
-                primary_culture = euxine
-                primary_culture = roman_cappadocian
-            }
-        }
-		17 = {
-            owner = {
-                has_opinion = {
-					who = ROOT
-					value = 75
-				}
-				has_country_varangian_flag_trigger = yes
+        OR = {
+            mission_completed = blu_varangoi
+            AND = {
+                ROOT = {
+                    OR = {
+                        primary_culture = rhoman
+                        primary_culture = euxine
+                        primary_culture = roman_cappadocian
+                    }
+                }
+                17 = {
+                    owner = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 75
+                        }
+                        has_country_varangian_flag_trigger = yes
+                    }
+                }
             }
         }
 	}
@@ -107,21 +119,25 @@ merc_anglish_varangians = {
     min_size = 3
     max_size = 3
 	trigger = {
-	    mission_completed = blu_varangoi
-        ROOT = {
-            OR = {
-                primary_culture = rhoman
-                primary_culture = euxine
-                primary_culture = roman_cappadocian
-            }
-        }
-		45 = {
-            owner = {
-                has_opinion = {
-					who = ROOT
-					value = 75
-				}
-				has_country_varangian_flag_trigger = yes
+        OR = {
+            mission_completed = blu_varangoi
+            AND = {
+                ROOT = {
+                    OR = {
+                        primary_culture = rhoman
+                        primary_culture = euxine
+                        primary_culture = roman_cappadocian
+                    }
+                }
+                45 = {
+                    owner = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 75
+                        }
+                        has_country_varangian_flag_trigger = yes
+                    }
+                }
             }
         }
 	}
@@ -140,21 +156,25 @@ merc_novgorodian_varangians = {
     min_size = 3
     max_size = 3
 	trigger = {
-	    mission_completed = blu_varangoi
-        ROOT = {
-            OR = {
-                primary_culture = rhoman
-                primary_culture = euxine
-                primary_culture = roman_cappadocian
-            }
-        }
-		310 = {
-            owner = {
-                has_opinion = {
-					who = ROOT
-					value = 75
-				}
-				has_country_varangian_flag_trigger = yes
+        OR = {
+            mission_completed = blu_varangoi
+            AND = {
+                ROOT = {
+                    OR = {
+                        primary_culture = rhoman
+                        primary_culture = euxine
+                        primary_culture = roman_cappadocian
+                    }
+                }
+                310 = {
+                    owner = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 75
+                        }
+                        has_country_varangian_flag_trigger = yes
+                    }
+                }
             }
         }
 	}

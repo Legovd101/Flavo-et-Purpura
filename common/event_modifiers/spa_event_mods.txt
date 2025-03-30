@@ -23,3 +23,7 @@ terra_amazonia = {
 	trade_range_modifier = 0.15
 	range = 0.25
 }
+europa_universalis = {
+	all_power_cost = -0.15
+	ae_impact = -0.25
+}

@@ -14,14 +14,12 @@ blu_missions_1 = {
 		trigger = {
  			calc_true_if = {
  				amount = 2
- 				OR = {
- 					accepted_culture = croatian
- 					accepted_culture = serbian
- 					accepted_culture = bosnian
- 					accepted_culture = dalmatian
- 					accepted_culture = albanian
- 					accepted_culture = slovak
- 				}
+				accepted_culture = croatian
+				accepted_culture = serbian
+				accepted_culture = bosnian
+				accepted_culture = dalmatian
+				accepted_culture = albanian
+				accepted_culture = slovak
  			}
  		}
 		effect = {
@@ -443,12 +441,12 @@ blu_missions_5 = {
 		required_missions = { blu_establish_church }
 		position = 3
 		trigger = {
-			calc_true_if = {
-			    num_of_religion = {
-	                religion = manichaean
-	                value = 0
-                }
-		    }
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 1
+					religion = manichaean
+				}
+			}
 		}
 		effect = {
 			add_country_modifier = {	

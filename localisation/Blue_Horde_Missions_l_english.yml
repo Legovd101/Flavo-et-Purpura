@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  blu_enable_the_varangians:0 "Enable '§JVarangian§!' mercenaries, whose hiring will cost no §YArmy Professionalism§!."
  blu_integrate_slavs_title:0 "Integrate the Slavs"
  blu_integrate_slavs_desc:0 "We should work to integrate the Slavic tribes in the Haemus. These hardy, mountainous people will make good soldiers."
@@ -13,7 +13,7 @@ l_english:
  blu_rhom_title:0 "The Rhomaioi"
  blu_rhom_desc:0 "Now with the last Roman remnants gone, let us integrate these proud, industrious people into our state and claim their legacy."
  blu_varangoi_title:0 "Claim the Varangians"
- blu_varangoi_desc:0 When the Roman empire fell, remnants of their powerful Varangian Guard and escaped the city and fought their way into control of strategic cities in Greece. Let us show these warriors that they are better off serving us than remaining independent."
+ blu_varangoi_desc:0 "When the Roman empire fell, remnants of their powerful Varangian Guard and escaped the city and fought their way into control of strategic cities in Greece. Let us show these warriors that they are better off serving us than remaining independent."
  blu_tame_greece_title:0 "Tame Greece"
  blu_tame_greece_desc:0 "For too long Greece has stayed out of our grasp. It has remained divided between a bunch of native and western states and trading republics. The time is right for us to sweep in and plant our flag in the Morea."
  blu_naval_title:0 "Mongol Aegean"
