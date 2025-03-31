@@ -1,6 +1,6 @@
-### Modified 31-03-2025 10:46:24 ###
+### Modified 31-03-2025 15:53:33 ###
 # Bhagalpur
-# 2044 Bhagalpur - 31-03-2025 10:46:24 
+# 2044 Bhagalpur - 31-03-2025 15:53:33 
  
 add_core = NTK
 owner = NTK
@@ -12,7 +12,7 @@ base_manpower = 2
 trade_goods = silk
 
 culture = bengali
-religion = shaivism
+religion = hinduism
 capital = "Bhagalpur"
 
 is_city = yes

@@ -1,5 +1,6 @@
+### Modified 31-03-2025 13:02:20 ###
 # Fathabad
-# 4475 Fathabad - 31-03-2025 10:55:09 
+# 4475 Fathabad - 31-03-2025 13:02:20 
  
 add_core = BNG
 owner = BNG
@@ -12,7 +13,7 @@ trade_goods = grain
 
 culture = bengali
 religion = shaivism
-capital = "Fathabad"
+capital = "Kotalipura"
 
 is_city = yes
 
@@ -27,4 +28,3 @@ discovered_by = chinese
 
 
 
-### Modified 31-03-2025 10:55:09 ###

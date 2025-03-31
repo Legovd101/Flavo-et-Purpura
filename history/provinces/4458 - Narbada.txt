@@ -1,18 +1,31 @@
-#4458 - Narbada
+### Modified 31-03-2025 15:44:31 ###
+# Narbada
+# 4458 Narbada - 31-03-2025 15:44:31 
+ 
+add_core = YDV
 owner = YDV
 controller = YDV
-culture = gondi
-religion = hinduism
-capital = "Chauragar"
-trade_goods = tropical_wood
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = tropical_wood
+
+culture = gondi
+religion = sarnaism
+capital = "Chauragar"
+
 is_city = yes
 add_local_autonomy = 50
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-add_core = YDV
+
+
+
+
+
+

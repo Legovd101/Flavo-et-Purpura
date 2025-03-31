@@ -1,11 +1,12 @@
+### Modified 31-03-2025 12:57:42 ###
 # Chittagong
-# 568 Chittagong - 31-03-2025 10:53:56 
+# 568 Chittagong - 31-03-2025 12:57:42 
  
 add_core = ARK
 owner = ARK
 controller = ARK
 base_tax = 5
-base_production = 5
+base_production = 6
 base_manpower = 3
 
 center_of_trade = 3
@@ -13,7 +14,7 @@ trade_goods = cotton
 extra_cost = 24
 
 culture = bengali
-religion = shaktism
+religion = vajrayana
 capital = "Chattogram"
 
 is_city = yes
@@ -29,4 +30,3 @@ discovered_by = ottoman
 
 
 
-### Modified 31-03-2025 10:53:56 ###

@@ -1,6 +1,6 @@
-### Modified 31-03-2025 11:34:53 ###
+### Modified 31-03-2025 15:59:47 ###
 # Raipur
-# 2082 Raipur - 31-03-2025 11:34:53 
+# 2082 Raipur - 31-03-2025 15:59:47 
  
 add_core = PAN
 owner = PAN
@@ -12,7 +12,7 @@ base_manpower = 1
 trade_goods = grain
 
 culture = gondi
-religion = vaishnavism
+religion = shaivism
 capital = "Raipur"
 
 is_city = yes

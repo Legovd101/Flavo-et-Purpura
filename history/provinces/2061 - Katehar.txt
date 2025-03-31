@@ -1,20 +1,32 @@
-#2061 - Katehar/Rohilkhand
+### Modified 31-03-2025 16:05:29 ###
+# Katehar
+# 2061 Katehar - 31-03-2025 16:05:29 
+ 
+add_core = RMP
+add_core = JNP
+add_core = NTK
 owner = NTK
 controller = NTK
-culture = kanauji
-religion = hinduism
-capital = "Badayun"
-trade_goods = cotton#Calicoes
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = cotton
+
+culture = kanauji
+religion = vaishnavism
+capital = "Badayun"
+
 is_city = yes
-add_rajputs_or_marathas_or_nobles_effect = yes
-add_core = RMP
-add_core = JNP
+
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = NTK
+
+
+
+
+
+

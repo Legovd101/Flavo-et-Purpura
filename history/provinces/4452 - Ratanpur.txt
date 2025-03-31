@@ -1,6 +1,6 @@
-### Modified 31-03-2025 11:35:03 ###
+### Modified 31-03-2025 16:00:02 ###
 # Ratanpur
-# 4452 Ratanpur - 31-03-2025 11:35:03 
+# 4452 Ratanpur - 31-03-2025 16:00:02 
  
 add_core = PAN
 owner = PAN
@@ -12,7 +12,7 @@ base_manpower = 1
 trade_goods = grain
 
 culture = gondi
-religion = vaishnavism
+religion = shaivism
 capital = "Ratanpur"
 
 is_city = yes

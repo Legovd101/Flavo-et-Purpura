@@ -1,19 +1,31 @@
-#2027 - Arcot
+### Modified 31-03-2025 14:53:41 ###
+# Arcot
+# 2027 Arcot - 31-03-2025 14:53:41 
+ 
+add_core = MAD
 owner = MAD
 controller = MAD
-culture = tamil
-religion = hinduism
-capital = "Arcot"
-trade_goods = iron
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = iron
+
+culture = tamil
+religion = shaivism
+capital = "Arcot"
+
 is_city = yes
+add_local_autonomy = 25
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_brahmins_or_church_effect = yes
-add_local_autonomy = 25
-add_core = MAD
+
+
+
+
+
+

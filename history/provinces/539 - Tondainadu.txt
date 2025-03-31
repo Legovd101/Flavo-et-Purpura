@@ -1,20 +1,33 @@
-#539 - Pulicat
+### Modified 31-03-2025 14:52:43 ###
+# Tondainadu
+# 539 Tondainadu - 31-03-2025 14:52:43 
+ 
+add_core = MAD
 owner = MAD
 controller = MAD
-culture = tamil
-religion = hinduism
-capital = "Pulicat"
-trade_goods = cloth
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = tamil
+religion = vaishnavism
+capital = "Pulicat"
+
 is_city = yes
 add_local_autonomy = 50
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-extra_cost = 16
-center_of_trade = 2
-add_core = MAD
+
+
+
+
+
+

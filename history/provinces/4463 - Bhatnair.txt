@@ -1,19 +1,32 @@
-#4463 - Bhatnair
+### Modified 31-03-2025 15:57:54 ###
+# Bhatnair
+# 4463 Bhatnair - 31-03-2025 15:57:54 
+ 
+add_core = DLH
+add_core = MUL
+add_core = NTK
 owner = NTK
 controller = NTK
-culture = rajput
-religion = hinduism
-capital = "Bhatnair"
-trade_goods = livestock
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = rajput
+religion = vaishnavism
+capital = "Bhatnair"
+
 is_city = yes
-add_core = DLH
-add_core = MUL
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-add_core = NTK
+
+
+
+
+
+

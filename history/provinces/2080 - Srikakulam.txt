@@ -1,6 +1,6 @@
-### Modified 31-03-2025 11:28:03 ###
+### Modified 31-03-2025 15:53:15 ###
 # Srikakulam
-# 2080 Srikakulam - 31-03-2025 11:28:03 
+# 2080 Srikakulam - 31-03-2025 15:53:15 
  
 add_core = ORI
 owner = ORI
@@ -12,7 +12,7 @@ base_manpower = 1
 trade_goods = sugar
 
 culture = oriya
-religion = vaishnavism
+religion = hinduism
 capital = "Srikakulam"
 
 is_city = yes

@@ -1,18 +1,30 @@
-#4489 - Hajipur
+### Modified 31-03-2025 15:53:46 ###
+# Hajipur
+# 4489 Hajipur - 31-03-2025 15:53:46 
+ 
+add_core = NTK
 owner = NTK
 controller = NTK
-culture = bihari
-religion = hinduism
-capital = "Hajipur"
-trade_goods = glass
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = glass
+
+culture = bihari
+religion = shaivism
+capital = "Hajipur"
+
 is_city = yes
-add_jains_or_burghers_effect = yes
+
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = NTK
+
+
+
+
+
+

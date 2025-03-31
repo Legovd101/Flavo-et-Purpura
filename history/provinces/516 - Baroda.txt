@@ -1,18 +1,31 @@
-#516 - Baroda (Baroda)
+### Modified 31-03-2025 15:10:31 ###
+# Baroda
+# 516 Baroda - 31-03-2025 15:10:31 
+ 
+add_core = JLV
 owner = JLV
 controller = JLV
-culture = gujarati
-religion = hinduism
-capital = "Baroda"
-trade_goods = dyes
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = dyes
+
+culture = gujarati
+religion = vaishnavism
+capital = "Baroda"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 discovered_by = east_african
-add_core = JLV
+
+
+
+
+
+
