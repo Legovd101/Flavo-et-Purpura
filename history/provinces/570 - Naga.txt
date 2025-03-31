@@ -1,15 +1,28 @@
-#570 - Naga
+# Naga
+# 570 Naga - 31-03-2025 10:53:41 
+ 
+add_core = BNG
 owner = BNG
 controller = BNG
-culture = chin
-religion = hinduism
-capital = "Dimapur"
-trade_goods = tropical_wood
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = tropical_wood
+
+culture = chin
+religion = vajrayana
+capital = "Dimapur"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = BNG
+
+
+
+
+
+
+### Modified 31-03-2025 10:53:41 ###

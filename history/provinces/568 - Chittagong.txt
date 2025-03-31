@@ -1,19 +1,32 @@
-#568 - Chittagong
+# Chittagong
+# 568 Chittagong - 31-03-2025 10:53:56 
+ 
+add_core = ARK
 owner = ARK
 controller = ARK
-culture = bengali
-religion = hinduism#A good case could be made that this province was atleast 50% buddhist
-capital = "Chittagong"
-trade_goods = cotton
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+center_of_trade = 3
+trade_goods = cotton
+extra_cost = 24
+
+culture = bengali
+religion = shaktism
+capital = "Chattogram"
+
 is_city = yes
-add_core = ARK
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 24
-center_of_trade = 3
+
+
+
+
+
+
+### Modified 31-03-2025 10:53:56 ###

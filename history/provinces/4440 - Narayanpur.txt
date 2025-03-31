@@ -1,15 +1,28 @@
-#4440 - Narayanpur
+### Modified 31-03-2025 10:53:32 ###
+# Narayanpur
+# 4440 Narayanpur - 31-03-2025 10:53:32 
+ 
+add_core = KMT
 owner = KMT
 controller = KMT
-culture = assamese
-religion = hinduism
-capital = "Narayanpur"
-trade_goods = tea
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = tea
+
+culture = assamese
+religion = vaishnavism
+capital = "Narayanpur"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = KMT
+
+
+
+
+
+

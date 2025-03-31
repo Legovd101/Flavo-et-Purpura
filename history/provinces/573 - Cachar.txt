@@ -1,15 +1,28 @@
-#573 - Cachar
+# Cachar
+# 573 Cachar - 31-03-2025 10:53:44 
+ 
+add_core = BNG
 owner = BNG
 controller = BNG
-culture = chin
-religion = hinduism
-capital = "Maibang"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = chin
+religion = shaktism
+capital = "Maibang"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = BNG
+
+
+
+
+
+
+### Modified 31-03-2025 10:53:44 ###

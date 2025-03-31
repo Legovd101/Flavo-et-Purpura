@@ -1,15 +1,28 @@
-#566 - Assam
+# Assam
+# 566 Assam - 31-03-2025 10:53:38 
+ 
+add_core = SDY
 owner = SDY
 controller = SDY
-culture = assamese
-religion = hinduism
-capital = "Charaideo"
-trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = grain
+
+culture = assamese
+religion = shaktism
+capital = "Charaideo"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = SDY
+
+
+
+
+
+
+### Modified 31-03-2025 10:53:38 ###

@@ -1,15 +1,28 @@
-#571 - Darrang
+### Modified 31-03-2025 10:53:29 ###
+# Darrang
+# 571 Darrang - 31-03-2025 10:53:29 
+ 
+add_core = KMT
 owner = KMT
 controller = KMT
-culture = assamese
-religion = hinduism
-capital = "Koliabar"
-trade_goods = silk
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = silk
+
+culture = assamese
+religion = vaishnavism
+capital = "Koliabar"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = KMT
+
+
+
+
+
+

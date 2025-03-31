@@ -1,17 +1,30 @@
-#4486 - Purnia
+# Purnia
+# 4486 Purnia - 31-03-2025 10:46:55 
+ 
+add_core = BNG
 owner = BNG
 controller = BNG
-culture = kochi
-religion = hinduism
-capital = "Purnia"
-trade_goods = silk
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = silk
+
+culture = kochi
+religion = vajrayana
+capital = "Purnia"
+
 is_city = yes
-add_core = BNG
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
+
+
+
+
+
+
+### Modified 31-03-2025 10:46:55 ###
