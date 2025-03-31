@@ -1,19 +1,31 @@
-#4427 - Honnavara
+### Modified 31-03-2025 11:26:16 ###
+# Honnavara
+# 4427 Honnavara - 31-03-2025 11:26:16 
+ 
+add_core = MYS
 owner = MYS
 controller = MYS
-culture = kannada
-religion = hinduism
-capital = "Honnavara"
-trade_goods = spices
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = spices
+
+culture = kannada
+religion = shaivism
+capital = "Honnavara"
+
 is_city = yes
-add_brahmins_or_church_effect = yes
+
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 discovered_by = east_african
-add_core = MYS
+
+
+
+
+
+
