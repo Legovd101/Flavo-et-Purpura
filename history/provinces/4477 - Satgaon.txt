@@ -1,5 +1,6 @@
+### Modified 31-03-2025 12:24:38 ###
 # Satgaon
-# 4477 Satgaon - 31-03-2025 10:54:56 
+# 4477 Satgaon - 31-03-2025 12:24:38 
  
 add_core = BNG
 owner = BNG
@@ -13,7 +14,7 @@ trade_goods = spices
 extra_cost = 8
 
 culture = bengali
-religion = vaishnavism
+religion = shaivism
 capital = "Saptagram"
 
 is_city = yes
@@ -30,4 +31,3 @@ discovered_by = chinese
 
 
 
-### Modified 31-03-2025 10:54:56 ###

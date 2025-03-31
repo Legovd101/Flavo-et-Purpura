@@ -1,17 +1,30 @@
-#4491 - Dang
+### Modified 31-03-2025 12:46:55 ###
+# Dang
+# 4491 Dang - 31-03-2025 12:46:55 
+ 
+add_core = NTK
 owner = NTK
 controller = NTK
-culture = nepali
-religion = hinduism
-capital = "Dang"
-trade_goods = wool
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = wool
+
+culture = nepali
+religion = vaishnavism
+capital = "Dang"
+
 is_city = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-add_core = NTK
+
+
+
+
+
+

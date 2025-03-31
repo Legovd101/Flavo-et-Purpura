@@ -1,5 +1,6 @@
+### Modified 31-03-2025 12:25:29 ###
 # Lakhnor
-# 2081 Lakhnor - 31-03-2025 10:54:50 
+# 2081 Lakhnor - 31-03-2025 12:25:29 
  
 add_core = KLH
 owner = KLH
@@ -11,7 +12,7 @@ base_manpower = 2
 trade_goods = naval_supplies
 
 culture = bengali
-religion = shaivism
+religion = shaktism
 capital = "Lakhnor"
 
 is_city = yes
@@ -30,4 +31,3 @@ latent_trade_goods = {
 
 
 
-### Modified 31-03-2025 10:54:50 ###
