@@ -1,20 +1,33 @@
-#2033 - Savanaur+Hubli+Keladi+Dharwar
-owner = MYS
-controller = MYS
-culture = kannada
-religion = hinduism
-capital = "Dharwar"
-trade_goods = cotton
-base_tax = 4
-base_production = 4
-base_manpower = 3
-is_city = yes
+### Modified 31-03-2025 11:16:15 ###
+# Savanur
+# 2033 Savanur - 31-03-2025 11:16:15 
+ 
 add_core = BIJ
 add_core = KLN
 add_core = VIJ
+add_core = MYS
+owner = MYS
+controller = MYS
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = cotton
+
+culture = kannada
+religion = shaivism
+capital = "Dharwar"
+
+is_city = yes
+
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-add_core = MYS
+
+
+
+
+
+
