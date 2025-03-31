@@ -1,95 +1,156 @@
 ﻿l_english:
- SPA_seat_of_autocracy_title:0 "A Seat of Autocracy"
- SPA_seat_of_autocracy_desc:0 ""
+ SPA_seat_of_autocracy_title: "A Seat of Autocracy"
+ SPA_seat_of_autocracy_desc: ""
 
- SPA_seaworthiness_title:0 "Seaworthiness"
- SPA_seaworthiness_desc:0 ""
+ SPA_seaworthiness_title: "Seaworthiness"
+ SPA_seaworthiness_desc: ""
 
- SPA_heraclean_feats_title:0 "Heraclean Feats"
- SPA_heraclean_feats_desc:0 ""
+ SPA_heraclean_feats_title: "Heraclean Feats"
+ SPA_heraclean_feats_desc: ""
 
- SPA_healing_old_wounds_title:0 "Healing Old Wounds"
- SPA_healing_old_wounds_desc:0 ""
+ SPA_healing_old_wounds_title: "Healing Old Wounds"
+ SPA_healing_old_wounds_desc: ""
 
- SPA_a_global_age_title:0 "A New Global Age"
- SPA_a_global_age_desc:0 ""
+ SPA_a_global_age_title: "A New Global Age"
+ SPA_a_global_age_desc: ""
 
- SPA_mesogeia_title:0 "Mesogeia"
- SPA_mesogeia_desc:0 ""
+ SPA_mesogeia_title: "Mesogeia"
+ SPA_mesogeia_desc: ""
 
- SPA_third_siege_of_syracuse_title:0 "Third Siege of Syracuse"
- SPA_third_siege_of_syracuse_desc:0 ""
+ SPA_third_siege_of_syracuse_title: "Third Siege of Syracuse"
+ SPA_third_siege_of_syracuse_desc: ""
 
- SPA_cape_of_kerne_title:0 "The Cape of Kerne"
- SPA_cape_of_kerne_desc:0 ""
+ SPA_cape_of_kerne_title: "The Cape of Kerne"
+ SPA_cape_of_kerne_desc: ""
 
- SPA_gorillai_of_libya_title:0 "Gorillai of Libya"
- SPA_gorillai_of_libya_desc:0 ""
+ SPA_gorillai_of_libya_title: "Gorillai of Libya"
+ SPA_gorillai_of_libya_desc: ""
 
- SPA_libya_meridonalis_title:0 "Libya Meridonalis"
- SPA_libya_meridonalis_desc:0 ""
+ SPA_libya_meridonalis_title: "Libya Meridonalis"
+ SPA_libya_meridonalis_desc: ""
 
- SPA_port_of_santhibara_title:0 "The Port of Santhibara"
- SPA_port_of_santhibara_desc:0 ""
+ SPA_port_of_santhibara_title: "The Port of Santhibara"
+ SPA_port_of_santhibara_desc: ""
 
- SPA_taprobanan_expedition_title:0 "Taprobanan Expedition"
- SPA_taprobanan_expedition_desc:0 ""
+ SPA_taprobanan_expedition_title: "Taprobanan Expedition"
+ SPA_taprobanan_expedition_desc: ""
 
- SPA_last_port_of_call_title:0 "The Last Port of Call"
- SPA_last_port_of_call_desc:0 ""
+ SPA_last_port_of_call_title: "The Last Port of Call"
+ SPA_last_port_of_call_desc: ""
 
- SPA_fortunate_isles_title:0 "The Fortunate Isles"
- SPA_fortunate_isles_desc:0 ""
+ SPA_fortunate_isles_title: "The Fortunate Isles"
+ SPA_fortunate_isles_desc: ""
 
- SPA_terra_amazonia_title:0 "Terra Amazonia"
- SPA_terra_amazonia_desc:0 ""
+ SPA_terra_amazonia_title: "Terra Amazonia"
+ SPA_terra_amazonia_desc: ""
 
- SPA_kuthasian_colonization_title:0 "Kuthasian Colonization"
- SPA_kuthasian_colonization_desc:0 ""
+ SPA_kuthasian_colonization_title: "Kuthasian Colonization"
+ SPA_kuthasian_colonization_desc: ""
 
- SPA_paschia_borealis_title:0 "Paschia Borealis"
- SPA_paschia_borealis_desc:0 ""
+ SPA_paschia_borealis_title: "Paschia Borealis"
+ SPA_paschia_borealis_desc: ""
 
- SPA_heptarchal_hegemony_title:0 "Heptarchal Hegemony"
- SPA_heptarchal_hegemony_desc:0 ""
+ SPA_heptarchal_hegemony_title: "Heptarchal Hegemony"
+ SPA_heptarchal_hegemony_desc: ""
 
- SPA_balearic_unification_title:0 "Balearic Unification"
- SPA_balearic_unification_desc:0 ""
+ SPA_balearic_unification_title: "Balearic Unification"
+ SPA_balearic_unification_desc: ""
 
- SPA_southern_gothic_wars_title:0 "The Southern Gothic Wars"
- SPA_southern_gothic_wars_desc:0 ""
+ SPA_southern_gothic_wars_title: "The Southern Gothic Wars"
+ SPA_southern_gothic_wars_desc: ""
 
- SPA_lust_for_lusitania_title:0 "A Lust for Lusitania"
- SPA_lust_for_lusitania_desc:0 ""
+ SPA_lust_for_lusitania_title: "A Lust for Lusitania"
+ SPA_lust_for_lusitania_desc: ""
 
- SPA_hispania_tarraconensis_title:0 "Hispania Tarraconensis"
- SPA_hispania_tarraconensis_desc:0 ""
+ SPA_hispania_tarraconensis_title: "Hispania Tarraconensis"
+ SPA_hispania_tarraconensis_desc: ""
 
- SPA_push_into_gallia_title:0 "Push Into Gallia"
- SPA_push_into_gallia_desc:0 ""
+ SPA_push_into_gallia_title: "Push Into Gallia"
+ SPA_push_into_gallia_desc: ""
 
- SPA_italian_incursions_title:0 "Italian Incursions"
- SPA_italian_incursions_desc:0 ""
+ SPA_italian_incursions_title: "Italian Incursions"
+ SPA_italian_incursions_desc: ""
 
- SPA_african_incursions_title:0 "African Incursions"
- SPA_african_incursions_desc:0 ""
+ SPA_african_incursions_title: "African Incursions"
+ SPA_african_incursions_desc: ""
 
- SPA_the_mauretanians_title:0 "The Mauretanians"
- SPA_the_mauretanians_desc:0 ""
+ SPA_the_mauretanians_title: "The Mauretanians"
+ SPA_the_mauretanians_desc: ""
 
- SPA_limes_mauretanus_title:0 "Limes Mauretanus"
- SPA_limes_mauretanus_desc:0 ""
+ SPA_limes_mauretanus_title: "Limes Mauretanus"
+ SPA_limes_mauretanus_desc: ""
 
- SPA_africa_barbarorum_title:0 "Africa Barbarorum"
- SPA_africa_barbarorum_desc:0 ""
+ SPA_africa_barbarorum_title: "Africa Barbarorum"
+ SPA_africa_barbarorum_desc: ""
 
- SPA_carthago_novissima_title:0 "Carthago Novissima"
- SPA_carthago_novissima_desc:0 ""
+ SPA_carthago_novissima_title: "Carthago Novissima"
+ SPA_carthago_novissima_desc: ""
 
- SPA_exarchate_of_africa_title:0 "The Exarchate of Africa"
- SPA_exarchate_of_africa_desc:0 ""
+ SPA_exarchate_of_africa_title: "The Exarchate of Africa"
+ SPA_exarchate_of_africa_desc: ""
 
 
- coastal_iberian_provinces_tt:0 "If [BAE.GetName] is our §YFoederatus§!, every §Yhighlighted province§! will transfer to us. If it they are owned by us, we will gain cores on them."
- coastal_mauretanian_provinces_tt:0 "Every §Yhighlighted province§! owned by §Y[MUR.GetName]§! will gain a §Ydockyard§!. Every one owned by us will gain a core."
- mauretanian_trade_hubs_tt:0 "§Y[343.GetName]§!, §Y[344.GetName]§!, §Y[346.GetName]§!, and §Y[336.GetName]§! will have their trade buildings upgraded if owned by [MUR.GetName], and will gain cores if owned by us."
+ coastal_iberian_provinces_tt: "If [BAE.GetName] is our §YFoederatus§!, every §Yhighlighted province§! will transfer to us. If it they are owned by us, we will gain cores on them."
+ coastal_mauretanian_provinces_tt: "Every §Yhighlighted province§! owned by §Y[MUR.GetName]§! will gain a §Ydockyard§!. Every one owned by us will gain a core."
+ mauretanian_trade_hubs_tt: "§Y[343.GetName]§!, §Y[344.GetName]§!, §Y[346.GetName]§!, and §Y[336.GetName]§! will have their trade buildings upgraded if owned by [MUR.GetName], and will gain cores if owned by us."
+
+ # Modifiers
+
+ seat_of_spania: "Seat of Spania"
+ seaworthy_sailors: "Seaworthy Sailors"
+ gateway_to_the_seas: "Gateway to the Seas"
+ terra_amazonia: "Terra Amazonia"
+ europa_universalis: "Europa Universalis"
+ gallian_border: "Gallian Border"
+
+ # Events
+
+ fep_iberian_flavor.0.t: "The Matter of Baetica"
+ fep_iberian_flavor.0.d: "Ever since the Gothic wars in the north, Baetica has been ripe for the taking. But the question remains: what to do with the Baeticans?"
+ fep_iberian_flavor.0.a: "It's hopeless for those barbarians."
+ fep_iberian_flavor.0.b: "We'll civilize those Goths yet!"
+
+ fep_iberian_flavor.1.t: "The Bishop of Iria Flavia Makes an Offer"
+ fep_iberian_flavor.1.d: "As our soldiers approached the walls of [206.GetName] the local bishop from Iria Flavia approached our convoy by himself, panting and out of breath. He told the general that he had rushed to meet the army in hopes of brokering a deal with us. According to his story, the Lusitanian-appointed Duke of [GAL.GetName] had fled when he heard of our armies approaching, leaving the Bishop as the authority in the area. He said that if we allow him to reach the city before us, he can order the men of [GAL.GetName] to open their gates to us, and can even rally many of the other northern Iberians behind him."
+ fep_iberian_flavor.1.a: "Anything for a man of faith, even if he may be a heretic.."
+ fep_iberian_flavor.1.b: "Duke [GAL.Heir.GetName] has fled you say? To the stake with you, heretic!"
+
+ fep_iberian_flavor.2.t: "Crossing the Pyrenees"
+ fep_iberian_flavor.2.d: "Our council has devised the best way to deal with administration in Gaul is through..."
+ fep_iberian_flavor.2.a: "A client kingdom."
+ fep_iberian_flavor.2.b: "Direct rule."
+
+ fep_iberian_flavor.3.t: "At the Doors of Rome"
+ fep_iberian_flavor.3.d: "Italia has fallen under our grasp. What should we do with such distant lands?"
+ fep_iberian_flavor.3.a: "The Pope shall be made a part of the empire!"
+ fep_iberian_flavor.3.b: "The Pope has had so much power that it's gone to his head. We shall rule in Rome"
+
+ fep_iberian_flavor.4.t: "The Jews of Mauritania"
+ fep_iberian_flavor.4.d: "The Moroccan Jewry or Maroka'im have been in the region since the times of the ancient Carthaginian ports in the region, and grew quite numerous under the tolerant Mauri Empire. Now the local Rabbi in [344.GetName], Abraham, has requested that the Jews be granted semi-autonomous state in the region to guarantee their continued existence."
+ fep_iberian_flavor.4.a: "It's an offer we can't refuse."
+ fep_iberian_flavor.4.b: "A state is a tad excessive, but we can reaffirm your traditional freedoms under the Mauri."
+ fep_iberian_flavor.4.c: "...Do you take us for fools? Get out of our lands or be killed!"
+ fep_iberian_flavor.4.e: "What if we were to settle your people in the Fortunate Isles to our West?"
+
+ fep_iberian_flavor.5.t: "The Exarchate of Africa"
+ fep_iberian_flavor.5.d: "It's been more than three centuries since [341.GetName] was under Hellenic rule. Should we reestablish the old autocracy of Africa?"
+ fep_iberian_flavor.5.a: "Yes!"
+ fep_iberian_flavor.5.b: "No, our rule is better."
+
+ fep_iberian_flavor.6.t: "The East Indican Company"
+ fep_iberian_flavor.6.d: "The powerful Palaiologos family has approached our [Root.Monarch.GetTitle] with a proposition: allow the family's trading company to administer our holdings in the Far East"
+ fep_iberian_flavor.6.a.tt: "§Y[Root.GetName]§! releases the §YEtaria Anatolikon Indica§! in §YIndia§!.\n§YThe Etaria Anatolikon Indica§! becomes a §YCommercial Enterprise§! subject of §Y[Root.GetName]§!."
+ fep_iberian_flavor.6.a: "Let the company take control over our Indican affairs"
+ fep_iberian_flavor.6.b: "We can administrate Indica ourselves"
+ fep_iberian_flavor.6.c: "We will see how this company will fare..."
+
+ fep_iberian_flavor.7.t: "Maroka'im Flee from Pogrom"
+ fep_iberian_flavor.7.d: "Needless to say, the Jewry in Mauretania did not take too kindly to our treatment of them. As a response to our pogrom, renowned Jewish pirate Moses Cohen and his brother Abraham (the very same Rabbi that approached us on this matter in the first place) have organized a mass exodus of the Jews in our lands."
+ fep_iberian_flavor.7.a: "Where do they possibly think they will go?"
+ moroccan_jews_fleeing_tt: "The §YMaroka'im§! and §YSephardim§! in our lands will flee from our oppressive rule and sail to the West as far as their ships will take them..."
+ fep_iberian_flavor.7.b: "Goodbye and good riddance!"
+
+ fep_iberian_flavor.8.t: "Strangers at our Shores"
+ fep_iberian_flavor.8.d: "Strange ships have been sighted on our shores. Although they do not speak our language, they seem to have come from a long ways away. Anytime we try to ask who they are, they repeat the same two phrases: 'Epalhuam' and 'Etzlaol.'"
+ fep_iberian_flavor.8.a: "They may seek shelter in our lands"
+ fep_iberian_flavor.8.b: "Accept these newcomers with open arms!"

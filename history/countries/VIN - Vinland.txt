@@ -1,7 +1,7 @@
 government = theocracy
 primary_culture = vinlandic
 religion = norse_pagan_reformed
-technology_group = western
+technology_group = high_american
 capital = 370 #Rejkyavik
 government_rank = 1
 1299.12.24 = { 

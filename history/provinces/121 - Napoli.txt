@@ -1,19 +1,32 @@
-#121 - Napoli
+# Napoli
+# 121 Napoli - 3/30/2025 7:54:40 AM 
+ 
+add_core = NAP
 owner = NAP
 controller = NAP
-culture = neapolitan
-religion = west_orthodox
 base_tax = 8
 base_production = 8
-trade_goods = grain
 base_manpower = 6
+
+center_of_trade = 2
+trade_goods = grain
+extra_cost = 16
+
+culture = neapolitan
+religion = west_orthodox
 capital = "Napoli"
-is_city = yes# Estimated
-add_core = NAP
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
-fort_15th = yes
+
+
+
+
+
+
+### Modified 3/30/2025 7:54:40 AM ###

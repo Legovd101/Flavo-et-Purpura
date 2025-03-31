@@ -266,6 +266,9 @@ SPA_far_east = {
 				}
 				upgrade_production_building = yes
 			}
+			guinea_coast_area = {
+				add_permanent_claim = ROOT
+			}
 		} 
 	}
 
@@ -354,14 +357,22 @@ SPA_far_east = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = south_lanka_area
-				area = lanka_area
+				superregion = india_superregion
 			}
 		} 
 
-		trigger = {  } 
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				superregion = india_superregion
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			country_event = {
+				id = fep_iberian_flavor.6
+			}
+		} 
 	}
 }
 SPA_heptarchate = {
@@ -586,6 +597,7 @@ SPA_Iberia = {
 		}
 
 		effect = {
+			set_country_flag = can_establish_foederati
 			if = {
 				limit = { MJO = { ai = yes }  } 
 				create_march = MJO
@@ -597,7 +609,13 @@ SPA_Iberia = {
 					months = 300
 				}
 			}
-			country_event = { id = fep_iberian_flavor.0 } 
+			country_event = { id = fep_iberian_flavor.0 }
+			corsica_sardinia_area = {
+				add_permanent_claim = MJO
+			}
+			corsica_area = {
+				add_permanent_claim = MJO
+			}
 		}
 	}
 
@@ -918,11 +936,17 @@ SPA_africa = {
 		trigger = {
 			sus_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					is_empty = yes
+				}
 			}
 			tafilalt_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					is_empty = yes
+				}
 			}
 			marrekesh_area = {
 				type = all

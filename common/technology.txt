@@ -248,6 +248,10 @@ groups = {
 			value = 75
 		}
 	}
+	exile = {
+		start_level = 3
+		start_cost_modifier = 0.25
+	}
 }
 
 tables = {

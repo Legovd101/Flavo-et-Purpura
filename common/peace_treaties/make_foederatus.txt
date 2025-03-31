@@ -6,7 +6,7 @@ force_foederatus = {
 	ae_base = 1.0 # Base factor for ae, also scales with war score cost.
 	warscore_cost = {
 		# The cost of the treaty, decides which of the provinces' war score costs are used 
-		all_provinces = 0.0 # All the giver's provinces
+		all_provinces = 0.5 # All the giver's provinces
 		no_provinces = 1.0 # price for a single province of 1 war score cost, just a constant
 		owner_keeps = 0.0 # The provinces kept
 		conquered = 1.0 # Provinces that have been demanded by the taker

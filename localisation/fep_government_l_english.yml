@@ -59,6 +59,9 @@
  take_capital_federate: "Take the capital and establish their elite as our Foederatus"
  take_capital_federate_desc: "War goal is to take the capital."
 
+ exile: "Exile"
+ exile_desc: "With the Exile technology group, technology levels are 25% more expensive (125%)."
+
  # Subjects
  foederatus: "Foederatus"
  foederatus_long_desc: "Foederati were historically used by the Roman Empire to denote client kingdoms or subjugated barbarians. They can wage their own wars and have high liberty desire, and can be centralized via a steady series of reforms over the course of 85 years."
