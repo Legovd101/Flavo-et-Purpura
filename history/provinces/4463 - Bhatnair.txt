@@ -1,6 +1,6 @@
-### Modified 31-03-2025 15:57:54 ###
+### Modified 31-03-2025 16:26:58 ###
 # Bhatnair
-# 4463 Bhatnair - 31-03-2025 15:57:54 
+# 4463 Bhatnair - 31-03-2025 16:26:58 
  
 add_core = DLH
 add_core = MUL
@@ -14,7 +14,7 @@ base_manpower = 2
 trade_goods = livestock
 
 culture = rajput
-religion = vaishnavism
+religion = manichaean
 capital = "Bhatnair"
 
 is_city = yes

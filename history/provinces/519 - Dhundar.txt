@@ -1,6 +1,6 @@
-### Modified 31-03-2025 15:57:08 ###
+### Modified 31-03-2025 16:26:31 ###
 # Dhundar
-# 519 Dhundar - 31-03-2025 15:57:08 
+# 519 Dhundar - 31-03-2025 16:26:31 
  
 add_core = NTK
 owner = NTK
@@ -14,7 +14,7 @@ trade_goods = copper
 extra_cost = 8
 
 culture = rajput
-religion = shaivism
+religion = manichaean
 capital = "Amber"
 
 is_city = yes

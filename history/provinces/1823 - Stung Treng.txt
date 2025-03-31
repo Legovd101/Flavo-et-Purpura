@@ -1,14 +1,27 @@
-#1823 - Stung Treng
+### Modified 31-03-2025 16:16:26 ###
+# Stung Treng
+# 1823 Stung Treng - 31-03-2025 16:16:26 
+ 
+add_core = KHM
 owner = KHM
 controller = KHM
-culture = khmer
-religion = hinduism
-capital = "Stung Treng"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = khmer
+religion = shaivism
+capital = "Stung Treng"
+
 is_city = yes
-add_core = KHM
+
 discovered_by = chinese
 discovered_by = indian
+
+
+
+
+
+

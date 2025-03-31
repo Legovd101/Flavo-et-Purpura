@@ -1,18 +1,31 @@
-#544 - Ahmednagar
+### Modified 31-03-2025 16:40:30 ###
+# Ahmadnagar
+# 544 Ahmadnagar - 31-03-2025 16:40:30 
+ 
+add_core = AHM
+add_core = YDV
 owner = YDV
 controller = YDV
-culture = marathi
-religion = hinduism
-capital = "Ahmednagar"
-trade_goods = cotton
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = cotton
+
+culture = marathi
+religion = vaishnavism
+capital = "Ahmednagar"
+
 is_city = yes
-add_core = AHM
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-add_core = YDV
+
+
+
+
+
+

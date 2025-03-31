@@ -1,6 +1,6 @@
-### Modified 31-03-2025 11:11:20 ###
+### Modified 31-03-2025 16:30:50 ###
 # Kumari
-# 4410 Kumari - 31-03-2025 11:11:20 
+# 4410 Kumari - 31-03-2025 16:30:50 
  
 add_core = VND
 owner = VND
@@ -12,8 +12,8 @@ base_manpower = 2
 trade_goods = spices
 
 culture = malayalam
-religion = nestorian
-capital = "Kollam"
+religion = vaishnavism
+capital = "Kumari"
 
 is_city = yes
 

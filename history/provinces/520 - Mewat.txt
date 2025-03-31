@@ -1,6 +1,6 @@
-### Modified 31-03-2025 16:03:50 ###
+### Modified 31-03-2025 16:26:45 ###
 # Mewat
-# 520 Mewat - 31-03-2025 16:03:50 
+# 520 Mewat - 31-03-2025 16:26:45 
  
 add_core = NTK
 owner = NTK
@@ -12,7 +12,7 @@ base_manpower = 2
 trade_goods = glass
 
 culture = rajput
-religion = vaishnavism
+religion = manichaean
 capital = "Alwar"
 
 is_city = yes

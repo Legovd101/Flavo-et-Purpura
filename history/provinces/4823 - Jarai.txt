@@ -1,16 +1,29 @@
-#2375 - Tay Nguyen
+### Modified 31-03-2025 16:16:08 ###
+# Jarai
+# 4823 Jarai - 31-03-2025 16:16:08 
+ 
+add_core = KHM
 owner = KHM
 controller = KHM
-culture = cham
-religion = hinduism
-capital = "Jarai"
-trade_goods = tea
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = tea
+
+culture = cham
+religion = shaivism
+capital = "Jarai"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = KHM
+
+
+
+
+
+

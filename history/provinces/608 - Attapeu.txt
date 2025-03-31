@@ -1,14 +1,28 @@
+### Modified 31-03-2025 16:16:19 ###
+# Attapeu
+# 608 Attapeu - 31-03-2025 16:16:19 
+ 
+add_core = CHK
+add_core = KHM
 owner = KHM
 controller = KHM
-culture = lao
-religion = hinduism
-capital = "Attapeu"
-trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = ivory
+
+culture = lao
+religion = shaivism
+capital = "Attapeu"
+
 is_city = yes
-add_core = CHK
+
 discovered_by = chinese
 discovered_by = indian
-add_core = KHM
+
+
+
+
+
+
