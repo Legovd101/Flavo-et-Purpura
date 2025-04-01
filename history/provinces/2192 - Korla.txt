@@ -1,10 +1,10 @@
-### Modified 01-04-2025 20:10:30 ###
+### Modified 01-04-2025 21:54:10 ###
 # Korla
-# 2192 Korla - 01-04-2025 20:10:30 
+# 2192 Korla - 01-04-2025 21:54:10 
  
-add_core = KRC
-owner = KRC
-controller = KRC
+add_core = TCR
+owner = TCR
+controller = TCR
 base_tax = 1
 base_production = 1
 base_manpower = 2

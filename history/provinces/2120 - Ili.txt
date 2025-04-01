@@ -1,10 +1,10 @@
-### Modified 01-04-2025 20:09:03 ###
+### Modified 01-04-2025 21:46:56 ###
 # Ili
-# 2120 Ili - 01-04-2025 20:09:03 
+# 2120 Ili - 01-04-2025 21:46:56 
  
-add_core = KRC
-owner = KRC
-controller = KRC
+add_core = TCR
+owner = TCR
+controller = TCR
 base_tax = 2
 base_production = 2
 base_manpower = 3

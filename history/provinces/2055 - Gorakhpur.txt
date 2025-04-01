@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:06:07 ###
 # Gorakhpur
-# 2055 Gorakhpur - 31-03-2025 16:06:07 
+# 2055 Gorakhpur - 01-04-2025 21:43:44 
  
 add_core = NTK
 owner = NTK
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 01-04-2025 21:43:44 ###

@@ -1,10 +1,10 @@
-### Modified 01-04-2025 20:11:37 ###
+### Modified 01-04-2025 21:52:29 ###
 # Turpan
-# 4207 Turpan - 01-04-2025 20:11:37 
+# 4207 Turpan - 01-04-2025 21:52:29 
  
-add_core = KRC
-owner = KRC
-controller = KRC
+add_core = TCR
+owner = TCR
+controller = TCR
 base_tax = 3
 base_production = 3
 base_manpower = 2

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 13:02:20 ###
-# Fathabad
-# 4475 Fathabad - 31-03-2025 13:02:20 
+# Kotalipura
+# 4475 Kotalipura - 01-04-2025 21:41:58 
  
 add_core = BNG
 owner = BNG
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 01-04-2025 21:41:58 ###

@@ -1,10 +1,10 @@
-### Modified 01-04-2025 20:11:21 ###
+### Modified 01-04-2025 21:48:36 ###
 # Urumqi
-# 715 Urumqi - 01-04-2025 20:11:21 
+# 715 Urumqi - 01-04-2025 21:48:36 
  
-add_core = KRC
-owner = KRC
-controller = KRC
+add_core = TCR
+owner = TCR
+controller = TCR
 base_tax = 2
 base_production = 2
 base_manpower = 3

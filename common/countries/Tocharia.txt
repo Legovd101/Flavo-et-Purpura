@@ -1,0 +1,172 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 255  199  6 }
+revolutionary_colors = { 10  0  5 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = { 
+	chinese_longspear
+	eastern_bow
+	chinese_footsoldier
+	chinese_steppe
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	manchu_banner
+	han_banner
+	asian_musketeer
+	chinese_dragoon
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+	reformed_manchu_rifle
+}
+monarch_names = {
+	"Asoke #0" = 30
+	"Ype #0" = 30
+	"Yiswe #0" = 30
+	"Hariscandre #0" = 20
+	"Dharma #0" = 10
+	"Ptompile #0" = 30
+	"Skanatatte #0" = 15
+	"Alp #0" = 20
+	"Anktsas #0" = 10
+	"Angui #0 Wäl" = 10
+	"Kanishka #0 Wäl" = 50
+	"Arslan #0" = 10
+	"Milinder #0" = 10
+	"Harshavardhana #0" = 5
+	"Heraios" = 10
+	"Vasmana #0" = 10
+	"Ekasrinke #0" = 10
+	"Etrise #0" = 10
+	"Gaye #0" = 10
+	"Cowaske #0" = 10
+	"Citre #0" = 10
+	"Caracate #0" = 10
+	"Devarakste #0" = 10
+	"Kadike #0" = 0
+	"Samcite #0" = 0
+	"Tukik #0" = 0
+	"Tusi #0" = 0
+	"Yase #0" = 0
+	"Wamsok #0" = 0
+	"Ype #0" = 0
+	"Some #0" = 0
+	"Uposathe #0" = 0
+	"Wrauske #0" = 0
+	"Yanayase #0" = 0
+	"Yonge #0" = 0
+	"Murdhagate #0" = 0
+	"Ganishka #0" = 0
+	"Kujula #0" = 0
+	"Kujula Kadphises #0" = 30
+	"Kujula Kasa #0" = 0
+	"Sapadbizes #0" = 5
+	"Sapalbizes #0" = 0
+	"Sapaleizis #0" = 0
+	"Miaos #0" = 0
+	"Heraus #0" = 0
+	"Maou #0" = 0
+	"Ilou #0" = 0
+	"Heraos #0" = 0
+	"Liaka #0" = 10
+	"Liaka Kusulaka #0" = 0
+	"Liako Kusuluko #0" = 0
+	"Liako #0" = 0
+	"Ryaka #0" = 0
+	"Kuzulaka #0" = 0
+	"Patika #0" = 5
+	"Patiko #0" = 0
+	"Padika #0" = 0
+	"Patika Kusulaka #0" = 0
+	"Patiko Kusuluko #0" = 0
+	"Jihonika #0" = 0
+	"Zeionises #0" = 10
+	"Jihunia #0" = 0
+	"Jihonyaka #0" = 0
+	"Manigula #0" = 0
+	"Sadashkana #0" = 0
+	"Vima #0" = 0
+	"Vima Takhto #0" = 10
+	"Vema #0" = 0
+	"Vema Takho #0" = 0
+	"Vima Kadphises #0" = 0
+	"Vima Kalpisa #0" = 0
+	"Sodasa #0" = 0
+	"Sudasa #0" = 0
+	"Kaneske #0" = 0
+	"Huvishka #0" = 10
+	"Huveska #0" = 0
+	"Vasudeva #0" = 10
+	"Vasishka #0" = 0
+	"Vajheska #0" = 0
+	"Vaskushana #0" = 0
+	"Shaka #0" = 0
+	"Vasu #0" = 0
+	"Kipunada #0" = 0
+	"Kipanadha #0" = 0
+	"Mahi #0" = 0
+	"Suvarnapushpa #0" = 10
+	"Swarnabuspe #0" = 30
+	"Ysassa a Pyapyo #0" = 5
+	"Suvarnadeva #0" = 0
+	"Swarnatepe #0" = 0
+	"Haripuspa #0" = 10
+	"Nali #0" = 10
+	
+	
+	
+	"Arunavati #0" = -1
+	"Aryakose #0" = -1
+	"Sari #0" = -1
+	"Vasisthe #0" = -1
+	"Tati #0" = -1
+	"Roce #0" = -1
+	"Yasodhara #0" = -1
+	"Maya #0" = -1
+	"Kamuia #0" = -1
+	"Kamuia Ayasa #0" = -1
+}
+
+leader_names = {
+	Arslam
+	Astawi
+	Arjune
+	Yiswe
+	Sudas
+	Indra
+	Gaya
+	Nanda
+	Ptompile
+	Ksmate
+	Rahule
+}
+
+ship_names = {
+	Kroraina Ytarim Ypoy Ytarypoy
+	Ytarimpoy Buddha Wäl Kasake
+	Yarkam "Lop Nor" Kuci Cadota Keriya
+	Karghalik Kumtag Mingoi Kunlyu
+	Urabo Bharuka Arsi Yopurga Yüni Jemotwona
+	Khotan Artux Turtam Ytary
+	Sramana Navapa Stupa Xuanzang Kushan "Kanishka the Great" 
+	Yuezhi "Kujula Kadphises" Milinder Ashoka Harshavardhana 
+	Bodhisattava Dinara Heraios Taklamakan Qäwrighul
+	Xiaohe Tita "Siddhartha Gautama" Endere Mani Nirvana
+	"Cozbo Samasena" Tomgraka Tajaka Amgvaka Mahiri
+	Vasmana Angui Weituqi An Guang "You Huan" "Yuan Meng"
+	Xiumito Bilong Zhenda Jumo Cherchen Faxian Sita 
+	Gandhara Kusi Agni Andir Kumarajiva Kizil Bezeklik
+}

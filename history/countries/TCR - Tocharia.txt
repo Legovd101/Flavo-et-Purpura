@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = chinese
+primary_culture = agneyan
+add_accepted_culture = kucheyan
+religion = manichaean
+capital = 715
+
+
+
+1291.8.15 = {
+	monarch = {
+		name = "Sapadbizes"
+		dynasty = "Kushano"
+		birth_date = 1277.9.2
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}

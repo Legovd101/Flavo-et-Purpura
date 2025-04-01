@@ -1,19 +1,31 @@
-#4512 - Bharuch/Broach
+### Modified 01-04-2025 21:41:30 ###
+# Bharuch
+# 4512 Bharuch - 01-04-2025 21:41:30 
+ 
+add_core = JLV
 owner = JLV
 controller = JLV
-culture = gujarati
-religion = hinduism
-capital = "Bharuch"
-trade_goods = silk#Silk
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = silk
+
+culture = gujarati
+religion = hinduism
+capital = "Bharukaccha"
+
 is_city = yes
-add_jains_or_burghers_effect = yes
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 discovered_by = east_african
-add_core = JLV
+
+
+
+
+
+
