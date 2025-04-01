@@ -1,14 +1,27 @@
-# 2121 - Kuqa
+### Modified 01-04-2025 20:11:07 ###
+# Kuqa
+# 2121 Kuqa - 01-04-2025 20:11:07 
+ 
+add_core = KRC
 owner = KRC
 controller = KRC
-culture = uyghur
-religion = manichaean
-capital = "Kuqa"
-trade_goods = gold
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = gold
+
+culture = kucheyan
+religion = vajrayana
+capital = "Kuqa"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = KRC
+
+
+
+
+
+

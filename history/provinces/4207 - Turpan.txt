@@ -1,14 +1,27 @@
-#X2 - Turpan
-owner = KRC# ruled by a Chagataiid 
+### Modified 01-04-2025 20:11:37 ###
+# Turpan
+# 4207 Turpan - 01-04-2025 20:11:37 
+ 
+add_core = KRC
+owner = KRC
 controller = KRC
-culture = uyghur
-religion = nestorian
-capital = "Balikul"
-trade_goods = wine
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = wine
+
+culture = agneyan
+religion = manichaean
+capital = "Balikul"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = KRC
+
+
+
+
+
+

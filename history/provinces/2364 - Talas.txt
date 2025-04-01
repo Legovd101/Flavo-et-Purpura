@@ -1,15 +1,22 @@
-# 2364 - Talas
+### Modified 01-04-2025 20:03:23 ###
+# Talas
+# 2364 Talas - 01-04-2025 20:03:23 
+ 
+add_core = CHG
 owner = CHG
 controller = CHG
-add_core = CHG
-culture = kirgiz
-religion = manichaean
-capital = "Talas"
-trade_goods = iron
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = iron
+
+culture = chagatai
+religion = manichaean
+capital = "Talas"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = indian
 discovered_by = ottoman
@@ -17,3 +24,9 @@ discovered_by = nomad_group
 discovered_by = CHG
 discovered_by = OIR
 discovered_by = KAS
+
+
+
+
+
+

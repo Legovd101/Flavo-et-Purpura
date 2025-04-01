@@ -1,14 +1,27 @@
-#715 - Urumqi
+### Modified 01-04-2025 20:11:21 ###
+# Urumqi
+# 715 Urumqi - 01-04-2025 20:11:21 
+ 
+add_core = KRC
 owner = KRC
 controller = KRC
-culture = uyghur
-religion = nestorian
-capital = "Urumqi"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = grain
+
+culture = agneyan
+religion = manichaean
+capital = "Urumqi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = KRC
+
+
+
+
+
+

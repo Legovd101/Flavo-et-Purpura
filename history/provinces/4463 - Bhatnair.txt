@@ -1,6 +1,6 @@
-### Modified 31-03-2025 16:26:58 ###
+### Modified 01-04-2025 20:13:23 ###
 # Bhatnair
-# 4463 Bhatnair - 31-03-2025 16:26:58 
+# 4463 Bhatnair - 01-04-2025 20:13:23 
  
 add_core = DLH
 add_core = MUL
@@ -13,7 +13,7 @@ base_manpower = 2
 
 trade_goods = livestock
 
-culture = rajput
+culture = indoturkic
 religion = manichaean
 capital = "Bhatnair"
 

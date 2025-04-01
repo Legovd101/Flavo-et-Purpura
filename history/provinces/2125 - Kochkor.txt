@@ -1,16 +1,29 @@
-# 2125 - Kochkor
+### Modified 01-04-2025 20:04:01 ###
+# Kochkor
+# 2125 Kochkor - 01-04-2025 20:04:01 
+ 
+add_core = CHG
 owner = CHG
 controller = CHG
-add_core = CHG
-culture = kirgiz
-religion = manichaean
-capital = "Kochkor"
-trade_goods = wool
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = wool
+
+culture = chagatai
+religion = manichaean
+capital = "Kochkor"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
+
+
+
+
+
+

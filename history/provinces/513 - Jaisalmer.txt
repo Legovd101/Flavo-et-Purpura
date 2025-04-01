@@ -1,6 +1,6 @@
-### Modified 31-03-2025 16:27:10 ###
+### Modified 01-04-2025 20:13:14 ###
 # Jaisalmer
-# 513 Jaisalmer - 31-03-2025 16:27:10 
+# 513 Jaisalmer - 01-04-2025 20:13:14 
  
 add_core = SND
 owner = SND
@@ -11,7 +11,7 @@ base_manpower = 1
 
 trade_goods = wool
 
-culture = rajput
+culture = indoturkic
 religion = manichaean
 capital = "Jaisalmer"
 
