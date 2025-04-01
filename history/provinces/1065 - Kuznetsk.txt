@@ -1,19 +1,31 @@
-#1065 - Kuznetsk
-latent_trade_goods = { 
-	coal 
-}
-culture = kirgiz
-religion = tengri_pagan_reformed
-capital = "Kuznetsk"
-trade_goods = unknown
-base_tax = 1
-base_production = 1
-base_manpower = 1
-native_size = 10
-native_ferocity = 1
-native_hostileness = 3
-discovered_by = nomad_group
-is_city = no
+### Modified 01-04-2025 21:44:51 ###
+# Kuznetsk
+# 1065 Kuznetsk - 01-04-2025 21:44:51 
+ 
 add_core = OIR
 owner = OIR
 controller = OIR
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+
+culture = ostyaki
+religion = tengri_pagan_reformed
+capital = "Kuznetsk"
+
+native_size = 10
+native_ferocity =  1
+native_hostileness = 3
+
+discovered_by = nomad_group
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+

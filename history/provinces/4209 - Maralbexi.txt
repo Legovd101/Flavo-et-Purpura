@@ -1,15 +1,28 @@
-#4209 - Maralbexi
+### Modified 01-04-2025 21:23:17 ###
+# Maralbexi
+# 4209 Maralbexi - 01-04-2025 21:23:17 
+ 
+add_core = CHG
 owner = CHG
 controller = CHG
-culture = uyghur
-religion = manichaean
-capital = "Maralbexi"
-trade_goods = wool
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = wool
+
+culture = kucheyan
+religion = manichaean
+capital = "Maralbexi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-add_core = CHG
+
+
+
+
+
+

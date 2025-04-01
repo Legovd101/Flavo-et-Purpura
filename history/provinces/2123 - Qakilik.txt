@@ -1,10 +1,10 @@
-### Modified 01-04-2025 20:11:50 ###
+### Modified 01-04-2025 21:52:58 ###
 # Qakilik
-# 2123 Qakilik - 01-04-2025 20:11:50 
+# 2123 Qakilik - 01-04-2025 21:52:58 
  
-add_core = KRC
-owner = KRC
-controller = KRC
+add_core = TCR
+owner = TCR
+controller = TCR
 base_tax = 1
 base_production = 1
 base_manpower = 2

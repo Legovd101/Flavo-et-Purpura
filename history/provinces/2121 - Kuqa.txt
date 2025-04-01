@@ -1,10 +1,10 @@
-### Modified 01-04-2025 20:11:07 ###
+### Modified 01-04-2025 21:55:16 ###
 # Kuqa
-# 2121 Kuqa - 01-04-2025 20:11:07 
+# 2121 Kuqa - 01-04-2025 21:55:16 
  
-add_core = KRC
-owner = KRC
-controller = KRC
+add_core = TCR
+owner = TCR
+controller = TCR
 base_tax = 2
 base_production = 2
 base_manpower = 3

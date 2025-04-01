@@ -1,6 +1,5 @@
-### Modified 31-03-2025 12:24:38 ###
 # Satgaon
-# 4477 Satgaon - 31-03-2025 12:24:38 
+# 4477 Satgaon - 01-04-2025 21:42:18 
  
 add_core = BNG
 owner = BNG
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 01-04-2025 21:42:18 ###

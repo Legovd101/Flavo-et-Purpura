@@ -1,17 +1,30 @@
-# 2124 - Yarkand
+### Modified 01-04-2025 21:25:12 ###
+# Yarkand
+# 2124 Yarkand - 01-04-2025 21:25:12 
+ 
+add_core = KHI
 owner = KHI
 controller = KHI
-culture = uyghur
-religion = manichaean
-capital = "Yarkant"
-trade_goods = wool
 base_tax = 3
 base_production = 2
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = wool
+extra_cost = 8
+
+culture = chagatai
+religion = manichaean
+capital = "Yarkant"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-extra_cost = 8
-center_of_trade = 1
-add_core = KHI
+
+
+
+
+
+
