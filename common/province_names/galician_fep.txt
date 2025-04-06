@@ -1,0 +1,73 @@
+## GENERAL LINGUISTIC RULES FOR GALLAECIAN TOPONYMS
+## https://conlang.fandom.com/wiki/Galeiga Used for ideas since no major lexicon for Gallaecian exists
+## Celtic Roots:
+## "-ach" --> "-ag"
+## Ibero-Romance Roots:
+## "ci/ç" --> "x"
+## "s" --> "z"
+## "o" --> "u"
+## "v" --> "f"
+
+# Spain
+206 = {"Gacluñag" "Gacluñag"}
+4554 = {"Lugenza" "Lugenza"}
+4558 = {"Burgu" "Burgu"}
+4555 = {"Bunfidaíra" "Bunfidaíra"}
+232 = {"Bríanxa" "Bríanxa"}
+231 = {"Bagbáia" "Bagbáia"}
+4556 = {"Abíra" "Abíra"}
+1851 = {"Cúnbríaga" "Cúnbríaga"}
+228 = {"Miña" "Miña"}
+227 = {"Lixíbuna" "Lixíbuna"}
+4787 = {"Ortellu" "Ortellu"}
+4150 = {"Eburaga" "Eburaga"}
+229 = {"Agústatref" "Agústatref"}
+230 = {"Conetetref" "Conetetref"}
+216 = {"Salmanca" "Salmanca"}
+4553 = {"Durotref" "Durotref"}
+208 = {"Legatref" "Legatref"}
+207 = {"Aísturitref" "Aísturitref"}
+215 = {"Faíliz Tolit" "Faíliz Tolit"}
+4552 = {"Paelenza" "Paelenza"}
+1745 = {"Cantaburatref" "Cantaburatref"}
+1746 = {"Bríag" "Bríag"}
+209 = {"Fixcalla" "Fixcalla"}
+210 = {"Basgatref" "Basgatref"}
+2989 = {"Rilloxa" "Rilloxa"}
+4788 = {"Blezenxa" "Blezenxa"}
+1747 = {"Caxeíra" "Caxeíra"}
+218 = {"Maírida" "Maírida"}
+4548 = {"Onuba" "Onuba"}
+224 = {"Azibaílla" "Azibaílla"}
+1749 = {"Cadeír" "Cadeír"}
+225 = {"Cortúba" "Cortúba"}
+1748 = {"Illaína" "Illaína"}
+226 = {"Carteílla" "Carteílla"}
+4546 = {"Meílac" "Meílac"}
+223 = {"Maínaca" "Maínaca"}
+222 = {"Bidaera" "Bidaera"}
+221 = {"Mórton" "Mórton"}
+4547 = {"Lebaxa" "Lebaxa"}
+2751 = {"Aírcafa" "Aírcafa"}
+219 = {"Doletún" "Doletún"}
+2754 = {"Rígadref" "Rígadref"}
+1750 = {"Lugant" "Lugant"}
+4549 = {"Xetifa" "Xetifa"}
+220 = {"Faílinxa" "Faílinxa"}
+4550 = {"Caeridún" "Caeridún"}
+4551 = {"Baíla" "Baíla"}
+217 = {"Magetorit" "Magetorit"}
+4789 = {"Segobría" "Segobría"}
+2755 = {"Duratref" "Duratref"}
+4557 = {"Baílibis" "Baílibis"}
+2990 = {"Iturboleta" "Iturboleta"}
+214 = {"Salduíe" "Salduíe"}
+211 = {"Baelscan" "Baelscan"}
+2988 = {"Taírexonag" "Taírexonag"}
+213 = {"Barxeno" "Barxeno"}
+2987 = {"Uírgaíla" "Uírgaíla"}
+212 = {"Gerundún" "Gerundún"}
+197 = {"Ruxino" "Ruxino"}
+4560 = {"Faízza" "Faízza"}
+333 = {"Maíllorc" "Maíllorc"}
+4559 = {"Minúra" "Minúra"}

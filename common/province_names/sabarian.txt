@@ -12,7 +12,6 @@
 4553 = {"Shamula" "Shamula"}
 208 = {"Legbalíga" "Legbalíga"}
 207 = {"Asubóda" "Asubóda"}
-215 = {"Balabalíga" "Balabalíga"}
 4552 = {"Palencha" "Palencha"}
 215 = {"Carmana" "Carmana"} # Old Turkic "Karman" (castle)
 1745 = {"Centabóda" "Centabóda"}
@@ -26,6 +25,7 @@
 4555 = {"Betrabalíga" "Betrabalíga"}
 232 = {"Pregancha" "Pregancha"}
 231 = {"Purta" "Purta"}
+1851 = {"Conimpra" "Conimpra"}
 4556 = {"Abera" "Abera"}
 228 = {"Amenja" "Amenja"}
 227 = {"Lishpona" "Lishpona"}
