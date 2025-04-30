@@ -716,4 +716,12 @@ spriteTypes = {
 		name = "GFX_diplomacy_amimperial_province"
 		texturefile = "gfx//interface//icon_diplomacy_amimperial_province.dds"
 	}
+	spriteType = {
+		name = "GFX_diplomacy_lead_wine_region"
+		texturefile = "gfx//interface//icon_diplomacy_lead_wine_region.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amwine_region"
+		texturefile = "gfx//interface//icon_diplomacy_amwine_region.dds"
+	}
 }

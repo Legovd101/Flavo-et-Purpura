@@ -1,5 +1,6 @@
 #418 - Diyarbakir
 owner = KAR
+add_core = KAR
 controller = KAR
 culture = syriac
 religion = orthodox
@@ -17,5 +18,4 @@ discovered_by = eastern
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
-add_core = KAR
 fort_15th = yes

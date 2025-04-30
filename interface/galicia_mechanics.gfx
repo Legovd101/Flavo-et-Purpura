@@ -1,0 +1,16 @@
+spriteTypes = {
+	#Galician Vineyards
+	spriteType = {
+        name = "GFX_plant_new_vineyards"
+        textureFile = "gfx//interface/galician_wine_gui/establish_local_vineyards_button.dds"
+    }
+	spriteType = {
+        name = "GFX_sell_vineyards"
+        textureFile = "gfx//interface/galician_wine_gui/sell_local_vineyards_button.dds"
+    }
+	spriteType = {
+        name = "GFX_purchase_vineyards"
+        textureFile = "gfx//interface/galician_wine_gui/purchase_local_vineyards_button.dds"
+    }
+	
+}

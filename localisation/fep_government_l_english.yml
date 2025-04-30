@@ -79,10 +79,17 @@
 
  imperial_province: "Imperial Province"
  imperial_province_long_desc: "An Imperial Province is the final stage of development of an Imperial subject. They take up a diplomatic slot at the tradeoff of much less liberty desire and an ability to be annexed after 10 years."
- imperial_province_is_our: "$NAME|Y$ is a Colonia of us"
+ imperial_province_is_our: "$NAME|Y$ is an Imperial Province of us"
  imperial_province_title: "Imperial Province"
  imperial_province_title_plural: "Imperial Provinces"
  is_imperial_province: "Is Imperial Province"
+
+ wine_region: "Wine Region:"
+ wine_region_long_desc: "Each Wine Region is governed by a main Winery in the capital, and is responsible for the production of grapes and wine in their respective areas."
+ wine_region_is_our: "$NAME|Y$ is a Wine Region of us"
+ wine_region_title: "Wine Region"
+ wine_region_title_plural: "Wine Regions"
+ is_wine_region: "Is Wine Region"
 
  # Diplomacy
  request_colonia: "Request Colonia"

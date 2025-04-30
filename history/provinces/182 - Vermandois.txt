@@ -10,7 +10,6 @@ base_production = 5
 trade_goods = livestock
 base_manpower = 4
 #fort_15th = yes
-add_core = CHP
 add_core = PIC
 discovered_by = eastern
 discovered_by = western

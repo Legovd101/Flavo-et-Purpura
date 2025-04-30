@@ -71,3 +71,21 @@
 4560 = {"Faízza" "Faízza"}
 333 = {"Maíllorc" "Maíllorc"}
 4559 = {"Minúra" "Minúra"}
+
+# Non-Iberian
+118 = { "Rúyma" "Rúyma" }
+1247 = { "Faísxa" "Faísxa" }
+5157 = { "Faíxu" "Faíxu" }
+5012 = { "Tiranu" "Tiranu" }
+127 = { "Saxara" "Saxara" }
+4735 = { "Tarus" "Tarus" }
+2986 = { "Caíller" "Caíller" }
+
+151 = { "Xitade Custana" "Xitade Custana" }
+316 = { "Taímada" "Taímada" }
+5035 = { "Caína" "Caína" }
+163 = { "Xitade Aírclis" "Xitade Aírclis" }
+320 = { "Rúd" "Rúd" }
+321 = { "Xaíprús" "Xaíprús" }
+5034 = { "Famicús" "Famicús" }
+5165 = { "Laránca" "Laránca" }

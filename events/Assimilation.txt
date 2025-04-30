@@ -143,3 +143,97 @@ province_event = {
 
 }
 
+
+# African Resurgence
+province_event = {
+	id = cultural_flavor.4
+	title = cultural_flavor.4.t
+	desc = cultural_flavor.4.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = { culture = african_greek }
+		region = maghreb_region
+		owner = {
+			OR = {
+				has_country_flag = african_culture_spreading
+				overlord = {
+					has_country_flag = african_culture_spreading
+				}
+			}
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		change_culture = african_greek
+	}
+
+}
+
+
+# Sipeeni Divergence
+province_event = {
+	id = cultural_flavor.5
+	title = cultural_flavor.5.t
+	desc = cultural_flavor.5.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = { culture = yorubo_spanish }
+		region = iberia_region
+		owner = {
+			mission_completed = ben_owa_panyanan
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		change_culture = yorubo_spanish
+	}
+
+}
+
+# Kola Divergence
+province_event = {
+	id = cultural_flavor.6
+	title = cultural_flavor.6.t
+	desc = cultural_flavor.6.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = { culture = yorubo_gallian }
+		region = iberia_region
+		owner = {
+			mission_completed = ben_kola_company
+		}
+		nationalism = 0
+		is_core = owner
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		change_culture = yorubo_gallian
+	}
+
+}
+

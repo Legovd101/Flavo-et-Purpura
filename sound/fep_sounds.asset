@@ -1,0 +1,4 @@
+sound = {
+	name = religion_sangrist
+	file = "tab_religion_sangrist.wav"
+}

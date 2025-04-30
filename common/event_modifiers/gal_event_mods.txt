@@ -1,0 +1,54 @@
+seat_of_iria_flavia = {
+	local_missionary_strength = -0.02
+	local_unrest = -2
+	defensiveness = 0.05
+}
+
+# Wine Wank
+bregantine_vineyards = {
+	local_prosperity_growth = 0.05
+	local_production_efficiency = 0.2
+}
+recently_planted = {
+	local_development_cost_modifier = 1.0
+	local_production_efficiency = -1.0
+}
+locally_owned_vineyards = {
+	min_local_autonomy = 0.25
+	local_build_cost = -0.15
+	nobles_loyalty_modifier = 0.01
+}
+state_owned_vineyards = {
+	local_development_cost_modifier = -0.25
+	local_governing_cost = 0.15
+	local_production_efficiency = 0.1
+}
+
+# Missions
+making_room = {
+	land_forcelimit = 5
+	legitimacy = 1
+	build_cost = -0.05
+
+}
+estate_backing = {
+	all_estate_loyalty_equilibrium = 0.15
+	all_estate_influence_modifier = 0.10
+}
+estates_cowed = {
+	all_estate_loyalty_equilibrium = -0.15
+	all_estate_influence_modifier = -0.10
+}
+a_colony_once_more = {
+	local_unrest = -5.0
+	local_production_efficiency = 0.25
+	local_development_cost_modifier = -0.05
+}
+revitalized_wineries = {
+	local_autonomy = -0.01
+	local_production_efficiency = 0.25
+}
+far_western_wine = {
+	global_colonial_growth = 15
+	colony_development_boost = 1
+}

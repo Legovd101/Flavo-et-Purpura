@@ -14,3 +14,7 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 add_core = GAL
+add_permanent_province_modifier = {
+	name = bregantine_vineyards
+	duration = -1
+}

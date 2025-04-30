@@ -1,7 +1,6 @@
 #1225 - Butana
 owner = ETH
 controller = ETH
-add_core = ABB
 culture = nubian
 religion = coptic
 capital = "Qarri"

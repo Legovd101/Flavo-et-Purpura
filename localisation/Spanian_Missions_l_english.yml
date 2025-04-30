@@ -128,9 +128,8 @@
  fep_iberian_flavor.4.t: "The Jews of Mauritania"
  fep_iberian_flavor.4.d: "The Moroccan Jewry or Maroka'im have been in the region since the times of the ancient Carthaginian ports in the region, and grew quite numerous under the tolerant Mauri Empire. Now the local Rabbi in [344.GetName], Abraham, has requested that the Jews be granted semi-autonomous state in the region to guarantee their continued existence."
  fep_iberian_flavor.4.a: "It's an offer we can't refuse."
- fep_iberian_flavor.4.b: "A state is a tad excessive, but we can reaffirm your traditional freedoms under the Mauri."
- fep_iberian_flavor.4.c: "...Do you take us for fools? Get out of our lands or be killed!"
- fep_iberian_flavor.4.e: "What if we were to settle your people in the Fortunate Isles to our West?"
+ fep_iberian_flavor.4.b: "...Do you take us for fools? Get out of our lands or be killed!"
+ fep_iberian_flavor.4.c: "What if we were to settle your people in the Fortunate Isles to our West?"
 
  fep_iberian_flavor.5.t: "The Exarchate of Africa"
  fep_iberian_flavor.5.d: "It's been more than three centuries since [341.GetName] was under Hellenic rule. Should we reestablish the old autocracy of Africa?"

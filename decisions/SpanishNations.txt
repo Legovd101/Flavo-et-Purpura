@@ -85,6 +85,15 @@ country_decisions = {
 				duration = 7300
 			}
 			set_country_flag = formed_hispania_flag
+			if = {
+				limit = { has_country_flag = wine_wank }
+				every_subject_country = {
+					limit = { is_subject_of_type = wine_region }
+					change_country_color = {
+						color = { 184 82 86 }
+					}
+				}
+			}
 		# if = {
 		# 		limit = { 
 		# 			has_custom_ideas = no

@@ -3,7 +3,6 @@
 # 318 Thrakesion - 01-04-2025 21:35:56 
  
 add_core = TRP
-add_core = AYD
 add_core = BYZ
 owner = BYZ
 controller = BYZ

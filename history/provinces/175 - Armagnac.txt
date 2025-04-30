@@ -10,7 +10,6 @@ base_production = 5
 trade_goods = wool
 base_manpower = 5
 add_local_autonomy = 25
-add_core = AMG
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

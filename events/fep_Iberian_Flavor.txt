@@ -276,27 +276,8 @@ country_event = {
 		}
 	}
 
-	option = { # Soft No (High Autonomy & Conversion Debuffs)
-		name = fep_iberian_flavor.4.b
-		add_treasury = 125
-		344 = {
-			add_local_autonomy = 60
-			add_province_modifier = {
-				name = heresy
-				duration = 3650
-			}
-		}
-		2470 = {
-			add_local_autonomy = 60
-			add_province_modifier = {
-				name = heresy
-				duration = 3650
-			}
-		}
-	}
-
 	option = { # Hard No (Pogrom Expels to Hispaniola, Unrest and Devastation)
-		name = fep_iberian_flavor.4.c
+		name = fep_iberian_flavor.4.b
 		every_province = {
 			limit = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -320,7 +301,7 @@ country_event = {
 	}
 
 	option = { # Canarias Compromise (Republic of Qanaria)
-		name = fep_iberian_flavor.4.e
+		name = fep_iberian_flavor.4.c
 		trigger = {
 			366 = { is_empty = yes }
 			4565 = { is_empty = yes }
@@ -1358,3 +1339,297 @@ country_event = {
 
 }
 
+# The Grand Feast in [Root.Capital.GetName]
+country_event = {
+	id = fep_iberian_flavor.9
+	title = fep_iberian_flavor.9.t
+	desc = fep_iberian_flavor.9.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # "H..Help.. me..."
+		name = fep_iberian_flavor.9.a
+		country_event = {
+			id = fep_iberian_flavor.10
+			days = 10
+		}
+	}
+
+}
+
+# The King recovers from his coma!
+country_event = {
+	id = fep_iberian_flavor.10
+	title = fep_iberian_flavor.10.t
+	desc = fep_iberian_flavor.10.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # By His blood, we shall be made pure!
+		name = fep_iberian_flavor.10.a
+		change_religion = sangrist
+		capital_scope = {
+			change_religion = sangrist
+		}
+		custom_tooltip = vineyard_mechanics_activated_tt
+		hidden_effect = {
+			set_country_flag = wine_wank
+			every_owned_province = {
+				random_list = {
+					50 = {
+						change_religion = sangrist
+					}
+					50 = {
+						add_province_modifier = {
+							name = "heresy"
+							duration = 3650
+						}
+					}
+				}
+				if = {
+					limit = {
+						trade_goods = wine
+					}
+					add_province_modifier = {
+						name = state_owned_vineyards
+						duration = -1
+					}
+				}
+			}
+		}
+		swap_non_generic_missions = yes
+		add_country_modifier = {
+			name = conversion_zeal
+			duration = 7300
+		}
+	}
+
+}
+
+# Wine Region Assignment Event
+province_event = {
+	id = fep_iberian_flavor.11
+	title = fep_iberian_flavor.11.t
+	desc = fep_iberian_flavor.11.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = fep_iberian_flavor.11.a
+		trigger_switch = {
+			on_trigger = area
+			western_morocco_area = { cede_province = SLE }
+			northern_morocco_area = { cede_province = SLE }
+			marrekesh_area = { cede_province = SLE }
+
+			hautes_plaines_area = { cede_province = ALG }
+			algiers_area = { cede_province = ALG }
+			barbary_coast_area = { cede_province = ALG }
+
+			tunisia_area = { cede_province = TUN }
+			kabylia_area = { cede_province = TUN }
+			djerba_area = { cede_province = TUN }
+			
+			tripolitania_area = { cede_province = TGT }
+			fezzan_area = { cede_province = TGT }
+			cyrenaica_area = { cede_province = TGT }
+			
+			delta_area = { cede_province = ABB }
+			bahari_area = { cede_province = ABB }
+			gulf_of_arabia_area = { cede_province = ABB }
+			
+			vostani_area = { cede_province = MAK }
+			said_area = { cede_province = MAK }
+			lower_nubia_area = { cede_province = MAK }
+			
+			palestine_area = { cede_province = LEB }
+			syria_area = { cede_province = LEB }
+			lebanon_area = { cede_province = LEB }
+			
+			cilicia_area = { cede_province = RAM }
+			aleppo_area = { cede_province = RAM }
+			dulkadir_area = { cede_province = RAM }
+			
+			pyrenees_area = { cede_province = AMG }
+			guyenne_area = { cede_province = AMG }
+			poitou_area = { cede_province = AMG }
+			
+			languedoc_area = { cede_province = TOU }
+			provence_area = { cede_province = TOU }
+			savoy_dauphine_area = { cede_province = TOU }
+			
+			brittany_area = { cede_province = ORL }
+			normandy_area = { cede_province = ORL }
+			loire_area = { cede_province = ORL }
+			
+			picardy_area = { cede_province = CHP }
+			ile_de_france_area = { cede_province = CHP }
+			champagne_area = { cede_province = CHP }
+			
+			massif_central_area = { cede_province = BOU }
+			orleans_area = { cede_province = BOU }
+			west_burgundy_area = { cede_province = BOU }
+			
+			bourgogne_area = { cede_province = NEV }
+			lorraine_area = { cede_province = NEV }
+			
+			liguria_area = { cede_province = LUC }
+			piedmont_area = { cede_province = LUC }
+			lombardy_area = { cede_province = LUC }
+			
+			po_valley_area = { cede_province = FER }
+			emilia_romagna_area = { cede_province = FER }
+			venetia_area = { cede_province = FER }
+			
+			tuscany_area = { cede_province = URB }
+			central_italy_area = { cede_province = URB }
+			lazio_area = { cede_province = URB }
+			
+			apulia_area = { cede_province = PGA }
+			naples_area = { cede_province = PGA }
+			calabria_area = { cede_province = PGA }
+			
+			sicily_area = { cede_province = SIC }
+			western_sicily_area = { cede_province = SIC }
+			calabria_area = { cede_province = SIC }
+			
+			carinthia_area = { cede_province = PSS }
+			slavonia_area = { cede_province = PSS }
+			
+			croatia_area = { cede_province = HRZ }
+			bosnia_area = { cede_province = HRZ }
+			east_adriatic_coast_area = { cede_province = HRZ }
+			
+			serbia_area = { cede_province = TRA }
+			rascia_area = { cede_province = TRA }
+			albania_area = { cede_province = TRA }
+			
+			northern_greece_area = { cede_province = FEO }
+			macedonia_area = { cede_province = FEO }
+			strymon_area = { cede_province = FEO }
+			
+			thrace_area = { cede_province = MEN }
+			hudavendigar_area = { cede_province = MEN }
+			
+			aegean_archipelago_area = { cede_province = NAX }
+			central_greece = { cede_province = NAX }
+
+			morea_area = { cede_province = KNI }
+			peloponnese_area = { cede_province = KNI }
+			ionian_islands_area = { cede_province = KNI }
+			
+			aydin_area = { cede_province = AYD }
+			germiyan_area = { cede_province = AYD }
+			pamphylia_area = { cede_province = AYD }
+			
+			ankara_area = { cede_province = ERE }
+			karaman_area = { cede_province = ERE }
+			rum_area = { cede_province = ERE }
+			
+		}
+		every_country = {
+			limit = {
+				is_subject = no
+				exists = yes
+				OR = {
+					tag = ERE
+					tag = AYD
+					tag = NAX
+					tag = MEN
+					tag = FEO
+					tag = TRA
+					tag = HRZ
+					tag = PSS
+					tag = SIC
+					tag = PGA
+					tag = URB
+					tag = FER
+					tag = LUC
+					tag = NEV
+					tag = BOU
+					tag = CHP
+					tag = ORL
+					tag = TOU
+					tag = AMG
+					tag = RAM
+					tag = LEB
+					tag = MAK
+					tag = ABB
+					tag = TGT
+					tag = TUN
+					tag = ALG
+					tag = SLE
+					tag = KNI
+				}
+			}
+			GAL = {
+				create_subject = {
+					subject_type = wine_region
+					who = PREV
+				}
+			}
+			change_religion = sangrist
+			capital_scope = {
+				owner = {
+					change_primary_culture = PREV
+					set_consort_culture = PREV
+					set_heir_culture = PREV
+					set_ruler_culture = PREV
+				}
+			}
+			if = {
+				limit = {
+					GAL = { exists = yes has_country_flag = wine_wank }
+				}
+				change_country_color = {
+					color = { 212 88 13 }
+				}
+			}
+			else_if = {
+				limit = {
+					ISP = { exists = yes has_country_flag = wine_wank }
+				}
+				change_country_color = {
+					color = { 184 82 86 }
+				}
+			}
+			else_if = {
+				limit = {
+					RWE = { exists = yes has_country_flag = wine_wank }
+				}
+				change_country_color = {
+					country = RWE
+				}
+			}
+		}
+	} 
+
+}
+
+# An Empire of Red and White
+country_event = {
+	id = fep_iberian_flavor.12
+	title = fep_iberian_flavor.12.t
+	desc = fep_iberian_flavor.12.d
+	picture = EMPEROR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # By His blood, we have been made pure!
+		name = fep_iberian_flavor.12.a
+		
+		change_tag = RWE
+		restore_country_name_effect = yes
+		every_subject_country = {
+			limit = { is_subject_of_type = wine_region }
+			change_country_color = {
+				country = RWE
+			}
+		}
+	}
+
+}

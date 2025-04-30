@@ -1,0 +1,135 @@
+﻿l_english:
+ GAL_new_capital_title: "A New Capital"
+ GAL_new_capital_desc: ""
+
+ GAL_portus_perrum_title: "Portus Perrum"
+ GAL_portus_perrum_desc: ""
+
+ GAL_ports_and_forts_title: "Ports and Forts"
+ GAL_ports_and_forts_desc: ""
+
+ GAL_bribing_powerholders_title: "Bribing the Powerholders"
+ GAL_bribing_powerholders_desc: ""
+
+ GAL_coastal_dominance_title: "Coastal Dominance"
+ GAL_coastal_dominance_desc: ""
+
+ GAL_subsidize_vineyards_title: "Subsidize the Vineyards"
+ GAL_subsidize_vineyards_desc: ""
+
+ GAL_southernmost_sellers_title: "Southernmost Sellers"
+ GAL_southernmost_sellers_desc: ""
+
+ GAL_seaward_bound_title: "Seaward-Bound"
+ GAL_seaward_bound_desc: ""
+
+ GAL_foreign_markets_title: "Foreign Markets"
+ GAL_foreign_markets_desc: ""
+
+ GAL_punic_pulp_title: "Punic Pulp"
+ GAL_punic_pulp_desc: ""
+
+ GAL_unsalting_carthage_title: "Unsalting Carthage"
+ GAL_unsalting_carthage_desc: ""
+
+ GAL_asturias_to_alexandria_title: "Asturias to Alexandria"
+ GAL_asturias_to_alexandria_desc: ""
+
+ GAL_fields_of_phoenicia_title: "Fields of Phoenicia"
+ GAL_fields_of_phoenicia_desc: ""
+
+ GAL_friends_in_high_places_title: "Friends in High Places"
+ GAL_friends_in_high_places_desc: ""
+
+ GAL_free_at_last_title: "Free at Last"
+ GAL_free_at_last_desc: ""
+
+ GAL_bregantine_exports_title: "Bregantine Exports"
+ GAL_bregantine_exports_desc: ""
+
+ GAL_centralizing_royal_cellars_title: "Centralizing the Royal Cellars"
+ GAL_centralizing_royal_cellars_desc: ""
+
+ GAL_neustrian_novelties_title: "Neustrian Novelties"
+ GAL_neustrian_novelties_desc: ""
+
+ GAL_roma_rubra_title: "Roma Rubra"
+ GAL_roma_rubra_desc: ""
+
+ GAL_syracusan_reach_title: "Syracusan Reach"
+ GAL_syracusan_reach_desc: ""
+
+ GAL_home_of_western_wine_title: "Home of Western Wine"
+ GAL_home_of_western_wine_desc: ""
+
+ GAL_empire_of_red_and_white_title: "An Empire of Red and White"
+ GAL_empire_of_red_and_white_desc: ""
+
+ GAL_fully_functioning_title: "Fully Functioning Fleet"
+ GAL_fully_functioning_desc: ""
+
+ GAL_hispania_terracava_title: "Hispania Terracavensis"
+ GAL_hispania_terracava_desc: ""
+
+ GAL_gallaecian_gallia_title: "Gallaecian Gallia"
+ GAL_gallaecian_gallia_desc: ""
+
+ GAL_genovan_grandeur_title: "Genovan Grandeur"
+ GAL_genovan_grandeur_desc: ""
+
+ GAL_illyria_alba_title: "Illyria Alba"
+ GAL_illyria_alba_desc: ""
+
+ GAL_thracian_finest_title: "Thracian Finest"
+ GAL_thracian_finest_desc: ""
+
+ GAL_residual_resins_title: "Residual Resins"
+ GAL_residual_resins_desc: ""
+
+ GAL_asian_incursions_title: "Asian Incursions"
+ GAL_asian_incursions_desc: ""
+
+ GAL_for_any_possibility_title: "For Any Possibility"
+ GAL_for_any_possibility_desc: ""
+
+ GAL_land_of_wine_title: "The Far Land of Wine"
+ GAL_land_of_wine_desc: ""
+
+ planting_vineyards_will_cost_tt: "Planting new vineyards in [Root.GetName] will cost §Y5§! ducats per level of §YBase Production§!."
+ plant_new_fields_tt: "Plant new vineyards in [Root.GetName]"
+ purchased_in_last_ten_years_tt: "[Root.GetName] cannot have been purchased in the last 10 years."
+ sold_in_last_ten_years_tt: "[Root.GetName] cannot have been sold in the last 10 years."
+ buying_vineyards_will_cost_tt: "Purchasing the vineyards in [Root.GetName] will cost §Y11§! ducats per level of §YBase Production§!."
+ selling_vineyards_profit_tt: "Selling the vineyards in [Root.GetName] will net us §Y10§! ducats per level of §YBase Production§!."
+ vineyard_mechanics_activated_tt: "In the province view, we will now be able to buy, sell, and plant vineyards. \nAny wine-producing province currently owned by us or planted by us in the future will start as state-owned, while any province conquered by us in the future wil start as locally-owned."
+ fortified_provinces_will_gain_workshop_tt: "Every owned province with a workshop and at least §Y10 Base Production§! will gain a workshhop."
+ moroccan_ports_tt: "Every owned province with a shipyard will have its shipyard upgraded and §Y5§! provinces in the mission's area will gain a shipyard."
+ at_least_50_percent_wine_state_owned_tt: "At least §Y50%§! of all wine-producing provinces owned by us or our non-sovereign subjects must be state-owned! (Currently: §Y[ROOT.wine_percentage_check.GetValue]%§!)"
+ can_plant_two_vineyards_per_state_tt: "We'll now be able to plant §Y2§! vineyards per area instead of just 1!"
+ will_gain_accepted_iberians_tt: "We will accept every §YIberian§! and §YVasconic§! culture within our borders!"
+ every_area_has_one_wine_producing_province_tt: "Every area we completely control should have at least §Y1§! wine-producing province!"
+ centralized_royal_cellars_tt: "Has centralized the royal cellars"
+
+ # Modifiers
+
+ recently_planted: "Recently Planted"
+ state_owned_vineyards: "State-Owned Vineyards"
+ locally_owned_vineyards: "Locally-Owned Vineyards"
+ making_room: "Making Room"
+ estate_backing: "Estate Backing"
+ estates_cowed: "Estates Cowed"
+ a_colony_once_more: "A Colony Once More"
+
+ # Events
+
+ fep_iberian_flavor.9.t: "The Grand Feast in [Root.Capital.GetName]"
+ fep_iberian_flavor.9.d: "To celebrate our newly-gained freedom, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has decided to hold a grand feast in [Root.Capital.GetName]. However, when raising the final toast, disaster struck as the wine the [Root.Monarch.GetTitle] drank caused [Root.Monarch.GetHerHim] to begin shaking violently before falling out of [Root.Monarch.GetHerHis] seat!"
+ fep_iberian_flavor.9.a: ""H..Help.. me...""
+
+ fep_iberian_flavor.10.t: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] wakes up from [Root.Monarch.GetHerHis] coma!"
+ fep_iberian_flavor.10.d: "After a tense few days, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has woken up from [Root.Monarch.GetHerHis] unconscious state, claiming to have been sent a vision from God Himself! According to the vision, when Jesus referred to His cup of wine as His Blood at the last supper, he wasn't just making a metaphor, but was in fact blessing all grapes and the wine they produced! \n While many in the clergy have denounced this supposed vision as heretical, many in the alchemical crowd have claimed that the properties found in wine confirm [Root.Monarch.GetTitle] [Root.Monarch.GetName]'s vision, and that [Root.Monarch.GetHerHim] has in fact attained gnosis. Needless to say, massive changes have already been taken to ensure the spread of this new "Sangrist" sect."
+ fep_iberian_flavor.10.a: "By His Blood, we shall be made pure!"
+
+ fep_iberian_flavor.12.t: "An Empire of Red and White"
+ fep_iberian_flavor.12.d: "Rome is ours. Constantinople is ours. From [206.GetName] to [364.GetName], the original vision set out all those years ago has finally come to fruition, allowing us to raise a final toast to our efforts."
+ fep_iberian_flavor.12.a: "By His Blood, we have been made pure!"

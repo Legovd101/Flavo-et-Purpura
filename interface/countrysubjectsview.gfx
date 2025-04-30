@@ -873,4 +873,9 @@ spriteTypes = {
 	   texturefile = "gfx/interface/imperial_province_icon.dds"
 	}
 
+	spriteType = {
+		name = "GFX_subject_wine_region"
+	   texturefile = "gfx/interface/wine_region_icon.dds"
+	}
+
 }

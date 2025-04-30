@@ -10,7 +10,6 @@ trade_goods = wool
 base_manpower = 2
 add_core = FOI
 add_core = GUY
-add_core = AMG
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

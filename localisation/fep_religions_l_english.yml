@@ -18,6 +18,16 @@
  lutetian_rebels_name: "$RELIGION$ Zealots"
  lutetian_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  lutetian_rebels_army: "$RELIGION$ Army"
+ 
+ #Sangrist
+ sangrist: "Sangrist"
+ sangrist_religion_desc: "Birthed from the enlightened mind of the Gaílizan king, who after drinking a bad batch of Albariño wine, fell unconscious, and upon awakening claimed to have divine revelation. This new revelation would mix with the verious Christian sects of Iberia and most notably Hermeticism, and birthed Sangrism. The Sangrist faithful believe that to partake in the drinking of wine is to drink the literal blood of God, and that his spirit blessed all grapes at the last supper. Practicioners engage in the sacramental consumption of wine under the belief that intoxication from sacred wine thins the veil betwen the physical and the pleroma, leading to anamnesis or awakening (like the king did). They also believe that the production of wine is a devine act, and so the countryside is dotted with monastic vineyards."
+ sangrist_rebels_demand: "Convert $COUNTRYNAME$"
+ sangrist_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ sangrist_rebels_title: "Religious"
+ sangrist_rebels_name: "$RELIGION$ Zealots"
+ sangrist_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ sangrist_rebels_army: "$RELIGION$ Army"
 
  #Nestorian
  nestorian: "Nestorian"

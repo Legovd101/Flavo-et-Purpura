@@ -1,5 +1,6 @@
 #2308 - Urfa
 owner = KAR
+add_core = KAR
 controller = KAR
 culture = syriac
 religion = orthodox
@@ -16,4 +17,3 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = indian
-add_core = KAR

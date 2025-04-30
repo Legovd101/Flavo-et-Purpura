@@ -32,12 +32,17 @@
 
  cilicia_area: "Cilicia"
  cilicia_area_adj: "Cilician"
+ pamphylia_area: "Pamphylia"
+ pamphylia_area_adj: "Pamphylian"
  cyprus_area: "Cyprus"
  cyprus_area_adj: "Cypriote"
  strymon_area: "Strymon"
  strymon_area_adj: "Strymian"
  watusa_area: "Watusa"
  watusa_area_adj: "Watusan"
+
+ maghreb_region: "Africa"
+ maghreb_region_ADJ: "African"
 
  # Trade Goods
  steel: "Steel"

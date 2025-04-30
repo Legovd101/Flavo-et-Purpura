@@ -1,0 +1,1331 @@
+GAL_subject_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+	} 
+
+	GAL_new_capital = {
+		icon = spa_new_capital
+		position = 2
+		provinces_to_highlight = { is_capital_of = ROOT } 
+
+		trigger = {
+			capital_scope = {
+				grown_by_development = 10
+				num_of_buildings_in_province = 1
+			}
+			grown_by_development = 20
+		} 
+
+		effect = {
+			add_country_modifier = {
+				name = making_room
+				duration = 9125
+			}
+		} 
+	}
+}
+GAL_wine_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+		has_country_flag = wine_wank
+	} 
+
+	GAL_portus_perrum = {
+		icon = mission_portuguese_interference
+		position = 5
+		required_missions = { GAL_coastal_dominance } 
+		provinces_to_highlight = {
+			OR = {
+				area = beieras_area
+				area = alentejo_area
+				area = extremadura_area
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+			}
+			NOT = { owned_by = ROOT }
+		} 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 16
+				OR = {
+					area = beieras_area
+					area = alentejo_area
+					area = extremadura_area
+					area = lower_andalucia_area
+					area = upper_andalucia_area
+				}
+			}
+		} 
+
+		effect = {
+			random_owned_province = {
+				limit = {
+					has_port = yes
+					NOT = {
+						has_shipyard_building_trigger = yes
+					}
+				}
+				upgrade_shipyard_building = yes
+			}
+			random_owned_province = {
+				limit = {
+					has_port = yes
+					NOT = {
+						has_shipyard_building_trigger = yes
+					}
+				}
+				upgrade_shipyard_building = yes
+			}
+		} 
+	}
+
+	GAL_ports_and_forts = {
+		icon = capture_adriatic_ports
+		position = 6
+		required_missions = { GAL_portus_perrum } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 4
+				has_fort_building_trigger = yes
+				base_production = 10
+			}
+		} 
+
+		effect = {
+			custom_tooltip = fortified_provinces_will_gain_workshop_tt
+			hidden_effect = {
+				while = {
+					limit = {
+						any_owned_province = {
+							has_fort_building_trigger = yes
+							base_production = 10
+							NOT = { has_trade_building_trigger = yes }
+						}
+					}
+					upgrade_trade_building = yes
+				}
+			}
+			marrekesh_area = {
+				add_permanent_claim = ROOT
+			}
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+}
+GAL_subject_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+	} 
+
+	GAL_bribing_powerholders = {
+		icon = sway_the_pope
+		position = 2
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			OR = {
+				AND = {
+					estate_loyalty = {
+						estate = all
+						loyalty = 50
+					}
+					estate_influence = {
+						estate = all
+						influence = 50
+					}
+				}
+				crown_land_share = 50
+			}
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = all
+						loyalty = 50
+					}
+					estate_influence = {
+						estate = all
+						influence = 50
+					}
+				}
+				add_country_modifier = {
+					name = estate_backing
+					duration = 9125
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = estates_cowed
+					duration = 9125
+				}
+			}
+		} 
+	}
+}
+GAL_wine_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+		has_country_flag = wine_wank
+	} 
+
+	GAL_coastal_dominance = {
+		icon = crusader_fleet
+		position = 4
+		required_missions = { GAL_free_at_last } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			capital_scope = {
+				is_strongest_trade_power = ROOT
+			}
+		} 
+
+		effect = {
+			add_country_modifier = {
+				name = trade_investment
+				duration = 5475
+			}
+			beieras_area = {
+				add_permanent_claim = ROOT
+			}
+			alentejo_area = {
+				add_permanent_claim = ROOT
+			}
+			extremadura_area = {
+				add_permanent_claim = ROOT
+			}
+			lower_andalucia_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	GAL_subsidize_vineyards = {
+		icon = ned_in_flanders_fields
+		position = 5
+		required_missions = { GAL_coastal_dominance } 
+		provinces_to_highlight = {
+			region = iberia_region
+			trade_goods = wine
+		} 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 6
+				region = iberia_region
+				base_production = 10
+				base_tax = 10
+			}
+		} 
+
+		effect = {
+			every_owned_province = {
+				limit = {
+					region = iberia_region
+					base_production = 10
+					base_tax = 10	
+				}
+				upgrade_production_building = yes
+				upgrade_tax_building = yes
+			}
+		} 
+	}
+
+	GAL_southernmost_sellers = {
+		icon = mission_moroccan_ports
+		position = 7
+		required_missions = {
+			GAL_centralizing_royal_cellars
+			GAL_ports_and_forts
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = marrekesh_area
+				area = northern_morocco_area
+				area = western_morocco_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = marrekesh_area
+					area = northern_morocco_area
+					area = western_morocco_area
+				}
+			}
+		} 
+
+		effect = {
+			custom_tooltip = moroccan_ports_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_port = yes
+						has_shipyard_building_trigger = yes
+					}
+					upgrade_shipyard_building = yes
+				}
+				while = {
+					limit = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 5
+								OR = {
+									area = marrekesh_area
+									area = northern_morocco_area
+									area = western_morocco_area
+								}
+								has_port = yes
+								has_shipyard_building_trigger = yes
+							}
+						}
+					}
+					random_province = {
+						limit = {
+							country_or_non_sovereign_subject_holds = ROOT
+							OR = {
+								area = marrekesh_area
+								area = northern_morocco_area
+								area = western_morocco_area
+							}
+							has_port = yes
+							NOT = {
+								has_shipyard_building_trigger = yes
+							}
+						}
+						upgrade_shipyard_building = yes
+					}
+				}
+			}
+		} 
+	}
+
+	GAL_seaward_bound = {
+		icon = byz_greek_fire
+		position = 8
+		required_missions = { GAL_southernmost_sellers } 
+		provinces_to_highlight = { has_port = yes country_or_non_sovereign_subject_holds = ROOT } 
+
+		trigger = {
+			navy_size_percentage = 1
+			baleares_area = {
+				type = all
+				owned_by = ROOT
+			}
+		} 
+
+		effect = {
+			barbary_coast_area = {
+				add_permanent_claim = ROOT
+			}
+			algiers_area = {
+				add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	GAL_foreign_markets = {
+		icon = mission_market_place_with_asian_traders
+		position = 9
+		required_missions = { GAL_seaward_bound } 
+		provinces_to_highlight = {
+			OR = {
+				area = barbary_coast_area
+				area = algiers_area
+				area = hautes_plaines_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 9
+				OR = {
+					area = barbary_coast_area
+					area = algiers_area
+					area = hautes_plaines_area
+				}
+			}
+		} 
+
+		effect = {
+			kabylia_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+			djerba_area = {
+				add_permanent_claim = ROOT
+			}
+			random_province = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+					OR = {
+						area = barbary_coast_area
+						area = algiers_area
+						area = hautes_plaines_area
+					}
+					NOT = { trade_goods = wine }
+				}
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+			}
+		} 
+	}
+
+	GAL_punic_pulp = {
+		icon = mission_conquer_tunisia
+		position = 10
+		required_missions = { GAL_foreign_markets } 
+		provinces_to_highlight = {
+			OR = {
+				area = kabylia_area
+				area = tunisia_area
+				area = djerba_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 9
+				OR = {
+					area = kabylia_area
+					area = tunisia_area
+					area = djerba_area
+				}
+			}
+			341 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			kabylia_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+			djerba_area = {
+				add_permanent_claim = ROOT
+			}
+			341 = {
+				add_core = owner
+			}
+		} 
+	}
+
+	GAL_unsalting_carthage = {
+		icon = africa_proconsulare
+		position = 12
+		required_missions = { GAL_punic_pulp } 
+		provinces_to_highlight = { province_id = 341 } 
+
+		trigger = {
+			341 = {
+				num_of_units_in_province = {
+					amount = 20
+					who = ROOT
+				}
+				num_of_times_improved_by_owner = 3
+			}
+			manpower_percentage = 0.75
+
+		} 
+
+		effect = {
+			341 = {
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+				add_permanent_province_modifier = {
+					name = a_colony_once_more
+					duration = -1
+				}
+				add_manufactory = yes
+				add_base_manpower = 2
+				add_base_production = 2
+				add_base_tax = 2
+			}
+			maghreb_region = {
+				add_permanent_claim = ROOT
+			}
+			egypt_region = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	GAL_asturias_to_alexandria = {
+		icon = mission_conquer_alexandria
+		position = 13
+		required_missions = { GAL_unsalting_carthage } 
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				region = egypt_region
+			}
+			358 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			cyprus_area = {
+				add_permanent_claim = ROOT
+			}
+			palestine_area = {
+				add_permanent_claim = ROOT
+			}
+			syria_area = {
+				add_permanent_claim = ROOT
+			}
+			lebanon_area = {
+				add_permanent_claim = ROOT
+			}
+			aleppo_area = {
+				add_permanent_claim = ROOT
+			}
+			358 = {
+				add_core = owner
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+				add_permanent_province_modifier = {
+					name = revitalized_wineries
+					duration = -1
+				}
+			}
+		} 
+	}
+
+	GAL_fields_of_phoenicia = {
+		icon = mission_levantine_restoration
+		position = 14
+		required_missions = { GAL_asturias_to_alexandria } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			palestine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lebanon_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			syria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			LEB = {
+				add_country_modifier = {
+					name = BYZ_eastern_flank_3
+					duration = 9125
+				}
+			}
+			RAM = {
+				add_country_modifier = {
+					name = BYZ_eastern_flank_3
+					duration = 9125
+				}
+			}
+		} 
+	}
+}
+GAL_subject_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+	} 
+
+	GAL_friends_in_high_places = {
+		icon = friends_in_high_places
+		position = 1
+		provinces_to_highlight = { is_capital = yes } 
+
+		trigger = {
+			calc_true_if = {
+				amount = 2
+				any_country = {
+					is_supporting_independence_of = ROOT
+				}
+			}
+		} 
+
+		effect = {  } 
+	}
+
+	GAL_free_at_last = {
+		icon = mission_assert_control_over_delhi
+		position = 3
+		required_missions = {
+			GAL_fully_functioning
+			GAL_friends_in_high_places
+			GAL_bribing_powerholders
+			GAL_new_capital
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			is_subject = no
+			is_at_war = no
+		} 
+
+		effect = {
+			country_event = {
+				id = fep_iberian_flavor.9
+			}
+		} 
+	}
+}
+GAL_wine_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+		has_country_flag = wine_wank
+	} 
+
+	GAL_bregantine_exports = {
+		icon = mission_dominate_home_trade_node
+		position = 4
+		required_missions = { GAL_free_at_last } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			capital_scope = {
+				num_of_buildings_in_province = 2
+			}
+			OR = {
+				has_idea_group = trade_ideas
+				has_idea_group = offensive_ideas
+			}
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					has_idea_group = trade_ideas
+				}
+				add_country_modifier = {
+					name = trade_investment
+					duration = 7300
+				}
+			}
+			if = {
+				limit = {
+					has_idea_group = offensive_ideas
+				}
+				add_country_modifier = {
+					name = offensive_modifier
+					duration = 7300
+				}
+			}
+			leon_area = {
+				add_permanent_claim = ROOT
+			}
+			castille_area = {
+				add_permanent_claim = ROOT
+			}
+			asturias_area = {
+				add_permanent_claim = ROOT
+			}
+			basque_country = {
+				add_permanent_claim = ROOT
+			}
+			aragon_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	GAL_centralizing_royal_cellars = {
+		icon = mission_wine_monopolies
+		position = 6
+		required_missions = {
+			GAL_portus_perrum
+			GAL_hispania_terracava
+		}
+		provinces_to_highlight = { country_or_non_sovereign_subject_holds = ROOT trade_goods = wine } 
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = at_least_50_percent_wine_state_owned_tt
+				check_variable = {
+					which = wine_percentage_check
+					value = 50
+				}
+			}
+		} 
+
+		effect = {
+			custom_tooltip = can_plant_two_vineyards_per_state_tt
+			hidden_effect = {
+				set_country_flag = expanded_wine_production
+			}
+			pyrenees_area = {
+				add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+				add_permanent_claim = ROOT
+			}
+			guyenne_area = {
+				add_permanent_claim = ROOT
+			}
+			massif_central_area = {
+				add_permanent_claim = ROOT
+			}
+			provence_area = {
+				add_permanent_claim = ROOT
+			}
+			savoy_dauphine_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	GAL_neustrian_novelties = {
+		icon = mission_order_in_the_domain
+		position = 8
+		required_missions = { GAL_gallaecian_gallia } 
+		provinces_to_highlight = { region = france_region } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 55
+				region = france_region
+			}
+		} 
+
+		effect = {
+			183 = {
+				add_permanent_province_modifier = {
+					name = prospering_production
+				}
+			}
+		} 
+	}
+
+	GAL_roma_rubra = {
+		icon = sway_the_pope
+		position = 10
+		required_missions = { GAL_genovan_grandeur } 
+		provinces_to_highlight = { province_id = 118 } 
+
+		trigger = { 118 = { owned_by = ROOT } } 
+
+		effect = {
+			118 = {
+				add_core = ROOT
+				add_permanent_province_modifier = {
+					name = revitalized_wineries
+					duration = -1
+				}
+			}
+		} 
+	}
+
+	GAL_syracusan_reach = {
+		icon = arb_sicily
+		position = 11
+		required_missions = { GAL_roma_rubra } 
+		provinces_to_highlight = { region = italy_region NOT = { country_or_non_sovereign_subject_holds = ROOT } } 
+
+		trigger = {
+			italy_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			western_sicily_area = { upgrade_trade_building = yes }
+			sicily_area = { upgrade_trade_building = yes }
+		} 
+	}
+
+	GAL_home_of_western_wine = {
+		icon = reclaim_the_aegean
+		position = 13
+		required_missions = { GAL_thracian_finest } 
+		provinces_to_highlight = {
+			OR = {
+				area = peloponnese_area
+				area = morea_area
+			}
+		} 
+
+		trigger = {
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			peloponnese_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			morea_area = { upgrade_trade_building = yes }
+			peloponnese_area = { upgrade_trade_building = yes }
+		} 
+	}
+
+	GAL_empire_of_red_and_white = {
+		icon = mission_the_third_rome
+		position = 15
+		required_missions = {
+			GAL_asian_incursions
+			GAL_fields_of_phoenicia
+		}
+		provinces_to_highlight = {
+			area_for_scope_province = {
+				type = all
+				NOT = { trade_goods = wine }
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = every_area_has_one_wine_producing_province_tt
+			}
+			NOT = {
+				any_province = {
+					area_for_scope_province = {
+						type = all
+						NOT = { trade_goods = wine }
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+			# all_province = {
+			# 	OR = {
+			# 		NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			# 		calc_true_if = {
+			# 			amount = 2
+			# 			area_for_scope_province = {
+			# 			type = all
+			# 			trade_goods = wine
+			# 			}
+			# 		}
+			# 	}
+			# }
+		} 
+
+		effect = {
+			country_event = {
+				id = fep_iberian_flavor.12
+			}
+		} 
+	}
+}
+GAL_subject_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+	} 
+
+	GAL_fully_functioning = {
+		icon = mission_grand_bengali_shipyards
+		position = 2
+		required_missions = { GAL_for_any_possibility } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			navy_size_percentage = 1.0
+		} 
+
+		effect = {
+			add_country_modifier = {
+				name = gen_hoa_trade_navy_modifier
+				duration = 7300
+			}
+		} 
+	}
+}
+GAL_wine_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+		has_country_flag = wine_wank
+	} 
+
+	GAL_hispania_terracava = {
+		icon = mission_guilds_of_barcelona
+		position = 5
+		required_missions = { GAL_bregantine_exports } 
+		provinces_to_highlight = {
+			OR = {
+				area = beieras_area
+				area = alentejo_area
+				area = extremadura_area
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+			}
+			NOT = { owned_by = ROOT }
+		} 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					area = leon_area
+					area = castille_area
+					area = asturias_area
+					area = basque_country
+					area = aragon_area
+				}
+			}
+		} 
+
+		effect = {
+			custom_tooltip = will_gain_accepted_iberians_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = leon_area
+							area = castille_area
+							area = asturias_area
+							area = basque_country
+							area = aragon_area
+						}
+						OR = {
+							culture_group = iberian_fep
+							culture_group = vasconic
+						}
+						has_owner_accepted_culture = no
+					}
+					owner = {
+						add_accepted_culture = PREV
+					}
+				}
+			}
+			pyrenees_area = {
+				add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+				add_permanent_claim = ROOT
+			}
+			guyenne_area = {
+				add_permanent_claim = ROOT
+			}
+			massif_central_area = {
+				add_permanent_claim = ROOT
+			}
+			provence_area = {
+				add_permanent_claim = ROOT
+			}
+			savoy_dauphine_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	GAL_gallaecian_gallia = {
+		icon = mission_galleys_in_port
+		position = 7
+		required_missions = { GAL_centralizing_royal_cellars } 
+		provinces_to_highlight = {
+			OR = {
+				area = massif_central_area
+				area = pyrenees_area
+				area = languedoc_area
+				area = guyenne_area
+				area = provence_area
+				area = savoy_dauphine_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				OR = {
+					area = massif_central_area
+					area = pyrenees_area
+					area = languedoc_area
+					area = guyenne_area
+					area = provence_area
+					area = savoy_dauphine_area
+				}
+			}
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					201 = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				201 = {
+					add_great_project_tier = {
+						type = massalia_university
+						tier = 1
+					}
+				}
+			}
+			if = {
+				limit = {
+					2753 = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				2753 = {
+					add_great_project_tier = {
+						type = narbaion_port
+						tier = 1
+					}
+				}
+			}
+			france_region = { add_permanent_claim = ROOT }
+			piedmont_area = { add_permanent_claim = ROOT } 
+			liguria_area = { add_permanent_claim = ROOT } 
+			lombardy_area = { add_permanent_claim = ROOT } 
+			emilia_romagna_area = { add_permanent_claim = ROOT } 
+			po_valley_area = { add_permanent_claim = ROOT } 
+			venetia_area = { add_permanent_claim = ROOT } 
+		} 
+	}
+
+	GAL_genovan_grandeur = {
+		icon = mission_dominate_genoa
+		position = 9
+		required_missions = { GAL_gallaecian_gallia } 
+		provinces_to_highlight = {
+			OR = {
+				area = piedmont_area
+				area = liguria_area
+				area = lombardy_area
+				area = emilia_romagna_area
+				area = po_valley_area
+				area = venetia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				OR = {
+					area = piedmont_area
+					area = liguria_area
+					area = lombardy_area
+					area = emilia_romagna_area
+					area = po_valley_area
+					area = venetia_area
+				}
+			}
+		} 
+
+		effect = {
+			italy_region = { add_permanent_claim = ROOT }
+			carinthia_area = { add_permanent_claim = ROOT } 
+			croatia_area = { add_permanent_claim = ROOT } 
+			slavonia_area = { add_permanent_claim = ROOT } 
+			bosnia_area = { add_permanent_claim = ROOT } 
+			east_adriatic_coast_area = { add_permanent_claim = ROOT } 
+			serbia_area = { add_permanent_claim = ROOT } 
+			rascia_area = { add_permanent_claim = ROOT } 
+		} 
+	}
+
+	GAL_illyria_alba = {
+		icon = dalmatian_conquest
+		position = 11
+		required_missions = { GAL_genovan_grandeur } 
+		provinces_to_highlight = {
+			OR = {
+				area = carinthia_area
+				area = croatia_area
+				area = slavonia_area
+				area = bosnia_area
+				area = east_adriatic_coast_area
+				area = serbia_area
+				area = rascia_area
+			}
+		NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				OR = {
+					area = carinthia_area
+					area = croatia_area
+					area = slavonia_area
+					area = bosnia_area
+					area = east_adriatic_coast_area
+					area = serbia_area
+					area = rascia_area
+				}
+			}
+		} 
+
+		effect = {
+			italy_region = { add_permanent_claim = ROOT }
+			carinthia_area = { add_permanent_claim = ROOT } 
+			croatia_area = { add_permanent_claim = ROOT } 
+			slavonia_area = { add_permanent_claim = ROOT } 
+			bosnia_area = { add_permanent_claim = ROOT } 
+			east_adriatic_coast_area = { add_permanent_claim = ROOT } 
+			serbia_area = { add_permanent_claim = ROOT } 
+			rascia_area = { add_permanent_claim = ROOT } 
+		} 
+	}
+
+	GAL_thracian_finest = {
+		icon = foothold_in_greece
+		position = 12
+		required_missions = { GAL_illyria_alba } 
+		provinces_to_highlight = {
+			region = balkan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 50
+				OR = {
+					region = balkan_region
+				}
+			}
+			owns = 151
+		} 
+
+		effect = {
+			151 = {
+				add_core = ROOT
+				add_permanent_province_modifier = {
+					name = revitalized_wineries
+					duration = -1
+				}
+			}
+			anatolia_region = { add_permanent_claim = ROOT }
+		} 
+	}
+
+	GAL_asian_incursions = {
+		icon = anatolian_frontier
+		position = 14
+		required_missions = { GAL_thracian_finest } 
+		provinces_to_highlight = {
+			region = anatolia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 40
+				OR = {
+					region = anatolia_region
+				}
+			}
+		} 
+
+		effect = {
+			random_province = {
+				limit = {
+					NOT = { trade_goods = wine }
+					region = anatolia_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+			}
+			random_province = {
+				limit = {
+					NOT = { trade_goods = wine }
+					region = anatolia_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+			}
+			random_province = {
+				limit = {
+					NOT = { trade_goods = wine }
+					region = anatolia_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+			}
+			random_province = {
+				limit = {
+					NOT = { trade_goods = wine }
+					region = anatolia_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				change_trade_goods = wine
+				add_permanent_province_modifier = {
+					name = state_owned_vineyards
+					duration = -1
+				}
+			}
+		} 
+	}
+}
+GAL_subject_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+	} 
+
+	GAL_for_any_possibility = {
+		icon = mission_modern_knight_army
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			army_size_percentage = 1.0
+		} 
+
+		effect = {
+			add_country_modifier = {
+				name = oma_buildforces_mod
+				duration = 7300
+			}
+		} 
+	}
+}
+GAL_wine_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = GAL
+			tag = RWE
+		}
+		has_country_flag = wine_wank
+	} 
+
+	GAL_land_of_wine = {
+		icon = mission_rb_colonise_canada
+		position = 8
+		required_missions = { GAL_gallaecian_gallia } 
+		provinces_to_highlight = { region = canada_region NOT = { country_or_non_sovereign_subject_holds = ROOT } } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = canada_region
+			}
+		} 
+
+		effect = {
+			add_country_modifier = {
+				name = far_western_wine
+				duration = 18250
+			}
+		} 
+	}
+}
