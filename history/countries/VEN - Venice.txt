@@ -6,9 +6,19 @@ religion = west_orthodox
 add_accepted_culture = rhoman
 add_accepted_culture = dalmatian
 technology_group = western
-capital = 112# Venezia
-fixed_capital = 112# Cannot move capital away from this province & no power cost to move to it
+capital = 112 # Venezia
+fixed_capital = 112 # Cannot move capital away from this province & no power cost to move to it
 historical_friend = KNI
 national_focus = DIP
 add_army_professionalism = 0.05
 government_rank = 1
+1299.12.24 = { 
+	monarch = { 
+		name = "Manolo"
+		dynasty = "Polcari"
+		birth_date = 1254.1.8
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
