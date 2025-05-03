@@ -1,3 +1,8 @@
+on_startup = {
+	events = {
+		flavor_ven.0
+	}
+}
 on_monarch_death = {
 	events = {
 		flavor_blu.1			#Death of Kaidu Khan

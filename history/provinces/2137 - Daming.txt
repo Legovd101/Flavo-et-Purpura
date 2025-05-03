@@ -1,6 +1,6 @@
 # 2137 - Daming
-owner = JIN
-controller = JIN
+owner = CZH
+controller = CZH
 culture = chihan
 religion = confucianism
 capital = "Daming"
@@ -12,5 +12,5 @@ is_city = yes
 add_core = YAN
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = JIN
 hre = yes
+add_core = CZH

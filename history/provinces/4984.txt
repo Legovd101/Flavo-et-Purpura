@@ -1,0 +1,11 @@
+add_core = MIN
+owner = MIN
+base_tax = 2
+base_manpower = 4
+base_production = 1
+culture = chimin
+religion = confucianism
+controller = MIN
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

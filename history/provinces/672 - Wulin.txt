@@ -1,7 +1,7 @@
 #672 - Chenzhou
 owner = CGS
 controller = CGS
-culture = xiang
+culture = miao
 religion = confucianism
 capital = "Wulin"
 trade_goods = cotton

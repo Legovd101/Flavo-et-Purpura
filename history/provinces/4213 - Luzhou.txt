@@ -1,7 +1,7 @@
 #4213 - Luzhou
 owner = CDL
 controller = CDL
-culture = sichuanese
+culture = yi
 religion = nestorian
 capital = "Luzhou"
 trade_goods = grain

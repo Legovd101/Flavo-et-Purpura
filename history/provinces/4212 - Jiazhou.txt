@@ -1,7 +1,7 @@
 #4212 - Jiazhou
 owner = CDL
 controller = CDL
-culture = sichuanese
+culture = yi
 religion = nestorian
 capital = "Jiazhou"
 trade_goods = tea

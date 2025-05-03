@@ -1,0 +1,12 @@
+add_core = SST
+owner = SST
+base_tax = 1
+base_manpower = 2
+base_production = 4
+culture = gan
+religion = confucianism
+controller = SST
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

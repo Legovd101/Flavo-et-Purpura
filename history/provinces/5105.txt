@@ -1,0 +1,12 @@
+add_core = LNG
+owner = LNG
+base_tax = 3
+base_manpower = 2
+base_production = 1
+culture = jianghuai
+religion = confucianism
+controller = LNG
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,12 @@
+add_core = JIN
+owner = JIN
+base_tax = 4
+base_manpower = 3
+base_production = 3
+culture = zhongyuan
+religion = nestorian
+controller = JIN
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

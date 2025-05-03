@@ -1,0 +1,7 @@
+add_core = CHH
+owner = CHH
+culture = oirats
+religion = nestorian
+controller = CHH
+is_city = yes
+discovered_by = nomad_group

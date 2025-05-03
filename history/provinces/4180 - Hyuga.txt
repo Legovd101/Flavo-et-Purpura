@@ -16,3 +16,4 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 add_core = KOR
+discovered_by = nomad_group

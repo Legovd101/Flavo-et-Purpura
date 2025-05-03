@@ -1,0 +1,12 @@
+add_core = CYI
+owner = CYI
+base_tax = 2
+base_manpower = 1
+base_production = 3
+culture = chihan
+religion = nestorian
+controller = CYI
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

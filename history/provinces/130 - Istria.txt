@@ -4,7 +4,7 @@ controller = VEN
 culture = dalmatian
 religion = west_orthodox
 capital = "Pula"
-trade_goods = salt#trade_goods = naval_supplies #Major Shipbuilding Centre
+trade_goods = paper
 base_tax = 2
 base_production = 3
 base_manpower = 3

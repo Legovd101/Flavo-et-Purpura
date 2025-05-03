@@ -1,0 +1,11 @@
+add_core = KOR
+owner = KOR
+culture = japanese
+religion = tengri_pagan_reformed
+controller = KOR
+is_city = yes
+base_tax = 2
+base_manpower = 1
+base_production = 1
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,9 @@
+add_core = OIR
+owner = OIR
+base_tax = 2
+base_manpower = 4
+base_production = 1
+culture = shandong_culture
+religion = nestorian
+controller = OIR
+is_city = yes

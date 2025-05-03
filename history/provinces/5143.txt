@@ -1,0 +1,12 @@
+add_core = CGS
+owner = CGS
+base_tax = 1
+base_manpower = 3
+base_production = 2
+culture = xibei
+religion = nestorian
+controller = CGS
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

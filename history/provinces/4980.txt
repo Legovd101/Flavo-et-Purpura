@@ -1,0 +1,11 @@
+add_core = KOR
+owner = KOR
+culture = japanese
+religion = shinto
+controller = KOR
+is_city = yes
+base_tax = 1
+base_manpower = 2
+base_production = 2
+discovered_by = chinese
+discovered_by = nomad_group

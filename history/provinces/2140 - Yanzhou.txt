@@ -1,7 +1,7 @@
 # 2140 - Yanzhou
 owner = WUU
 controller = WUU
-culture = zhongyuan
+culture = jianghuai
 religion = confucianism
 capital = "Yanzhou"
 trade_goods = grain

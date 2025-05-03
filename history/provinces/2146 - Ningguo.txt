@@ -1,7 +1,7 @@
 # 2144 - Ningguo
 owner = KIC
 controller = KIC
-culture = wu
+culture = huizhou_culture
 religion = nestorian
 capital = "Ningguo"
 trade_goods = paper

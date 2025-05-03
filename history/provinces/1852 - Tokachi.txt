@@ -56,3 +56,5 @@ discovered_by = TTI
 discovered_by = ASK
 discovered_by = NVK
 discovered_by = NHX
+discovered_by = chinese
+discovered_by = nomad_group

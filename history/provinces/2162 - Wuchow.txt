@@ -1,7 +1,7 @@
 # 2162 - Ngchow
 owner = YUE
 controller = YUE
-culture = cantonese
+culture = ping_culture
 religion = confucianism
 capital = "Ngchow"
 trade_goods = copper

@@ -1,0 +1,11 @@
+add_core = KOR
+owner = KOR
+culture = korean
+religion = mahayana
+controller = KOR
+is_city = yes
+base_tax = 2
+base_manpower = 2
+base_production = 3
+discovered_by = chinese
+discovered_by = nomad_group

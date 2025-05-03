@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = dablit_guaif_reform
 primary_culture = bai
-religion = buddhism
+religion = animism
 technology_group = chinese
-capital = 661	# Dali
+capital = 661# Dali
 1284.1.1 = { 
 	monarch = { 
 		name = "Qing"
@@ -25,4 +25,4 @@ capital = 661	# Dali
 		mil = 2
 	}
 }
-
+government_rank = 1

@@ -1,0 +1,11 @@
+add_core = SIN
+owner = SIN
+base_tax = 2
+base_manpower = 3
+base_production = 3
+culture = chihan
+religion = nestorian
+controller = SIN
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

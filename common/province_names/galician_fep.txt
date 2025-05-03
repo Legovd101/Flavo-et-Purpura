@@ -81,10 +81,10 @@
 4735 = { "Tarus" "Tarus" }
 2986 = { "Caíller" "Caíller" }
 
-151 = { "Xitade Custana" "Xitade Custana" }
+151 = { "Xitade Custana" "Xitade Custana" } # Latin "civitatem" --> "xitade"
 316 = { "Taímada" "Taímada" }
 5035 = { "Caína" "Caína" }
-163 = { "Xitade Aírclis" "Xitade Aírclis" }
+163 = { "Xitade Aírclis" "Xitade Aírclis" } # Latin "civitatem" --> "xitade"
 320 = { "Rúd" "Rúd" }
 321 = { "Xaíprús" "Xaíprús" }
 5034 = { "Famicús" "Famicús" }

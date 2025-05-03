@@ -17,3 +17,4 @@ discovered_by = QNG
 extra_cost = 8
 center_of_trade = 1
 add_core = KOR
+discovered_by = nomad_group

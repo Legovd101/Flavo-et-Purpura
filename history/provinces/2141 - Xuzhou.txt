@@ -1,7 +1,7 @@
 # 2141 - Xuzhou
 owner = YAN
 controller = YAN
-culture = zhongyuan
+culture = jianghuai
 religion = confucianism
 capital = "Xuzhou"
 trade_goods = steel

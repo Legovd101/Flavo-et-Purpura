@@ -1,6 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
+historical_friend = ACH
+historical_rival = VEN
+historical_rival = GEN
+historical_rival = BLU
 technology_group = western
 capital = 341
 religion = west_orthodox

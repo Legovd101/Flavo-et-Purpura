@@ -1,0 +1,12 @@
+add_core = YUE
+owner = YUE
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = ping_culture
+religion = confucianism
+controller = YUE
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

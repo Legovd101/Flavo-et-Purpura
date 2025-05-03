@@ -17,3 +17,4 @@ discovered_by = QNG
 discovered_by = ANU
 discovered_by = EBS
 add_core = EBS
+discovered_by = nomad_group

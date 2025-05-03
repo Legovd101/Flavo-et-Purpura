@@ -1,0 +1,12 @@
+add_core = QIN
+owner = QIN
+base_tax = 1
+base_manpower = 3
+base_production = 3
+culture = huizhou_culture
+religion = confucianism
+controller = QIN
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,12 @@
+add_core = NNG
+owner = NNG
+base_tax = 3
+base_manpower = 2
+base_production = 3
+culture = hakka
+religion = confucianism
+controller = NNG
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,5 @@
+travels_of_manolo_polcari = {
+	prestige = 2
+	global_foreign_trade_power = 0.05
+	improve_relation_modifier = 0.15
+}

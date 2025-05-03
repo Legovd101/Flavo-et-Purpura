@@ -1,7 +1,7 @@
 # 2172 - Jingzhou
 owner = CGS
 controller = CGS
-culture = hubei
+culture = xiang
 religion = nestorian
 capital = "Jingzhou"
 trade_goods = grain

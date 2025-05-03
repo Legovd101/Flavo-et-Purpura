@@ -1,0 +1,11 @@
+add_core = CDL
+owner = CDL
+base_tax = 3
+base_manpower = 2
+base_production = 2
+culture = sichuanese
+religion = nestorian
+controller = CDL
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

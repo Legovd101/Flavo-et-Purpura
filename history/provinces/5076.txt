@@ -1,0 +1,12 @@
+add_core = HUA
+owner = HUA
+base_tax = 1
+base_manpower = 2
+base_production = 1
+culture = gan
+religion = confucianism
+controller = HUA
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

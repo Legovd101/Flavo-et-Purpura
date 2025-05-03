@@ -1,0 +1,12 @@
+add_core = TOK
+owner = TOK
+base_tax = 3
+base_manpower = 3
+base_production = 2
+culture = wu
+religion = confucianism
+controller = TOK
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

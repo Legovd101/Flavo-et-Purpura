@@ -1,15 +1,16 @@
 # 2161 - Limchow
-owner = DAI
-controller = DAI
-culture = cantonese
+owner = YUE
+controller = YUE
+culture = ping_culture
 religion = confucianism
 capital = "Limchow"
 trade_goods = incense
-base_tax = 3
-base_production = 2
+base_tax = 4
+base_production = 1
 base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-add_core = DAI
+add_core = YUE
+hre = yes

@@ -5,3 +5,4 @@ religion = confucianism
 religious_school = confucian_school
 technology_group = chinese
 capital = 2151
+government_rank = 1

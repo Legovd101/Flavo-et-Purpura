@@ -1,0 +1,11 @@
+add_core = MIN
+owner = MIN
+base_tax = 3
+base_manpower = 2
+base_production = 2
+culture = formosan
+religion = nestorian
+controller = MIN
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group

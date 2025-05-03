@@ -1,7 +1,7 @@
 # 2145 - Zhenjiang
 owner = QIN
 controller = QIN
-culture = jianghuai
+culture = huizhou_culture
 religion = confucianism
 capital = "Zhenjiang"
 trade_goods = naval_supplies

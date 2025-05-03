@@ -1,0 +1,21 @@
+#Venice
+vassal = {
+	first = VEN
+	second = MON
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = VEN
+	second = ALB
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}
+
+vassal = {
+	first = VEN
+	second = CEP
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}

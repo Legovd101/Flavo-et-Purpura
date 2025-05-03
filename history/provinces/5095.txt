@@ -1,0 +1,12 @@
+add_core = CXI
+owner = CXI
+base_tax = 4
+base_manpower = 2
+base_production = 3
+culture = hubei
+religion = nestorian
+controller = CXI
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

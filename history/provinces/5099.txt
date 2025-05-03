@@ -1,0 +1,12 @@
+add_core = KIC
+owner = KIC
+base_tax = 3
+base_manpower = 1
+base_production = 3
+culture = huizhou_culture
+religion = confucianism
+controller = KIC
+is_city = yes
+hre = yes
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,7 +1,7 @@
 #682 - Hanyang
 owner = KIC
 controller = KIC
-culture = hubei
+culture = xiang
 religion = confucianism
 capital = "Wuchang"
 trade_goods = salt
@@ -15,5 +15,5 @@ discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
 add_core = KIC
-fort_15th = yes
 hre = yes
+fort_15th = yes
