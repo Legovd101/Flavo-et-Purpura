@@ -2,6 +2,10 @@ on_startup = {
 	events = {
 		flavor_ven.0
 	}
+	set_variable = {
+		which = latin_unity
+		value = 0
+	}
 }
 on_monarch_death = {
 	events = {
@@ -194,5 +198,255 @@ on_monthly_pulse = {
 			which = wine_percentage_check
 			value = 100
 		}
+	}
+
+	# Latin Unity Calculation
+	if = {
+		limit = {
+			has_subject_of_type = league_member
+		}
+		set_variable = {
+			which = latin_unity_gain
+			value = 0
+		}
+		set_variable = {
+			which = latin_provinces_count
+			value = 0
+		}
+		set_variable = {
+			which = latin_heretic_provinces
+			value = 0
+		}
+		set_variable = {
+			which = latin_league_members
+			value = 0
+		}
+		set_variable = {
+			which = latin_member_gain
+			value = 0
+		}
+		set_variable = {
+			which = latin_internal_war_members
+			value = 0
+		}
+		set_variable = {
+			which = latin_defending_members
+			value = 0
+		}
+		set_variable = {
+			which = latin_attacking_members
+			value = 0
+		}
+		set_variable = {
+			which = latin_internal_war_gain
+			value = 0
+		}
+		set_variable = {
+			which = latin_defending_gain
+			value = 0
+		}
+		set_variable = {
+			which = latin_attacking_gain
+			value = 0
+		}
+		set_variable = {
+			which = latin_peacetime_gain
+			value = 0
+		}
+
+		## League Religious Unity Calculation
+		every_province = {
+			limit = { owner = { is_in_latin_league = yes } }
+			change_variable = {
+				which = latin_provinces_count
+				value = 1
+			}
+			if = {
+				limit = { NOT = { religion = ROOT } }
+				change_variable = {
+					which = latin_heretic_provinces
+					value = 1
+				}
+			}
+		}
+		set_variable = {
+			which = latin_religious_unity
+			which = latin_heretic_provinces
+		}
+		divide_variable = {
+			which = latin_religious_unity
+			which = latin_provinces_count
+		}
+		set_variable = {
+			which = latin_religious_unity_gain
+			which = latin_religious_unity
+		}
+		subtract_variable = {
+			which = latin_religious_unity_gain
+			value = 0.5
+		}
+		multiply_variable = {
+			which = latin_religious_unity
+			value = -100
+		}
+		change_variable = {
+			which = latin_religious_unity
+			value = 100
+		}
+
+		## League Member Calculations
+		every_country = {
+			limit = { is_in_latin_league = yes }
+			change_variable = {
+				which = latin_league_members
+				value = 1
+			}	
+			change_variable = {
+				which = latin_member_gain
+				value = 0.15
+			}
+			### War Calculations
+			#### Internal War Debuff
+			if = {
+				limit = {
+					any_country = {
+						is_in_latin_league = yes
+						OR = {
+							is_in_war = {
+								attacker_leader = PREV
+								defender_leader = THIS
+							}
+							is_in_war = {
+								attacker_leader = THIS
+								defender_leader = PREV
+							}
+						}
+					}
+				}
+				change_variable = {
+					which = latin_internal_war_gain
+					value = 0.5
+				}
+				change_variable = {
+					which = latin_internal_war_members
+					value = 1
+				}
+			}
+			#### Offensive War Buff
+			if = {
+				limit = {
+					OR = {
+						any_country = {
+							is_in_latin_league = no
+							is_in_war = {
+								attacker_leader = PREV
+								defender_leader = THIS
+							}
+						}
+						any_country = {
+							is_in_latin_league = yes
+							any_country = {
+								is_in_latin_league = no
+								is_in_war = {
+									attacker_leader = PREV
+									defender_leader = THIS
+								}
+							}
+							PREV = {
+								offensive_war_with = PREV
+							}
+						}
+					}
+				}
+				change_variable = {
+					which = latin_attacking_gain
+					value = 0.2
+				}
+				change_variable = {
+					which = latin_attacking_members
+					value = 1
+				}
+			}
+			#### Defensive War Buff
+			if = {
+				limit = {
+					OR = {
+						any_country = {
+							is_in_latin_league = no
+							is_in_war = {
+								attacker_leader = THIS
+								defender_leader = PREV
+							}
+						}
+						any_country = {
+							is_in_latin_league = yes
+							any_country = {
+								is_in_latin_league = no
+								is_in_war = {
+									attacker_leader = THIS
+									defender_leader = PREV
+								}
+							}
+							PREV = {
+								defensive_war_with = PREV
+							}
+						}
+					}
+				}
+				change_variable = {
+					which = latin_defending_gain
+					value = 0.25
+				}
+				change_variable = {
+					which = latin_defending_members
+					value = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				all_country = {
+					OR = {
+						is_in_latin_league = no
+						is_at_war = no
+					}
+				}
+			}
+			change_variable = {
+				which = latin_peacetime_gain
+				value = 1.0
+			}						
+		}
+		## Final Unity Calculation
+		subtract_variable = {
+			which = latin_unity_gain
+			which = latin_religious_unity_gain
+		}
+
+		subtract_variable = {
+			which = latin_unity_gain
+			which = latin_internal_war_gain
+		}
+
+		change_variable = {
+			which = latin_unity_gain
+			which = latin_member_gain
+		}
+
+		change_variable = {
+			which = latin_unity_gain
+			which = latin_defending_gain
+		}
+
+		change_variable = {
+			which = latin_unity_gain
+			which = latin_attacking_gain
+		}
+
+		change_variable = {
+			which = latin_unity_gain
+			which = latin_peacetime_gain
+		}
+
 	}
 }

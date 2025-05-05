@@ -1,0 +1,70 @@
+# Italian events
+namespace = fep_italian_flavor
+
+# League Memeber War Event
+country_event = {
+	id = fep_italian_flavor.0
+	title = fep_italian_flavor.0.t
+	desc = fep_italian_flavor.0.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = fep_italian_flavor.0.a
+		every_country = {
+			limit = {
+				is_in_latin_league = yes
+				NOT = { tag = ROOT }
+			}
+			country_event = {
+				id = fep_italian_flavor.1
+			}
+		}
+	}
+
+}
+
+# League Memeber Subject to War Declaration
+country_event = {
+	id = fep_italian_flavor.1
+	title = fep_italian_flavor.1.t
+	desc = fep_italian_flavor.1.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = fep_italian_flavor.1.a
+		join_all_defensive_wars_of = FROM
+		change_variable = {
+			which = latin_unity
+			value = 1
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+		}
+	}
+
+	option = {
+		name = fep_italian_flavor.1.b
+		add_stability = -1
+		change_variable = {
+			which = latin_unity
+			value = -0.75
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_at_war = no
+			}
+		}
+	}
+
+}

@@ -1,0 +1,125 @@
+spriteTypes = {
+	### Latin Background ###
+	spriteType = {
+		name = "GFX_latin_window_bg"
+		texturefile = "gfx/interface/latin_ui_add/latin_window_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	### Jihad Shield Overlay ###
+	maskedShieldType = {
+		name = "gfx_jihad_target_shield"
+		textureFile1 = "gfx/interface/latin_ui_add/jihad_target_shield.dds"
+		textureFile2 = "gfx/interface/shield_medium_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx//interface//client_state_symbols_medium.dds"
+		noOfFrames = 119
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	### Rector Shield Overlay ###
+	maskedShieldType = {
+		name = "gfx_shield_rector_overlay"
+		textureFile1 = "gfx/interface/latin_ui_add/shield_rector_overlay.dds"
+		textureFile2 = "gfx/interface/latin_ui_add/shield_rector_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx//interface//client_state_symbols_large.dds"
+		noOfFrames = 121
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	### Rector Shield Overlay Icon ###
+	spriteType = {
+		name = "gfx_shield_rector_overlay_icon"
+		texturefile = "gfx/interface/latin_ui_add/shield_rector_overlay.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	### Rector Shield Overlay Cut###
+	spriteType = {
+		name = "gfx_shield_rector_overlay_cut"
+		texturefile = "gfx/interface/latin_ui_add/shield_rector_overlay_cut.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	### Successor Shield Overlay ###
+	maskedShieldType = {
+		name = "gfx_shield_successor_overlay"
+		textureFile1 = "gfx/interface/latin_ui_add/shield_successor_overlay.dds"
+		textureFile2 = "gfx/interface/latin_ui_add/shield_rector_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx//interface//client_state_symbols_large.dds"
+		noOfFrames = 121
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	### Successor Shield Overlay Icon ###
+	spriteType = {
+		name = "gfx_shield_successor_overlay_icon"
+		texturefile = "gfx/interface/latin_ui_add/shield_successor_overlay.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	### Successor Shield Overlay Cut###
+	spriteType = {
+		name = "gfx_shield_successor_overlay_cut"
+		texturefile = "gfx/interface/latin_ui_add/shield_successor_overlay_cut.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	### Latin Reforms###
+	spriteType = {
+		name = "gfx_islamic_holy_site_banner"
+		texturefile = "gfx/interface/latin_ui_add/islamic_holy_site_banner.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	### Latin hidden ui
+	spriteType = {
+		name = "GFX_latin_ui_hidden_progressbar_frame"
+		texturefile = "gfx/interface/latin_ui_add/latin_ui_hidden_progressbar_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_latin_ui_hidden_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/latin_ui_add/latin_ui_hidden_progressbar.dds"
+		textureFile2 = "gfx/interface/latin_ui_add/latin_ui_hidden_progressbar_frame.dds"
+		size = { x = 232 y = 1 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	### Latin Reforms ###
+	spriteType = {
+		name = "gfx_latin_reforms"
+		texturefile = "gfx/interface/latin_ui_add/fep_latin_reforms.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 5
+	}
+	### ownership indicator###
+	spriteType = {
+		name = "gfx_own_province_indicator"
+		texturefile = "gfx/interface/latin_ui_add/own_province_indicator.dds"
+		loadType = "INGAME"
+		transparencecheck = no
+		noOfFrames = 2
+	}
+	### islam indicator###
+	spriteType = {
+		name = "gfx_is_muslim_indicator"
+		texturefile = "gfx/interface/latin_ui_add/is_muslim_indicator.dds"
+		loadType = "INGAME"
+		transparencecheck = no
+		noOfFrames = 4
+	}
+	### decree blocker ###
+	spriteType = {
+		name = "gfx_decree_button_overlay"
+		texturefile = "gfx/interface/custom_icons/decree_button_overlay.dds"
+		loadType = "INGAME"
+	}
+}

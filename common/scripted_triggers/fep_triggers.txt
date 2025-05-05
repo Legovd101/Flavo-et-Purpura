@@ -12,6 +12,14 @@ is_in_roman_borders = {
 	}
 }
 
+# Latin League
+is_in_latin_league = {
+	OR = {
+		has_subject_of_type = league_member
+		is_subject_of_type = league_member
+	}
+}
+
 # Varangian Triggers
 has_country_varangian_flag_trigger = {
 	has_country_flag = is_varangian_country_@ROOT

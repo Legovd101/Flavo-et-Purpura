@@ -242,3 +242,9 @@
 # Azov
 
 286 = {"Tana" "Tana"}
+
+## EGYPT
+
+# Delta
+
+358 = {"Alesandria" "Alesandria d'Ezito"}
