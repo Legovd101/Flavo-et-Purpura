@@ -1,10 +1,8 @@
-### Modified 31-03-2025 16:15:33 ###
-# Vijaya
-# 607 Vijaya - 31-03-2025 16:15:33 
+# 607 Vijaya - 12/5/2568 2:34:29 
  
 add_core = CHA
-owner = CHA
-controller = CHA
+owner = CP1
+controller = CP1
 base_tax = 5
 base_production = 5
 base_manpower = 2

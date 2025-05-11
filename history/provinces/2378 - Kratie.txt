@@ -1,10 +1,8 @@
-### Modified 31-03-2025 16:16:34 ###
-# Kratie
-# 2378 Kratie - 31-03-2025 16:16:34 
+# 2378 Kratie - 12/5/2568 2:34:29 
  
 add_core = KHM
-owner = KHM
-controller = KHM
+owner = CP4
+controller = CP4
 base_tax = 2
 base_production = 2
 base_manpower = 1

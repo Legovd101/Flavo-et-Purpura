@@ -1,14 +1,26 @@
-owner = KHM
-controller = KHM
-culture = lao
-religion = buddhism
-capital = "Champasak"
-trade_goods = tea
+# 4839 Champasak - 12/5/2568 2:34:29 
+ 
+add_core = CHK
+add_core = KHM
+owner = KH4
+controller = KH4
 base_tax = 4
 base_production = 3
 base_manpower = 3
+
+trade_goods = tea
+
+culture = lao
+religion = buddhism
+capital = "Champasak"
+
 is_city = yes
-add_core = CHK
+
 discovered_by = chinese
 discovered_by = indian
-add_core = KHM
+
+
+
+
+
+

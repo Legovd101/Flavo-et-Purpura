@@ -1,15 +1,27 @@
-owner = LIG
-controller = LIG
-culture = central_thai
-religion = buddhism
-capital = "Rayong"
-trade_goods = grain
+# 4830 Rayong - 12/5/2568 2:34:29 
+ 
+add_core = LIG
+owner = MN1
+controller = MN1
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = grain
+
+culture = central_thai
+religion = buddhism
+capital = "Rayong"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LIG
+
+
+
+
+
+

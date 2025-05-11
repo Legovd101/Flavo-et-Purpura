@@ -1,13 +1,25 @@
-owner = SUK
-controller = SUK
-culture = northern_thai
-religion = buddhism
-capital = "Lakhon"
-trade_goods = grain
+# 4842 Lampang - 12/5/2568 2:34:29 
+ 
+add_core = SUK
+owner = MB1
+controller = MB1
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = northern_thai
+religion = buddhism
+capital = "Lakhon"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = SUK
+
+
+
+
+
+

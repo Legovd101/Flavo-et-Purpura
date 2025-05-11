@@ -1,16 +1,27 @@
-#603 - Nakhon Thung Yai
-owner = LIG
-controller = LIG
-culture = central_thai
-religion = buddhism
-capital = "Nakhon Thung Yai"
-trade_goods = gems#Rubies etc
+# 603 Nakhon Thung Yai - 12/5/2568 2:34:29 
+ 
+add_core = LIG
+owner = KH3
+controller = KH3
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = gems
+
+culture = central_thai
+religion = buddhism
+capital = "Nakhon Thung Yai"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LIG
+
+
+
+
+
+

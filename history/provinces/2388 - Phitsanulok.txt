@@ -1,15 +1,26 @@
-#2388 - Phitsanulok
-owner = SUK
-controller = SUK
-culture = central_thai
-religion = buddhism
-capital = "Phitsanulok"
-trade_goods = livestock
+# 2388 Phitsanulok - 12/5/2568 2:34:29 
+ 
+add_core = AYU
+add_core = SUK
+owner = MB1
+controller = MB1
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = livestock
+
+culture = central_thai
+religion = buddhism
+capital = "Phitsanulok"
+
 is_city = yes
-add_core = AYU
-add_core = SUK
+
 discovered_by = chinese
 discovered_by = indian
+
+
+
+
+
+

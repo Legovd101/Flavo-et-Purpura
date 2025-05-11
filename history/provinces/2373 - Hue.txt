@@ -1,11 +1,9 @@
-### Modified 31-03-2025 16:15:08 ###
-# Hue
-# 2373 Hue - 31-03-2025 16:15:08 
+# 2373 Hue - 12/5/2568 2:34:29 
  
 add_core = DAI
 add_core = ANN
-owner = DAI
-controller = DAI
+owner = CP1
+controller = CP1
 base_tax = 5
 base_production = 5
 base_manpower = 3

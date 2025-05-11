@@ -1,19 +1,30 @@
-#589 - Chiang Mai
-owner = LNA
-controller = LNA
-culture = northern_thai
-religion = buddhism
-capital = "Chiang Mai"
-trade_goods = ivory
+# 589 Chiang Mai - 12/5/2568 2:34:29 
+ 
+add_core = LNA
+owner = MB1
+controller = MB1
 base_tax = 7
 base_production = 5
 base_manpower = 5
+
+trade_goods = ivory
+
+culture = northern_thai
+religion = buddhism
+capital = "Chiang Mai"
+
 is_city = yes
-add_core = LNA
-add_permanent_province_modifier = { 
+fort_15th = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+
+
+add_permanent_province_modifier = {
 	name = emerald_buddha
 	duration = -1
 }
-discovered_by = chinese
-discovered_by = indian
-fort_15th = yes
+
+
+

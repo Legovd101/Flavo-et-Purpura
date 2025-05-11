@@ -1,16 +1,27 @@
-#606 - Panduranga
-owner = KHM
-controller = KHM
-culture = cham
-religion = buddhism
-capital = "Panduranga"
-trade_goods = fish
+# 606 Panduranga - 12/5/2568 2:34:29 
+ 
+add_core = KHM
+owner = CP2
+controller = CP2
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = fish
+
+culture = cham
+religion = buddhism
+capital = "Panduranga"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = KHM
+
+
+
+
+
+
