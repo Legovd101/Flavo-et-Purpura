@@ -20,6 +20,27 @@ is_in_latin_league = {
 	}
 }
 
+has_not_passed_recent_edict = {
+	custom_trigger_tooltip = {
+		tooltip = has_not_recently_passed_edict
+		check_variable = {
+			which = latin_unity
+			value = 10
+		}
+		NOT = {
+			OR = {
+				has_country_modifier = army_restrictions_loosened
+				has_country_modifier = religious_tolerance_encouraged
+				has_country_modifier = infrastructure_supported
+				has_country_modifier = forbittance_of_anathema
+				has_country_modifier = universities_funded
+				has_country_modifier = adherence_pushed
+				has_country_modifier = league_trade_subsidized
+			}
+		}
+	}
+}
+
 # Varangian Triggers
 has_country_varangian_flag_trigger = {
 	has_country_flag = is_varangian_country_@ROOT

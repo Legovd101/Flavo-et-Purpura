@@ -7,3 +7,24 @@ cb_establish_foederati = {
 
 	war_goal = take_capital_federate
 }
+
+cb_liberate_latins = {
+
+	prerequisites_self = {
+		has_subject_of_type = league_member
+		dip_tech = 5
+		has_global_flag = latin_culture_reform
+	}
+
+	prerequisites = {
+		any_owned_province = {
+			any_core_country = {
+				culture_group = latin
+				NOT = { owns = THIS }
+			}
+		}
+	}
+	
+	war_goal = superiority_liberation
+	valid_for_subject = no
+}

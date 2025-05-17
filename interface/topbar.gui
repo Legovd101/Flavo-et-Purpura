@@ -678,13 +678,13 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "latin_ui_rettore"
+			name = "latin_ui_rector"
 			scripted = yes
-			position = { x = 126 y = 160 }
+			position = { x = 16 y = 185 }
 			format = centre
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
-			maxWidth = 50
+			maxWidth = 250
 			maxHeight = 45			
 		}
 		
@@ -702,16 +702,16 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "latin_ui_rectoral_religion"
 			scripted = yes
-			position = { x = 126 y = 280 }
+			position = { x = 16 y = 270 }
 			format = centre
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
-			maxWidth = 50
+			maxWidth = 250
 			maxHeight = 45			
 		}
 		
 		iconType = {
-			name ="latin_ui_holy_site_banner"
+			name ="latin_ui_reforms_banner"
 			scripted = yes
 			spriteType = "gfx_islamic_holy_site_banner"
 			position = { x = 37 y = 316 }
@@ -719,7 +719,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "latin_ui_holy_site_banner_text"
+			name = "latin_ui_reforms_banner_text"
 			scripted = yes
 			position = { x = 60 y = 316 }
 			format = centre
@@ -733,7 +733,7 @@ guiTypes = {
 			name ="latin_ui_religion_reform"
 			scripted = yes
 			spriteType = "gfx_latin_reforms"
-			no_clicksound = yes
+			clicksound = debate_win
 			position = { x = 68 y = 339 }
 		}
 		
@@ -741,7 +741,7 @@ guiTypes = {
 			name ="latin_ui_culture_reform"
 			scripted = yes
 			spriteType = "gfx_latin_reforms"
-			no_clicksound = yes
+			clicksound = debate_win
 			position = { x = 68 y = 385 }
 		}
 		
@@ -749,15 +749,15 @@ guiTypes = {
 			name ="latin_ui_hereditary_reform"
 			scripted = yes
 			spriteType = "gfx_latin_reforms"
-			no_clicksound = yes
+			clicksound = debate_win
 			position = { x = 68 y = 431 }
 		}
 
 		guiButtonType = {
-			name = "latin_ui_centralization_reform"
+			name = "latin_ui_levantine_reform"
 			scripted = yes
 			spriteType = "gfx_latin_reforms"
-			no_clicksound = yes
+			clicksound = debate_win
 			position = { x = 68 y = 477 }
 		}
 		
@@ -765,82 +765,82 @@ guiTypes = {
 			name ="latin_ui_unification_reform"
 			scripted = yes
 			spriteType = "gfx_latin_reforms"
-			no_clicksound = yes
+			clicksound = debate_win
 			position = { x = 68 y = 523 }
 		}
 		
 		guiButtonType = {
-			name ="fatwa_permit_taqiyya"
+			name ="editto_subsidize_league_trade"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 250 }
 			scale = 1
-			buttonText = "Permit Taqiyya"
+			buttonText = "Subsidize League Trade"
 			buttonFont = "vic_18_black"
 		}
 		
 		guiButtonType = {
-			name ="fatwa_promote_maddhab"
+			name ="editto_loosen_army_restrictions"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 295 }
 			scale = 1
-			buttonText = "Promote Our Maddhab"
+			buttonText = "Loosen Army Restrictions"
 			buttonFont = "vic_18_black"
 		}
 		
 		guiButtonType = {
-			name ="fatwa_promote_exchange"
+			name ="editto_promote_religious_adherence"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 340 }
 			scale = 1
-			buttonText = "Promote Religious Exchange"
+			buttonText = "Promote Religious Adherence"
 			buttonFont = "vic_18_black"
 		}
 		
 		guiButtonType = {
-			name ="fatwa_religious_fervor"
+			name ="editto_inspire_religious_tolerance"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 385 }
 			scale = 1
-			buttonText = "Inspire Religious Fervor"
+			buttonText = "Inspire Religious Tolerance"
 			buttonFont = "vic_18_black"
 		}
 		
 		guiButtonType = {
-			name ="fatwa_permit_sufi_teachings"
+			name ="editto_encourage_infrastructure"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 430 }
 			scale = 1
-			buttonText = "Permit Sufi Teachings"
+			buttonText = "Develop the League's Infrastructure"
 			buttonFont = "vic_18_black"
 		}
 		
 		guiButtonType = {
-			name ="fatwa_relax_sharia"
+			name ="editto_forbid_anathema"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 475 }
 			scale = 1
-			buttonText = "Relax Sharia"
+			buttonText = "Forbid the Teaching of Anathema"
 			buttonFont = "vic_18_black"
 		}
 		
 		guiButtonType = {
-			name ="fatwa_endorse_literature"
+			name ="editto_fund_league_universities"
 			scripted = yes
 			spriteType = "GFX_decree_button"
 			position = { x = 285 y = 520 }
 			scale = 1
-			buttonText = "Endorse Literature"
+			buttonText = "Fund League Universities"
 			buttonFont = "vic_18_black"
 		}
 		
 		iconType = {
-			name ="latin_ui_unify_islam_banner"
+			name ="latin_ui_edicts_banner"
 			scripted = yes
 			spriteType = "GFX_copts_site_title_banner"
 			position = { x = 267 y = 225 }
@@ -848,7 +848,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "latin_ui_unify_islam_banner_text"
+			name = "latin_ui_edicts_banner_text"
 			scripted = yes
 			position = { x = 330 y = 225 }
 			format = centre
@@ -861,11 +861,11 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "latin_ui_unity_value"
 			scripted = yes
-			position = { x = 242 y = 200 }
+			position = { x = 16 y = 220 }
 			font = "vic_36"
 			borderSize = {x = 0 y = 0}
 			#text = "10.00"	
-			maxWidth = 100
+			maxWidth = 250
 			maxHeight = 32	
 			format = centre
 		}
@@ -873,10 +873,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "latin_ui_influence_growth"
 			scripted = yes
-			position = { x = 415 y = 160 }
+			position = { x = 316 y = 160 }
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
-			maxWidth = 50
+			maxWidth = 250
 			maxHeight = 45			
 			format = centre
 		}

@@ -91,6 +91,13 @@
  wine_region_title_plural: "Wine Regions"
  is_wine_region: "Is Wine Region"
 
+ league_member: "League Member:"
+ league_member_long_desc: "A member of the loose Latin League. Although the Rector is the nominal head of the League, each member is still free to pursue their own interests."
+ league_member_is_our: "$NAME|Y$ is a League Member of us"
+ league_member_title: "League Member"
+ league_member_title_plural: "League Members"
+ is_league_member: "Is League Member"
+
  # Diplomacy
  request_colonia: "Request Colonia"
  request_colonia_title: "Request Colonia"

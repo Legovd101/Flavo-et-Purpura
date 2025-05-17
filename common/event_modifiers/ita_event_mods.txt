@@ -1,0 +1,37 @@
+army_restrictions_loosened = {
+	yearly_army_professionalism = -0.02
+	manpower_recovery_speed = 0.05
+	global_manpower_modifier = 0.05
+}
+
+religious_tolerance_encouraged = {
+	tolerance_heathen = 1.00
+	tolerance_heretic = 3.00
+	global_heretic_missionary_strength = -0.10
+}
+
+infrastructure_supported = {
+	development_cost_modifier = -0.15
+	build_cost = -0.05
+}
+
+forbittance_of_anathema = {
+	tolerance_heathen = -3.00
+	tolerance_heretic = -1.00
+	global_heretic_missionary_strength = 0.10
+}
+
+adherence_pushed {
+	global_missionary_strength = 0.05
+}
+
+universities_funded = {
+	advisor_cost = -0.1
+	idea_cost = -0.05
+	embracement_cost = -0.1
+}
+
+league_trade_subsidized {
+	trade_efficiency = 0.05
+	production_efficiency = 0.01
+}

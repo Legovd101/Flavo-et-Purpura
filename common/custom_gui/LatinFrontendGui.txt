@@ -9,12 +9,10 @@ custom_window = {
 	name = latin_bubble_entry
 	potential = {
 		OR = {
-			religion_group = muslim
-			#OR = {
-			#	capital_scope = { region = japan_region }
-			#	has_country_flag = emperor_of_japan
-			#	has_reform = shogunate
-			#}
+			is_in_latin_league = yes
+			any_known_country = {
+				is_in_latin_league = yes
+			}
 		}
 	}
 }
@@ -22,7 +20,12 @@ custom_window = {
 custom_text_box = {
     name = latin_frontend_number
     potential = {
-		religion_group = muslim
+		OR = {
+			is_in_latin_league = yes
+			any_known_country = {
+				is_in_latin_league = yes
+			}
+		}
 	}
 }
 
@@ -41,7 +44,12 @@ custom_button = {
 	effect = {
 		if = {
 			limit = {
-				religion_group = muslim
+				OR = {
+					is_in_latin_league = yes
+					any_known_country = {
+						is_in_latin_league = yes
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -75,7 +83,12 @@ custom_button = {
 	frame = {
         number = 11
         trigger = { 
-			religion_group = muslim
+			OR = {
+				is_in_latin_league = yes
+				any_known_country = {
+					is_in_latin_league = yes
+				}
+			}
 		}
     }
 	frame = {

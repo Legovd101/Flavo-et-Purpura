@@ -68,3 +68,195 @@ country_event = {
 	}
 
 }
+
+# League Memeber Subject to War Declaration
+country_event = {
+	id = fep_italian_flavor.2
+	title = fep_italian_flavor.2.t
+	desc = fep_italian_flavor.2.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = fep_italian_flavor.2.a
+		FROM = {
+			create_subject = {
+				subject_type = league_member
+				who = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = fep_italian_flavor.2.b
+		FROM = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+
+}
+
+# A New Rector Elected
+country_event = {
+	id = fep_italian_flavor.3
+	title = fep_italian_flavor.3.t
+	desc = fep_italian_flavor.3.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = { is_in_latin_league = yes }
+
+	option = {
+		name = fep_italian_flavor.3.a
+	}
+
+}
+
+# Deciding on a Faith of the Latins
+country_event = {
+	id = fep_italian_flavor.4
+	title = fep_italian_flavor.4.t
+	desc = fep_italian_flavor.4.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = { is_in_latin_league = yes }
+
+	option = { # Our Loyalty lies strongly with the Pope!
+		name = fep_italian_flavor.4.a
+
+		hidden_effect = {
+			every_subject_country = {
+				limit = { is_in_latin_league = yes }
+				change_religion = ROOT
+				set_ruler_religion = ROOT
+				set_consort_religion = ROOT
+				set_heir_religion = ROOT
+			}
+		}
+
+	}
+
+	option = { # Perhaps we should listen to the cries of our Arian subjects 
+		name = fep_italian_flavor.4.b
+
+		change_religion = arianism
+		capital_scope = { change_religion = arianism }
+		hidden_effect = {
+			set_ruler_religion = arianism
+			set_consort_religion = arianism
+			set_heir_religion = arianism
+		}
+		hidden_effect = {
+			every_subject_country = {
+				limit = { is_in_latin_league = yes }
+				change_religion = ROOT
+				set_ruler_religion = ROOT
+				set_consort_religion = ROOT
+				set_heir_religion = ROOT
+			}
+		}
+
+	}
+
+	option = { # The Emperor in Gallia may yet have some points...
+		name = fep_italian_flavor.4.c
+
+		change_religion = lutetian
+		capital_scope = { change_religion = lutetian }
+		hidden_effect = {
+			set_ruler_religion = lutetian
+			set_consort_religion = lutetian
+			set_heir_religion = lutetian
+		}
+		hidden_effect = {
+			every_subject_country = {
+				limit = { is_in_latin_league = yes }
+				change_religion = ROOT
+				set_ruler_religion = ROOT
+				set_consort_religion = ROOT
+				set_heir_religion = ROOT
+			}
+		}
+
+	}
+
+	option = { # I saw some pretty interesting things while in the East...
+		name = fep_italian_flavor.4.e
+		
+		trigger = {
+			has_ruler = "Manolo"
+		}
+
+		change_religion = nestorian
+		capital_scope = { change_religion = nestorian }
+		hidden_effect = {
+			set_ruler_religion = nestorian
+			set_consort_religion = nestorian
+			set_heir_religion = nestorian
+		}
+		hidden_effect = {
+			every_subject_country = {
+				limit = { is_in_latin_league = yes }
+				change_religion = ROOT
+				set_ruler_religion = ROOT
+				set_consort_religion = ROOT
+				set_heir_religion = ROOT
+			}
+		}
+
+	}
+
+}
+
+# Rectorate Established as Hereditary
+country_event = {
+	id = fep_italian_flavor.5
+	title = fep_italian_flavor.5.t
+	desc = fep_italian_flavor.5.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = fep_italian_flavor.5.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = fep_italian_flavor.5.b
+		grant_independence = yes
+		event_target:current_rector = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { army_size = event_target:current_rector }
+			}
+		}
+	}
+
+}

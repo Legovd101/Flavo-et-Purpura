@@ -3,9 +3,45 @@ on_startup = {
 		flavor_ven.0
 	}
 	set_variable = {
-		which = latin_unity
+		which = latin_succession_score
 		value = 0
 	}
+	if = {
+		limit = { tag = VEN }
+		save_global_event_target_as = current_rector
+		if = { limit = { ai = no}
+			set_variable = {
+				which = latin_succession_score
+				value = 200
+			}
+			set_variable = {
+				which = latin_unity
+				value = 30
+			}
+		}
+	}
+	if = {
+		limit = { has_subject_of_type = league_member }
+		league_successor_calculation_effect = yes
+		league_unity_calculation_effect = yes
+
+	}
+	set_variable = {
+		which = latin_unity_gain
+		value = 0
+	}
+	if = {
+		limit = { is_in_latin_league = yes }
+		set_variable = {
+			which = latin_succession_score
+			value = 0
+		}
+	
+	}
+# random_country = {
+	# 	limit = { culture_group = latin }
+	# 	save_global_event_target_as = current_rector
+	# }
 }
 on_monarch_death = {
 	events = {
@@ -13,9 +49,43 @@ on_monarch_death = {
 	}
 }
 on_new_monarch = {
+	if = {
+		limit = { has_subject_of_type = league_member NOT = { has_global_flag = latin_hereditary_reform } }
+		event_target:current_successor = {
+			set_variable = {
+				which = latin_succession_score
+				which = event_target:current_rector
+			}
+			save_global_event_target_as = current_rector
+			every_country = {
+				limit = { is_in_latin_league = yes }
+				if = {
+					limit = { NOT = { tag = PREV } }
+					PREV = {
+						create_subject = {
+							subject_type = league_member
+							who = PREV
+						}
+					}
+					
+				}
+				set_variable = {
+					which = latin_succession_score
+					value = 0
+				}
+				set_variable = {
+					which = latin_unity
+					value = 0
+				}
+			
+			}
+		}
+	}
 	events = {
 		flavor_bry.1			#Brythonian Succession
+		fep_italian_flavor.3		#League Succession
 	}
+
 }
 
 # on_monarch_death = {
@@ -38,6 +108,13 @@ on_war_lost = {
 			}
 		}
 	}
+	if = {
+		limit = { is_in_latin_league = yes }
+		subtract_variable = {
+			which = latin_succession_score
+			value = 30
+		}
+	}
 }
 
 # root = winning country, from = loser country
@@ -53,6 +130,13 @@ on_war_won = {
 				power_type = stranglehold
 				value = 10
 			}
+		}
+	}
+	if = {
+		limit = { is_in_latin_league = yes }
+		change_variable = {
+			which = latin_succession_score
+			value = 20
 		}
 	}
 }
@@ -205,248 +289,45 @@ on_monthly_pulse = {
 		limit = {
 			has_subject_of_type = league_member
 		}
-		set_variable = {
-			which = latin_unity_gain
-			value = 0
-		}
-		set_variable = {
-			which = latin_provinces_count
-			value = 0
-		}
-		set_variable = {
-			which = latin_heretic_provinces
-			value = 0
-		}
-		set_variable = {
-			which = latin_league_members
-			value = 0
-		}
-		set_variable = {
-			which = latin_member_gain
-			value = 0
-		}
-		set_variable = {
-			which = latin_internal_war_members
-			value = 0
-		}
-		set_variable = {
-			which = latin_defending_members
-			value = 0
-		}
-		set_variable = {
-			which = latin_attacking_members
-			value = 0
-		}
-		set_variable = {
-			which = latin_internal_war_gain
-			value = 0
-		}
-		set_variable = {
-			which = latin_defending_gain
-			value = 0
-		}
-		set_variable = {
-			which = latin_attacking_gain
-			value = 0
-		}
-		set_variable = {
-			which = latin_peacetime_gain
-			value = 0
-		}
+		league_unity_calculation_effect = yes
+	}
+	# Latin Succession Score
+	if = {
+		limit = { is_in_latin_league = yes }
+		league_succession_score_effect = yes
+	}
+	# if = {
+	# 	limit = { is_in_latin_league = yes }
+	# 	set_variable = {
+	# 		which = latin_succession_check
+	# 		value = 0
+	# 	}
+	# }
+	if = {
+		limit = { has_subject_of_type = league_member }
+		league_successor_calculation_effect = yes
+	}
+}
 
-		## League Religious Unity Calculation
-		every_province = {
-			limit = { owner = { is_in_latin_league = yes } }
-			change_variable = {
-				which = latin_provinces_count
-				value = 1
-			}
-			if = {
-				limit = { NOT = { religion = ROOT } }
-				change_variable = {
-					which = latin_heretic_provinces
-					value = 1
-				}
-			}
-		}
-		set_variable = {
-			which = latin_religious_unity
-			which = latin_heretic_provinces
-		}
-		divide_variable = {
-			which = latin_religious_unity
-			which = latin_provinces_count
-		}
-		set_variable = {
-			which = latin_religious_unity_gain
-			which = latin_religious_unity
-		}
-		subtract_variable = {
-			which = latin_religious_unity_gain
-			value = 0.5
-		}
-		multiply_variable = {
-			which = latin_religious_unity
-			value = -100
-		}
-		change_variable = {
-			which = latin_religious_unity
-			value = 100
-		}
-
-		## League Member Calculations
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			change_variable = {
-				which = latin_league_members
-				value = 1
-			}	
-			change_variable = {
-				which = latin_member_gain
-				value = 0.15
-			}
-			### War Calculations
-			#### Internal War Debuff
-			if = {
-				limit = {
-					any_country = {
-						is_in_latin_league = yes
-						OR = {
-							is_in_war = {
-								attacker_leader = PREV
-								defender_leader = THIS
-							}
-							is_in_war = {
-								attacker_leader = THIS
-								defender_leader = PREV
-							}
-						}
-					}
-				}
-				change_variable = {
-					which = latin_internal_war_gain
-					value = 0.5
-				}
-				change_variable = {
-					which = latin_internal_war_members
-					value = 1
-				}
-			}
-			#### Offensive War Buff
-			if = {
-				limit = {
-					OR = {
-						any_country = {
-							is_in_latin_league = no
-							is_in_war = {
-								attacker_leader = PREV
-								defender_leader = THIS
-							}
-						}
-						any_country = {
-							is_in_latin_league = yes
-							any_country = {
-								is_in_latin_league = no
-								is_in_war = {
-									attacker_leader = PREV
-									defender_leader = THIS
-								}
-							}
-							PREV = {
-								offensive_war_with = PREV
-							}
-						}
-					}
-				}
-				change_variable = {
-					which = latin_attacking_gain
-					value = 0.2
-				}
-				change_variable = {
-					which = latin_attacking_members
-					value = 1
-				}
-			}
-			#### Defensive War Buff
-			if = {
-				limit = {
-					OR = {
-						any_country = {
-							is_in_latin_league = no
-							is_in_war = {
-								attacker_leader = THIS
-								defender_leader = PREV
-							}
-						}
-						any_country = {
-							is_in_latin_league = yes
-							any_country = {
-								is_in_latin_league = no
-								is_in_war = {
-									attacker_leader = THIS
-									defender_leader = PREV
-								}
-							}
-							PREV = {
-								defensive_war_with = PREV
-							}
-						}
-					}
-				}
-				change_variable = {
-					which = latin_defending_gain
-					value = 0.25
-				}
-				change_variable = {
-					which = latin_defending_members
-					value = 1
-				}
-			}
-		}
+on_country_released = {
+	THIS = {
 		if = {
-			limit = {
-				all_country = {
-					OR = {
-						is_in_latin_league = no
-						is_at_war = no
-					}
+			limit = { culture_group = latin }
+			random_country = {
+				limit = { has_subject_of_type = league_member }
+				create_subject = {
+					subject_type = league_member
+					who = PREV
 				}
 			}
-			change_variable = {
-				which = latin_peacetime_gain
-				value = 1.0
-			}						
 		}
-		## Final Unity Calculation
-		subtract_variable = {
-			which = latin_unity_gain
-			which = latin_religious_unity_gain
+	}
+}
+on_create_vassal = {
+	if = {
+		limit = { FROM = { has_subject_of_type = league_member } ROOT = { culture_group = latin } }
+		change_subject_type = {
+			subject_type = league_member
 		}
-
-		subtract_variable = {
-			which = latin_unity_gain
-			which = latin_internal_war_gain
-		}
-
-		change_variable = {
-			which = latin_unity_gain
-			which = latin_member_gain
-		}
-
-		change_variable = {
-			which = latin_unity_gain
-			which = latin_defending_gain
-		}
-
-		change_variable = {
-			which = latin_unity_gain
-			which = latin_attacking_gain
-		}
-
-		change_variable = {
-			which = latin_unity_gain
-			which = latin_peacetime_gain
-		}
-
 	}
 }

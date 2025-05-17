@@ -239,7 +239,7 @@ declarewar = {
 			}
 			FROM = {
 				country_event = {
-					id = fep_italian_flavor.1
+					id = fep_italian_flavor.0
 				}
 			}
 		}
