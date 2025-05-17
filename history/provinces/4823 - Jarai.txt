@@ -1,10 +1,8 @@
-### Modified 31-03-2025 16:16:08 ###
-# Jarai
-# 4823 Jarai - 31-03-2025 16:16:08 
+# 4823 Jarai - 12/5/2568 2:34:29 
  
 add_core = KHM
-owner = KHM
-controller = KHM
+owner = CP3
+controller = CP3
 base_tax = 2
 base_production = 2
 base_manpower = 2

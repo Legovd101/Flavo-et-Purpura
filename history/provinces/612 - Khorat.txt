@@ -1,14 +1,25 @@
-#612 - Khorat
-owner = LIG
-controller = LIG
-culture = khmer
-religion = buddhism
-capital = "Khorat"
-trade_goods = silk
+# 612 Khorat - 12/5/2568 2:34:29 
+ 
+add_core = LIG
+owner = KH5
+controller = KH5
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = silk
+
+culture = khmer
+religion = buddhism
+capital = "Khorat"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = LIG
+
+
+
+
+
+

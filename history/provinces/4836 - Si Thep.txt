@@ -1,16 +1,27 @@
-#592 - Ratchaburi
-owner = LIG
-controller = LIG
-culture = khmer
-religion = buddhism
-capital = "Si Thep"
-trade_goods = grain
+# 4836 Si Thep - 12/5/2568 2:34:29 
+ 
+add_core = LIG
+owner = KH5
+controller = KH5
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = grain
+
+culture = khmer
+religion = buddhism
+capital = "Si Thep"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LIG
+
+
+
+
+
+

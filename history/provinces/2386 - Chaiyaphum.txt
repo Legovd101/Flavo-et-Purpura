@@ -1,15 +1,26 @@
-#2386 - Chaiyaphum
-owner = SUK
-controller = SUK
-culture = khmer
-religion = buddhism
-capital = "Chaiyaphum"
-trade_goods = grain
+# 2386 Chaiyaphum - 12/5/2568 2:34:29 
+ 
+add_core = VIE
+add_core = SUK
+owner = KH5
+controller = KH5
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = khmer
+religion = buddhism
+capital = "Chaiyaphum"
+
 is_city = yes
-add_core = VIE
+
 discovered_by = chinese
 discovered_by = indian
-add_core = SUK
+
+
+
+
+
+

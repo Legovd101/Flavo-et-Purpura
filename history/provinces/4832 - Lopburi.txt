@@ -1,15 +1,27 @@
-owner = SUK
-controller = SUK
-culture = central_thai
-religion = buddhism
-capital = "Lopburi"
-trade_goods = grain
+# 4832 Lavo - 12/5/2568 2:34:29 
+ 
+add_core = SUK
+owner = MN1
+controller = MN1
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = grain
+
+culture = central_thai
+religion = buddhism
+capital = "Lopburi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SUK
+
+
+
+
+
+

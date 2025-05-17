@@ -1,15 +1,26 @@
-#601 - Sukhothai
-owner = SUK
-controller = SUK
-culture = central_thai
-religion = buddhism
-capital = "Sukhothai"
-trade_goods = chinaware
+# 601 Sukhothai - 12/5/2568 2:34:29 
+ 
+add_core = SUK
+owner = MB1
+controller = MB1
 base_tax = 6
 base_production = 6
 base_manpower = 3
+
+trade_goods = chinaware
+
+culture = central_thai
+religion = buddhism
+capital = "Sukhothai"
+
 is_city = yes
-add_core = SUK
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = indian
-fort_15th = yes
+
+
+
+
+
+

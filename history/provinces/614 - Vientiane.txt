@@ -1,18 +1,29 @@
-#614 - Vientiane
-owner = LXA
-controller = LXA
-culture = lao
-religion = buddhism
-capital = "Vientiane"
-trade_goods = grain
+# 614 Vientiane - 12/5/2568 2:34:29 
+ 
+add_core = LXA
+add_core = VIE
+owner = KH6
+controller = KH6
 base_tax = 5
 base_production = 5
 base_manpower = 4
+
+center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = lao
+religion = buddhism
+capital = "Vientiane"
+
 is_city = yes
-add_core = LXA
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = indian
-extra_cost = 8
-center_of_trade = 1
-add_core = VIE
-fort_15th = yes
+
+
+
+
+
+

@@ -1,10 +1,9 @@
-# Indrapura
-# 1022 Indrapura - 31-03-2025 16:56:52 
+# 1022 Indrapura - 12/5/2568 2:34:29 
  
 add_core = CHA
 add_core = ANN
-owner = CHA
-controller = CHA
+owner = CP1
+controller = CP1
 base_tax = 4
 base_production = 4
 base_manpower = 2
@@ -27,4 +26,3 @@ discovered_by = ottoman
 
 
 
-### Modified 31-03-2025 16:56:52 ###

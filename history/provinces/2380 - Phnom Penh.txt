@@ -1,18 +1,29 @@
-#2380 - Phnom Penh
-owner = KHM
-controller = KHM
-culture = khmer
-religion = buddhism
-capital = "Chaktomuk"
-trade_goods = iron
+# 2380 Phnom Penh - 12/5/2568 2:34:29 
+ 
+add_core = KHM
+owner = KH2
+controller = KH2
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = iron
+extra_cost = 8
+
+culture = khmer
+religion = buddhism
+capital = "Chaktomuk"
+
 is_city = yes
-add_core = KHM
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+

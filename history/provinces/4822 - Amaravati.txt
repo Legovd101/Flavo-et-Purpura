@@ -1,10 +1,8 @@
-### Modified 31-03-2025 16:15:24 ###
-# Amaravati
-# 4822 Amaravati - 31-03-2025 16:15:24 
+# 4822 Amaravati - 12/5/2568 2:34:29 
  
 add_core = CHA
-owner = CHA
-controller = CHA
+owner = CP1
+controller = CP1
 base_tax = 4
 base_production = 3
 base_manpower = 2

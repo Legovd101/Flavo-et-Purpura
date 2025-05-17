@@ -1,11 +1,9 @@
-### Modified 31-03-2025 16:16:19 ###
-# Attapeu
-# 608 Attapeu - 31-03-2025 16:16:19 
+# 608 Attapeu - 12/5/2568 2:34:29 
  
 add_core = CHK
 add_core = KHM
-owner = KHM
-controller = KHM
+owner = KH4
+controller = KH4
 base_tax = 2
 base_production = 2
 base_manpower = 1
