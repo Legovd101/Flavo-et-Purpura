@@ -1,8 +1,8 @@
 # 603 Nakhon Thung Yai - 12/5/2568 2:34:29 
  
 add_core = LIG
-owner = KH3
-controller = KH3
+owner = DMR
+controller = DMR
 base_tax = 4
 base_production = 4
 base_manpower = 3

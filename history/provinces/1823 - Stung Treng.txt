@@ -1,8 +1,8 @@
 # 1823 Stung Treng - 12/5/2568 2:34:29 
  
 add_core = KHM
-owner = CP3
-controller = CP3
+owner = JRI
+controller = JRI
 base_tax = 3
 base_production = 3
 base_manpower = 2

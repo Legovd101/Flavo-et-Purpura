@@ -1,8 +1,8 @@
 # 606 Panduranga - 12/5/2568 2:34:29 
  
 add_core = KHM
-owner = CP2
-controller = CP2
+owner = PND
+controller = PND
 base_tax = 4
 base_production = 4
 base_manpower = 2

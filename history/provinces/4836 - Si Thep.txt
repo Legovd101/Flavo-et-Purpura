@@ -1,8 +1,8 @@
 # 4836 Si Thep - 12/5/2568 2:34:29 
  
 add_core = LIG
-owner = KH5
-controller = KH5
+owner = KRH
+controller = KRH
 base_tax = 3
 base_production = 3
 base_manpower = 3

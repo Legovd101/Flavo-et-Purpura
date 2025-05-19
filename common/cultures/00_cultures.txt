@@ -1192,6 +1192,7 @@ gaelic	= {
 latin = {
 	graphical_culture = westerngfx
 
+	province = { local_has_tercio = yes }
 	lombard = {
 		primary = MLO
 	}

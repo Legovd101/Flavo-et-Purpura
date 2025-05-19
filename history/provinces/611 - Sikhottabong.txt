@@ -2,8 +2,8 @@
  
 add_core = VIE
 add_core = KHM
-owner = KH6
-controller = KH6
+owner = SGT
+controller = SGT
 base_tax = 2
 base_production = 2
 base_manpower = 2

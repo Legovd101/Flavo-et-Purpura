@@ -1,8 +1,8 @@
 # 2389 Phra Bang - 12/5/2568 2:34:29 
  
 add_core = SUK
-owner = MN1
-controller = MN1
+owner = DVA
+controller = DVA
 base_tax = 5
 base_production = 5
 base_manpower = 3

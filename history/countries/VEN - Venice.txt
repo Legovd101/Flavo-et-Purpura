@@ -26,3 +26,14 @@ government_rank = 1
 		mil = 3
 	}
 }
+1299.1.1 = {
+	define_advisor = {
+		type = trader
+		name = "Altan Aghula"
+		skill = 2
+		culture = mongol
+		religion = manichaean
+		age = 50
+		cost_multiplier = 0.5
+	}
+}

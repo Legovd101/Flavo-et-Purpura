@@ -3,3 +3,15 @@ travels_of_manolo_polcari = {
 	global_foreign_trade_power = 0.05
 	improve_relation_modifier = 0.15
 }
+manolos_folly_preparation = {
+	can_not_declare_war = yes
+	land_maintenance_modifier = -1
+	diplomatic_upkeep = -4
+}
+manolos_folly = {
+	has_tercio = yes
+	land_maintenance_modifier = -1
+	global_manpower = 80
+	land_forcelimit = 80
+	diplomatic_upkeep = -4
+}
