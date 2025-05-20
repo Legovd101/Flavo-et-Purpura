@@ -47,21 +47,6 @@
  MAQQI: "Maí"
  DUATER: "Duater"
 
- # Peace Treaties
- PEACE_force_foederatus: "Force Foederatus"
- force_foederatus_desc: "Make [From.GetName] a Foederatus of [This.GetName]"
- CB_ALLOWED_force_foederatus: "Force Foederatus"
- PEACE_PO_foederatus: "Force Foederatus"
-
- cb_establish_foederati: "Establish Foederatus"
- cb_establish_foederati_desc: "Bring the target country firmly into our sphere of influence and establish them as a Foederatus!"
-
- take_capital_federate: "Take the capital and establish their elite as our Foederatus"
- take_capital_federate_desc: "War goal is to take the capital."
-
- exile: "Exile"
- exile_desc: "With the Exile technology group, technology levels are 25% more expensive (125%)."
-
  # Subjects
  foederatus: "Foederatus"
  foederatus_long_desc: "Foederati were historically used by the Roman Empire to denote client kingdoms or subjugated barbarians. They can wage their own wars and have high liberty desire, and can be centralized via a steady series of reforms over the course of 85 years."
@@ -112,4 +97,29 @@
  request_provincia_tooltip: "Bring the leaders of [From.GetName] closer to our glorious [Root.GovernmentName]"
  request_provincia_alert_tooltip: "Integrate as Provincia"
  has_been_colonia_for_fifteen_years_tt: "§Y[From.GetName]§! must have been our Colonia for at least §Y25§! years!"
+
+ # Peace Treaties
+ PEACE_force_foederatus: "Force Foederatus"
+ force_foederatus_desc: "Make [From.GetName] a Foederatus of [This.GetName]"
+ CB_ALLOWED_force_foederatus: "Force Foederatus"
+ PEACE_PO_foederatus: "Force Foederatus"
+
+ cb_establish_foederati: "Establish Foederatus"
+ cb_establish_foederati_desc: "Bring the target country firmly into our sphere of influence and establish them as a Foederatus!"
+
+ take_capital_federate: "Take the capital and establish their elite as our Foederatus"
+ take_capital_federate_desc: "War goal is to take the capital."
+
+ exile: "Exile"
+ exile_desc: "With the Exile technology group, technology levels are 25% more expensive (125%)."
+
+ po_legion_win: "Legionnary Supremacy"
+ po_legion_win_desc: "We will establish control over Egypt and Judea"
+ CB_ALLOWED_po_legion_win: "Legionnary Supremacy"
+ PEACE_po_legion_win: "Legionnary Supremacy"
+ cb_4th_crusade: "The 4th Crusade"
+ cb_4th_crusade_desc: "Defeat the Infidels!"
+ redleg_4th_crusade: "The 4th Crusade"
+ redleg_4th_crusade_desc: "Defeat the Infidels!"
+ THE_4TH_CRUSADE: "The 4th Crusade"
 

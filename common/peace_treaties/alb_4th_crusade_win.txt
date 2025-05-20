@@ -26,16 +26,17 @@ po_legion_win = {
 	is_allowed = { # Defaults to equivalent of "always = yes"
 	}
 	effect = { # Defaults to empty effect (which makes error log entry but is safe)
-		remove_country_modifier = manolos_folly
-		set_capital = 358
-		364 = {
+		2315 = {
 			cede_province = ROOT
 		}
-		379 = {
+		5027 = {
+			cede_province = ROOT
+		}
+		365 = {
 			cede_province = ROOT
 		}
 		hidden_effect = {
-			egypt_region = {
+			delta_area = {
 				limit = {
 					AND = {
 						is_core = MAM
@@ -46,34 +47,36 @@ po_legion_win = {
 				add_core = ROOT
 			}
 		}
-		egypt_region = {
+		delta_area = {
 			limit = {
 				owned_by = MAM
 			}
 			cede_province = ROOT
 		}
-		horn_of_africa_region = {
+		bahari_area = {
 			limit = {
 				owned_by = MAM
 			}
 			cede_province = ROOT
+		}
+		palestine_area = {
+			limit = {
+				owned_by = MAM
+			}
+			cede_province = KOJ
+			remove_core = MAM
+			add_core = KOJ
 		}
 		hidden_effect = {
-			change_tag = AE0
 			swap_non_generic_missions = yes
-			add_accepted_culture = hell_egypt
-			add_accepted_culture = copt
+			add_accepted_culture = nubian
+			add_accepted_culture = perso_egyptian
 			if = {
 				limit = {
 					ai = yes
 				}
 				add_treasury = 1500
 				disband_all_regiments = yes
-			}
-			AF6 = {
-				every_owned_province = {
-					cede_province = ROOT
-				}
 			}
 		}
 		FROM = {

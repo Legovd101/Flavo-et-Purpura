@@ -2,12 +2,12 @@ cb_4th_crusade = {
 	valid_for_subject = no 
 	is_triggered_only = yes
 	prerequisites_self = {
-		tag = AF6
+		tag = EZI
 	}
 
 	prerequisites = { 
 		FROM = {
-			tag = RU0
+			tag = MAM
 		}
 	}
 	war_goal = redleg_4th_crusade

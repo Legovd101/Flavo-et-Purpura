@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = crusader_nobility_reform
+mercantilism = 25
+primary_culture = venetian
+religion = west_orthodox
+add_accepted_culture = rhoman
+add_accepted_culture = dalmatian
+technology_group = western
+capital = 361 # Alexandria
+fixed_capital = 361 # Cannot move capital away from this province & no power cost to move to it
+historical_friend = SIN
+historical_friend = EPI
+historical_rival = GEN
+historical_rival = ZNG
+historical_rival = BYZ
+add_army_professionalism = 0.05
+government_rank = 1
+1299.1.1 = {
+	define_advisor = {
+		type = trader
+		name = "Altan Aghula"
+		skill = 2
+		culture = mongol
+		religion = manichaean
+		age = 50
+		cost_multiplier = 0.5
+	}
+}

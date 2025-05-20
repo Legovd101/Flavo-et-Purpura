@@ -1,6 +1,6 @@
 on_startup = {
 	events = {
-		flavor_ven.0
+		fep_venetian_flavor.0
 	}
 	set_variable = {
 		which = latin_succession_score

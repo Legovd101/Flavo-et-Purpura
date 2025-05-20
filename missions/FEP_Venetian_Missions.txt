@@ -8,9 +8,9 @@ VEN_planning_1 = {
 	VEN_raising_war_fleet = {
 		icon = mission_establish_high_seas_navy
 		position = 1
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { owned_by = ROOT has_port = yes } 
 
-		trigger = {  } 
+		trigger = { navy_size_percentage = 1 } 
 
 		effect = {  } 
 	}
@@ -31,7 +31,7 @@ VEN_planning_2 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { treasury = 150 } 
 
 		effect = {  } 
 	}
@@ -48,7 +48,9 @@ VEN_planning_3 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			has_mil_advisor = yes
+		} 
 
 		effect = {  } 
 	}
@@ -59,7 +61,12 @@ VEN_planning_3 = {
 		required_missions = { VEN_financial_backing } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			has_spy_network_in = {
+				who = MAM
+				value = 50
+			}
+		} 
 
 		effect = {  } 
 	}
@@ -73,9 +80,19 @@ VEN_planning_3 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			1315 = {
+				num_of_units_in_province = {
+					amount = 15
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			country_event = {
+				id = fep_venetian_flavor.2
+			}
+		} 
 	}
 }
 VEN_planning_4 = {
@@ -90,7 +107,12 @@ VEN_planning_4 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			reverse_has_opinion = {
+				who = KOJ
+				value = 150
+			}
+		} 
 
 		effect = {  } 
 	}
@@ -104,7 +126,9 @@ VEN_planning_4 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			358 = { has_merchant = ROOT }
+		} 
 
 		effect = {  } 
 	}
@@ -115,7 +139,12 @@ VEN_planning_4 = {
 		required_missions = { VEN_laying_path } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			reverse_has_opinion = {
+				who = PAP
+				value = 150
+			}
+		} 
 
 		effect = {  } 
 	}
@@ -132,7 +161,11 @@ VEN_planning_5 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			employed_advisor = {
+				name = "Altan Aghula"
+			}
+		} 
 
 		effect = {  } 
 	}
