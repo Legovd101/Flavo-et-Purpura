@@ -1,6 +1,6 @@
-### Modified 5/27/2025 4:57:02 PM ###
+### Modified 5/27/2025 5:47:54 PM ###
 # Ngaichow
-# 2160 Ngaichow - 5/27/2025 4:57:02 PM 
+# 2160 Ngaichow - 5/27/2025 5:47:54 PM 
  
 add_core = CTC
 add_core = CTC
@@ -12,7 +12,7 @@ base_manpower = 1
 
 trade_goods = incense
 
-culture = chimin
+culture = hainanese
 religion = nestorian
 capital = "Ngaichow"
 

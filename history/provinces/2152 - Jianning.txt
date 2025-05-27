@@ -1,5 +1,6 @@
+### Modified 5/27/2025 5:47:54 PM ###
 # Kuinan
-# 2152 Kuinan - 5/27/2025 4:57:02 PM 
+# 2152 Kuinan - 5/27/2025 5:47:54 PM 
  
 add_core = MNG
 add_core = MIN
@@ -12,7 +13,7 @@ base_manpower = 2
 
 trade_goods = tea
 
-culture = chimin
+culture = inland_fukkien
 religion = confucianism
 capital = "Jianning"
 
@@ -27,4 +28,3 @@ discovered_by = nomad_group
 
 
 
-### Modified 5/27/2025 4:57:02 PM ###

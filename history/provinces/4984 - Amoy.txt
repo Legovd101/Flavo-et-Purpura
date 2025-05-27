@@ -2,6 +2,7 @@
 # 4984 Amoy - 5/27/2025 4:57:02 PM 
  
 add_core = MIN
+add_core = AMO
 owner = MIN
 controller = MIN
 base_tax = 2

@@ -1,6 +1,6 @@
-### Modified 5/27/2025 4:57:02 PM ###
+### Modified 5/27/2025 5:47:54 PM ###
 # Banchiu
-# 5038 Banchiu - 5/27/2025 4:57:02 PM 
+# 5038 Banchiu - 5/27/2025 5:47:54 PM 
  
 add_core = CTC
 add_core = CTC
@@ -11,7 +11,7 @@ base_production = 2
 base_manpower = 3
 
 
-culture = chimin
+culture = hainanese
 religion = nestorian
 
 hre = yes

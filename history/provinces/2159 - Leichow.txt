@@ -1,5 +1,6 @@
+### Modified 5/27/2025 5:47:54 PM ###
 # Leichow
-# 2159 Leichow - 5/27/2025 4:57:02 PM 
+# 2159 Leichow - 5/27/2025 5:47:54 PM 
  
 add_core = YUE
 add_core = MIN
@@ -11,7 +12,7 @@ base_manpower = 2
 
 trade_goods = sugar
 
-culture = chimin
+culture = hainanese
 religion = confucianism
 capital = "Leichow"
 
@@ -26,4 +27,3 @@ discovered_by = indian
 
 
 
-### Modified 5/27/2025 4:57:02 PM ###
