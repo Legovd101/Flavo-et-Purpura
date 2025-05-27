@@ -1,12 +1,24 @@
-#1111 - Arguin
-culture = gaetuli
-religion = mauri_pagan
-capital = "Arguin"
-trade_goods = unknown
+# Arguin
+# 1111 Arguin - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = gaetuli
+religion = mauri_pagan
+capital = "Arguin"
+
 native_size = 50
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

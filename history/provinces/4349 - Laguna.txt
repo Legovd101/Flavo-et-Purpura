@@ -1,13 +1,26 @@
-#4349 - Laguna
+# Laguna
+# 4349 Laguna - 5/27/2025 4:57:02 PM 
+ 
+add_core = TDO
 owner = TDO
 controller = TDO
-add_core = TDO
-culture = filipino
-religion = animism
-capital = "Laguna"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = grain
+
+culture = filipino
+religion = animism
+capital = "Laguna"
+
 is_city = yes
+
 discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

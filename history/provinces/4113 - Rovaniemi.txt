@@ -1,16 +1,29 @@
-#Finnish Lappland - Rovaniemi
+# Rovaniemi
+# 4113 Rovaniemi - 5/27/2025 4:57:02 PM 
+ 
+add_core = KVE
+add_core = SMI
 owner = SMI
 controller = SMI
-culture = kven
-add_core = KVE #Probably also a large Sami population.
-religion = finnish_pagan
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
-add_local_autonomy = 40
+
+trade_goods = fur
+
+culture = kven
+religion = finnish_pagan
 capital = "Rovaniemi"
+
 is_city = yes
+add_local_autonomy = 40
+
 discovered_by = eastern
 discovered_by = western
-add_core = SMI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

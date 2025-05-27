@@ -1,4 +1,5 @@
-# 4823 Jarai - 12/5/2568 2:34:29 
+# Jarai
+# 4823 Jarai - 5/27/2025 4:57:02 PM 
  
 add_core = KHM
 owner = CP3
@@ -25,3 +26,4 @@ discovered_by = ottoman
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

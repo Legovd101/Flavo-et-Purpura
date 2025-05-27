@@ -1,19 +1,33 @@
-#1843 - Kozuke
-owner = KOR
-controller = KOR
-culture = togoku
-religion = tengri_pagan_reformed
-capital = "Mayabashi"
-trade_goods = livestock
+### Modified 5/27/2025 4:57:02 PM ###
+# Kozuke
+# 1843 Kozuke - 5/27/2025 4:57:02 PM 
+ 
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
 base_tax = 2
 base_production = 3
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = togoku
+religion = tengri_pagan_reformed
+capital = "Mayabashi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-add_core = KOR
 discovered_by = nomad_group
+
+
+
+
+
+

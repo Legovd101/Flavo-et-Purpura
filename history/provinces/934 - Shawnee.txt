@@ -1,14 +1,26 @@
-#934 - Shawnee
-culture = yuchi
-religion = totemism
-capital = "Tsoyaha"
-trade_goods = grain
+# Tsoyaha
+# 934 Tsoyaha - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = yuchi
+religion = totemism
+capital = "Tsoyaha"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 6
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

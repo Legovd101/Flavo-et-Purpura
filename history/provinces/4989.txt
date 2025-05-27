@@ -1,11 +1,25 @@
+# Theciou
+# 4989 Theciou - 5/27/2025 4:57:02 PM 
+ 
 add_core = MIN
 owner = MIN
+controller = MIN
 base_tax = 3
-base_manpower = 1
 base_production = 4
+base_manpower = 1
+
+
 culture = wu
 religion = confucianism
-controller = MIN
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

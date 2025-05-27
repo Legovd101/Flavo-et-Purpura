@@ -1,16 +1,29 @@
-#2681 - Pagarruyung
+# Pagarruyung
+# 2681 Pagarruyung - 5/27/2025 4:57:02 PM 
+ 
+add_core = MSA
 owner = MSA
 controller = MSA
-culture = sumatran
-religion = hinduism
-capital = "Pagarruyung"
-trade_goods = gold
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = gold
+
+culture = sumatran
+religion = hinduism
+capital = "Pagarruyung"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MSA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

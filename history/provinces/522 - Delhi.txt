@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:38:55 ###
 # Delhi
-# 522 Delhi - 31-03-2025 15:38:55 
+# 522 Delhi - 5/27/2025 4:57:01 PM 
  
 add_core = MUL
 add_core = SRH
@@ -32,3 +31,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

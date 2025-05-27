@@ -1,5 +1,18 @@
+# Baffin
+# 1807 Baffin - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
 discovered_by = ICE
 discovered_by = VIN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

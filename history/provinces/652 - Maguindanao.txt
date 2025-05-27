@@ -1,13 +1,26 @@
-#652 - Maguindanao
-culture = filipino
-religion = animism
-capital = "Maguindanao"
-trade_goods = spices
-is_city = yes
+# Maguindanao
+# 652 Maguindanao - 5/27/2025 4:57:01 PM 
+ 
+add_core = MGD
+owner = MGD
+controller = MGD
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = spices
+
+culture = filipino
+religion = animism
+capital = "Maguindanao"
+
+is_city = yes
+
 discovered_by = chinese
-owner = MGD
-controller = MGD
-add_core = MGD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

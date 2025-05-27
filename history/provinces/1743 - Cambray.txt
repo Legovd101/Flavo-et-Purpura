@@ -1,25 +1,37 @@
-# 1743 Cambray
-latent_trade_goods = { 
-	coal 
-}
+# Cambray
+# 1743 Cambray - 5/27/2025 4:57:02 PM 
+ 
+add_core = HAI
+add_core = LOR
 owner = LOR
 controller = LOR
-capital = "Cambray"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = belgican
-religion = lutetian
-
 base_tax = 5
 base_production = 5
-trade_goods = grain
 base_manpower = 2
-add_core = HAI
+
+trade_goods = grain
+
+culture = belgican
+religion = lutetian
+capital = "Cambray"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LOR
+
+
+
+latent_trade_goods = {
+   coal
+}
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

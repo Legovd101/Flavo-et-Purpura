@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:51:42 ###
 # Ajmer
-# 2087 Ajmer - 31-03-2025 15:51:42 
+# 2087 Ajmer - 5/27/2025 4:57:02 PM 
  
 add_core = MAW
 add_core = JLV
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

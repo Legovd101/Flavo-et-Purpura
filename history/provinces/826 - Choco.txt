@@ -1,14 +1,26 @@
-#826 - Choco
-culture = guajiro
-religion = animism
-capital = "Choco"
-trade_goods = unknown
+# Choco
+# 826 Choco - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = guajiro
+religion = animism
+capital = "Choco"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = south_american
 discovered_by = MCA
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

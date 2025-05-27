@@ -1,18 +1,31 @@
-# 2139 - Laizhou
+# Laizhou
+# 2139 Laizhou - 5/27/2025 4:57:02 PM 
+ 
+add_core = QIC
+add_core = TNG
 owner = TNG
 controller = TNG
-culture = shandong_culture
-religion = confucianism
-capital = "Laizhou"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 2
-is_city = yes
-add_core = QIC
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = fish
+extra_cost = 8
+
+culture = shandong_culture
+religion = confucianism
+capital = "Laizhou"
+
+hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = TNG
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

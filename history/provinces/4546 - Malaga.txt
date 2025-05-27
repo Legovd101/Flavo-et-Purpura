@@ -1,21 +1,34 @@
-#223 - Granada
-owner = SPA# Mustapha Sa'd King of Granada
+# Málaga
+# 4546 Málaga - 5/27/2025 4:57:02 PM 
+ 
+add_core = SPA
+owner = SPA
 controller = SPA
-culture = strait_greek
-religion = west_orthodox
 base_tax = 3
 base_production = 3
-trade_goods = salt
 base_manpower = 1
+
+trade_goods = salt
+
+culture = strait_greek
+religion = west_orthodox
 capital = "Malaga"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+fort_15th = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = SPA
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

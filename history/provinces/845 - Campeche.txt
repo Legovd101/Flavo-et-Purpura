@@ -1,13 +1,26 @@
-#845 - Campeche
+# Campeche
+# 845 Campeche - 5/27/2025 4:57:01 PM 
+ 
+add_core = CNP
 owner = CNP
 controller = CNP
-culture = yucatec
-religion = mesoamerican_religion
-capital = "Campeche"
-trade_goods = sugar
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = sugar
+
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Campeche"
+
 is_city = yes
-add_core = CNP
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

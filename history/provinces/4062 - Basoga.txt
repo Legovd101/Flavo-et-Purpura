@@ -1,13 +1,26 @@
-#Basoga
+# Busoga
+# 4062 Busoga - 5/27/2025 4:57:02 PM 
+ 
+add_core = BSG
 owner = BSG
 controller = BSG
-add_core = BSG
-culture = masaba
-religion = swahili_pagan#Fetishism
-capital = "Bukaleeba"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = fish
+
+culture = masaba
+religion = swahili_pagan
+capital = "Bukaleeba"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

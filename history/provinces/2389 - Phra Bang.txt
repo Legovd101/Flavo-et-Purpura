@@ -1,4 +1,5 @@
-# 2389 Phra Bang - 12/5/2568 2:34:29 
+# Phra Bang
+# 2389 Phra Bang - 5/27/2025 4:57:02 PM 
  
 add_core = SUK
 owner = MN1
@@ -23,3 +24,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

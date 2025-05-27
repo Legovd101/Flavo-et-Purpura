@@ -1,10 +1,23 @@
-#Makeni
+# Makeni
+# 5206 Makeni - 5/27/2025 4:57:03 PM 
+ 
 base_tax = 1
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-capital = "Makeni"
-is_city = yes
+
+trade_goods = unknown
+
 culture = dyola
 religion = senegambian_pagan
+capital = "Makeni"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

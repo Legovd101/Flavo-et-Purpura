@@ -1,17 +1,30 @@
-# 181 Rethel
+# Rethel
+# 181 Rethel - 5/27/2025 4:57:01 PM 
+ 
+add_core = LOR
 owner = LOR
 controller = LOR
-capital = "Rethel"
-is_city = yes
-culture = belgican
-religion = lutetian
 base_tax = 6
 base_production = 6
-trade_goods = cloth
 base_manpower = 2
+
+trade_goods = cloth
+
+culture = belgican
+religion = lutetian
+capital = "Rethel"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LOR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

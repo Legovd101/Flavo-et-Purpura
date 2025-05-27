@@ -1,6 +1,5 @@
-### Modified 31-03-2025 12:54:28 ###
 # Negapatam
-# 4415 Negapatam - 31-03-2025 12:54:28 
+# 4415 Negapatam - 5/27/2025 4:57:02 PM 
  
 add_core = MAD
 add_core = TNJ
@@ -32,3 +31,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

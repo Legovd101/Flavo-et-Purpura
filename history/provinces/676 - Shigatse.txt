@@ -1,16 +1,29 @@
-#676 - U-Tsang
+# Shigatse
+# 676 Shigatse - 5/27/2025 4:57:01 PM 
+ 
+add_core = UTS
+add_core = PHA
 owner = UTS
 controller = UTS
-add_core = UTS
-culture = tibetan
-religion = vajrayana
-capital = "Shigatse"
-trade_goods = incense
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = incense
+
+culture = tibetan
+religion = vajrayana
+capital = "Shigatse"
+
 is_city = yes
-add_core = PHA
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

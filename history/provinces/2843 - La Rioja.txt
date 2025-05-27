@@ -1,14 +1,26 @@
-# - La Rioja
-culture = huarpe
-discovered_by = south_american
-discovered_by = andean
-religion = animism
-capital = "La Rioja"
-trade_goods = unknown
+# La Rioja
+# 2843 La Rioja - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = huarpe
+religion = animism
+capital = "La Rioja"
+
 native_size = 20
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
-is_city = no
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

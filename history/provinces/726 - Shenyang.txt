@@ -1,15 +1,28 @@
-#726 - Liaodong
+# Shenyang
+# 726 Shenyang - 5/27/2025 4:57:01 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = manchu
-religion = tengri_pagan_reformed
-capital = "Shenyang"
-trade_goods = gems#Youyan Jade
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+trade_goods = gems
+
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Shenyang"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

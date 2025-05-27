@@ -1,6 +1,18 @@
-#Natural borders between france and spain.
+# The Pyrenees
+# 4154 The Pyrenees - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

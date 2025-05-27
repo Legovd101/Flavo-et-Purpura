@@ -1,13 +1,25 @@
-# No previous file for Managua
-culture = miskito
-religion = animism
-capital = "Managua"
-trade_goods = unknown
+# Managua
+# 2660 Managua - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = miskito
+religion = animism
+capital = "Managua"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,17 +1,29 @@
-# 4769 - Jülich
+# Jülich
+# 4768 Jülich - 5/27/2025 4:57:02 PM 
+ 
+add_core = TRI
 owner = TRI
 controller = TRI
-culture = hessian
-religion = arianism
-trade_goods = grain
-capital = "Jülich"
 base_tax = 3
 base_production = 3
-is_city = yes
 base_manpower = 2
+
+trade_goods = grain
+
+culture = hessian
+religion = arianism
+capital = "Jülich"
+
+is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = TRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

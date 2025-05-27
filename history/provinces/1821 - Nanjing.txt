@@ -1,16 +1,29 @@
-#1821 - Nanjing
+# Nanjing
+# 1821 Nanjing - 5/27/2025 4:57:02 PM 
+ 
+add_core = QIN
 owner = QIN
 controller = QIN
-culture = huizhou_culture
-religion = confucianism
-capital = "Nanjing"
-trade_goods = silk
 base_tax = 15
 base_production = 15
 base_manpower = 3
+
+trade_goods = silk
+
+culture = huizhou_culture
+religion = confucianism
+capital = "Nanjing"
+
+hre = yes
 is_city = yes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = QIN
-hre = yes
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

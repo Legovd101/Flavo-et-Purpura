@@ -1,20 +1,32 @@
 # Lucca
+# 2980 Lucca - 5/27/2025 4:57:02 PM 
+ 
+add_core = BUL
+add_core = SIE
 owner = BUL
 controller = BUL
-culture = tuscan
-religion = west_orthodox
-
 base_tax = 6
 base_production = 6
-trade_goods = cloth
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
+culture = tuscan
+religion = west_orthodox
 capital = "Lucca"
-is_city = yes# Estimated
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = BUL
-add_core = SIE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,12 +1,26 @@
+# Tsiukong
+# 5079 Tsiukong - 5/27/2025 4:57:03 PM 
+ 
 add_core = KIC
 owner = KIC
+controller = KIC
 base_tax = 1
-base_manpower = 3
 base_production = 2
+base_manpower = 3
+
+
 culture = gan
 religion = confucianism
-controller = KIC
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

@@ -1,13 +1,26 @@
-#2697 - Tondo
+# Tondo
+# 2697 Tondo - 5/27/2025 4:57:02 PM 
+ 
+add_core = NNG
 owner = NNG
 controller = NNG
-culture = filipino
-religion = confucianism
-capital = "Tondo"
-trade_goods = spices
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+trade_goods = spices
+
+culture = filipino
+religion = confucianism
+capital = "Tondo"
+
 is_city = yes
+
 discovered_by = chinese
-add_core = NNG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

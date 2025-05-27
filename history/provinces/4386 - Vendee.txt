@@ -1,22 +1,35 @@
-# 4111 - Vendée
+# Bas-Poitou
+# 4386 Bas-Poitou - 5/27/2025 4:57:02 PM 
+ 
+add_core = GUY
 owner = GUY
 controller = GUY
-capital = "Luçon"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = armorican
-religion = lutetian
 base_tax = 3
 base_production = 3
-trade_goods = salt
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = salt
+extra_cost = 8
+
+culture = armorican
+religion = lutetian
+capital = "Luçon"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = GUY
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

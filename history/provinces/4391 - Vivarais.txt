@@ -1,16 +1,29 @@
-# 4391 Vivarais
+# Vivarais
+# 4391 Vivarais - 5/27/2025 4:57:02 PM 
+ 
+add_core = GUY
 owner = GUY
 controller = GUY
-capital = "Viviers"
-is_city = yes
-culture = aquitanian
-religion = arianism
 base_tax = 4
 base_production = 4
-trade_goods = wine
 base_manpower = 2
+
+trade_goods = wine
+
+culture = aquitanian
+religion = arianism
+capital = "Viviers"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GUY
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,19 +1,24 @@
-#136 - Split
+# Split
+# 136 Split - 5/27/2025 4:57:01 PM 
+ 
+add_core = CRO
+add_core = VEN
+add_core = BOS
 owner = VEN
 controller = VEN
-culture = dalmatian
-religion = manichaean
-capital = "Split"
-trade_goods = wool
 base_tax = 4
 base_production = 3
 base_manpower = 2
+
+trade_goods = wool
+
+culture = dalmatian
+religion = manichaean
+capital = "Split"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = CRO
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,6 +28,14 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = VEN
-add_core = BOS
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

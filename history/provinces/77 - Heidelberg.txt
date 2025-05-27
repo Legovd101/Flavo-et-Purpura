@@ -1,18 +1,30 @@
-#77 - Heidelberg
-capital = "Heidelberg"
-culture = hessian
-religion = arianism
-trade_goods = wine
+# Heidelberg
+# 77 Heidelberg - 5/27/2025 4:57:01 PM 
+ 
+add_core = THU
 owner = THU
+controller = THU
 base_tax = 5
 base_production = 4
 base_manpower = 4
+
+trade_goods = wine
+
+culture = hessian
+religion = arianism
+capital = "Heidelberg"
+
 is_city = yes
-controller = THU
+fort_15th = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = THU
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

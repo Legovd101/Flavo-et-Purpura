@@ -1,17 +1,30 @@
-#952 - Powhatan
-culture = powhatan
-religion = totemism
-capital = "Powhatan"
-trade_goods = tobacco
+# Powhatan
+# 952 Powhatan - 5/27/2025 4:57:01 PM 
+ 
+add_core = POW
+owner = POW
+controller = POW
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = tobacco
+
+culture = powhatan
+religion = totemism
+capital = "Powhatan"
+
 is_city = yes
-owner = POW
-controller = POW
-add_core = POW
 native_size = 10
-native_ferocity = 6
+native_ferocity =  6
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

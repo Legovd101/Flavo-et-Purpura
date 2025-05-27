@@ -1,14 +1,27 @@
-#583 - Hsenwi
+# Hsenwi
+# 583 Hsenwi - 5/27/2025 4:57:01 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = shan
-religion = buddhism
-capital = "Hsenwi"
-trade_goods = tropical_wood
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = tropical_wood
+
+culture = shan
+religion = buddhism
+capital = "Hsenwi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

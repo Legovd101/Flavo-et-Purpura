@@ -1,16 +1,29 @@
-#225 - Córdoba
-owner = BAE#Juan II of Castille
+# Córdoba
+# 225 Córdoba - 5/27/2025 4:57:01 PM 
+ 
+add_core = BAE
+owner = BAE
 controller = BAE
-culture = baetican
-religion = arianism
 base_tax = 4
 base_production = 4
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = baetican
+religion = arianism
 capital = "Córdoba"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = BAE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

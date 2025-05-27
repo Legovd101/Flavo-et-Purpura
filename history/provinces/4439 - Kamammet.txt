@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:35:43 ###
 # Khamammet
-# 4439 Khamammet - 31-03-2025 11:35:43 
+# 4439 Khamammet - 5/27/2025 4:57:02 PM 
  
 add_core = GOC
 add_core = TLG
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

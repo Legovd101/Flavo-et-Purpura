@@ -1,16 +1,24 @@
-#1772 - Pozsony
+# Pozsony
+# 1772 Pozsony - 5/27/2025 4:57:02 PM 
+ 
+add_core = SLO
+add_core = AVR
 owner = AVR
-set_province_flag = support_kan
 controller = AVR
-culture = slovak
-religion = manichaean
-capital = "Pressburg"
-trade_goods = grain
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = slovak
+religion = manichaean
+capital = "Pressburg"
+
 is_city = yes
-add_core = SLO
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -20,6 +28,10 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-extra_cost = 8
-center_of_trade = 1
-add_core = AVR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

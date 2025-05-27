@@ -1,15 +1,28 @@
-#1193 - Menabe
+# Menabe
+# 1193 Menabe - 5/27/2025 4:57:01 PM 
+ 
+add_core = SKA
 owner = SKA
 controller = SKA
-add_core = SKA
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Morondava"
-trade_goods = slaves
 base_tax = 3
 base_production = 3
 base_manpower = 3
-is_city = yes
-discovered_by = east_african
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = slaves
+extra_cost = 8
+
+culture = madagasque
+religion = shamanism
+capital = "Morondava"
+
+is_city = yes
+
+discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

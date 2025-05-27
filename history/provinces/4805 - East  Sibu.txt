@@ -1,15 +1,29 @@
+# Bintulu
+# 4805 Bintulu - 5/27/2025 4:57:02 PM 
+ 
+add_core = BEI
 owner = BEI
 controller = BEI
-culture = bornean
-religion = hinduism
-capital = "Bintulu"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = fish
+
+culture = bornean
+religion = hinduism
+capital = "Bintulu"
+
 is_city = yes
-add_core = BEI
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

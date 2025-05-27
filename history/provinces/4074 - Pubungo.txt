@@ -1,13 +1,26 @@
-#Pubungo
+# Pubungo
+# 4074 Pubungo - 5/27/2025 4:57:02 PM 
+ 
+add_core = BNY
 owner = BNY
 controller = BNY
-add_core = BNY
-culture = acholi
-religion = swahili_pagan#Fetishism
-capital = "Pubungo"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = acholi
+religion = swahili_pagan
+capital = "Pubungo"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

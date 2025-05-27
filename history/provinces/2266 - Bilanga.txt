@@ -1,13 +1,26 @@
-# No previous file for Bilanga
+# Bilanga
+# 2266 Bilanga - 5/27/2025 4:57:02 PM 
+ 
+add_core = WGD
 owner = WGD
 controller = WGD
-add_core = WGD
-is_city = yes
-culture = moore
-religion = soninke_pagan#Fetishism
-capital = "Bilanga"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = moore
+religion = soninke_pagan
+capital = "Bilanga"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

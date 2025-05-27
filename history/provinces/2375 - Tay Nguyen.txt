@@ -1,4 +1,5 @@
-# 2375 Tay Nguyen - 12/5/2568 2:34:29 
+# Tay Nguyen
+# 2375 Tay Nguyen - 5/27/2025 4:57:02 PM 
  
 add_core = KHM
 owner = CP2
@@ -25,3 +26,4 @@ discovered_by = ottoman
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

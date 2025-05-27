@@ -1,3 +1,16 @@
+# Western Amazonas
+# 1802 Western Amazonas - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = south_american
 discovered_by = andean
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
-#2677 - Jambi
+# Jambi
+# 2677 Jambi - 5/27/2025 4:57:02 PM 
+ 
+add_core = MSA
 owner = MSA
 controller = MSA
-culture = sumatran
-religion = hinduism
-capital = "Jambi"
-trade_goods = incense
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = incense
+
+culture = sumatran
+religion = hinduism
+capital = "Jambi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MSA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

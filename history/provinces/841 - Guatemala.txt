@@ -1,17 +1,30 @@
-#841 - Guatemala
+# Guatemala
+# 841 Guatemala - 5/27/2025 4:57:01 PM 
+ 
+add_core = KAQ
 owner = KAQ
 controller = KAQ
-culture = highland_mayan
-religion = mesoamerican_religion
-capital = "Tapachula"
-trade_goods = cocoa
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = cocoa
+
+culture = highland_mayan
+religion = mesoamerican_religion
+capital = "Tapachula"
+
 is_city = yes
-add_province_triggered_modifier = MAY_obsidian_source
+
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
 discovered_by = mesoamerican
-add_core = KAQ
+
+add_province_triggered_modifier = MAY_obsidian_source
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

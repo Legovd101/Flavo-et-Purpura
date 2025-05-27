@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:45:39 ###
 # Chittor
-# 518 Chittor - 31-03-2025 15:45:39 
+# 518 Chittor - 5/27/2025 4:57:01 PM 
  
 add_core = JLV
 owner = JLV
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

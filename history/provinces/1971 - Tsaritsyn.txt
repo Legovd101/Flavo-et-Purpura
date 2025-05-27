@@ -1,17 +1,30 @@
-#1971 - Tsaritsyn
+# Beljamen
+# 1971 Beljamen - 5/27/2025 4:57:02 PM 
+ 
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = cuman
-religion = manichaean
 base_tax = 3
 base_production = 3
-trade_goods = livestock
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = cuman
+religion = manichaean
 capital = "Sary-Su"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = muslim
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

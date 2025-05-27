@@ -1,19 +1,32 @@
-#4499 - Bareily
+# Bareily
+# 4499 Bareily - 5/27/2025 4:57:02 PM 
+ 
+add_core = RMP
+add_core = JNP
+add_core = NTK
 owner = NTK
 controller = NTK
-culture = kanauji
-religion = hinduism
-capital = "Bareily"
-trade_goods = cotton#Calicoes
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = cotton
+
+culture = kanauji
+religion = hinduism
+capital = "Bareily"
+
 is_city = yes
-add_core = RMP
-add_core = JNP
+
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
-add_core = NTK
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
-#714 - Dzungaria
+# Hoboksar
+# 714 Hoboksar - 5/27/2025 4:57:01 PM 
+ 
+add_core = CHG
+add_core = QAS
 owner = QAS
 controller = QAS
-culture = oirats
-religion = tengri_pagan_reformed
-capital = "Hoboksar"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = oirats
+religion = tengri_pagan_reformed
+capital = "Hoboksar"
+
 is_city = yes
-add_core = CHG
+
 discovered_by = CHG
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = QAS
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

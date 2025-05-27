@@ -1,6 +1,5 @@
-### Modified 31-03-2025 12:39:57 ###
 # Katmandu
-# 557 Katmandu - 31-03-2025 12:39:57 
+# 557 Katmandu - 5/27/2025 4:57:01 PM 
  
 add_core = NPL
 owner = NPL
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

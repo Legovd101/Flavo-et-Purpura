@@ -1,15 +1,28 @@
-#656 - Manila
-culture = filipino
-religion = confucianism#Mixed with Islam
-capital = "Manila"
-trade_goods = chinaware#Imported via Tondo, exported to the Archipelago from Manila.
+# Manila
+# 656 Manila - 5/27/2025 4:57:01 PM 
+ 
+add_core = MNA
+owner = MNA
+controller = MNA
 base_tax = 5
 base_production = 5
 base_manpower = 2
-is_city = yes
-owner = MNA
-controller = MNA
-add_core = MNA
-discovered_by = chinese
-extra_cost = 16
+
 center_of_trade = 2
+trade_goods = chinaware
+extra_cost = 16
+
+culture = filipino
+religion = confucianism
+capital = "Manila"
+
+is_city = yes
+
+discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

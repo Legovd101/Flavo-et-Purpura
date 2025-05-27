@@ -1,18 +1,21 @@
-#1852 - Tokachi
-latent_trade_goods = { 
-	coal 
-}
+# Tokachi
+# 1852 Tokachi - 5/27/2025 4:57:02 PM 
+ 
+add_core = ANU
 owner = ANU
 controller = ANU
-add_core = ANU
-is_city = yes
-culture = ainu
-religion = animism
-capital = "Tokachi"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fish
+
+culture = ainu
+religion = animism
+capital = "Tokachi"
+
+is_city = yes
+
 discovered_by = JAP
 discovered_by = AMA
 discovered_by = ASA
@@ -58,3 +61,13 @@ discovered_by = NVK
 discovered_by = NHX
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

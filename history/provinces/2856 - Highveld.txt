@@ -1,15 +1,27 @@
-#2856 - Highveld
-latent_trade_goods = { 
-	coal 
-}
-culture = nguni
-religion = shamanism#Fetishism
-capital = "Bloemfontein"
-trade_goods = unknown
+# Highveld
+# 2856 Highveld - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = nguni
+religion = shamanism
+capital = "Bloemfontein"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-is_city = no
+
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,20 +1,33 @@
-#Ibiza
-owner = MJO# Alfons V of Aragon
-controller = MJO
+# Ibiza
+# 4560 Ibiza - 5/27/2025 4:57:02 PM 
+ 
 add_core = MJO
-culture = sephardim
-religion = jewish
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
+owner = MJO
+controller = MJO
 base_tax = 1
 base_production = 1
-trade_goods = fish
 base_manpower = 1
+
+trade_goods = fish
+
+culture = sephardim
+religion = jewish
 capital = "Ibiza"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

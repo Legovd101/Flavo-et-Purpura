@@ -1,19 +1,31 @@
-# 192 Bourgogne - Principal cities: Dijon
+# Dijonnais
+# 192 Dijonnais - 5/27/2025 4:57:01 PM 
+ 
+add_core = BUR
 owner = BUR
 controller = BUR
-capital = "Dijon"
-is_city = yes
-culture = burgundii
-religion = lutetian
 base_tax = 7
 base_production = 7
-trade_goods = wine
 base_manpower = 6
-add_core = BUR
-#fort_15th = yes
+
+center_of_trade = 2
+trade_goods = wine
+extra_cost = 16
+
+culture = burgundii
+religion = lutetian
+capital = "Dijon"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

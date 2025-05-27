@@ -1,23 +1,36 @@
-# 202 Avignon - Principal cities: Avignon
-owner = AVI# The great Schism
-controller = AVI
-capital = "Avignon"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = gallic_greek
-religion = arianism
-base_tax = 4
-base_production = 3
-trade_goods = cloth
-base_manpower = 4
+# Avignon
+# 202 Avignon - 5/27/2025 4:57:01 PM 
+ 
 add_core = AVI
 add_core = PRO
+owner = AVI
+controller = AVI
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = cloth
 extra_cost = 8
+
+culture = gallic_greek
+religion = arianism
+capital = "Avignon"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

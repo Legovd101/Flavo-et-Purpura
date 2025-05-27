@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:36:41 ###
 # Raichur
-# 532 Raichur - 31-03-2025 16:36:41 
+# 532 Raichur - 5/27/2025 4:57:01 PM 
  
 add_core = BIJ
 add_core = MYS
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

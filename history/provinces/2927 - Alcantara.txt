@@ -1,13 +1,25 @@
-# - Alcantara
-culture = ge
-discovered_by = south_american
-religion = animism
-capital = "Alcantara"
-trade_goods = unknown
+# Alcantara
+# 2927 Alcantara - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = ge
+religion = animism
+capital = "Alcantara"
+
 native_size = 15
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

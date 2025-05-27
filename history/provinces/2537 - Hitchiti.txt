@@ -1,17 +1,30 @@
-# No previous file for Hitchiti
+# Ichisi
+# 2537 Ichisi - 5/27/2025 4:57:02 PM 
+ 
+add_core = ICH
 owner = ICH
 controller = ICH
-add_core = ICH
-is_city = yes
-culture = yamasee
-religion = totemism
-capital = "Hitchiti"
-trade_goods = cotton
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = cotton
+
+culture = yamasee
+religion = totemism
+capital = "Hitchiti"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

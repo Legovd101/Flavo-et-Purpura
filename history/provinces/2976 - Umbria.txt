@@ -1,17 +1,30 @@
-# 2976 - Perugia, formerly Umbria
+# Perugia
+# 2976 Perugia - 5/27/2025 4:57:02 PM 
+ 
+add_core = PAP
+add_core = SPL
 owner = PAP
 controller = PAP
-culture = spoletian
-religion = west_orthodox
 base_tax = 3
 base_production = 4
-trade_goods = wine
 base_manpower = 1
+
+trade_goods = wine
+
+culture = spoletian
+religion = west_orthodox
 capital = "Perugia"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = PAP
-add_core = SPL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,27 @@
-# No previous file for Seri
-culture = piman
-religion = totemism
-capital = "Seri"
-trade_goods = unknown
+# Seri
+# 2616 Seri - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = piman
+religion = totemism
+capital = "Seri"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

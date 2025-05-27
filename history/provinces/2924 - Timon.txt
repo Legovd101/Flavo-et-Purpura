@@ -1,13 +1,25 @@
-# - Timon
-culture = ge
-discovered_by = south_american
-religion = animism
-capital = "Timon"
-trade_goods = unknown
+# Timon
+# 2924 Timon - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = ge
+religion = animism
+capital = "Timon"
+
 native_size = 15
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 7
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,5 +1,17 @@
-#1787 - Himalaya
+# Himalaya
+# 1787 Himalaya - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

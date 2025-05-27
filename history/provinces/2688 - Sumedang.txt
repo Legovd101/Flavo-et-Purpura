@@ -1,15 +1,29 @@
+# Sumedang
+# 2688 Sumedang - 5/27/2025 4:57:02 PM 
+ 
+add_core = MAJ
 owner = MAJ
 controller = MAJ
-culture = sundanese
-religion = hinduism
-capital = "Sumedang"
-trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = spices
+
+culture = sundanese
+religion = hinduism
+capital = "Sumedang"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MAJ
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

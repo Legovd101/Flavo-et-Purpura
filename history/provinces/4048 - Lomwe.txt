@@ -1,14 +1,27 @@
-#Lomwe
+# Lomwe
+# 4048 Lomwe - 5/27/2025 4:57:02 PM 
+ 
+add_core = MRA
 owner = MRA
 controller = MRA
-add_core = MRA
-culture = makua
-religion = swahili_pagan#Fetishism
-capital = "Lomwe"
-is_city = yes
-base_manpower = 1
-trade_goods = ivory
 base_tax = 1
 base_production = 1
+base_manpower = 1
+
+trade_goods = ivory
+
+culture = makua
+religion = swahili_pagan
+capital = "Lomwe"
+
+is_city = yes
 add_local_autonomy = 40
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

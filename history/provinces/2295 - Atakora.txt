@@ -1,16 +1,29 @@
-# No previous file for Atakora
+# Atakora
+# 2295 Atakora - 5/27/2025 4:57:02 PM 
+ 
+add_core = DGB
 owner = DGB
 controller = DGB
-add_core = DGB
-is_city = yes
-culture = dagbamba
-religion = dahomey_pagan#Fetishism
-capital = "Sansanné Mango"
-trade_goods = tropical_wood
 base_tax = 1
 base_production = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
+
+trade_goods = tropical_wood
+
+culture = dagbamba
+religion = dahomey_pagan
+capital = "Sansanné Mango"
+
+is_city = yes
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

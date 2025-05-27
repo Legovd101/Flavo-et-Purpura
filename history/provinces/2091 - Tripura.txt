@@ -1,6 +1,5 @@
-### Modified 31-03-2025 10:53:50 ###
 # Tripura
-# 2091 Tripura - 31-03-2025 10:53:50 
+# 2091 Tripura - 5/27/2025 4:57:02 PM 
  
 add_core = BNG
 owner = BNG
@@ -26,3 +25,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

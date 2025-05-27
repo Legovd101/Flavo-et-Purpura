@@ -1,17 +1,30 @@
-# No previous file for Teloloapan
-culture = aztek
+# Teloloapan
+# 2645 Teloloapan - 5/27/2025 4:57:02 PM 
+ 
+add_core = AZT
 owner = AZT
 controller = AZT
-add_core = AZT
-is_city = yes
-religion = nahuatl
-capital = "Teloloapan"
-trade_goods = gold
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = gold
+
+culture = aztek
+religion = nahuatl
+capital = "Teloloapan"
+
+is_city = yes
 add_local_autonomy = 50
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

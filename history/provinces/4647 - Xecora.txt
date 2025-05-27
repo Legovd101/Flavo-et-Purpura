@@ -1,13 +1,25 @@
-# No previous file for Xecora
-culture = chichimecan
-religion = animism
-capital = "Xecora"
-trade_goods = unknown
+# Xecora
+# 4647 Xecora - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chichimecan
+religion = animism
+capital = "Xecora"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 5
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

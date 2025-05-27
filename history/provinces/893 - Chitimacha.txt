@@ -1,20 +1,32 @@
-#893 - Chitimacha
-culture = natchez
-religion = totemism
-capital = "Chitimacha"
-trade_goods = unknown
+# Chitimacha
+# 893 Chitimacha - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 5
 base_production = 3
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = unknown
+extra_cost = 18
+
+culture = natchez
+religion = totemism
+capital = "Chitimacha"
+
 native_size = 15
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 8
+
 discovered_by = north_american
 discovered_by = high_american
-extra_cost = 18
-center_of_trade = 1
-add_permanent_province_modifier = { 
+
+
+
+add_permanent_province_modifier = {
 	name = mississippi_estuary_modifier
 	duration = -1
 }
-is_city = no
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

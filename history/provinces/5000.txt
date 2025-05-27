@@ -1,11 +1,25 @@
+# Sado
+# 5000 Sado - 5/27/2025 4:57:02 PM 
+ 
 add_core = JAP
 owner = JAP
+controller = JAP
+base_tax = 1
+base_production = 2
+base_manpower = 2
+
+
 culture = togoku
 religion = shinto
-controller = JAP
+
 is_city = yes
-base_tax = 1
-base_manpower = 2
-base_production = 2
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

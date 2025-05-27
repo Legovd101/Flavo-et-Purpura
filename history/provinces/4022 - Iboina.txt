@@ -1,14 +1,27 @@
-#4022 - Iboina
+# Iboina
+# 4022 Iboina - 5/27/2025 4:57:02 PM 
+ 
+add_core = SKA
 owner = SKA
 controller = SKA
-add_core = SKA
-culture = madagasque#Malagasy
-religion = shamanism#Fetishism
-capital = "Majunga"
-trade_goods = slaves
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = slaves
+
+culture = madagasque
+religion = shamanism
+capital = "Majunga"
+
 is_city = yes
 add_local_autonomy = 40
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:03:41 ###
 # Bundi
-# 4464 Bundi - 31-03-2025 16:03:41 
+# 4464 Bundi - 5/27/2025 4:57:02 PM 
  
 add_core = NTK
 owner = NTK
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

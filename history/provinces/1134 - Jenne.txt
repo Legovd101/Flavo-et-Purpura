@@ -1,18 +1,31 @@
-#1134 - Jenne
-owner = JNN #In effect independant in the wake of Mali's weakening
+# Jenne
+# 1134 Jenne - 5/27/2025 4:57:01 PM 
+ 
+add_core = JNN
+owner = JNN
 controller = JNN
-culture = bozo
-is_city = yes
-base_manpower = 3
-religion = soninke_pagan#Fetishism
-capital = "Jenne"
-trade_goods = cloth
 base_tax = 7
 base_production = 7
-native_ferocity = 4
-native_hostileness = 7
-discovered_by = sub_saharan
-extra_cost = 16
+base_manpower = 3
+
 center_of_trade = 2
-add_core = JNN
+trade_goods = cloth
+extra_cost = 16
+
+culture = bozo
+religion = soninke_pagan
+capital = "Jenne"
+
+is_city = yes
+native_ferocity =  4
+native_hostileness = 7
 fort_15th = yes
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

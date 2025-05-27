@@ -1,15 +1,28 @@
-# - Wankapampa
+# Wankapampa
+# 2824 Wankapampa - 5/27/2025 4:57:02 PM 
+ 
+add_core = CJA
 owner = CJA
 controller = CJA
-culture = inca
-religion = inti
-capital = "Wankapampa"
-trade_goods = wool
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = wool
+
+culture = inca
+religion = inti
+capital = "Wankapampa"
+
 is_city = yes
-add_core = CJA
+
 discovered_by = south_american
 discovered_by = andean
 discovered_by = CHM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,21 @@
-# 4755 - Podrinje
-owner = BOS# Part of the Bosnian kingdom
+# Podrinje
+# 4755 Podrinje - 5/27/2025 4:57:02 PM 
+ 
+add_core = BOS
+owner = BOS
 controller = BOS
-culture = bosnian
-religion = orthodox
-capital = "Visegrad"
-trade_goods = salt
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = salt
+
+culture = bosnian
+religion = orthodox
+capital = "Visegrad"
+
 is_city = yes
-add_core = BOS
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

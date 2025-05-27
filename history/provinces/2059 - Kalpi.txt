@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:07:25 ###
 # Kalpi
-# 2059 Kalpi - 31-03-2025 16:07:25 
+# 2059 Kalpi - 5/27/2025 4:57:02 PM 
  
 add_core = JNP
 add_core = DLH
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

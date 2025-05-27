@@ -1,12 +1,24 @@
-#483 - Turks Islands
-culture = carib
-religion = animism
-capital = "Grand Turk"
-trade_goods = unknown
+# Turks Islands
+# 483 Turks Islands - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = carib
+religion = animism
+capital = "Grand Turk"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

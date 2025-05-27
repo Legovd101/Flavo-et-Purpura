@@ -1,15 +1,27 @@
-#1039 - Verkhoyansk
-latent_trade_goods = { 
-	coal 
-}
-culture = yukagyr
-religion = tengri_pagan_reformed
-capital = "Verkhoyansk"
-trade_goods = unknown
+# Verkhoyansk
+# 1039 Verkhoyansk - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = yukagyr
+religion = tengri_pagan_reformed
+capital = "Verkhoyansk"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
-is_city = no
+
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

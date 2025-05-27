@@ -1,12 +1,24 @@
-#2720 - Lae
-culture = papuan
-religion = animism
-capital = "Lae"
-trade_goods = unknown
+# Lae
+# 2720 Lae - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = papuan
+religion = animism
+capital = "Lae"
+
 native_size = 40
-native_ferocity = 6
+native_ferocity =  6
 native_hostileness = 4
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

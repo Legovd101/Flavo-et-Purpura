@@ -1,17 +1,30 @@
-#882 - Mescalero
+# Mashgaléndé
+# 882 Mashgaléndé - 5/27/2025 4:57:01 PM 
+ 
+add_core = MSC
 owner = MSC
 controller = MSC
-add_core = MSC
-is_city = yes
-culture = mescalero
-religion = totemism
-capital = "Mescalero"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = mescalero
+religion = totemism
+capital = "Mescalero"
+
+is_city = yes
 native_size = 10
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,28 @@
-# 2131 - Qamdo
+# Qamdo
+# 2131 Qamdo - 5/27/2025 4:57:02 PM 
+ 
+add_core = KAM
 owner = KAM
 controller = KAM
-add_core = KAM
-culture = tibetan
-religion = vajrayana
-capital = "Qamdo"
-trade_goods = spices
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = spices
+
+culture = tibetan
+religion = vajrayana
+capital = "Qamdo"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

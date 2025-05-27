@@ -1,16 +1,29 @@
-#2716 - Buton
+# Buton
+# 2716 Buton - 5/27/2025 4:57:02 PM 
+ 
+add_core = BTN
 owner = BTN
 controller = BTN
-culture = sulawesi
-religion = animism
-capital = "Buton"
-trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = spices
+
+culture = sulawesi
+religion = animism
+capital = "Buton"
+
 is_city = yes
-add_core = BTN
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,17 +1,30 @@
-# 2152 - Jianning
+# Kuinan
+# 2152 Kuinan - 5/27/2025 4:57:02 PM 
+ 
+add_core = MNG
+add_core = MIN
+add_core = NNG
 owner = MNG
 controller = MNG
-add_core = MNG
-culture = chimin
-religion = confucianism
-capital = "Jianning"
-trade_goods = tea
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = tea
+
+culture = chimin
+religion = confucianism
+capital = "Jianning"
+
+hre = yes
 is_city = yes
-add_core = MIN
-add_core = NNG
+
 discovered_by = chinese
 discovered_by = nomad_group
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

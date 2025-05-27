@@ -1,14 +1,27 @@
-#4032 - Fiherana
+# Fiherana
+# 4032 Fiherana - 5/27/2025 4:57:02 PM 
+ 
+add_core = SKA
 owner = SKA
 controller = SKA
-add_core = SKA
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Fiherana"
-trade_goods = fish
 base_tax = 2
 base_production = 1
 base_manpower = 2
+
+trade_goods = fish
+
+culture = madagasque
+religion = shamanism
+capital = "Fiherana"
+
 is_city = yes
 add_local_autonomy = 40
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,17 +1,30 @@
-#2958 - Osterode
+# Osterode
+# 2958 Osterode - 5/27/2025 4:57:02 PM 
+ 
+add_core = MAZ
 owner = MAZ
 controller = MAZ
-capital = "Osterode"
-culture = old_prussian
-religion = orthodox
-trade_goods = naval_supplies
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = old_prussian
+religion = orthodox
+capital = "Osterode"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MAZ
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

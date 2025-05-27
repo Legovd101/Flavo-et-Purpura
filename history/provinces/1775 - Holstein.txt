@@ -1,19 +1,31 @@
-#1775 - Holstein
+# Holstein
+# 1775 Holstein - 5/27/2025 4:57:02 PM 
+ 
+add_core = ENG
 owner = ENG
 controller = ENG
-culture = angle
-religion = arianism
-
 base_tax = 4
 base_production = 4
-trade_goods = livestock
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = livestock
+extra_cost = 8
+
+culture = angle
+religion = arianism
 capital = "Kiel"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = ENG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

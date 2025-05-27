@@ -1,17 +1,29 @@
-# 92 Brabant - Principal cities: Brussel & Mechelen
+# Brussels
+# 92 Brussels - 5/27/2025 4:57:01 PM 
+ 
+add_core = FLA
 owner = FLA
 controller = FLA
-is_city = yes
-capital = "Brussel"
-culture = belgican
-religion = lutetian
-
 base_tax = 7
 base_production = 7
-trade_goods = cloth
 base_manpower = 4
+
+trade_goods = cloth
+
+culture = belgican
+religion = lutetian
+capital = "Brussel"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FLA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,13 +1,26 @@
-#2740 - Waikato
+# Waikato
+# 2739 Waikato - 5/27/2025 4:57:02 PM 
+ 
 add_core = TAN
 owner = TAN
 controller = TAN
-culture = maori
-religion = animism
-capital = "Kirikiriroa"
-is_city = yes
-trade_goods = fish
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = fish
+
+culture = maori
+religion = animism
+capital = "Kirikiriroa"
+
+is_city = yes
+
 discovered_by = polynesian_tech
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

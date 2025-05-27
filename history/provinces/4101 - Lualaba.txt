@@ -1,12 +1,26 @@
+# Lualaba
+# 4101 Lualaba - 5/27/2025 4:57:02 PM 
+ 
+add_core = KZB
 owner = KZB
 controller = KZB
-add_core = KZB
-culture = luba
-religion = shamanism#Fetishism
-capital = "Kazembe Lualaba"
-trade_goods = salt
 base_tax = 2
 base_production = 3
 base_manpower = 2
+
+trade_goods = salt
+
+culture = luba
+religion = shamanism
+capital = "Kazembe Lualaba"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

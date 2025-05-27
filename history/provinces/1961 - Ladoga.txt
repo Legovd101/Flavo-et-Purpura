@@ -1,15 +1,28 @@
-#Ladoga
+# Ladoga
+# 1961 Ladoga - 5/27/2025 4:57:02 PM 
+ 
+add_core = NOV
 owner = NOV
 controller = NOV
-culture = novgorodian
-religion = orthodox
 base_tax = 4
 base_production = 4
-trade_goods = fur
 base_manpower = 2
+
+trade_goods = fur
+
+culture = novgorodian
+religion = orthodox
 capital = "Ladoga"
+
 is_city = yes
-add_core = NOV
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

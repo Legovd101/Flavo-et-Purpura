@@ -1,13 +1,26 @@
-# No previous file for Dallol
+# Dallol
+# 2270 Dallol - 5/27/2025 4:57:02 PM 
+ 
+add_core = TMB
 owner = TMB
 controller = TMB
-is_city = yes
-culture = songhai
-religion = mauri_pagan#Fetishism
-capital = "Say"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = songhai
+religion = mauri_pagan
+capital = "Say"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = TMB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

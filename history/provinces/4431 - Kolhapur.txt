@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:17:30 ###
 # Kolhapur
-# 4431 Kolhapur - 31-03-2025 16:17:30 
+# 4431 Kolhapur - 5/27/2025 4:57:02 PM 
  
 add_core = BIJ
 add_core = YDV
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

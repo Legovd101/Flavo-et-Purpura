@@ -1,17 +1,30 @@
-# No previous file for Bendugu
+# Bendugu
+# 2250 Bendugu - 5/27/2025 4:57:02 PM 
+ 
+add_core = MAL
 owner = MAL
 controller = MAL
-add_core = MAL
-is_city = yes
-culture = bozo
-religion = soninke_pagan#Fetishism
-capital = "San"
-trade_goods = iron
 base_tax = 3
 base_production = 3
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
-discovered_by = sub_saharan
+
+trade_goods = iron
+
+culture = bozo
+religion = soninke_pagan
+capital = "San"
+
+is_city = yes
 add_local_autonomy = 25
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

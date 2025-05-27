@@ -1,13 +1,26 @@
-#1159 - Bagirmi
+# Bagirmi
+# 1159 Bagirmi - 5/27/2025 4:57:01 PM 
+ 
+add_core = KBO
 owner = KBO
 controller = KBO
-culture = bilala#bagirmi
-religion = chad_pagan#Fetishism
-capital = "Massenya"
-is_city = yes
-base_manpower = 1
-trade_goods = ivory
 base_tax = 3
 base_production = 3
+base_manpower = 1
+
+trade_goods = ivory
+
+culture = bilala
+religion = chad_pagan
+capital = "Massenya"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = KBO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

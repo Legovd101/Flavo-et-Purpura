@@ -1,15 +1,28 @@
-# 2142 - Huai'an
+# Huai'an
+# 2142 Huai'an - 5/27/2025 4:57:02 PM 
+ 
+add_core = LNG
 owner = LNG
 controller = LNG
-culture = jianghuai
-religion = confucianism
-capital = "Huai'an"
-trade_goods = fish
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fish
+
+culture = jianghuai
+religion = confucianism
+capital = "Huai'an"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = LNG
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

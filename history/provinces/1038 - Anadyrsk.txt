@@ -1,19 +1,31 @@
-#1038 - Karalveyem
+# Karalveyem
+# 1038 Karalveyem - 5/27/2025 4:57:01 PM 
+ 
+add_core = HOD
 owner = HOD
 controller = HOD
-add_core = HOD
-culture = yukagyr
-religion = tengri_pagan_reformed
-capital = "Karalveyem"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = yukagyr
+religion = tengri_pagan_reformed
+capital = "Karalveyem"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
 discovered_by = HOD
 discovered_by = CHU
 discovered_by = CHV
 discovered_by = KMC
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

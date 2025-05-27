@@ -1,16 +1,29 @@
-# 4384 Rennes
+# Rennais
+# 4384 Rennais - 5/27/2025 4:57:02 PM 
+ 
+add_core = BRI
 owner = BRI
 controller = BRI
-capital = "Rennes"
-is_city = yes
-culture = armorican
-religion = lutetian
 base_tax = 4
 base_production = 4
-trade_goods = cloth
 base_manpower = 4
+
+trade_goods = cloth
+
+culture = armorican
+religion = lutetian
+capital = "Rennes"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

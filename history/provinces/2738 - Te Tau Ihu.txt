@@ -1,16 +1,29 @@
-#2738 - Te Tau Ihu
-latent_trade_goods = { 
-	coal 
-}
+# Te Tau Ihu
+# 2738 Te Tau Ihu - 5/27/2025 4:57:02 PM 
+ 
 add_core = WAI
 owner = WAI
 controller = WAI
-is_city = yes
-culture = maori
-religion = animism
-capital = "Pikimai"
-trade_goods = iron
 base_tax = 2
 base_production = 1
 base_manpower = 1
+
+trade_goods = iron
+
+culture = maori
+religion = animism
+capital = "Pikimai"
+
+is_city = yes
+
 discovered_by = polynesian_tech
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

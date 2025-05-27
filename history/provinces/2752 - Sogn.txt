@@ -1,14 +1,27 @@
-#Romsdal
+# Romsdal
+# 2752 Romsdal - 5/27/2025 4:57:02 PM 
+ 
+add_core = NOR
 owner = NOR
 controller = NOR
-add_core = NOR
-culture = norwegian
-religion = arianism
 base_tax = 1
 base_production = 1
-trade_goods = fish
 base_manpower = 1
-is_city = yes
+
+trade_goods = fish
+
+culture = norwegian
+religion = arianism
 capital = "Molde"
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

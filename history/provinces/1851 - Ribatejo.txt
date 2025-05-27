@@ -1,20 +1,33 @@
-#1851 - Coimbra
+# Coimbra
+# 1851 Coimbra - 5/27/2025 4:57:02 PM 
+ 
+add_core = LUS
 owner = LUS
 controller = LUS
-culture = lusitanian
-religion = arianism
-capital = "Coimbra"
-trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = grain
+
+culture = lusitanian
+religion = arianism
+capital = "Coimbra"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = LUS
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

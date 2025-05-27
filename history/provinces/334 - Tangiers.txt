@@ -1,19 +1,32 @@
-#334 - Tangiers
+# Tangiers
+# 334 Tangiers - 5/27/2025 4:57:01 PM 
+ 
+add_core = MUR
 owner = MUR
 controller = MUR
-culture = strait_greek
-religion = lutetian
-capital = "Tangier"
-trade_goods = cloth
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = strait_greek
+religion = lutetian
+capital = "Tangier"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-extra_cost = 16
-center_of_trade = 2
-add_core = MUR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

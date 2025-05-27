@@ -1,13 +1,25 @@
-#9003 - Upper Limpopo
-culture = nguni
-religion = shamanism#Fetishism
-capital = "Polokwane"
-trade_goods = unknown
+# Upper Limpopo
+# 4784 Upper Limpopo - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = nguni
+religion = shamanism
+capital = "Polokwane"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
+
 discovered_by = east_african
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

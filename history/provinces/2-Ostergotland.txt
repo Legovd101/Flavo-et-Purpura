@@ -1,18 +1,31 @@
-#Östergötland, contains Norrköping, Linköping etc.
+# Östergötland
+# 2 Östergötland - 5/27/2025 4:57:01 PM 
+ 
 add_core = SWE
-owner = SWE
-controller = SWE
-culture = geatish
 add_core = GAU
 add_core = SCN
-religion = arianism
+owner = SWE
+controller = SWE
 base_tax = 2
 base_production = 2
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = geatish
+religion = arianism
 capital = "Linköping"
-is_city = yes # Estimated
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

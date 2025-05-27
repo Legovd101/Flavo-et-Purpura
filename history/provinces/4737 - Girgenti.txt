@@ -1,17 +1,30 @@
-# - Syracusa
+# Girgenti
+# 4737 Girgenti - 5/27/2025 4:57:02 PM 
+ 
+add_core = NAP
+add_core = ZNG
 owner = ZNG
 controller = ZNG
-culture = zenata
-religion = west_orthodox
 base_tax = 3
 base_production = 3
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = zenata
+religion = west_orthodox
 capital = "Girgenti"
+
 is_city = yes
-add_core = NAP
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = ZNG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,19 +1,23 @@
-#4237 - Olomouc
-latent_trade_goods = { 
-	coal 
-}
+# Olomouc
+# 4237 Olomouc - 5/27/2025 4:57:02 PM 
+ 
+add_core = MVA
+add_core = GLG
 owner = GLG
 controller = GLG
-capital = "Olomouc"
-culture = czech
-religion = orthodox
-trade_goods = grain
-
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = czech
+religion = orthodox
+capital = "Olomouc"
+
 is_city = yes
-add_core = MVA
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,5 +27,13 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GLG
-fort_15th = yes
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

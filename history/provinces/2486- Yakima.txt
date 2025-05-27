@@ -1,13 +1,26 @@
-culture = salish
-religion = totemism
-capital = "Yakima"
-trade_goods = unknown
+# Mamatchatpam
+# 2486 Mamatchatpam - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = salish
+religion = totemism
+capital = "Yakima"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

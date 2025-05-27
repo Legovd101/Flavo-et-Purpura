@@ -1,15 +1,28 @@
-#692 - Handan
+# Huaiqing
+# 692 Huaiqing - 5/27/2025 4:57:01 PM 
+ 
+add_core = JIN
 owner = JIN
 controller = JIN
-culture = jin
-religion = confucianism
-capital = "Huaiqing"
-trade_goods = grain
 base_tax = 4
 base_production = 2
 base_manpower = 3
+
+trade_goods = grain
+
+culture = jin
+religion = confucianism
+capital = "Huaiqing"
+
+hre = yes
 is_city = yes
-add_core = JIN
+
 discovered_by = chinese
 discovered_by = nomad_group
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

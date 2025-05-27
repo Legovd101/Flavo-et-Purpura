@@ -1,14 +1,27 @@
-#1190 - Zumbo
+# Zumbo
+# 1190 Zumbo - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZIM
 owner = ZIM
 controller = ZIM
-add_core = ZIM
-culture = shona
-religion = swahili_pagan
-is_city = yes
-capital = "Chikova"
-trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = ivory
+
+culture = shona
+religion = swahili_pagan
+capital = "Chikova"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

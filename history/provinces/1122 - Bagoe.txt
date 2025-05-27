@@ -1,17 +1,30 @@
-#1122 - Konian
+# Bagoe
+# 1122 Bagoe - 5/27/2025 4:57:01 PM 
+ 
+add_core = MAL
 owner = MAL
 controller = MAL
-add_core = MAL
-is_city = yes
-culture = dyola
-religion = soninke_pagan #Fetishism
-capital = "Tingrela"
-trade_goods = dyes
 base_tax = 1
 base_production = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
-discovered_by = sub_saharan
+
+trade_goods = dyes
+
+culture = dyola
+religion = soninke_pagan
+capital = "Tingrela"
+
+is_city = yes
 add_local_autonomy = 25
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

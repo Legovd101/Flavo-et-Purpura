@@ -1,13 +1,25 @@
-#633 - Flores
-culture = nusa_tenggara
-religion = animism
-capital = "Flores"
-trade_goods = unknown
+# Flores
+# 633 Flores - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = unknown
+
+culture = nusa_tenggara
+religion = animism
+capital = "Flores"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
 discovered_by = chinese
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,17 +1,30 @@
-## No previous file for Shatteras
+# Shatteras
+# 2526 Shatteras - 5/27/2025 4:57:02 PM 
+ 
+add_core = KSP
 owner = KSP
 controller = KSP
-add_core = KSP
-is_city = yes
-culture = shawnee
-religion = totemism
-capital = "Shatteras"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = shawnee
+religion = totemism
+capital = "Shatteras"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

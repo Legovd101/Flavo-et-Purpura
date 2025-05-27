@@ -1,15 +1,28 @@
-#312 - Beloozero
+# Beloozero
+# 312 Beloozero - 5/27/2025 4:57:01 PM 
+ 
+add_core = NOV
 owner = NOV
 controller = NOV
-culture = novgorodian
-religion = orthodox
 base_tax = 2
 base_production = 3
-trade_goods = naval_supplies
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = novgorodian
+religion = orthodox
 capital = "Beloozero"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_core = NOV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

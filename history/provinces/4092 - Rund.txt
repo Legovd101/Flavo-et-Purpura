@@ -1,14 +1,28 @@
+# Rund
+# 4092 Rund - 5/27/2025 4:57:02 PM 
+ 
+add_core = LND
 owner = LND
 controller = LND
-add_core = LND
-culture = lunda
-religion = shamanism#Fetishism
-capital = "Musumba"
-trade_goods = ivory
 base_tax = 3
 base_production = 3
 base_manpower = 3
-is_city = yes
-discovered_by = central_african
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = ivory
+extra_cost = 8
+
+culture = lunda
+religion = shamanism
+capital = "Musumba"
+
+is_city = yes
+
+discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

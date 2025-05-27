@@ -1,13 +1,25 @@
-#1091 - Kamilaroi
-culture = gamilaraay
-religion = dreamtime
-capital = "Kamilaroi"
-trade_goods = unknown
+# Kamilaroi
+# 1091 Kamilaroi - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = gamilaraay
+religion = dreamtime
+capital = "Kamilaroi"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

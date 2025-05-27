@@ -1,14 +1,27 @@
-#4404 - Minsin
+# Minsin
+# 4404 Minsin - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = kachin
-religion = buddhism
-capital = "Minsin"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = kachin
+religion = buddhism
+capital = "Minsin"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

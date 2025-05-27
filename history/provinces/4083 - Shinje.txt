@@ -1,12 +1,26 @@
+# Shinje
+# 4083 Shinje - 5/27/2025 4:57:02 PM 
+ 
+add_core = KSJ
 owner = KSJ
 controller = KSJ
-add_core = KSJ
-culture = mbangala
-religion = shamanism#Fetishism
-capital = "Shinje"
-trade_goods = steel
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = steel
+
+culture = mbangala
+religion = shamanism
+capital = "Shinje"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

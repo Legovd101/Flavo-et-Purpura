@@ -1,15 +1,28 @@
-# - Ouarsenis
+# Ouarsenis
+# 2462 Ouarsenis - 5/27/2025 4:57:02 PM 
+ 
+add_core = SYP
 owner = SYP
 controller = SYP
-culture = massylian
-religion = mauri_pagan
-capital = "Ouarsenis"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = massylian
+religion = mauri_pagan
+capital = "Ouarsenis"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
-add_core = SYP
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

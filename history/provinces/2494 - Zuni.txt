@@ -1,17 +1,30 @@
-# No previous file for Zuni
+# Shiwinna
+# 2494 Shiwinna - 5/27/2025 4:57:02 PM 
+ 
+add_core = ZNI
 owner = ZNI
 controller = ZNI
-add_core = ZNI
-is_city = yes
-culture = pueblo
-religion = totemism
-capital = "Zuni"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = pueblo
+religion = totemism
+capital = "Zuni"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

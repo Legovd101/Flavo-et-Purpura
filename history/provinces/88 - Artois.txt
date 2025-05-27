@@ -1,21 +1,34 @@
-# 88 Artois - Principal cities: Arras, Saint-Omer & Lille
+# Artois
+# 88 Artois - 5/27/2025 4:57:01 PM 
+ 
+add_core = PIC
+add_core = FLA
 owner = FLA
 controller = FLA
-capital = "Arras"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = belgican
-religion = lutetian
 base_tax = 6
 base_production = 6
-trade_goods = cloth
 base_manpower = 3
-add_core = PIC
+
+trade_goods = cloth
+
+culture = belgican
+religion = lutetian
+capital = "Arras"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FLA
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,13 +1,26 @@
-#4939 - Te Urewera
+# Te Urewera
+# 4939 Te Urewera - 5/27/2025 4:57:02 PM 
+ 
 add_core = MAA
 owner = MAA
 controller = MAA
-culture = maori
-religion = animism
-capital = "Tauwhare"
-is_city = yes
-trade_goods = naval_supplies
 base_tax = 3
 base_production = 4
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = maori
+religion = animism
+capital = "Tauwhare"
+
+is_city = yes
+
 discovered_by = polynesian_tech
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

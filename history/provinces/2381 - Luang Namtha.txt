@@ -1,15 +1,28 @@
-#2381 - Luang Namtha
+# Luang Namtha
+# 2381 Luang Namtha - 5/27/2025 4:57:02 PM 
+ 
+add_core = LXA
+add_core = LUA
 owner = LXA
 controller = LXA
-culture = lao
-religion = buddhism
-capital = "Luang Namtha"
-trade_goods = tea
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = tea
+
+culture = lao
+religion = buddhism
+capital = "Luang Namtha"
+
 is_city = yes
-add_core = LXA
-add_core = LUA
+
 discovered_by = chinese
 discovered_by = indian
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

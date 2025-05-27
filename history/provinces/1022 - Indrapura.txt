@@ -1,4 +1,5 @@
-# 1022 Indrapura - 12/5/2568 2:34:29 
+# Indrapura
+# 1022 Indrapura - 5/27/2025 4:57:01 PM 
  
 add_core = CHA
 add_core = ANN
@@ -26,3 +27,4 @@ discovered_by = ottoman
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

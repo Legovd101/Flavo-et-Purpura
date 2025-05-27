@@ -1,18 +1,30 @@
-# 4766 - Verdun
+# Verdun
+# 4766 Verdun - 5/27/2025 4:57:02 PM 
+ 
+add_core = LOR
 owner = LOR
 controller = LOR
-capital = "Verdun"
-is_city = yes
-culture = belgican
-religion = lutetian
-
 base_tax = 3
 base_production = 3
-trade_goods = grain
 base_manpower = 3
+
+trade_goods = grain
+
+culture = belgican
+religion = lutetian
+capital = "Verdun"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LOR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

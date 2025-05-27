@@ -1,19 +1,32 @@
-#682 - Hanyang
+# Wuchang
+# 682 Wuchang - 5/27/2025 4:57:01 PM 
+ 
+add_core = CHC
+add_core = KIC
 owner = KIC
 controller = KIC
-culture = xiang
-religion = confucianism
-capital = "Wuchang"
-trade_goods = salt
 base_tax = 8
 base_production = 8
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = salt
+extra_cost = 8
+
+culture = xiang
+religion = confucianism
+capital = "Wuchang"
+
+hre = yes
 is_city = yes
-add_core = CHC
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-extra_cost = 8
-center_of_trade = 1
-add_core = KIC
-hre = yes
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

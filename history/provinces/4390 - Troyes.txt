@@ -1,16 +1,29 @@
-# 4390 - Troyes
+# Troyes
+# 4390 Troyes - 5/27/2025 4:57:02 PM 
+ 
+add_core = GLL
 owner = GLL
 controller = GLL
-capital = "Troyes"
-is_city = yes
-culture = gallic
-religion = lutetian
 base_tax = 5
 base_production = 5
-trade_goods = iron
 base_manpower = 3
+
+trade_goods = iron
+
+culture = gallic
+religion = lutetian
+capital = "Troyes"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GLL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

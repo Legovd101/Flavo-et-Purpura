@@ -1,13 +1,25 @@
-# No previous file for Talamanca
-culture = miskito
-religion = animism
-capital = "Talamanca"
-trade_goods = unknown
+# Talamanca
+# 4597 Talamanca - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = miskito
+religion = animism
+capital = "Talamanca"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

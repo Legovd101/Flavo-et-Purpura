@@ -1,21 +1,33 @@
-#738 - Taiwan
-culture = formosan
-religion = nestorian
-capital = "Sakam"
-trade_goods = unknown
+# Sakam
+# 738 Sakam - 5/27/2025 4:57:01 PM 
+ 
+add_core = FRM
+owner = FRM
+controller = FRM
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = formosan
+religion = nestorian
+capital = "Sakam"
+
 native_size = 60
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 5
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-is_city = no
-owner = FRM
-controller = FRM
-add_core = FRM
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

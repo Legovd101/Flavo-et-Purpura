@@ -1,12 +1,26 @@
+# Hemen
+# 4997 Hemen - 5/27/2025 4:57:02 PM 
+ 
 add_core = LNG
 owner = LNG
+controller = LNG
 base_tax = 2
-base_manpower = 1
 base_production = 2
+base_manpower = 1
+
+
 culture = wu
 religion = confucianism
-controller = LNG
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
+# Urach
+# 4713 Urach - 5/27/2025 4:57:02 PM 
+ 
+add_core = SWI
 owner = SWI
 controller = SWI
-capital = "Reutlingen"
-is_city = yes
-culture = thuringian
-religion = arianism
-
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
 trade_goods = grain
+
+culture = thuringian
+religion = arianism
+capital = "Reutlingen"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SWI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

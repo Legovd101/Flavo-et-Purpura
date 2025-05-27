@@ -1,17 +1,30 @@
-#971 - Abnaki
+# Penapawsket
+# 971 Penapawsket - 5/27/2025 4:57:01 PM 
+ 
 add_core = PEN
 owner = PEN
 controller = PEN
-culture = abenaki
-religion = totemism
-capital = "Abnaki"
-trade_goods = naval_supplies
 base_tax = 1
 base_production = 2
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = abenaki
+religion = totemism
+capital = "Abnaki"
+
 is_city = yes
 native_size = 15
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 8
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

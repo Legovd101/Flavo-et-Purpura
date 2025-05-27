@@ -1,12 +1,26 @@
+# Kasanje
+# 4082 Kasanje - 5/27/2025 4:57:02 PM 
+ 
+add_core = KSJ
 owner = KSJ
 controller = KSJ
-add_core = KSJ
-culture = mbangala
-religion = shamanism#Fetishism
-capital = "Kasanje"
-trade_goods = slaves
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = slaves
+
+culture = mbangala
+religion = shamanism
+capital = "Kasanje"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

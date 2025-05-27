@@ -1,17 +1,29 @@
-# 2549 - Moratok
-latent_trade_goods = { 
-	coal 
-}
-culture = powhatan
-religion = totemism
-capital = "Moratok"
-trade_goods = unknown
+# Moratok
+# 2549 Moratok - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = powhatan
+religion = totemism
+capital = "Moratok"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
-#294 - Tver
+# Tver
+# 294 Tver - 5/27/2025 4:57:01 PM 
+ 
+add_core = SMO
 owner = SMO
 controller = SMO
-culture = russian
-religion = orthodox
 base_tax = 4
 base_production = 4
-trade_goods = grain
 base_manpower = 3
+
+trade_goods = grain
+
+culture = russian
+religion = orthodox
 capital = "Tver"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 discovered_by = KAZ
-add_core = SMO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

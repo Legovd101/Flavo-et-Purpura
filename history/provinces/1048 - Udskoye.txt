@@ -1,15 +1,28 @@
-#1048 - Udskoye
+# Miyoo Gasan
+# 1048 Miyoo Gasan - 5/27/2025 4:57:01 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = nivkh
-religion = tengri_pagan_reformed
-capital = "Miyoo Gasan"
-trade_goods = fur
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fur
+
+culture = nivkh
+religion = tengri_pagan_reformed
+capital = "Miyoo Gasan"
+
 is_city = yes
+
 discovered_by = nomad_group
 discovered_by = ANU
 discovered_by = SOL
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

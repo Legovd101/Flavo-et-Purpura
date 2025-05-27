@@ -1,14 +1,27 @@
-# - Esmeraldas
+# Esmeraldas
+# 2820 Esmeraldas - 5/27/2025 4:57:02 PM 
+ 
+add_core = QTO
 owner = QTO
 controller = QTO
-culture = cara
-religion = inti
-capital = "Esmeraldas"
-is_city = yes
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = QTO
+
+trade_goods = fish
+
+culture = cara
+religion = inti
+capital = "Esmeraldas"
+
+is_city = yes
+
 discovered_by = south_american
 discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

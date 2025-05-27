@@ -1,16 +1,29 @@
-#816 - Tumbes
+# Tumbes
+# 816 Tumbes - 5/27/2025 4:57:01 PM 
+ 
+add_core = CHM
 owner = CHM
 controller = CHM
-culture = chimuan
-religion = inti
-capital = "Tumbes"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = chimuan
+religion = inti
+capital = "Tumbes"
+
 is_city = yes
-add_core = CHM
+fort_15th = yes
+
 discovered_by = south_american
 discovered_by = andean
 discovered_by = CHM
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

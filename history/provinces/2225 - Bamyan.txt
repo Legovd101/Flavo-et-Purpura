@@ -1,18 +1,31 @@
-#2225 - Bamyan
+# Bamyan
+# 2225 Bamyan - 5/27/2025 4:57:02 PM 
+ 
+add_core = AFG
+add_core = ILK
 owner = ILK
 controller = ILK
-culture = margianan
-religion = manichaean
-capital = "Bamyan"
-trade_goods = dyes
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = dyes
+
+culture = margianan
+religion = manichaean
+capital = "Bamyan"
+
 is_city = yes
-add_core = AFG
+
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
-add_core = ILK
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,26 @@
-# No previous file for Yuki
-culture = chinook
-religion = totemism
-capital = "Yuki"
-trade_goods = unknown
+# Ukom'nom
+# 2477 Ukom'nom - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chinook
+religion = totemism
+capital = "Yuki"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
-# Jean Francois la Perouse
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

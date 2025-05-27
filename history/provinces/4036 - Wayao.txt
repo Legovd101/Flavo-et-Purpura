@@ -1,14 +1,26 @@
-#4036 - Wayao
-culture = makua
-religion = swahili_pagan#Fetishism
-trade_goods = unknown
+# Wayao
+# 4036 Wayao - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
+
+trade_goods = unknown
+
+culture = makua
+religion = swahili_pagan
 capital = "Wayao"
+
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = east_african
 discovered_by = central_african
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,26 @@
-# No previous file for Guamares
-culture = guamares
-religion = animism
+# Guamares
+# 2615 Guamares - 5/27/2025 4:57:02 PM 
+ 
+add_core = GAM
 owner = GAM
 controller = GAM
-add_core = GAM
-is_city = yes
-capital = "Pechichitane"
-trade_goods = gold
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = gold
+
+culture = guamares
+religion = animism
+capital = "Pechichitane"
+
+is_city = yes
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

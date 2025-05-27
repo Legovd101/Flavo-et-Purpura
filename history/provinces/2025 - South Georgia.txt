@@ -1,10 +1,19 @@
-#2025 - South Georgia
-capital = "South Georgia"
-trade_goods = unknown
+# South Georgia
+# 2025 South Georgia - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
-is_city = no
+
+trade_goods = unknown
+
+capital = "South Georgia"
+
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

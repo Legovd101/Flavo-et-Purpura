@@ -1,4 +1,5 @@
-# 2384 Nong Khai - 12/5/2568 2:34:29 
+# Nong Khai
+# 2384 Nong Khai - 5/27/2025 4:57:02 PM 
  
 add_core = VIE
 add_core = KHM
@@ -24,3 +25,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

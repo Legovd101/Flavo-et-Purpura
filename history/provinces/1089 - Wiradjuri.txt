@@ -1,13 +1,25 @@
-#1089 - Wiradjuri
-culture = gamilaraay
-religion = dreamtime
-capital = "Wiradjuri"
-trade_goods = unknown
+# Wiradjuri
+# 1089 Wiradjuri - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = gamilaraay
+religion = dreamtime
+capital = "Wiradjuri"
+
 native_size = 20
-native_ferocity = 7
+native_ferocity =  7
 native_hostileness = 5
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

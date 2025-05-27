@@ -1,17 +1,30 @@
-# - Mbata
+# Mbata
+# 2949 Mbata - 5/27/2025 4:57:02 PM 
+ 
+add_core = KON
 owner = KON
 controller = KON
-culture = kongolese
-religion = shamanism#Fetishism
-capital = "Mbata"
-trade_goods = iron
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = iron
+
+culture = kongolese
+religion = shamanism
+capital = "Mbata"
+
 is_city = yes
-add_core = KON
+
 discovered_by = central_african
 discovered_by = KON
 discovered_by = NDO
 discovered_by = LOA
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

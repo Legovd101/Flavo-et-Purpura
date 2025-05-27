@@ -1,11 +1,25 @@
+# Maozhou
+# 5166 Maozhou - 5/27/2025 4:57:03 PM 
+ 
 add_core = SIN
 owner = SIN
+controller = SIN
 base_tax = 2
-base_manpower = 1
 base_production = 2
+base_manpower = 1
+
+
 culture = sichuanese
 religion = nestorian
-controller = SIN
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

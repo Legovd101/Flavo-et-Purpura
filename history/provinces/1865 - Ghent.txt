@@ -1,20 +1,33 @@
-# 1865 - Ghent
+# Ghent
+# 1865 Ghent - 5/27/2025 4:57:02 PM 
+ 
+add_core = FLA
 owner = FLA
 controller = FLA
-add_core = FLA
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-capital = "Ghent"
-culture = belgican
-religion = lutetian
 base_tax = 5
 base_production = 5
-trade_goods = cloth
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = belgican
+religion = lutetian
+capital = "Ghent"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,14 +1,27 @@
-# - Choquechaca
+# Choquechaca
+# 2941 Choquechaca - 5/27/2025 4:57:02 PM 
+ 
+add_core = CRA
 owner = CRA
 controller = CRA
-add_core = CRA
-culture = aimara
-discovered_by = south_american
-discovered_by = andean
-religion = inti
-capital = "Choquechaca"
-trade_goods = gold
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = gold
+
+culture = aimara
+religion = inti
+capital = "Choquechaca"
+
 is_city = yes
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:23:05 ###
 # Qarqan
-# 711 Qarqan - 01-04-2025 21:23:05 
+# 711 Qarqan - 5/27/2025 4:57:01 PM 
  
 add_core = AMD
 owner = AMD
@@ -25,3 +24,4 @@ discovered_by = nomad_group
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

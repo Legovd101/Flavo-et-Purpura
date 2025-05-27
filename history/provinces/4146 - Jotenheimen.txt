@@ -1,4 +1,16 @@
-#Southern Norwegian Mountain massifs and highlands: Jotenheimen, Breheimen, Hardangervidda and Heiene.
+# Langfjella
+# 4146 Langfjella - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = eastern
 discovered_by = western
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

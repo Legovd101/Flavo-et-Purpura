@@ -1,13 +1,25 @@
-#765 - Minas Gerais
-culture = ge
-discovered_by = south_american
-religion = animism
-capital = "Sabará"
-trade_goods = unknown
+# Minas Gerais
+# 765 Minas Gerais - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = ge
+religion = animism
+capital = "Sabará"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 7
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

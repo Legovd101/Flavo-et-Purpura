@@ -1,19 +1,32 @@
-#1746 - Burgos
-owner = ASU#Juan II of Castille
+# Burgos
+# 1746 Burgos - 5/27/2025 4:57:02 PM 
+ 
+add_core = ASU
+owner = ASU
 controller = ASU
-culture = hispanic
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = cloth
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
+culture = hispanic
+religion = arianism
 capital = "Burgos"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = ASU
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

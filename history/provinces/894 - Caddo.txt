@@ -1,17 +1,30 @@
-#894 - Caddo
+# Kadohadacho
+# 894 Kadohadacho - 5/27/2025 4:57:01 PM 
+ 
 add_core = CAD
 owner = CAD
 controller = CAD
-culture = caddo
-religion = totemism
-capital = "Caddo"
-trade_goods = cotton
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = cotton
+
+culture = caddo
+religion = totemism
+capital = "Caddo"
+
 is_city = yes
 native_size = 20
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 9
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

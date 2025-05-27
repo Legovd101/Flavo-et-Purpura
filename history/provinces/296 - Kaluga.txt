@@ -1,17 +1,30 @@
-#296 - Kaluga
+# Kaluga
+# 296 Kaluga - 5/27/2025 4:57:01 PM 
+ 
+add_core = SMO
 owner = SMO
 controller = SMO
-culture = russian
-religion = orthodox
 base_tax = 3
 base_production = 3
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = russian
+religion = orthodox
 capital = "Kaluga"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = nomad_group
-add_core = SMO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

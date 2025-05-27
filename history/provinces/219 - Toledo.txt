@@ -1,23 +1,36 @@
-#219 - Toledo
-owner = TLD#Juan II of Castille
+# Toledo
+# 219 Toledo - 5/27/2025 4:57:01 PM 
+ 
+add_core = TLD
+owner = TLD
 controller = TLD
-culture = toledan
-religion = arianism
 base_tax = 5
 base_production = 5
-trade_goods = iron
 base_manpower = 4
+
+center_of_trade = 1
+trade_goods = iron
+extra_cost = 8
+
+culture = toledan
+religion = arianism
 capital = "Toledo"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = TLD
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,27 @@
-#1076 - Kurgan
+# Kurgan
+# 1076 Kurgan - 5/27/2025 4:57:01 PM 
+ 
+add_core = SIB
+add_core = GLH
 owner = GLH
 controller = GLH
-capital = "Kurgan"
-culture = siberian
-religion = manichaean
-trade_goods = fur
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = fur
+
+culture = siberian
+religion = manichaean
+capital = "Kurgan"
+
 is_city = yes
-add_core = SIB
+
 discovered_by = nomad_group
-revolt_risk = 15
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

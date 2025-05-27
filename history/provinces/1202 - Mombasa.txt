@@ -1,19 +1,32 @@
-#1202 - Mombasa
+# Mombasa
+# 1202 Mombasa - 5/27/2025 4:57:01 PM 
+ 
+add_core = MBA
 owner = MBA
 controller = MBA
-add_core = MBA
+base_tax = 5
+base_production = 5
+base_manpower = 2
+
+center_of_trade = 2
+trade_goods = ivory
+extra_cost = 16
+
 culture = swahili
 religion = swahili_pagan
 capital = "Mombasa"
+
 is_city = yes
-base_manpower = 2
-trade_goods = ivory
-base_tax = 5
-base_production = 5
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = central_african
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

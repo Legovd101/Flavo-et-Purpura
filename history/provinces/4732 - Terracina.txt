@@ -1,20 +1,33 @@
-#4732 - Terracina
+# Terracina
+# 4732 Terracina - 5/27/2025 4:57:02 PM 
+ 
+add_core = PAP
 owner = PAP
 controller = PAP
-culture = bulg_latium
-religion = west_orthodox
 base_tax = 3
 base_production = 3
+base_manpower = 1
+
 trade_goods = fish
-base_manpower = 1# Pontine Marshes
+
+culture = bulg_latium
+religion = west_orthodox
 capital = "Terracina"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = PAP
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

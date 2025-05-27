@@ -1,12 +1,26 @@
+# Upemba
+# 4098 Upemba - 5/27/2025 4:57:02 PM 
+ 
+add_core = KIK
 owner = KIK
 controller = KIK
-add_core = KIK
-culture = luba
-religion = shamanism#Fetishism
-capital = "Kikondja"
-trade_goods = steel
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = steel
+
+culture = luba
+religion = shamanism
+capital = "Kikondja"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,28 @@
-#4517 - Nedong
+# Nedong
+# 4517 Nedong - 5/27/2025 4:57:02 PM 
+ 
+add_core = UTS
 owner = UTS
 controller = UTS
-culture = tibetan
-religion = vajrayana
-capital = "Nedong"
-trade_goods = grain
 base_tax = 2
 base_production = 1
 base_manpower = 3
+
+trade_goods = grain
+
+culture = tibetan
+religion = vajrayana
+capital = "Nedong"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-add_core = UTS
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

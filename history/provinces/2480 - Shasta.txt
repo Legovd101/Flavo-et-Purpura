@@ -1,14 +1,26 @@
-# No previous file for Shasta
-culture = chinook
-religion = totemism
-capital = "Shasta"
-trade_goods = unknown
+# Shasta
+# 2480 Shasta - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chinook
+religion = totemism
+capital = "Shasta"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,25 @@
-#1093 - Barunggam
-culture = gamilaraay
-religion = dreamtime
-trade_goods = unknown
-capital = "Barunggam"
+# Yagalingu
+# 1093 Yagalingu - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = gamilaraay
+religion = dreamtime
+capital = "Barunggam"
+
 native_size = 10
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 3
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

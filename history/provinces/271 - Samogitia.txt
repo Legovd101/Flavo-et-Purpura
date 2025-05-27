@@ -1,14 +1,21 @@
-#271 - Samogitia
+# Samogitia
+# 271 Samogitia - 5/27/2025 4:57:01 PM 
+ 
+add_core = PRU
 owner = PRU
 controller = PRU
-culture = lithuanian
-religion = orthodox
-capital = "Varniai"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = lithuanian
+religion = orthodox
+capital = "Varniai"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,4 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = PRU
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

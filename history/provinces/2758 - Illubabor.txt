@@ -1,14 +1,27 @@
-#2758 - Illubabor
+# Illubabor
+# 2758 Illubabor - 5/27/2025 4:57:02 PM 
+ 
+add_core = DAM
 owner = DAM
 controller = DAM
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = slaves
+
 culture = sidamo
 religion = waaqeffanna
 capital = "Illubabor"
+
 is_city = yes
-base_manpower = 2
-trade_goods = slaves
-base_tax = 2
-base_production = 3
+
 discovered_by = east_african
 discovered_by = muslim
-add_core = DAM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

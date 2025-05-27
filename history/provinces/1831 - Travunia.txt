@@ -1,19 +1,23 @@
-#1831 - Travunia # now Herzegovina
+# Herzegovina
+# 1831 Herzegovina - 5/27/2025 4:57:02 PM 
+ 
+add_core = BOS
+add_core = MON
+add_core = SER
 owner = MON
 controller = MON
-culture = dalmatian
-religion = orthodox
-capital = "Herceg Novi"
-trade_goods = wool
 base_tax = 2
 base_production = 3
 base_manpower = 2
+
+trade_goods = wool
+
+culture = dalmatian
+religion = orthodox
+capital = "Herceg Novi"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = BOS
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,5 +27,14 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MON
-add_core = SER
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

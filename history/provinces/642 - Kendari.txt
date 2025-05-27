@@ -1,16 +1,29 @@
-#642 - Kendari
+# Kolaka
+# 642 Kolaka - 5/27/2025 4:57:01 PM 
+ 
+add_core = LUW
 owner = LUW
 controller = LUW
-culture = sulawesi
-religion = animism
-capital = "Kolaka"
-trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = spices
+
+culture = sulawesi
+religion = animism
+capital = "Kolaka"
+
 is_city = yes
-add_core = LUW
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

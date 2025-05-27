@@ -1,15 +1,21 @@
-# 4756 - Bjelovar
+# Bjelovar
+# 4756 Bjelovar - 5/27/2025 4:57:02 PM 
+ 
+add_core = CRO
 owner = CRO
 controller = CRO
-culture = croatian
-religion = orthodox
-capital = "Bjelovar"
-trade_goods = grain
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = grain
+
+culture = croatian
+religion = orthodox
+capital = "Bjelovar"
+
 is_city = yes
-add_core = CRO
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

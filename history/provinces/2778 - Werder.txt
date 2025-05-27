@@ -1,17 +1,30 @@
-#2778 - Werder
-owner = MRE
-controller = MRE
+# Werder
+# 2778 Werder - 5/27/2025 4:57:02 PM 
+ 
 add_core = MRE
 add_core = OGD
-culture = somali
-religion = waaqeffanna
-capital = "Wardheer"
-trade_goods = slaves
-is_city = yes
+owner = MRE
+controller = MRE
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = slaves
+
+culture = somali
+religion = waaqeffanna
+capital = "Wardheer"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

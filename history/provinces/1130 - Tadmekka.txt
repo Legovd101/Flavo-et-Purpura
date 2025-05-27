@@ -1,13 +1,26 @@
-#1130 - Tadimekket
+# Tadmekka
+# 1130 Tadmekka - 5/27/2025 4:57:01 PM 
+ 
+add_core = TMB
 owner = TMB
 controller = TMB
-culture = tuareg
-is_city = yes
-base_manpower = 1
-religion = mauri_pagan
-capital = "Tadmekka al-Suq"
-trade_goods = wool
 base_tax = 1
 base_production = 1
+base_manpower = 1
+
+trade_goods = wool
+
+culture = tuareg
+religion = mauri_pagan
+capital = "Tadmekka al-Suq"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = TMB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

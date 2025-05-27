@@ -1,15 +1,28 @@
-#4519 - Damxung
+# Damxung
+# 4519 Damxung - 5/27/2025 4:57:02 PM 
+ 
+add_core = AMD
 owner = AMD
 controller = AMD
-culture = tibetan
-religion = vajrayana
-capital = "Damxung"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = tibetan
+religion = vajrayana
+capital = "Damxung"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-add_core = AMD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

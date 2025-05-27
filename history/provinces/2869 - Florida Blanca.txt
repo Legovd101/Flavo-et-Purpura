@@ -1,12 +1,24 @@
-# - Florida Blanca
-culture = patagonian
-religion = animism
-capital = "Florida Blanca"
-trade_goods = unknown
+# Florida Blanca
+# 2869 Florida Blanca - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = patagonian
+religion = animism
+capital = "Florida Blanca"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,26 @@
-#1135 - Yatenga
+# Yatenga
+# 1135 Yatenga - 5/27/2025 4:57:01 PM 
+ 
+add_core = WGD
 owner = WGD
 controller = WGD
-is_city = yes
-culture = lobiri
-religion = soninke_pagan#Fetishism
-capital = "Gursi"
-trade_goods = livestock
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = lobiri
+religion = soninke_pagan
+capital = "Gursi"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = WGD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

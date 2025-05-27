@@ -1,15 +1,28 @@
-#2759 - Gambela
+# Gambela
+# 2759 Gambela - 5/27/2025 4:57:02 PM 
+ 
+add_core = DAM
 owner = DAM
 controller = DAM
-culture = sidamo
-religion = waaqeffanna#Fetishism
-capital = "Gambela"
-is_city = yes
-base_manpower = 1
-trade_goods = slaves
 base_tax = 1
 base_production = 1
+base_manpower = 1
+
+trade_goods = slaves
+
+culture = sidamo
+religion = waaqeffanna
+capital = "Gambela"
+
+is_city = yes
 add_local_autonomy = 25
+
 discovered_by = east_african
 discovered_by = muslim
-add_core = DAM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,31 @@
-#1132 - Timbuktu
-owner = TMB
-controller = TMB# under Tuareg rule to 1468
+# Timbuktu
+# 1132 Timbuktu - 5/27/2025 4:57:01 PM 
+ 
 add_core = TMB
-culture = tuareg
-is_city = yes
-base_manpower = 2
-religion = mauri_pagan
-capital = "Timbuktu"
-trade_goods = cloth
+owner = TMB
+controller = TMB
 base_tax = 8
 base_production = 8
-native_ferocity = 4
+base_manpower = 2
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = tuareg
+religion = mauri_pagan
+capital = "Timbuktu"
+
+is_city = yes
+native_ferocity =  4
+fort_15th = yes
+
 discovered_by = sub_saharan
 discovered_by = MOR
-extra_cost = 16
-center_of_trade = 2
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,27 @@
-# 2109 - Boduna
+# Boduna
+# 2109 Boduna - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = chahar
-religion = tengri_pagan_reformed
-capital = "Boduna"
-trade_goods = iron
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = iron
+
+culture = chahar
+religion = tengri_pagan_reformed
+capital = "Boduna"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,14 +1,28 @@
+# Korchin
+# 4674 Korchin - 5/27/2025 4:57:02 PM 
+ 
+add_core = KHA
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = chahar
-religion = tengri_pagan_reformed
-capital = "Korchin"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = chahar
+religion = tengri_pagan_reformed
+capital = "Korchin"
+
 is_city = yes
-add_core = KHA
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

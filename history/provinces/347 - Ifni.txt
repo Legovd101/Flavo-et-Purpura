@@ -1,16 +1,29 @@
-#347 - Ifni
+# Ifni
+# 347 Ifni - 5/27/2025 4:57:01 PM 
+ 
+add_core = SOS
+add_core = GAE
 owner = GAE
 controller = GAE
-culture = gaetuli
-religion = lutetian
-capital = "Sidi Ifni"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fish
+
+culture = gaetuli
+religion = lutetian
+capital = "Sidi Ifni"
+
 is_city = yes
-add_core = SOS
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
-add_core = GAE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

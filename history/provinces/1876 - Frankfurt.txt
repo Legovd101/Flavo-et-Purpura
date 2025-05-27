@@ -1,20 +1,32 @@
-# 1876 - Frankfurt
-capital = "Frankfurt"
-culture = hessian
-religion = arianism
-trade_goods = paper
+# Frankfurt
+# 1876 Frankfurt - 5/27/2025 4:57:02 PM 
+ 
+add_core = THU
 owner = THU
+controller = THU
 base_tax = 7
 base_production = 7
 base_manpower = 4
+
+center_of_trade = 2
+trade_goods = paper
+extra_cost = 16
+
+culture = hessian
+religion = arianism
+capital = "Frankfurt"
+
 is_city = yes
-controller = THU
+fort_15th = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
-add_core = THU
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

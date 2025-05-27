@@ -1,18 +1,30 @@
-# 182 Valois - Principal cities: Compiègne + Soissons
+# Valois
+# 182 Valois - 5/27/2025 4:57:01 PM 
+ 
+add_core = PIC
+add_core = LOR
 owner = LOR
 controller = LOR
-capital = "Soissons"
-is_city = yes
-culture = gallic
-religion = lutetian
 base_tax = 5
 base_production = 5
-trade_goods = livestock
 base_manpower = 4
-#fort_15th = yes
-add_core = PIC
+
+trade_goods = livestock
+
+culture = gallic
+religion = lutetian
+capital = "Soissons"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LOR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:09:44 ###
 # Cuddalore
-# 540 Cuddalore - 31-03-2025 15:09:44 
+# 540 Cuddalore - 5/27/2025 4:57:01 PM 
  
 add_core = MAD
 add_core = GNG
@@ -33,3 +32,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,12 +1,26 @@
+# Linchow
+# 5065 Linchow - 5/27/2025 4:57:03 PM 
+ 
 add_core = CHC
 owner = CHC
+controller = CHC
 base_tax = 1
-base_manpower = 4
 base_production = 4
+base_manpower = 4
+
+
 culture = hakka
 religion = confucianism
-controller = CHC
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

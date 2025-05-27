@@ -1,19 +1,31 @@
-# 1872 - Ulm
+# Ulm
+# 1872 Ulm - 5/27/2025 4:57:02 PM 
+ 
+add_core = SWI
 owner = SWI
 controller = SWI
-culture = swabian
-religion = arianism
 base_tax = 5
 base_production = 6
-trade_goods = cloth#fustians
 base_manpower = 4
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
+culture = swabian
+religion = arianism
 capital = "Ulm"
+
 is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = SWI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

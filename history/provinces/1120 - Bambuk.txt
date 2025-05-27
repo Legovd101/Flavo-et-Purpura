@@ -1,13 +1,26 @@
-#1120 - Bambuk
+# Bambuk
+# 1120 Bambuk - 5/27/2025 4:57:01 PM 
+ 
+add_core = MAL
 owner = MAL
 controller = MAL
-culture = soninke
-is_city = yes
-base_manpower = 2
-religion = senegambian_pagan #Fetishism
-capital = "Bambuk"
-trade_goods = gold
 base_tax = 6
 base_production = 6
-add_core = MAL
+base_manpower = 2
+
+trade_goods = gold
+
+culture = soninke
+religion = senegambian_pagan
+capital = "Bambuk"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,27 @@
-#4123 - Birkaland
+# Pirkanmaa
+# 4123 Pirkanmaa - 5/27/2025 4:57:02 PM 
+ 
+add_core = TVS
 owner = TVS
 controller = TVS
-add_core = TVS
-culture = tavastian
-religion = finnish_pagan
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = tavastian
+religion = finnish_pagan
 capital = "Messukylä"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,12 +1,26 @@
+# Kusu
+# 4105 Kusu - 5/27/2025 4:57:02 PM 
+ 
+add_core = LUB
 owner = LUB
 controller = LUB
-add_core = LUB
-culture = luba
-religion = shamanism#Fetishism
-capital = "Kusu"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = luba
+religion = shamanism
+capital = "Kusu"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

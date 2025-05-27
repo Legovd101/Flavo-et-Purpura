@@ -1,17 +1,30 @@
-#624 - Banten
+# Banten
+# 624 Banten - 5/27/2025 4:57:01 PM 
+ 
+add_core = MSA
 owner = MSA
 controller = MSA
-culture = sundanese
-religion = hinduism
-capital = "Banten"
-trade_goods = spices
 base_tax = 4
 base_production = 4
 base_manpower = 3
-is_city = yes
+
 center_of_trade = 1
+trade_goods = spices
+
+culture = sundanese
+religion = hinduism
+capital = "Banten"
+
+is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MSA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

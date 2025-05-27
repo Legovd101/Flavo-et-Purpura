@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:30:41 ###
 # Calicut
-# 534 Calicut - 31-03-2025 16:30:41 
+# 534 Calicut - 5/27/2025 4:57:01 PM 
  
 add_core = VND
 owner = VND
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

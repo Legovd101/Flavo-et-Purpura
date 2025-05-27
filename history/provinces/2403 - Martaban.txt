@@ -1,16 +1,29 @@
-#2403 - Martaban
+# Moulmein
+# 2403 Moulmein - 5/27/2025 4:57:02 PM 
+ 
+add_core = PEG
 owner = PEG
 controller = PEG
-culture = mon
-religion = buddhism
-capital = "Moulmein"
-trade_goods = chinaware
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = chinaware
+
+culture = mon
+religion = buddhism
+capital = "Moulmein"
+
 is_city = yes
-add_core = PEG
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

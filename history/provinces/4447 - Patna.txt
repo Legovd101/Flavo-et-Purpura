@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:35:31 ###
 # Patna
-# 4447 Patna - 31-03-2025 11:35:31 
+# 4447 Patna - 5/27/2025 4:57:02 PM 
  
 add_core = PAN
 owner = PAN
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

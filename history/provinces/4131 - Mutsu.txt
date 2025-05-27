@@ -1,14 +1,21 @@
-#Northern Mutsu
+# Mutsu
+# 4131 Mutsu - 5/27/2025 4:57:02 PM 
+ 
+add_core = EBS
 owner = EBS
 controller = EBS
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+
 culture = emishi
 religion = shinto
 capital = "Sannohe"
-trade_goods = livestock
-base_tax = 3
-base_manpower = 2
-base_production = 3
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
@@ -16,5 +23,11 @@ discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
 discovered_by = EBS
-add_core = EBS
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

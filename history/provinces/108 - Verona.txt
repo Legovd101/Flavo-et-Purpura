@@ -1,19 +1,32 @@
-#108 - Verona
+# Verona
+# 108 Verona - 5/27/2025 4:57:01 PM 
+ 
+add_core = VRN
+add_core = PDV
 owner = PDV
 controller = PDV
-culture = alpine
-religion = arianism
 base_tax = 5
 base_production = 5
-trade_goods = grain
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = alpine
+religion = arianism
 capital = "Verona"
+
 is_city = yes
-add_core = VRN
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = PDV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

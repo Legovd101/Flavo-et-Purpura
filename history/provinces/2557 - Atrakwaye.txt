@@ -1,17 +1,30 @@
-# No previous file for Atrakwaye
+# Atrakwaye
+# 2557 Atrakwaye - 5/27/2025 4:57:02 PM 
+ 
 add_core = SUS
 owner = SUS
 controller = SUS
-is_city = yes
-culture = susquehannock
-religion = totemism
-capital = "Atrakwaye"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = susquehannock
+religion = totemism
+capital = "Atrakwaye"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

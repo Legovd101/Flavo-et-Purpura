@@ -1,17 +1,29 @@
-#2974 Loon
+# Loon
+# 2974 Loon - 5/27/2025 4:57:02 PM 
+ 
+add_core = TRI
 owner = TRI
 controller = TRI
-is_city = yes
-capital = "Borgloon"
-culture = flemish
-religion = arianism
-
 base_tax = 5
 base_production = 5
-trade_goods = cloth
 base_manpower = 2
+
+trade_goods = cloth
+
+culture = flemish
+religion = arianism
+capital = "Borgloon"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = TRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

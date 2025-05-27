@@ -1,16 +1,29 @@
-#305 - Perm
+# Perm
+# 305 Perm - 5/27/2025 4:57:01 PM 
+ 
+add_core = PRM
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = uralic
-religion = tengri_pagan_reformed#Sami Shamanism
 base_tax = 4
 base_production = 4
-trade_goods = copper
 base_manpower = 3
+
+trade_goods = copper
+
+culture = uralic
+religion = tengri_pagan_reformed
 capital = "Yagoshiha"
+
 is_city = yes
-add_core = PRM
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

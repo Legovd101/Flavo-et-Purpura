@@ -1,19 +1,31 @@
-# - Regensburg
+# Regensburg
+# 2957 Regensburg - 5/27/2025 4:57:02 PM 
+ 
+add_core = BAV
 owner = BAV
 controller = BAV
-culture = bavarian
-religion = arianism
 base_tax = 5
 base_production = 5
-trade_goods = cloth#Fustians
 base_manpower = 3
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = bavarian
+religion = arianism
 capital = "Regensburg"
+
 is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
-add_core = BAV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,20 +1,33 @@
-#340 - Constantine
+# Annaba
+# 1882 Annaba - 5/27/2025 4:57:02 PM 
+ 
+add_core = NMD
 owner = NMD
 controller = NMD
-culture = numidian
-religion = west_orthodox
-capital = "Annaba"
-trade_goods = naval_supplies
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = numidian
+religion = west_orthodox
+capital = "Annaba"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = NMD
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

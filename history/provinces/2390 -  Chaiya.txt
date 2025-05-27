@@ -1,16 +1,29 @@
-#2390 - Chaiya
+# Chaiya
+# 2390 Chaiya - 5/27/2025 4:57:02 PM 
+ 
+add_core = SUK
 owner = SUK
 controller = SUK
-culture = central_thai
-religion = buddhism
-capital = "Chaiya"
-trade_goods = fish
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = fish
+
+culture = central_thai
+religion = buddhism
+capital = "Chaiya"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SUK
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

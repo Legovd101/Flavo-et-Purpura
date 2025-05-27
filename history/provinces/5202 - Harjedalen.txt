@@ -1,14 +1,27 @@
-#Norrbotten
+# Härjedalen
+# 5202 Härjedalen - 5/27/2025 4:57:03 PM 
+ 
+add_core = JMT
 owner = JMT
 controller = JMT
-add_core = JMT
-culture = norwegian
-religion = arianism
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = norwegian
+religion = arianism
 capital = "Umeå"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

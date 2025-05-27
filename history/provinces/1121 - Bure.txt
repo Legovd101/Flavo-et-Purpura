@@ -1,13 +1,26 @@
-#1121 - Bure
+# Bure
+# 1121 Bure - 5/27/2025 4:57:01 PM 
+ 
+add_core = MAL
 owner = MAL
 controller = MAL
-culture = mali
-is_city = yes
-base_manpower = 2
-religion = soninke_pagan #Fetishism
-capital = "Kurussa"
-trade_goods = gold
 base_tax = 6
 base_production = 6
-add_core = MAL
+base_manpower = 2
+
+trade_goods = gold
+
+culture = mali
+religion = soninke_pagan
+capital = "Kurussa"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

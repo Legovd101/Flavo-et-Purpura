@@ -1,19 +1,32 @@
-#993 - Hochelega
+# Osheaga
+# 993 Osheaga - 5/27/2025 4:57:01 PM 
+ 
+add_core = OSH
 owner = OSH
 controller = OSH
-add_core = OSH
-is_city = yes
-culture = laurentian
-religion = totemism
-capital = "Hochelega"
-trade_goods = fur
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+center_of_trade = 1
+trade_goods = fur
+extra_cost = 8
+
+culture = laurentian
+religion = totemism
+capital = "Hochelega"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 6
+
 discovered_by = north_american
 discovered_by = high_american
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

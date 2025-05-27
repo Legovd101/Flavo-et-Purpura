@@ -1,17 +1,30 @@
-#4152 - Kuusamo incl Maanselkä and Kitka
+# Kainuu
+# 4152 Kainuu - 5/27/2025 4:57:02 PM 
+ 
+add_core = SMI
+add_core = KVE
+add_core = KRL
 owner = KRL
 controller = KRL
-add_core = SMI
-culture = kven
-add_core = KVE
-religion = finnish_pagan
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
-add_local_autonomy = 80
+
+trade_goods = fur
+
+culture = kven
+religion = finnish_pagan
 capital = "Maanselkä"
+
 is_city = yes
+add_local_autonomy = 80
+
 discovered_by = eastern
 discovered_by = western
-add_core = KRL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

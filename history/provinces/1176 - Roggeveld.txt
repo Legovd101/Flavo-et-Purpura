@@ -1,12 +1,24 @@
-#1176 - Roggeveld
-culture = khoisan
-religion = shamanism#Fetishism
-capital = "Roggeveld"
-trade_goods = unknown
+# Roggeveld
+# 1176 Roggeveld - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = khoisan
+religion = shamanism
+capital = "Roggeveld"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

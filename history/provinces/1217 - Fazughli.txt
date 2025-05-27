@@ -1,15 +1,27 @@
-#1217 - Fazughli
-culture = nubian#Shilluk
-religion = waaqeffanna#Fetishism
-capital = "Alays"
-native_size = 80
-native_ferocity = 4
-native_hostileness = 9
-trade_goods = unknown
+# Fazughli
+# 1217 Fazughli - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = nubian
+religion = waaqeffanna
+capital = "Alays"
+
+native_size = 80
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

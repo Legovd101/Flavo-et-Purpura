@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:15:06 ###
 # Ladakh
-# 2074 Ladakh - 31-03-2025 11:15:06 
+# 2074 Ladakh - 5/27/2025 4:57:02 PM 
  
 add_core = KHI
 owner = KHI
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

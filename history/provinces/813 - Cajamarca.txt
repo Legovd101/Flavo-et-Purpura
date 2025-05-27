@@ -1,15 +1,28 @@
-#813 - Cajamarca
+# Cajamarca
+# 813 Cajamarca - 5/27/2025 4:57:01 PM 
+ 
+add_core = CJA
 owner = CJA
 controller = CJA
-culture = inca
-religion = inti
-capital = "Cajamarca"
-trade_goods = cocoa
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = cocoa
+
+culture = inca
+religion = inti
+capital = "Cajamarca"
+
 is_city = yes
-add_core = CJA
+
 discovered_by = south_american
 discovered_by = andean
 discovered_by = CHM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

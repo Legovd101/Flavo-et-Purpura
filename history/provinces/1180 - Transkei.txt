@@ -1,12 +1,24 @@
-#1180 - Transkei
-culture = nguni
-religion = shamanism#Fetishism
-capital = "Thembu"
-native_size = 70
-trade_goods = unknown
+# Xhosa
+# 1180 Xhosa - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_ferocity = 4
+
+trade_goods = unknown
+
+culture = nguni
+religion = shamanism
+capital = "Thembu"
+
+native_size = 70
+native_ferocity =  4
 native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

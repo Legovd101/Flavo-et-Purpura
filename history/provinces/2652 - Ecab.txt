@@ -1,18 +1,31 @@
-# No previous file for Ecab
-culture = yucatec
+# Ecab
+# 2652 Ecab - 5/27/2025 4:57:02 PM 
+ 
+add_core = COC
 owner = COC
 controller = COC
-add_core = COC
-is_city = yes
-religion = mesoamerican_religion
-capital = "Ecab"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+center_of_trade = 1
+trade_goods = fish
+
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Ecab"
+
+is_city = yes
 add_local_autonomy = 25
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
-center_of_trade = 1#Island of Cozumel
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

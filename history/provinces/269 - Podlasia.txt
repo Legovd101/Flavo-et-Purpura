@@ -1,17 +1,30 @@
-#269 - Podlasia
+# Podlasie
+# 269 Podlasie - 5/27/2025 4:57:01 PM 
+ 
+add_core = VOL
 owner = VOL
 controller = VOL
-culture = polish
-religion = orthodox
-trade_goods = livestock
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = livestock
+
+culture = polish
+religion = orthodox
 capital = "Drohiczyn"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_core = VOL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

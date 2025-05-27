@@ -1,17 +1,30 @@
-# 4769 - Lille, meant to represent Waals Vlaanderen. Principal cities: Lille, Douai, Orchies
+# Lille
+# 4769 Lille - 5/27/2025 4:57:02 PM 
+ 
+add_core = FLA
 owner = FLA
 controller = FLA
-add_core = FLA
-is_city = yes
-capital = "Lille"
-culture = belgican
-religion = lutetian
 base_tax = 4
 base_production = 5
-trade_goods = cloth
 base_manpower = 2
+
+trade_goods = cloth
+
+culture = belgican
+religion = lutetian
+capital = "Lille"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

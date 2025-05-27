@@ -1,15 +1,28 @@
-# - Chimbote
+# Chimbote
+# 2826 Chimbote - 5/27/2025 4:57:02 PM 
+ 
+add_core = CHM
 owner = CHM
 controller = CHM
-culture = chimuan
-religion = inti
-capital = "Chimbote"
-trade_goods = cocoa
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = cocoa
+
+culture = chimuan
+religion = inti
+capital = "Chimbote"
+
 is_city = yes
-add_core = CHM
+
 discovered_by = CHM
 discovered_by = south_american
 discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:30:55 ###
 # Qaraqalpak
-# 440 Qaraqalpak - 31-03-2025 15:30:55 
+# 440 Qaraqalpak - 5/27/2025 4:57:01 PM 
  
 add_core = KHI
 add_core = TRS
@@ -29,3 +28,4 @@ discovered_by = nomad_group
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

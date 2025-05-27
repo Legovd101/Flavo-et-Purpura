@@ -1,14 +1,26 @@
-# No previous file for Panka
-culture = pawnee
-religion = totemism
-capital = "Panka"
-trade_goods = unknown
+# Panka
+# 4916 Panka - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = pawnee
+religion = totemism
+capital = "Panka"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 6
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

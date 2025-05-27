@@ -1,4 +1,5 @@
-# 2388 Phitsanulok - 12/5/2568 2:34:29 
+# Phitsanulok
+# 2388 Phitsanulok - 5/27/2025 4:57:02 PM 
  
 add_core = AYU
 add_core = SUK
@@ -24,3 +25,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,26 @@
-#1979 - Färöarna
+# Färöarna
+# 1979 Färöarna - 5/27/2025 4:57:02 PM 
+ 
+add_core = FAR
 owner = FAR
 controller = FAR
-culture = viking_islander
-religion = arianism
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
 trade_goods = fish
+
+culture = viking_islander
+religion = arianism
 capital = "Torshavn"
+
 is_city = yes
+
 discovered_by = western
-add_core = FAR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

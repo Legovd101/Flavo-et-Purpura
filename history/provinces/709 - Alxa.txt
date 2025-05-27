@@ -1,14 +1,27 @@
-#709 - Alxa
+# Alxa
+# 709 Alxa - 5/27/2025 4:57:01 PM 
+ 
+add_core = SIN
 owner = SIN
 controller = SIN
-culture = mongol
-religion = nestorian
-capital = "Alxa"
-trade_goods = gems#Manao Jade
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = gems
+
+culture = mongol
+religion = nestorian
+capital = "Alxa"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SIN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

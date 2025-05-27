@@ -1,14 +1,27 @@
-#2396 - Mong Kawng
+# Mong Kawng
+# 2396 Mong Kawng - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = kachin
-religion = buddhism
-capital = "Mong Kawng"
-trade_goods = gems
 base_tax = 2
 base_production = 3
 base_manpower = 2
+
+trade_goods = gems
+
+culture = kachin
+religion = buddhism
+capital = "Mong Kawng"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

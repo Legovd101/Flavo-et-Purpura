@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:53:57 ###
 # Tirhut
-# 2047 Tirhut - 31-03-2025 15:53:57 
+# 2047 Tirhut - 5/27/2025 4:57:02 PM 
  
 add_core = NTK
 owner = NTK
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

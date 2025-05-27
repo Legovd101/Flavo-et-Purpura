@@ -1,20 +1,33 @@
-#4729 - Padova, Padua
+# Padova
+# 4729 Padova - 5/27/2025 4:57:02 PM 
+ 
+add_core = PDV
 owner = PDV
 controller = PDV
-culture = venetian
-religion = west_orthodox
 base_tax = 4
 base_production = 3
-trade_goods = paper
 base_manpower = 2
+
+trade_goods = paper
+
+culture = venetian
+religion = west_orthodox
 capital = "Padova"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = PDV
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

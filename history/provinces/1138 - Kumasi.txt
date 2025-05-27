@@ -1,17 +1,29 @@
-#1138 - Kumasi
-culture = akan
-base_manpower = 1
-religion = dahomey_pagan#Fetishism
-capital = "Akyem Kotoko"
-trade_goods = gold
-base_tax = 4
-base_production = 4
-native_size = 60
-native_ferocity = 4
-native_hostileness = 9
+# Kumasi
+# 1138 Kumasi - 5/27/2025 4:57:01 PM 
+ 
 add_core = ASH
-discovered_by = sub_saharan
-is_city = no
+add_core = GAA
 owner = GAA
 controller = GAA
-add_core = GAA
+base_tax = 4
+base_production = 4
+base_manpower = 1
+
+trade_goods = gold
+
+culture = akan
+religion = dahomey_pagan
+capital = "Akyem Kotoko"
+
+native_size = 60
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

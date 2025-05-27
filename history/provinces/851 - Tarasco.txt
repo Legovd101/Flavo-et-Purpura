@@ -1,18 +1,31 @@
-#851 - Tarasco
+# Zacatula
+# 851 Zacatula - 5/27/2025 4:57:01 PM 
+ 
+add_core = TLA
+add_core = TAR
 owner = TLA
 controller = TLA
-add_core = TLA
-culture = tlapanec
-religion = nahuatl
-capital = "Tarasco"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_local_autonomy = 50
+
+trade_goods = fish
+
+culture = tlapanec
+religion = nahuatl
+capital = "Tarasco"
+
 is_city = yes
-add_core = TAR
+add_local_autonomy = 50
+
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

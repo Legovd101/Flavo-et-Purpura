@@ -1,20 +1,32 @@
-#45 - Lübeck
+# Lübeck
+# 45 Lübeck - 5/27/2025 4:57:01 PM 
+ 
+add_core = ENG
 owner = ENG
 controller = ENG
-culture = angle
-religion = arianism
-
 base_tax = 7
 base_production = 7
-trade_goods = naval_supplies
 base_manpower = 3
+
+center_of_trade = 2
+trade_goods = naval_supplies
+extra_cost = 16
+
+culture = angle
+religion = arianism
 capital = "Lübeck"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
-add_core = ENG
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

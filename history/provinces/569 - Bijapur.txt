@@ -1,6 +1,5 @@
-### Modified 31-03-2025 12:05:01 ###
 # Bijapur
-# 569 Bijapur - 31-03-2025 12:05:01 
+# 569 Bijapur - 5/27/2025 4:57:01 PM 
  
 add_core = BIJ
 add_core = YDV
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

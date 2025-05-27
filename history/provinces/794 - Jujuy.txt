@@ -1,19 +1,32 @@
-#794 - Jujuy
+# Jujuy
+# 794 Jujuy - 5/27/2025 4:57:01 PM 
+ 
+add_core = CCQ
 owner = CCQ
 controller = CCQ
-add_core = CCQ
-culture = diaguita
-discovered_by = south_american
-discovered_by = andean
-religion = inti
-capital = "Jujuy"
-trade_goods = wool
-is_city = yes
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
 base_tax = 3
 base_production = 3
 base_manpower = 1
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = wool
+extra_cost = 8
+
+culture = diaguita
+religion = inti
+capital = "Jujuy"
+
+is_city = yes
+native_size = 5
+native_ferocity =  1
+native_hostileness = 2
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

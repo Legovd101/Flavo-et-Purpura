@@ -1,16 +1,29 @@
-# No previous file for Texcoco
+# Texcoco
+# 4570 Texcoco - 5/27/2025 4:57:02 PM 
+ 
+add_core = AZT
 owner = AZT
 controller = AZT
-add_core = AZT
-culture = aztek
-religion = nahuatl
-capital = "Texcoco"
-trade_goods = gold
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+trade_goods = gold
+
+culture = aztek
+religion = nahuatl
+capital = "Texcoco"
+
 is_city = yes
+
 discovered_by = AZT
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

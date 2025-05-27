@@ -1,19 +1,32 @@
-#1836 - Nanyang
-latent_trade_goods = { 
-	coal 
-}
+# Luoyang
+# 1836 Luoyang - 5/27/2025 4:57:02 PM 
+ 
+add_core = JIN
 owner = JIN
 controller = JIN
-culture = zhongyuan
-religion = confucianism
-capital = "Luoyang"
-trade_goods = chinaware
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = chinaware
+
+culture = zhongyuan
+religion = confucianism
+capital = "Luoyang"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
 add_province_triggered_modifier = mahayana_louyang
-add_core = JIN
-hre = yes
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

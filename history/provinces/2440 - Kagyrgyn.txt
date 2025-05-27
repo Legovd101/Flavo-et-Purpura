@@ -1,20 +1,33 @@
-#2440 - Kagyrgyn
+# Kagyrgyn
+# 2440 Kagyrgyn - 5/27/2025 4:57:02 PM 
+ 
+add_core = CHV
 owner = CHV
 controller = CHV
-add_core = CHV
-culture = kamchatkan
-religion = tengri_pagan_reformed
-capital = "Kagyrgyn"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
+
+trade_goods = fish
+
+culture = kamchatkan
+religion = tengri_pagan_reformed
+capital = "Kagyrgyn"
+
 is_city = yes
+native_size = 5
+native_ferocity =  1
+native_hostileness = 2
+
 discovered_by = ANU
 discovered_by = HOD
 discovered_by = CHU
 discovered_by = CHV
 discovered_by = KMC
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

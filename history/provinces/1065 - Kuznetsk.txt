@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:44:51 ###
 # Kuznetsk
-# 1065 Kuznetsk - 01-04-2025 21:44:51 
+# 1065 Kuznetsk - 5/27/2025 4:57:01 PM 
  
 add_core = OIR
 owner = OIR
@@ -29,3 +28,4 @@ latent_trade_goods = {
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

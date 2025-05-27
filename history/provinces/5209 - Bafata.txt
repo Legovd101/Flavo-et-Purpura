@@ -1,12 +1,25 @@
-#Bafata
-base_tax = 1
-base_production = 1
-trade_goods = fur
-base_manpower = 1
-capital = "Bafata"
-is_city = yes
+# Bafata
+# 5209 Bafata - 5/27/2025 4:57:03 PM 
+ 
 add_core = KBU
 owner = KBU
+controller = KBU
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+
 culture = senegambian
 religion = senegambian_pagan
-controller = KBU
+capital = "Bafata"
+
+is_city = yes
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

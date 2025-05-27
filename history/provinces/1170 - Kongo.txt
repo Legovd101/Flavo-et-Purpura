@@ -1,16 +1,29 @@
-#1170 - Kongo
+# Mpemba
+# 1170 Mpemba - 5/27/2025 4:57:01 PM 
+ 
+add_core = KON
 owner = KON
 controller = KON
-culture = kongolese
-religion = shamanism#Fetishism
-capital = "M'banza Kongo"
-trade_goods = steel
 base_tax = 6
 base_production = 6
 base_manpower = 3
+
+center_of_trade = 2
+trade_goods = steel
+extra_cost = 16
+
+culture = kongolese
+religion = shamanism
+capital = "M'banza Kongo"
+
 is_city = yes
-add_core = KON
+
 discovered_by = central_african
 discovered_by = sub_saharan
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

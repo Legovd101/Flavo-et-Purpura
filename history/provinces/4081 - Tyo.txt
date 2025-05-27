@@ -1,12 +1,26 @@
+# Songo
+# 4081 Songo - 5/27/2025 4:57:02 PM 
+ 
+add_core = KON
 owner = KON
 controller = KON
-add_core = KON
-culture = kongolese
-religion = shamanism#Fetishism
-capital = "Okango"
-trade_goods = spices
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = spices
+
+culture = kongolese
+religion = shamanism
+capital = "Okango"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,14 +1,22 @@
-#254 - Poznan
+# Poznan
+# 254 Poznan - 5/27/2025 4:57:01 PM 
+ 
+add_core = SLO
 owner = SLO
 controller = SLO
-capital = "Poznan"
-culture = polish
-religion = orthodox
-trade_goods = salt
 base_tax = 6
 base_production = 6
 base_manpower = 5
+
+trade_goods = salt
+
+culture = polish
+religion = orthodox
+capital = "Poznan"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,5 +26,10 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SLO
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

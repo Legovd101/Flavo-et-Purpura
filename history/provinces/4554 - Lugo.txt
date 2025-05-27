@@ -1,21 +1,33 @@
-#Lugo
-owner = GAL#Juan II of Castille
-controller = GAL
+# Lugo
+# 4554 Lugo - 5/27/2025 4:57:02 PM 
+ 
 add_core = GAL
-culture = galician_fep
-religion = lutetian
+owner = GAL
+controller = GAL
 base_tax = 3
 base_production = 3
-trade_goods = fish
 base_manpower = 2
+
+trade_goods = fish
+
+culture = galician_fep
+religion = lutetian
 capital = "Lugo"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-# Santiago de Compostela pilgrimage
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

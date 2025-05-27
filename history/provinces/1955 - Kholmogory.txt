@@ -1,14 +1,23 @@
-#1955 - Kholmogory
+# Kholmogory
+# 1955 Kholmogory - 5/27/2025 4:57:02 PM 
+ 
+add_core = PRM
 owner = PRM
 controller = PRM
-culture = uralic
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = fur
 base_manpower = 1
+
+center_of_trade = 2
+trade_goods = fur
+extra_cost = 16
+
+culture = uralic
+religion = orthodox
 capital = "Kholmogory"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -16,6 +25,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
-extra_cost = 16
-center_of_trade = 2
-add_core = PRM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

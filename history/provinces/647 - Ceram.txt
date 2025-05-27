@@ -1,13 +1,25 @@
-#647 - Ceram
-culture = moluccan
-religion = animism
-capital = "Ceram"
-trade_goods = unknown
+# Ceram
+# 647 Ceram - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = moluccan
+religion = animism
+capital = "Ceram"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
 discovered_by = chinese
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

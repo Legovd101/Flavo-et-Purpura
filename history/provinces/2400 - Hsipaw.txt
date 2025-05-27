@@ -1,14 +1,27 @@
-#2400 - Hsipaw
+# Hsipaw
+# 2400 Hsipaw - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = shan
-religion = buddhism
-capital = "Hsipaw"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = shan
+religion = buddhism
+capital = "Hsipaw"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

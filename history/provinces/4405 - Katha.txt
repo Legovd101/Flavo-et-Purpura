@@ -1,14 +1,27 @@
-#4405 - Katha
+# Katha
+# 4405 Katha - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = shan
-religion = buddhism
-capital = "Katha"
-trade_goods = tea
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = tea
+
+culture = shan
+religion = buddhism
+capital = "Katha"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,31 @@
-#248 - Lothian
+# Lothian
+# 248 Lothian - 5/27/2025 4:57:01 PM 
+ 
+add_core = SCO
 owner = SCO
 controller = SCO
-culture = viking_scottish
-religion = arianism
 base_tax = 6
 base_production = 6
-trade_goods = cloth
 base_manpower = 4
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = viking_scottish
+religion = arianism
 capital = "Edinburgh"
+
 is_city = yes
-add_core = SCO
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

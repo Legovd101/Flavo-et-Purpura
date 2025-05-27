@@ -1,17 +1,29 @@
-#81 - Hessen
+# Oberhessen
+# 81 Oberhessen - 5/27/2025 4:57:01 PM 
+ 
+add_core = LPP
 owner = LPP
 controller = LPP
-capital = "Marburg"
-trade_goods = wool
-culture = thuringian
-religion = arianism
 base_tax = 4
 base_production = 3
 base_manpower = 3
+
+trade_goods = wool
+
+culture = thuringian
+religion = arianism
+capital = "Marburg"
+
 is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LPP
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,16 +1,22 @@
-#1318 - Spiš
+# Spiš
+# 1318 Spiš - 5/27/2025 4:57:02 PM 
+ 
+add_core = SLO
+add_core = AVR
 owner = AVR
-set_province_flag = support_kan
 controller = AVR
-culture = slovak
-religion = orthodox
-capital = "Spiš"
-trade_goods = copper
 base_tax = 3
 base_production = 4
 base_manpower = 2
+
+trade_goods = copper
+
+culture = slovak
+religion = orthodox
+capital = "Spiš"
+
 is_city = yes
-add_core = SLO
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -20,4 +26,10 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-add_core = AVR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

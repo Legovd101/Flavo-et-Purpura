@@ -1,12 +1,26 @@
+# Iotseu
+# 5088 Iotseu - 5/27/2025 4:57:03 PM 
+ 
 add_core = HUA
 owner = HUA
+controller = HUA
 base_tax = 2
-base_manpower = 2
 base_production = 3
+base_manpower = 2
+
+
 culture = xiang
 religion = confucianism
-controller = HUA
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

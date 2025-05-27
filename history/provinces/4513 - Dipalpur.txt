@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:34:15 ###
 # Dipalpur
-# 4513 Dipalpur - 31-03-2025 15:34:15 
+# 4513 Dipalpur - 5/27/2025 4:57:02 PM 
  
 add_core = MUL
 add_core = DLH
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

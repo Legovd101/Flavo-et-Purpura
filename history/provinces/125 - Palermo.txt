@@ -1,19 +1,32 @@
-#125 - Palermo
+# Palermo
+# 125 Palermo - 5/27/2025 4:57:01 PM 
+ 
+add_core = NAP
+add_core = ZNG
 owner = ZNG
 controller = ZNG
-culture = zenata
-religion = west_orthodox
 base_tax = 5
 base_production = 5
-trade_goods = wine
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = wine
+extra_cost = 8
+
+culture = zenata
+religion = west_orthodox
 capital = "Palermo"
+
 is_city = yes
-add_core = NAP
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = ZNG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

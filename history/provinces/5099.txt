@@ -1,12 +1,26 @@
+# Tebin
+# 5099 Tebin - 5/27/2025 4:57:03 PM 
+ 
 add_core = KIC
 owner = KIC
+controller = KIC
 base_tax = 3
-base_manpower = 1
 base_production = 3
+base_manpower = 1
+
+
 culture = huizhou_culture
 religion = confucianism
-controller = KIC
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

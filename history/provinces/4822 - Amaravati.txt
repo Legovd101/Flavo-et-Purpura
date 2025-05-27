@@ -1,4 +1,5 @@
-# 4822 Amaravati - 12/5/2568 2:34:29 
+# Amaravati
+# 4822 Amaravati - 5/27/2025 4:57:02 PM 
  
 add_core = CHA
 owner = CP1
@@ -25,3 +26,4 @@ discovered_by = ottoman
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

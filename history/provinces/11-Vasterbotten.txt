@@ -1,14 +1,27 @@
-#Västerbotten-Ångermanland, from Sundsvall/Härnösand over Umeå to Torneå
+# Västerbotten
+# 11 Västerbotten - 5/27/2025 4:57:01 PM 
+ 
+add_core = SWE
 owner = SWE
 controller = SWE
-add_core = SWE
-culture = swedish
-religion = arianism
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = swedish
+religion = arianism
 capital = "Umeå"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

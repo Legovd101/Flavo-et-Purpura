@@ -1,13 +1,25 @@
-#779 - Tandil
-culture = het
-discovered_by = south_american
-religion = animism
-capital = "Tandil"
-trade_goods = unknown
+# Tandil
+# 779 Tandil - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = het
+religion = animism
+capital = "Tandil"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

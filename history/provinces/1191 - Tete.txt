@@ -1,16 +1,29 @@
-#1191 - Tete
+# Tete
+# 1191 Tete - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZIM
 owner = ZIM
 controller = ZIM
-add_core = ZIM
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+center_of_trade = 2
+trade_goods = steel
+extra_cost = 16
+
 culture = shona
 religion = swahili_pagan
 capital = "Tete"
+
 is_city = yes
-base_manpower = 1
-trade_goods = steel
-base_tax = 2
-base_production = 2
+
 discovered_by = east_african
 discovered_by = central_african
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,28 @@
-#4250 - Mologa
+# Mologa
+# 4250 Mologa - 5/27/2025 4:57:02 PM 
+ 
+add_core = YAR
 owner = YAR
 controller = YAR
-culture = russian
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = livestock
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = russian
+religion = orthodox
 capital = "Mologa"
+
 is_city = yes
-add_core = YAR
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

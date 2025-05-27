@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:59:35 ###
 # Surguja
-# 2098 Surguja - 31-03-2025 15:59:35 
+# 2098 Surguja - 5/27/2025 4:57:02 PM 
  
 add_core = SRG
 add_core = RTT
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

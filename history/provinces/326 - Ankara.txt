@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:36:57 ###
-# Boukellarion
-# 326 Boukellarion - 01-04-2025 21:36:57 
+# Ankara
+# 326 Ankara - 5/27/2025 4:57:01 PM 
  
 add_core = GRM
 add_core = BYZ
@@ -34,3 +33,4 @@ add_permanent_province_modifier = {
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,27 @@
-#804 - Puno
+# Puno
+# 804 Puno - 5/27/2025 4:57:01 PM 
+ 
+add_core = CLA
 owner = CLA
 controller = CLA
-culture = aimara
-religion = inti
-capital = "Hatuncolla"
-trade_goods = gold
-is_city = yes
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = CLA
+
+trade_goods = gold
+
+culture = aimara
+religion = inti
+capital = "Hatuncolla"
+
+is_city = yes
+
 discovered_by = south_american
 discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

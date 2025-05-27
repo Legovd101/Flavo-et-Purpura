@@ -1,14 +1,23 @@
-#161 - Tîrgoviste
+# Tîrgoviste
+# 161 Tîrgoviste - 5/27/2025 4:57:01 PM 
+ 
+add_core = BLU
 owner = BLU
 controller = BLU
-culture = greco_romanian
-religion = manichaean
-capital = "Tîrgoviste"
-trade_goods = livestock
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = livestock
+extra_cost = 8
+
+culture = greco_romanian
+religion = manichaean
+capital = "Tîrgoviste"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,6 +27,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = BLU
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,17 +1,25 @@
-#1105 - Vestbygden
-culture = inuit
-religion = totemism
-capital = "Vestbygden"
-trade_goods = unknown
+# Vestbygden
+# 1105 Vestbygden - 5/27/2025 4:57:01 PM 
+ 
+add_core = ICE
+add_core = GRN
+owner = ICE
+controller = ICE
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 5
-native_ferocity = 2
-native_hostileness = 9
+
+trade_goods = unknown
+
+culture = inuit
+religion = totemism
+capital = "Vestbygden"
+
 is_city = yes
-add_core = ICE
-add_core = GRN
+native_size = 5
+native_ferocity =  2
+native_hostileness = 9
+
 discovered_by = ICE
 discovered_by = VIN
 discovered_by = NOR
@@ -19,5 +27,10 @@ discovered_by = SWE
 discovered_by = DAN
 discovered_by = SCO
 discovered_by = LOI
-owner = ICE
-controller = ICE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

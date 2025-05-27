@@ -1,22 +1,35 @@
-# 90 Vlaanderen - Principal cities: Brugge
+# Bruges
+# 90 Bruges - 5/27/2025 4:57:01 PM 
+ 
+add_core = FLA
 owner = FLA
 controller = FLA
-add_core = FLA
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-capital = "Brugge"
-culture = belgican
-religion = lutetian
 base_tax = 7
 base_production = 7
-trade_goods = cloth
 base_manpower = 4
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 8
+
+culture = belgican
+religion = lutetian
+capital = "Brugge"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 2
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

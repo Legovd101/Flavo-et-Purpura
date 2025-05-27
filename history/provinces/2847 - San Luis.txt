@@ -1,13 +1,25 @@
-# - San Luis
-culture = huarpe
-discovered_by = south_american
-religion = animism
-capital = "San Luis"
-trade_goods = unknown
+# San Luis
+# 2847 San Luis - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 2
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = huarpe
+religion = animism
+capital = "San Luis"
+
 native_size = 20
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,30 @@
-#4740 - Como
+# Como
+# 4740 Como - 5/27/2025 4:57:02 PM 
+ 
+add_core = MLO
 owner = MLO
 controller = MLO
-culture = alpine
-religion = arianism
-
 base_tax = 4
 base_production = 4
-trade_goods = cloth
 base_manpower = 2
+
+trade_goods = cloth
+
+culture = alpine
+religion = arianism
 capital = "Como"
-is_city = yes# Estimated
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MLO
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

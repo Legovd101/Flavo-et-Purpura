@@ -1,18 +1,31 @@
-culture = bornean
-religion = hinduism
-capital = "Batulican"
-trade_goods = unknown
+# Batulican
+# 4801 Batulican - 5/27/2025 4:57:02 PM 
+ 
+add_core = MSA
+owner = MSA
+controller = MSA
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = bornean
+religion = hinduism
+capital = "Batulican"
+
 native_size = 40
-native_ferocity = 8
+native_ferocity =  8
 native_hostileness = 5
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-is_city = no
-add_core = MSA
-owner = MSA
-controller = MSA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

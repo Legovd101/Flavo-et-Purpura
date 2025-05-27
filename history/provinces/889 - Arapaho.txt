@@ -1,14 +1,26 @@
-#889 - Arapaho
-culture = wichita
-religion = totemism
-capital = "Arapaho"
-trade_goods = unknown
+# Nawunena
+# 889 Nawunena - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = wichita
+religion = totemism
+capital = "Arapaho"
+
 native_size = 25
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 9
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,17 +1,29 @@
-#1862 - Cremona
+# Cremona
+# 1862 Cremona - 5/27/2025 4:57:02 PM 
+ 
+add_core = PDV
 owner = PDV
 controller = PDV
-culture = alpine
-religion = arianism
-
 base_tax = 6
 base_production = 5
-trade_goods = grain
 base_manpower = 4
+
+trade_goods = grain
+
+culture = alpine
+religion = arianism
 capital = "Cremona"
-is_city = yes# Estimated
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = PDV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

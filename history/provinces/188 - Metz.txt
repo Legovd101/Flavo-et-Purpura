@@ -1,22 +1,34 @@
-# 188 Metz - Principal cities: Metz, Thionville
-latent_trade_goods = { 
-	coal 
-}
+# Metz
+# 188 Metz - 5/27/2025 4:57:01 PM 
+ 
+add_core = ALS
 owner = ALS
 controller = ALS
-capital = "Metz"
-is_city = yes
-culture = burgundii
-religion = arianism
-
 base_tax = 6
 base_production = 6
-trade_goods = glass
 base_manpower = 5
+
+center_of_trade = 1
+trade_goods = glass
+extra_cost = 8
+
+culture = burgundii
+religion = arianism
+capital = "Metz"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = ALS
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

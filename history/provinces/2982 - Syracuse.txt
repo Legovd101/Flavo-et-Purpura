@@ -1,17 +1,30 @@
-# - Syracusa
+# Syracuse
+# 2982 Syracuse - 5/27/2025 4:57:02 PM 
+ 
+add_core = NAP
+add_core = ZNG
 owner = ZNG
 controller = ZNG
-culture = sicilian_greek
-religion = west_orthodox
 base_tax = 4
 base_production = 4
-trade_goods = wine
 base_manpower = 2
+
+trade_goods = wine
+
+culture = sicilian_greek
+religion = west_orthodox
 capital = "Syracusa"
+
 is_city = yes
-add_core = NAP
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = ZNG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

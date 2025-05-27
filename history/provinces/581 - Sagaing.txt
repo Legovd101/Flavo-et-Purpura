@@ -1,14 +1,27 @@
-#581 - Sagaing
+# Sagaing
+# 581 Sagaing - 5/27/2025 4:57:01 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = burmese
-religion = buddhism
-capital = "Sagaing"
-trade_goods = cotton
 base_tax = 5
 base_production = 5
 base_manpower = 4
+
+trade_goods = cotton
+
+culture = burmese
+religion = buddhism
+capital = "Sagaing"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

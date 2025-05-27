@@ -1,15 +1,23 @@
-#264 - Breslau (Breslau+Brieg+Öls+Wartenberg+Wohlau/Steinau)
+# Breslau
+# 264 Breslau - 5/27/2025 4:57:01 PM 
+ 
+add_core = SOR
 owner = SOR
 controller = SOR
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
 culture = schlesian
 religion = orthodox
 capital = "Breslau"
-trade_goods = cloth
 
-base_tax = 5
-base_production = 5
 is_city = yes
-base_manpower = 3
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,6 +27,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = SOR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

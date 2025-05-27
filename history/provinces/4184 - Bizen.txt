@@ -1,19 +1,33 @@
-#4184 - Bizen
-owner = KOR
-controller = KOR
+### Modified 5/27/2025 4:57:02 PM ###
+# Bizen
+# 4184 Bizen - 5/27/2025 4:57:02 PM 
+ 
+add_core = AKM
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = iron
+
 culture = japanese
 religion = tengri_pagan_reformed
 capital = "Okayama"
-trade_goods = iron
-base_tax = 3
-base_manpower = 2
-base_production = 2
+
 is_city = yes
-add_core = AKM
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-add_core = KOR
 discovered_by = nomad_group
+
+
+
+
+
+

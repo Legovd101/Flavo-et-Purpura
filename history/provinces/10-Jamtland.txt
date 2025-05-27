@@ -1,15 +1,28 @@
-#Jämtland+Härjedalen
+# Jämtland
+# 10 Jämtland - 5/27/2025 4:57:01 PM 
+ 
+add_core = JMT
 owner = JMT
 controller = JMT
-culture = norwegian# They were actually Jämts - the unique blend of Swedish, Norwegian and local tendencies
-religion = arianism
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = norwegian
+religion = arianism
 capital = "Frösön"
-add_local_autonomy = 25
+
 is_city = yes
-add_core = JMT
+add_local_autonomy = 25
+
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

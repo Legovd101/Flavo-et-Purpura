@@ -1,20 +1,33 @@
-# - Susa
+# Sousse
+# 2473 Sousse - 5/27/2025 4:57:02 PM 
+ 
+add_core = ZNG
 owner = ZNG
 controller = ZNG
-culture = zenata
-religion = west_orthodox
-capital = "Susa"
-trade_goods = sugar
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+trade_goods = sugar
+
+culture = zenata
+religion = west_orthodox
+capital = "Susa"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
-add_core = ZNG
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

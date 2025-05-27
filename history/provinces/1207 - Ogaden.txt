@@ -1,16 +1,28 @@
-#1207 - Ogaden
+# Ogaden
+# 1207 Ogaden - 5/27/2025 4:57:01 PM 
+ 
+add_core = OGD
 owner = OGD
 controller = OGD
-add_core = OGD
-culture = somali
-religion = waaqeffanna
-capital = "Bale"
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
-trade_goods = incense
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = incense
+
+culture = somali
+religion = waaqeffanna
+capital = "Bale"
+
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = east_african
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

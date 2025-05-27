@@ -1,6 +1,5 @@
-### Modified 01-04-2025 20:03:37 ###
 # Uzkend
-# 460 Uzkend - 01-04-2025 20:03:37 
+# 460 Uzkend - 5/27/2025 4:57:01 PM 
  
 add_core = KOK
 add_core = CHG
@@ -34,3 +33,4 @@ latent_trade_goods = {
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

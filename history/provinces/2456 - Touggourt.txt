@@ -1,15 +1,28 @@
-# - Touggourt
+# Touggourt
+# 2456 Touggourt - 5/27/2025 4:57:02 PM 
+ 
+add_core = LTN
 owner = LTN
 controller = LTN
-culture = lautana
-religion = mauri_pagan
-capital = "Touggourt"
-trade_goods = spices
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = spices
+
+culture = lautana
+religion = mauri_pagan
+capital = "Touggourt"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
-add_core = LTN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

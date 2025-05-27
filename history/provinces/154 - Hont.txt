@@ -1,17 +1,22 @@
-#154 - Hont (Hont + Bars + Ersekujvar)
+# Hont
+# 154 Hont - 5/27/2025 4:57:01 PM 
+ 
+add_core = SLO
+add_core = AVR
 owner = AVR
-set_province_flag = support_aba
 controller = AVR
-culture = slovak
-religion = manichaean
-capital = "Hont"
-trade_goods = gold#Schemnitz / Banská Štiavnica
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = gold
+
+culture = slovak
+religion = manichaean
+capital = "Hont"
+
 is_city = yes
-#fort_15th = yes #Eger Castle, Orava
-add_core = SLO
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -21,4 +26,10 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-add_core = AVR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,29 @@
-# 2163 - Liuzhou
-owner = YUE
-controller = YUE
-culture = zhuang
-religion = confucianism
-capital = "Liuzhou"
-trade_goods = salt
+### Modified 5/27/2025 4:57:02 PM ###
+# Liuzhou
+# 2163 Liuzhou - 5/27/2025 4:57:02 PM 
+ 
+add_core = KWS
+add_core = KWS
+owner = KWS
+controller = KWS
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = salt
+
+culture = zhuang
+religion = confucianism
+capital = "Liuzhou"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = YUE
-hre = yes
+
+
+
+
+
+

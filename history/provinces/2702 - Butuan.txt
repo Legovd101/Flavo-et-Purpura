@@ -1,15 +1,28 @@
-#2702 - Butuan
-culture = filipino
-religion = animism
-capital = "Butuan"
-trade_goods = gems
+# Butuan
+# 2702 Butuan - 5/27/2025 4:57:02 PM 
+ 
+add_core = BTU
+owner = BTU
+controller = BTU
 base_tax = 2
 base_production = 2
 base_manpower = 2
-is_city = yes
-discovered_by = chinese
-owner = BTU
-controller = BTU
-add_core = BTU
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = gems
+extra_cost = 8
+
+culture = filipino
+religion = animism
+capital = "Butuan"
+
+is_city = yes
+
+discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

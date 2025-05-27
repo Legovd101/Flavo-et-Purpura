@@ -1,15 +1,29 @@
+# Barus
+# 4811 Barus - 5/27/2025 4:57:02 PM 
+ 
+add_core = MSA
 owner = MSA
 controller = MSA
-culture = sumatran
-religion = hinduism
-capital = "Barus"
-trade_goods = spices
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = spices
+
+culture = sumatran
+religion = hinduism
+capital = "Barus"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MSA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:34:18 ###
 # Chanda
-# 2050 Chanda - 31-03-2025 11:34:18 
+# 2050 Chanda - 5/27/2025 4:57:02 PM 
  
 add_core = BRR
 add_core = PAN
@@ -29,3 +28,4 @@ discovered_by = ottoman
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

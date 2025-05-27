@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:25:12 ###
 # Yarkand
-# 2124 Yarkand - 01-04-2025 21:25:12 
+# 2124 Yarkand - 5/27/2025 4:57:02 PM 
  
 add_core = KHI
 owner = KHI
@@ -28,3 +27,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

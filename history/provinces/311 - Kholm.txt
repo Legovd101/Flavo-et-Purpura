@@ -1,15 +1,28 @@
-#311 - Kholm
+# Kholm
+# 311 Kholm - 5/27/2025 4:57:01 PM 
+ 
+add_core = NOV
 owner = NOV
 controller = NOV
-culture = novgorodian
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = naval_supplies
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = novgorodian
+religion = orthodox
 capital = "Kholm"
+
 is_city = yes
-add_core = NOV
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

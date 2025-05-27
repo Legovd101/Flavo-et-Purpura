@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:16:05 ###
 # Malenadu
-# 2032 Malenadu - 31-03-2025 11:16:05 
+# 2032 Malenadu - 5/27/2025 4:57:02 PM 
  
 add_core = KLN
 add_core = MYS
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

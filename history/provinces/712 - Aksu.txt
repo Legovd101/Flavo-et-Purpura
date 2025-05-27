@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:54:41 ###
 # Aksu
-# 712 Aksu - 01-04-2025 21:54:41 
+# 712 Aksu - 5/27/2025 4:57:01 PM 
  
 add_core = TCR
 owner = TCR
@@ -26,3 +25,4 @@ discovered_by = nomad_group
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

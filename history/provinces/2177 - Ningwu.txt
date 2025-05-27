@@ -1,16 +1,28 @@
-# 2177 - Ningwu
+# Ningwu
+# 2177 Ningwu - 5/27/2025 4:57:02 PM 
+ 
+add_core = JIN
+add_core = SIN
 owner = SIN
 controller = SIN
-culture = jin
-religion = nestorian
-capital = "Ningwu"
-trade_goods = grain
 base_tax = 3
 base_production = 2
 base_manpower = 3
+
+trade_goods = grain
+
+culture = jin
+religion = nestorian
+capital = "Ningwu"
+
 is_city = yes
-add_core = JIN
-#fort_15th = yes #the Nine Garrisons
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SIN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

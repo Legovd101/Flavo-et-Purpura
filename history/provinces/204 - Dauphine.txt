@@ -1,23 +1,35 @@
-# 204 Dauphiné - Principal cities: Grenoble
-owner = BUR
-controller = BUR
-capital = "Grenoble"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = burgundii
-religion = arianism
-base_tax = 4
-base_production = 3
-trade_goods = wool
-base_manpower = 3
+# Dauphiné
+# 204 Dauphiné - 5/27/2025 4:57:01 PM 
+ 
 add_core = DAU
 add_core = PRO
+add_core = BUR
+owner = BUR
+controller = BUR
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = wool
+
+culture = burgundii
+religion = arianism
+capital = "Grenoble"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-#fort_15th = yes
-add_core = BUR
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

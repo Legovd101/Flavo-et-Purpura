@@ -1,23 +1,36 @@
 # Urbino
+# 2977 Urbino - 5/27/2025 4:57:02 PM 
+ 
+add_core = BUL
+add_core = SPL
 owner = BUL
 controller = BUL
-culture = spoletian
-religion = west_orthodox
 base_tax = 5
 base_production = 5
-trade_goods = grain
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = spoletian
+religion = west_orthodox
 capital = "Urbino"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = BUL
-add_core = SPL
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

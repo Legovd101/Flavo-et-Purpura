@@ -1,13 +1,25 @@
-#632 - Sumbawa
-culture = nusa_tenggara
-religion = animism
-capital = "Sumbawa"
-trade_goods = unknown
+# Sumbawa
+# 632 Sumbawa - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = nusa_tenggara
+religion = animism
+capital = "Sumbawa"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 5
+
 discovered_by = chinese
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

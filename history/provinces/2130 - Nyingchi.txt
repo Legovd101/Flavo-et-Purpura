@@ -1,15 +1,28 @@
-# 2130 - Nyingchi
+# Nyingchi
+# 2130 Nyingchi - 5/27/2025 4:57:02 PM 
+ 
+add_core = UTS
 owner = UTS
 controller = UTS
-add_core = UTS
-culture = tibetan
-religion = vajrayana
-capital = "Nyingchi"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = grain
+
+culture = tibetan
+religion = vajrayana
+capital = "Nyingchi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

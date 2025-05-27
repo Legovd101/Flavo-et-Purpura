@@ -1,17 +1,30 @@
-#983 - Epekwitk
-culture = basque_algonquian
-religion = totemism
-capital = "Epekwitk"
-trade_goods = unknown
+# Epagoitgnag
+# 983 Epagoitgnag - 5/27/2025 4:57:01 PM 
+ 
+add_core = MIK
+owner = MIK
+controller = MIK
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = basque_algonquian
+religion = totemism
+capital = "Epekwitk"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-owner = MIK
-controller = MIK
-add_core = MIK
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

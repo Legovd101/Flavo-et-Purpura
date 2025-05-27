@@ -1,19 +1,31 @@
-#1875 - Cuneo (can't change filename)
+# Cuneo
+# 1875 Cuneo - 5/27/2025 4:57:02 PM 
+ 
+add_core = SAV
+add_core = MFA
 owner = SAV
 controller = SAV
-culture = piedmontese
-religion = arianism
-
 base_tax = 4
 base_production = 4
-trade_goods = grain
 base_manpower = 4
+
+trade_goods = grain
+
+culture = piedmontese
+religion = arianism
 capital = "Cuneo"
-is_city = yes # Estimated
-add_core = SAV
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-fort_15th = yes
-add_core = MFA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

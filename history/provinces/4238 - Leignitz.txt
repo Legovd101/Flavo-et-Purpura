@@ -1,16 +1,21 @@
-#4238 - Liegnitz (Liegnitz+Schweidnitz+Jauer+Glatz+Neisse+Münsterberg)
-#Coal
+# Liegnitz
+# 4238 Liegnitz - 5/27/2025 4:57:02 PM 
+ 
+add_core = MVA
 owner = MVA
 controller = MVA
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = glass
+
 culture = schlesian
 religion = orthodox
 capital = "Liegnitz"
-trade_goods = glass
 
-base_tax = 4
-base_production = 4
 is_city = yes
-base_manpower = 2
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -20,4 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MVA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,14 +1,27 @@
-# No previous file for Kantor
+# Kantor
+# 2238 Kantor - 5/27/2025 4:57:02 PM 
+ 
+add_core = KBU
 owner = KBU
 controller = KBU
-add_core = KBU#Subjet province within the empire
-is_city = yes
-culture = senegambian
-religion = senegambian_pagan#Fetishism
-capital = "Sutuco"
-trade_goods = ivory
 base_tax = 1
 base_production = 1
 base_manpower = 1
-discovered_by = sub_saharan
+
+trade_goods = ivory
+
+culture = senegambian
+religion = senegambian_pagan
+capital = "Sutuco"
+
+is_city = yes
 add_local_autonomy = 50
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

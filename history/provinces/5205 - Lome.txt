@@ -1,12 +1,25 @@
-#Lome
-base_tax = 1
-base_production = 1
-trade_goods = fur
-base_manpower = 1
-capital = "Lome"
-is_city = yes
+# Lomé
+# 5205 Lomé - 5/27/2025 4:57:03 PM 
+ 
 add_core = GAA
 owner = GAA
 controller = GAA
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+
 culture = fon_nu
 religion = dahomey_pagan
+capital = "Lome"
+
+is_city = yes
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

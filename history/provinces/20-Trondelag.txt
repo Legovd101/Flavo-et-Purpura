@@ -1,17 +1,30 @@
-#Tröndelag, incl. Trondheim, Frosta, Röros, Steinviksholm
+# Trondelag
+# 20 Trondelag - 5/27/2025 4:57:01 PM 
+ 
+add_core = NOR
 owner = NOR
 controller = NOR
-add_core = NOR
-culture = norwegian
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = fish
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = fish
+extra_cost = 8
+
+culture = norwegian
+religion = arianism
 capital = "Trondheim"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
-extra_cost = 8
-center_of_trade = 1
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

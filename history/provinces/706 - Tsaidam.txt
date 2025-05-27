@@ -1,15 +1,28 @@
-#706 - Amdo
+# Tsaidam
+# 706 Tsaidam - 5/27/2025 4:57:01 PM 
+ 
+add_core = AMD
 owner = AMD
 controller = AMD
-culture = oirats
-religion = nestorian
-capital = "Tsaidam"
-trade_goods = salt
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = salt
+
+culture = oirats
+religion = nestorian
+capital = "Tsaidam"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-add_core = AMD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

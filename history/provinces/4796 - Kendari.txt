@@ -1,15 +1,28 @@
-culture = sulawesi
-religion = animism
-capital = "Kendari"
-trade_goods = unknown
+# Kendari
+# 4796 Kendari - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = unknown
+
+culture = sulawesi
+religion = animism
+capital = "Kendari"
+
 native_size = 60
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 5
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

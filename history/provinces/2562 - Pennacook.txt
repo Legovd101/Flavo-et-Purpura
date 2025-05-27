@@ -1,15 +1,27 @@
-# No previous file for Pennacook
-culture = massachusset
-religion = totemism
-capital = "Pennacook"
-trade_goods = unknown
+# Penakuk
+# 2562 Penakuk - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = massachusset
+religion = totemism
+capital = "Pennacook"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
 tribal_owner = WAM
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

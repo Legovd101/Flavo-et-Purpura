@@ -1,13 +1,26 @@
-#Bafuriru
+# Bafuriru
+# 4068 Bafuriru - 5/27/2025 4:57:02 PM 
+ 
+add_core = RWA
 owner = RWA
 controller = RWA
-add_core = RWA
-culture = rwandan
-religion = shamanism#Fetishism
-capital = "Bafuriru"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = grain
+
+culture = rwandan
+religion = shamanism
+capital = "Bafuriru"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

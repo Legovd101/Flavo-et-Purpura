@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:31:04 ###
 # South Kanara
-# 2029 South Kanara - 31-03-2025 16:31:04 
+# 2029 South Kanara - 5/27/2025 4:57:02 PM 
  
 add_core = KLN
 add_core = KLT
@@ -32,3 +31,4 @@ discovered_by = east_african
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

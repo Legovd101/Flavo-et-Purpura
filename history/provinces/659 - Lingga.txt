@@ -1,16 +1,29 @@
-#659 - Lingga
+# Lingga
+# 659 Lingga - 5/27/2025 4:57:01 PM 
+ 
+add_core = MSA
 owner = MSA
 controller = MSA
-culture = sumatran
-religion = hinduism
-capital = "Lingga"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fish
+
+culture = sumatran
+religion = hinduism
+capital = "Lingga"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MSA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

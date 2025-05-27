@@ -1,14 +1,27 @@
-#4200 - Hulan
+# Hulan
+# 4200 Hulan - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = manchu
-religion = tengri_pagan_reformed
-capital = "Hulan"
-trade_goods = livestock
 base_tax = 1
 base_production = 2
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Hulan"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

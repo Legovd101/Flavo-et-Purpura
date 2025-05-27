@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:07:12 ###
 # Etawah
-# 2063 Etawah - 31-03-2025 16:07:12 
+# 2063 Etawah - 5/27/2025 4:57:02 PM 
  
 add_core = JNP
 add_core = MLW
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

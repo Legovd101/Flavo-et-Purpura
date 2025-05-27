@@ -1,14 +1,25 @@
-#4239 - Belgrade
+# Belgrade
+# 4239 Belgrade - 5/27/2025 4:57:02 PM 
+ 
+add_core = BLU
+add_core = SER
 owner = BLU
 controller = BLU
-culture = serbian
-religion = orthodox
-capital = "Belgrade"
-trade_goods = cloth
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
+culture = serbian
+religion = orthodox
+capital = "Belgrade"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,8 +29,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = BLU
-add_core = SER
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

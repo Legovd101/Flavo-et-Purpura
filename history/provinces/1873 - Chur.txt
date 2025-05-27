@@ -1,18 +1,30 @@
-#1873 - Chur
+# Chur
+# 1873 Chur - 5/27/2025 4:57:02 PM 
+ 
+add_core = VRN
 owner = VRN
 controller = VRN
-culture = swiss
-religion = arianism
-capital = "Chur"
-trade_goods = livestock
-
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = swiss
+religion = arianism
+capital = "Chur"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = VRN
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

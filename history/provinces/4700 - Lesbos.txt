@@ -1,16 +1,29 @@
-#2348 - Chios
+# Lesbos
+# 4700 Lesbos - 5/27/2025 4:57:02 PM 
+ 
+add_core = BYZ
 owner = BYZ
 controller = BYZ
-culture = rhoman
-religion = orthodox
-capital = "Mytilene"
-trade_goods = fish
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = fish
+
+culture = rhoman
+religion = orthodox
+capital = "Mytilene"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-add_core = BYZ
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,28 @@
-#Kalonga
+# Kalonga
+# 4040 Kalonga - 5/27/2025 4:57:02 PM 
+ 
+add_core = MRA
 owner = MRA
 controller = MRA
-add_core = MRA
-culture = nyasa
-religion = swahili_pagan#Fetishism
-capital = "Manthimba"
-is_city = yes
-base_manpower = 4
-trade_goods = iron
 base_tax = 3
 base_production = 3
-discovered_by = central_african
-extra_cost = 16
+base_manpower = 4
+
 center_of_trade = 2
+trade_goods = iron
+extra_cost = 16
+
+culture = nyasa
+religion = swahili_pagan
+capital = "Manthimba"
+
+is_city = yes
+
+discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

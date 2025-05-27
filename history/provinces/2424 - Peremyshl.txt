@@ -1,15 +1,21 @@
-#2424 - Przemysl
+# Peremyshl
+# 2424 Peremyshl - 5/27/2025 4:57:02 PM 
+ 
+add_core = VOL
 owner = VOL
 controller = VOL
-culture = ruthenian
-religion = orthodox
 base_tax = 3
 base_production = 3
-trade_goods = livestock
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = ruthenian
+religion = orthodox
 capital = "Przemysl"
+
 is_city = yes
-add_core = VOL
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +25,10 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = ottoman
 discovered_by = muslim
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

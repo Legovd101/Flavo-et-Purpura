@@ -1,18 +1,31 @@
-# No previous file for Warri
+# Warri
+# 2294 Warri - 5/27/2025 4:57:02 PM 
+ 
+add_core = WRR
 owner = WRR
 controller = WRR
-is_city = yes
-culture = ijo
-religion = yoruba_pagan#Fetishism
-capital = "Warri"
-trade_goods = steel
 base_tax = 3
 base_production = 7
 base_manpower = 4
-discovered_by = sub_saharan
+
 center_of_trade = 1
-add_permanent_province_modifier = { 
+trade_goods = steel
+
+culture = ijo
+religion = yoruba_pagan
+capital = "Warri"
+
+is_city = yes
+
+discovered_by = sub_saharan
+
+
+
+add_permanent_province_modifier = {
 	name = niger_estuary_modifier
 	duration = -1
 }
-add_core = WRR
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

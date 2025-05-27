@@ -1,16 +1,29 @@
-# No previous file for Yohualtepec
-culture = mixtec
+# Yohualtepec
+# 4581 Yohualtepec - 5/27/2025 4:57:02 PM 
+ 
+add_core = COI
 owner = COI
 controller = COI
-add_core = COI
-is_city = yes
-religion = nahuatl
-capital = "Yohualtepec"
-trade_goods = dyes
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = dyes
+
+culture = mixtec
+religion = nahuatl
+capital = "Yohualtepec"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,19 +1,33 @@
-#4360 - Mikawa
-owner = KOR
-controller = KOR
+### Modified 5/27/2025 4:57:02 PM ###
+# Mikawa
+# 4360 Mikawa - 5/27/2025 4:57:02 PM 
+ 
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = grain
+
 culture = togoku
 religion = tengri_pagan_reformed
 capital = "Okazaki"
-trade_goods = grain
-base_tax = 2
-base_manpower = 3
-base_production = 2
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-add_core = KOR
 discovered_by = nomad_group
+
+
+
+
+
+

@@ -1,15 +1,21 @@
-#4277 - Taif
+# Taif
+# 4277 Taif - 5/27/2025 4:57:02 PM 
+ 
+add_core = HED
 owner = HED
 controller = HED
-culture = central_arab
-religion = sunni
-capital = "Taif"
-trade_goods = wool
 base_tax = 2
 base_production = 3
 base_manpower = 2
+
+trade_goods = wool
+
+culture = central_arab
+religion = sunni
+capital = "Taif"
+
 is_city = yes
-add_core = HED
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
@@ -17,3 +23,10 @@ discovered_by = eastern
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,21 +1,34 @@
-#2771 - Semien
-owner = ETH
-controller = ETH
+# Semien
+# 2771 Semien - 5/27/2025 4:57:02 PM 
+ 
 add_core = ETH
 add_core = BTI
-culture = esraelim
-religion = jewish
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
-capital = "Dabareq"
-is_city = yes
-base_manpower = 2
-trade_goods = grain
+owner = ETH
+controller = ETH
 base_tax = 1
 base_production = 1
+base_manpower = 2
+
+trade_goods = grain
+
+culture = esraelim
+religion = jewish
+capital = "Dabareq"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+
+
+
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

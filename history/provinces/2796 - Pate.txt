@@ -1,19 +1,32 @@
-#2796 - Pate
+# Pate
+# 2796 Pate - 5/27/2025 4:57:02 PM 
+ 
+add_core = PTE
 owner = PTE
 controller = PTE
-add_core = PTE
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
 culture = swahili
 religion = swahili_pagan
 capital = "Siyu"
+
 is_city = yes
-base_manpower = 2
-trade_goods = cloth
-base_tax = 3
-base_production = 3
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = central_african
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

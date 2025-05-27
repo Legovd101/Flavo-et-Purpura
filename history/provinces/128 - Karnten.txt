@@ -1,19 +1,31 @@
-#128 - Kärnten
+# Unterkärnten
+# 128 Unterkärnten - 5/27/2025 4:57:01 PM 
+ 
+add_core = STY
+add_core = CLI
 owner = CLI
 controller = CLI
-add_core = STY
-culture = austrian
-religion = arianism
 base_tax = 4
 base_production = 3
-trade_goods = iron
 base_manpower = 3
+
+trade_goods = iron
+
+culture = austrian
+religion = arianism
 capital = "Klagenfurt"
+
 is_city = yes
+fort_15th = yes
 
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = CLI
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

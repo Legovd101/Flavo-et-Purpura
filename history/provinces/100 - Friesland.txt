@@ -1,17 +1,29 @@
-# 100 Friesland - Principal cities: Leeuwarden & Harlingen 
+# Friesland
+# 100 Friesland - 5/27/2025 4:57:01 PM 
+ 
+add_core = FRI
 owner = FRI
 controller = FRI
-capital = "Leeuwarden"
-is_city = yes
-culture = frisian
-religion = arianism
-
 base_tax = 6
 base_production = 6
-trade_goods = livestock
 base_manpower = 2
-add_core = FRI
+
+trade_goods = livestock
+
+culture = frisian
+religion = arianism
+capital = "Leeuwarden"
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

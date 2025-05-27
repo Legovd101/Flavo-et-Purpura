@@ -1,13 +1,25 @@
-#646 - Ambon
-culture = moluccan
-religion = animism
-capital = "Ambon"
-trade_goods = unknown
+# Ambon
+# 646 Ambon - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = moluccan
+religion = animism
+capital = "Ambon"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
 discovered_by = chinese
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

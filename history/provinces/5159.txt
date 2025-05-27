@@ -1,11 +1,25 @@
+# Youyang
+# 5159 Youyang - 5/27/2025 4:57:03 PM 
+ 
 add_core = CDL
 owner = CDL
+controller = CDL
 base_tax = 3
-base_manpower = 4
 base_production = 3
+base_manpower = 4
+
+
 culture = miao
 religion = confucianism
-controller = CDL
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

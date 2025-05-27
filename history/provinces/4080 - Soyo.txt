@@ -1,15 +1,29 @@
-owner = KON
-controller = KON
+# Soyo
+# 4080 Soyo - 5/27/2025 4:57:02 PM 
+ 
 add_core = KON
 add_core = SYO
-culture = kongolese
-religion = shamanism#Fetishism
-capital = "Soyo"
-trade_goods = slaves
+owner = KON
+controller = KON
 base_tax = 4
 base_production = 3
 base_manpower = 4
-add_local_autonomy = 25
+
+trade_goods = slaves
+
+culture = kongolese
+religion = shamanism
+capital = "Soyo"
+
 is_city = yes
+add_local_autonomy = 25
+
 discovered_by = central_african
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

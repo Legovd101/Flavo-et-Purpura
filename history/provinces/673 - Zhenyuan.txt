@@ -1,15 +1,28 @@
-#673 - Bozhou
+# Zhenyuan
+# 673 Zhenyuan - 5/27/2025 4:57:01 PM 
+ 
+add_core = CMI
+add_core = CDL
 owner = CDL
 controller = CDL
-add_core = CMI
-culture = miao
-religion = animism
-capital = "Zhenyuan"
-trade_goods = tea
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = tea
+
+culture = miao
+religion = animism
+capital = "Zhenyuan"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CDL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

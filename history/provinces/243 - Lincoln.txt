@@ -1,18 +1,31 @@
-#243 - Lincolnshire
+# Lincolnshire
+# 243 Lincolnshire - 5/27/2025 4:57:01 PM 
+ 
+add_core = NOL
 owner = NOL
 controller = NOL
-culture = jutish
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = cloth
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = cloth
+extra_cost = 8
+
+culture = jutish
+religion = arianism
 capital = "Lincoln"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-extra_cost = 8
-center_of_trade = 1
-add_core = NOL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

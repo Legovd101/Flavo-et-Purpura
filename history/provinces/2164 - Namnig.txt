@@ -1,16 +1,29 @@
-# 2164 - Namning
+# Namning
+# 2164 Namning - 5/27/2025 4:57:02 PM 
+ 
+add_core = DAI
 owner = DAI
 controller = DAI
-culture = ping_culture
-religion = confucianism
-capital = "Namning"
-trade_goods = grain
 base_tax = 3
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = ping_culture
+religion = confucianism
+capital = "Namning"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-hre = yes
-add_core = DAI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

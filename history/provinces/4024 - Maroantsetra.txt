@@ -1,14 +1,27 @@
-#4024 - Maroantsetra
+# Maroantsetra
+# 4024 Maroantsetra - 5/27/2025 4:57:02 PM 
+ 
+add_core = BTS
 owner = BTS
 controller = BTS
-add_core = BTS
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Maroantsetra"
-trade_goods = slaves
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = slaves
+
+culture = madagasque
+religion = shamanism
+capital = "Maroantsetra"
+
 is_city = yes
-add_local_autonomy = 35#Divided between various minor states.
+add_local_autonomy = 35
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

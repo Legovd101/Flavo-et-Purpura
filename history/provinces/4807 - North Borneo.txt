@@ -1,2 +1,15 @@
+# North Borneo
+# 4807 North Borneo - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = chinese
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

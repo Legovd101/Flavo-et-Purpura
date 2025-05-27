@@ -1,13 +1,25 @@
-#1238 - Solomon Islands
-culture = melanesian
-religion = animism
-capital = "Solomon"
-trade_goods = unknown
+# Solomon Islands
+# 1238 Solomon Islands - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = melanesian
+religion = animism
+capital = "Solomon"
+
 native_size = 20
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
+
 discovered_by = polynesian_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

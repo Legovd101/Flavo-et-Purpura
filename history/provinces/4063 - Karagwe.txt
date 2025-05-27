@@ -1,13 +1,26 @@
-#Karagwe
+# Karagwe
+# 4063 Karagwe - 5/27/2025 4:57:02 PM 
+ 
+add_core = KRW
 owner = KRW
 controller = KRW
-add_core = KRW
-culture = ganda
-religion = shamanism#Fetishism
-capital = "Karagwe"
-trade_goods = steel
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = steel
+
+culture = ganda
+religion = shamanism
+capital = "Karagwe"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

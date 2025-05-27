@@ -1,18 +1,30 @@
-#205 - Savoie
+# Chambery
+# 205 Chambery - 5/27/2025 4:57:01 PM 
+ 
+add_core = BUR
 owner = BUR
 controller = BUR
-culture = burgundii
-religion = arianism
-
 base_tax = 6
 base_production = 6
-trade_goods = cloth
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = burgundii
+religion = arianism
 capital = "Chambéry"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BUR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

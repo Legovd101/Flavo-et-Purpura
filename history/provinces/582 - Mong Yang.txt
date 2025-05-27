@@ -1,15 +1,28 @@
-#582 - Mong Yang
+# Mong Yang
+# 582 Mong Yang - 5/27/2025 4:57:01 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = shan
-religion = buddhism
-capital = "Mong Yang"
-trade_goods = copper
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = copper
+
+culture = shan
+religion = buddhism
+capital = "Mong Yang"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

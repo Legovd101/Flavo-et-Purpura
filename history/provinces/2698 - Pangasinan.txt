@@ -1,15 +1,28 @@
-#2698 - Pangasinan
-culture = filipino
-religion = confucianism
-capital = "Binalatongan"
-trade_goods = salt
+# Pangasinan
+# 2698 Pangasinan - 5/27/2025 4:57:02 PM 
+ 
+add_core = NNG
+owner = NNG
+controller = NNG
 base_tax = 2
 base_production = 2
 base_manpower = 2
-is_city = yes
-owner = NNG
-controller = NNG
-discovered_by = chinese
-extra_cost = 8
+
 center_of_trade = 1
-add_core = NNG
+trade_goods = salt
+extra_cost = 8
+
+culture = filipino
+religion = confucianism
+capital = "Binalatongan"
+
+is_city = yes
+
+discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

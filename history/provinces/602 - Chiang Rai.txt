@@ -1,4 +1,5 @@
-# 602 Chiang Rai - 12/5/2568 2:34:29 
+# Chiang Rai
+# 602 Chiang Rai - 5/27/2025 4:57:01 PM 
  
 add_core = LNA
 owner = MB1
@@ -23,3 +24,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:52:58 ###
 # Seringapatam
-# 4421 Seringapatam - 31-03-2025 16:52:58 
+# 4421 Seringapatam - 5/27/2025 4:57:02 PM 
  
 add_core = MYS
 owner = MYS
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

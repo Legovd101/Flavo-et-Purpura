@@ -1,18 +1,30 @@
-# 4738 - Trieste
+# Trieste
+# 4738 Trieste - 5/27/2025 4:57:02 PM 
+ 
+add_core = STY
+add_core = CLI
 owner = CLI
 controller = CLI
-culture = venetian
-religion = arianism
-
 base_tax = 4
 base_production = 3
-trade_goods = fish
 base_manpower = 2
+
+trade_goods = fish
+
+culture = venetian
+religion = arianism
 capital = "Trieste"
-is_city = yes# Estimated
-add_core = STY
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = CLI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

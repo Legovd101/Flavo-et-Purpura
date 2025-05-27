@@ -1,15 +1,27 @@
-#2723 - Yos Sudarso
-culture = papuan
-religion = animism
-capital = "Yos Sudarso"
-trade_goods = unknown
+# Yos Sudarso
+# 2723 Yos Sudarso - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = papuan
+religion = animism
+capital = "Yos Sudarso"
+
 native_size = 60
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 8
+
 discovered_by = MKS
 discovered_by = TER
 discovered_by = TID
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

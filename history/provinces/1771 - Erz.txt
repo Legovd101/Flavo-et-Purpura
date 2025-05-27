@@ -1,15 +1,21 @@
-#1771 - Erz
+# Erz
+# 1771 Erz - 5/27/2025 4:57:02 PM 
+ 
+add_core = MVA
 owner = MVA
 controller = MVA
-capital = "Litomerice"
-culture = czech
-religion = arianism
-trade_goods = glass
-
 base_tax = 4
 base_production = 5
 base_manpower = 2
+
+trade_goods = glass
+
+culture = czech
+religion = arianism
+capital = "Litomerice"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,4 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MVA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,12 +1,26 @@
+# Ishindi
+# 4095 Ishindi - 5/27/2025 4:57:02 PM 
+ 
+add_core = CKW
 owner = CKW
 controller = CKW
-add_core = CKW
-culture = chokwe
-religion = shamanism#Fetishism
-capital = "Ishindi"
-trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = ivory
+
+culture = chokwe
+religion = shamanism
+capital = "Ishindi"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

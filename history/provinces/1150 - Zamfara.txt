@@ -1,13 +1,26 @@
-#1150 - Zamfara
+# Zamfara
+# 1150 Zamfara - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZZZ
 owner = ZZZ
 controller = ZZZ
-add_core = ZZZ
-culture = hausa
-is_city = yes
-base_manpower = 1
-religion = vandal_syncretism#Fetishism
-capital = "Dutsi"
-trade_goods = grain
 base_tax = 3
 base_production = 3
+base_manpower = 1
+
+trade_goods = grain
+
+culture = hausa
+religion = vandal_syncretism
+capital = "Dutsi"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

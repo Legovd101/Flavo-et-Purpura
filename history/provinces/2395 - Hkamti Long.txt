@@ -1,14 +1,27 @@
-#2395 - Hkamti Long
+# Hkamti Long
+# 2395 Hkamti Long - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = kachin
-religion = buddhism
-capital = "Hkamti Long"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = kachin
+religion = buddhism
+capital = "Hkamti Long"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

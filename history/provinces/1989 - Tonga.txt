@@ -1,15 +1,28 @@
-#1989 - Tonga
+# Tonga
+# 1989 Tonga - 5/27/2025 4:57:02 PM 
+ 
 add_core = TOG
 owner = TOG
 controller = TOG
-culture = polynesian
-religion = animism
-capital = "Mu'a"
-is_city = yes
-trade_goods = naval_supplies
 base_tax = 3
 base_production = 3
 base_manpower = 2
-discovered_by = polynesian_tech
-extra_cost = 15
+
 center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 15
+
+culture = polynesian
+religion = animism
+capital = "Mu'a"
+
+is_city = yes
+
+discovered_by = polynesian_tech
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

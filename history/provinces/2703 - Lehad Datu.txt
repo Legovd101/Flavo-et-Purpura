@@ -1,16 +1,29 @@
-#2703 - Lehad Datu
+# Lehad Datu
+# 2703 Lehad Datu - 5/27/2025 4:57:02 PM 
+ 
+add_core = BEU
 owner = BEU
 controller = BEU
-culture = bornean
-religion = hinduism
-capital = "Lehad Datu"
-trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = spices
+
+culture = bornean
+religion = hinduism
+capital = "Lehad Datu"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BEU
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

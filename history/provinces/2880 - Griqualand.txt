@@ -1,12 +1,24 @@
-# - Griqualand
-culture = khoisan
-religion = shamanism#Fetishism
-capital = "Kimberley"
-trade_goods = unknown
+# Griqualand
+# 2880 Griqualand - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = khoisan
+religion = shamanism
+capital = "Kimberley"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

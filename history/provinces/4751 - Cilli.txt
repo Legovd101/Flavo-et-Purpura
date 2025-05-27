@@ -1,14 +1,19 @@
-# 4751 - Cilli
+# Cilli
+# 4751 Cilli - 5/27/2025 4:57:02 PM 
+ 
+add_core = CLI
 owner = CLI
 controller = CLI
-add_core = CLI
-culture = slovene
-religion = arianism
 base_tax = 3
 base_production = 4
-trade_goods = wine
 base_manpower = 2
+
+trade_goods = wine
+
+culture = slovene
+religion = arianism
 capital = "Celje"
+
 is_city = yes
 
 discovered_by = western
@@ -20,3 +25,10 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

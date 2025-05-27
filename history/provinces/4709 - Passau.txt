@@ -1,17 +1,30 @@
+# Passau
+# 4709 Passau - 5/27/2025 4:57:02 PM 
+ 
+add_core = RUG
+add_core = BAV
 owner = BAV
 controller = BAV
-capital = "Passau"
-is_city = yes
-culture = rugian
-add_core = RUG
-religion = arianism
-
 base_tax = 5
 base_production = 5
 base_manpower = 1
+
 trade_goods = salt
+
+culture = rugian
+religion = arianism
+capital = "Passau"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BAV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

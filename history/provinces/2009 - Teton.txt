@@ -1,14 +1,26 @@
-#2009 - Teton
-culture = pawnee#Not yet Dakota
-religion = totemism
-capital = "Teton"
-trade_goods = unknown
+# Oglala
+# 2009 Oglala - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = pawnee
+religion = totemism
+capital = "Teton"
+
 native_size = 1
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

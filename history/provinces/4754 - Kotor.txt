@@ -1,20 +1,22 @@
-# 4754 - Kotor
+# Kotor
+# 4754 Kotor - 5/27/2025 4:57:02 PM 
+ 
+add_core = MON
+add_core = SER
 owner = MON
 controller = MON
-culture = serbian
-religion = orthodox
-capital = "Kotor"
-trade_goods = naval_supplies
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = serbian
+religion = orthodox
+capital = "Kotor"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = MON
-add_core = SER
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,3 +26,14 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

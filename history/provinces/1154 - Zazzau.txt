@@ -1,13 +1,26 @@
-#1154 - Zazzau
+# Zazzau
+# 1154 Zazzau - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZZZ
 owner = ZZZ
 controller = ZZZ
-add_core = ZZZ
-culture = gwari
-is_city = yes
-base_manpower = 3
-religion = vandal_syncretism#Fetishism
-capital = "Turunku"
-trade_goods = slaves
 base_tax = 3
 base_production = 3
+base_manpower = 3
+
+trade_goods = slaves
+
+culture = gwari
+religion = vandal_syncretism
+capital = "Turunku"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

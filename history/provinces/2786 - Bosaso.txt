@@ -1,16 +1,29 @@
-#2786 - Bosaso
+# Bosaso
+# 2786 Bosaso - 5/27/2025 4:57:02 PM 
+ 
+add_core = WAR
 owner = WAR
 controller = WAR
-add_core = WAR
-culture = somali
-religion = waaqeffanna
-capital = "Bosaso"
-trade_goods = incense
-is_city = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = incense
+
+culture = somali
+religion = waaqeffanna
+capital = "Bosaso"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

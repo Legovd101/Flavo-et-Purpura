@@ -1,15 +1,28 @@
-#1753 - Kostroma
+# Kostroma
+# 1753 Kostroma - 5/27/2025 4:57:02 PM 
+ 
+add_core = YAR
 owner = YAR
 controller = YAR
-culture = russian
-religion = orthodox
 base_tax = 3
 base_production = 3
-trade_goods = cloth
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = russian
+religion = orthodox
 capital = "Kostroma"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_core = YAR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,30 @@
-#56 - Osnabrück
+# Osnabrück
+# 56 Osnabrück - 5/27/2025 4:57:01 PM 
+ 
+add_core = OSN
+add_core = FRI
 owner = FRI
 controller = FRI
-culture = hannoverian
-religion = arianism
-capital = "Osnabrück"
-trade_goods = salt
-
 base_tax = 3
 base_production = 4
 base_manpower = 2
+
+trade_goods = salt
+
+culture = hannoverian
+religion = arianism
+capital = "Osnabrück"
+
 is_city = yes
-add_core = OSN
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

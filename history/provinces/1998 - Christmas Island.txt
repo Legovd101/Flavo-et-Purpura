@@ -1,10 +1,19 @@
-#1998 - Christmas Island
-capital = "Flying Fish Cove"
-trade_goods = unknown
+# Christmas Island
+# 1998 Christmas Island - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
-is_city = no
+
+trade_goods = unknown
+
+capital = "Flying Fish Cove"
+
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

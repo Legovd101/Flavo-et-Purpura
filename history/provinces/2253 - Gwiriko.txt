@@ -1,17 +1,30 @@
-# No previous file for Gwiriko
+# Gwiriko
+# 2253 Gwiriko - 5/27/2025 4:57:02 PM 
+ 
+add_core = KNG
 owner = KNG
 controller = KNG
-add_core = KNG
-is_city = yes
-culture = dyola
-religion = soninke_pagan#Fetishism
-capital = "Say"
-trade_goods = grain
 base_tax = 1
 base_production = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
-discovered_by = sub_saharan
+
+trade_goods = grain
+
+culture = dyola
+religion = soninke_pagan
+capital = "Say"
+
+is_city = yes
 add_local_autonomy = 25
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

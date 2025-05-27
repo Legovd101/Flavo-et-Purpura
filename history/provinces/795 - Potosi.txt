@@ -1,16 +1,29 @@
-#795 - Potosi
+# Potosi
+# 795 Potosi - 5/27/2025 4:57:01 PM 
+ 
+add_core = CRA
 owner = CRA
 controller = CRA
-add_core = CRA
-culture = aimara
-discovered_by = south_american
-discovered_by = andean
-religion = inti
-capital = "Potosí"
-trade_goods = gold
 base_tax = 4
 base_production = 4
 base_manpower = 2
-is_city = yes
+
+trade_goods = gold
 extra_cost = 6
+
+culture = aimara
+religion = inti
+capital = "Potosí"
+
+is_city = yes
+
+discovered_by = south_american
+discovered_by = andean
+
 add_province_triggered_modifier = cerro_rico_modifier
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

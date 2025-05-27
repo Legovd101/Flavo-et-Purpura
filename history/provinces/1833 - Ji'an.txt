@@ -1,16 +1,29 @@
-#1833 - Ji'an
+# Tsi'ngen
+# 1833 Tsi'ngen - 5/27/2025 4:57:02 PM 
+ 
+add_core = NNG
+add_core = SST
 owner = SST
 controller = SST
-culture = gan
-religion = confucianism
-capital = "Ji'an"
-trade_goods = cloth
 base_tax = 2
 base_production = 1
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = gan
+religion = confucianism
+capital = "Ji'an"
+
+hre = yes
 is_city = yes
-add_core = NNG
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SST
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

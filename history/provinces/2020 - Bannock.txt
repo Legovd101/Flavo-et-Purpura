@@ -1,17 +1,30 @@
-#2020 - Bannock
-culture = shoshone
-religion = totemism
-capital = "Bannock"
-trade_goods = fur
+# Banakwut
+# 2020 Banakwut - 5/27/2025 4:57:02 PM 
+ 
+add_core = SHO
+owner = SHO
+controller = SHO
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = shoshone
+religion = totemism
+capital = "Bannock"
+
 is_city = yes
-owner = SHO
-controller = SHO
-add_core = SHO
 native_size = 5
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 1
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

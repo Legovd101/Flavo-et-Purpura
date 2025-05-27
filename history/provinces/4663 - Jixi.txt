@@ -1,17 +1,30 @@
-#Jixi
-latent_trade_goods = { 
-	coal 
-}
+# Hurha
+# 4663 Hurha - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = manchu
-religion = tengri_pagan_reformed
-capital = "Jixi"
-trade_goods = naval_supplies
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Jixi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,28 @@
-#1162 - Wukari
-culture = jukun
-religion = vandal_syncretism#Fetishism
-capital = "Wukari"
-trade_goods = unknown
-base_tax = 1
-base_production = 1
-base_manpower = 1
-native_size = 60
-native_ferocity = 4
-native_hostileness = 9
-discovered_by = sub_saharan
-is_city = no
+# Wukari
+# 1162 Wukari - 5/27/2025 4:57:01 PM 
+ 
 add_core = NUP
 owner = NUP
 controller = NUP
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+
+culture = jukun
+religion = vandal_syncretism
+capital = "Wukari"
+
+native_size = 60
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

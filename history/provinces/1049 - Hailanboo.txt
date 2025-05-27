@@ -1,14 +1,27 @@
-#1049 - Hailanboo
+# Haiilanboo
+# 1049 Haiilanboo - 5/27/2025 4:57:01 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = evenk
-religion = tengri_pagan_reformed
-capital = "Haiilanboo"
-trade_goods = fur
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fur
+
+culture = evenk
+religion = tengri_pagan_reformed
+capital = "Haiilanboo"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

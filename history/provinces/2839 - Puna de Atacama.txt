@@ -1,14 +1,26 @@
-# - Puna de Atacama
-culture = diaguita
-discovered_by = south_american
-discovered_by = andean
-religion = animism
-capital = "Catarpe"
-trade_goods = unknown
+# Puna de Atacama
+# 2839 Puna de Atacama - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = diaguita
+religion = animism
+capital = "Catarpe"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 1
-is_city = no
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

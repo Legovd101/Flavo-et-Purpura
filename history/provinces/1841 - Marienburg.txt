@@ -1,16 +1,29 @@
-#Marienburg
+# Marienburg
+# 1841 Marienburg - 5/27/2025 4:57:02 PM 
+ 
+add_core = PRU
 owner = PRU
 controller = PRU
-capital = "Marienburg"
-culture = old_prussian
-religion = orthodox
-trade_goods = naval_supplies
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = naval_supplies
+
+culture = old_prussian
+religion = orthodox
+capital = "Marienburg"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = PRU
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

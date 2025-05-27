@@ -1,12 +1,26 @@
+# Caozhou
+# 5058 Caozhou - 5/27/2025 4:57:03 PM 
+ 
 add_core = CZH
 owner = CZH
+controller = CZH
 base_tax = 2
-base_manpower = 2
 base_production = 1
+base_manpower = 2
+
+
 culture = jianghuai
 religion = confucianism
-controller = CZH
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

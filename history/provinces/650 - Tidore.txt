@@ -1,13 +1,26 @@
-#650 - Tidore
+# Tidore
+# 650 Tidore - 5/27/2025 4:57:01 PM 
+ 
+add_core = TID
 owner = TID
 controller = TID
-culture = moluccan
-religion = animism
-capital = "Tidore"
-trade_goods = cloves
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = cloves
+
+culture = moluccan
+religion = animism
+capital = "Tidore"
+
 is_city = yes
-add_core = TID
+
 discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

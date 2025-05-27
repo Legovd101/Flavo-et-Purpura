@@ -1,19 +1,22 @@
-# 4753 - Zadar
+# Zadar
+# 4753 Zadar - 5/27/2025 4:57:02 PM 
+ 
+add_core = CRO
+add_core = VEN
 owner = VEN
 controller = VEN
-culture = dalmatian
-religion = west_orthodox
-capital = "Zadar"
-trade_goods = naval_supplies
 base_tax = 3
 base_production = 2
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = dalmatian
+religion = west_orthodox
+capital = "Zadar"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = CRO
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,4 +26,14 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = VEN
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

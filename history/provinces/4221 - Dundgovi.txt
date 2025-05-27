@@ -1,14 +1,27 @@
-#4221 - Dundgovi
+# Dundgovi
+# 4221 Dundgovi - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = khalkha
-religion = tengri_pagan_reformed
-capital = "Dundgovi"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Dundgovi"
+
 is_city = yes
-add_core = OIR
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###
