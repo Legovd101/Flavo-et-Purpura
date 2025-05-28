@@ -2956,28 +2956,34 @@ kwangsi_area = {  #4 (Kwangsi East)
 	2162 5129 5130 5131 
 }
 kwangsi_north_area = {  #4
-
 	664 1840 2163 5135 
 }
 north_kwaichow_area = {  #5
-
-	2168 4199 
+	2168 4199 5319 5320 5321
 }
 east_kwaichow_area = {  #4
-
-	673 
+	673 5322 5323 5324
 }
 west_kwaichow_area = {  #5
-
-	674 
+	674 5325 5326 5327 5328
 }
 yun_gui_area = {  #5 (Yunnan)
-
-	662 663 675 
+	662 675 5332 5333 5334
 }
 yun_gui_borderland_area = {  #5 (Dali)
+	661 2167 5329 5330 5331
+}
 
-	660 661 2165 2166 2167 
+xiushan_area = { #5
+	663 5335 5336 5337 5338
+}
+
+tengyue_area = { #4
+	2166 5342 5343 5344
+}
+
+puer_area = { #5
+	660 2165 5339 5340 5341
 }
 sichuan_area = {  #5
 
