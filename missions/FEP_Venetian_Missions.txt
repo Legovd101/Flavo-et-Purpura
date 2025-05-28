@@ -3,7 +3,7 @@ VEN_planning_1 = {
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = VEN } 
+	potential = { tag = VEN has_country_flag = venice_wank_selected has_country_flag = venice_wank_selected } 
 
 	VEN_raising_war_fleet = {
 		icon = mission_establish_high_seas_navy
@@ -20,7 +20,7 @@ VEN_planning_2 = {
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = VEN } 
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
 
 	VEN_financial_backing = {
 		icon = medici_bank_ledgers
@@ -41,7 +41,7 @@ VEN_planning_3 = {
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = VEN } 
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
 
 	VEN_consulting_council = {
 		icon = mission_swedish_military_advise
@@ -78,13 +78,27 @@ VEN_planning_3 = {
 			VEN_foreign_contacts
 			VEN_papal_approval
 		}
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			province_id = 1315
+		} 
 
 		trigger = {
-			1315 = {
-				num_of_units_in_province = {
-					amount = 15
-				}
+				custom_trigger_tooltip = {
+					tooltip = fleet_in_1315_tt
+					OR = {
+						1315 = {
+							heavy_ships_in_province = ROOT
+						}
+						1315 = {
+							transports_in_province = ROOT
+						}
+						1315 = {
+							galleys_in_province = ROOT
+						}
+						1315 = {
+							light_ships_in_province = ROOT
+						}
+					}
 			}
 		} 
 
@@ -92,6 +106,7 @@ VEN_planning_3 = {
 			country_event = {
 				id = fep_venetian_flavor.2
 			}
+			custom_tooltip = manolos_folly_tt
 		} 
 	}
 }
@@ -100,7 +115,7 @@ VEN_planning_4 = {
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = VEN } 
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
 
 	VEN_knights_of_galilea = {
 		icon = jerusalem
@@ -154,7 +169,7 @@ VEN_planning_5 = {
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = VEN } 
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
 
 	VEN_old_friends_new_places = {
 		icon = mission_horde_trade

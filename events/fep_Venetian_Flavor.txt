@@ -29,7 +29,6 @@ country_event = {
 		}
 		country_event = {
 			id = fep_venetian_flavor.1
-			days = 30
 		}
 		custom_tooltip = venetian_travel_discovery_tt
 		hidden_effect = {
@@ -150,80 +149,14 @@ country_event = { # The Travels of Manolo Polcari (Part 2)
 
 	option = { # I want to see it again.
 		name = fep_venetian_flavor.1.b
-		if = {
-			limit = {
-				ai = no
-			}
-			add_country_modifier = {
-				name = manolos_folly_preparation
-				duration = -1
-			}
-			swap_non_generic_missions = yes
+		add_country_modifier = {
+			name = manolos_folly_preparation
+			duration = -1
 		}
+		set_country_flag = venice_wank_selected
+		swap_non_generic_missions = yes
 		ai_chance = {
-			factor = 0
+			factor = 0.01
 		}
-	}
-}
-
-country_event = { # The Sendoff
-	id = fep_venetian_flavor.2
-	title = fep_venetian_flavor.2.t
-	desc = fep_venetian_flavor.2.d
-	picture = CRUSADER_HORDE_eventPicture
-	
-	is_triggered_only = yes
-	immediate = {
-		hidden_effect = {
-			play_sound = DEUS_VULT_CRUSADE
-		}
-	}
-	option = { # Onward, to adventure!
-		name = fep_venetian_flavor.2.a
-		MAM = {
-			ROOT = {
-				exile_ruler_as = {
-					name = manolo_polcari
-				}
-				remove_country_modifier = manolos_folly_preparation
-				remove_country_modifier = travels_of_manolo_polcari
-			}
-			hidden_effect = {
-				358 = {
-					cede_province = VEN
-					add_core = EZI
-				}
-				VEN = {
-					release = EZI
-				}
-				EZI = {
-					add_country_modifier = {
-						name = travels_of_manolo_polcari
-						duration = 18250
-					}
-					add_country_modifier = {
-						name = manolos_folly
-						duration = -1
-					}
-					declare_war_with_cb = {
-						who = PREV
-						casus_belli = cb_4th_crusade
-					}
-					set_ruler = manolo_polcari
-					while = {
-						limit = { NOT = { army_size_percentage = 1 } }
-						capital_scope = {
-							tercio_infantry = EZI
-						}
-					}
-					add_manpower = 15
-				}
-				KOJ = {
-					join_all_offensive_wars_of = EZI
-					create_alliance = EZI
-				}
-			}
-		}
-		switch_tag = EZI
 	}
 }

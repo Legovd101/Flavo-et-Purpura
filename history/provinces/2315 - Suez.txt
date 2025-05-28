@@ -1,7 +1,7 @@
 #2315 - Suez
 owner = MAM
 controller = MAM
-culture = perso_egyptian
+culture = nubian
 religion = coptic
 capital = "Suweis"
 trade_goods = livestock
