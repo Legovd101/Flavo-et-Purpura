@@ -1,16 +1,29 @@
-#315 - Finnmark
+# Finnmark
+# 315 Finnmark - 5/27/2025 4:57:01 PM 
+ 
+add_core = SMI
+add_core = NOR
 owner = NOR
 controller = NOR
-add_core = SMI
-culture = davvisami
-religion = sami_pagan
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
 trade_goods = fish
+
+culture = davvisami
+religion = sami_pagan
 capital = "Vardø"
+
 is_city = yes
-add_core = NOR
 add_local_autonomy = 70
+
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,27 @@
-#4023 - Tsimihety
+# Tsimihety
+# 4023 Tsimihety - 5/27/2025 4:57:02 PM 
+ 
+add_core = BTS
 owner = BTS
 controller = BTS
-add_core = BTS
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Tsimihety"
-trade_goods = slaves
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = slaves
+
+culture = madagasque
+religion = shamanism
+capital = "Tsimihety"
+
 is_city = yes
-add_local_autonomy = 50#Almost no central control prior to the late 18th century.
+add_local_autonomy = 50
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

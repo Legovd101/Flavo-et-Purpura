@@ -1,15 +1,28 @@
-culture = senegambian
-religion = senegambian_pagan#Fetishism
-capital = "Beafada"
-trade_goods = slaves
-base_tax = 1
-base_production = 1
-base_manpower = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
-discovered_by = sub_saharan
-is_city = no
+# Beafada
+# 2241 Beafada - 5/27/2025 4:57:02 PM 
+ 
 add_core = KBU
 owner = KBU
 controller = KBU
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = slaves
+
+culture = senegambian
+religion = senegambian_pagan
+capital = "Beafada"
+
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,20 +1,33 @@
-#221 - Murcia
-owner = SPA# Juan II of Castille
+# Murcia
+# 221 Murcia - 5/27/2025 4:57:01 PM 
+ 
+add_core = SPA
+owner = SPA
 controller = SPA
-culture = strait_greek
-religion = west_orthodox
 base_tax = 4
 base_production = 3
-trade_goods = grain
 base_manpower = 3
+
+trade_goods = grain
+
+culture = strait_greek
+religion = west_orthodox
 capital = "Cartagena"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SPA
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

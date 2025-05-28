@@ -1,12 +1,26 @@
+# Sande
+# 5089 Sande - 5/27/2025 4:57:03 PM 
+ 
 add_core = HUA
 owner = HUA
+controller = HUA
 base_tax = 3
-base_manpower = 2
 base_production = 1
+base_manpower = 2
+
+
 culture = miao
 religion = confucianism
-controller = HUA
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

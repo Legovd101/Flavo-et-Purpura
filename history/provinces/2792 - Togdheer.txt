@@ -1,16 +1,29 @@
-#2792 - Togdheer
+# Togdheer
+# 2792 Togdheer - 5/27/2025 4:57:02 PM 
+ 
+add_core = WAR
 owner = WAR
 controller = WAR
-add_core = WAR
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = slaves
+
 culture = somali
 religion = waaqeffanna
 capital = "Togdheer"
+
 is_city = yes
-base_manpower = 1
-trade_goods = slaves
-base_tax = 1
-base_production = 1
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

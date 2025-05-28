@@ -1,16 +1,29 @@
-# 2365 - Orda
+# Orda
+# 2365 Orda - 5/27/2025 4:57:02 PM 
+ 
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = nogaybak
-religion = manichaean
-capital = "Orda"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = nogaybak
+religion = manichaean
+capital = "Orda"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

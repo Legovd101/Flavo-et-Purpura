@@ -1,16 +1,29 @@
-# 2366 - Utva
+# Utva
+# 2366 Utva - 5/27/2025 4:57:02 PM 
+ 
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = kipchak
-religion = manichaean
-capital = "Utva"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = kipchak
+religion = manichaean
+capital = "Utva"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

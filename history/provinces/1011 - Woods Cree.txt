@@ -1,14 +1,26 @@
-#1011 - Woods Cree
-culture = plains_cree
-religion = totemism
-capital = "Woods cree"
-trade_goods = unknown
+# Kinougeoulini
+# 1011 Kinougeoulini - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = plains_cree
+religion = totemism
+capital = "Woods cree"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

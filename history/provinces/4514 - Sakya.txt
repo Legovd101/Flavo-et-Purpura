@@ -1,16 +1,29 @@
-#4514 - Sakya
-owner = UTS
-controller = UTS
+# Sakya
+# 4514 Sakya - 5/27/2025 4:57:02 PM 
+ 
 add_core = UTS
 add_core = PHA
-culture = tibetan
-religion = vajrayana
-capital = "Sakya"
-trade_goods = livestock
+owner = UTS
+controller = UTS
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = tibetan
+religion = vajrayana
+capital = "Sakya"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

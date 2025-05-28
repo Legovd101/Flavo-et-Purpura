@@ -1,12 +1,24 @@
-# - Chubut
-culture = patagonian
-religion = animism
-capital = "Chubut"
-trade_goods = unknown
+# Chubut
+# 2875 Chubut - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = patagonian
+religion = animism
+capital = "Chubut"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

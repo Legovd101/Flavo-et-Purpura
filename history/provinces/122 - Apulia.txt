@@ -1,16 +1,29 @@
-#122 - Apulia
+# Salento
+# 122 Salento - 5/27/2025 4:57:01 PM 
+ 
+add_core = EPI
 owner = EPI
 controller = EPI
-culture = sicilian_greek
-religion = west_orthodox
 base_tax = 3
 base_production = 3
-trade_goods = wine
 base_manpower = 2
+
+trade_goods = wine
+
+culture = sicilian_greek
+religion = west_orthodox
 capital = "Taranto"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = EPI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

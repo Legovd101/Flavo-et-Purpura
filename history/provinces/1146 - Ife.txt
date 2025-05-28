@@ -1,14 +1,27 @@
-#1146 - Ife
+# Ife
+# 1146 Ife - 5/27/2025 4:57:01 PM 
+ 
+add_core = OYO
 owner = OYO
 controller = OYO
-add_core = OYO
-culture = yoruba
-religion = yoruba_pagan#Fetishism
-is_city = yes
-capital = "Ife Ile"
-base_manpower = 2
-trade_goods = glass#Ife Glass Beads
 base_tax = 3
 base_production = 3
-add_province_triggered_modifier = city_of_401_deities
+base_manpower = 2
+
+trade_goods = glass
+
+culture = yoruba
+religion = yoruba_pagan
+capital = "Ife Ile"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+add_province_triggered_modifier = city_of_401_deities
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

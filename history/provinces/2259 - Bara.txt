@@ -1,16 +1,30 @@
+# Sah
+# 2259 Sah - 5/27/2025 4:57:02 PM 
+ 
+add_core = SOF
+add_core = TMB
 owner = TMB
 controller = TMB
-add_core = SOF
-is_city = yes
-culture = bambara
-religion = soninke_pagan#Fetishism
-capital = "Sah"
-trade_goods = grain
 base_tax = 3
 base_production = 3
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
+
+trade_goods = grain
+
+culture = bambara
+religion = soninke_pagan
+capital = "Sah"
+
+is_city = yes
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = sub_saharan
-add_core = TMB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,26 @@
-# No previous file for Yao
+# Yao
+# 2288 Yao - 5/27/2025 4:57:02 PM 
+ 
+add_core = KBO
 owner = KBO
 controller = KBO
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+trade_goods = grain
+
 culture = bilala
 religion = chad_pagan
 capital = "Yao"
-trade_goods = grain
-base_tax = 3
-base_production = 3
+
 is_city = yes
-base_manpower = 1
+
 discovered_by = sub_saharan
-add_core = KBO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

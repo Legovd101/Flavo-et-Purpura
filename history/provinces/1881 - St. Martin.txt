@@ -1,12 +1,24 @@
-#1881 - St. Martin
-culture = arawak
-religion = animism
-capital = "St. Martin"
-trade_goods = unknown
+# St. Martin
+# 1881 St. Martin - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 4
 base_production = 5
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = arawak
+religion = animism
+capital = "St. Martin"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 4
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

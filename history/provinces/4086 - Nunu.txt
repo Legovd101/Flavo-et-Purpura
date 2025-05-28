@@ -1,12 +1,26 @@
+# Nunu
+# 4086 Nunu - 5/27/2025 4:57:02 PM 
+ 
+add_core = KUB
 owner = KUB
 controller = KUB
-add_core = KUB
-culture = kuba
-religion = shamanism#Fetishism
-capital = "Nunu"
-trade_goods = tropical_wood
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = tropical_wood
+
+culture = kuba
+religion = shamanism
+capital = "Nunu"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

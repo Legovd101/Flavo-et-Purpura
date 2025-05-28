@@ -1,16 +1,29 @@
-#166 - Schwyz
+# Waldstätte
+# 166 Waldstätte - 5/27/2025 4:57:01 PM 
+ 
+add_core = MLO
 owner = MLO
 controller = MLO
-culture = swiss
-religion = arianism
-capital = "Schwyz"
-trade_goods = iron
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = iron
+
+culture = swiss
+religion = arianism
+capital = "Schwyz"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MLO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

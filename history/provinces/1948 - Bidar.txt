@@ -1,6 +1,5 @@
-### Modified 31-03-2025 12:04:21 ###
 # Bidar
-# 1948 Bidar - 31-03-2025 12:04:21 
+# 1948 Bidar - 5/27/2025 4:57:02 PM 
  
 add_core = TLG
 owner = TLG
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

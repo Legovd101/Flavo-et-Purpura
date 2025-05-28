@@ -1,21 +1,34 @@
-#1750 - Alàcant
-owner = SPA#Martí I of Aragon
-controller = SPA
+# Alicante
+# 1750 Alicante - 5/27/2025 4:57:02 PM 
+ 
 add_core = VAL
-culture = strait_greek
-religion = west_orthodox
+add_core = SPA
+owner = SPA
+controller = SPA
 base_tax = 3
 base_production = 3
-trade_goods = salt
 base_manpower = 3
+
+trade_goods = salt
+
+culture = strait_greek
+religion = west_orthodox
 capital = "Alàcant"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SPA
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

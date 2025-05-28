@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:33:56 ###
 # Shorkot
-# 4510 Shorkot - 31-03-2025 15:33:56 
+# 4510 Shorkot - 5/27/2025 4:57:02 PM 
  
 add_core = DLH
 add_core = MUL
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

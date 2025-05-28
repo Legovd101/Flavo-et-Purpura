@@ -1,15 +1,27 @@
-# No previous file for Tel Kondaha
-culture = lipan
-religion = totemism
-capital = "Tel Kondaha"
-trade_goods = unknown
+# Ndawe Qoha
+# 4629 Ndawe Qoha - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = lipan
+religion = totemism
+capital = "Tel Kondaha"
+
 native_size = 10
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
 tribal_owner = LIP
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

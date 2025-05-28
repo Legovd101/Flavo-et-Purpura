@@ -1,22 +1,35 @@
-#1745 - Cantabria
-owner = ASU#Enrique III of Castille
-controller = ASU
+# Cantabria
+# 1745 Cantabria - 5/27/2025 4:57:02 PM 
+ 
 add_core = ASU
-culture = asturian
-religion = arianism
+owner = ASU
+controller = ASU
 base_tax = 3
 base_production = 3
-trade_goods = naval_supplies
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 8
+
+culture = asturian
+religion = arianism
 capital = "Santander"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,17 +1,30 @@
-#1199 - Bagamoyo
+# Bagamoyo
+# 1199 Bagamoyo - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZAN
 owner = ZAN
 controller = ZAN
-add_core = ZAN
-culture = swahili
-religion = swahili_pagan #Fetishism
-capital = "Bagamayo"
-is_city = yes
-base_manpower = 1
-trade_goods = ivory
 base_tax = 1
 base_production = 1
+base_manpower = 1
+
+trade_goods = ivory
+
+culture = swahili
+religion = swahili_pagan
+capital = "Bagamayo"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

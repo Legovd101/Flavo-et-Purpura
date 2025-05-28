@@ -1,17 +1,30 @@
-# 4388 Chartres
+# Chartres
+# 4388 Chartres - 5/27/2025 4:57:02 PM 
+ 
+add_core = GLL
 owner = GLL
 controller = GLL
-capital = "Chartres"
-is_city = yes
-culture = gallic
-religion = lutetian
 base_tax = 5
 base_production = 5
-trade_goods = cloth
 base_manpower = 6
+
+trade_goods = cloth
+
+culture = gallic
+religion = lutetian
+capital = "Chartres"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GLL
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,21 +1,34 @@
-# 183 Île-de-France - Principal cities: Paris
+# Paris
+# 183 Paris - 5/27/2025 4:57:01 PM 
+ 
+add_core = GLL
 owner = GLL
 controller = GLL
-capital = "Paris"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = gallic
-religion = lutetian
 base_tax = 8
 base_production = 8
-trade_goods = paper
 base_manpower = 7
+
+center_of_trade = 2
+trade_goods = paper
+
+culture = gallic
+religion = lutetian
+capital = "Paris"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-center_of_trade = 2
-add_core = GLL
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

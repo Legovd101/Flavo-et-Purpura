@@ -1,16 +1,22 @@
-# - Budejovice
+# Budejovice
+# 2968 Budejovice - 5/27/2025 4:57:02 PM 
+ 
+add_core = RUG
+add_core = BAV
 owner = BAV
 controller = BAV
-capital = "Budejovice"
-culture = rugian
-add_core = RUG
-religion = arianism
-trade_goods = grain
-
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = rugian
+religion = arianism
+capital = "Budejovice"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -20,4 +26,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BAV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

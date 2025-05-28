@@ -1,17 +1,30 @@
-# No previous file for Iximché
-culture = highland_mayan
+# Iximché
+# 2653 Iximché - 5/27/2025 4:57:02 PM 
+ 
+add_core = KAQ
 owner = KAQ
 controller = KAQ
-add_core = KAQ
-is_city = yes
-religion = mesoamerican_religion
-capital = "Iximché"
-trade_goods = gems
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = gems
+
+culture = highland_mayan
+religion = mesoamerican_religion
+capital = "Iximché"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
+
 add_province_triggered_modifier = MAY_obsidian_source
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

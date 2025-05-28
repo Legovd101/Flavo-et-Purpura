@@ -1,12 +1,24 @@
-# - Senqu
-culture = khoisan
-religion = shamanism#Fetishism
-capital = "Senqu"
-trade_goods = unknown
+# Senqu
+# 2864 Senqu - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = khoisan
+religion = shamanism
+capital = "Senqu"
+
 native_size = 40
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

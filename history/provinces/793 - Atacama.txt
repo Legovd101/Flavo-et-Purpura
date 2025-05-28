@@ -1,14 +1,26 @@
-#793 - Iquique
-culture = diaguita
-discovered_by = south_american
-discovered_by = andean
-religion = animism
-capital = "Iquique"
-trade_goods = unknown
+# Iquique
+# 793 Iquique - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 2
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = diaguita
+religion = animism
+capital = "Iquique"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 1
-is_city = no
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

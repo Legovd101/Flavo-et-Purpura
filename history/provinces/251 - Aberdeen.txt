@@ -1,16 +1,29 @@
-#251 - Aberdeen
+# Aberdeen
+# 251 Aberdeen - 5/27/2025 4:57:01 PM 
+ 
+add_core = SCO
 owner = SCO
 controller = SCO
-culture = viking_scottish#Mix of Highland and Lowland Scotts 
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = fish
 base_manpower = 3
+
+trade_goods = fish
+
+culture = viking_scottish
+religion = arianism
 capital = "Aberdeen"
+
 is_city = yes
-add_core = SCO
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

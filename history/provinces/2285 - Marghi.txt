@@ -1,16 +1,29 @@
-# No previous file for Marghi
+# Marghi
+# 2285 Marghi - 5/27/2025 4:57:02 PM 
+ 
+add_core = BRN
 owner = BRN
 controller = BRN
-add_core = BRN
-is_city = yes
-culture = borno_vandalic
-religion = chad_pagan#Fetishism
-capital = "Marghi"
-trade_goods = grain
 base_tax = 1
 base_production = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
+
+trade_goods = grain
+
+culture = borno_vandalic
+religion = chad_pagan
+capital = "Marghi"
+
+is_city = yes
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

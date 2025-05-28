@@ -1,21 +1,34 @@
-#142 - Corfu
+# Corfu
+# 142 Corfu - 5/27/2025 4:57:01 PM 
+ 
+add_core = CEP
 owner = CEP
 controller = CEP
-culture = romanyotim
-religion = jewish
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
-capital = "Corfu"
-trade_goods = fish
 base_tax = 2
 base_production = 1
 base_manpower = 3
+
+trade_goods = fish
+
+culture = romanyotim
+religion = jewish
+capital = "Corfu"
+
 is_city = yes
-add_core = CEP
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

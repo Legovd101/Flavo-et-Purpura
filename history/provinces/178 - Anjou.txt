@@ -1,17 +1,30 @@
-# 178 Anjou - Principal cities: Angers
+# Anjou
+# 178 Anjou - 5/27/2025 4:57:01 PM 
+ 
+add_core = GUY
 owner = GUY
 controller = GUY
-capital = "Angers"
-is_city = yes
-culture = aquitanian
-religion = lutetian
 base_tax = 5
 base_production = 5
-trade_goods = cloth
 base_manpower = 5
+
+trade_goods = cloth
+
+culture = aquitanian
+religion = lutetian
+capital = "Angers"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GUY
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

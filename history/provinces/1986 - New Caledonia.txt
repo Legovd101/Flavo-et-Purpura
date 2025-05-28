@@ -1,13 +1,25 @@
-#1986 - New Caledonia
-culture = melanesian
-religion = animism
-capital = "Nouméa"
-trade_goods = unknown
+# New Caledonia
+# 1986 New Caledonia - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = melanesian
+religion = animism
+capital = "Nouméa"
+
 native_size = 1
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
+
 discovered_by = polynesian_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

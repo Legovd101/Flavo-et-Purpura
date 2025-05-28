@@ -1,17 +1,30 @@
-# - Draa
-culture = gaetuli
-religion = mauri_pagan
-capital = "Tagmadert"
-trade_goods = spices#Dates
+# Draa
+# 2466 Draa - 5/27/2025 4:57:02 PM 
+ 
+add_core = TFL
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = spices
+extra_cost = 8
+
+culture = gaetuli
+religion = mauri_pagan
+capital = "Tagmadert"
+
 is_city = yes
-add_core = TFL
 add_local_autonomy = 25
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = sub_saharan
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

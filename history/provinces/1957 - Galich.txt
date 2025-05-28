@@ -1,16 +1,29 @@
-#Galich
+# Galich
+# 1957 Galich - 5/27/2025 4:57:02 PM 
+ 
+add_core = MOS
 owner = MOS
 controller = MOS
-capital = "Galich"
+base_tax = 4
+base_production = 5
+base_manpower = 2
+
+trade_goods = salt
+
 culture = russian
 religion = orthodox
-trade_goods = salt
-base_tax = 4
-base_production = 5#Huge Salt Mine
-base_manpower = 2
+capital = "Galich"
+
 is_city = yes
-add_core = MOS
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

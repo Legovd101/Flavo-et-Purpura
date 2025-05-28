@@ -1,17 +1,30 @@
-#829 - Magdalena
-culture = muisca
+# Magdalena
+# 829 Magdalena - 5/27/2025 4:57:01 PM 
+ 
+add_core = TAI
 owner = TAI
 controller = TAI
-add_core = TAI
-is_city = yes
-discovered_by = south_american
-discovered_by = MCA
-religion = animism
-capital = "Tairo"
-trade_goods = coffee
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = coffee
+
+culture = muisca
+religion = animism
+capital = "Tairo"
+
+is_city = yes
 native_size = 15
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
+discovered_by = south_american
+discovered_by = MCA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

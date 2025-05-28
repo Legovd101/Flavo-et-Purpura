@@ -1,17 +1,29 @@
-# 4748 - Brandenburg
+# Brandenburg
+# 4748 Brandenburg - 5/27/2025 4:57:02 PM 
+ 
+add_core = SAX
 owner = SAX
 controller = SAX
-culture = saxon
-religion = arianism
-
 base_tax = 4
 base_production = 3
-trade_goods = iron
 base_manpower = 3
+
+trade_goods = iron
+
+culture = saxon
+religion = arianism
 capital = "Brandenburg an der Havel"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SAX
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

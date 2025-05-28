@@ -1,14 +1,26 @@
-#1127 - Tuat
-culture = tuareg
-capital = "Tawat"
-religion = mauri_pagan
-trade_goods = unknown
+# Tuat
+# 1127 Tuat - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = tuareg
+religion = mauri_pagan
+capital = "Tawat"
+
+native_size = 30
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = MOR
 discovered_by = sub_saharan
-native_size = 30
-native_ferocity = 4
-native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

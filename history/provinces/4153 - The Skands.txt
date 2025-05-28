@@ -1,4 +1,16 @@
-#Mountains splitting Norway from Sweden.
+# The Scandes
+# 4153 The Scandes - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = eastern
 discovered_by = western
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

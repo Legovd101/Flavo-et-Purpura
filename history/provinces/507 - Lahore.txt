@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:33:47 ###
 # Lahore
-# 507 Lahore - 31-03-2025 15:33:47 
+# 507 Lahore - 5/27/2025 4:57:01 PM 
  
 add_core = MUL
 add_core = DLH
@@ -34,3 +33,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

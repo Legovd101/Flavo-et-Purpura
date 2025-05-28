@@ -1,17 +1,30 @@
-#1206 - Qardho
-owner = MRE
-controller = MRE
+# Qardho
+# 1206 Qardho - 5/27/2025 4:57:01 PM 
+ 
 add_core = MRE
 add_core = MJE
-culture = somali
-religion = waaqeffanna
-capital = "Qardho"
-trade_goods = incense
-is_city = yes
+owner = MRE
+controller = MRE
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = incense
+
+culture = somali
+religion = waaqeffanna
+capital = "Qardho"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

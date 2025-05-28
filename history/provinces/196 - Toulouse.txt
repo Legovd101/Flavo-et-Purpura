@@ -1,17 +1,30 @@
-# 196 Toulouse - Principal cities: Toulouse
+# Toulouse
+# 196 Toulouse - 5/27/2025 4:57:01 PM 
+ 
+add_core = GUY
+add_core = AVI
 owner = AVI
 controller = AVI
-capital = "Toulouse"
-is_city = yes
-culture = gallic_greek
-religion = lutetian
 base_tax = 5
 base_production = 5
-trade_goods = wine
 base_manpower = 5
-add_core = GUY
+
+trade_goods = wine
+
+culture = gallic_greek
+religion = lutetian
+capital = "Toulouse"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = AVI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

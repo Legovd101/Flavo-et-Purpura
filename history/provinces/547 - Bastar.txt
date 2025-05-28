@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:34:30 ###
 # Bastar
-# 547 Bastar - 31-03-2025 11:34:30 
+# 547 Bastar - 5/27/2025 4:57:01 PM 
  
 add_core = PAN
 owner = PAN
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

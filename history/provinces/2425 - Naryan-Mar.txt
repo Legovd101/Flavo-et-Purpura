@@ -1,3 +1,10 @@
+# Nenets
+# 2425 Nenets - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = SWE
@@ -22,4 +29,10 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

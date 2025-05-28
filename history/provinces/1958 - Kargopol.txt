@@ -1,15 +1,28 @@
-#Kargopol
+# Kargopol
+# 1958 Kargopol - 5/27/2025 4:57:02 PM 
+ 
+add_core = NOV
 owner = NOV
 controller = NOV
-culture = karel
-religion = orthodox
 base_tax = 3
 base_production = 3
-trade_goods = naval_supplies
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = karel
+religion = orthodox
 capital = "Kargopol"
+
 is_city = yes
-add_core = NOV
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

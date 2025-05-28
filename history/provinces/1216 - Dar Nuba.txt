@@ -1,14 +1,26 @@
-#1216 - Tegali
-culture = nubian#Shilluk
-religion = waaqeffanna#Fetishism
-capital = "Takala"
-native_size = 50
-trade_goods = unknown
+# Tegali
+# 1216 Tegali - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_ferocity = 4
+
+trade_goods = unknown
+
+culture = nubian
+religion = waaqeffanna
+capital = "Takala"
+
+native_size = 50
+native_ferocity =  4
 native_hostileness = 9
+
 discovered_by = ALO
 discovered_by = MAK
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

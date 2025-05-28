@@ -1,21 +1,33 @@
-# 91 Hainaut - Principal cities: Mons & Tournai
+# Hainaut
+# 91 Hainaut - 5/27/2025 4:57:01 PM 
+ 
+add_core = HAI
+add_core = LOR
 owner = LOR
 controller = LOR
-capital = "Mons"
-is_city = yes
-culture = belgican
-religion = lutetian
-
 base_tax = 6
 base_production = 6
-trade_goods = cloth
 base_manpower = 3
-add_core = HAI
+
+trade_goods = cloth
+
+culture = belgican
+religion = lutetian
+capital = "Mons"
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-latent_trade_goods = { 
-	coal 
+
+
+
+latent_trade_goods = {
+   coal
 }
-add_core = LOR
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

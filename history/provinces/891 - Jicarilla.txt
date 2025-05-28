@@ -1,14 +1,26 @@
-#891 - Jicarilla
-culture = pawnee#Old plains people
-religion = totemism
-capital = "Jicarilla"
-trade_goods = unknown
+# Naisha
+# 891 Naisha - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = pawnee
+religion = totemism
+capital = "Jicarilla"
+
 native_size = 10
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 9
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

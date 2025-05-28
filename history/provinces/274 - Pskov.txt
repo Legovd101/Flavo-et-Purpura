@@ -1,15 +1,24 @@
-#274 - Pskov
+# Pskov
+# 274 Pskov - 5/27/2025 4:57:01 PM 
+ 
+add_core = PSK
 owner = PSK
 controller = PSK
-culture = novgorodian
-religion = orthodox
 base_tax = 5
 base_production = 5
-trade_goods = livestock
 base_manpower = 4
+
+center_of_trade = 1
+trade_goods = livestock
+extra_cost = 8
+
+culture = novgorodian
+religion = orthodox
 capital = "Pskov"
+
 is_city = yes
-add_core = PSK
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -17,6 +26,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-extra_cost = 8
-center_of_trade = 1
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

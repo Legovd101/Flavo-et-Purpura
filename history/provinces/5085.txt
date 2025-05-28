@@ -1,12 +1,27 @@
-add_core = YUE
-owner = YUE
+### Modified 5/27/2025 4:57:03 PM ###
+# Yetseu
+# 5085 Yetseu - 5/27/2025 4:57:03 PM 
+ 
+add_core = KWS
+add_core = KWS
+owner = KWS
+controller = KWS
 base_tax = 1
-base_manpower = 2
 base_production = 2
+base_manpower = 2
+
+
 culture = miao
 religion = confucianism
-controller = YUE
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+

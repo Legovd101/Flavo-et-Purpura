@@ -1,14 +1,27 @@
-#655 - Palawan
-culture = filipino
-religion = animism
-capital = "Palawan"
-trade_goods = sugar
+# Palawan
+# 655 Palawan - 5/27/2025 4:57:01 PM 
+ 
+add_core = NNG
+owner = NNG
+controller = NNG
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = sugar
+
+culture = filipino
+religion = animism
+capital = "Palawan"
+
 is_city = yes
-discovered_by = chinese
-owner = NNG
-controller = NNG
 add_local_autonomy = 25
-add_core = NNG
+
+discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

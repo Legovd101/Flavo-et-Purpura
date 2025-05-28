@@ -1,17 +1,29 @@
-#1761 - Pfalz
-capital = "Worms"
-culture = hessian
-religion = arianism
-trade_goods = wine
+# Pfalz
+# 1761 Pfalz - 5/27/2025 4:57:02 PM 
+ 
+add_core = TRI
 owner = TRI
+controller = TRI
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = wine
+
+culture = hessian
+religion = arianism
+capital = "Worms"
+
 is_city = yes
-controller = TRI
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = TRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

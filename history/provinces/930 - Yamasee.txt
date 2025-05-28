@@ -1,17 +1,30 @@
-#930 - Yamasee
+# Kasihta
+# 930 Kasihta - 5/27/2025 4:57:01 PM 
+ 
+add_core = KSI
 owner = KSI
 controller = KSI
-add_core = KSI
-is_city = yes
-culture = creek
-religion = totemism
-capital = "Yamasee"
-trade_goods = cotton
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = cotton
+
+culture = creek
+religion = totemism
+capital = "Yamasee"
+
+is_city = yes
 native_size = 15
-native_ferocity = 7
+native_ferocity =  7
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

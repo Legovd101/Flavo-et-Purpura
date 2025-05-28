@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:57:32 ###
 # Churu
-# 4507 Churu - 31-03-2025 15:57:32 
+# 4507 Churu - 5/27/2025 4:57:02 PM 
  
 add_core = NTK
 owner = NTK
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

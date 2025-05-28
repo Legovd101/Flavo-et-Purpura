@@ -1,15 +1,28 @@
-#847 - Mixtec
+# Mixtec
+# 847 Mixtec - 5/27/2025 4:57:01 PM 
+ 
+add_core = MIX
 owner = MIX
 controller = MIX
-culture = mixtec
-religion = nahuatl
-capital = "Totopec"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = grain
+
+culture = mixtec
+religion = nahuatl
+capital = "Totopec"
+
 is_city = yes
-add_core = MIX
+
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

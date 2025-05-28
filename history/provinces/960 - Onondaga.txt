@@ -1,17 +1,30 @@
-#960 - Onondaga
+# Onondagaono
+# 960 Onondagaono - 5/27/2025 4:57:01 PM 
+ 
+add_core = ONO
 owner = ONO
 controller = ONO
-culture = iroquois
-religion = totemism
-capital = "Onondaga"
-trade_goods = fur
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = fur
+
+culture = iroquois
+religion = totemism
+capital = "Onondaga"
+
 is_city = yes
-add_core = ONO
 native_size = 15
-native_ferocity = 7
+native_ferocity =  7
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

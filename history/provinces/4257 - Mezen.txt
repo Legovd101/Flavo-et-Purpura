@@ -1,14 +1,21 @@
-#4257 - Mezen
+# Mezen
+# 4257 Mezen - 5/27/2025 4:57:02 PM 
+ 
+add_core = PRM
 owner = PRM
 controller = PRM
-culture = uralic
-religion = orthodox
 base_tax = 1
 base_production = 1
-trade_goods = fish
 base_manpower = 1
+
+trade_goods = fish
+
+culture = uralic
+religion = orthodox
 capital = "Okladnikova Sloboda"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -16,4 +23,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
-add_core = PRM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

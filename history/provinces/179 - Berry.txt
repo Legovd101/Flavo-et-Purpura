@@ -1,16 +1,29 @@
-# 179 Berry
+# Berry
+# 179 Berry - 5/27/2025 4:57:01 PM 
+ 
+add_core = GLL
 owner = GLL
 controller = GLL
-capital = "Bourges"
-is_city = yes
-culture = gallic
-religion = lutetian
 base_tax = 4
 base_production = 4
-trade_goods = wine
 base_manpower = 4
+
+trade_goods = wine
+
+culture = gallic
+religion = lutetian
+capital = "Bourges"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GLL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

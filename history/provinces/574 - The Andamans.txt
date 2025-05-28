@@ -1,13 +1,25 @@
-#574 - The Andamans (and Nicobars)
-culture = filipino#closest we can get without making a new culture
-religion = hinduism
-capital = "The Andamans"
-trade_goods = unknown
+# The Andamans
+# 574 The Andamans - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = filipino
+religion = hinduism
+capital = "The Andamans"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 7
+
 discovered_by = indian
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

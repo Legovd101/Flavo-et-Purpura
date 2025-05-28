@@ -1,14 +1,27 @@
 # Maolian
+# 4653 Maolian - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = manchu
-religion = tengri_pagan_reformed
-capital = "Maolian"
-trade_goods = naval_supplies
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Maolian"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

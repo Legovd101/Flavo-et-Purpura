@@ -1,15 +1,28 @@
-#705 - Dangla
+# Gyegu
+# 705 Gyegu - 5/27/2025 4:57:01 PM 
+ 
+add_core = AMD
 owner = AMD
 controller = AMD
-culture = tibetan
-religion = vajrayana
-capital = "Gyegu"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = wool
+
+culture = tibetan
+religion = vajrayana
+capital = "Gyegu"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-add_core = AMD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

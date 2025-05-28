@@ -1,13 +1,26 @@
-# No previous file for Yawuri
+# Yawuri
+# 2293 Yawuri - 5/27/2025 4:57:02 PM 
+ 
+add_core = ZZZ
 owner = ZZZ
 controller = ZZZ
-add_core = ZZZ
-is_city = yes
-culture = gwari
-religion = vandal_syncretism#Fetishism
-capital = "Birnin Yawuri"
-trade_goods = coffee#Kola nuts
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = coffee
+
+culture = gwari
+religion = vandal_syncretism
+capital = "Birnin Yawuri"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

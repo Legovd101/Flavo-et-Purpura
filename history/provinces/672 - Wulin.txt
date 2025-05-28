@@ -1,18 +1,31 @@
-#672 - Chenzhou
+# Litseu
+# 672 Litseu - 5/27/2025 4:57:01 PM 
+ 
+add_core = CXI
+add_core = CHC
+add_core = CGS
 owner = CGS
 controller = CGS
-culture = miao
-religion = confucianism
-capital = "Wulin"
-trade_goods = cotton
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = cotton
+extra_cost = 8
+
+culture = miao
+religion = confucianism
+capital = "Wulin"
+
+hre = yes
 is_city = yes
-add_core = CXI
-add_core = CHC
+
 discovered_by = chinese
 discovered_by = nomad_group
-extra_cost = 8
-add_core = CGS
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

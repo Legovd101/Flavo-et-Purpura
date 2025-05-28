@@ -1,16 +1,29 @@
-#217 - Madrid
-owner = TLD#Juan II of Castille
+# Madrid
+# 217 Madrid - 5/27/2025 4:57:01 PM 
+ 
+add_core = TLD
+owner = TLD
 controller = TLD
-culture = toledan
-religion = arianism
 base_tax = 5
 base_production = 5
-trade_goods = cloth
 base_manpower = 5
+
+trade_goods = cloth
+
+culture = toledan
+religion = arianism
 capital = "Madrid"
-is_city = yes# Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = TLD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

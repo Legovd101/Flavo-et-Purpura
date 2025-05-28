@@ -1,15 +1,28 @@
-#2799 - Sennar
+# Sennar
+# 2799 Sennar - 5/27/2025 4:57:02 PM 
+ 
+add_core = ETH
 owner = ETH
 controller = ETH
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = livestock
+
 culture = nubian
 religion = waaqeffanna
 capital = "Sennar"
+
 is_city = yes
-trade_goods = livestock
-base_manpower = 2
-base_tax = 1
-base_production = 1
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
-add_core = ETH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

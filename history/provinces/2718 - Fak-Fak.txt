@@ -1,16 +1,27 @@
-#2718 - Fak-Fak
-culture = papuan
-religion = animism
-capital = "Fak-Fak"
-trade_goods = unknown
+# Fak-Fak
+# 2718 Fak-Fak - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = papuan
+religion = animism
+capital = "Fak-Fak"
+
 native_size = 60
-native_ferocity = 6
+native_ferocity =  6
 native_hostileness = 9
-# Don Jorge de Mneses
+
 discovered_by = MKS
 discovered_by = TER
 discovered_by = TID
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

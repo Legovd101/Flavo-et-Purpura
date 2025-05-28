@@ -1,13 +1,26 @@
-#Nguigmi
-base_tax = 1
-base_production = 1
-trade_goods = fur
-base_manpower = 1
-capital = "N'guigmi"
-is_city = yes
+# N'guigmi
+# 5212 N'guigmi - 5/27/2025 4:57:03 PM 
+ 
 add_core = WTS
 owner = WTS
+controller = WTS
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+
 culture = kanem_vandalic
 religion = mauri_pagan
-controller = WTS
+capital = "N'guigmi"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

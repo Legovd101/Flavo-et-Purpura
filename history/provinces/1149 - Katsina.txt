@@ -1,15 +1,28 @@
-#1149 - Katsina
+# Katsina
+# 1149 Katsina - 5/27/2025 4:57:01 PM 
+ 
+add_core = GLM
 owner = GLM
 controller = GLM
-culture = daura_vandalic
-is_city = yes
-base_manpower = 3
-religion = vandal_syncretism
-capital = "Katsina"
-trade_goods = cloth
 base_tax = 6
 base_production = 6
-discovered_by = sub_saharan
-extra_cost = 16
+base_manpower = 3
+
 center_of_trade = 2
-add_core = GLM
+trade_goods = cloth
+extra_cost = 16
+
+culture = daura_vandalic
+religion = vandal_syncretism
+capital = "Katsina"
+
+is_city = yes
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

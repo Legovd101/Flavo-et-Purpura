@@ -1,13 +1,25 @@
-#1244 - Tahiti
-culture = polynesian
-religion = animism
-capital = "Tahiti"
-trade_goods = unknown
+# Tuamotu Islands
+# 1244 Tuamotu Islands - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = polynesian
+religion = animism
+capital = "Tahiti"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = polynesian_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:45:03 ###
 # Pegaya Orda
-# 480 Pegaya Orda - 01-04-2025 21:45:03 
+# 480 Pegaya Orda - 5/27/2025 4:57:01 PM 
  
 add_core = OIR
 owner = OIR
@@ -26,3 +25,4 @@ discovered_by = nomad_group
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

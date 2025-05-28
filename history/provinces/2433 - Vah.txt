@@ -1,12 +1,24 @@
-#2433 - Kemerovo
-culture = ostyaki
-religion = tengri_pagan_reformed
-capital = "Vah"
-trade_goods = fur
+# Vah
+# 2433 Vah - 5/27/2025 4:57:02 PM 
+ 
+add_core = SIB
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fur
+
+culture = ostyaki
+religion = tengri_pagan_reformed
+capital = "Vah"
+
 is_city = yes
-add_core = SIB
+
 discovered_by = nomad_group
-unrest = 15
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

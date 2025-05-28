@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:24:46 ###
 # Kashgar
-# 739 Kashgar - 01-04-2025 21:24:46 
+# 739 Kashgar - 5/27/2025 4:57:01 PM 
  
 add_core = CHG
 owner = CHG
@@ -31,3 +30,4 @@ discovered_by = nomad_group
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

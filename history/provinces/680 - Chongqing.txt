@@ -1,18 +1,31 @@
-#680 - Chongqing
+# Chongqing
+# 680 Chongqing - 5/27/2025 4:57:01 PM 
+ 
+add_core = CXI
+add_core = SHU
+add_core = CDL
 owner = CDL
 controller = CDL
-culture = sichuanese
-religion = nestorian
-capital = "Chongqing"
-trade_goods = spices
 base_tax = 8
 base_production = 8
 base_manpower = 4
+
+center_of_trade = 1
+trade_goods = spices
+extra_cost = 8
+
+culture = sichuanese
+religion = nestorian
+capital = "Chongqing"
+
 is_city = yes
-add_core = CXI
-add_core = SHU
+
 discovered_by = chinese
 discovered_by = nomad_group
-extra_cost = 8
-center_of_trade = 1
-add_core = CDL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

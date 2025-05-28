@@ -1,16 +1,29 @@
-# No previous file for Coyolapan
-culture = mixtec
+# Coyolapan
+# 2629 Coyolapan - 5/27/2025 4:57:02 PM 
+ 
+add_core = MIX
 owner = MIX
 controller = MIX
-add_core = MIX
-is_city = yes
-religion = nahuatl
-capital = "Coyolapan"
-trade_goods = gold
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = gold
+
+culture = mixtec
+religion = nahuatl
+capital = "Coyolapan"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

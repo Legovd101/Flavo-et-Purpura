@@ -1,12 +1,26 @@
+# Bonoman
+# 2254 Bonoman - 5/27/2025 4:57:02 PM 
+ 
+add_core = BON
 owner = BON
 controller = BON
-add_core = BON
-is_city = yes
-culture = akan
-religion = dahomey_pagan#Fetishism
-capital = "Bono Manso"
-trade_goods = tropical_wood
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = tropical_wood
+
+culture = akan
+religion = dahomey_pagan
+capital = "Bono Manso"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

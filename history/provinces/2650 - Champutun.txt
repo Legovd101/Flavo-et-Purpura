@@ -1,17 +1,30 @@
-# No previous file for Champutun
-culture = yucatec
+# Champutun
+# 2650 Champutun - 5/27/2025 4:57:02 PM 
+ 
+add_core = CNP
 owner = CNP
 controller = CNP
-add_core = CNP
-is_city = yes
-religion = mesoamerican_religion
-capital = "Champutun"
-trade_goods = cocoa
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = cocoa
+
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Champutun"
+
+is_city = yes
 add_local_autonomy = 25
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

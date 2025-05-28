@@ -1,16 +1,29 @@
-#2789 - Las Khorey
+# Las Khorey
+# 2789 Las Khorey - 5/27/2025 4:57:02 PM 
+ 
+add_core = WAR
 owner = WAR
 controller = WAR
-add_core = WAR
-culture = somali
-religion = waaqeffanna
-capital = "Las Khorey"
-trade_goods = incense
-is_city = yes
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = incense
+
+culture = somali
+religion = waaqeffanna
+capital = "Las Khorey"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -2,5 +2,5 @@ government = republic
 add_government_reform = jiedushi_reform
 technology_group = chinese
 religion = confucianism
-primary_culture = chimin
-capital = 1829	#Quanzhou
+primary_culture = mingdeng
+capital = 669	#Fukchew

@@ -1,16 +1,29 @@
+# Niederhessen
+# 1762 Niederhessen - 5/27/2025 4:57:02 PM 
+ 
+add_core = LPP
 owner = LPP
 controller = LPP
-capital = "Kassel"
-trade_goods = glass
-culture = thuringian
-religion = arianism
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = glass
+
+culture = thuringian
+religion = arianism
+capital = "Kassel"
+
 is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LPP
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

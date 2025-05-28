@@ -1,14 +1,27 @@
-#4027 - Betsileo
-owner = MIR#Had not yet formed a unified state, would submit to the Imerina in the early 18th century.
-controller = MIR
+# Betsileo
+# 4027 Betsileo - 5/27/2025 4:57:02 PM 
+ 
 add_core = MIR
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Betsileo"
-trade_goods = slaves
+owner = MIR
+controller = MIR
 base_tax = 2
 base_production = 1
 base_manpower = 2
+
+trade_goods = slaves
+
+culture = madagasque
+religion = shamanism
+capital = "Betsileo"
+
 is_city = yes
 add_local_autonomy = 40
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

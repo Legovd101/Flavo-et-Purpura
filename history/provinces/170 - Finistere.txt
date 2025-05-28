@@ -1,23 +1,36 @@
-# 170 Finistère - Principal cities: Brest
+# Finistere
+# 170 Finistere - 5/27/2025 4:57:01 PM 
+ 
+add_core = BRI
 owner = BRI
 controller = BRI
-capital = "Brest"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = armorican
-religion = lutetian
 base_tax = 3
 base_production = 3
-trade_goods = naval_supplies
 base_manpower = 4
+
+center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 8
+
+culture = armorican
+religion = lutetian
+capital = "Brest"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = BRI
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

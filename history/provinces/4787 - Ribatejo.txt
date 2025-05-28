@@ -1,16 +1,29 @@
-#4787 - Ribatejo
+# Ribatejo
+# 4787 Ribatejo - 5/27/2025 4:57:02 PM 
+ 
+add_core = SPA
 owner = SPA
 controller = SPA
-culture = strait_greek
-religion = west_orthodox
-capital = "Santarém"
-trade_goods = grain
 base_tax = 4
 base_production = 3
 base_manpower = 3
+
+trade_goods = grain
+
+culture = strait_greek
+religion = west_orthodox
+capital = "Santarém"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = SPA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

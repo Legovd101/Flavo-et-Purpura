@@ -1,12 +1,26 @@
+# Taiping
+# 5132 Taiping - 5/27/2025 4:57:03 PM 
+ 
 add_core = DAI
 owner = DAI
+controller = DAI
 base_tax = 1
-base_manpower = 2
 base_production = 1
+base_manpower = 2
+
+
 culture = zhuang
 religion = confucianism
-controller = DAI
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

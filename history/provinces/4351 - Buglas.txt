@@ -1,13 +1,26 @@
-#4351 - Buglas
-culture = filipino
-religion = animism
-capital = "Silay"
-trade_goods = sugar
-base_tax = 2
-base_production = 2
-base_manpower = 1
+# Buglas
+# 4351 Buglas - 5/27/2025 4:57:02 PM 
+ 
 add_core = MAS
 owner = MAS
 controller = MAS
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = sugar
+
+culture = filipino
+religion = animism
+capital = "Silay"
+
 is_city = yes
+
 discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

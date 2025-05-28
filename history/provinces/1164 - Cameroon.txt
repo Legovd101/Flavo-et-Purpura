@@ -1,16 +1,28 @@
-#1164 - Cameroon
-culture = sawabantu
-religion = yoruba_pagan #Fetishism
-capital = "Cameroon"
-trade_goods = unknown
+# Cameroon
+# 1164 Cameroon - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = sawabantu
+religion = yoruba_pagan
+capital = "Cameroon"
+
 native_size = 90
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
+
 discovered_by = KON
 discovered_by = NDO
 discovered_by = LOA
 discovered_by = sub_saharan
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

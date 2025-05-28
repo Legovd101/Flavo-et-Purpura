@@ -1,17 +1,29 @@
-#1869 - Zurich
+# Zürich
+# 1869 Zürich - 5/27/2025 4:57:02 PM 
+ 
+add_core = SWI
 owner = SWI
 controller = SWI
-culture = swiss
-religion = arianism
-capital = "Zürich"
-trade_goods = wool
-
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = wool
+
+culture = swiss
+religion = arianism
+capital = "Zürich"
+
 is_city = yes
-add_core = SWI
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

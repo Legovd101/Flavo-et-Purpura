@@ -1,11 +1,25 @@
+# Shunqing
+# 5162 Shunqing - 5/27/2025 4:57:03 PM 
+ 
 add_core = CDL
 owner = CDL
+controller = CDL
 base_tax = 2
-base_manpower = 3
 base_production = 4
+base_manpower = 3
+
+
 culture = sichuanese
 religion = nestorian
-controller = CDL
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

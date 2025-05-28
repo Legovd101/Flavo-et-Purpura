@@ -1,15 +1,28 @@
-#2700 - Panay
-culture = filipino
-religion = animism
-capital = "Panay"
-trade_goods = grain
-base_tax = 3
-base_production = 4
-base_manpower = 2
+# Panay
+# 2700 Panay - 5/27/2025 4:57:02 PM 
+ 
 add_core = MAS
 owner = MAS
 controller = MAS
-is_city = yes
-discovered_by = chinese
-extra_cost = 8
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
 center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = filipino
+religion = animism
+capital = "Panay"
+
+is_city = yes
+
+discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

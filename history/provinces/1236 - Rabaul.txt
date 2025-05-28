@@ -1,12 +1,24 @@
-#1236 - Rabaul
-culture = papuan
-religion = animism
-capital = "Rabaul"
-trade_goods = unknown
+# Rabaul
+# 1236 Rabaul - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = papuan
+religion = animism
+capital = "Rabaul"
+
 native_size = 30
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,18 +1,31 @@
-#2068 - Siwistan
+# Siwi
+# 2068 Siwi - 5/27/2025 4:57:02 PM 
+ 
+add_core = SND
+add_core = MUL
 owner = MUL
 controller = MUL
-culture = arachoisan
-religion = manichaean
-capital = "Siwi"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = arachoisan
+religion = manichaean
+capital = "Siwi"
+
 is_city = yes
-add_core = SND
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_core = MUL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

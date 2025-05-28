@@ -1,12 +1,27 @@
-add_core = YUE
-owner = YUE
+### Modified 5/27/2025 4:57:03 PM ###
+# Pinglok
+# 5131 Pinglok - 5/27/2025 4:57:03 PM 
+ 
+add_core = KWS
+add_core = KWS
+owner = KWS
+controller = KWS
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
+
+
 culture = ping_culture
 religion = confucianism
-controller = YUE
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+

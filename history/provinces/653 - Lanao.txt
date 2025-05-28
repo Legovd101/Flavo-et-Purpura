@@ -1,14 +1,27 @@
-#653 - Lanao
-culture = filipino
-religion = animism
-capital = "Marawi"
-trade_goods = spices
-is_city = yes
+# Lanao
+# 653 Lanao - 5/27/2025 4:57:01 PM 
+ 
+add_core = MGD
+add_core = LNO
+owner = MGD
+controller = MGD
 base_tax = 3
 base_production = 3
 base_manpower = 2
-owner = MGD
-controller = MGD
-add_core = MGD
-add_core = LNO
+
+trade_goods = spices
+
+culture = filipino
+religion = animism
+capital = "Marawi"
+
+is_city = yes
+
 discovered_by = chinese
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,18 +1,31 @@
-#396 - Bahrain
+# Bahrain
+# 396 Bahrain - 5/27/2025 4:57:01 PM 
+ 
+add_core = ORM
+add_core = LKH
 owner = LKH
 controller = LKH
-culture = lakhmid
-religion = manichaean
-capital = "Manama"
-trade_goods = gems#Pearls
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = gems
+
+culture = lakhmid
+religion = manichaean
+capital = "Manama"
+
 is_city = yes
-add_core = ORM#Tributary to Hormuz up until conquest by Jabrids
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = east_african
-add_core = LKH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

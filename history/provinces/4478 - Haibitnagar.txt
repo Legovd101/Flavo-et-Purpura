@@ -1,6 +1,5 @@
-### Modified 31-03-2025 10:54:06 ###
 # Haibatnagar
-# 4478 Haibatnagar - 31-03-2025 10:54:06 
+# 4478 Haibatnagar - 5/27/2025 4:57:02 PM 
  
 add_core = BNG
 owner = BNG
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,4 +1,16 @@
-#1799 - Urgoma
+# Urgoma
+# 1799 Urgoma - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = east_african
 discovered_by = central_african
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

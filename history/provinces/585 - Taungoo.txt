@@ -1,14 +1,27 @@
-#585 - Toungoo
+# Taungoo
+# 585 Taungoo - 5/27/2025 4:57:01 PM 
+ 
+add_core = PEG
 owner = PEG
 controller = PEG
-culture = burmese
-religion = buddhism
-capital = "Toungoo"
-trade_goods = chinaware
 base_tax = 5
 base_production = 5
 base_manpower = 4
+
+trade_goods = chinaware
+
+culture = burmese
+religion = buddhism
+capital = "Toungoo"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = PEG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,22 +1,35 @@
-#422 - Imereti
-latent_trade_goods = { 
-	coal 
-}
+# Imereti
+# 422 Imereti - 5/27/2025 4:57:01 PM 
+ 
+add_core = GEO
+add_core = IME
 owner = GEO
 controller = GEO
-culture = georgian
-religion = orthodox
-capital = "Kutaisi"
-trade_goods = cloth
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = georgian
+religion = orthodox
+capital = "Kutaisi"
+
 is_city = yes
-add_core = GEO
-add_core = IME
+add_local_autonomy = 50
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_local_autonomy = 50
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,17 +1,30 @@
-#2761 - Arsi
+# Arsi
+# 2761 Arsi - 5/27/2025 4:57:02 PM 
+ 
+add_core = SOA
 owner = SOA
 controller = SOA
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = coffee
+
 culture = amhara
 religion = waaqeffanna
 capital = "Assela"
+
 is_city = yes
-base_manpower = 2
-trade_goods = coffee
-base_tax = 1
-base_production = 1
 add_local_autonomy = 25
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
-add_core = SOA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

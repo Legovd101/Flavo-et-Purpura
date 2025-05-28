@@ -1,16 +1,29 @@
-#4199 - Tongren
-owner = YUE
-controller = YUE
-culture = miao
-religion = confucianism
-capital = "Tongren"
-trade_goods = tea
+### Modified 5/27/2025 4:57:02 PM ###
+# Tongren
+# 4199 Tongren - 5/27/2025 4:57:02 PM 
+ 
+add_core = KWS
+add_core = KWS
+owner = KWS
+controller = KWS
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = tea
+
+culture = miao
+religion = confucianism
+capital = "Tongren"
+
+hre = yes
 is_city = yes
-add_core = CMI
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = YUE
-hre = yes
+
+
+
+
+
+

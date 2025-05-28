@@ -4,5 +4,15 @@ technology_group = chinese
 religion = confucianism
 religious_school = diplomatic_school
 primary_culture = ping_culture
-capital = 1840#Canton
+capital = 2162 #Ngchow
 government_rank = 1
+
+1300.1.1 = {
+	monarch = {
+		name = "League Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

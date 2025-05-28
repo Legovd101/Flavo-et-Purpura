@@ -1,17 +1,30 @@
-#1084 - Wadjuk
+# Wadjuk
+# 1084 Wadjuk - 5/27/2025 4:57:01 PM 
+ 
 add_core = NOO
 owner = NOO
 controller = NOO
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+center_of_trade = 1
+trade_goods = livestock
+
 culture = nyoongah
 religion = dreamtime
 capital = "Wadjuk"
+
 is_city = yes
-trade_goods = livestock
-base_manpower = 2
-base_tax = 3
-base_production = 4
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 9
-center_of_trade = 1
+
 discovered_by = aboriginal_tech
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

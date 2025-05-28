@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = jiedushi_reform
+technology_group = chinese
+religion = confucianism
+religious_school = logician_school
+primary_culture = cantonese
+capital = 667 #Canton
+government_rank = 2
+
+1300.1.1 = {
+	monarch = {
+		name = "Legislative Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

@@ -1,18 +1,31 @@
-#4194 - Yongping
-latent_trade_goods = { 
-	coal 
-}
+# Yongping
+# 4194 Yongping - 5/27/2025 4:57:02 PM 
+ 
+add_core = YAN
+add_core = SIN
 owner = SIN
 controller = SIN
-culture = chihan
-religion = nestorian
-capital = "Yongping"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = chihan
+religion = nestorian
+capital = "Yongping"
+
 is_city = yes
-add_core = YAN
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SIN
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

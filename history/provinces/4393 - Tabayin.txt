@@ -1,14 +1,27 @@
-#4393 - Tabayin
+# Tabayin
+# 4393 Tabayin - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = burmese
-religion = buddhism
-capital = "Tabayin"
-trade_goods = cotton
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = cotton
+
+culture = burmese
+religion = buddhism
+capital = "Tabayin"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

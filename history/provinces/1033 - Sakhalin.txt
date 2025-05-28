@@ -1,15 +1,21 @@
-#1033 - Sakhalin
-culture = ainu
-religion = animism
-capital = "Sakhalin"
-trade_goods = fish
+# Enchiw
+# 1033 Enchiw - 5/27/2025 4:57:01 PM 
+ 
+add_core = ANU
+owner = ANU
+controller = ANU
 base_tax = 1
 base_production = 1
 base_manpower = 1
-owner = ANU
-controller = ANU
-add_core = ANU
+
+trade_goods = fish
+
+culture = ainu
+religion = animism
+capital = "Sakhalin"
+
 is_city = yes
+
 discovered_by = JAP
 discovered_by = AMA
 discovered_by = ASA
@@ -54,3 +60,10 @@ discovered_by = ASK
 discovered_by = NVK
 discovered_by = NHX
 discovered_by = SOL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

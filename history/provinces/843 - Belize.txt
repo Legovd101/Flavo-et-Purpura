@@ -1,14 +1,27 @@
-#843 - Belize
+# Belize
+# 843 Belize - 5/27/2025 4:57:01 PM 
+ 
+add_core = CTM
 owner = CTM
 controller = CTM
-culture = yucatec
-religion = mesoamerican_religion
-capital = "Chactemal"
-trade_goods = sugar
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = sugar
+
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Chactemal"
+
 is_city = yes
 add_local_autonomy = 25
-add_core = CTM
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

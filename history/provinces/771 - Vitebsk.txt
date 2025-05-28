@@ -1,16 +1,29 @@
-#771 - Vitebsk
+# Vitebsk
+# 771 Vitebsk - 5/27/2025 4:57:01 PM 
+ 
+add_core = UKR
 owner = UKR
 controller = UKR
-culture = byelorussian
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = grain
 base_manpower = 1
-add_local_autonomy = 50
+
+trade_goods = grain
+
+culture = byelorussian
+religion = orthodox
 capital = "Vitebsk"
+
 is_city = yes
+add_local_autonomy = 50
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
-add_core = UKR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

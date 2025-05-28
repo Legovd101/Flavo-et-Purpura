@@ -1,17 +1,29 @@
-# 95 Breda - Principal cities: Breda
+# Breda
+# 95 Breda - 5/27/2025 4:57:01 PM 
+ 
+add_core = FRI
 owner = FRI
 controller = FRI
-is_city = yes
-capital = "Breda"
-culture = dutch
-religion = arianism
-
 base_tax = 4
 base_production = 3
-trade_goods = cloth
 base_manpower = 2
+
+trade_goods = cloth
+
+culture = dutch
+religion = arianism
+capital = "Breda"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

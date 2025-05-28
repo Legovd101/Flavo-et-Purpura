@@ -1,18 +1,31 @@
-# 2356 - Shymkent
+# Shymkent
+# 2356 Shymkent - 5/27/2025 4:57:02 PM 
+ 
+add_core = TRS
+add_core = CHG
 owner = CHG
 controller = CHG
-culture = bactrian
-religion = manichaean
-capital = "Shymkent"
-trade_goods = tea
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = tea
+
+culture = bactrian
+religion = manichaean
+capital = "Shymkent"
+
 is_city = yes
-add_core = TRS
+
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
-add_core = CHG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

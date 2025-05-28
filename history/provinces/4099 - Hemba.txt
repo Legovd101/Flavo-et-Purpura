@@ -1,12 +1,26 @@
+# Hemba
+# 4099 Hemba - 5/27/2025 4:57:02 PM 
+ 
+add_core = LUB
 owner = LUB
 controller = LUB
-add_core = LUB
-culture = luba
-religion = shamanism#Fetishism
-capital = "Hemba"
-trade_goods = iron
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = iron
+
+culture = luba
+religion = shamanism
+capital = "Hemba"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

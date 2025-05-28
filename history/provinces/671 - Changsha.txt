@@ -1,17 +1,30 @@
-#671 - Changsha
+# Tsansa
+# 671 Tsansa - 5/27/2025 4:57:01 PM 
+ 
+add_core = CHC
+add_core = HUA
 owner = HUA
 controller = HUA
-culture = xiang
-religion = confucianism
-capital = "Changsha"
-trade_goods = grain
 base_tax = 6
 base_production = 6
 base_manpower = 4
-is_city = yes
-add_core = CHC
+
 center_of_trade = 1
+trade_goods = grain
+
+culture = xiang
+religion = confucianism
+capital = "Changsha"
+
+hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = HUA
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

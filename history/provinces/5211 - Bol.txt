@@ -1,13 +1,26 @@
-#Bol
-base_tax = 1
-base_production = 1
-trade_goods = fur
-base_manpower = 1
-capital = "Bol"
-is_city = yes
+# Bol
+# 5211 Bol - 5/27/2025 4:57:03 PM 
+ 
 add_core = KBO
 owner = KBO
+controller = KBO
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+
 culture = bilala
 religion = chad_pagan
-controller = KBO
+capital = "Bol"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

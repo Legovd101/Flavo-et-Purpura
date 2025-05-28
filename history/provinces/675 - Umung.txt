@@ -1,16 +1,29 @@
-#675 - Qujing
+# Umung
+# 675 Umung - 5/27/2025 4:57:01 PM 
+ 
+add_core = CYI
+add_core = CDL
 owner = CDL
 controller = CDL
-add_core = CYI
-culture = yi
-religion = confucianism
-capital = "Umung"
-trade_goods = copper
 base_tax = 1
 base_production = 1
 base_manpower = 3
+
+trade_goods = copper
+
+culture = yi
+religion = confucianism
+capital = "Umung"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-add_core = CDL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

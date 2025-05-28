@@ -1,12 +1,26 @@
+# Malem
+# 4084 Malem - 5/27/2025 4:57:02 PM 
+ 
+add_core = KSJ
 owner = KSJ
 controller = KSJ
-add_core = KSJ
-culture = mbangala
-religion = shamanism#Fetishism
-capital = "Malem"
-trade_goods = slaves
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = slaves
+
+culture = mbangala
+religion = shamanism
+capital = "Malem"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

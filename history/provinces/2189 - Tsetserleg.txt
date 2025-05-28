@@ -1,17 +1,30 @@
-# 2189 - Tsetserleg
-latent_trade_goods = { 
-	coal 
-}
+# Tsetserleg
+# 2189 Tsetserleg - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-add_core = OIR
-culture = khalkha
-religion = tengri_pagan_reformed
-capital = "Tsetserleg"
-trade_goods = fur
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fur
+
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Tsetserleg"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

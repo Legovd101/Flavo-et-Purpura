@@ -1,16 +1,29 @@
-#Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
+# Reval
+# 36 Reval - 5/27/2025 4:57:01 PM 
+ 
+add_core = EST
 owner = EST
 controller = EST
-add_core = EST
-culture = estonian
-religion = arianism
 base_tax = 4
 base_production = 4
-trade_goods = grain
 base_manpower = 2
-capital = "Reval"
-is_city = yes
+
 center_of_trade = 1
+trade_goods = grain
+
+culture = estonian
+religion = arianism
+capital = "Reval"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

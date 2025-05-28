@@ -1,16 +1,29 @@
-#1184 - Zimbabwe
+# Zimbabwe
+# 1184 Zimbabwe - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZIM
 owner = ZIM
 controller = ZIM
-add_core = ZIM
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+center_of_trade = 1
+trade_goods = gold
+extra_cost = 8
+
 culture = shona
 religion = swahili_pagan
 capital = "Zimbabwe"
+
 is_city = yes
-base_manpower = 5
-trade_goods = gold
-base_tax = 5
-base_production = 4
+
 discovered_by = east_african
 discovered_by = central_african
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

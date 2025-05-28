@@ -1,12 +1,26 @@
+# Chokwe
+# 4094 Chokwe - 5/27/2025 4:57:02 PM 
+ 
+add_core = CKW
 owner = CKW
 controller = CKW
-add_core = CKW
-culture = chokwe
-religion = shamanism#Fetishism
-capital = "Chokwe"
-trade_goods = ivory
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = ivory
+
+culture = chokwe
+religion = shamanism
+capital = "Chokwe"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

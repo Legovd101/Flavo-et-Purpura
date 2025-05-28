@@ -1,17 +1,30 @@
-#4408 - Salavata
+# Salavata
+# 4408 Salavata - 5/27/2025 4:57:02 PM 
+ 
+add_core = MAD
 owner = MAD
 controller = MAD
-culture = sinhala
-religion = buddhism
-capital = "Salavata"
-trade_goods = spices#Cinnamon
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = spices
+
+culture = sinhala
+religion = buddhism
+capital = "Salavata"
+
 is_city = yes
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = chinese
-add_core = MAD
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

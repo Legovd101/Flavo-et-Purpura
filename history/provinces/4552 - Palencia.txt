@@ -1,16 +1,29 @@
-#4552 - Palencia
-owner = SAB#Juan II of Castille
+# Palencia
+# 4552 Palencia - 5/27/2025 4:57:02 PM 
+ 
+add_core = SAB
+owner = SAB
 controller = SAB
-culture = asturian
-religion = arianism
 base_tax = 2
 base_production = 2
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = asturian
+religion = arianism
 capital = "Palencia"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SAB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,31 @@
-#854 - Sayultecas
-culture = tepic
+# Sayultecas
+# 854 Sayultecas - 5/27/2025 4:57:01 PM 
+ 
+add_core = XAL
 owner = XAL
 controller = XAL
-add_core = XAL
-is_city = yes
-religion = nahuatl
-capital = "Sayultecas"
-trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 3
-native_size = 5
-native_ferocity = 1
-native_hostileness = 5
-discovered_by = mesoamerican
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = tepic
+religion = nahuatl
+capital = "Sayultecas"
+
+is_city = yes
+native_size = 5
+native_ferocity =  1
+native_hostileness = 5
+
+discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

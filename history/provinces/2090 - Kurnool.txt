@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:36:04 ###
 # Kurnool
-# 2090 Kurnool - 31-03-2025 16:36:04 
+# 2090 Kurnool - 5/27/2025 4:57:02 PM 
  
 add_core = YOR
 add_core = TLG
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,26 @@
-#844 - Zapotec
+# Zapotec
+# 844 Zapotec - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZAP
 owner = ZAP
 controller = ZAP
-culture = zapotek
-religion = nahuatl
-capital = "Zaachila"
-trade_goods = sugar
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = sugar
+
+culture = zapotek
+religion = nahuatl
+capital = "Zaachila"
+
 is_city = yes
-add_core = ZAP
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

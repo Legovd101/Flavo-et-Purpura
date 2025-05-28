@@ -1,16 +1,29 @@
-#Bergenshus, 
+# Bergenhus
+# 23 Bergenhus - 5/27/2025 4:57:01 PM 
+ 
+add_core = NOR
 owner = NOR
 controller = NOR
-add_core = NOR
-culture = norwegian
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = naval_supplies
 base_manpower = 1
-is_city = yes
+
+center_of_trade = 2
+trade_goods = naval_supplies
+extra_cost = 16
+
+culture = norwegian
+religion = arianism
 capital = "Bergen"
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:55:10 ###
 # Varanasi
-# 2095 Varanasi - 31-03-2025 15:55:10 
+# 2095 Varanasi - 5/27/2025 4:57:02 PM 
  
 add_core = MLW
 owner = MLW
@@ -31,3 +30,4 @@ add_province_triggered_modifier = hindu_varanasi
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

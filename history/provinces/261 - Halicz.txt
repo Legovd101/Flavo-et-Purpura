@@ -1,15 +1,21 @@
-#261 - Halicz
+# Halicz
+# 261 Halicz - 5/27/2025 4:57:01 PM 
+ 
+add_core = VOL
 owner = VOL
 controller = VOL
-capital = "Halicz"
-culture = magyar
-religion = orthodox
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = magyar
+religion = orthodox
+capital = "Halicz"
+
 is_city = yes
-add_core = VOL
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,3 +25,10 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

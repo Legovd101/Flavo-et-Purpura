@@ -1,14 +1,27 @@
-#587 - Kengtung
+# Kengtung
+# 587 Kengtung - 5/27/2025 4:57:01 PM 
+ 
+add_core = LNA
 owner = LNA
 controller = LNA
-culture = shan
-religion = buddhism
-capital = "Kengtung"
-trade_goods = tropical_wood
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = tropical_wood
+
+culture = shan
+religion = buddhism
+capital = "Kengtung"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = LNA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

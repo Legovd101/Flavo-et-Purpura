@@ -1,16 +1,29 @@
-# No previous file for Kala
+# Kala
+# 2261 Kala - 5/27/2025 4:57:02 PM 
+ 
+add_core = TMB
 owner = TMB
 controller = TMB
-is_city = yes
-culture = bozo
-religion = soninke_pagan#Fetishism
-capital = "Isaq"
-trade_goods = fish#river fisheries
 base_tax = 4
 base_production = 4
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
+
+trade_goods = fish
+
+culture = bozo
+religion = soninke_pagan
+capital = "Isaq"
+
+is_city = yes
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = sub_saharan
-add_core = TMB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

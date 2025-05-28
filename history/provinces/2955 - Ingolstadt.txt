@@ -1,18 +1,29 @@
-# - Ingolstadt + Neuburg
+# Ingolstadt
+# 2955 Ingolstadt - 5/27/2025 4:57:02 PM 
+ 
+add_core = BAV
 owner = BAV
 controller = BAV
-culture = bavarian
-religion = arianism
 base_tax = 5
 base_production = 5
-trade_goods = wine#Would shift to beer over time
 base_manpower = 3
+
+trade_goods = wine
+
+culture = bavarian
+religion = arianism
 capital = "Ingolstadt"
+
 is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-#Last of the Ingolstadt Wittelsbachs dies
-add_core = BAV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

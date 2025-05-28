@@ -1,14 +1,27 @@
-#846 - Yucatan
+# Sotuta
+# 846 Sotuta - 5/27/2025 4:57:01 PM 
+ 
+add_core = COC
 owner = COC
 controller = COC
-culture = yucatec
-religion = mesoamerican_religion
-capital = "Sotuta"
-trade_goods = fish
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = fish
+
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Sotuta"
+
 is_city = yes
-add_core = COC
+
 discovered_by = mesoamerican
+
 add_province_triggered_modifier = mayan_chichen_itza
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,22 @@
+# Jindrichuv Hradec
+# 4725 Jindrichuv Hradec - 5/27/2025 4:57:02 PM 
+ 
+add_core = RUG
+add_core = MVA
 owner = MVA
 controller = MVA
-capital = "Jindrichuv Hradec"
-culture = rugian
-add_core = RUG
-religion = arianism
-trade_goods = grain
-
 base_tax = 3
 base_production = 2
 base_manpower = 2
+
+trade_goods = grain
+
+culture = rugian
+religion = arianism
+capital = "Jindrichuv Hradec"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,4 +26,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MVA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

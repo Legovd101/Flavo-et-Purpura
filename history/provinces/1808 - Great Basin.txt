@@ -1,3 +1,16 @@
+# Great Basin
+# 1808 Great Basin - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

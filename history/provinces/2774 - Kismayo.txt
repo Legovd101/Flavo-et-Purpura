@@ -1,17 +1,30 @@
-#2774 - Kismayo
+# Kismayo
+# 2774 Kismayo - 5/27/2025 4:57:02 PM 
+ 
+add_core = AJU
 owner = AJU
 controller = AJU
-add_core = AJU
-culture = somali
-religion = swahili_pagan
-capital = "Kismayo"
-trade_goods = fish
-is_city = yes
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fish
+
+culture = somali
+religion = swahili_pagan
+capital = "Kismayo"
+
+is_city = yes
 add_local_autonomy = 25
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

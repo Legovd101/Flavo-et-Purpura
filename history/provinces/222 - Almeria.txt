@@ -1,20 +1,33 @@
-#222 - Almería
-owner = SPA#Mustapha Sa'd King of Granada
+# Almería
+# 222 Almería - 5/27/2025 4:57:01 PM 
+ 
+add_core = SPA
+owner = SPA
 controller = SPA
-culture = strait_greek
-religion = west_orthodox
 base_tax = 2
 base_production = 2
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = strait_greek
+religion = west_orthodox
 capital = "Almería"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SPA
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

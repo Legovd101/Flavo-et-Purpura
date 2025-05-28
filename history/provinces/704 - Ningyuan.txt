@@ -1,15 +1,27 @@
-#704 - Liaoxi
+# Ningyuan
+# 704 Ningyuan - 5/27/2025 4:57:01 PM 
+ 
+add_core = SIN
 owner = SIN
 controller = SIN
-culture = chihan
-religion = nestorian
-capital = "Ningyuan"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = grain
+
+culture = chihan
+religion = nestorian
+capital = "Ningyuan"
+
 is_city = yes
-#fort_15th = yes #the Nine Garrisons
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SIN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

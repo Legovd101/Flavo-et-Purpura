@@ -1,13 +1,26 @@
-#4031 - Antsalova
+# Antsalova
+# 4031 Antsalova - 5/27/2025 4:57:02 PM 
+ 
+add_core = SKA
 owner = SKA
 controller = SKA
-add_core = SKA
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Antsalova"
-trade_goods = slaves
 base_tax = 1
 base_production = 2
 base_manpower = 1
+
+trade_goods = slaves
+
+culture = madagasque
+religion = shamanism
+capital = "Antsalova"
+
 is_city = yes
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,28 @@
-# No previous file for Tagant
-culture = fulani
-religion = senegambian_pagan#Fetishism
-capital = "Kiffa"
-trade_goods = unknown
-base_tax = 1
-base_production = 1
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
-base_manpower = 1
-discovered_by = sub_saharan
-is_city = no
+# Tagant
+# 2244 Tagant - 5/27/2025 4:57:02 PM 
+ 
 add_core = SOF
 owner = SOF
 controller = SOF
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+
+culture = fulani
+religion = senegambian_pagan
+capital = "Kiffa"
+
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

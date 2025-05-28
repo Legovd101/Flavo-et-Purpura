@@ -1,16 +1,29 @@
-# 2985 - Capitanata
+# Capitanata
+# 2985 Capitanata - 5/27/2025 4:57:02 PM 
+ 
+add_core = BUL
 owner = BUL
 controller = BUL
-culture = molisian
-religion = west_orthodox
 base_tax = 2
 base_production = 3
-trade_goods = livestock
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = molisian
+religion = west_orthodox
 capital = "Foggia"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BUL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

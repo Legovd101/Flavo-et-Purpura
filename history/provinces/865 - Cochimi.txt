@@ -1,14 +1,26 @@
-#865 - Cochimi
-culture = piman
-religion = animism
-capital = "Cochimi"
-trade_goods = unknown
+# Cochimi
+# 865 Cochimi - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = piman
+religion = animism
+capital = "Cochimi"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 3
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

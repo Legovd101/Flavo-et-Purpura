@@ -1,16 +1,29 @@
-#625 - Ciamis
+# Kawali
+# 625 Kawali - 5/27/2025 4:57:01 PM 
+ 
+add_core = MAJ
 owner = MAJ
 controller = MAJ
-culture = sundanese
-religion = hinduism
-capital = "Ciamis"
-trade_goods = tropical_wood
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = tropical_wood
+
+culture = sundanese
+religion = hinduism
+capital = "Ciamis"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MAJ
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

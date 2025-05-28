@@ -1,16 +1,29 @@
-#443 - Ust Yurt
+# Ustyurt
+# 443 Ustyurt - 5/27/2025 4:57:01 PM 
+ 
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = pecheneg
-religion = zoroastrian
-capital = "Ust Yurt"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = pecheneg
+religion = zoroastrian
+capital = "Ust Yurt"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

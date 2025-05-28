@@ -1,17 +1,30 @@
-#2781 - Gedo
-owner = AJU
-controller = AJU
+# Gedo
+# 2781 Gedo - 5/27/2025 4:57:02 PM 
+ 
 add_core = AJU
 add_core = GLE
-culture = somali
-religion = waaqeffanna
-capital = "Luuq"
-trade_goods = grain
-is_city = yes
+owner = AJU
+controller = AJU
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = somali
+religion = waaqeffanna
+capital = "Luuq"
+
+is_city = yes
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

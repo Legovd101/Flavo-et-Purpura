@@ -1,18 +1,31 @@
-#1131 - Massina
+# Massina
+# 1131 Massina - 5/27/2025 4:57:01 PM 
+ 
+add_core = SOF
+add_core = TMB
 owner = TMB
 controller = TMB
-culture = bambara
-is_city = yes
-base_manpower = 1
-religion = soninke_pagan#Fetishism
-capital = "Macina"
-trade_goods = grain
 base_tax = 4
 base_production = 4
-native_ferocity = 4
-native_hostileness = 9
-add_core = SOF
-discovered_by = sub_saharan
-extra_cost = 8
+base_manpower = 1
+
 center_of_trade = 1
-add_core = TMB
+trade_goods = grain
+extra_cost = 8
+
+culture = bambara
+religion = soninke_pagan
+capital = "Macina"
+
+is_city = yes
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

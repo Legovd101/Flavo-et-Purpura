@@ -1,12 +1,24 @@
-# - Mtetwa
-culture = nguni
-religion = shamanism#Fetishism
-capital = "Mtetwa"
-native_size = 50
-trade_goods = unknown
+# Mtetwa
+# 789 Mtetwa - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_ferocity = 4
+
+trade_goods = unknown
+
+culture = nguni
+religion = shamanism
+capital = "Mtetwa"
+
+native_size = 50
+native_ferocity =  4
 native_hostileness = 9
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

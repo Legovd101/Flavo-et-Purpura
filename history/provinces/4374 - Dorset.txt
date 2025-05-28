@@ -1,17 +1,30 @@
-#4374 - Dorset
+# Dorset
+# 4374 Dorset - 5/27/2025 4:57:02 PM 
+ 
+add_core = RSA
+add_core = CRN
 owner = RSA
 controller = RSA
-culture = britannian
-religion = lutetian
 base_tax = 2
 base_production = 3
-trade_goods = livestock
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = britannian
+religion = lutetian
 capital = "Weymouth"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = RSA
-add_core = CRN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

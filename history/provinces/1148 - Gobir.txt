@@ -1,13 +1,26 @@
-#1148 - Gobir
+# Gobir
+# 1148 Gobir - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZZZ
 owner = ZZZ
 controller = ZZZ
-culture = hausa
-is_city = yes
-base_manpower = 3
-religion = chad_pagan
-capital = "Birnin Lalle"
-trade_goods = iron
 base_tax = 3
 base_production = 3
+base_manpower = 3
+
+trade_goods = iron
+
+culture = hausa
+religion = chad_pagan
+capital = "Birnin Lalle"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = ZZZ
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,16 +1,29 @@
-#2742 - North Hamgyeong
+# Yukjin
+# 2742 Yukjin - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = manchu
-religion = mahayana
-capital = "Gyeongwon"
-trade_goods = naval_supplies
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = manchu
+religion = mahayana
+capital = "Gyeongwon"
+
 is_city = yes
-discovered_by = chinese
-discovered_by = nomad_group
 add_local_autonomy = 60
 add_nationalism = 15
-add_core = OIR
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

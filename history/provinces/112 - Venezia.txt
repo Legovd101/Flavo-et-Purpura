@@ -1,19 +1,32 @@
-#112 - Venezia
+# Venezia
+# 112 Venezia - 5/27/2025 4:57:01 PM 
+ 
+add_core = VEN
 owner = VEN
 controller = VEN
-culture = venetian
-religion = west_orthodox
 base_tax = 7
 base_production = 7
-trade_goods = glass
 base_manpower = 2
+
+center_of_trade = 3
+trade_goods = glass
+extra_cost = 24
+
+culture = venetian
+religion = west_orthodox
 capital = "Venezia"
-is_city = yes# Estimated 
-add_core = VEN
+
+is_city = yes
+shipyard = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 24
-center_of_trade = 3
-shipyard = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

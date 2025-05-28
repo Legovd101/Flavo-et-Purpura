@@ -1,12 +1,26 @@
+# Thatshaon
+# 4996 Thatshaon - 5/27/2025 4:57:02 PM 
+ 
 add_core = RYU
 owner = RYU
+controller = RYU
 base_tax = 1
-base_manpower = 1
 base_production = 3
+base_manpower = 1
+
+
 culture = wu
 religion = confucianism
-controller = RYU
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,25 @@
-#1118 - Sierra Leone
-culture = dyola
-religion = senegambian_pagan#Fetishism
-capital = "Sherbro"
-trade_goods = unknown
+# Sierra Leone
+# 1118 Sierra Leone - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = dyola
+religion = senegambian_pagan
+capital = "Sherbro"
+
 native_size = 70
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
+
 discovered_by = sub_saharan
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

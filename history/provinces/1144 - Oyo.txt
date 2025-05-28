@@ -1,13 +1,26 @@
-#1144 - Oyo
+# Oyo
+# 1144 Oyo - 5/27/2025 4:57:01 PM 
+ 
+add_core = OYO
 owner = OYO
 controller = OYO
-add_core = OYO
-culture = yoruba
-religion = yoruba_pagan#Fetishism
-capital = "Oyo"
-is_city = yes
-base_manpower = 1
-trade_goods = grain
 base_tax = 3
 base_production = 3
+base_manpower = 1
+
+trade_goods = grain
+
+culture = yoruba
+religion = yoruba_pagan
+capital = "Oyo"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

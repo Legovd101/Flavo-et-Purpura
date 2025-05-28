@@ -1,13 +1,26 @@
-#1112 - Trarza
-is_city = yes
-culture = senegambian
-capital = "Awlil"
-religion = senegambian_pagan
-trade_goods = salt
+# Trarza
+# 1112 Trarza - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = salt
+
+culture = senegambian
+religion = senegambian_pagan
+capital = "Awlil"
+
+is_city = yes
 native_size = 50
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,21 @@
-#4258 - Onega
+# Onega
+# 4258 Onega - 5/27/2025 4:57:02 PM 
+ 
+add_core = NOV
 owner = NOV
 controller = NOV
-culture = karel
-religion = orthodox
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = karel
+religion = orthodox
 capital = "Onega"
+
 is_city = yes
-add_core = NOV
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -17,3 +23,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

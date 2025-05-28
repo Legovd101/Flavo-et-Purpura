@@ -1,14 +1,21 @@
-#254 - Notec
+# Notec
+# 2963 Notec - 5/27/2025 4:57:02 PM 
+ 
+add_core = SLO
 owner = SLO
 controller = SLO
-capital = "Naklo"
-culture = polish
-religion = orthodox
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = polish
+religion = orthodox
+capital = "Naklo"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,4 +25,10 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SLO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

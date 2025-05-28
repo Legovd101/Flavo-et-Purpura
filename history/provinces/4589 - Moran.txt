@@ -1,13 +1,26 @@
-# No previous file for Moran
+# Moran
+# 4589 Moran - 5/27/2025 4:57:02 PM 
+ 
+add_core = CTM
 owner = CTM
 controller = CTM
-culture = putun
-religion = mesoamerican_religion
-capital = "Moran"
-trade_goods = cocoa
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = cocoa
+
+culture = putun
+religion = mesoamerican_religion
+capital = "Moran"
+
 is_city = yes
-add_core = CTM
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

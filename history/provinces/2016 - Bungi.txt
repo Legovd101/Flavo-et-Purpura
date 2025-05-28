@@ -1,17 +1,30 @@
-# 2016 - Bungi = Red River Country
+# Amahami
+# 2016 Amahami - 5/27/2025 4:57:02 PM 
+ 
+add_core = ASI
 owner = ASI
 controller = ASI
-add_core = ASI
-is_city = yes
-culture = nakota
-religion = totemism
-capital = "Bungi"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = nakota
+religion = totemism
+capital = "Bungi"
+
+is_city = yes
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

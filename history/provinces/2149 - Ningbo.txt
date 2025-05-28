@@ -1,17 +1,30 @@
-# 2149 - Ningbo
+# Ningbo
+# 2149 Ningbo - 5/27/2025 4:57:02 PM 
+ 
+add_core = WUU
+add_core = UES
 owner = UES
 controller = UES
-culture = wu
-religion = confucianism
-capital = "Ningbo"
-trade_goods = naval_supplies
 base_tax = 6
 base_production = 7
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 8
+
+culture = wu
+religion = confucianism
+capital = "Ningbo"
+
 is_city = yes
-add_core = WUU
+
 discovered_by = chinese
 discovered_by = nomad_group
-extra_cost = 8
-center_of_trade = 1
-add_core = UES
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

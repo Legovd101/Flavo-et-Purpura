@@ -1,12 +1,25 @@
-#Catio
+# Catio
+# 5208 Catio - 5/27/2025 4:57:03 PM 
+ 
+add_core = BEN
+owner = BEN
+controller = BEN
 base_tax = 1
 base_production = 1
 base_manpower = 1
-capital = "Catio"
-is_city = yes
-add_core = BEN
-owner = BEN
-culture = senegambian
+
 trade_goods = ivory
+
+culture = senegambian
 religion = yoruba_pagan
-controller = BEN
+capital = "Catio"
+
+is_city = yes
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

@@ -1,11 +1,27 @@
+### Modified 5/27/2025 4:57:03 PM ###
+# Chuncheon
+# 5112 Chuncheon - 5/27/2025 4:57:03 PM 
+ 
 add_core = KOR
-owner = KOR
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+
 culture = korean
 religion = tengri_pagan_reformed
-controller = KOR
+
 is_city = yes
-base_tax = 1
-base_manpower = 3
-base_production = 2
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+

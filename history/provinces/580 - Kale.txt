@@ -1,14 +1,27 @@
-#580 - Kale
+# Kale
+# 580 Kale - 5/27/2025 4:57:01 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = chin
-religion = buddhism
-capital = "Kale"
-trade_goods = ivory
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = ivory
+
+culture = chin
+religion = buddhism
+capital = "Kale"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

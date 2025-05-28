@@ -1,23 +1,36 @@
-#213 - Barcelona
-owner = AVI#Alfons V of Aragon
-controller = AVI
+# Barcelona
+# 213 Barcelona - 5/27/2025 4:57:01 PM 
+ 
 add_core = CAT
-culture = catalan_greek
-religion = arianism
+add_core = AVI
+owner = AVI
+controller = AVI
 base_tax = 6
 base_production = 5
-trade_goods = glass
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = glass
+extra_cost = 8
+
+culture = catalan_greek
+religion = arianism
 capital = "Barcelona"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = AVI
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,27 @@
-#2398 - Thaungdut
+# Thaungdut
+# 2398 Thaungdut - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = chin
-religion = buddhism
-capital = "Thaungdut"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = chin
+religion = buddhism
+capital = "Thaungdut"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

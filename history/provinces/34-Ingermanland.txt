@@ -1,15 +1,28 @@
-#Ingermanland, incl. Ivangorod, Jama, and Kopore.
+# Ingermanland
+# 34 Ingermanland - 5/27/2025 4:57:01 PM 
+ 
+add_core = NOV
 owner = NOV
 controller = NOV
-add_core = NOV
-culture = novgorodian
-religion = orthodox
 base_tax = 3
 base_production = 3
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = novgorodian
+religion = orthodox
 capital = "Koporye"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,22 +1,35 @@
-#1749 - Cadiz
-owner = BAE#Enrique III of Castille
+# Cadiz
+# 1749 Cadiz - 5/27/2025 4:57:02 PM 
+ 
+add_core = BAE
+owner = BAE
 controller = BAE
-culture = sephardim
-religion = jewish
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
 base_tax = 5
 base_production = 4
-trade_goods = naval_supplies
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 8
+
+culture = sephardim
+religion = jewish
 capital = "Cadiz"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-extra_cost = 8
-center_of_trade = 1
-add_core = BAE
+
+
+
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

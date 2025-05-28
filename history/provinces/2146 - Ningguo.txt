@@ -1,15 +1,28 @@
-# 2144 - Ningguo
+# Ningko
+# 2146 Ningko - 5/27/2025 4:57:02 PM 
+ 
+add_core = KIC
 owner = KIC
 controller = KIC
-culture = huizhou_culture
-religion = nestorian
-capital = "Ningguo"
-trade_goods = paper
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = paper
+
+culture = huizhou_culture
+religion = nestorian
+capital = "Ningguo"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = KIC
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

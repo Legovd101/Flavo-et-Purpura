@@ -1,14 +1,27 @@
-# 2187 - Sartu
+# Sartu
+# 2187 Sartu - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = chahar
-religion = tengri_pagan_reformed
-capital = "Sartu"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 3
+
+trade_goods = livestock
+
+culture = chahar
+religion = tengri_pagan_reformed
+capital = "Sartu"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

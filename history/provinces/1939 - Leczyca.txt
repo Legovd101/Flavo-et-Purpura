@@ -1,14 +1,21 @@
-#Leczyca
+# Leczyca
+# 1939 Leczyca - 5/27/2025 4:57:02 PM 
+ 
+add_core = KRA
 owner = KRA
 controller = KRA
-capital = "Leczyca"
-culture = polish
-religion = orthodox
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = grain
+
+culture = polish
+religion = orthodox
+capital = "Leczyca"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,4 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = KRA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

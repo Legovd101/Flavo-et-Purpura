@@ -1,17 +1,29 @@
-#4371 - Sussex
+# Sussex
+# 4371 Sussex - 5/27/2025 4:57:02 PM 
+ 
+add_core = BRY
 owner = BRY
-set_province_flag = support_hungary
 controller = BRY
-culture = kentish
-religion = lutetian
 base_tax = 4
 base_production = 4
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = kentish
+religion = lutetian
 capital = "Hastings"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = BRY
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

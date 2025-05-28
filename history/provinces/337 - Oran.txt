@@ -1,20 +1,33 @@
-#337 - Oran
+# Oran
+# 337 Oran - 5/27/2025 4:57:01 PM 
+ 
+add_core = MUR
 owner = MUR
 controller = MUR
-culture = gaetuli
-religion = lutetian
-capital = "Oran"
-trade_goods = cloth
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = cloth
+
+culture = gaetuli
+religion = lutetian
+capital = "Oran"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = MUR
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

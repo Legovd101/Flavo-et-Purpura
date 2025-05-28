@@ -1,17 +1,29 @@
-#46 - Rostock
+# Rostock
+# 46 Rostock - 5/27/2025 4:57:01 PM 
+ 
+add_core = ENG
 owner = ENG
 controller = ENG
-culture = pommeranian
-religion = arianism
-
 base_tax = 4
 base_production = 4
-trade_goods = naval_supplies
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = pommeranian
+religion = arianism
 capital = "Rostock"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = ENG
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

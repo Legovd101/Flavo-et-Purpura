@@ -1,14 +1,26 @@
-#898 - Kansas
-culture = pawnee#Old plains people
-religion = totemism
-capital = "Kansas"
-trade_goods = unknown
+# Kanza
+# 898 Kanza - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = pawnee
+religion = totemism
+capital = "Kansas"
+
 native_size = 30
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 9
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

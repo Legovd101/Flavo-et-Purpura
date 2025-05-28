@@ -1,16 +1,29 @@
-#1133 - Gao
+# Gao
+# 1133 Gao - 5/27/2025 4:57:01 PM 
+ 
+add_core = TMB
 owner = TMB
 controller = TMB
-culture = songhai
-is_city = yes
-base_manpower = 2
-religion = mauri_pagan
-capital = "Gao"
-trade_goods = cloth
 base_tax = 7
 base_production = 7
-discovered_by = sub_saharan
-extra_cost = 8
+base_manpower = 2
+
 center_of_trade = 1
-add_core = TMB
+trade_goods = cloth
+extra_cost = 8
+
+culture = songhai
+religion = mauri_pagan
+capital = "Gao"
+
+is_city = yes
 fort_15th = yes
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

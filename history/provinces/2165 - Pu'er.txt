@@ -1,15 +1,28 @@
-# 2165 - Pu'er
+# Pu'er
+# 2165 Pu'er - 5/27/2025 4:57:02 PM 
+ 
+add_core = CDL
 owner = CDL
 controller = CDL
-culture = bai
-religion = buddhism
-capital = "Pu'er"
-trade_goods = tea
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = tea
+
+culture = bai
+religion = buddhism
+capital = "Pu'er"
+
 is_city = yes
-add_core = CDL
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

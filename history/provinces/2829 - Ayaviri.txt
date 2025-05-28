@@ -1,14 +1,27 @@
-# - Ayaviri
+# Ayaviri
+# 2829 Ayaviri - 5/27/2025 4:57:02 PM 
+ 
+add_core = CSU
 owner = CSU
 controller = CSU
-add_core = CSU
-culture = aimara
-religion = inti
-capital = "Ayaviri"
-is_city = yes
-trade_goods = wool
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = wool
+
+culture = aimara
+religion = inti
+capital = "Ayaviri"
+
+is_city = yes
+
 discovered_by = south_american
 discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

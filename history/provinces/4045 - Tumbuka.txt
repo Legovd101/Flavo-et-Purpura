@@ -1,13 +1,26 @@
-#Tumbuka
+# Tumbuka
+# 4045 Tumbuka - 5/27/2025 4:57:02 PM 
+ 
+add_core = TBK
 owner = TBK
 controller = TBK
-add_core = TBK
-culture = nyasa
-religion = swahili_pagan#Fetishism
-capital = "Kasungu"
-is_city = yes
-base_manpower = 2
-trade_goods = gems
 base_tax = 2
 base_production = 2
+base_manpower = 2
+
+trade_goods = gems
+
+culture = nyasa
+religion = swahili_pagan
+capital = "Kasungu"
+
+is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

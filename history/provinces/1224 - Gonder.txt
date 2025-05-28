@@ -1,18 +1,31 @@
-#1224 - Gonder
+# Gonder
+# 1224 Gonder - 5/27/2025 4:57:01 PM 
+ 
+add_core = ETH
 owner = ETH
 controller = ETH
-add_core = ETH
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+center_of_trade = 2
+trade_goods = grain
+extra_cost = 16
+
 culture = amhara
 religion = coptic
 capital = "Gondar"
+
 is_city = yes
-base_manpower = 2
-trade_goods = grain
-base_tax = 4
-base_production = 4
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

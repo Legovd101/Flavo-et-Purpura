@@ -1,16 +1,29 @@
-# 2137 - Daming
+# Daming
+# 2137 Daming - 5/27/2025 4:57:02 PM 
+ 
+add_core = YAN
+add_core = CZH
 owner = CZH
 controller = CZH
-culture = chihan
-religion = confucianism
-capital = "Daming"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = chihan
+religion = confucianism
+capital = "Daming"
+
+hre = yes
 is_city = yes
-add_core = YAN
+
 discovered_by = chinese
 discovered_by = nomad_group
-hre = yes
-add_core = CZH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,27 @@
-# No previous file for Natahende
-culture = mescalero
-religion = totemism
-capital = "Natahéndé"
-trade_goods = unknown
+# Natahéndé
+# 4630 Natahéndé - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = mescalero
+religion = totemism
+capital = "Natahéndé"
+
 native_size = 10
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
 tribal_owner = MSC
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,13 +1,26 @@
-#Cherdyn
-capital = "Cherdyn"
-culture = uralic
-religion = tengri_pagan_reformed#Sami Shamanism
-trade_goods = salt
+# Cherdyn
+# 1963 Cherdyn - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = salt
+extra_cost = 8
+
+culture = uralic
+religion = tengri_pagan_reformed
+capital = "Cherdyn"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = nomad_group
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

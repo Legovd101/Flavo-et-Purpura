@@ -1,17 +1,30 @@
-# No previous file for Sokoki
+# Sokoki
+# 2564 Sokoki - 5/27/2025 4:57:02 PM 
+ 
+add_core = ABE
 owner = ABE
 controller = ABE
-add_core = ABE
-is_city = yes
-culture = abenaki
-religion = totemism
-capital = "Sokoki"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = abenaki
+religion = totemism
+capital = "Sokoki"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

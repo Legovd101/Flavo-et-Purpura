@@ -1,14 +1,20 @@
-#635 - West Timor
-culture = nusa_tenggara
-religion = animism
-capital = "Lifau"
-trade_goods = unknown
+# West Timor
+# 635 West Timor - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = unknown
+
+culture = nusa_tenggara
+religion = animism
+capital = "Lifau"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = ATJ
 discovered_by = MAJ
 discovered_by = MKS
@@ -32,4 +38,10 @@ discovered_by = LUW
 discovered_by = MGD
 discovered_by = TER
 discovered_by = TID
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

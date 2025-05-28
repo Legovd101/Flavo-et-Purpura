@@ -1,16 +1,29 @@
-#1151 - Bonny
+# Bonny
+# 1151 Bonny - 5/27/2025 4:57:01 PM 
+ 
+add_core = WRR
 owner = WRR
 controller = WRR
-is_city = yes
-culture = ijo
-religion = yoruba_pagan#Fetishism
-capital = "Bonny"
-trade_goods = slaves
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = slaves
+
+culture = ijo
+religion = yoruba_pagan
+capital = "Bonny"
+
+is_city = yes
 native_size = 50
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
+
 discovered_by = sub_saharan
-add_core = WRR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

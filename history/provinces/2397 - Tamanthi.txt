@@ -1,14 +1,27 @@
-#2397 - Tamanthi
+# Tamanthi
+# 2397 Tamanthi - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = shan
-religion = buddhism
-capital = "Tamanthi"
-trade_goods = tea
 base_tax = 1
 base_production = 2
 base_manpower = 1
+
+trade_goods = tea
+
+culture = shan
+religion = buddhism
+capital = "Tamanthi"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:34:44 ###
 # Kanker
-# 4445 Kanker - 31-03-2025 11:34:44 
+# 4445 Kanker - 5/27/2025 4:57:02 PM 
  
 add_core = PAN
 owner = PAN
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

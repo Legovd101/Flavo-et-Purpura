@@ -1,15 +1,28 @@
-#702 - Ulanqab
+# Hohhot
+# 702 Hohhot - 5/27/2025 4:57:01 PM 
+ 
+add_core = KHA
+add_core = SIN
 owner = SIN
 controller = SIN
-culture = mongol
-religion = nestorian
-capital = "Hohhot"
-trade_goods = iron
 base_tax = 4
 base_production = 4
 base_manpower = 4
+
+trade_goods = iron
+
+culture = mongol
+religion = nestorian
+capital = "Hohhot"
+
 is_city = yes
-add_core = KHA
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SIN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

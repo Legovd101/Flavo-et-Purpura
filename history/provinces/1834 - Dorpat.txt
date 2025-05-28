@@ -1,15 +1,22 @@
-#Dorpat
+# Dorpat
+# 1834 Dorpat - 5/27/2025 4:57:02 PM 
+ 
+add_core = LIT
+add_core = STM
 owner = LIT
 controller = LIT
-add_core = LIT
-culture = seto
-religion = seto_pagan
 base_tax = 3
 base_production = 3
-trade_goods = naval_supplies
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = seto
+religion = seto_pagan
 capital = "Dorpat"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -17,4 +24,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-add_core = STM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

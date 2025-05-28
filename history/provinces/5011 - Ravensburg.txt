@@ -1,20 +1,34 @@
+# Ravensburg
+# 5011 Ravensburg - 5/27/2025 4:57:02 PM 
+ 
+add_core = SWI
 owner = SWI
 controller = SWI
-capital = "Ravensburg"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = thuringian
-religion = arianism
 base_tax = 6
 base_production = 6
 base_manpower = 1
-trade_goods = cloth
+
 center_of_trade = 1
+trade_goods = cloth
+
+culture = thuringian
+religion = arianism
+capital = "Ravensburg"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SWI
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

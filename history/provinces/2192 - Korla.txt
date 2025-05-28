@@ -1,6 +1,5 @@
-### Modified 01-04-2025 21:54:10 ###
 # Korla
-# 2192 Korla - 01-04-2025 21:54:10 
+# 2192 Korla - 5/27/2025 4:57:02 PM 
  
 add_core = TCR
 owner = TCR
@@ -25,3 +24,4 @@ discovered_by = nomad_group
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

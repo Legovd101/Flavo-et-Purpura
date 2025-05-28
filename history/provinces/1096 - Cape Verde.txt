@@ -1,11 +1,20 @@
-#1096 - Cape Verde
-capital = "Cape Verde"
-trade_goods = unknown
+# Cape Verde
+# 1096 Cape Verde - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
-is_city = no
+
+trade_goods = unknown
+
 religion = senegambian_pagan
+capital = "Cape Verde"
+
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,27 @@
-#892 - Wichita
-culture = wichita
-religion = totemism
-capital = "Wichita"
-trade_goods = unknown
+# Kitkit'ish
+# 892 Kitkit'ish - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = wichita
+religion = totemism
+capital = "Wichita"
+
 native_size = 20
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 8
 tribal_owner = WIC
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

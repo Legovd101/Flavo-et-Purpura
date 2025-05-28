@@ -1,13 +1,26 @@
-#Rwanda
+# Nduga
+# 4067 Nduga - 5/27/2025 4:57:02 PM 
+ 
+add_core = RWA
 owner = RWA
 controller = RWA
-add_core = RWA
-culture = rwandan
-religion = shamanism#Fetishism
-capital = "Nduga"
-trade_goods = iron
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = iron
+
+culture = rwandan
+religion = shamanism
+capital = "Nduga"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

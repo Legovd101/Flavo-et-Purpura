@@ -1,13 +1,25 @@
-#1088 - Wergaia
-culture = kulin
-religion = dreamtime
-capital = "Wergaia"
-trade_goods = unknown
+# Wergaia
+# 1088 Wergaia - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = kulin
+religion = dreamtime
+capital = "Wergaia"
+
 native_size = 10
-native_ferocity = 7
+native_ferocity =  7
 native_hostileness = 5
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

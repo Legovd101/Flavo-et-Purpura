@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:31:13 ###
 # Cannanore
-# 4413 Cannanore - 31-03-2025 16:31:13 
+# 4413 Cannanore - 5/27/2025 4:57:02 PM 
  
 add_core = VND
 owner = VND
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

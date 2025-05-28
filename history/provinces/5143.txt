@@ -1,12 +1,26 @@
+# Xing'an
+# 5143 Xing'an - 5/27/2025 4:57:03 PM 
+ 
 add_core = CGS
 owner = CGS
+controller = CGS
 base_tax = 1
-base_manpower = 3
 base_production = 2
+base_manpower = 3
+
+
 culture = xibei
 religion = nestorian
-controller = CGS
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

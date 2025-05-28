@@ -1,5 +1,17 @@
-#High Atlas
+# Aures
+# 4169 Aures - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

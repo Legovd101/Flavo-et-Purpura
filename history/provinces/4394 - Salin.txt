@@ -1,14 +1,27 @@
-#4394 - Salin
+# Salin
+# 4394 Salin - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = burmese
-religion = buddhism
-capital = "Salin"
-trade_goods = grain
 base_tax = 3
 base_production = 2
 base_manpower = 3
+
+trade_goods = grain
+
+culture = burmese
+religion = buddhism
+capital = "Salin"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

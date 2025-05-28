@@ -1,12 +1,24 @@
-#1174 - Angra Pequena
-culture = khoisan
-religion = shamanism#Fetishism
-capital = "Walvis Bay"
-trade_goods = unknown
+# Ezorongondo
+# 1174 Ezorongondo - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = khoisan
+religion = shamanism
+capital = "Walvis Bay"
+
 native_size = 40
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

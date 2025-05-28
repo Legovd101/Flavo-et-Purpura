@@ -1,17 +1,30 @@
-#886 - Waco
+# Waco
+# 886 Waco - 5/27/2025 4:57:01 PM 
+ 
+add_core = WIC
 owner = WIC
 controller = WIC
-add_core = WIC
-culture = wichita
-religion = totemism
-capital = "Waco"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = wichita
+religion = totemism
+capital = "Waco"
+
 is_city = yes
 native_size = 6
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 8
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,18 +1,30 @@
-# 93 Liège - Principal cities: Liège & Namur
+# Liege
+# 93 Liege - 5/27/2025 4:57:01 PM 
+ 
+add_core = TRI
 owner = TRI
 controller = TRI
-capital = "Liège"
-is_city = yes
-culture = burgundii
-religion = arianism
-
 base_tax = 6
 base_production = 6
-trade_goods = glass
 base_manpower = 3
+
+trade_goods = glass
+
+culture = burgundii
+religion = arianism
+capital = "Liège"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = TRI
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

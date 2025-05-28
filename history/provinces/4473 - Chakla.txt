@@ -1,6 +1,5 @@
-### Modified 31-03-2025 10:53:53 ###
 # Chakla
-# 4473 Chakla - 31-03-2025 10:53:53 
+# 4473 Chakla - 5/27/2025 4:57:02 PM 
  
 add_core = BNG
 add_core = TPR
@@ -27,3 +26,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

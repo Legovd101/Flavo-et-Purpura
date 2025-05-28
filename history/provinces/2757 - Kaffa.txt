@@ -1,14 +1,27 @@
-#2757 - Kaffa
+# Kaffa
+# 2757 Kaffa - 5/27/2025 4:57:02 PM 
+ 
+add_core = DAM
 owner = DAM
 controller = DAM
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = gold
+
 culture = sidamo
 religion = waaqeffanna
 capital = "Anderaccha"
+
 is_city = yes
-base_manpower = 4
-trade_goods = gold
-base_tax = 4
-base_production = 3
+
 discovered_by = east_african
 discovered_by = muslim
-add_core = DAM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

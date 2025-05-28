@@ -1,14 +1,27 @@
-#719 - Sayin Noyan
-owner = OIR# The Oirads united much of Mongolia
-controller = OIR
+# Uliastai
+# 719 Uliastai - 5/27/2025 4:57:01 PM 
+ 
 add_core = OIR
-culture = khalkha
-religion = tengri_pagan_reformed
-capital = "Uliastai"
-trade_goods = wool
+owner = OIR
+controller = OIR
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = wool
+
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Uliastai"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

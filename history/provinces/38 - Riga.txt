@@ -1,23 +1,36 @@
-#Riga Bight, incl. the city of Riga, and Dünamünde.
+# Riga
+# 38 Riga - 5/27/2025 4:57:01 PM 
+ 
+add_core = EST
 owner = EST
 controller = EST
-culture = estonian
-religion = orthodox
 base_tax = 5
 base_production = 5
-trade_goods = naval_supplies
 base_manpower = 1
-capital = "Riga"
-is_city = yes
-extra_cost = 18
+
 center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 18
+
+culture = estonian
+religion = orthodox
+capital = "Riga"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_permanent_province_modifier = { 
+
+
+
+add_permanent_province_modifier = {
 	name = daugava_estuary_modifier
 	duration = -1
 }
-add_core = EST
-fort_15th = yes
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

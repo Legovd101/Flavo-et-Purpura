@@ -1,23 +1,36 @@
-# 4385 Cotentin Peninsula - Principal cities: Cherbourg, Avranches
+# Cotentin
+# 4385 Cotentin - 5/27/2025 4:57:02 PM 
+ 
+add_core = NRM
+add_core = GLL
 owner = GLL
 controller = GLL
-capital = "Cherbourg"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = armorican
-religion = lutetian
 base_tax = 4
 base_production = 4
-trade_goods = naval_supplies
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = naval_supplies
+extra_cost = 8
+
+culture = armorican
+religion = lutetian
+capital = "Cherbourg"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = NRM
-extra_cost = 8
-center_of_trade = 1
-add_core = GLL
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

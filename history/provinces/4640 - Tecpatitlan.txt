@@ -1,16 +1,28 @@
-# No previous file for Tecpatitlan
-culture = tepic
-religion = nahuatl
+# Tecpatitlan
+# 4640 Tecpatitlan - 5/27/2025 4:57:02 PM 
+ 
+add_core = TON
 owner = TON
 controller = TON
-add_core = TON
-capital = "Tonala"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = tepic
+religion = nahuatl
+capital = "Tonala"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

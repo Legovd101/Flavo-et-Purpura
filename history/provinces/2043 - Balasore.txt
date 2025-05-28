@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:27:44 ###
 # Balasore
-# 2043 Balasore - 31-03-2025 11:27:44 
+# 2043 Balasore - 5/27/2025 4:57:02 PM 
  
 add_core = ORI
 owner = ORI
@@ -29,3 +28,4 @@ discovered_by = ottoman
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

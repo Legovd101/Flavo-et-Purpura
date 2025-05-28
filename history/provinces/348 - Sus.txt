@@ -1,17 +1,30 @@
-#348 - Sus
+# Sus
+# 348 Sus - 5/27/2025 4:57:01 PM 
+ 
+add_core = SOS
+add_core = TFL
+add_core = GAE
 owner = GAE
 controller = GAE
-culture = gaetuli
-religion = mauri_pagan
-capital = "Taroudant"
-trade_goods = sugar
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+trade_goods = sugar
+
+culture = gaetuli
+religion = mauri_pagan
+capital = "Taroudant"
+
 is_city = yes
-add_core = SOS
-add_core = TFL
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GAE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

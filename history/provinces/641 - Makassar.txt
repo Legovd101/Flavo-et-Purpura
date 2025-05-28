@@ -1,18 +1,31 @@
-#641 - Makassar
+# Makassar
+# 641 Makassar - 5/27/2025 4:57:01 PM 
+ 
+add_core = MKS
 owner = MKS
 controller = MKS
-culture = sulawesi
-religion = animism
-capital = "Makassar"
-trade_goods = spices
 base_tax = 5
 base_production = 6
 base_manpower = 3
+
+center_of_trade = 2
+trade_goods = spices
+extra_cost = 16
+
+culture = sulawesi
+religion = animism
+capital = "Makassar"
+
 is_city = yes
-add_core = MKS
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

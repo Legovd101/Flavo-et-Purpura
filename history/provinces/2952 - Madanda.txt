@@ -1,14 +1,27 @@
-# - Madanda
+# Madanda
+# 2952 Madanda - 5/27/2025 4:57:02 PM 
+ 
+add_core = ZIM
 owner = ZIM
 controller = ZIM
-add_core = ZIM
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = ivory
+
 culture = shona
 religion = swahili_pagan
 capital = "Madanda"
+
 is_city = yes
-base_manpower = 1
-trade_goods = ivory
-base_tax = 1
-base_production = 1
+
 discovered_by = east_african
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,12 +1,23 @@
-#366 - The Canarias
-culture = gaetuli
-religion = mauri_pagan
-capital = "Las Palmas"
-trade_goods = unknown
+# Gran Canaria
+# 366 Gran Canaria - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = gaetuli
+religion = mauri_pagan
+capital = "Las Palmas"
+
 native_size = 5
-native_ferocity = 1
-native_hostileness = 0
-is_city = no
+native_ferocity =  1
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

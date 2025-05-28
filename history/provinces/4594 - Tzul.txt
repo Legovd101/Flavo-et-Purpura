@@ -1,13 +1,26 @@
-# No previous file for Tzul
+# Tzul
+# 4594 Tzul - 5/27/2025 4:57:02 PM 
+ 
+add_core = ITZ
 owner = ITZ
 controller = ITZ
-culture = putun
-religion = mesoamerican_religion
-capital = "Tute"
-trade_goods = cocoa
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = cocoa
+
+culture = putun
+religion = mesoamerican_religion
+capital = "Tute"
+
 is_city = yes
-add_core = ITZ
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

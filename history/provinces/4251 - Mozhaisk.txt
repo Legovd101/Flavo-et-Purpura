@@ -1,18 +1,31 @@
-#4251 - Mozhaisk
+# Mozhaisk
+# 4251 Mozhaisk - 5/27/2025 4:57:02 PM 
+ 
+add_core = SMO
 owner = SMO
 controller = SMO
-culture = russian
-religion = orthodox
 base_tax = 3
 base_production = 3
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = russian
+religion = orthodox
 capital = "Mozhaisk"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = nomad_group
-add_core = SMO
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

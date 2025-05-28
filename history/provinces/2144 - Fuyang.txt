@@ -1,15 +1,28 @@
-# 2144 - Fuyang
+# Yingzhou
+# 2144 Yingzhou - 5/27/2025 4:57:02 PM 
+ 
+add_core = CZH
 owner = CZH
 controller = CZH
-culture = zhongyuan
-religion = confucianism
-capital = "Fuyang"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = zhongyuan
+religion = confucianism
+capital = "Fuyang"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CZH
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

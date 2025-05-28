@@ -1,6 +1,5 @@
-### Modified 31-03-2025 14:53:29 ###
 # Gingee
-# 1947 Gingee - 31-03-2025 14:53:29 
+# 1947 Gingee - 5/27/2025 4:57:02 PM 
  
 add_core = KRK
 add_core = GNG
@@ -32,3 +31,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

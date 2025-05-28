@@ -1,12 +1,26 @@
+# Songye
+# 4090 Songye - 5/27/2025 4:57:02 PM 
+ 
+add_core = KLD
 owner = KLD
 controller = KLD
-add_core = KLD
-culture = luba
-religion = shamanism#Fetishism
-capital = "Songye"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = luba
+religion = shamanism
+capital = "Songye"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

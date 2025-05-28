@@ -1,13 +1,25 @@
-#2733 - Baiali
-culture = paman
-religion = dreamtime
-capital = "Baiali"
-trade_goods = unknown
+# Baiali
+# 2733 Baiali - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = paman
+religion = dreamtime
+capital = "Baiali"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

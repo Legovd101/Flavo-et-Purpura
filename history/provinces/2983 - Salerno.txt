@@ -1,16 +1,29 @@
-# - Salerno
+# Salerno
+# 2983 Salerno - 5/27/2025 4:57:02 PM 
+ 
+add_core = BUL
 owner = BUL
 controller = BUL
-culture = salernian
-religion = west_orthodox
 base_tax = 5
 base_production = 1
-trade_goods = fish
 base_manpower = 4
+
+trade_goods = fish
+
+culture = salernian
+religion = west_orthodox
 capital = "Salerno"
-is_city = yes# Estimated
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BUL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,31 @@
-#308 - Yaroslavl
+# Yaroslavl
+# 308 Yaroslavl - 5/27/2025 4:57:01 PM 
+ 
+add_core = YAR
 owner = YAR
 controller = YAR
-culture = russian
-religion = orthodox
 base_tax = 4
 base_production = 4
-trade_goods = livestock
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = livestock
+extra_cost = 8
+
+culture = russian
+religion = orthodox
 capital = "Yaroslavl"
+
 is_city = yes
-add_core = YAR
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-extra_cost = 8
-center_of_trade = 1
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

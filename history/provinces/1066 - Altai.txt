@@ -1,15 +1,28 @@
-#1066 - Altai
+# Altai Uriankhai
+# 1066 Altai Uriankhai - 5/27/2025 4:57:01 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-add_core = OIR
-culture = buryat
-religion = tengri_pagan_reformed
-capital = "Altai Uriankhai"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = buryat
+religion = tengri_pagan_reformed
+capital = "Altai Uriankhai"
+
 is_city = yes
+
 discovered_by = nomad_group
 discovered_by = OIR
 discovered_by = KHA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

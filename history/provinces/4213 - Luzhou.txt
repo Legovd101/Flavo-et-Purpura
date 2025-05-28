@@ -1,16 +1,29 @@
-#4213 - Luzhou
+# Luzhou
+# 4213 Luzhou - 5/27/2025 4:57:02 PM 
+ 
+add_core = CXI
+add_core = SHU
+add_core = CDL
 owner = CDL
 controller = CDL
-culture = yi
-religion = nestorian
-capital = "Luzhou"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = grain
+
+culture = yi
+religion = nestorian
+capital = "Luzhou"
+
 is_city = yes
-add_core = CXI
-add_core = SHU
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CDL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

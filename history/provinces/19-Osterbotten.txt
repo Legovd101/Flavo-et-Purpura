@@ -1,16 +1,28 @@
-#Österbotten, down to Vasa.
-owner = SWE
-controller = SWE
+# Österbotten
+# 19 Österbotten - 5/27/2025 4:57:01 PM 
+ 
 add_core = SWE
 add_core = KVE
-culture = kven
-religion = finnish_pagan
+owner = SWE
+controller = SWE
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = kven
+religion = finnish_pagan
 capital = "Korsholm"
+
 is_city = yes
-#fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

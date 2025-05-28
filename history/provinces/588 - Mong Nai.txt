@@ -1,14 +1,27 @@
-#588 - Mong Nai
+# Mong Nai
+# 588 Mong Nai - 5/27/2025 4:57:01 PM 
+ 
+add_core = LNA
 owner = LNA
 controller = LNA
-culture = shan
-religion = buddhism
-capital = "Mong Nai"
-trade_goods = cotton
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = cotton
+
+culture = shan
+religion = buddhism
+capital = "Mong Nai"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = LNA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,16 +1,29 @@
-# 2245 - Wagadu
+# Wagadu
+# 2245 Wagadu - 5/27/2025 4:57:02 PM 
+ 
+add_core = SOF
 owner = SOF
 controller = SOF
-is_city = yes
-culture = soninke
-religion = soninke_pagan#Fetishism
-capital = "Dia"
-trade_goods = wool
 base_tax = 2
 base_production = 2
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
+
+trade_goods = wool
+
+culture = soninke
+religion = soninke_pagan
+capital = "Dia"
+
+is_city = yes
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = sub_saharan
-add_core = SOF
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:31:54 ###
 # Chandragiri
-# 4420 Chandragiri - 31-03-2025 16:31:54 
+# 4420 Chandragiri - 5/27/2025 4:57:02 PM 
  
 add_core = KRK
 add_core = YOR
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

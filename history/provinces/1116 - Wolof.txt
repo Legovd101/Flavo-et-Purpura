@@ -1,13 +1,26 @@
-#1116 - Wolof
+# Wolof
+# 1116 Wolof - 5/27/2025 4:57:01 PM 
+ 
+add_core = JOL
 owner = JOL
 controller = JOL
-culture = senegambian
-is_city = yes
-base_manpower = 2
-religion = senegambian_pagan#Fetishism
-capital = "Jowol"
-trade_goods = slaves
 base_tax = 3
 base_production = 3
-add_core = JOL
+base_manpower = 2
+
+trade_goods = slaves
+
+culture = senegambian
+religion = senegambian_pagan
+capital = "Jowol"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

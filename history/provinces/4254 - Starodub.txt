@@ -1,18 +1,31 @@
-#4254 - Starodub
+# Starodub
+# 4254 Starodub - 5/27/2025 4:57:02 PM 
+ 
+add_core = NZH
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = russian
-religion = orthodox
 base_tax = 3
 base_production = 2
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = russian
+religion = orthodox
 capital = "Starodub"
+
 is_city = yes
-add_core = NZH
+
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

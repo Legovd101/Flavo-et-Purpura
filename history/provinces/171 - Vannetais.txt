@@ -1,20 +1,33 @@
-# 171 - Vannetais
+# Vannetais
+# 171 Vannetais - 5/27/2025 4:57:01 PM 
+ 
+add_core = BRI
 owner = BRI
 controller = BRI
-capital = "Vannes"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = armorican
-religion = lutetian
 base_tax = 3
 base_production = 3
-trade_goods = fish
 base_manpower = 3
+
+trade_goods = fish
+
+culture = armorican
+religion = lutetian
+capital = "Vannes"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BRI
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

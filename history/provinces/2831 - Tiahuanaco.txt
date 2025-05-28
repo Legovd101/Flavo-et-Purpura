@@ -1,14 +1,27 @@
-# - Tiahuanoco
+# Tiahuanaco
+# 2831 Tiahuanaco - 5/27/2025 4:57:02 PM 
+ 
+add_core = PCJ
 owner = PCJ
 controller = PCJ
-add_core = PCJ
-culture = aimara
-religion = inti
-capital = "Tiahuanoco"
-is_city = yes
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = aimara
+religion = inti
+capital = "Tiahuanoco"
+
+is_city = yes
+
 discovered_by = south_american
 discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

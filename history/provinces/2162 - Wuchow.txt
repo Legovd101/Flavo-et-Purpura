@@ -1,16 +1,30 @@
-# 2162 - Ngchow
-owner = YUE
-controller = YUE
-culture = ping_culture
-religion = confucianism
-capital = "Ngchow"
-trade_goods = copper
+### Modified 5/27/2025 4:57:02 PM ###
+# Ngchow
+# 2162 Ngchow - 5/27/2025 4:57:02 PM 
+ 
+add_core = KWS
+add_core = KWS
+owner = KWS
+controller = KWS
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = copper
+
+culture = ping_culture
+religion = confucianism
+capital = "Ngchow"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
-add_core = YUE
-hre = yes
+
+
+
+
+
+

@@ -1,9 +1,23 @@
+# Qingniwa
+# 5136 Qingniwa - 5/27/2025 4:57:03 PM 
+ 
 add_core = OIR
 owner = OIR
+controller = OIR
 base_tax = 2
-base_manpower = 4
 base_production = 1
+base_manpower = 4
+
+
 culture = shandong_culture
 religion = nestorian
-controller = OIR
+
 is_city = yes
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

@@ -1,15 +1,28 @@
-#685 - Huai'an (can't change file name)
+# Yangzhou
+# 685 Yangzhou - 5/27/2025 4:57:01 PM 
+ 
+add_core = LNG
 owner = LNG
 controller = LNG
-culture = jianghuai
-religion = confucianism
-capital = "Yangzhou"
-trade_goods = salt
 base_tax = 2
 base_production = 3
 base_manpower = 4
+
+trade_goods = salt
+
+culture = jianghuai
+religion = confucianism
+capital = "Yangzhou"
+
+hre = yes
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = LNG
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

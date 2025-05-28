@@ -1,22 +1,35 @@
-# 197 Roussillon - Principal cities: Perpignan
+# Roussillon
+# 197 Roussillon - 5/27/2025 4:57:01 PM 
+ 
+add_core = CAT
+add_core = AVI
 owner = AVI
 controller = AVI
-add_core = CAT
-capital = "Perpignan"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = gallic_greek
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = wine
 base_manpower = 2
+
+trade_goods = wine
+
+culture = gallic_greek
+religion = arianism
+capital = "Perpignan"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = AVI
-fort_15th = yes
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

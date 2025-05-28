@@ -1,16 +1,29 @@
-#1136 - Gurma
+# Gurma
+# 1136 Gurma - 5/27/2025 4:57:01 PM 
+ 
+add_core = GUR
 owner = GUR
 controller = GUR
-is_city = yes
-culture = gurma#mossi
-religion = dahomey_pagan#Fetishism
-capital = "Bilanga"
-trade_goods = ivory
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = ivory
+
+culture = gurma
+religion = dahomey_pagan
+capital = "Bilanga"
+
+is_city = yes
 native_size = 40
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
+
 discovered_by = sub_saharan
-add_core = GUR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

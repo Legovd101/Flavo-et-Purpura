@@ -1,13 +1,26 @@
-#1106 - Te Tai Tokerau
+# Te Tai Tokerau
+# 1106 Te Tai Tokerau - 5/27/2025 4:57:01 PM 
+ 
 add_core = TTT
 owner = TTT
 controller = TTT
-culture = maori
-religion = animism
-capital = "Whangarei"
-is_city = yes
-trade_goods = tropical_wood
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = tropical_wood
+
+culture = maori
+religion = animism
+capital = "Whangarei"
+
+is_city = yes
+
 discovered_by = polynesian_tech
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

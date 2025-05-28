@@ -1,13 +1,26 @@
-# No previous file for Karabara
+# Karabara
+# 2262 Karabara - 5/27/2025 4:57:02 PM 
+ 
+add_core = TMB
 owner = TMB
 controller = TMB
-is_city = yes
-culture = songhai
-religion = mauri_pagan
-capital = "Karabara"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = fish
+
+culture = songhai
+religion = mauri_pagan
+capital = "Karabara"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = TMB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

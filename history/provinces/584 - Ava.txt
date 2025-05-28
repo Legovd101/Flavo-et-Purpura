@@ -1,17 +1,30 @@
-#584 - Ava
+# Ava
+# 584 Ava - 5/27/2025 4:57:01 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = burmese
-religion = buddhism
-capital = "Ava"
-trade_goods = gems#Burmese Emerald/Myanmar Jade
 base_tax = 6
 base_production = 6
 base_manpower = 4
+
+center_of_trade = 2
+trade_goods = gems
+extra_cost = 16
+
+culture = burmese
+religion = buddhism
+capital = "Ava"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = indian
-extra_cost = 16
-center_of_trade = 2
-add_core = BPR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

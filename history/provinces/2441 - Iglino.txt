@@ -1,15 +1,27 @@
-#2441 - Iglino
+# Iglino
+# 2441 Iglino - 5/27/2025 4:57:02 PM 
+ 
+add_core = SIB
+add_core = GLH
 owner = GLH
 controller = GLH
-capital = "Iglino"
-culture = bashkir
-religion = tengri_pagan_reformed
-trade_goods = fur
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = fur
+
+culture = bashkir
+religion = tengri_pagan_reformed
+capital = "Iglino"
+
 is_city = yes
-add_core = SIB
+
 discovered_by = nomad_group
-unrest = 15
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

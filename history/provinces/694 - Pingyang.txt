@@ -1,15 +1,28 @@
-#694 - Luzhou
+# Pingyang
+# 694 Pingyang - 5/27/2025 4:57:01 PM 
+ 
+add_core = JIN
 owner = JIN
 controller = JIN
-culture = jin
-religion = nestorian
-capital = "Pingyang"
-trade_goods = iron
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = iron
+
+culture = jin
+religion = nestorian
+capital = "Pingyang"
+
+hre = yes
 is_city = yes
-add_core = JIN
+
 discovered_by = chinese
 discovered_by = nomad_group
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

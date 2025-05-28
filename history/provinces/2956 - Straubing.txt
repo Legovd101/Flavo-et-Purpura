@@ -1,18 +1,29 @@
-#64 - Straubing
+# Straubing
+# 2956 Straubing - 5/27/2025 4:57:02 PM 
+ 
+add_core = BAV
 owner = BAV
 controller = BAV
-culture = bavarian
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = glass
 base_manpower = 3
+
+trade_goods = glass
+
+culture = bavarian
+religion = arianism
 capital = "Straubing"
+
 is_city = yes
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-#Last of the Landshuter Wittelsbachs dies, Bavaria reunited
-add_core = BAV
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

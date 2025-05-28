@@ -1,13 +1,25 @@
-#2695 - East Timor
-culture = nusa_tenggara
-religion = animism
-capital = "Timor"
-trade_goods = unknown
+# East Timor
+# 2695 East Timor - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 3
+
+trade_goods = unknown
+
+culture = nusa_tenggara
+religion = animism
+capital = "Timor"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = chinese
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

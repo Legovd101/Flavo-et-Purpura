@@ -1,19 +1,32 @@
-#1231 - Ibrim
+# Aswan
+# 1231 Aswan - 5/27/2025 4:57:01 PM 
+ 
+add_core = MAM
 owner = MAM
 controller = MAM
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = livestock
+
 culture = nubian
 religion = coptic
 capital = "Aswan"
+
 is_city = yes
-base_manpower = 1
-trade_goods = livestock
-base_tax = 2
-base_production = 2
-add_local_autonomy = 50#Under local Tribes controlled by the Mamluks.
+add_local_autonomy = 50
+
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
-add_core = MAM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

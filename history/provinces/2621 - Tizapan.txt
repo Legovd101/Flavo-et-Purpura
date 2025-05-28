@@ -1,18 +1,31 @@
-# No previous file for Tizapan
-culture = tepic
+# Tizapan
+# 2621 Tizapan - 5/27/2025 4:57:02 PM 
+ 
+add_core = TON
 owner = TON
 controller = TON
-add_core = TON
-is_city = yes
-religion = nahuatl
-capital = "Tizapan"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = grain
+
+culture = tepic
+religion = nahuatl
+capital = "Tizapan"
+
+is_city = yes
 add_local_autonomy = 50
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
-add_province_triggered_modifier = MAY_obsidian_source
+
 discovered_by = mesoamerican
+
+add_province_triggered_modifier = MAY_obsidian_source
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

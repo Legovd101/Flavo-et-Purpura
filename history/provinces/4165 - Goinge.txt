@@ -1,17 +1,30 @@
-#Eastern Skåne - More or less Kristianstad Län. Includes Göinge, Gladsax Len, Listerlandet, and others.
+# Göinge
+# 4165 Göinge - 5/27/2025 4:57:02 PM 
+ 
 add_core = SCN
+add_core = GAU
 owner = SCN
 controller = SCN
-culture = geatish
-add_core = GAU
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = livestock
 base_manpower = 3
+
+trade_goods = livestock
+
+culture = geatish
+religion = arianism
 capital = "Gladsax"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

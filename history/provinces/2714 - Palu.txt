@@ -1,18 +1,30 @@
-#2714 - Palu
-culture = sulawesi
-religion = animism
-capital = "Palu"
-trade_goods = unknown
+# Palu
+# 2714 Palu - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = unknown
+extra_cost = 8
+
+culture = sulawesi
+religion = animism
+capital = "Palu"
+
 native_size = 60
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

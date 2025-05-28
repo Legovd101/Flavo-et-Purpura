@@ -1,19 +1,33 @@
+# Cephalonia
+# 4698 Cephalonia - 5/27/2025 4:57:02 PM 
+ 
+add_core = CEP
 owner = CEP
 controller = CEP
-culture = romanyotim
-religion = jewish
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
-capital = "Agios Georgios"
-trade_goods = wine
 base_tax = 2
 base_production = 1
 base_manpower = 2
+
+trade_goods = wine
+
+culture = romanyotim
+religion = jewish
+capital = "Agios Georgios"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = CEP
+
+
+
+add_permanent_province_modifier = {
+	name = local_jewish_community
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

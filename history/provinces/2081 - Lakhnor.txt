@@ -1,6 +1,5 @@
-### Modified 31-03-2025 12:25:29 ###
 # Lakhnor
-# 2081 Lakhnor - 31-03-2025 12:25:29 
+# 2081 Lakhnor - 5/27/2025 4:57:02 PM 
  
 add_core = KLH
 owner = KLH
@@ -31,3 +30,4 @@ latent_trade_goods = {
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

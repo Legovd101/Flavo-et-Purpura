@@ -1,6 +1,5 @@
-### Modified 01-04-2025 20:04:01 ###
 # Kochkor
-# 2125 Kochkor - 01-04-2025 20:04:01 
+# 2125 Kochkor - 5/27/2025 4:57:02 PM 
  
 add_core = CHG
 owner = CHG
@@ -27,3 +26,4 @@ discovered_by = muslim
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,31 @@
-#1110 - Agadir
+# Agadir
+# 1110 Agadir - 5/27/2025 4:57:01 PM 
+ 
+add_core = SOS
+add_core = GAE
 owner = GAE
 controller = GAE
-culture = gaetuli
-religion = lutetian
-capital = "Agadir"
-trade_goods = sugar
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = sugar
+extra_cost = 8
+
+culture = gaetuli
+religion = lutetian
+capital = "Agadir"
+
 is_city = yes
-add_core = SOS
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = GAE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

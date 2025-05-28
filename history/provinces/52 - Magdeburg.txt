@@ -1,20 +1,32 @@
-#52 - Altmark
+# Magdeburg
+# 52 Magdeburg - 5/27/2025 4:57:01 PM 
+ 
+add_core = SAX
 owner = SAX
 controller = SAX
-culture = saxon
-religion = arianism
-
 base_tax = 4
 base_production = 4
-trade_goods = cloth
 base_manpower = 2
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = saxon
+religion = arianism
 capital = "Magdeburg"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
-add_core = SAX
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

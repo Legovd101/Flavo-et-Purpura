@@ -1,16 +1,29 @@
-#1114 - Gabu
+# Gabu
+# 1114 Gabu - 5/27/2025 4:57:01 PM 
+ 
+add_core = BEN
 owner = BEN
 controller = BEN
-add_core = BEN
-is_city = yes
-culture = senegambian
-base_manpower = 2
-religion = yoruba_pagan#Fetishism
-capital = "Kansala"
-trade_goods = ivory
 base_tax = 3
 base_production = 3
-discovered_by = sub_saharan
-add_local_autonomy = 50
-extra_cost = 8
+base_manpower = 2
+
 center_of_trade = 1
+trade_goods = ivory
+extra_cost = 8
+
+culture = senegambian
+religion = yoruba_pagan
+capital = "Kansala"
+
+is_city = yes
+add_local_autonomy = 50
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

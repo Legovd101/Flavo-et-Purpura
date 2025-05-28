@@ -1,13 +1,26 @@
-#1792 - Imerina
+# Merina
+# 1792 Merina - 5/27/2025 4:57:02 PM 
+ 
+add_core = MIR
 owner = MIR
 controller = MIR
-add_core = MIR
-culture = madagasque
-religion = shamanism#Fetishism
-capital = "Alasora"
-trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = madagasque
+religion = shamanism
+capital = "Alasora"
+
 is_city = yes
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

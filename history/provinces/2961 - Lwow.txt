@@ -1,18 +1,23 @@
-#2961 - Lwow
-latent_trade_goods = { 
-	coal 
-}
+# Lwow
+# 2961 Lwow - 5/27/2025 4:57:02 PM 
+ 
+add_core = VOL
 owner = VOL
 controller = VOL
-capital = "Lwów"
-culture = ruthenian
-religion = orthodox
-trade_goods = dyes#Polish cochineal
 base_tax = 5
 base_production = 5
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = dyes
+extra_cost = 8
+
+culture = ruthenian
+religion = orthodox
+capital = "Lwów"
+
 is_city = yes
-add_core = VOL
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -22,5 +27,13 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

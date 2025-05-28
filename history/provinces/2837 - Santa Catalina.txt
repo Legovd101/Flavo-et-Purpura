@@ -1,14 +1,27 @@
-# - Santa Catalina
+# Santa Catalina
+# 2837 Santa Catalina - 5/27/2025 4:57:02 PM 
+ 
+add_core = CCQ
 owner = CCQ
 controller = CCQ
-add_core = CCQ
-is_city = yes
-culture = diaguita
-discovered_by = south_american
-discovered_by = andean
-religion = inti
-capital = "Santa Catalina"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = diaguita
+religion = inti
+capital = "Santa Catalina"
+
+is_city = yes
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,14 +1,25 @@
-#981 - Taqamkuk
-culture = innu
-religion = totemism
-capital = "Taqamkuk"
-trade_goods = unknown
+# Taqamkuk
+# 981 Taqamkuk - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = innu
+religion = totemism
+capital = "Taqamkuk"
+
 native_size = 5
-native_ferocity = 1
-native_hostileness = 0
+native_ferocity =  1
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

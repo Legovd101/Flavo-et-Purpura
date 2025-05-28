@@ -1,16 +1,27 @@
-# No previous file for Espeminkia
-culture = illini
-religion = totemism
-capital = "Espeminkia"
-trade_goods = unknown
+# Espeminkia
+# 4904 Espeminkia - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = illini
+religion = totemism
+capital = "Espeminkia"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 6
 tribal_owner = KSK
+
 discovered_by = north_american
 discovered_by = high_american
-tribal_owner = KSK
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

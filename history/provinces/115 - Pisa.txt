@@ -1,20 +1,32 @@
-#115 - Pisa
+# Pisa
+# 115 Pisa - 5/27/2025 4:57:01 PM 
+ 
+add_core = LAN
+add_core = BUL
 owner = BUL
 controller = BUL
-culture = tuscan
-religion = west_orthodox
-
 base_tax = 6
 base_production = 6
-trade_goods = wine
 base_manpower = 3
+
+center_of_trade = 1
+trade_goods = wine
+extra_cost = 8
+
+culture = tuscan
+religion = west_orthodox
 capital = "Pisa"
-is_city = yes# Estimated
-add_core = LAN
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = BUL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

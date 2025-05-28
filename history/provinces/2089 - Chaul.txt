@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:17:14 ###
 # Chaul
-# 2089 Chaul - 31-03-2025 16:17:14 
+# 2089 Chaul - 5/27/2025 4:57:02 PM 
  
 add_core = BIJ
 add_core = VIJ
@@ -34,3 +33,4 @@ discovered_by = east_african
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

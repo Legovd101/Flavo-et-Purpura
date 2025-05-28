@@ -1,11 +1,25 @@
+# Longxi
+# 5154 Longxi - 5/27/2025 4:57:03 PM 
+ 
 add_core = SIN
 owner = SIN
+controller = SIN
 base_tax = 4
-base_manpower = 1
 base_production = 3
+base_manpower = 1
+
+
 culture = tangut
 religion = nestorian
-controller = SIN
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

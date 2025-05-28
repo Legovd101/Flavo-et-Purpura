@@ -1,18 +1,31 @@
-#343 - Fez
+# Fez
+# 343 Fez - 5/27/2025 4:57:01 PM 
+ 
+add_core = FEZ
+add_core = GAE
 owner = GAE
 controller = GAE
-culture = gaetuli
-religion = lutetian
-capital = "Fez"
-trade_goods = cloth
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = gaetuli
+religion = lutetian
+capital = "Fez"
+
 is_city = yes
-add_core = FEZ
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GAE
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

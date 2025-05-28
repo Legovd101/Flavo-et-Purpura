@@ -1,10 +1,19 @@
-#1101 - Diego Garcia
-capital = "Diego Garcia"
-trade_goods = unknown
+# Hollhavai
+# 1101 Hollhavai - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
-is_city = no
+
+trade_goods = unknown
+
+capital = "Diego Garcia"
+
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

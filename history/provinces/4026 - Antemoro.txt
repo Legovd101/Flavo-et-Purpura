@@ -1,13 +1,26 @@
-#4026 - Antemoro
+# Antemoro
+# 4026 Antemoro - 5/27/2025 4:57:02 PM 
+ 
+add_core = ANT
 owner = ANT
 controller = ANT
-add_core = ANT
-culture = madagasque
-religion = shamanism
-capital = "Vohipeno"
-trade_goods = slaves
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = slaves
+
+culture = madagasque
+religion = shamanism
+capital = "Vohipeno"
+
 is_city = yes
+
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

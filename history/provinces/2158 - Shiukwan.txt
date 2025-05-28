@@ -1,16 +1,29 @@
-# 2158 - Shiukwan
+# Shiukwan
+# 2158 Shiukwan - 5/27/2025 4:57:02 PM 
+ 
+add_core = HUA
+add_core = CMI
 owner = CMI
 controller = CMI
-culture = hakka
-religion = confucianism
-capital = "Shiukwan"
-trade_goods = iron
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = iron
+
+culture = hakka
+religion = confucianism
+capital = "Shiukwan"
+
+hre = yes
 is_city = yes
-add_core = HUA
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CMI
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

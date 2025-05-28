@@ -1,16 +1,29 @@
-#Karelen, incl. Sordavala and Keksholm.
+# Kexholm
+# 32 Kexholm - 5/27/2025 4:57:01 PM 
+ 
+add_core = KRL
+add_core = KRL
 owner = KRL
 controller = KRL
-add_core = KRL
-culture = savonian
-religion = finnish_pagan
 base_tax = 2
 base_production = 2
-trade_goods = fur
 base_manpower = 1
-capital = "Korela"# initial Russian name
+
+trade_goods = fur
+
+culture = savonian
+religion = finnish_pagan
+capital = "Korela"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
-add_core = KRL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

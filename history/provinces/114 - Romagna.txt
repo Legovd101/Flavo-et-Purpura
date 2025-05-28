@@ -1,21 +1,34 @@
-#114 - Romagna
-owner = BUL# Ravenna was seized by Venice in 1441
+# Ravenna
+# 114 Ravenna - 5/27/2025 4:57:01 PM 
+ 
+add_core = RAV
+add_core = BUL
+owner = BUL
 controller = BUL
-culture = romagnan
-religion = arianism
 base_tax = 4
 base_production = 5
-trade_goods = salt
 base_manpower = 2
+
+trade_goods = salt
+
+culture = romagnan
+religion = arianism
 capital = "Ravenna"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = RAV
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BUL
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

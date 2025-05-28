@@ -1,12 +1,24 @@
-#1178 - Great Karoo
-culture = khoisan
-religion = shamanism#Fetishism
-capital = "Beaufort"
-trade_goods = unknown
+# Great Karoo
+# 1178 Great Karoo - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = khoisan
+religion = shamanism
+capital = "Beaufort"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

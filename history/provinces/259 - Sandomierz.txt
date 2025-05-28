@@ -1,14 +1,21 @@
-#259 - Sandomierz
+# Sandomierz
+# 259 Sandomierz - 5/27/2025 4:57:01 PM 
+ 
+add_core = KRA
 owner = KRA
 controller = KRA
-capital = "Sandomierz"
-culture = polish
-religion = orthodox
-trade_goods = cloth
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = cloth
+
+culture = polish
+religion = orthodox
+capital = "Sandomierz"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,4 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = KRA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

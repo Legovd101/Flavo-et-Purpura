@@ -1,15 +1,28 @@
-# - Huaraz
+# Huaraz
+# 2827 Huaraz - 5/27/2025 4:57:02 PM 
+ 
+add_core = HJA
 owner = HJA
 controller = HJA
-culture = inca
-religion = inti
-capital = "Huaraz"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = grain
+
+culture = inca
+religion = inti
+capital = "Huaraz"
+
 is_city = yes
-add_core = HJA
+
 discovered_by = south_american
 discovered_by = andean
 discovered_by = CHM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

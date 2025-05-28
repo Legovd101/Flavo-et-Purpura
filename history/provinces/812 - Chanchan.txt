@@ -1,18 +1,31 @@
-#812 - Chanchan
+# Chanchan
+# 812 Chanchan - 5/27/2025 4:57:01 PM 
+ 
+add_core = CHM
 owner = CHM
 controller = CHM
-culture = chimuan
-religion = inti
-capital = "Chanchan"
-trade_goods = cocoa
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = cocoa
+extra_cost = 8
+
+culture = chimuan
+religion = inti
+capital = "Chanchan"
+
 is_city = yes
-add_core = CHM
+fort_15th = yes
+
 discovered_by = CHM
 discovered_by = south_american
 discovered_by = andean
-extra_cost = 8
-center_of_trade = 1
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,26 @@
-#2836 - Tucuman
-culture = diaguita
-discovered_by = south_american
-discovered_by = andean
-religion = animism
-capital = "Tucuman"
-trade_goods = unknown
+# Tucuman
+# 2836 Tucuman - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = unknown
+
+culture = diaguita
+religion = animism
+capital = "Tucuman"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 5
-is_city = no
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

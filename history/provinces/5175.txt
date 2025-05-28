@@ -1,12 +1,26 @@
+# Puzhou
+# 5175 Puzhou - 5/27/2025 4:57:03 PM 
+ 
 add_core = JIN
 owner = JIN
+controller = JIN
 base_tax = 4
-base_manpower = 1
 base_production = 3
+base_manpower = 1
+
+
 culture = zhongyuan
 religion = nestorian
-controller = JIN
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

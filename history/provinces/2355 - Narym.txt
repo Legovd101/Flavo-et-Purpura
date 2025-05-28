@@ -1,19 +1,32 @@
-# 2355 - Narym
+# Narym
+# 2355 Narym - 5/27/2025 4:57:02 PM 
+ 
+add_core = KZH
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = khazak
-religion = manichaean
-capital = "Narym"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fish
+
+culture = khazak
+religion = manichaean
+capital = "Narym"
+
 is_city = yes
-add_core = KZH
+
 discovered_by = KZH
 discovered_by = KAZ
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

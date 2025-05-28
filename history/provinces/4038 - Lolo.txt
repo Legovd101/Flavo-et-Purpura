@@ -1,15 +1,28 @@
-#Lolo
+# Lolo
+# 4038 Lolo - 5/27/2025 4:57:02 PM 
+ 
+add_core = MKU
 owner = MKU
 controller = MKU
-add_core = MKU
-culture = nyasa
-religion = swahili_pagan#Fetishism
-capital = "Lolo"
-is_city = yes
-base_manpower = 1
-trade_goods = ivory
 base_tax = 1
 base_production = 1
+base_manpower = 1
+
+trade_goods = ivory
+
+culture = nyasa
+religion = swahili_pagan
+capital = "Lolo"
+
+is_city = yes
 add_local_autonomy = 40
+
 discovered_by = central_african
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

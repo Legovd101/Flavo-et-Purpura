@@ -1,16 +1,29 @@
-# - Bezhetsk
+# Bezhetsk
+# 4117 Bezhetsk - 5/27/2025 4:57:02 PM 
+ 
+add_core = YAR
+add_core = RTA
 owner = YAR
 controller = YAR
-culture = novgorodian
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = naval_supplies
 base_manpower = 1
+
+trade_goods = naval_supplies
+
+culture = novgorodian
+religion = orthodox
 capital = "Bezhetsk"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_core = YAR
-add_core = RTA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

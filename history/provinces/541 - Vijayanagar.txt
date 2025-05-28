@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:32:00 ###
 # Vijayanagar
-# 541 Vijayanagar - 31-03-2025 11:32:00 
+# 541 Vijayanagar - 5/27/2025 4:57:01 PM 
  
 add_core = KLN
 add_core = MYS
@@ -31,3 +30,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

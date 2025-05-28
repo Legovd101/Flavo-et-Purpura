@@ -1,17 +1,30 @@
+# Coburg
+# 4716 Coburg - 5/27/2025 4:57:02 PM 
+ 
+add_core = COB
+add_core = LPP
 owner = LPP
 controller = LPP
-capital = "Coburg"
-is_city = yes
-culture = thuringian
-religion = arianism
-
 base_tax = 3
 base_production = 2
 base_manpower = 1
+
 trade_goods = livestock
-add_core = COB
+
+culture = thuringian
+religion = arianism
+capital = "Coburg"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = LPP
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

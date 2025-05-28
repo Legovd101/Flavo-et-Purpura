@@ -1,16 +1,28 @@
-#1249 - Yola
-culture = jukun
-religion = vandal_syncretism#Fetishism
-capital = "Kwararafa"
-trade_goods = unknown
-base_tax = 1
-base_production = 1
-base_manpower = 1
-native_size = 90
-native_ferocity = 4
-native_hostileness = 9
-discovered_by = KBO
-is_city = no
+# Yola
+# 1249 Yola - 5/27/2025 4:57:02 PM 
+ 
 add_core = BRN
 owner = BRN
 controller = BRN
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+
+culture = jukun
+religion = vandal_syncretism
+capital = "Kwararafa"
+
+native_size = 90
+native_ferocity =  4
+native_hostileness = 9
+
+discovered_by = KBO
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

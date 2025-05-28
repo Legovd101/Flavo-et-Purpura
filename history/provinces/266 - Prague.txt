@@ -1,15 +1,24 @@
-#266 - Bohemia
+# Prague
+# 266 Prague - 5/27/2025 4:57:01 PM 
+ 
+add_core = MVA
 owner = MVA
 controller = MVA
-capital = "Praha"
-culture = czech
-religion = arianism
-trade_goods = cloth
-
 base_tax = 8
 base_production = 8
 base_manpower = 6
+
+center_of_trade = 2
+trade_goods = cloth
+extra_cost = 16
+
+culture = czech
+religion = arianism
+capital = "Praha"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,8 +28,11 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
+
 add_province_triggered_modifier = religious_center
-add_core = MVA
-fort_15th = yes
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

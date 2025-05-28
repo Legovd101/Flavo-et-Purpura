@@ -1,23 +1,36 @@
-#43 - Danzig
+# Danzig
+# 43 Danzig - 5/27/2025 4:57:01 PM 
+ 
+add_core = DNZ
+add_core = ENG
 owner = ENG
 controller = ENG
-add_core = DNZ
-capital = "Danzig"
-culture = angle
-religion = arianism
-trade_goods = gems
 base_tax = 7
 base_production = 7
 base_manpower = 2
+
+center_of_trade = 2
+trade_goods = gems
+extra_cost = 26
+
+culture = angle
+religion = arianism
+capital = "Danzig"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 26
-add_permanent_province_modifier = { 
+
+
+
+add_permanent_province_modifier = {
 	name = vistula_estuary_modifier
 	duration = -1
 }
-center_of_trade = 2
-add_core = ENG
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

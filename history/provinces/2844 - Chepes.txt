@@ -1,13 +1,25 @@
-# - Chepes
-culture = huarpe
-discovered_by = south_american
-religion = animism
-capital = "Chepes"
-trade_goods = unknown
+# Chepes
+# 2844 Chepes - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = huarpe
+religion = animism
+capital = "Chepes"
+
 native_size = 20
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 9
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

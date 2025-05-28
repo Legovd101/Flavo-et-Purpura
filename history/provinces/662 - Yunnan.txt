@@ -1,17 +1,30 @@
-#662 - Yunnan
+# Yunnan
+# 662 Yunnan - 5/27/2025 4:57:01 PM 
+ 
+add_core = CDL
 owner = CDL
 controller = CDL
-culture = bai
-religion = buddhism
-capital = "Sit Zaind"
-trade_goods = copper
 base_tax = 3
 base_production = 3
 base_manpower = 3
-is_city = yes
-add_core = CDL
+
 center_of_trade = 1
+trade_goods = copper
+
+culture = bai
+religion = buddhism
+capital = "Sit Zaind"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

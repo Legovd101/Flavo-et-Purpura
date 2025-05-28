@@ -1,13 +1,26 @@
-#1117 - Futa Jallon
+# Futa Jallon
+# 1117 Futa Jallon - 5/27/2025 4:57:01 PM 
+ 
+add_core = KBU
 owner = KBU
 controller = KBU
-culture = fulani
-is_city = yes
-base_manpower = 3
-religion = senegambian_pagan#Fetishism
-capital = "Timbo"
-trade_goods = ivory
 base_tax = 3
 base_production = 3
-add_core = KBU#Subject province within the empire
+base_manpower = 3
+
+trade_goods = ivory
+
+culture = fulani
+religion = senegambian_pagan
+capital = "Timbo"
+
+is_city = yes
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

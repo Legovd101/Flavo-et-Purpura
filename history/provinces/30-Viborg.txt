@@ -1,16 +1,29 @@
-#Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
-owner = SWE
-controller = SWE
+# Viborg
+# 30 Viborg - 5/27/2025 4:57:01 PM 
+ 
 add_core = SWE
 add_core = SVN
-culture = savonian
-religion = finnish_pagan
+owner = SWE
+controller = SWE
 base_tax = 2
 base_production = 2
-trade_goods = fur
 base_manpower = 2
+
+trade_goods = fur
+
+culture = savonian
+religion = finnish_pagan
 capital = "Viborg"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

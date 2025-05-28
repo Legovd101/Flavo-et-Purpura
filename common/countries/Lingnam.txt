@@ -1,0 +1,206 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 210  16  26 }
+revolutionary_colors = { 15 0 15 }
+
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+	humanist_ideas
+	quantity_ideas
+	influence_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	chinese_longspear
+	eastern_bow
+	chinese_footsoldier
+	chinese_steppe
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	manchu_banner
+	han_banner
+	asian_musketeer
+	chinese_dragoon
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+	reformed_manchu_rifle
+}
+
+monarch_names = {
+	"Kaiming #0" = 10
+	"Siugei #0" = 10
+	"Seoileon #0" = 10
+	"Manyiu #0" = 10
+	"Channaam #0" = 10
+	"Saiwing #0" = 10
+	"GwongCho #0" = 10
+	"Waaidak #0" = 10
+	"Siuking #0" = 10
+	"Ziheung #0" = 10
+	"Wingcheung #0" = 10
+	"Yinglung #0" = 10
+	"Chiubong #0" = 10
+	"Sheungchi #0" = 10
+	"Waaiyuen #0" = 10
+	"Siutong #0" = 10
+	"Chiying #0" = 10
+	"Chunfai #0" = 10
+	"Tingkwong #0" = 10
+	"Wingshing #0" = 10
+	"Yuentak #0" = 10
+	"Chikeung #0" = 10
+	"Kingfai #0" = 10
+	"Manon #0" = 10
+	"Kwongyuk #0" = 10
+	"Waiyan #0" = 10
+	"Saicheung #0" = 10
+	"Chunkwok #0" = 10
+	"Kingchung #0" = 10
+	"Yuenshan #0" = 10
+	"Kwanwa #0" = 10
+	"Siulun #0" = 10
+	"Chiking #0" = 10
+	"Fukon #0" = 10
+	"Kwokhing #0" = 10
+	"Kaicheung #0" = 10
+	"Waichung #0" = 10
+	"Kaiyin #0" = 10
+	"Manlung #0" = 10
+	"Tinfuk #0" = 10
+	"Chiho #0" = 10
+	"Takshing #0" = 10
+	"Kingman #0" = 10
+	"Tinyau #0" = 10
+	"Winghong #0" = 10
+	"Chunkit #0" = 10
+	"Wungyun #0" = 10
+	"Kingyin #0" = 10
+	"Saiyin #0" = 10
+	"Kwongyiu #0" = 10
+	"Kinshing #0" = 10
+	"Yuenlung #0" = 10
+	"Shuilun #0" = 10
+	"Chion #0" = 10
+	"Kashing #0" = 10
+	"Chunhin #0" = 10
+	"Yathei #0" = 10
+	"Kachiu #0" = 10
+	
+	"Yingsau #0" = 0
+	"Yatsam #0" = 0
+	"Yauling #0" = 0
+	"Kabo #0" = 0
+	"Nimchi #0" = 0
+	"Siyin #0" = 0
+	"Yauyung #0" = 0
+	"Heungwah #0" = 0
+	"Sautyun #0" = 0
+	"Wanhung #0" = 0
+	
+	"Saulan #0" = -10
+	"Yukmui #0" = -10
+	"Chuikyun #0" = -10
+	"Laifong #0" = -10
+	"Fungying #0" = -10
+	"Choiha #0" = -10
+	"Waileung #0" = -10
+	"Ngakam #0" = -10
+	"Meiwa #0" = -10
+	"Shuichi #0" = -10
+	"Kwaiying #0" = -10
+	"Bingsam #0" = -10
+	"Chauyuet #0" = -10
+	"Chingfan #0" = -10
+	"Chuiyuk #0" = -10
+	"Siting #0" = -10
+	"Puiyi #0" = -10
+	"Syutngor #0" = -10
+	"Chunfa #0" = -10
+	"Lauching #0" = -10
+	"Yuetngor #0" = -10
+	"Sauchun #0" = -10
+	"Meikyun #0" = -10
+	"Kwaiheung #0" = -10
+	"Chauguk #0" = -10
+	"Choifung #0" = -10
+	"Laihah #0" = -10
+	"Lanying #0" = -10
+	"Bikyuk #0" = -10
+	"Fungleung #0" = -10
+	"Kamlin #0" = -10
+	"Ngawai #0" = -10
+	"Sauwah #0" = -10
+	"Yauhing #0" = -10
+	"Laiyi #0" = -10
+	"Ngoichun #0" = -10
+	"Choiwan #0" = -10
+	"Chunyin #0" = -10
+	"Laifan #0" = -10
+	"Sauling #0" = -10
+	"Meiyuk #0" = -10
+	"Laiwah #0" = -10
+	"Puilan #0" = -10
+	"Sauhing #0" = -10
+	"Bikfong #0" = -10
+	"Ngahing #0" = -10
+	"Chuihung #0" = -10
+	"Kamfung #0" = -10
+	"Laichun #0" = -10
+	"Yuklan #0" = -10
+	"Miuheung #0" = -10
+	"Chunto #0" = -10
+	"Syutmui #0" = -10
+	"Yunyi #0" = -10
+	"Chauling #0" = -10
+	"Gaiwai #0" = -10
+	"Binglan #0" = -10
+	"Kamsau #0" = -10
+	"Ting #0" = -10
+	"Onsang #0" = -10
+	"Sukfan #0" = -10
+	"Kayi #0" = -10
+	"Shekyeung #0" = -10
+}
+
+leader_names = {
+	Chiu Chio Chin Suen Sun Lee Li Chow Chau Chao Ng Cheng Cheang Wong
+	Vong Fung Fong Chan Chu Wai Cheung Cheong Shum Sum Sam Hon Ieong
+	Yeung Chun Chon Yau Iao Hui Hoi Ho Lui Loi Sze Si Hung Hong Cho
+	Tso Chou Yim Im Wa Wah Va Kam Ngai To Tao Tou Keung Keong Chik
+	Chek Tse Che Yu U Pak Sui Soi Tau Tao Wan Van So Sou Poon Pun Kot
+	Quat Hai Fan Pang Long Lo Wai Ma Miu Mio Fa Yam Iam Yuen Un Iun Lau
+	Lao Pau Pao Tong Pei Lim Sit Lui Louie Loi Ngai Tang Yan Ian Law Lo
+	Put Pat Kok Wu Vu On Sheung Lok Ok Ngok See Fu Foo Pei Pin Chai Hong
+	Yue Yuen Puk Pok Koo Ku Mang Ping Peng Wo Vo Muk Mok Siu Shiu Sio Wan
+	Yiu Iu Io Cham Kei Mo Mou Tik Dick Tek Mai Pui Ming Meng Chong Tsang
+	Chang Kai Fuk Fok Shing Sing Seng Tai Tam Sung Mau Song Mao Pong
+			
+	Diu Wat Vat Leung Leong Kwai Kuai Kong Kwok Kuok Kuoc Mui Lam Chung
+	Chui Tsui Choi Ko Kou Tin Fan Woo Fok Or O Lo Lu Loo Lou Fong Ting Teng
+	Pau Pao Bao Chu Kut Kat Kit Ching Cheng Ying Ieng Pui Luk Lok Wing Veng Ving
+	Yung Iong Ip Szema Auyeung
+}
+
+ship_names = {
+	"On Lan" "Chun To" "Tsing Ching" "Sui Ching" "Fei Lung" "Chun Hoi"
+	"San Wu Hoi" "Tung Lung"
+	"Hei Lei" "Yuk Ho" "Fu Ho" "Jick Kee" "King Lung" "Sing Wai" "Bok Moon" "Luen Yin" "Fu Yuk" "Yau Kee" "Ko Ming" "Fu Hing" "Fu Keung" "Fu Wah"
+	"Ming Chu" "San Fai" "Ming Ho"
+	"Wing Yip"
+	"Ma On Shan" "Yuet Sau Shan" "Pak Wan Shan" "Kwun Yam" "Tam Chai" "Leung Shuen Wan" "Man Yee"
+}
+
+army_names = {
+	"$PROVINCE$ Army" "Tai Yuet Army"
+}
+
+fleet_names = {
+	"Yuet Yeung Armada" "$PROVINCE$ fleet"
+}

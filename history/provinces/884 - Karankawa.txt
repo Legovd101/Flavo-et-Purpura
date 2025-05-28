@@ -1,14 +1,26 @@
-#884 - Karankawa
-culture = caddo
-religion = totemism
-capital = "Karankawa"
-trade_goods = unknown
+# Auia
+# 884 Auia - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = caddo
+religion = totemism
+capital = "Karankawa"
+
 native_size = 10
-native_ferocity = 3
+native_ferocity =  3
 native_hostileness = 5
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

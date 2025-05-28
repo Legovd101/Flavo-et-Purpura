@@ -1,11 +1,24 @@
-#2429 - Agan
+# Agan
+# 2429 Agan - 5/27/2025 4:57:02 PM 
+ 
 add_core = SIB
-culture = ostyaki
-religion = manichaean
-capital = "Variegansk"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = ostyaki
+religion = manichaean
+capital = "Variegansk"
+
 is_city = yes
+
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

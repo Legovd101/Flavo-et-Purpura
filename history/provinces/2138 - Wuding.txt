@@ -1,15 +1,28 @@
-# 2138 - Wuding
+# Wuding
+# 2138 Wuding - 5/27/2025 4:57:02 PM 
+ 
+add_core = QIC
 owner = QIC
 controller = QIC
-culture = shandong_culture
-religion = confucianism
-capital = "Wuding"
-trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = grain
+
+culture = shandong_culture
+religion = confucianism
+capital = "Wuding"
+
+hre = yes
 is_city = yes
-add_core = QIC
+
 discovered_by = chinese
 discovered_by = nomad_group
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

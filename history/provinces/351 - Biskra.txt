@@ -1,17 +1,30 @@
-#351 - Biskra
+# Biskra
+# 351 Biskra - 5/27/2025 4:57:01 PM 
+ 
+add_core = MSL
 owner = MSL
 controller = MSL
-culture = massylian
-religion = mauri_pagan
-capital = "Biskra"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = massylian
+religion = mauri_pagan
+capital = "Biskra"
+
 is_city = yes
 add_local_autonomy = 25
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = TUR
-add_core = MSL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

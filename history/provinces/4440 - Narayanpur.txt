@@ -1,6 +1,5 @@
-### Modified 31-03-2025 10:53:32 ###
 # Narayanpur
-# 4440 Narayanpur - 31-03-2025 10:53:32 
+# 4440 Narayanpur - 5/27/2025 4:57:02 PM 
  
 add_core = KMT
 owner = KMT
@@ -26,3 +25,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

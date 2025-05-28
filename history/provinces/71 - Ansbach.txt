@@ -1,17 +1,29 @@
-# 71 - Ansbach
+# Ansbach
+# 71 Ansbach - 5/27/2025 4:57:01 PM 
+ 
+add_core = THU
 owner = THU
 controller = THU
-culture = franconian
-religion = arianism
-
-trade_goods = salt
-capital = "Ansbach"
-is_city = yes
-base_manpower = 2
 base_tax = 3
 base_production = 3
+base_manpower = 2
+
+trade_goods = salt
+
+culture = franconian
+religion = arianism
+capital = "Ansbach"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = THU
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,27 @@
-#725 - Hinggan
+# Cicigar
+# 725 Cicigar - 5/27/2025 4:57:01 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-culture = chahar
-religion = tengri_pagan_reformed
-capital = "Cicigar"
-trade_goods = naval_supplies
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = chahar
+religion = tengri_pagan_reformed
+capital = "Cicigar"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = OIR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

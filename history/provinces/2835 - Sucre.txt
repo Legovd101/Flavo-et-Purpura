@@ -1,14 +1,27 @@
-# - Sucre
+# Sucre
+# 2835 Sucre - 5/27/2025 4:57:02 PM 
+ 
+add_core = CRA
 owner = CRA
 controller = CRA
-add_core = CRA
-culture = aimara
-discovered_by = south_american
-discovered_by = andean
-religion = inti
-capital = "Sucre"
-trade_goods = cloth
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = cloth
+
+culture = aimara
+religion = inti
+capital = "Sucre"
+
 is_city = yes
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

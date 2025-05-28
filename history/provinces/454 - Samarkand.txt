@@ -1,6 +1,5 @@
-### Modified 31-03-2025 13:06:17 ###
 # Samarkand
-# 454 Samarkand - 31-03-2025 13:06:17 
+# 454 Samarkand - 5/27/2025 4:57:01 PM 
  
 add_core = TRS
 add_core = ILK
@@ -31,3 +30,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

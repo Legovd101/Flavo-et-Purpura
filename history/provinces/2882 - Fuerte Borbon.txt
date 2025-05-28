@@ -1,14 +1,26 @@
-# - Fuerte Borbon
-culture = chacoan
-discovered_by = south_american
-discovered_by = andean
-religion = animism
-capital = "Fuerte Borbon"
-trade_goods = unknown
+# Fuerte Borbon
+# 2882 Fuerte Borbon - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chacoan
+religion = animism
+capital = "Fuerte Borbon"
+
 native_size = 50
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 7
-is_city = no
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

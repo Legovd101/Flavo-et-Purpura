@@ -1,20 +1,33 @@
-#223 - Granada
-owner = SPA# Mustapha Sa'd King of Granada
+# Granada
+# 223 Granada - 5/27/2025 4:57:01 PM 
+ 
+add_core = SPA
+owner = SPA
 controller = SPA
-culture = strait_greek
-religion = west_orthodox
 base_tax = 6
 base_production = 4
-trade_goods = silk
 base_manpower = 4
+
+trade_goods = silk
+
+culture = strait_greek
+religion = west_orthodox
 capital = "Granada"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = SPA
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

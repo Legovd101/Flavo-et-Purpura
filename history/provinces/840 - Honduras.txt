@@ -1,16 +1,28 @@
-#840 - Honduras
-culture = miskito
-religion = animism
-capital = "Honduras"
-trade_goods = unknown
+# Honduras
+# 840 Honduras - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = miskito
+religion = animism
+capital = "Honduras"
+
 native_size = 15
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

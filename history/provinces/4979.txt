@@ -1,11 +1,26 @@
-add_core = KOR
-owner = KOR
+### Modified 5/27/2025 4:57:02 PM ###
+# Hoki
+# 4979 Hoki - 5/27/2025 4:57:02 PM 
+ 
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+
 culture = japanese
 religion = shinto
-controller = KOR
+
 is_city = yes
-base_tax = 2
-base_manpower = 1
-base_production = 2
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+

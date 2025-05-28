@@ -1,4 +1,5 @@
-# 612 Khorat - 12/5/2568 2:34:29 
+# Khorat
+# 612 Khorat - 5/27/2025 4:57:01 PM 
  
 add_core = LIG
 owner = KRH
@@ -23,3 +24,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,17 +1,24 @@
-#Nangha'er
+# Nangha'er
+# 4658 Nangha'er - 5/27/2025 4:57:02 PM 
+ 
+add_core = ANU
 owner = ANU
 controller = ANU
-culture = ainu
-religion = tengri_pagan_reformed
-capital = "Nangha'er"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fish
+
+culture = ainu
+religion = tengri_pagan_reformed
+capital = "Nangha'er"
+
 is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
+
 discovered_by = JAP
 discovered_by = AMA
 discovered_by = ASA
@@ -56,4 +63,10 @@ discovered_by = ASK
 discovered_by = NVK
 discovered_by = SOL
 discovered_by = NHX
-add_core = ANU
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

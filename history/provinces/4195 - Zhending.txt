@@ -1,15 +1,28 @@
-#4195 - Zhending
+# Zhending
+# 4195 Zhending - 5/27/2025 4:57:02 PM 
+ 
+add_core = YAN
+add_core = SIN
 owner = SIN
 controller = SIN
-culture = chihan
-religion = nestorian
-capital = "Zhending"
-trade_goods = grain
 base_tax = 3
 base_production = 2
 base_manpower = 2
+
+trade_goods = grain
+
+culture = chihan
+religion = nestorian
+capital = "Zhending"
+
 is_city = yes
-add_core = YAN
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = SIN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

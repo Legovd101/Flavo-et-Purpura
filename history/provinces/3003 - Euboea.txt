@@ -1,16 +1,29 @@
-# - Euboea
+# Euboea
+# 3003 Euboea - 5/27/2025 4:57:02 PM 
+ 
+add_core = ATH
 owner = ATH
 controller = ATH
-culture = rhoman
-religion = orthodox
-capital = "Negroponte"
-trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = fish
+
+culture = rhoman
+religion = orthodox
+capital = "Negroponte"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-add_core = ATH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

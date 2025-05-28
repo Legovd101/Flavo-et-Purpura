@@ -1,16 +1,29 @@
-#Finland, incl. Åbo.
-owner = SWE
-controller = SWE
+# Abo
+# 27 Abo - 5/27/2025 4:57:01 PM 
+ 
 add_core = SWE
 add_core = TVS
-culture = finnish
-religion = arianism
+owner = SWE
+controller = SWE
 base_tax = 3
 base_production = 3
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = finnish
+religion = arianism
 capital = "Åbo"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

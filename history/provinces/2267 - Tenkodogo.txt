@@ -1,17 +1,30 @@
-# No previous file for Tenkodogo
-owner = WGD
-controller = WGD
+# Tenkodogo
+# 2267 Tenkodogo - 5/27/2025 4:57:02 PM 
+ 
 add_core = WGD
 add_core = TEN
-is_city = yes
-culture = moore
-religion = soninke_pagan#Fetishism
-capital = "Tenkodogo"
-trade_goods = livestock
+owner = WGD
+controller = WGD
 base_tax = 3
 base_production = 3
-native_size = 40
-native_ferocity = 4
-native_hostileness = 9
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = moore
+religion = soninke_pagan
+capital = "Tenkodogo"
+
+is_city = yes
+native_size = 40
+native_ferocity =  4
+native_hostileness = 9
+
 discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

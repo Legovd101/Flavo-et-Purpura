@@ -1,4 +1,5 @@
-# 1823 Stung Treng - 12/5/2568 2:34:29 
+# Stung Treng
+# 1823 Stung Treng - 5/27/2025 4:57:02 PM 
  
 add_core = KHM
 owner = JRI
@@ -23,3 +24,4 @@ discovered_by = indian
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

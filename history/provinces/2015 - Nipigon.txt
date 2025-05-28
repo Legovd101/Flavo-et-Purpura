@@ -1,15 +1,27 @@
-# No previous file for Nipigon
-culture = anishinabe
-religion = totemism
-capital = "Nipigon"
-trade_goods = fur
+# Outchibou
+# 2015 Outchibou - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = anishinabe
+religion = totemism
+capital = "Nipigon"
+
 native_size = 5
-native_ferocity = 6
+native_ferocity =  6
 native_hostileness = 1
 tribal_owner = OJI
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

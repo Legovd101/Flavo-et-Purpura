@@ -1,16 +1,28 @@
-# No previous file for Amaxocotlan
-culture = tepic
-religion = nahuatl
+# Amaxocotlan
+# 4576 Amaxocotlan - 5/27/2025 4:57:02 PM 
+ 
+add_core = XAL
 owner = XAL
 controller = XAL
-add_core = XAL
-capital = "Amaxocotlan"
-trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = tepic
+religion = nahuatl
+capital = "Amaxocotlan"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

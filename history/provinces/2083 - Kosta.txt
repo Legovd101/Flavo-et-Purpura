@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:36:13 ###
 # Udayagiri
-# 2083 Udayagiri - 31-03-2025 16:36:13 
+# 2083 Udayagiri - 5/27/2025 4:57:02 PM 
  
 add_core = YOR
 add_core = TLG
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

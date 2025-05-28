@@ -1,20 +1,33 @@
 # Forcalquier
+# 2991 Forcalquier - 5/27/2025 4:57:02 PM 
+ 
+add_core = PRO
 owner = PRO
 controller = PRO
-capital = "Forcalquier"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = ligurian
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = wool
 base_manpower = 2
-add_core = PRO
+
+trade_goods = wool
+
+culture = ligurian
+religion = arianism
+capital = "Forcalquier"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

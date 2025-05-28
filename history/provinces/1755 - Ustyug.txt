@@ -1,16 +1,29 @@
-#1755 - Ustyug
-owner = PRM# was part of Ustyug principality, annexed by Muscovy in 1474
+# Ustyug
+# 1755 Ustyug - 5/27/2025 4:57:02 PM 
+ 
+add_core = NOV
+add_core = PRM
+owner = PRM
 controller = PRM
-culture = russian
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = russian
+religion = orthodox
 capital = "Ustyug"
+
 is_city = yes
-add_core = NOV# Novgorodian claims
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-add_core = PRM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

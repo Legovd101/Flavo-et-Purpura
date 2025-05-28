@@ -1,13 +1,25 @@
-#2736 - Nukunu
-culture = yura
-religion = dreamtime
-capital = "Nukunu"
-trade_goods = unknown
+# Nukunu
+# 2736 Nukunu - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = yura
+religion = dreamtime
+capital = "Nukunu"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 9
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,27 @@
-# No previous file for Nitahende
-culture = mescalero
-religion = totemism
-capital = "Nitahendé"
-trade_goods = grain
+# Nitahendé
+# 4628 Nitahendé - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = mescalero
+religion = totemism
+capital = "Nitahendé"
+
 native_size = 6
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 8
 tribal_owner = MSC
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

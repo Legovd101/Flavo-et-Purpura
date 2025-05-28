@@ -1,12 +1,24 @@
-#2431 - Uchamin
-culture = tungus
-religion = tengri_pagan_reformed
-capital = "Uchaminskiy"
-trade_goods = unknown
+# Uchamin
+# 2431 Uchamin - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = tungus
+religion = tengri_pagan_reformed
+capital = "Uchaminskiy"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 3
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

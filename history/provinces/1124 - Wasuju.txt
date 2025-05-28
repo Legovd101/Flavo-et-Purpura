@@ -1,15 +1,28 @@
-#1124 - Wasuju
+# Joma
+# 1124 Joma - 5/27/2025 4:57:01 PM 
+ 
+add_core = MAL
 owner = MAL
 controller = MAL
-culture = mali
-is_city = yes
-base_manpower = 8
-religion = soninke_pagan#Representing the Malian Aristocracy, rural population likely still adhering to traditional beliefs.
-capital = "Niani"
-trade_goods = grain
 base_tax = 4
 base_production = 4
-add_core = MAL
-discovered_by = sub_saharan
-extra_cost = 8
+base_manpower = 8
+
 center_of_trade = 1
+trade_goods = grain
+extra_cost = 8
+
+culture = mali
+religion = soninke_pagan
+capital = "Niani"
+
+is_city = yes
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

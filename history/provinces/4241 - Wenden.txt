@@ -1,14 +1,21 @@
-#4241 - Wenden
+# Wenden
+# 4241 Wenden - 5/27/2025 4:57:02 PM 
+ 
+add_core = LIT
 owner = LIT
 controller = LIT
-culture = latvian
-religion = orthodox
-capital = "Wenden"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = latvian
+religion = orthodox
+capital = "Wenden"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -16,4 +23,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-add_core = LIT
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

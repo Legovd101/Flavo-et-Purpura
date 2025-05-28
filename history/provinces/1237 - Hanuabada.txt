@@ -1,12 +1,24 @@
-#1237 - Hanuabada
-culture = papuan
-religion = animism
-capital = "Hanuabada"
-trade_goods = unknown
+# Hanuabada
+# 1237 Hanuabada - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = papuan
+religion = animism
+capital = "Hanuabada"
+
 native_size = 60
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 8
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

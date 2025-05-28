@@ -1,20 +1,32 @@
-#Lippe
-latent_trade_goods = { 
-	coal 
-}
+# Westfalen
+# 82 Westfalen - 5/27/2025 4:57:01 PM 
+ 
+add_core = THU
 owner = THU
 controller = THU
-culture = hannoverian
-religion = arianism
-trade_goods = wool
-capital = "Arnsberg"
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
+trade_goods = wool
+
+culture = hannoverian
+religion = arianism
+capital = "Arnsberg"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = THU
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,15 +1,21 @@
-# - Hradecko
+# Hradecko
+# 2970 Hradecko - 5/27/2025 4:57:02 PM 
+ 
+add_core = MVA
 owner = MVA
 controller = MVA
-capital = "Hradec Králové"
-culture = czech
-religion = orthodox
-trade_goods = grain
-
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = grain
+
+culture = czech
+religion = orthodox
+capital = "Hradec Králové"
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,4 +25,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = MVA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

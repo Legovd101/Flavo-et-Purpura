@@ -1,11 +1,25 @@
+# Fenzhou
+# 5184 Fenzhou - 5/27/2025 4:57:03 PM 
+ 
 add_core = SIN
 owner = SIN
+controller = SIN
 base_tax = 2
-base_manpower = 3
 base_production = 3
+base_manpower = 3
+
+
 culture = jin
 religion = nestorian
-controller = SIN
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

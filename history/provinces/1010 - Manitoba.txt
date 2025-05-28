@@ -1,14 +1,26 @@
-#1010 - Manitoba
-culture = chipewyan
-religion = totemism
-capital = "Manitoba"
-trade_goods = unknown
+# Manitowapow
+# 1010 Manitowapow - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chipewyan
+religion = totemism
+capital = "Manitoba"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 6
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

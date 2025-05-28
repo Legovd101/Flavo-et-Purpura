@@ -1,20 +1,32 @@
-#61 - Saxony
+# Dresden
+# 61 Dresden - 5/27/2025 4:57:01 PM 
+ 
+add_core = ANH
 owner = ANH
 controller = ANH
-culture = saxon
-religion = arianism
-capital = "Meissen"
-trade_goods = iron
-
 base_tax = 6
 base_production = 6
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = iron
+extra_cost = 8
+
+culture = saxon
+religion = arianism
+capital = "Meissen"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 8
-center_of_trade = 1
-add_core = ANH
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

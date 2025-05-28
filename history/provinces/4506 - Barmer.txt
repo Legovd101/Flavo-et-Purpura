@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:01:21 ###
 # Barmer
-# 4506 Barmer - 31-03-2025 16:01:21 
+# 4506 Barmer - 5/27/2025 4:57:02 PM 
  
 add_core = JLV
 owner = JLV
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

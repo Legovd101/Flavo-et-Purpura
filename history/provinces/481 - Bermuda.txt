@@ -1,10 +1,19 @@
-#481 - Bermuda
-capital = "Bermuda"
-trade_goods = unknown
+# Bermuda
+# 481 Bermuda - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
-is_city = no
+
+trade_goods = unknown
+
+capital = "Bermuda"
+
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,18 +1,30 @@
-#1758 - Hannover
+# Hanover
+# 1758 Hanover - 5/27/2025 4:57:02 PM 
+ 
+add_core = CLB
+add_core = FRI
 owner = FRI
 controller = FRI
-culture = lower_saxon
-religion = arianism
-capital = "Hannover"
-trade_goods = cloth
-
 base_tax = 4
 base_production = 4
 base_manpower = 4
+
+trade_goods = cloth
+
+culture = lower_saxon
+religion = arianism
+capital = "Hannover"
+
 is_city = yes
-add_core = CLB
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FRI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

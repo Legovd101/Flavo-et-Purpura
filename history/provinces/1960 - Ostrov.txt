@@ -1,15 +1,21 @@
-#Ostrov
+# Ostrov
+# 1960 Ostrov - 5/27/2025 4:57:02 PM 
+ 
+add_core = PSK
 owner = PSK
 controller = PSK
-culture = novgorodian
-religion = orthodox
 base_tax = 2
 base_production = 2
-trade_goods = naval_supplies
 base_manpower = 2
+
+trade_goods = naval_supplies
+
+culture = novgorodian
+religion = orthodox
 capital = "Ostrov"
+
 is_city = yes
-add_core = PSK
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -17,3 +23,10 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

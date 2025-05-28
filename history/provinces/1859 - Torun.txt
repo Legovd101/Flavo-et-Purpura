@@ -1,17 +1,30 @@
-#1859 - Torun
+# Chelmno
+# 1859 Chelmno - 5/27/2025 4:57:02 PM 
+ 
+add_core = MAZ
 owner = MAZ
 controller = MAZ
-capital = "Torun"
-is_city = yes
-culture = polish
-religion = orthodox
-trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+center_of_trade = 1
+trade_goods = grain
+
+culture = polish
+religion = orthodox
+capital = "Torun"
+
+is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-center_of_trade = 1
-add_core = MAZ
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

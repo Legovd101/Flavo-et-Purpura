@@ -1,13 +1,26 @@
-#1155 - Kano
+# Kano
+# 1155 Kano - 5/27/2025 4:57:01 PM 
+ 
+add_core = GLM
 owner = GLM
 controller = GLM
-culture = daura_vandalic
-is_city = yes
-base_manpower = 5
-religion = vandal_syncretism
-capital = "Kano"
-trade_goods = dyes
 base_tax = 5
 base_production = 5
+base_manpower = 5
+
+trade_goods = dyes
+
+culture = daura_vandalic
+religion = vandal_syncretism
+capital = "Kano"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = GLM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

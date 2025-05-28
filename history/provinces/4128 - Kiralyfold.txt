@@ -1,14 +1,23 @@
-#1951 - Hunyad
+# Királyföld
+# 4128 Királyföld - 5/27/2025 4:57:02 PM 
+ 
+add_core = BLU
+add_core = AVR
 owner = BLU
 controller = BLU
-culture = avar#Transylvanian Saxons
-religion = manichaean
-capital = "Sibiu"
-trade_goods = cloth
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = cloth
+
+culture = avar
+religion = manichaean
+capital = "Sibiu"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -18,6 +27,10 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BLU
-add_core = AVR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

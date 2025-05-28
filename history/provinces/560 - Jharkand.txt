@@ -1,6 +1,5 @@
-### Modified 31-03-2025 15:55:23 ###
 # Jharkhand
-# 560 Jharkhand - 31-03-2025 15:55:23 
+# 560 Jharkhand - 5/27/2025 4:57:01 PM 
  
 add_core = KLH
 owner = KLH
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

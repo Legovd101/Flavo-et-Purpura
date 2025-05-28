@@ -1,14 +1,27 @@
-#4158 - Janjero
+# Janjiro
+# 4158 Janjiro - 5/27/2025 4:57:02 PM 
+ 
+add_core = DAM
 owner = DAM
 controller = DAM
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = slaves
+
 culture = sidamo
 religion = waaqeffanna
 capital = "Fofa"
+
 is_city = yes
-base_manpower = 1
-trade_goods = slaves
-base_tax = 1
-base_production = 2
+
 discovered_by = east_african
 discovered_by = muslim
-add_core = DAM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,32 @@
-#1839 - Suruga
-owner = KOR
-controller = KOR
-culture = togoku
-religion = shinto
-capital = "Sunpu"
-trade_goods = tea
+### Modified 5/27/2025 4:57:02 PM ###
+# Suruga
+# 1839 Suruga - 5/27/2025 4:57:02 PM 
+ 
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = tea
+
+culture = togoku
+religion = shinto
+capital = "Sunpu"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-add_core = KOR
 discovered_by = nomad_group
+
+
+
+
+
+

@@ -1,18 +1,31 @@
-#1205 - Mogadishu
+# Mogadishu
+# 1205 Mogadishu - 5/27/2025 4:57:01 PM 
+ 
+add_core = MDI
 owner = MDI
 controller = MDI
-add_core = MDI
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+center_of_trade = 2
+trade_goods = ivory
+extra_cost = 16
+
 culture = somali
 religion = swahili_pagan
 capital = "Maqdishu"
+
 is_city = yes
-base_manpower = 2
-trade_goods = ivory
-base_tax = 4
-base_production = 4
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 16
-center_of_trade = 2
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,14 +1,29 @@
-#733 - Hwangju
-owner = KOR
-controller = KOR
-culture = korean
-religion = mahayana
-capital = "Hwangju"
-trade_goods = fish
+### Modified 5/27/2025 4:57:01 PM ###
+# Hwangju
+# 733 Hwangju - 5/27/2025 4:57:01 PM 
+ 
+add_core = KOR
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fish
+
+culture = korean
+religion = mahayana
+capital = "Hwangju"
+
 is_city = yes
-add_core = KOR
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+

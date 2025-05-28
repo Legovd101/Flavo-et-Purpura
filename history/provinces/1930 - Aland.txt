@@ -1,16 +1,29 @@
-#Åland
+# Aland
+# 1930 Aland - 5/27/2025 4:57:02 PM 
+ 
+add_core = SWE
 owner = SWE
 controller = SWE
-add_core = SWE
-culture = swedish
-religion = arianism
-capital = "Mariehamn"
-is_city = yes
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
 trade_goods = fish
+
+culture = swedish
+religion = arianism
+capital = "Mariehamn"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
-#691 - Jinan
+# Jinan
+# 691 Jinan - 5/27/2025 4:57:01 PM 
+ 
+add_core = QIC
+add_core = CYI
 owner = CYI
 controller = CYI
-culture = shandong_culture
-religion = confucianism
-capital = "Jinan"
-trade_goods = cloth
 base_tax = 5
 base_production = 5
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = shandong_culture
+religion = confucianism
+capital = "Jinan"
+
+hre = yes
 is_city = yes
-add_core = QIC
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CYI
-hre = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,12 +1,26 @@
+# Guangzhou
+# 5122 Guangzhou - 5/27/2025 4:57:03 PM 
+ 
 add_core = SHU
 owner = SHU
+controller = SHU
 base_tax = 2
-base_manpower = 3
 base_production = 3
+base_manpower = 3
+
+
 culture = hubei
 religion = confucianism
-controller = SHU
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

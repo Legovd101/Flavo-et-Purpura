@@ -1,14 +1,27 @@
-#2399 - Pagan
+# Pagan
+# 2399 Pagan - 5/27/2025 4:57:02 PM 
+ 
+add_core = BPR
 owner = BPR
 controller = BPR
-culture = burmese
-religion = buddhism
-capital = "Pagan"
-trade_goods = tropical_wood
 base_tax = 4
 base_production = 4
 base_manpower = 3
+
+trade_goods = tropical_wood
+
+culture = burmese
+religion = buddhism
+capital = "Pagan"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = BPR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

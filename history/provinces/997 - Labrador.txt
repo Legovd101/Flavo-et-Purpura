@@ -1,14 +1,26 @@
-#997 - Labrador
-culture = innu
-religion = totemism
-capital = "Labrador"
-trade_goods = unknown
+# Chisedec
+# 997 Chisedec - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = innu
+religion = totemism
+capital = "Labrador"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 7
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

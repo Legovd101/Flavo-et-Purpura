@@ -1,16 +1,29 @@
+# Geneva
+# 4720 Geneva - 5/27/2025 4:57:02 PM 
+ 
+add_core = BUR
 owner = BUR
 controller = BUR
-culture = swiss
-religion = arianism
-capital = "Geneva"
-trade_goods = cloth
-
 base_tax = 6
 base_production = 4
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = swiss
+religion = arianism
+capital = "Geneva"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BUR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

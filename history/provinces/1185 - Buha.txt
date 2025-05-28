@@ -1,15 +1,28 @@
-#1185 - Uteve
+# Butua
+# 1185 Butua - 5/27/2025 4:57:01 PM 
+ 
+add_core = RZW
 owner = RZW
 controller = RZW
-add_core = RZW
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+trade_goods = gold
+
 culture = shona
 religion = swahili_pagan
 capital = "Khami"
+
 is_city = yes
-base_manpower = 1
-trade_goods = gold
-base_tax = 3
-base_production = 3
 add_local_autonomy = 50
+
 discovered_by = east_african
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

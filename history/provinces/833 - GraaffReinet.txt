@@ -1,12 +1,24 @@
-# - Graaff-Reinet
-culture = nguni
-religion = shamanism#Fetishism
-capital = "Graaff-Reinet"
-trade_goods = unknown
+# Algoa Bay
+# 833 Algoa Bay - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = nguni
+religion = shamanism
+capital = "Graaff-Reinet"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
-is_city = no
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

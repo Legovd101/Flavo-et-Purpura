@@ -1,14 +1,27 @@
-#1844 - Xiankhouang
+# Xiankhouang
+# 1844 Xiankhouang - 5/27/2025 4:57:02 PM 
+ 
+add_core = LXA
 owner = LXA
 controller = LXA
-culture = lao
-religion = buddhism
-capital = "Muang Khoun"
-trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = grain
+
+culture = lao
+religion = buddhism
+capital = "Muang Khoun"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-add_core = LXA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

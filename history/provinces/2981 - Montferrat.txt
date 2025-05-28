@@ -1,18 +1,30 @@
-#2981 - Montferrat
+# Montferrat
+# 2981 Montferrat - 5/27/2025 4:57:02 PM 
+ 
+add_core = SAV
+add_core = MFA
 owner = SAV
 controller = SAV
-culture = piedmontese
-religion = arianism
-
 base_tax = 5
 base_production = 5
-trade_goods = wine
 base_manpower = 2
-capital = Montferrat
+
+trade_goods = wine
+
+culture = piedmontese
+religion = arianism
+capital = "Montferrat"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SAV
-add_core = MFA
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

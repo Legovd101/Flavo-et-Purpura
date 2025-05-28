@@ -1,13 +1,26 @@
-#Bunyoro
+# Bunyoro
+# 4065 Bunyoro - 5/27/2025 4:57:02 PM 
+ 
+add_core = BNY
 owner = BNY
 controller = BNY
-add_core = BNY
-culture = ganda
-religion = shamanism#Fetishism
-capital = "Mugenyi"
-trade_goods = salt
 base_tax = 4
 base_production = 3
 base_manpower = 3
+
+trade_goods = salt
+
+culture = ganda
+religion = shamanism
+capital = "Mugenyi"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,15 +1,27 @@
-#912 - Sauk
-culture = chiwere
-religion = totemism
-capital = "Sauk"
-trade_goods = unknown
+# Osaakiiwaki
+# 912 Osaakiiwaki - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chiwere
+religion = totemism
+capital = "Sauk"
+
 native_size = 5
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 5
 tribal_owner = OEO
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

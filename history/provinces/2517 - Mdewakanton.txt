@@ -1,17 +1,30 @@
-# No previous file for Mdewakanton
+# Bdewekhantunwan
+# 2517 Bdewekhantunwan - 5/27/2025 4:57:02 PM 
+ 
+add_core = SIO
 owner = SIO
 controller = SIO
-add_core = SIO
-is_city = yes
-culture = dakota
-religion = totemism
-capital = "Mdewakanton"
-trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fur
+
+culture = dakota
+religion = totemism
+capital = "Mdewakanton"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

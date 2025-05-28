@@ -1,17 +1,29 @@
-#2442 - Ust-Kut
-culture = buryat
-religion = tengri_pagan_reformed
-capital = "Ust-Kut"
-trade_goods = unknown
-base_tax = 1
-base_production = 1
-base_manpower = 1
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
-discovered_by = nomad_group
-discovered_by = BRT
-is_city = no
+# Ust-Kut
+# 2442 Ust-Kut - 5/27/2025 4:57:02 PM 
+ 
 add_core = OIR
 owner = OIR
 controller = OIR
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+
+culture = buryat
+religion = tengri_pagan_reformed
+capital = "Ust-Kut"
+
+native_size = 5
+native_ferocity =  1
+native_hostileness = 2
+
+discovered_by = nomad_group
+discovered_by = BRT
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

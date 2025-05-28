@@ -1,13 +1,26 @@
-# No previous file for Rano
+# Rano
+# 2281 Rano - 5/27/2025 4:57:02 PM 
+ 
+add_core = ZZZ
 owner = ZZZ
 controller = ZZZ
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = dyes
+
 culture = daura_vandalic
 religion = vandal_syncretism
 capital = "Rano"
-trade_goods = dyes
-base_tax = 2
-base_production = 2
+
 is_city = yes
-base_manpower = 1
+
 discovered_by = sub_saharan
-add_core = ZZZ
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,17 +1,30 @@
-# No previous file for Choinumni
+# Choinumni
+# 4636 Choinumni - 5/27/2025 4:57:02 PM 
+ 
+add_core = YKT
 owner = YKT
 controller = YKT
-add_core = YKT
-culture = yokuts
-religion = totemism
-capital = "Choinumni"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = yokuts
+religion = totemism
+capital = "Choinumni"
+
 is_city = yes
 native_size = 6
-native_ferocity = 2
+native_ferocity =  2
 native_hostileness = 8
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

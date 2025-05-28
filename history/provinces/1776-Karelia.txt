@@ -1,16 +1,29 @@
-#East Karelia
+# White Karelia
+# 1776 White Karelia - 5/27/2025 4:57:02 PM 
+ 
+add_core = KRL
+add_core = KRL
 owner = KRL
 controller = KRL
-capital = "Kem"
-culture = karel
-religion = finnish_pagan
-add_core = KRL
-is_city = yes
 base_tax = 1
 base_production = 1
-trade_goods = salt
 base_manpower = 1
+
+trade_goods = salt
+
+culture = karel
+religion = finnish_pagan
+capital = "Kem"
+
+is_city = yes
+add_local_autonomy = 25
+
 discovered_by = western
 discovered_by = eastern
-add_local_autonomy = 25
-add_core = KRL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,23 @@
-#4236 - Trencin
+# Trencin
+# 4236 Trencin - 5/27/2025 4:57:02 PM 
+ 
+add_core = SLO
+add_core = AVR
 owner = AVR
-set_province_flag = support_koszegi
 controller = AVR
-culture = slovak
-religion = manichaean
-capital = "Trencin"
-trade_goods = iron
 base_tax = 2
 base_production = 3
 base_manpower = 1
+
+trade_goods = iron
+
+culture = slovak
+religion = manichaean
+capital = "Trencin"
+
 is_city = yes
-add_core = SLO
+fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -20,5 +27,10 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-add_core = AVR
-fort_15th = yes
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

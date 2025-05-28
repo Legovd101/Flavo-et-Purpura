@@ -1,18 +1,31 @@
-#479 - Kerey
+# Kerey
+# 479 Kerey - 5/27/2025 4:57:01 PM 
+ 
+add_core = KZH
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = khazak
-religion = manichaean
-capital = "Kerey"
-trade_goods = copper
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = copper
+
+culture = khazak
+religion = manichaean
+capital = "Kerey"
+
 is_city = yes
-add_core = KZH
+
 discovered_by = KZH
 discovered_by = GOL
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

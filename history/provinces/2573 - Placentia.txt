@@ -1,14 +1,26 @@
-#2573 - Placientia
-culture = innu
-religion = totemism
-capital = "Placentia"
-trade_goods = unknown
+# Placentia
+# 2573 Placentia - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 3
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = innu
+religion = totemism
+capital = "Placentia"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

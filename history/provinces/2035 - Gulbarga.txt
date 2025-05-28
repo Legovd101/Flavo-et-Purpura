@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:31:44 ###
 # Gulbarga
-# 2035 Gulbarga - 31-03-2025 16:31:44 
+# 2035 Gulbarga - 5/27/2025 4:57:02 PM 
  
 add_core = TLG
 owner = TLG
@@ -28,3 +27,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

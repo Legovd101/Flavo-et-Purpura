@@ -1,14 +1,27 @@
-# 2117 - Zasagt
+# Zasagt
+# 2117 Zasagt - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
 owner = OIR
 controller = OIR
-add_core = OIR
-culture = khalkha
-religion = tengri_pagan_reformed
-capital = "Zasagt"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Zasagt"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,17 +1,30 @@
-#961 - Oneida
+# Onyo'taaka
+# 961 Onyo'taaka - 5/27/2025 4:57:01 PM 
+ 
+add_core = ONE
 owner = ONE
 controller = ONE
-culture = iroquois
-religion = totemism
-capital = "Oneida"
-trade_goods = fur
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = fur
+
+culture = iroquois
+religion = totemism
+capital = "Oneida"
+
 is_city = yes
-add_core = ONE
 native_size = 10
-native_ferocity = 6
+native_ferocity =  6
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

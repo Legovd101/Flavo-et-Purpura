@@ -1,17 +1,30 @@
-#4366 - Pembrokeshire+Camartenshire+Cardiganshire
+# Carmarthen
+# 4369 Carmarthen - 5/27/2025 4:57:02 PM 
+ 
+add_core = WLS
+add_core = CRM
 owner = CRM
 controller = CRM
-culture = wales_gaelic
-religion = lutetian
 base_tax = 1
 base_production = 1
-trade_goods = livestock
 base_manpower = 1
+
+trade_goods = livestock
+
+culture = wales_gaelic
+religion = lutetian
 capital = "Carmarthen"
+
 is_city = yes
-add_core = WLS
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-add_core = CRM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

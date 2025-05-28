@@ -1,17 +1,30 @@
-#South Corsica
+# Corsica del Sud
+# 5157 Corsica del Sud - 5/27/2025 4:57:03 PM 
+ 
+add_core = GEN
+add_core = COR
 owner = GEN
 controller = GEN
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = naval_supplies
+
 culture = sardinian
 religion = lutetian
 capital = "Vecchio"
-base_tax = 3
-base_production = 3
-trade_goods = naval_supplies
-base_manpower = 2
+
 is_city = yes
-add_core = GEN
-add_core = COR
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

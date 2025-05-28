@@ -1,20 +1,33 @@
-#218 - Badajoz
-owner = BAE#Juan II of Castille
+# Badajoz
+# 218 Badajoz - 5/27/2025 4:57:01 PM 
+ 
+add_core = BAE
+owner = BAE
 controller = BAE
-culture = baetican
-religion = arianism
 base_tax = 3
 base_production = 3
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = baetican
+religion = arianism
 capital = "Badajoz"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = BAE
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

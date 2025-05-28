@@ -1,16 +1,29 @@
-#1157 - Borno
+# Borno
+# 1157 Borno - 5/27/2025 4:57:01 PM 
+ 
+add_core = BRN
 owner = BRN
 controller = BRN
-add_core = BRN
+base_tax = 4
+base_production = 4
+base_manpower = 1
+
+center_of_trade = 2
+trade_goods = grain
+extra_cost = 16
+
 culture = borno_vandalic
 religion = vandal_syncretism
 capital = "Gatiga"
+
 is_city = yes
-base_manpower = 1
-trade_goods = grain
-base_tax = 4
-base_production = 4
-discovered_by = sub_saharan
-extra_cost = 16
-center_of_trade = 2
 fort_15th = yes
+
+discovered_by = sub_saharan
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

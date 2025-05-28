@@ -1,12 +1,26 @@
+# Kuangte
+# 5100 Kuangte - 5/27/2025 4:57:03 PM 
+ 
 add_core = QIN
 owner = QIN
+controller = QIN
 base_tax = 1
-base_manpower = 3
 base_production = 4
+base_manpower = 3
+
+
 culture = huizhou_culture
 religion = confucianism
-controller = QIN
-is_city = yes
+
 hre = yes
+is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:03 PM ###

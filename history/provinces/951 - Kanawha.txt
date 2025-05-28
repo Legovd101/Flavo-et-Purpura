@@ -1,17 +1,29 @@
-#951 - Kanawha
-latent_trade_goods = { 
-	coal 
-}
-culture = shawnee
-religion = totemism
-capital = "Kanawha"
-trade_goods = unknown
+# Kanawha
+# 951 Kanawha - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = shawnee
+religion = totemism
+capital = "Kanawha"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 4
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

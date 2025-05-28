@@ -1,17 +1,30 @@
-#2024 - Garoowe
-owner = MRE
-controller = MRE
+# Garoowe
+# 2024 Garoowe - 5/27/2025 4:57:02 PM 
+ 
 add_core = MRE
 add_core = MJE
+owner = MRE
+controller = MRE
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fish
+
 culture = somali
 religion = waaqeffanna
 capital = "Garoowe"
+
 is_city = yes
-base_manpower = 1
-trade_goods = fish
-base_tax = 1
-base_production = 1
+
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

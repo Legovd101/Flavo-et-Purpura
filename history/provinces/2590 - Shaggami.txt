@@ -1,15 +1,27 @@
-# No previous file for Shaggami
-culture = cree
-religion = totemism
-capital = "Shaggami"
-trade_goods = unknown
+# Shaggami
+# 2590 Shaggami - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = cree
+religion = totemism
+capital = "Shaggami"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
 tribal_owner = WCR
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,18 +1,32 @@
-#4651 - Tsushima
-owner = KOR
-controller = KOR
+### Modified 5/27/2025 4:57:02 PM ###
+# Tsushima
+# 4651 Tsushima - 5/27/2025 4:57:02 PM 
+ 
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = chinaware
+
 culture = kyushuan
 religion = tengri_pagan_reformed
 capital = "Tsushima"
-trade_goods = chinaware
-base_tax = 2
-base_manpower = 1
-base_production = 1
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-add_core = KOR
 discovered_by = nomad_group
+
+
+
+
+
+

@@ -1,17 +1,31 @@
-owner = AVI
-controller = AVI
-capital = "Foix"
-is_city = yes
-culture = vasconian
-religion = lutetian
-base_tax = 2
-base_production = 2
-trade_goods = wool
-base_manpower = 2
+# Foix
+# 4694 Foix - 5/27/2025 4:57:02 PM 
+ 
 add_core = FOI
 add_core = GUY
+add_core = AVI
+owner = AVI
+controller = AVI
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = wool
+
+culture = vasconian
+religion = lutetian
+capital = "Foix"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = AVI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

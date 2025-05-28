@@ -1,18 +1,26 @@
-# No previous file for Xiconaque
-culture = guamares
-religion = animism
-#owner = GAM
-#controller = GAM
-#add_core = GAM
-#is_city = yes
-tribal_owner = GAM
-capital = "Xiconaque"
-trade_goods = wool
+# Xiconaque
+# 4643 Xiconaque - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = wool
+
+culture = guamares
+religion = animism
+capital = "Xiconaque"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+tribal_owner = GAM
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

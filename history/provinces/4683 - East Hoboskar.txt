@@ -1,15 +1,29 @@
+# Altay
+# 4683 Altay - 5/27/2025 4:57:02 PM 
+ 
+add_core = OIR
+add_core = CHG
 owner = OIR
 controller = OIR
-add_core = OIR
-culture = oirats
-religion = nestorian
-capital = "Altay"
-trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = oirats
+religion = nestorian
+capital = "Altay"
+
 is_city = yes
-add_core = CHG
+
 discovered_by = CHG
 discovered_by = chinese
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

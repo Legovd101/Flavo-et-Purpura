@@ -1,11 +1,24 @@
-#1077 - Solikamsk
-capital = "Usolye Kamskoye"
-culture = uralic
-religion = tengri_pagan_reformed#Sami Shamanism
-trade_goods = salt# was center of salt mining
+# Solikamsk
+# 1077 Solikamsk - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 3
-base_production = 5#Salt Mines
+base_production = 5
 base_manpower = 1
+
+trade_goods = salt
+
+culture = uralic
+religion = tengri_pagan_reformed
+capital = "Usolye Kamskoye"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

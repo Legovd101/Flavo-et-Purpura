@@ -1,6 +1,18 @@
-#1098 - St. Helena
+# St. Helena
+# 1098 St. Helena - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-is_city = no
+
+trade_goods = unknown
+
+
+
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

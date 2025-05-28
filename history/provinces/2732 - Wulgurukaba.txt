@@ -1,16 +1,28 @@
-#2732 - Wulgurukaba
-latent_trade_goods = { 
-	coal 
-}
-culture = paman
-religion = dreamtime
-capital = "Wulgurukaba"
-trade_goods = unknown
+# Wulgurukaba
+# 2732 Wulgurukaba - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = paman
+religion = dreamtime
+capital = "Wulgurukaba"
+
 native_size = 10
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 1
+
 discovered_by = aboriginal_tech
-is_city = no
+
+
+
+latent_trade_goods = {
+   coal
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

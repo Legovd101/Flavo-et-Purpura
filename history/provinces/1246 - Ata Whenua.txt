@@ -1,13 +1,25 @@
-#1246 - Ata Whenua
-culture = maori
-religion = animism
-capital = "Hokitika"
-trade_goods = gems
+# Ata Whenua
+# 1246 Ata Whenua - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = gems
+
+culture = maori
+religion = animism
+capital = "Hokitika"
+
 native_size = 3
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
+
 discovered_by = polynesian_tech
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

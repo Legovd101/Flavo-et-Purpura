@@ -1,18 +1,30 @@
-#Skaraborg, contains Skara, Skövde etc.
+# Skaraborg
+# 7 Skaraborg - 5/27/2025 4:57:01 PM 
+ 
 add_core = SWE
+add_core = SCN
 owner = SWE
 controller = SWE
-culture = swedish
-religion = arianism
 base_tax = 2
 base_production = 2
-trade_goods = grain
 base_manpower = 2
+
+trade_goods = grain
+
+culture = swedish
+religion = arianism
 capital = "Skara"
+
 is_city = yes
-#"Domkyrkan i Skara"
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SCN
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

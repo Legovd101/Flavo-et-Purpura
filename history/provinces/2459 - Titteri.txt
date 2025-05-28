@@ -1,15 +1,28 @@
-# - Titteri
+# Titteri
+# 2459 Titteri - 5/27/2025 4:57:02 PM 
+ 
+add_core = SYP
 owner = SYP
 controller = SYP
-culture = massylian
-religion = west_orthodox
-capital = "Medea"
-trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = grain
+
+culture = massylian
+religion = west_orthodox
+capital = "Medea"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
-add_core = SYP
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

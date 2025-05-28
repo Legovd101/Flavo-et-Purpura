@@ -1,15 +1,27 @@
-#Savolaks, incl. Nyslott(Olofsborg).
+# Savolax
+# 31 Savolax - 5/27/2025 4:57:01 PM 
+ 
+add_core = SVN
 owner = SVN
 controller = SVN
-add_core = SVN
-culture = savonian
-religion = finnish_pagan
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = savonian
+religion = finnish_pagan
 capital = "Olofsborg"
+
 is_city = yes
-#fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

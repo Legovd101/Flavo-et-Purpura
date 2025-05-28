@@ -1,13 +1,26 @@
-#1142 - Dendi
+# Dendi
+# 1142 Dendi - 5/27/2025 4:57:01 PM 
+ 
+add_core = TMB
 owner = TMB
 controller = TMB
-culture = gurma
-is_city = yes
-base_manpower = 1
-religion = mauri_pagan
-capital = "Lulama"
-trade_goods = grain
 base_tax = 3
 base_production = 3
+base_manpower = 1
+
+trade_goods = grain
+
+culture = gurma
+religion = mauri_pagan
+capital = "Lulama"
+
+is_city = yes
+
 discovered_by = sub_saharan
-add_core = TMB
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

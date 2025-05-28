@@ -1,16 +1,29 @@
-#2391 - Thalang
+# Thalang
+# 2391 Thalang - 5/27/2025 4:57:02 PM 
+ 
+add_core = SUK
 owner = SUK
 controller = SUK
-culture = malayan
-religion = hinduism
-capital = "Thalang"
-trade_goods = fish
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+trade_goods = fish
+
+culture = malayan
+religion = hinduism
+capital = "Thalang"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-add_core = SUK
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

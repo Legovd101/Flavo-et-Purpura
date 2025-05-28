@@ -1,15 +1,28 @@
-# 2148 - Shaoxin
+# Sohshing
+# 2148 Sohshing - 5/27/2025 4:57:02 PM 
+ 
+add_core = WUU
+add_core = UES
 owner = UES
 controller = UES
-culture = wu
-religion = confucianism
-capital = "Shaoxin"
-trade_goods = paper
 base_tax = 6
 base_production = 6
 base_manpower = 2
+
+trade_goods = paper
+
+culture = wu
+religion = confucianism
+capital = "Shaoxin"
+
 is_city = yes
-add_core = WUU
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = UES
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

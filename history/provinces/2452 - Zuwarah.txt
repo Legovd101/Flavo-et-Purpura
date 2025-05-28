@@ -1,21 +1,34 @@
-# - Zuwarah
+# Zuwarah
+# 2452 Zuwarah - 5/27/2025 4:57:02 PM 
+ 
+add_core = TRP
+add_core = FZA
 owner = FZA
 controller = FZA
-culture = garamantian
-religion = west_orthodox
-capital = "Zuwarah"
-trade_goods = purpura
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = purpura
+
+culture = garamantian
+religion = west_orthodox
+capital = "Zuwarah"
+
 is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-add_core = TRP
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FZA
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

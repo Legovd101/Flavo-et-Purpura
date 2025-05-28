@@ -1,15 +1,27 @@
-#1071 - Tara
+# Irtesh
+# 1071 Irtesh - 5/27/2025 4:57:01 PM 
+ 
+add_core = SIB
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = siberian
-religion = manichaean
-capital = "Tara"
-trade_goods = fur
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fur
+
+culture = siberian
+religion = manichaean
+capital = "Tara"
+
 is_city = yes
-add_core = SIB
+
 discovered_by = nomad_group
-revolt_risk = 15
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:34:09 ###
 # East Berar
-# 546 East Berar - 31-03-2025 11:34:09 
+# 546 East Berar - 5/27/2025 4:57:01 PM 
  
 add_core = BRR
 add_core = PAN
@@ -29,3 +28,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,16 +1,29 @@
-# No previous file for Kawar
+# Kawar
+# 2277 Kawar - 5/27/2025 4:57:02 PM 
+ 
+add_core = WTS
 owner = WTS
 controller = WTS
-is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = salt
+
 culture = kanem_vandalic
 religion = mauri_pagan
 capital = "Kawar"
-trade_goods = salt
-base_tax = 1
-base_production = 1
+
+is_city = yes
 native_size = 40
-native_ferocity = 4
+native_ferocity =  4
 native_hostileness = 9
-base_manpower = 1
+
 discovered_by = sub_saharan
-add_core = WTS
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

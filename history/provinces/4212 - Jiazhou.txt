@@ -1,16 +1,29 @@
-#4212 - Jiazhou
+# Jiazhou
+# 4212 Jiazhou - 5/27/2025 4:57:02 PM 
+ 
+add_core = CXI
+add_core = SHU
+add_core = CDL
 owner = CDL
 controller = CDL
-culture = yi
-religion = nestorian
-capital = "Jiazhou"
-trade_goods = tea
 base_tax = 3
 base_production = 2
 base_manpower = 2
+
+trade_goods = tea
+
+culture = yi
+religion = nestorian
+capital = "Jiazhou"
+
 is_city = yes
-add_core = CXI
-add_core = SHU
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CDL
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

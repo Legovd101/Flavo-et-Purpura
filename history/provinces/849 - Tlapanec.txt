@@ -1,17 +1,30 @@
-#849 - Tlapanec
+# Tlapanec
+# 849 Tlapanec - 5/27/2025 4:57:01 PM 
+ 
+add_core = TLA
 owner = TLA
 controller = TLA
-culture = tlapanec
-religion = nahuatl
-capital = "Acapulco"
-trade_goods = gold
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+center_of_trade = 1
+trade_goods = gold
+extra_cost = 8
+
+culture = tlapanec
+religion = nahuatl
+capital = "Acapulco"
+
 is_city = yes
-add_core = TLA
+
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
-extra_cost = 8
-center_of_trade = 1
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

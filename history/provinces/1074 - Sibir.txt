@@ -1,12 +1,24 @@
-#1074 - Sibir
-culture = ostyaki
-religion = manichaean
-capital = "Qashliq"
-trade_goods = fur
+# Sibir
+# 1074 Sibir - 5/27/2025 4:57:01 PM 
+ 
+add_core = SIB
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = fur
+
+culture = ostyaki
+religion = manichaean
+capital = "Qashliq"
+
 is_city = yes
-add_core = SIB
+
 discovered_by = nomad_group
-revolt_risk = 15
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

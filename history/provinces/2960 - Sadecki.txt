@@ -1,15 +1,21 @@
-#262 - Sadecki
+# Nowy Sacz
+# 2960 Nowy Sacz - 5/27/2025 4:57:02 PM 
+ 
+add_core = AVR
 owner = AVR
-set_province_flag = support_koszegi
 controller = AVR
+base_tax = 6
+base_production = 6
+base_manpower = 2
+
+trade_goods = iron
+
 culture = polish
 religion = orthodox
 capital = "Nowy Sacz"
-base_tax = 6
-base_production = 6
-trade_goods = iron
-base_manpower = 2
+
 is_city = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -19,4 +25,10 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = AVR
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

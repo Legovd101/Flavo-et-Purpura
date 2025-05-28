@@ -1,6 +1,5 @@
-### Modified 31-03-2025 13:04:36 ###
 # Halar
-# 2052 Halar - 31-03-2025 13:04:36 
+# 2052 Halar - 5/27/2025 4:57:02 PM 
  
 add_core = NVR
 owner = NVR
@@ -29,3 +28,4 @@ discovered_by = east_african
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

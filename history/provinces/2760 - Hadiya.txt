@@ -1,16 +1,29 @@
-#2760 - Hadiya
+# Hadiya
+# 2760 Hadiya - 5/27/2025 4:57:02 PM 
+ 
+add_core = DAM
 owner = DAM
 controller = DAM
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = grain
+
 culture = sidamo
 religion = waaqeffanna
 capital = "Angacha"
+
 is_city = yes
-base_manpower = 2
-trade_goods = grain
-base_tax = 3
-base_production = 3
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
-add_core = DAM
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

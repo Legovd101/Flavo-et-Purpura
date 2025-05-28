@@ -1,6 +1,5 @@
-### Modified 31-03-2025 16:05:29 ###
 # Katehar
-# 2061 Katehar - 31-03-2025 16:05:29 
+# 2061 Katehar - 5/27/2025 4:57:02 PM 
  
 add_core = RMP
 add_core = JNP
@@ -30,3 +29,4 @@ discovered_by = chinese
 
 
 
+### Modified 5/27/2025 4:57:02 PM ###

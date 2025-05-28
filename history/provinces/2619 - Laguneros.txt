@@ -1,15 +1,27 @@
-# No previous file for Laguneros
-culture = chichimecan
-religion = animism
-capital = "Laguneros"
-trade_goods = unknown
+# Laguneros
+# 2619 Laguneros - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = chichimecan
+religion = animism
+capital = "Laguneros"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = north_american
 discovered_by = high_american
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
-# No previous file for Tulucan
-culture = matlatzinca
+# Tullucan
+# 2626 Tullucan - 5/27/2025 4:57:02 PM 
+ 
+add_core = MAT
 owner = MAT
 controller = MAT
-add_core = MAT
-is_city = yes
-religion = nahuatl
-capital = "Matlatzinca"
-trade_goods = gold
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = gold
+
+culture = matlatzinca
+religion = nahuatl
+capital = "Matlatzinca"
+
+is_city = yes
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 2
+
 discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

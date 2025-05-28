@@ -1,5 +1,10 @@
-#1804 - Greenland
-is_city = no
+# Greenland
+# 1804 Greenland - 5/27/2025 4:57:02 PM 
+ 
+
+
+
+
 discovered_by = ICE
 discovered_by = VIN
 discovered_by = NOR
@@ -7,3 +12,10 @@ discovered_by = SWE
 discovered_by = DAN
 discovered_by = SCO
 discovered_by = LOI
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

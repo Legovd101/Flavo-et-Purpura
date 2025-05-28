@@ -1,15 +1,28 @@
-#4124 - North Karelia
+# Karelia
+# 4124 Karelia - 5/27/2025 4:57:02 PM 
+ 
+add_core = SVN
 owner = SVN
 controller = SVN
-add_core = SVN
-culture = savonian
-religion = finnish_pagan
 base_tax = 1
 base_production = 1
-trade_goods = fur
 base_manpower = 1
+
+trade_goods = fur
+
+culture = savonian
+religion = finnish_pagan
 capital = "Lieksa"
+
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

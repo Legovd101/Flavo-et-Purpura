@@ -1,17 +1,30 @@
-#1197 - Mzizima
+# Mzizima
+# 1197 Mzizima - 5/27/2025 4:57:01 PM 
+ 
+add_core = ZAN
 owner = ZAN
 controller = ZAN
-add_core = ZAN
-culture = swahili
-religion = swahili_pagan #Fetishism
-capital = "Mzizima"
-is_city = yes
-base_manpower = 1
-trade_goods = gems#Pearls - a general export of the Swahili coast
 base_tax = 1
 base_production = 1
+base_manpower = 1
+
+trade_goods = gems
+
+culture = swahili
+religion = swahili_pagan
+capital = "Mzizima"
+
+is_city = yes
+
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = central_african
 discovered_by = east_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

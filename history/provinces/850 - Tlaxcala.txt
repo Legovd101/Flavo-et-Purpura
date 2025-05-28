@@ -1,14 +1,27 @@
-#850 - Tlaxcala
+# Tlaxcala
+# 850 Tlaxcala - 5/27/2025 4:57:01 PM 
+ 
+add_core = TLX
 owner = TLX
 controller = TLX
-culture = aztek
-religion = nahuatl
-capital = "Tlaxcala"
-trade_goods = sugar
 base_tax = 4
 base_production = 4
 base_manpower = 1
+
+trade_goods = sugar
+
+culture = aztek
+religion = nahuatl
+capital = "Tlaxcala"
+
 is_city = yes
-add_core = TLX
-discovered_by = mesoamerican
 fort_15th = yes
+
+discovered_by = mesoamerican
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

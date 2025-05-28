@@ -1,14 +1,27 @@
-# 4684 - Dzhemenika
+# Dzhemenika
+# 4684 Dzhemenika - 5/27/2025 4:57:02 PM 
+ 
+add_core = QAS
 owner = QAS
 controller = QAS
-culture = oirats
-religion = manichaean
-capital = "Dzhemenika"
-trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = fish
+
+culture = oirats
+religion = manichaean
+capital = "Dzhemenika"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = QAS
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

@@ -1,16 +1,29 @@
-#825 - Bogota
+# Bogota
+# 825 Bogota - 5/27/2025 4:57:01 PM 
+ 
+add_core = MCA
 owner = MCA
 controller = MCA
-culture = muisca
-discovered_by = south_american
-discovered_by = andean
-religion = inti
-capital = "Bogotá"
-is_city = yes
-trade_goods = gems
 base_tax = 6
 base_production = 6
 base_manpower = 2
-add_core = MCA
-extra_cost = 8
+
 center_of_trade = 1
+trade_goods = gems
+extra_cost = 8
+
+culture = muisca
+religion = inti
+capital = "Bogotá"
+
+is_city = yes
+
+discovered_by = south_american
+discovered_by = andean
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

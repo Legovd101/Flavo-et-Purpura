@@ -1,13 +1,25 @@
-#857 - Guachichil
+# Guachichil
+# 857 Guachichil - 5/27/2025 4:57:01 PM 
+ 
+add_core = CCM
 owner = CCM
 controller = CCM
-add_core = CCM
-culture = chichimecan
-religion = animism
-capital = "Guachichil"
-trade_goods = gold
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = gold
+
+culture = chichimecan
+religion = animism
+capital = "Guachichil"
+
+
 discovered_by = mesoamerican
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

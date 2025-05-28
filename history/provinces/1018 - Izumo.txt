@@ -1,19 +1,33 @@
-#1018 - Izumo
-owner = KOR
-controller = KOR
-culture = japanese
-religion = shinto
-capital = "Matsue"
-trade_goods = iron
+### Modified 5/27/2025 4:57:01 PM ###
+# Izumo
+# 1018 Izumo - 5/27/2025 4:57:01 PM 
+ 
+add_core = KNS
+add_core = KNS
+owner = KNS
+controller = KNS
 base_tax = 3
 base_production = 3
 base_manpower = 2
+
+trade_goods = iron
+
+culture = japanese
+religion = shinto
+capital = "Matsue"
+
 is_city = yes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-add_core = KOR
 discovered_by = nomad_group
-fort_15th = yes
+
+
+
+
+
+

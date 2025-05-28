@@ -1,17 +1,30 @@
-#666 - Hainan
+### Modified 5/27/2025 5:47:54 PM ###
+# Kingchow
+# 666 Kingchow - 5/27/2025 5:47:54 PM 
+ 
+add_core = MIN
 owner = MIN
 controller = MIN
-culture = chimin
-religion = confucianism
-capital = "Kingchow"
-trade_goods = tropical_wood
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = tropical_wood
+
+culture = hainanese
+religion = confucianism
+capital = "Kingchow"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-add_core = MIN
+
+
+
+
+
+

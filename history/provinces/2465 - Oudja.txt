@@ -1,16 +1,29 @@
-# - Oujda
+# Oujda
+# 2465 Oujda - 5/27/2025 4:57:02 PM 
+ 
+add_core = GAE
 owner = GAE
 controller = GAE
-culture = gaetuli
-religion = lutetian
-capital = "Oujda"
-trade_goods = wool
 base_tax = 3
 base_production = 3
 base_manpower = 1
+
+trade_goods = wool
+
+culture = gaetuli
+religion = lutetian
+capital = "Oujda"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
-add_core = GAE
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

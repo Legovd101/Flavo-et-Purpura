@@ -1,6 +1,5 @@
-### Modified 31-03-2025 11:26:19 ###
 # North Kanara
-# 531 North Kanara - 31-03-2025 11:26:19 
+# 531 North Kanara - 5/27/2025 4:57:01 PM 
  
 add_core = MYS
 owner = MYS
@@ -31,3 +30,4 @@ discovered_by = east_african
 
 
 
+### Modified 5/27/2025 4:57:01 PM ###

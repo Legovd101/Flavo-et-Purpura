@@ -1,12 +1,26 @@
+# Munene
+# 4088 Munene - 5/27/2025 4:57:02 PM 
+ 
+add_core = KUB
 owner = KUB
 controller = KUB
-add_core = KUB
-culture = kuba
-religion = shamanism#Fetishism
-capital = "Mai Munene"
-trade_goods = spices
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = spices
+
+culture = kuba
+religion = shamanism
+capital = "Mai Munene"
+
 is_city = yes
+
 discovered_by = central_african
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

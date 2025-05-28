@@ -1,16 +1,29 @@
-#707 - Yumen
+# Yumen
+# 707 Yumen - 5/27/2025 4:57:01 PM 
+ 
+add_core = CHH
 owner = CHH
 controller = CHH
-culture = oirats
-religion = nestorian
-capital = "Yumen"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 1
+
+center_of_trade = 2
+trade_goods = livestock
+extra_cost = 16
+
+culture = oirats
+religion = nestorian
+capital = "Yumen"
+
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-extra_cost = 16
-center_of_trade = 2
-add_core = CHH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

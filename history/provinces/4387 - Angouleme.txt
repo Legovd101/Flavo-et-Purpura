@@ -1,20 +1,33 @@
-# 4387 Angoulême
+# Angoumois
+# 4387 Angoumois - 5/27/2025 4:57:02 PM 
+ 
+add_core = GUY
 owner = GUY
 controller = GUY
-capital = "Angoulême"
-is_city = yes
-add_permanent_province_modifier = { 
-	name = historic_highways
-	duration = -1
-}
-culture = aquitanian
-religion = lutetian
 base_tax = 3
 base_production = 3
-trade_goods = livestock
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = aquitanian
+religion = lutetian
+capital = "Angoulême"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = GUY
+
+
+
+add_permanent_province_modifier = {
+	name = historic_highways
+	duration = -1
+}
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

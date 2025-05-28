@@ -1,17 +1,30 @@
-#467 - Borisoglebsk
+# Borisoglebsk
+# 467 Borisoglebsk - 5/27/2025 4:57:01 PM 
+ 
+add_core = GLH
 owner = GLH
 controller = GLH
-culture = mishary
-religion = manichaean
-capital = "Borisoglebsk"
-trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 2
+
+trade_goods = livestock
+
+culture = mishary
+religion = manichaean
+capital = "Borisoglebsk"
+
 is_city = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = western
-add_core = GLH
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###

@@ -1,13 +1,25 @@
-#2853 - Yareyu
-culture = guarani
-discovered_by = south_american
-religion = animism
-capital = "Yareyu"
-trade_goods = unknown
+# Yapeyú
+# 2853 Yapeyú - 5/27/2025 4:57:02 PM 
+ 
 base_tax = 2
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = guarani
+religion = animism
+capital = "Yareyu"
+
 native_size = 5
-native_ferocity = 1
+native_ferocity =  1
 native_hostileness = 8
-is_city = no
+
+discovered_by = south_american
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:02 PM ###

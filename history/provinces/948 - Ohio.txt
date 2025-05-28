@@ -1,15 +1,27 @@
-#948 - Ohio
-culture = shawnee
-religion = totemism
-capital = "Ohio"
-trade_goods = unknown
+# Ohiyo
+# 948 Ohiyo - 5/27/2025 4:57:01 PM 
+ 
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+trade_goods = unknown
+
+culture = shawnee
+religion = totemism
+capital = "Ohio"
+
 native_size = 10
-native_ferocity = 5
+native_ferocity =  5
 native_hostileness = 2
 tribal_owner = CLG
+
 discovered_by = north_american
 discovered_by = high_american
-is_city = no
+
+
+
+
+
+
+### Modified 5/27/2025 4:57:01 PM ###
