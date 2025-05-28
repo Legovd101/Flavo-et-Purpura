@@ -1,0 +1,41 @@
+#廣西
+664 = {"Lingzyinz" "Lingzyinz"} #Lingwun
+1840 = {"Gveilinz" "Gveilinz"} #Kwailam
+2162 = {"Ngouzcouh" "Ngouzcouh"} #Ngchow
+2163 = {"Liujcouh" "Liujcouh"} #Lauchau
+2164 = {"Nanzningz" "Nanzningz"} #Namning
+4950 = {"Ginhcouh" "Ginhcouh"} #Yamchau
+5065 = {"Lenzcouh" "Lenzcouh"} #Lienchau
+5066 = {"Lenzsanh" "Lenzsanh"} #Lienshan
+5129 = {"Yoglinz" "Yoglinz"} #Watlam
+5130 = {"Gveibingz" "Gveibingz"} #Chamchau
+5131 = {"Bingzloz" "Bingzloz"} #Pinglok
+5132 = {"Cungzcoj" "Cungzcoj"} #Taiping
+5133 = {"Dwzbauj" "Dwzbauj"} #Chanon
+5134 = {"Bingzgoj" "Bingzgoj"} #Siyan
+5135 = {"Yizcouh" "Yizcouh"} #Hingyuen
+
+#廣東
+665 = {"Cauging" "Cauging"} #Shiuhing
+#666 = {"___" "___"} #Kingchow
+667 = {"Gvangjcouh" "Gvangjcouh"} #Canton
+668 = {"Aumwnz" "Aumwnz"} #Macau
+2156 = {"Cauzcouh" "Cauzcouh"} #Teochew
+2157 = {"Veicouh" "Veicouh"} #Waichow
+2158 = {"Cauzgvanh" "Cauzgvanh"} #Shiukwan
+2159 = {"Raezcouh" "Raezcouh"} #Leichow
+#2160 = {"___" "___"} #Ngaichow
+4942 = {"Yanghgangj" "Yanghgangj"} #Hong Kong
+4943 = {"Dunghgvanj" "Dunghgvanj"} #Tungkun
+4944 = {"Seiqnyapnyuk" "Sinhningz"} #Seiyap
+4945 = {"Yangzgyangh" "Yangzgyangh"} #Yeungkong
+4946 = {"Swnhdwz" "Swnhdwz"} #Shuntak
+4947 = {"Mwnmingz" "Mwnmingz"} #Mowming
+#4948 = {"___" "___"} #Limkong
+4949 = {"Cinghyienx" "Cinghyienx"} #Tsingyün
+4951 = {"Sanmeix" "Sanmeix"} #Swabue
+4952 = {"Hozyenz" "Hozyenz"} #Hoyun
+4953 = {"Meizcouh" "Meizcouh"} #Meichow
+4954 = {"Sandouz" "Sandouz"} #Swatou
+
+# https://za.wikipedia.org/wiki/%E5%88%86%E7%B1%BB:Hawsingz

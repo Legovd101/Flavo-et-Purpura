@@ -1331,27 +1331,35 @@ gulf_of_arabia_area = {  #5
 	color = { 19 219 75 }
 	365 2315 2320 2321 5027 
 }
-al_wahat_area = {  #3
 
+al_wahat_area = {  #3
 	1233 2318 4323 5047 5048 
 }
 delta_area = {  #3
-
 	358 362 363 
 }
-bahari_area = {  #4 #Lower Egypt
 
+bahari_area = {  #5 #Lower Egypt
 	color = { 19 193 219 }
-	361 2316 4316 4317 
+	361 2316 4316 4317 5345
 }
+
 vostani_area = {  #3 #Middle Egypt
-
-	359 2317 4318 
+	359 2317 4318 5346 5347
 }
-said_area = {  #5 #Upper Egypt
 
-	360 1231 2319 4319 4320 
+said_area = { #5 #Upper Egypt
+	2319 5348 5349 5350 5351
 }
+
+qena_area = { #5 #Qena
+	360 4320 5352 5353 5354
+}
+
+aswan_area = { #5 #Aswan
+	1231 4319 5355 5356
+}
+
 tripolitania_area = {  #4
 
 	354 2451 2452 355 
