@@ -1,0 +1,89 @@
+########################################
+# Manolo's Folly Events
+########################################
+
+namespace = manolos_folly
+
+country_event = { # The Sendoff
+	id = manolos_folly.0
+	title = manolos_folly.0.t
+	desc = manolos_folly.0.d
+	picture = CRUSADER_HORDE_eventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			play_sound = DEUS_VULT_CRUSADE
+		}
+	}
+	option = { # Onward, to adventure!
+		name = manolos_folly.0.a
+		MAM = {
+			ROOT = {
+				exile_ruler_as = {
+					name = manolo_polcari
+				}
+				remove_country_modifier = manolos_folly_preparation
+				remove_country_modifier = travels_of_manolo_polcari
+			}
+			hidden_effect = {
+				358 = {
+					cede_province = VEN
+					add_core = EZI
+				}
+				VEN = {
+					release = EZI
+				}
+				EZI = {
+					add_country_modifier = {
+						name = travels_of_manolo_polcari
+						duration = 18250
+					}
+					add_country_modifier = {
+						name = manolos_folly
+						duration = -1
+					}
+					declare_war_with_cb = {
+						who = PREV
+						casus_belli = cb_4th_crusade
+					}
+					set_ruler = manolo_polcari
+					while = {
+						limit = { NOT = { army_size_percentage = 1 } }
+						capital_scope = {
+							tercio_infantry = EZI
+						}
+					}
+					add_manpower = 15
+					if = {
+						limit = { has_ruler = "Manolo" }
+						add_treasury = 200
+					}
+				}
+				KOJ = {
+					create_alliance = EZI
+					join_all_offensive_wars_of = EZI
+				}
+			}
+		}
+		switch_tag = EZI
+	}
+}
+
+country_event = { # The Path Forward
+	id = manolos_folly.1
+	title = manolos_folly.1.t
+	desc = manolos_folly.1.d
+	picture = CRUSADER_HORDE_eventPicture
+	
+	is_triggered_only = yes
+	option = { # This is but a stepping stone of the path to greatness.
+		name = manolos_folly.0.a
+		set_country_flag = leaving_current_region
+	}
+	option = { # China seems pretty far...
+		name = manolos_folly.0.b
+		set_country_flag = staying_in_place
+		remove_country_modifier = manolos_folly
+	}
+}

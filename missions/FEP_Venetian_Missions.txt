@@ -1,0 +1,187 @@
+VEN_planning_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VEN has_country_flag = venice_wank_selected has_country_flag = venice_wank_selected } 
+
+	VEN_raising_war_fleet = {
+		icon = mission_establish_high_seas_navy
+		position = 1
+		provinces_to_highlight = { owned_by = ROOT has_port = yes } 
+
+		trigger = { navy_size_percentage = 1 } 
+
+		effect = {  } 
+	}
+}
+VEN_planning_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
+
+	VEN_financial_backing = {
+		icon = medici_bank_ledgers
+		position = 2
+		required_missions = {
+			VEN_consulting_council
+			VEN_raising_war_fleet
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { treasury = 150 } 
+
+		effect = {  } 
+	}
+}
+VEN_planning_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
+
+	VEN_consulting_council = {
+		icon = mission_swedish_military_advise
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			has_mil_advisor = yes
+		} 
+
+		effect = {  } 
+	}
+
+	VEN_foreign_contacts = {
+		icon = contracts_of_correspondence
+		position = 3
+		required_missions = { VEN_financial_backing } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			has_spy_network_in = {
+				who = MAM
+				value = 50
+			}
+		} 
+
+		effect = {  } 
+	}
+
+	VEN_manolos_folly = {
+		icon = mission_conquer_alexandria
+		position = 4
+		required_missions = {
+			VEN_foreign_contacts
+			VEN_papal_approval
+		}
+		provinces_to_highlight = {
+			province_id = 1315
+		} 
+
+		trigger = {
+				custom_trigger_tooltip = {
+					tooltip = fleet_in_1315_tt
+					OR = {
+						1315 = {
+							heavy_ships_in_province = ROOT
+						}
+						1315 = {
+							transports_in_province = ROOT
+						}
+						1315 = {
+							galleys_in_province = ROOT
+						}
+						1315 = {
+							light_ships_in_province = ROOT
+						}
+					}
+			}
+		} 
+
+		effect = {
+			country_event = {
+				id = fep_venetian_flavor.2
+			}
+			custom_tooltip = manolos_folly_tt
+		} 
+	}
+}
+VEN_planning_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
+
+	VEN_knights_of_galilea = {
+		icon = jerusalem
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			reverse_has_opinion = {
+				who = KOJ
+				value = 150
+			}
+		} 
+
+		effect = {  } 
+	}
+
+	VEN_laying_path = {
+		icon = mission_raid_christian_trade
+		position = 2
+		required_missions = {
+			VEN_knights_of_galilea
+			VEN_old_friends_new_places
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			358 = { has_merchant = ROOT }
+		} 
+
+		effect = {  } 
+	}
+
+	VEN_papal_approval = {
+		icon = found_the_vatican_library
+		position = 3
+		required_missions = { VEN_laying_path } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			reverse_has_opinion = {
+				who = PAP
+				value = 150
+			}
+		} 
+
+		effect = {  } 
+	}
+}
+VEN_planning_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VEN has_country_flag = venice_wank_selected } 
+
+	VEN_old_friends_new_places = {
+		icon = mission_horde_trade
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			employed_advisor = {
+				name = "Altan Aghula"
+			}
+		} 
+
+		effect = {  } 
+	}
+}

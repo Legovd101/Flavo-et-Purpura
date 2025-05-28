@@ -2,8 +2,8 @@
 # 2374 Kauthara - 5/27/2025 4:57:02 PM 
  
 add_core = CHA
-owner = CP1
-controller = CP1
+owner = KTH
+controller = KTH
 base_tax = 4
 base_production = 3
 base_manpower = 3

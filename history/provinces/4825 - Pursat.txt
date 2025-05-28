@@ -2,8 +2,8 @@
 # 4825 Pursat - 5/27/2025 4:57:02 PM 
  
 add_core = KHM
-owner = KH3
-controller = KH3
+owner = DMR
+controller = DMR
 base_tax = 3
 base_production = 3
 base_manpower = 2

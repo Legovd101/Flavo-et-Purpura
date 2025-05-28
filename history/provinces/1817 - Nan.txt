@@ -2,8 +2,8 @@
 # 1817 Nan - 5/27/2025 4:57:02 PM 
  
 add_core = SUK
-owner = MB1
-controller = MB1
+owner = UMO
+controller = UMO
 base_tax = 3
 base_production = 3
 base_manpower = 2

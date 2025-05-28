@@ -3,8 +3,8 @@
  
 add_core = CHA
 add_core = ANN
-owner = CP1
-controller = CP1
+owner = KTH
+controller = KTH
 base_tax = 4
 base_production = 4
 base_manpower = 2

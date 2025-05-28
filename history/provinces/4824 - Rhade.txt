@@ -2,8 +2,8 @@
 # 4824 Rhade - 5/27/2025 4:57:02 PM 
  
 add_core = KHM
-owner = CP4
-controller = CP4
+owner = RHD
+controller = RHD
 base_tax = 2
 base_production = 2
 base_manpower = 2

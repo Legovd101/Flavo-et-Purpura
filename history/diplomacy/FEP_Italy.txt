@@ -19,3 +19,43 @@ vassal = {
 	start_date = 1045.6.21
 	end_date = 1553.12.31
 }
+
+dependency = {
+	subject_type = league_member
+	first = VEN
+	second = PDV
+	start_date = 756.1.1
+	end_date = 1500.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = VEN
+	second = AQU
+	start_date = 756.1.1
+	end_date = 1500.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = VEN
+	second = NAP
+	start_date = 756.1.1
+	end_date = 1500.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = VEN
+	second = GEN
+	start_date = 756.1.1
+	end_date = 1500.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = VEN
+	second = PRO
+	start_date = 756.1.1
+	end_date = 1500.1.1
+}

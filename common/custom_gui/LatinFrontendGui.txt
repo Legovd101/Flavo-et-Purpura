@@ -1,0 +1,106 @@
+custom_window = {
+	name = latin_custom_window
+	potential = {
+		has_country_flag = latin_window_shown
+	}
+}
+
+custom_window = {
+	name = latin_bubble_entry
+	potential = {
+		OR = {
+			is_in_latin_league = yes
+			any_known_country = {
+				is_in_latin_league = yes
+			}
+		}
+	}
+}
+
+custom_text_box = {
+    name = latin_frontend_number
+    potential = {
+		OR = {
+			is_in_latin_league = yes
+			any_known_country = {
+				is_in_latin_league = yes
+			}
+		}
+	}
+}
+
+custom_icon = {
+	name = latin_frontend_open_bg
+    potential = {
+	}
+}
+
+custom_button = {
+	name = latin_frontend_open_button
+	potential = {
+	}
+	trigger = {
+	}
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					is_in_latin_league = yes
+					any_known_country = {
+						is_in_latin_league = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = latin_window_shown
+				}
+				clr_country_flag = latin_window_shown
+			}
+			else = {
+				set_country_flag = latin_window_shown
+				clr_country_flag = shogunate_window_shown
+				play_sound = religion_sunni
+			}
+		}
+		else_if = {
+			limit = { always = no }
+			if = {
+				limit = {
+					has_country_flag = shogunate_window_shown
+				}
+				clr_country_flag = shogunate_window_shown
+			}
+			else = {
+				set_country_flag = shogunate_window_shown
+				play_sound = religion_shinto
+			}
+		}
+		else = {}
+		
+	}
+	tooltip = "[Root.GetEEBubble1TT]"
+	frame = {
+        number = 11
+        trigger = { 
+			OR = {
+				is_in_latin_league = yes
+				any_known_country = {
+					is_in_latin_league = yes
+				}
+			}
+		}
+    }
+	frame = {
+        number = 12
+        trigger = { 
+			always = yes
+		}
+    }
+	frame = {
+        number = 13
+        trigger = { 
+			always = yes
+		}
+    }
+}

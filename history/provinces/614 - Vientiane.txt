@@ -3,8 +3,8 @@
  
 add_core = LXA
 add_core = VIE
-owner = KH6
-controller = KH6
+owner = SGT
+controller = SGT
 base_tax = 5
 base_production = 5
 base_manpower = 4

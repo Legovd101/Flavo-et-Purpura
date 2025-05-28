@@ -129,9 +129,15 @@ country_event = {
 				random = 60
 			}
 		}
+		ai_chance = {
+			factor = 0.75
+		}
 	}
 	option = {
 		name = "flavor_blu.2.b" # Interesting Development...
+		ai_chance = {
+			factor = 0.25
+		}
 	}
 }
 

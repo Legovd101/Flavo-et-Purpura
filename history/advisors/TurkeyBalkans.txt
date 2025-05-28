@@ -1,0 +1,83 @@
+##################################################    
+#
+# ADVISORS FOR THE REGION 'TURKEY AND THE BALKAN'
+#
+##################################################    
+##################################################    
+#Provinces:
+##################################################    
+#Balkan:
+##################################################    
+#136 - Dalmatia (Zadar)
+#137 - Ragusa (Ragusa)
+#138 - Zeta (Zabljak)
+#139 - Hum (Mostar)
+#140 - Bosnia (Sarajevo)
+#141 - Serbia (Beograd)
+#142 - Corfu (Corfu)
+#143 - Albania (Durrës)
+#144 - Janina (Janina)
+#145 - Morea (Mistra)
+#146 - Athens (Athens)
+#147 - Salonica (Salonica)
+#148 - Macedonia (Üsküb)
+#149 - Edirne (Edirne)
+#150 - Bulgaria (Sofia)
+#151 - Thrace (Constantinople)
+#158 - Transylvania (Turda)
+#159 - Silistria (Silistria)
+#160 - Oltenia (Craiova)
+#161 - Wallachia (Tîrgoviste)
+#163 - Crete (Chania)
+#164 - Naxos (Naxos)
+#268 - Bessarabia (Suceava)
+#320 - Rhodes (Rhodes)
+#321 - Cyprus (Nicosia)
+##################################################    
+#Turkey:
+##################################################    
+#316 - Bithynia (Nicomedia)
+#317 - Bursa (Bursa)
+#318 - Smyrna (Izmir)
+#319 - Antalya (Antalya)
+#322 - Anatolia (Eskisehir)
+#323 - Konya (Konya)
+#324 - Karaman (Karaman)
+#325 - Kastamon (Kastamon)
+#326 - Angora (Angora)
+#327 - Adana (Alexandretta)
+#328 - Sinope (Sinope)
+#329 - Sivas (Sivas)
+#330 - Trebizon (Trebizon)
+#331 - Erserum (Erserum)
+#332 - Mus (Mus)
+##################################################    
+##################################################    
+#Advisor types:
+##################################################    
+#philosopher
+#natural_scientist
+#artist
+#statesman
+#treasurer 
+#naval_reformer
+#army_reformer 
+#trader
+#theologian 
+#spymaster 
+#colonial_governor 
+#diplomat
+##################################################    
+# Era #1  1399 - 1540  (25/25 used currently)
+##################################################
+
+# advisor = {
+# 	advisor_id = 1174
+# 	name = "George Trapezuntius" # One of the Pioneers of the Renaissance
+# 	location = 151 #Crete
+# 	discount = yes
+# 	skill = 2
+# 	type = philosopher
+# 	date = 1425.1.1 #30 years old
+# 	death_date = 1486.1.1
+# }

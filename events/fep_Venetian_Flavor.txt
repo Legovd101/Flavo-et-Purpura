@@ -1,0 +1,162 @@
+########################################
+# Flavor Events for Venice
+########################################
+
+namespace = fep_venetian_flavor
+normal_or_historical_nations = yes
+
+# The Travels of Manolo Polcari (Part 1)
+country_event = {
+	id = fep_venetian_flavor.0
+	title = "fep_venetian_flavor.0.t"
+	desc = "fep_venetian_flavor.0.d"
+	picture = OVEREXTENSION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = VEN
+		has_ruler = "Manolo"
+	}
+
+	is_triggered_only = yes
+	
+	option = { # Best make use of this prosperity while it lasts
+		name = "fep_venetian_flavor.0.a"
+		add_country_modifier = {
+			name = travels_of_manolo_polcari
+			duration = 36500
+		}
+		country_event = {
+			id = fep_venetian_flavor.1
+		}
+		custom_tooltip = venetian_travel_discovery_tt
+		hidden_effect = {
+			every_country = {
+				limit = {
+					OR = { tag = VEN tag = EZI }
+				}
+				liaoning_area = {
+					discover_country = PREV
+				}
+				liaodong_area = {
+					discover_country = PREV
+				}
+				hwanghae_area = {
+					discover_country = PREV
+				}
+				western_korea_area = {
+					discover_country = PREV
+				}
+				chungcheong_area = {
+					discover_country = PREV
+				}
+				south_korea_area = {
+					discover_country = PREV
+				}
+				pyongan_area = {
+					discover_country = PREV
+				}
+				zungaria_area = {
+					discover_country = PREV
+				}
+				north_zungaria = {
+					discover_country = PREV
+				}
+				altai_sayan_area = {
+					discover_country = PREV
+				}
+				uliastai_area = {
+					discover_country = PREV
+				}
+				central_mongolia_area = {
+					discover_country = PREV
+				}
+				inner_mongolia_area = {
+					discover_country = PREV
+				}
+				ordos_area = {
+					discover_country = PREV
+				}
+				amdo_area = {
+					discover_country = PREV
+				}
+				north_laos_area = {
+					discover_country = PREV
+				}
+				vietnam_area = {
+					discover_country = PREV
+				}
+				red_river_delta_area = {
+					discover_country = PREV
+				}
+				xinan_region = {
+					discover_country = PREV
+				}
+				north_china_region = {
+					discover_country = PREV
+				}
+				south_china_region = {
+					discover_country = PREV
+				}
+				central_asia_region = {
+					discover_country = PREV
+				}
+				crimea_region = {
+					discover_country = PREV
+				}
+				caucasia_region = {
+					discover_country = PREV
+				}
+				mashriq_region = {
+					discover_country = PREV
+				}
+				anatolia_region = {
+					discover_country = PREV
+				}
+				persia_region = {
+					discover_country = PREV
+				}
+				khorasan_region = {
+					discover_country = PREV
+				}
+				discover_province = 1370
+				discover_province = 1371
+				discover_province = 1372
+				discover_province = 1373
+				discover_province = 1374
+				discover_province = 1375
+				discover_province = 4233
+				discover_province = 4234
+			}
+		}
+
+		
+	}
+}
+
+country_event = { # The Travels of Manolo Polcari (Part 2)
+	id = fep_venetian_flavor.1
+	title = fep_venetian_flavor.1.t
+	desc = fep_venetian_flavor.1.d
+	picture = CRUSADER_HORDE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = { # The memory is enough. Venice needs me. UNFINISHED
+		name = fep_venetian_flavor.1.a
+	}
+
+	option = { # I want to see it again.
+		name = fep_venetian_flavor.1.b
+		add_country_modifier = {
+			name = manolos_folly_preparation
+			duration = -1
+		}
+		set_country_flag = venice_wank_selected
+		swap_non_generic_missions = yes
+		ai_chance = {
+			factor = 0.01
+		}
+	}
+}

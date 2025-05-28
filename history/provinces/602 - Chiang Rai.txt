@@ -2,8 +2,8 @@
 # 602 Chiang Rai - 5/27/2025 4:57:01 PM 
  
 add_core = LNA
-owner = MB1
-controller = MB1
+owner = UMO
+controller = UMO
 base_tax = 5
 base_production = 4
 base_manpower = 3

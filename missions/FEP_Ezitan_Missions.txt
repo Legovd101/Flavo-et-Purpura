@@ -1,0 +1,345 @@
+EZI_war_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+	} 
+
+}
+EZI_war_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+	} 
+
+	EZI_grand_blockade = {
+		icon = mission_control_the_ganges_delta
+		position = 1
+		provinces_to_highlight = { area = delta_area } 
+
+		trigger = {
+			delta_area = {
+				type = all
+				controlled_by = ROOT
+			}
+		} 
+
+		effect = {
+			delta_area = {
+				add_core = ROOT
+				remove_core = MAM
+				cede_province = ROOT
+			}
+		} 
+	}
+}
+EZI_war_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place } 
+	}
+
+	EZI_siege_of_memphis = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 1
+		provinces_to_highlight = { province_id = 361 } 
+
+		trigger = {
+			361 = {
+				sieged_by = ROOT
+			}
+		} 
+
+		effect = {
+			361 = { change_siege = 10 }
+		} 
+	}
+
+	EZI_turning_profit = {
+		icon = mission_arabian_sea_trade
+		position = 2
+		required_missions = {
+			EZI_grand_blockade
+			EZI_siege_of_memphis
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { monthly_income = 1 } 
+
+		effect = { add_treasury = 100 } 
+	}
+
+	EZI_triumph_in_egypt = {
+		icon = mission_spoils_of_war
+		position = 4
+		required_missions = {
+			EZI_turning_profit
+			EZI_path_to_victory
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { is_at_war = no } 
+
+		effect = {
+			country_event = {
+				id = manolos_folly.1
+			}
+		} 
+	}
+}
+EZI_war_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+	} 
+
+	EZI_e_pluribus_paucum = {
+		icon = adjust_the_general_means
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = { num_of_generals = 2 is_monarch_leader = yes } 
+
+		effect = { add_mil_power = 100 } 
+	}
+
+	EZI_path_to_victory = {
+		icon = mission_occupy_alexandria
+		position = 3
+		required_missions = {
+			EZI_e_pluribus_paucum
+			EZI_war_capital
+		}
+		provinces_to_highlight = { owner = { war_with = ROOT } NOT = { controlled_by = ROOT } } 
+
+		trigger = { war_score = 75 } 
+
+		effect = { add_prestige = 10 add_manpower = 10 } 
+	}
+}
+EZI_war_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+	} 
+
+	EZI_war_capital = {
+		icon = ven_capital_of_europe
+		position = 2
+		provinces_to_highlight = { is_capital_of = ROOT } 
+
+		trigger = {
+			capital_scope = {
+				num_of_times_improved_by_owner = 8
+			}
+		} 
+
+		effect = {
+			capital_scope = {
+				upgrade_tax_building = yes
+				change_religion = west_orthodox
+			}
+		} 
+	}
+}
+EZI_planning_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+		has_country_flag = leaving_current_region
+	} 
+
+	EZI_making_way_through = {
+		icon = construct_the_kiel_canal
+		position = 6
+		required_missions = { EZI_Civilian_workforce } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			treasury = 100
+			4316 = {
+				num_of_times_improved = 5
+				base_manpower = 5
+			}
+			2315 = {
+				num_of_times_improved = 5
+				base_manpower = 5
+			}
+		} 
+
+		effect = {
+			1328 = {
+				heavy_ship = ROOT
+				heavy_ship = ROOT
+				heavy_ship = ROOT
+				heavy_ship = ROOT
+				heavy_ship = ROOT
+				light_ship = ROOT
+				light_ship = ROOT
+				light_ship = ROOT
+				light_ship = ROOT
+				light_ship = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+				transport = ROOT
+			}
+		} 
+	}
+}
+EZI_planning_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+		has_country_flag = leaving_current_region
+	} 
+
+	EZI_Civilian_workforce = {
+		icon = per_sino_persians_relations
+		position = 5
+		required_missions = { EZI_triumph_in_egypt } 
+		provinces_to_highlight = { owned_by = ROOT culture_group = parsig } 
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = 5_troops_in_persian_provinces
+				all_owned_province = {
+					OR = {
+						NOT = { culture_group = parsig }
+						units_in_province = 5
+					}
+				}
+			}
+		} 
+
+		effect = {
+			add_years_of_owned_provinces_manpower = {
+				years = 5
+				trigger = { culture_group = parsig }
+			}
+		}
+	}
+}
+EZI_planning_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+		has_country_flag = leaving_current_region
+	} 
+
+	EZI_matter_of_future = {
+		icon = per_tab_ziyarids_successor
+		position = 6
+		required_missions = { EZI_triumph_in_egypt } 
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	EZI_taking_next_step = {
+		icon = mam_yemen
+		position = 7
+		required_missions = {
+			EZI_matter_of_future
+			EZI_seafaring_focus
+			EZI_making_way_through
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+EZI_planning_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+		has_country_flag = leaving_current_region
+	} 
+
+	EZI_staying_up_to_date = {
+		icon = mission_gunpowder_warfare
+		position = 5
+		required_missions = { EZI_triumph_in_egypt } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+EZI_planning_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = EZI
+		NOT = { has_country_flag = staying_in_place }
+		has_country_flag = leaving_current_region
+	} 
+
+	EZI_seafaring_focus = {
+		icon = mission_control_the_red_sea
+		position = 6
+		required_missions = { EZI_staying_up_to_date } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

@@ -2,8 +2,8 @@
 # 4823 Jarai - 5/27/2025 4:57:02 PM 
  
 add_core = KHM
-owner = CP3
-controller = CP3
+owner = JRI
+controller = JRI
 base_tax = 2
 base_production = 2
 base_manpower = 2

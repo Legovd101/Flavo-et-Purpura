@@ -242,3 +242,24 @@
 # Azov
 
 286 = {"Tana" "Tana"}
+
+## EGYPT
+
+# Delta
+
+358 = {"Alesandria" "Alesandria d'Ezito"}
+362 = {"Rosètta" "Rosètta"}
+363 = {"Damètta" "Damètta"}
+
+# Bahari
+
+361 = {"Menfi" "Menfi"}
+4316 = {"Bubàsti" "Bubàsti"}
+2316 = {"Tidùsia" "Tidùsia"}
+4317 = {"Tibèrse" "Tibèrse"}
+
+# Eastern Desert
+
+2315 = {"Clìsma" "Clìsma"}
+365 = {"Sinai" "Cutìla"}
+5027 = {"Rinòclura" "Rinòclura"}

@@ -1,0 +1,192 @@
+country_decisions = {
+	council_of_mantova = {
+		major = yes
+		potential = {
+			culture_group = latin
+			NOT = { tag = KOJ }
+			NOT = { tag = PAP }
+			NOT = { any_country = { is_in_latin_league = yes } }
+		}
+
+		provinces_to_highlight = {
+			is_capital = yes
+			owner = {
+				NOT = {
+					OR = {
+						AND = {
+							is_subject = no
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						is_subject_of = ROOT
+					}
+				}
+				NOT = { tag = KOJ }
+				NOT = { tag = PAP }
+				NOT = { is_rival = ROOT }
+				culture_group = latin
+			}
+		}
+
+		allow = {
+			stability = 2
+			all_country = {
+				OR = {
+					tag = KOJ
+					tag = PAP
+					AND = {
+						is_subject = no
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+					is_subject_of = ROOT
+					is_rival = ROOT
+					NOT = { culture_group = latin }
+				}
+			}
+		}
+
+		effect = {
+			ROOT = { save_global_event_target_as = current_rector }
+			every_country = {
+				limit = {
+					OR = {
+						AND = {
+							is_subject = no
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						is_subject_of = ROOT
+					}
+					NOT = { tag = KOJ }
+					NOT = { tag = PAP }
+					NOT = { tag = ROOT }
+					NOT = { is_rival = ROOT }
+					culture_group = latin
+				}
+				if = {
+					limit = { is_subject_of = ROOT }
+					ROOT = {
+						create_subject = {
+							subject_type = league_member
+							who = PREV
+						}
+					}
+				}
+				else = {
+					country_event = {
+						id = fep_italian_flavor.2
+					}
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						is_rival = ROOT
+						culture_group = latin
+						NOT = { tag = KOJ }
+					}
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = THIS
+				}
+			}
+			hidden_effect = {
+				set_variable = {
+					which = latin_succession_score
+					value = 100
+				}
+				every_subject_country = {
+					limit = { is_subject_of_type = league_member }
+					set_variable = {
+						which = latin_succession_score
+						value = 0
+					}
+				}
+				set_variable = {
+					which = latin_unity
+					value = 30
+				}
+				league_successor_calculation_effect = yes
+				league_unity_calculation_effect = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+country_decisions = {
+	welcome_papacy = {
+		major = yes
+		potential = {
+			has_subject_of_type = league_member
+			religion = west_orthodox
+			has_global_flag = latin_religion_reform
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				PAP = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					alliance_with = ROOT
+				}
+				118 = {
+					controlled_by = ROOT
+				}
+			}
+		}
+
+		allow = {
+		}
+
+		effect = {
+			change_variable = {
+				which = latin_unity
+				value = 75
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+# country_decisions = {
+# 	debug_league = {
+# 		major = yes
+# 		potential = {
+# 			has_subject_of_type = league_member
+# 		}
+
+# 		provinces_to_highlight = {
+# 		}
+
+# 		allow = {
+# 		}
+
+# 		effect = {
+# 			change_variable = {
+# 				which = latin_unity
+# 				value = 75
+# 			}
+# 		}
+
+# 		ai_will_do = {
+# 			factor = 1
+# 		}
+# 	}
+# }

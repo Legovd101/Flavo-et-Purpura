@@ -2,8 +2,8 @@
 # 605 Prey Nokor - 5/27/2025 4:57:01 PM 
  
 add_core = KHM
-owner = KH2
-controller = KH2
+owner = PRE
+controller = PRE
 base_tax = 4
 base_production = 4
 base_manpower = 3

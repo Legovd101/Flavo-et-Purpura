@@ -47,21 +47,6 @@
  MAQQI: "Maí"
  DUATER: "Duater"
 
- # Peace Treaties
- PEACE_force_foederatus: "Force Foederatus"
- force_foederatus_desc: "Make [From.GetName] a Foederatus of [This.GetName]"
- CB_ALLOWED_force_foederatus: "Force Foederatus"
- PEACE_PO_foederatus: "Force Foederatus"
-
- cb_establish_foederati: "Establish Foederatus"
- cb_establish_foederati_desc: "Bring the target country firmly into our sphere of influence and establish them as a Foederatus!"
-
- take_capital_federate: "Take the capital and establish their elite as our Foederatus"
- take_capital_federate_desc: "War goal is to take the capital."
-
- exile: "Exile"
- exile_desc: "With the Exile technology group, technology levels are 25% more expensive (125%)."
-
  # Subjects
  foederatus: "Foederatus"
  foederatus_long_desc: "Foederati were historically used by the Roman Empire to denote client kingdoms or subjugated barbarians. They can wage their own wars and have high liberty desire, and can be centralized via a steady series of reforms over the course of 85 years."
@@ -91,6 +76,13 @@
  wine_region_title_plural: "Wine Regions"
  is_wine_region: "Is Wine Region"
 
+ league_member: "League Member:"
+ league_member_long_desc: "A member of the loose Latin League. Although the Rector is the nominal head of the League, each member is still free to pursue their own interests."
+ league_member_is_our: "$NAME|Y$ is a League Member of us"
+ league_member_title: "League Member"
+ league_member_title_plural: "League Members"
+ is_league_member: "Is League Member"
+
  # Diplomacy
  request_colonia: "Request Colonia"
  request_colonia_title: "Request Colonia"
@@ -106,44 +98,28 @@
  request_provincia_alert_tooltip: "Integrate as Provincia"
  has_been_colonia_for_fifteen_years_tt: "§Y[From.GetName]§! must have been our Colonia for at least §Y25§! years!"
 
- # Parliament
- korean_g_parliament_name:0 "Gukhoe"
- east_asian_parliament_name:0 "Legislative Yuan"
- cantonese_parliament_name:0 "Legislative Yuen"
- ping_culture_parliament_name:0 "Legislative Yuen"
- tanka_parliament_name:0 "Legislative Yuen"
- chimin_parliament_name:0 "Legislative īnn"
- jin_parliament_name:0 "Legislative Yue"
- wu_parliament_name:0 "Legislative Yoe"
- huizhou_culture_parliament_name:0 "Legislative Yoe"
- hakka_parliament_name:0 "Legislative Yan"
- gan_parliament_name:0 "Legislative Yuen"
- xiang_parliament_name:0 "Legislative Yue"
- japanese_g_parliament_name:0 "Kokkai"
- JAP_parliament_name:0 "Teikoku Gikai"
- QNG_parliament_name:0 "Coohai Nashun i Ba"
- KNS_parliament_name:0 "Imperial Great Khural"
- MGE_parliament_name:0 "Imperial Great Khural"
- GLH_parliament_name:0 "Imperial Great Khural"
- ILK_parliament_name:0 "Imperial Great Khural"
- PAP_parliament_name:0 "Collegium Cardinalium"
- altaic_parliament_name:0 "Great Khural"
- BHU_parliament_name:0 "Gyelyong Tshokhang"
- nepali_parliament_name:0 "Rastriya Panchayat"
- LFA_parliament_name:0 "Tsungtong"
- maori_parliament_name:0 "Paremata"
- hebrew_parliament_name:0 "Knesset"
- hungarian_parliament_name:0 "Orszaggyules"
- irish_parliament_name:0 "Oireachtas"
- highland_scottish_parliament_name:0 "Parlamaid"
- welsh_parliament_name:0 "Senedd"
- vietnamese_parliament_name:0 "Quoc-hoi"
- vietnamese_new_parliament_name:0 "Quoc-hoi"
- thai_group_parliament_name:0 "Ratthasapha"
- lao_parliament_name:0 "Sapha Heng Xat"
- khmer_parliament_name:0 "Saphea Tamnang Reastr"
- burman_parliament_name:0 "Hluttaw"
- tibetan_new_parliament_name:0 "Gros Tshogs"
- tibetan_group_parliament_name:0 "Gros Tshogs"
- manchu_parliament_name:0 "Hebe-i Ba"
- manchu_new_parliament_name:0 "Hebe-i Ba"
+ # Peace Treaties
+ PEACE_force_foederatus: "Force Foederatus"
+ force_foederatus_desc: "Make [From.GetName] a Foederatus of [This.GetName]"
+ CB_ALLOWED_force_foederatus: "Force Foederatus"
+ PEACE_PO_foederatus: "Force Foederatus"
+
+ cb_establish_foederati: "Establish Foederatus"
+ cb_establish_foederati_desc: "Bring the target country firmly into our sphere of influence and establish them as a Foederatus!"
+
+ take_capital_federate: "Take the capital and establish their elite as our Foederatus"
+ take_capital_federate_desc: "War goal is to take the capital."
+
+ exile: "Exile"
+ exile_desc: "With the Exile technology group, technology levels are 25% more expensive (125%)."
+
+ po_legion_win: "Legionnary Supremacy"
+ po_legion_win_desc: "We will establish control over Egypt and Judea"
+ CB_ALLOWED_po_legion_win: "Legionnary Supremacy"
+ PEACE_po_legion_win: "Legionnary Supremacy"
+ cb_4th_crusade: "The 4th Crusade"
+ cb_4th_crusade_desc: "Defeat the Infidels!"
+ redleg_4th_crusade: "The 4th Crusade"
+ redleg_4th_crusade_desc: "Defeat the Infidels!"
+ THE_4TH_CRUSADE:0 "The 4th Crusade"
+

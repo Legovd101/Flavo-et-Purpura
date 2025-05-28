@@ -3,8 +3,8 @@
  
 add_core = CHK
 add_core = KHM
-owner = KH4
-controller = KH4
+owner = ISH
+controller = ISH
 base_tax = 3
 base_production = 3
 base_manpower = 2

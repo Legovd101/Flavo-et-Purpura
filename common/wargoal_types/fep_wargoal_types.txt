@@ -27,3 +27,46 @@ take_capital_federate = {
 
 	war_name = VASSAL_MISSION_WAR_NAME
 }
+
+redleg_4th_crusade = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0.75
+		prestige_factor = 1.25
+		peace_cost_factor = 1.0	
+		
+		allowed_provinces = {
+            always = no
+        }
+        allowed_provinces_are_eligible = yes
+		
+		peace_options = {
+			po_legion_win
+		}
+
+		deny_annex = yes
+		
+		country_desc = ALL_INFIDELS
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1.25
+		peace_cost_factor = 1.0	
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_INFIDELS
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = THE_4TH_CRUSADE	
+}
