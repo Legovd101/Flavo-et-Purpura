@@ -1,0 +1,7 @@
+#5036 - Five Finger Mountain
+
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
