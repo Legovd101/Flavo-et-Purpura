@@ -16,7 +16,7 @@ extra_cost = 8
 
 culture = cantonese
 religion = confucianism
-capital = "Hong Kong"
+capital = "Kowloon"
 
 hre = yes
 is_city = yes
