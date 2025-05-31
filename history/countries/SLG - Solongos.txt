@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = korean_monarchy
+primary_culture = mongol
+add_accepted_culture = korean
+religion = tengri_pagan_reformed
+secondary_religion = mahayana
+technology_group = chinese
+capital = 1020	# Yamashiro/Heian-Kyo

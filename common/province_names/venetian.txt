@@ -254,7 +254,7 @@
 # Bahari
 
 361 = {"Menfi" "Menfi"}
-4316 = {"Pelusio" "Pelusio"}
+4316 = {"Bubàsti" "Bubàsti"}
 2316 = {"Tidùsia" "Tidùsia"}
 4317 = {"Tibèrse" "Tibèrse"}
 

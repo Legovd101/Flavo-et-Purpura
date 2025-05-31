@@ -281,11 +281,7 @@ EZI_planning_3 = {
 
 		trigger = {  }
 
-		effect = {
-			country_event = {
-				id = manolos_folly.2
-			}
-		}
+		effect = {  }
 	}
 
 	EZI_taking_next_step = {

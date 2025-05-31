@@ -78,29 +78,11 @@ country_event = { # The Path Forward
 	
 	is_triggered_only = yes
 	option = { # This is but a stepping stone of the path to greatness.
-		name = manolos_folly.1.a
+		name = manolos_folly.0.a
 		set_country_flag = leaving_current_region
 	}
 	option = { # China seems pretty far...
-		name = manolos_folly.1.b
-		set_country_flag = staying_in_place
-		remove_country_modifier = manolos_folly
-	}
-}
-
-country_event = { # Looking aheadf
-	id = manolos_folly.2
-	title = manolos_folly.2.t
-	desc = manolos_folly.2.d
-	picture = CRUSADER_HORDE_eventPicture
-	
-	is_triggered_only = yes
-	option = { # This is but a stepping stone of the path to greatness.
-		name = manolos_folly.2.a
-		set_country_flag = leaving_current_region
-	}
-	option = { # China seems pretty far...
-		name = manolos_folly.2.b
+		name = manolos_folly.0.b
 		set_country_flag = staying_in_place
 		remove_country_modifier = manolos_folly
 	}

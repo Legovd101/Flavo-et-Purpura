@@ -1,7 +1,7 @@
-# Ganggye
-# 4232 Ganggye - 5/27/2025 4:57:02 PM 
+# 4232 Ganggye - 5/31/2025 4:23:53 PM 
  
 add_core = OIR
+add_core = GRY
 owner = OIR
 controller = OIR
 base_tax = 2
@@ -26,4 +26,3 @@ discovered_by = nomad_group
 
 
 
-### Modified 5/27/2025 4:57:02 PM ###

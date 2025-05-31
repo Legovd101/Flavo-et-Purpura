@@ -1,29 +1,8 @@
 government = monarchy
 add_government_reform = shogunate
 primary_culture = mongol
-add_accepted_culture = korean
 add_accepted_culture = japanese
 religion = tengri_pagan_reformed
 secondary_religion = shinto
 technology_group = chinese
-capital = 1020	# Yamashiro/Heian-Kyo
-
-1260.5.5 = {
-	monarch = {
-		name = "Kublai"
-		dynasty = "Borjigin"
-		adm = 6
-		dip = 6
-		mil = 6
-	}
-}
-
-1294.5.10 = {
-	monarch = {
-		name = "Temür"
-		dynasty = "Borjigin"
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-}
+capital = 735	# Kaesong/Hanseong
