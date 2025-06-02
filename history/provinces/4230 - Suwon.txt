@@ -1,12 +1,9 @@
-### Modified 5/27/2025 4:57:02 PM ###
-# Suwon
-# 4230 Suwon - 5/27/2025 4:57:02 PM 
+# 4230 Suwon - 5/31/2025 4:23:53 PM 
  
-add_core = KOR
-add_core = KNS
-add_core = KNS
-owner = KNS
-controller = KNS
+add_core = GRY
+add_core = SLG
+owner = SLG
+controller = SLG
 base_tax = 3
 base_production = 3
 base_manpower = 1

@@ -78,7 +78,7 @@ country_event = { # The Path Forward
 	
 	is_triggered_only = yes
 	option = { # This is but a stepping stone of the path to greatness.
-		name = manolos_folly.1.a
+		name = manolos_folly.0.a
 		set_country_flag = leaving_current_region
 	}
 	option = { # China seems pretty far...

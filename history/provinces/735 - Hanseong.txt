@@ -1,12 +1,9 @@
-### Modified 5/27/2025 4:57:01 PM ###
-# Hanseong
-# 735 Hanseong - 5/27/2025 4:57:01 PM 
+# 735 Hanseong - 5/31/2025 4:23:53 PM 
  
-add_core = KOR
-add_core = KNS
-add_core = KNS
-owner = KNS
-controller = KNS
+add_core = GRY
+add_core = SLG
+owner = SLG
+controller = SLG
 base_tax = 9
 base_production = 10
 base_manpower = 6

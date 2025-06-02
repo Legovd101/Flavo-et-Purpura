@@ -1,12 +1,9 @@
-### Modified 5/27/2025 4:57:03 PM ###
-# Koksan
-# 5120 Koksan - 5/27/2025 4:57:03 PM 
+# 5120 Koksan - 5/31/2025 4:23:53 PM 
  
-add_core = KOR
-add_core = KNS
-add_core = KNS
-owner = KNS
-controller = KNS
+add_core = GRY
+add_core = SLG
+owner = SLG
+controller = SLG
 base_tax = 2
 base_production = 3
 base_manpower = 1
