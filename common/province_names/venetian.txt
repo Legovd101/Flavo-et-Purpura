@@ -253,7 +253,8 @@
 
 # Bahari
 
-361 = {"Menfi" "Menfi"}
+361 = {"Babilònia" "Babilònia d'Ezito"}
+5345 = {"Menfi" "Menfi"}
 4316 = {"Pelusio" "Pelusio"}
 2316 = {"Tidùsia" "Tidùsia"}
 4317 = {"Tibèrse" "Tibèrse"}

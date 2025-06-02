@@ -1,5 +1,6 @@
+### Modified 5/30/2025 12:55:20 AM ###
 # Siwah
-# 5047 Siwah - 5/27/2025 4:57:02 PM 
+# 5047 Siwah - 5/30/2025 12:55:20 AM 
  
 add_core = MAM
 owner = MAM
@@ -10,7 +11,7 @@ base_manpower = 1
 
 trade_goods = livestock
 
-culture = nubian
+culture = copt
 religion = coptic
 capital = "Siwah"
 
@@ -32,4 +33,3 @@ add_permanent_province_modifier = {
 
 
 
-### Modified 5/27/2025 4:57:02 PM ###

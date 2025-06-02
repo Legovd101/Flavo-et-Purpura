@@ -10365,7 +10365,7 @@ cushitic = {
 	}
 }
 
-sudanese = {
+kemetic = {
 	graphical_culture = africangfx
 	
 	copt = {

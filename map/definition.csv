@@ -5197,11 +5197,11 @@ province;red;green;blue;x;x
 5196;159;225;149;YizhouHebei;x
 5197;129;71;65;Zunhua;x
 5198;102;76;82;Norrbotten;x
-5199;164;43;139;Gävleborg;x
-5200;117;255;248;Raumaríki;x
+5199;164;43;139;Gï¿½vleborg;x
+5200;117;255;248;Raumarï¿½ki;x
 5201;255;0;106;Sogn;x
-5202;255;221;56;Härjedalen;x
-5203;204;77;94;Lofótr;x
+5202;255;221;56;Hï¿½rjedalen;x
+5203;204;77;94;Lofï¿½tr;x
 5204;127;51;31;Tchaman;x
 5205;203;16;85;Lome;x
 5206;164;197;103;Makeni;x
@@ -5227,33 +5227,33 @@ province;red;green;blue;x;x
 5226;166;27;89;Babol;x
 5227;74;220;33;Kiyasar;x
 5228;186;87;168;Varamin;x
-5229;244;224;29;Fizurkuh;x
+5229;244;224;29;Dowlatabad;x
 5230;144;165;24;Semnan;x
-5231;187;98;198;new province;x
-5232;201;97;206;new province;x
-5233;113;101;247;new province;x
-5234;44;24;249;new province;x
-5235;206;189;59;new province;x
-5236;111;198;184;new province;x
-5237;232;198;184;new province;x
-5238;205;201;221;new province;x
-5239;81;201;221;new province;x
-5240;205;201;101;new province;x
-5241;212;124;89;new province;x
-5242;60;140;34;new province;x
-5243;216;205;184;new province;x
-5244;216;151;184;new province;x
-5245;58;213;180;new province;x
-5246;215;128;155;new province;x
-5247;212;178;89;new province;x
-5248;133;188;154;new province;x
-5249;147;101;255;new province;x
-5250;70;188;154;new province;x
-5251;23;52;239;new province;x
-5252;23;143;239;new province;x
-5253;54;236;106;new province;x
-5254;147;198;255;new province;x
-5255;147;147;255;new province;x
+5231;187;98;198;Deylaman;x
+5232;201;97;206;Borujerd;x
+5233;113;101;247;Arak;x
+5234;44;24;249;Mahallat;x
+5235;206;189;59;Dezful;x
+5236;111;198;184;Fereydunshahr;x
+5237;232;198;184;Najafabad;x
+5238;205;201;221;Natanz;x
+5239;81;201;221;Anarak;x
+5240;205;201;101;Shahreza;x
+5241;212;124;89;Ardakan;x
+5242;60;140;34;Ganaveh;x
+5243;216;205;184;Eqlid;x
+5244;216;151;184;Persepolis;x
+5245;58;213;180;Lamerd;x
+5246;215;128;155;Jahrom;x
+5247;212;178;89;Zahedshahr;x
+5248;133;188;154;Sarvestan;x
+5249;147;101;255;Shahr-e Babak;x
+5250;70;188;154;Anar;x
+5251;23;52;239;Mehriz;x
+5252;23;143;239;Bahadoran;x
+5253;54;236;106;Bardsir;x
+5254;147;198;255;Bam rrRealrr;x
+5255;147;147;255;Bampur;x
 5256;147;196;33;new province;x
 5257;170;85;63;new province;x
 5258;18;22;222;new province;x

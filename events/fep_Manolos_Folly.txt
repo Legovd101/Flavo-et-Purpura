@@ -95,13 +95,16 @@ country_event = { # Looking aheadf
 	picture = CRUSADER_HORDE_eventPicture
 	
 	is_triggered_only = yes
-	option = { # This is but a stepping stone of the path to greatness.
+	option = { # Pope of Alexandria
 		name = manolos_folly.2.a
-		set_country_flag = leaving_current_region
+		set_country_flag = patriarch_succession
 	}
-	option = { # China seems pretty far...
+	option = { # Galilea
 		name = manolos_folly.2.b
-		set_country_flag = staying_in_place
-		remove_country_modifier = manolos_folly
+		set_country_flag = galilea_succession
+	}
+	option = { # Cutila
+		name = manolos_folly.2.c
+		set_country_flag = thracia_succession
 	}
 }

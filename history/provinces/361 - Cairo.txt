@@ -1,5 +1,6 @@
+### Modified 5/30/2025 12:55:20 AM ###
 # Cairo
-# 361 Cairo - 5/27/2025 4:57:01 PM 
+# 361 Cairo - 5/30/2025 12:55:20 AM 
  
 add_core = MAM
 owner = MAM
@@ -12,7 +13,7 @@ center_of_trade = 2
 trade_goods = cloth
 extra_cost = 16
 
-culture = nubian
+culture = perso_egyptian
 religion = manichaean
 capital = "Al Qahira"
 
@@ -32,4 +33,3 @@ discovered_by = east_african
 
 
 
-### Modified 5/27/2025 4:57:01 PM ###

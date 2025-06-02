@@ -1,5 +1,6 @@
+### Modified 5/30/2025 12:55:20 AM ###
 # Qus
-# 360 Qus - 5/27/2025 4:57:01 PM 
+# 360 Qus - 5/30/2025 12:55:20 AM 
  
 add_core = MAM
 owner = MAM
@@ -11,7 +12,7 @@ base_manpower = 1
 trade_goods = livestock
 
 culture = perso_egyptian
-religion = coptic
+religion = manichaean
 capital = "Qus"
 
 is_city = yes
@@ -30,4 +31,3 @@ discovered_by = east_african
 
 
 
-### Modified 5/27/2025 4:57:01 PM ###
