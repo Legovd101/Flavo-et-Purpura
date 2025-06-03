@@ -956,6 +956,9 @@ xinan_region = {
 		east_kwaichow_area
 		west_kwaichow_area
 		tibetan_foothills_area
+		xiushan_area
+		tengyue_area
+		puer_area
 	}
 }
 

@@ -96,7 +96,9 @@ dablit_slot_1 = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
-				area = chuannan_area
+				area = xiushan_area
+				area = tengyue_area
+				area = puer_area
 			}
         }
     
@@ -111,7 +113,17 @@ dablit_slot_1 = {
 				development = 12
 				NOT = { local_autonomy_above_min = 1 }
 			}
-			chuannan_area = {
+			xiushan_area = {
+				has_owner_religion = yes
+				development = 12
+				NOT = { local_autonomy_above_min = 1 }
+			}
+			tengyue_area = {
+				has_owner_religion = yes
+				development = 12
+				NOT = { local_autonomy_above_min = 1 }
+			}
+			puer_area = {
 				has_owner_religion = yes
 				development = 12
 				NOT = { local_autonomy_above_min = 1 }
@@ -131,7 +143,19 @@ dablit_slot_1 = {
 					duration = 3650
 				}
 			}
-			chuannan_area = {
+			xiushan_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			tengyue_area = {
+				add_province_modifier = {
+					name = "CDL_shangri_la_reward"
+					duration = 3650
+				}
+			}
+			puer_area = {
 				add_province_modifier = {
 					name = "CDL_shangri_la_reward"
 					duration = 3650
@@ -225,7 +249,9 @@ dablit_slot_2 = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
-				area = chuannan_area
+				area = xiushan_area
+				area = tengyue_area
+				area = puer_area
 			}
 		}
 
@@ -239,7 +265,15 @@ dablit_slot_2 = {
 				type = all
 				is_prosperous = yes
 			}
-			chuannan_area = {
+			xiushan_area = {
+				type = all
+				is_prosperous = yes
+			}
+			tengyue_area = {
+				type = all
+				is_prosperous = yes
+			}
+			puer_area = {
 				type = all
 				is_prosperous = yes
 			}
@@ -258,7 +292,19 @@ dablit_slot_2 = {
 					duration = 3650
 				}
 			}
-			chuannan_area = {
+			xiushan_area = {
+				add_province_modifier = {
+					name = "CDL_prosperity"
+					duration = 3650
+				}
+			}
+			tengyue_area = {
+				add_province_modifier = {
+					name = "CDL_prosperity"
+					duration = 3650
+				}
+			}
+			puer_area = {
 				add_province_modifier = {
 					name = "CDL_prosperity"
 					duration = 3650
@@ -336,7 +382,9 @@ dablit_slot_2 = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
-				area = chuannan_area
+				area = xiushan_area
+				area = tengyue_area
+				area = puer_area
 			}
         }
     
@@ -356,7 +404,9 @@ dablit_slot_2 = {
 					OR = {
 						area = yun_gui_area
 						area = yun_gui_borderland_area
-						area = chuannan_area
+						area = xiushan_area
+						area = tengyue_area
+						area = puer_area
 					}
 				}
 				amount = 8
@@ -376,7 +426,19 @@ dablit_slot_2 = {
 					duration = -1
 				}
 			}
-			chuannan_area = {
+			xiushan_area = {
+				add_province_modifier = {
+					name = "CDL_industrialised"
+					duration = -1
+				}
+			}
+			tengyue_area = {
+				add_province_modifier = {
+					name = "CDL_industrialised"
+					duration = -1
+				}
+			}
+			puer_area = {
 				add_province_modifier = {
 					name = "CDL_industrialised"
 					duration = -1
@@ -722,33 +784,39 @@ dablit_slot_4 = {
         provinces_to_highlight = {
 			OR = {
 				area = yun_gui_area
-				province_id = 662
-				province_id = 663
-				province_id = 675
+				area = yun_gui_borderland_area
+				area = puer_area
+				area = tengyue_area
+				area = xiushan_area
 			}
         }
     
         trigger = {
 			yun_gui_area = {
-				type = all
 				OR = {
 					has_building = temple
 					has_building = cathedral
 				}
 			}
-			662 = {
+			yun_gui_borderland_area = {
 				OR = {
 					has_building = temple
 					has_building = cathedral
 				}
 			}
-			663 = {
+			puer_area = {
 				OR = {
 					has_building = temple
 					has_building = cathedral
 				}
 			}
-			675 = {
+			tengyue_area = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			xiushan_area = {
 				OR = {
 					has_building = temple
 					has_building = cathedral
@@ -769,7 +837,19 @@ dablit_slot_4 = {
 					duration = -1
 				}
 			}
-			chuannan_area = {
+			puer_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			tengyue_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			xiushan_area = {
 				add_province_modifier = {
 					name = "CDL_temples_built"
 					duration = -1
