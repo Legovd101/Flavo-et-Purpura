@@ -1,0 +1,21 @@
+namespace = fep_solongos_flavor
+
+# Solongos independence	(Kunisheifu)
+country_event = {
+	id = fep_solongos_flavor.1
+	title = fep_solongos_flavor.1.t
+	desc = fep_solongos_flavor.1.d
+	picture = ICONS_IN_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fep_solongos_flavor.1.a
+		
+	}
+
+	option = {
+		name = fep_solongos_flavor.1.b
+		
+	}
+}
