@@ -1,0 +1,18 @@
+namespace = tomato_dump
+
+country_event = {
+	id = tomato_dump.1
+	title = tomato_dump.1.t
+	desc = tomato_dump.1.d
+	picture = IMPALED_SOLDIERS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		real_day_of_year = 154
+		NOT = { real_day_of_year = 155 }
+	}
+	option = {
+		name = tomato_dump.1.a
+	}
+}
