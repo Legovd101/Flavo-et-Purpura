@@ -600,6 +600,7 @@ disallow_baseline_invite_scholar = {
 		clr_country_flag = privilege_can_always_invite_legalist_school
 		clr_country_flag = privilege_can_always_invite_diplomatic_school
 		clr_country_flag = privilege_can_always_invite_logician_school
+		clr_country_flag = privilege_can_always_invite_manichaean_school
 
 		# Mande
 		clr_country_flag = privilege_can_always_invite_amma_school
@@ -625,6 +626,7 @@ disable_baseline_invite_scholar = {
 			clr_country_flag = privilege_can_always_invite_legalist_school
 			clr_country_flag = privilege_can_always_invite_diplomatic_school
 			clr_country_flag = privilege_can_always_invite_logician_school
+			clr_country_flag = privilege_can_always_invite_manichaean_school
 
 			# Mande
 			clr_country_flag = privilege_can_always_invite_amma_school

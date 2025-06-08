@@ -1,0 +1,14 @@
+# Ethiopia
+union = {
+	first = ETH
+	second = ALO
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}
+
+union = {
+	first = ETH
+	second = BEJ
+	start_date = 1045.6.21
+	end_date = 1553.12.31
+}

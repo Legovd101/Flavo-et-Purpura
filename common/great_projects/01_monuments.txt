@@ -7094,7 +7094,7 @@ kanbawzathadi_palace = {
 
 pyramid_of_cheops = {
 	# province it starts in
-	start = 361
+	start = 5345
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = -2570.01.01 #1556
@@ -16781,7 +16781,7 @@ walls_benin = {
 
 	build_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = pagan
+			religion_group = west_african
 		}
 	}
 
@@ -16793,13 +16793,13 @@ walls_benin = {
 
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = pagan
+			religion_group = west_african
 		}
 	}
 
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = pagan
+			religion_group = west_african
 		}
 	}
 

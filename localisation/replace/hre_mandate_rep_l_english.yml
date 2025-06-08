@@ -1,0 +1,114 @@
+﻿l_english:
+
+ # Mandate Of Heaven -> Mantle of Rome
+ cb_chinese_unification: "Reunification of Rome"
+ cb_chinese_unification_desc: "Reunify Roman Borders"
+ CHINESE_UNIFICATION_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ war over Roman Hegemony"
+ CELESTIAL_EMPIRE_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ war for Mantle of Rome"
+ EST_VAL_CELESTIAL_EMPIRE: "Roman Empire: §Y$VAL$%§!"
+ SET_CELESTIAL_EMPEROR_DESC: "$COUNTRYNAME$ becomes the legitimate heir Roman Empire."
+ DISMANTLE_CELESTIAL_EMPIRE_DESC: "The legacy of Rome is quashed."
+ REFORM_CELESTIAL_EMPIRE_DESC: "The legacy of Rome is reclaimed."
+ CELESTIAL_CELESTIAL:1 "Mantle of Rome"
+ CELESTIAL_EMPEROR: "$EMPERORNAME|Y$ is the legitimate Roman Emperor"
+ CELESTIAL_EMPIRE: "Mantle of Rome"
+ CURRENT_CELESTIAL_EMPEROR: "$RULERNAME|Y$ is the current legitimate Roman Emperor."
+ CELESTIAL_DECISION_NOT_ENOUGH_STABILITY: "You may not enact this reform at the moment as your country is too disorganized. This Decision costs $STABILITYCOST|Y$ Stability, and you cannot go lower than $MINIMUMSTABILITY|Y$!"
+ CELESTIAL_DECISION_NOT_EMPEROR: "Must be the §YEmperor of China§! to enact Celestial Reforms."
+ CELESTIAL_EMPIRE_NO_EMPEROR: "The Empire of China is currently in an interregnum."
+ IMPERIAL_MANDATE_CURRENT_DESC: "Current Virtus gives the following Modifier:\n$MODIFIERDESC$"
+ IMPERIAL_MANDATE_BONUS_DESC: "Virtus above §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
+ IMPERIAL_MANDATE_PENALTY_DESC: "Virtus below §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
+ IMPERIAL_MANDATE_GAIN_DESC: "Gained by:\n -Having a positive Stability.\n -Having Tributary States.\n -For each State enjoying Prosperity."
+ IMPERIAL_MANDATE_LOSS_DESC:1 "Lost by:\n -Devastated provinces.\n -Corruption of the State.\n -Having loans."
+ CELESTIAL_EMPEROR_BENEFIT: "Being the §YRoman Emperor§! gives the following benefits:\n"
+ CELESTIAL_EMPEROR_DIPLOMATIC_ACTIONS_DESC: "The §YRoman Emperor§! may take the following additional diplomatic actions:\n$LIST|Y$"
+ CELESTIAL_EMPIRE_NO_DIPLOMATIC_ACTIONS: "None"
+ CELESTIAL_EMPIRE_PAST_EMPERORS: "Previous Claimants:"
+
+ ## Virtus
+ CELESTIAL_MANDATE:1 "Virtus"
+ IMPERIAL_MANDATE_DESC: "The virtus, or "virtue" of the Roman claimant is their ability to be the "Restitutor  Orbis" of the Roman world, like Aurelian."
+ CELESTIAL_DECISION_MINIMUM_TO_ENACT: "Need a minimum of $MINVALUE|Y$ Virtus to take this Decision."
+ CELESTIAL_DECISION_NOT_ENOUGH_MANDATE: "This Decision costs $MANDATECOST|Y$ Virtus, but you only have $CURRENTMANDATE|Y$ Virtus."
+ CELESTIAL_EMPEROR_BENEFIT_DESC: " -Bonuses from High Virtus.\n -Uses Symphonia Mechanics\n -Can enact Centralisation Decisions.\n -Permanent claims to China.\n -Casus Belli to Unite China.\n -Can Enforce Tributary on Neighbours"
+ IMPERIAL_MANDATE_CURRENT_DESC: "Current Virtus gives the following Modifier:\n$MODIFIERDESC$"
+ IMPERIAL_MANDATE_BONUS_DESC: "Virtus above §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
+ IMPERIAL_MANDATE_PENALTY_DESC: "Virtus below §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
+
+ ## Symphonia
+ YEARLY_MERITOCRACY: "Yearly Symphonia"
+ YOU_MERITOCRACY_IRO: "§YSymphonia§!\nSymphonia changes by $CHANGE$ every year due to:\n$WHY$"
+ THEY_MERITOCRACY_IRO:1 "§YSymphonia§!\nSymphonia changes by $CHANGE$ every year due to:\n$WHY$"
+ YOU_MERITOCRACY_DRO:1 "The symphony of the state represents the codependence of the church and state within the Roman Empire, and how they work in unison. The higher it is, the more efficient our nation will run!\nIt can be increased through Strengthening Government, ideas, policies or events.\nThis level of Symphonia gives the following effects:"
+ THEY_MERITOCRACY_DRO: "The symphony of the state represents the codependence of the church and state within the Roman Empire, and how they work in unison. The higher it is, the more efficient their nation will run!\nThis level of Symphonia gives the following effects:"
+
+ lost_control_of_rome: "Emperor does not own and control Rome"
+ lost_control_of_constantinople: "Emperor does not own and control Constantinople"
+ lost_control_of_antioch: "Emperor does not own and control Antioch"
+ lost_control_of_gallia: "Emperor does not own and control Lutetia"
+ lost_control_of_egypt: "Emperor does not own and control Alexandria"
+ lost_control_of_africa: "Emperor does not own and control Carthago"
+
+ # HRE -> Celestial Empire
+ HRE_HRE:0 "Celestial Empire"
+
+ ## Reforms
+ emperor_reichsreform_title:0 "Call for Imperial Reform"
+ emperor_reichsreform_desc:0 "Reform the Empire to a more centralized model."
+ emperor_reichsreform_province:0 "Imperial Reform"
+
+ emperor_reichsregiment_title:0 "Legislative Reform"
+ emperor_reichsregiment_desc:0 "Consolidate the Imperial Diet, and reduce the legislative complexity."
+ emperor_reichsregiment_province:0 "Legislative Reform"
+
+ emperor_gemeinerpfennig_title:0 "Enact Imperial Tithes"
+ emperor_gemeinerpfennig_desc:0 "Require member states of the Celestial Empire to levy a special tax to be paid directly to the Emperor."
+
+ emperor_hofgericht_title:0 "Restore the Emperor's Authority"
+ emperor_hofgericht_desc:0 "Reduce legislative independence by making the Emperor the final legal authority within the Empire."
+
+ emperor_landfriede_title:0 "Tianxia"
+ emperor_landfriede_desc:0 "Force member states to solve their disputes in courts of law, rather than on battlefields."
+ emperor_landfriede_province:0 "Tianxia"
+
+ emperor_privilegia_de_non_appelando_title:0 "All Bow to the Huangdi"
+ emperor_privilegia_de_non_appelando_desc:0 "Revoke The Privilege of Non-Appeal."
+
+ emperor_erbkaisertum_title:0 "Restore the Hereditaty Mandate"
+ emperor_erbkaisertum_desc:0 "Abolish the elective monarchy of The Holy Roman Empire."
+
+ emperor_renovatio_title:0 "Awaken the Dragon"
+ emperor_renovatio_desc:0 "Unite the disparate states of The Empire into a nation state."
+
+ emperor_reichsstabilitaet_title:0 "Absolute Imperial Stability"
+ emperor_reichsstabilitaet_desc:0 "Safeguard the stability of the Empire by securing the means for its expansion."
+
+ emperor_perpetual_diet_title:0 "Perpetual Diet"
+ emperor_perpetual_diet_desc:0 "Institute a permanent session of the Imperial Diet so that important matters can be brought before it as and when they happen."
+
+ emperor_landsknechtswesen_title:0 "Reorganize the Prefectural Conscriptions"
+ emperor_landsknechtswesen_desc:0 "Organize China's many mercenary bands into official regiments available for the Empire's defense."
+
+ emperor_reichstag_collegia_title:0 "Establish Imperial Councils"
+ emperor_reichstag_collegia_desc:0 "Divide the Empire into a series of councils for the Emperor, the Princes and the Imperial Cities to improve its functioning for all."
+
+ emperor_geteilte_macht_title:0 "Reciprocal Bows"
+ emperor_geteilte_macht_desc:0 "Guarantee the powers of the Princes so that they in turn may support the strength of the Emperor."
+
+ emperor_rechenschaft_title:0 "Enshrine the Elective Mandate"
+ emperor_rechenschaft_emperor_per_prince:0 "Elective Mandate"
+ emperor_rechenschaft_desc:0 "Expand the Empire's checks and balances to create a more equitable system."
+
+ emperor_expand_gemeiner_pfennig_title:0 "Expand Imperial Tithes"
+ emperor_expand_gemeiner_pfennig_desc:0 "Increase the common tax to expand the Empire's capabilities in times of war."
+
+ emperor_reichskrieg_title:0 "All Under Heaven"
+ emperor_reichskrieg_desc:0 "Mobilize the Empire's forces against all who may seek to threaten it!"
+
+ emperor_imperial_estates_title:0 "Elevate the Son of Heaven"
+ emperor_imperial_estates_desc:0 "Curb the freedoms of the Imperial Estates so that they are no longer able to defy the Emperor."
+
+ renovatio_effect:0 "Unite the §YCelestial Empire§! to one country!"
+ vassalize_empire2:1 "All members of the §YCelestial Empire§! who support the reform will become our direct vassals, and those who do not support the reform will leave the empire, giving us claim on their lands."
+ GETEILTE_MACHT_EFFECT:0 "Members of the Celestial Empire will no longer accumulate Aggressive Expansion against the Emperor when the Emperor takes non-empire Provinces"

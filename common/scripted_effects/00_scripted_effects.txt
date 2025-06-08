@@ -548,6 +548,7 @@ clear_religious_scholar_modifiers_effect = {
 	remove_country_modifier = legalist_scholar_modifier #
 	remove_country_modifier = diplomatic_scholar_modifier #
 	remove_country_modifier = logician_scholar_modifier #
+	remove_country_modifier = manichaean_scholar_modifier #
 
 	# Mande
 	remove_country_modifier = amma_scholar_modifier #
