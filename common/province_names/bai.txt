@@ -1,0 +1,4 @@
+661 = {"Dablit" "Dablit"}
+5342 = {"Dewart" "Dewart"}
+2165 = {"Bu'ri" "Bu'ri"}
+5331 = {"Mehot" "Mehot"}

@@ -712,6 +712,9 @@
  PROV5356:0 "Edfu"
  PROV_ADJ5356:0 "Edfu"
  
+ xiushan_area:0 "Xiushan"
+ tengyue_area:0 "Dewart"
+ 
  ##############################
  ### Tradenodes + Companies ###
  ##############################
