@@ -455,6 +455,8 @@ dablit_slot_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = west_guangdong_area
+				area = kwangsi_north_area
+				area = kwangsi_area
 				area = guangxi_area
 			}
 		}
@@ -464,6 +466,8 @@ dablit_slot_2 = {
 				value = 8
 				OR = {
 					area = west_guangdong_area
+					area = kwangsi_north_area
+					area = kwangsi_area
 					area = guangxi_area
 				}
 			}
@@ -643,13 +647,6 @@ dablit_slot_3 = {
 		}
 
 		effect = {
-			yun_gui_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			guangxi_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
