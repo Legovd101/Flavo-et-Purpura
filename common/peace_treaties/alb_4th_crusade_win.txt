@@ -67,10 +67,57 @@ po_legion_win = {
 			remove_core = MAM
 			add_core = KOJ
 		}
+		if = {
+			limit = {
+				ETH = {
+					is_in_war = {
+						attacker_leader = ROOT
+					}
+				}
+			}
+			vostani_area = {
+				limit = {
+					owned_by = MAM
+				}
+				add_core = LNU
+			}
+			gulf_of_arabia_area = {
+				limit = {
+					owned_by = MAM
+				}
+				add_core = LNU
+			}
+			said_area = {
+				limit = {
+					owned_by = MAM
+				}
+				add_core = LNU
+			}
+			kaine_area = {
+				limit = {
+					owned_by = MAM
+				}
+				add_core = LNU
+			}
+			souan_area = {
+				limit = {
+					owned_by = MAM
+				}
+				add_core = LNU
+			}
+			FROM = {
+				release = LNU
+			}
+			ETH = {
+				create_subject = {
+					subject_type = personal_union
+					who = LNU
+				}
+			}
+		}
 		hidden_effect = {
 			swap_non_generic_missions = yes
 			add_accepted_culture = nubian
-			add_accepted_culture = perso_egyptian
 			if = {
 				limit = {
 					ai = yes
@@ -80,9 +127,9 @@ po_legion_win = {
 			}
 		}
 		FROM = {
-			country_event = {
-				id = rhom.2
-			}
+			# country_event = {
+			# 	id = rhom.2
+			# }
 		}
 		
 	}

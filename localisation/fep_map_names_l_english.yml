@@ -126,6 +126,10 @@
  strymon_area_adj: "Strymian"
  watusa_area: "Watusa"
  watusa_area_adj: "Watusan"
+ kaine_area: "Kaini"
+ kaine_area_adj: "Kainan"
+ souan_area: "Souan"
+ souan_area_adj: "Souani"
 
  maghreb_region: "Africa"
  maghreb_region_ADJ: "African"

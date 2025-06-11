@@ -1352,11 +1352,11 @@ said_area = { #5 #Upper Egypt
 	2319 5348 5349 5350 5351
 }
 
-qena_area = { #5 #Qena
+kaine_area = { #5 #Qena
 	360 4320 5352 5353 5354
 }
 
-aswan_area = { #5 #Aswan
+souan_area = { #5 #Aswan
 	1231 4319 5355 5356
 }
 

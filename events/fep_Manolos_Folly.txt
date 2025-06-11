@@ -49,7 +49,7 @@ country_event = { # The Sendoff
 					}
 					set_ruler = manolo_polcari
 					while = {
-						limit = { NOT = { army_size_percentage = 1 } }
+						limit = { NOT = { army_size_percentage = 0.75 } }
 						capital_scope = {
 							tercio_infantry = EZI
 						}
@@ -90,7 +90,7 @@ country_event = { # The Path Forward
 	}
 }
 
-country_event = { # Looking aheadf
+country_event = { # Looking ahead
 	id = manolos_folly.2
 	title = manolos_folly.2.t
 	desc = manolos_folly.2.d
@@ -108,5 +108,27 @@ country_event = { # Looking aheadf
 	option = { # Cutila
 		name = manolos_folly.2.c
 		set_country_flag = thracia_succession
+	}
+}
+
+country_event = { # Venetians Request Aid in Crusade
+	id = manolos_folly.3
+	title = manolos_folly.3.t
+	desc = manolos_folly.3.d
+	picture = CRUSADER_HORDE_eventPicture
+	
+	is_triggered_only = yes
+	option = { # Deus Vult!
+		name = manolos_folly.3.a
+		EZI = { set_country_flag = invited_ETH add_treasury = -50 }
+		add_treasury = 50
+		join_all_offensive_wars_of = EZI
+	}
+	option = { # No!
+		name = manolos_folly.3.b
+		set_country_flag = invited_ETH
+		ai_chance = {
+			factor = 0
+		}
 	}
 }

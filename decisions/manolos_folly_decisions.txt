@@ -1,0 +1,114 @@
+country_decisions = {
+	call_on_ethiopians = {
+		major = yes
+		potential = {
+			tag = EZI
+			is_in_war = {
+				casus_belli = cb_4th_crusade
+				defender_leader = MAM
+			}
+			NOT = {
+				has_country_flag = invited_ETH
+			}
+		}
+
+		provinces_to_highlight = {
+			is_capital = yes
+			owned_by = ETH
+		}
+
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = not_invited_ETH_to_war
+			NOT = {
+				has_country_flag = invited_ETH
+			}
+			}
+			treasury = 50
+			ETH = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+				is_at_war = no
+			}
+		}
+
+		effect = {
+			ETH = {
+				country_event = {
+					id = manolos_folly.3
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+country_decisions = {
+	welcome_papacy = {
+		major = yes
+		potential = {
+			has_subject_of_type = league_member
+			religion = west_orthodox
+			has_global_flag = latin_religion_reform
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				PAP = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					alliance_with = ROOT
+				}
+				118 = {
+					controlled_by = ROOT
+				}
+			}
+		}
+
+		allow = {
+		}
+
+		effect = {
+			change_variable = {
+				which = latin_unity
+				value = 75
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+# country_decisions = {
+# 	debug_league = {
+# 		major = yes
+# 		potential = {
+# 			has_subject_of_type = league_member
+# 		}
+
+# 		provinces_to_highlight = {
+# 		}
+
+# 		allow = {
+# 		}
+
+# 		effect = {
+# 			change_variable = {
+# 				which = latin_unity
+# 				value = 75
+# 			}
+# 		}
+
+# 		ai_will_do = {
+# 			factor = 1
+# 		}
+# 	}
+# }
