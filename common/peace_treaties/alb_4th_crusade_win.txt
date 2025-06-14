@@ -67,6 +67,9 @@ po_legion_win = {
 			remove_core = MAM
 			add_core = KOJ
 		}
+		horn_of_africa_region = {
+			discover_country = EZI
+		}
 		if = {
 			limit = {
 				ETH = {

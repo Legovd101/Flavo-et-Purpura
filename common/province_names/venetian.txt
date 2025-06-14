@@ -264,3 +264,17 @@
 2315 = {"Clìsma" "Clìsma"}
 365 = {"Sinai" "Cutìla"}
 5027 = {"Rinòclura" "Rinòclura"}
+
+## Mashriq
+
+# Palestine
+
+5028 = {"Bìrseba" "Bìrseba"}
+1854 = {"Zafo" "Zafo"}
+379 = {"Jeruzaleme" "Jeruzaleme"}
+5029 = {"Acri" "Acri"}
+
+# Lebanon
+
+1855 = {"Sidone" "Sidone"}
+378 = {"Trìpu?i" "Trìpu?i"}

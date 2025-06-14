@@ -12252,6 +12252,8 @@ parsig = {
 	}
 	margianan = {
 	}
+	barezangi = {
+	}
 	bactrian = {
 		primary = KOK
 	}
