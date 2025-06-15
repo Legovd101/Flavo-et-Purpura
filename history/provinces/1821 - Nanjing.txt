@@ -1,5 +1,5 @@
-# Nanjing
-# 1821 Nanjing - 5/27/2025 4:57:02 PM 
+# Jinling/Nanjing
+# 1821 Jinling/Nanjing
  
 add_core = QIN
 owner = QIN
@@ -12,7 +12,7 @@ trade_goods = silk
 
 culture = huizhou_culture
 religion = confucianism
-capital = "Nanjing"
+capital = "Jinling"
 
 hre = yes
 is_city = yes

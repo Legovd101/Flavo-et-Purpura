@@ -1,5 +1,5 @@
-# Beijing
-# 1816 Beijing - 5/27/2025 4:57:02 PM 
+# Beiping/Beijing
+# 1816 Beiping/Beijing
  
 add_core = YAN
 add_core = SIN
@@ -15,7 +15,7 @@ extra_cost = 16
 
 culture = chihan
 religion = nestorian
-capital = "Beijing"
+capital = "Beiping"
 
 is_city = yes
 fort_15th = yes
