@@ -1,5 +1,5 @@
-# Xi'an
-# 700 Xi'an - 5/27/2025 4:57:01 PM 
+# Chang'an
+# 700 Chang'an
  
 add_core = CSH
 add_core = QIN
@@ -16,17 +16,11 @@ extra_cost = 16
 
 culture = xibei
 religion = nestorian
-capital = "Xi'an"
+capital = "Chang'an"
 
 is_city = yes
 fort_15th = yes
 
 discovered_by = chinese
 discovered_by = nomad_group
-
-
-
-
-
-
-### Modified 5/27/2025 4:57:01 PM ###
+add_province_triggered_modifier = religious_center
