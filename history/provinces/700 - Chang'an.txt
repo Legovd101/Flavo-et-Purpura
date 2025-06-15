@@ -6,9 +6,9 @@ add_core = QIN
 add_core = SIN
 owner = SIN
 controller = SIN
-base_tax = 7
-base_production = 7
-base_manpower = 3
+base_tax = 10
+base_production = 10
+base_manpower = 8
 
 center_of_trade = 2
 trade_goods = grain
