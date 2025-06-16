@@ -126,7 +126,7 @@ country_decisions = {
 			capital_scope = {
 				area = {
 					limit = {
-						religion_group = african
+						religion_group = west_african
 						NOT = {
 							religion = vandal_syncretism
 							religion = mauri_pagan
@@ -142,7 +142,7 @@ country_decisions = {
 			}
 			every_owned_province = {
 				limit = {
-					religion_group = african
+					religion_group = west_african
 				}
 				random_list = {
 					90 = {

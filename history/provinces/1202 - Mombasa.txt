@@ -12,8 +12,8 @@ center_of_trade = 2
 trade_goods = ivory
 extra_cost = 16
 
-culture = swahili
-religion = swahili_pagan
+culture = bantu
+religion = kikuyu_pagan
 capital = "Mombasa"
 
 is_city = yes

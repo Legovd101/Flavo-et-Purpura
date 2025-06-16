@@ -271,6 +271,67 @@
  west_african_reformed_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  west_african_reformed_rebels_army: "$RELIGION$ Army"
 
+ #WaMwari
+ shona_pagan: "WaMwari"
+ shona_pagan_religion_desc: ""
+ shona_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ shona_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ shona_pagan_rebels_title: "Religious"
+ shona_pagan_rebels_name: "$RELIGION$ Zealots"
+ shona_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ shona_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Aáná Muluku
+ makhuwa_pagan: "Aáná Muluku"
+ makhuwa_pagan_religion_desc: ""
+ makhuwa_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ makhuwa_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ makhuwa_pagan_rebels_title: "Religious"
+ makhuwa_pagan_rebels_name: "$RELIGION$ Zealots"
+ makhuwa_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ makhuwa_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Njira Wamapiri
+ chichewa_pagan: "Njira Wamapiri"
+ chichewa_pagan_religion_desc: ""
+ chichewa_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ chichewa_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ chichewa_pagan_rebels_title: "Religious"
+ chichewa_pagan_rebels_name: "$RELIGION$ Zealots"
+ chichewa_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ chichewa_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Cileza
+ takama_pagan: "Cileza"
+ takama_pagan_religion_desc: ""
+ takama_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ takama_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ takama_pagan_rebels_title: "Religious"
+ takama_pagan_rebels_name: "$RELIGION$ Zealots"
+ takama_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ takama_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Mwene Nyaga
+ kikuyu_pagan: "Mwene Nyaga"
+ kikuyu_pagan_religion_desc: ""
+ kikuyu_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ kikuyu_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ kikuyu_pagan_rebels_title: "Religious"
+ kikuyu_pagan_rebels_name: "$RELIGION$ Zealots"
+ kikuyu_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ kikuyu_pagan_rebels_army: "$RELIGION$ Army"
+
+ #Baana Zakintu
+ baganda_pagan: "Baana Zakintu"
+ baganda_pagan_religion_desc: ""
+ baganda_pagan_rebels_demand: "Convert $COUNTRYNAME$"
+ baganda_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ baganda_pagan_rebels_title: "Religious"
+ baganda_pagan_rebels_name: "$RELIGION$ Zealots"
+ baganda_pagan_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ baganda_pagan_rebels_army: "$RELIGION$ Army"
+
+
  # Deities/Icons
  # Finnic 
  ukko: "Ukko"

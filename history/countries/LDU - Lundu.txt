@@ -7,111 +7,11 @@ government = tribal
 add_government_reform = tribal_despotism
 government_rank = 1
 primary_culture = nyasa
-religion = swahili_pagan
+religion = chichewa_pagan
 technology_group = central_african
 unit_type = sub_saharan
 capital = 4039
 # Specific Effects #
-government = tribal
-add_government_reform = tribal_despotism
-primary_culture = nyasa
-religion = swahili_pagan
-technology_group = central_african
 unlock_cult = mwari_cult
 unlock_cult = central_african_ancestor_cult
 unlock_cult = cwezi_cult
-unit_type = sub_saharan
-capital = 4039
-government = tribal
-add_government_reform = tribal_despotism
-primary_culture = nyasa
-religion = swahili_pagan
-technology_group = central_african
-unlock_cult = mwari_cult
-unlock_cult = central_african_ancestor_cult
-unlock_cult = cwezi_cult
-unit_type = sub_saharan
-capital = 4039
-government = tribal
-add_government_reform = tribal_despotism
-primary_culture = nyasa
-religion = swahili_pagan
-technology_group = central_african
-unlock_cult = mwari_cult
-unlock_cult = central_african_ancestor_cult
-unlock_cult = cwezi_cult
-unit_type = sub_saharan
-capital = 4039
-
-1444.1.1 = {
-	monarch = {
-		name = "Sonzo"
-		dynasty = "Lundu"
-		ADM = 3
-		DIP = 2
-		MIL = 3
-	}
-}
-
-1480.1.1 = {
-	monarch = {
-		name = "Capampo"
-		dynasty = "Lundu"
-		ADM = 3
-		DIP = 2
-		MIL = 3
-	}
-}
-
-1540.1.1 = {
-	monarch = {
-		name = "Tondo"
-		dynasty = "Lundu"
-		ADM = 3
-		DIP = 2
-		MIL = 4
-	}
-}
-
-1610.1.1 = {
-	monarch = {
-		name = "Quizura"
-		dynasty = "Lundu"
-		ADM = 2
-		DIP = 2
-		MIL = 3
-	}
-}
-
-1670.1.1 = {
-	monarch = {
-		name = "Tondo II"
-		dynasty = "Lundu"
-		ADM = 2
-		DIP = 3
-		MIL = 3
-	}
-}
-
-1730.1.1 = {
-	monarch = {
-		name = "Tondo III"
-		dynasty = "Lundu"
-		ADM = 2
-		DIP = 2
-		MIL = 4
-	}
-}
-
-1780.1.1 = {
-	monarch = {
-		name = "Quizura II"
-		dynasty = "Lundu"
-		ADM = 2
-		DIP = 3
-		MIL = 3
-	}
-}
-
-### Modified 6/7/2025 6:48:16 PM ###
-

@@ -4078,7 +4078,7 @@ pagan = {
 
 }
 
-african = {
+west_african = {
 
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = { 83 96 }
@@ -4647,25 +4647,6 @@ african = {
 		heretic = { ULTRACHAD }
 	}
 	
-	swahili_pagan = { #Nyamba
-		color = { 228 110 87 }
-		icon = 39
-		country = {
-			tolerance_heathen = 2
-			diplomatic_reputation = 1
-		}
-		province = {
-			local_missionary_strength = 0.02
-		}
-		country_as_secondary = {
-			tolerance_own = 2
-			diplomatic_reputation = 1
-		}
-
-		fetishist_cult = yes
-		heretic = { ULTRACHAD }
-	}
-	
 	vandal_syncretism = {
 		color = { 207 181 59 }
 		icon = 45
@@ -4742,6 +4723,146 @@ african = {
 		heretic = { PUNIC ATENIST }
 	}
 	
+
+}
+
+east_african = {
+
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+	defender_of_faith = yes
+
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_pagan
+
+
+	
+	swahili_pagan = { #Nyamba
+		color = { 228 110 87 }
+		icon = 39
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		fetishist_cult = yes
+		heretic = { MWARI }
+	}
+
+	shona_pagan = { #WaMwari
+		color = { 179 155 255 }
+		icon = 61
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
+
+	makhuwa_pagan = { #Aáná Muluku 
+		color = { 190 58 28 }
+		icon = 60
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
+
+	takama_pagan = { #Cileza
+		color = { 95 40 64 }
+		icon = 59
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
+
+	kikuyu_pagan = { #Mwene Nyaga
+		color = { 250 229 64}
+		icon = 56
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
+
+	chichewa_pagan = { #Njira Wamapiri
+		color = { 193 217 64 }
+		icon = 57
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
+
+	baganda_pagan = { #Baana Zakintu
+		color = { 250 51 64 }
+		icon = 58
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			diplomatic_reputation = 1
+		}
+
+		heretic = { GOAT_SKULL }
+	}
 
 }
 
