@@ -1,0 +1,19 @@
+# Just for testing
+namespace = fep_debug
+
+# no effect event, for testing event pics
+country_event = {
+	id = fep_debug.1
+	title = fep_debug.1.t
+	desc = fep_debug.1.d
+	picture = TOMATO_yanshuei_cathedral_trinity_eventPicture
+	
+	trigger = {
+		always = no
+	}
+
+	option = {
+		name = fep_debug.1.a
+	}
+
+}

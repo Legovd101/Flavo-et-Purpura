@@ -798,7 +798,22 @@ spriteTypes = {
 	#FeP
 	spriteType = {
 		name = "TOMATO_mayfourth_students_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_tomato/TOMATO_mayfourth_students_eventPicture.dds"
+		texturefile = "gfx/event_pictures/event_pictures_fep/TOMATO_mayfourth_students_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "TOMATO_yanshuei_cathedral_trinity_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_fep/TOMATO_yanshuei_cathedral_trinity_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "TOMATO_macau_sao_paulo_queue_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_fep/TOMATO_macau_sao_paulo_queue_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "TOMATO_shanghai_bund_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_fep/TOMATO_shanghai_bund_eventPicture.dds"
 		alwaystransparent = yes
 	}
 }
