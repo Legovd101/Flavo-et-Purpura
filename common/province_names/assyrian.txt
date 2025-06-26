@@ -3,7 +3,7 @@
 # 357 = {"Adaran" "Adaran"}
 # 2326 = {"Rakam" "Rakam"}
 # 2325 = {"Ranawak" "Ranawak"}
-# 358 = {"Alaxsindargird" "Alaxsindargird"}
+358 = {"Aliksandriya" "Aliksandriya"}
 # 4317 = {"Timinar" "Timinar"}
 # 2318 = {"Parwaram" "Parwaram"}
 # 4323 = {"Faravar" "Faravar"}
