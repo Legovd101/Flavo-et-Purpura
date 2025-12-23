@@ -9,7 +9,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
-        name = "GFX_stranglehold_frame"
-        texturefile = "gfx/interface/government_mechanics/mongol_stranglehold/stranglehold_bar.dds"
+		name = "GFX_stranglehold_frame"
+		texturefile = "gfx/interface/government_mechanics/mongol_stranglehold/stranglehold_bar.dds"
 	}
 }

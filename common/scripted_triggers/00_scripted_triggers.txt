@@ -779,75 +779,75 @@ has_no_manufactory_trigger = { #Province Scope
 
 # Does not include new manufactories - they don't fit for the purposes of this trigger
 root_can_build_manufactory_here_trigger = {
-    has_no_manufactory_trigger = yes
-    num_free_building_slots = 1
+	has_no_manufactory_trigger = yes
+	num_free_building_slots = 1
 	OR = {
 		AND = {
-            OR = {
-                trade_goods = naval_supplies
-                trade_goods = fish
-                trade_goods = salt
-            }
+			OR = {
+				trade_goods = naval_supplies
+				trade_goods = fish
+				trade_goods = salt
+			}
 			ROOT = { dip_tech = 11 }
 		}
 		AND = {
-            OR = {
-                trade_goods = copper
-                trade_goods = iron
-            }
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+			}
 			ROOT = { mil_tech = 11 }
 		}
 		AND = {
-            OR = {
-                trade_goods = wool
-                trade_goods = cloth
-                trade_goods = silk
-                trade_goods = dyes
-            }
+			OR = {
+				trade_goods = wool
+				trade_goods = cloth
+				trade_goods = silk
+				trade_goods = dyes
+			}
 			ROOT = { adm_tech = 11 }
 		}
 		AND = {
-            OR = {
-                trade_goods = coffee
-                trade_goods = cotton
-                trade_goods = sugar
-                trade_goods = tobacco
-                trade_goods = tea
-                trade_goods = cocoa
-            }
+			OR = {
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = sugar
+				trade_goods = tobacco
+				trade_goods = tea
+				trade_goods = cocoa
+			}
 			ROOT = { adm_tech = 14 }
 		}
 		AND = {
-            OR = {
-                trade_goods = ivory
-                trade_goods = slaves
-                trade_goods = spices
-                trade_goods = cloves
-                trade_goods = fur
-                trade_goods = incense
-            }
+			OR = {
+				trade_goods = ivory
+				trade_goods = slaves
+				trade_goods = spices
+				trade_goods = cloves
+				trade_goods = fur
+				trade_goods = incense
+			}
 			ROOT = { dip_tech = 14 }
 		}
 		AND = {
-            OR = {
-                trade_goods = grain
-                trade_goods = livestock
-                trade_goods = wine
-            }
+			OR = {
+				trade_goods = grain
+				trade_goods = livestock
+				trade_goods = wine
+			}
 			ROOT = { adm_tech = 6 }
 		}
 		AND = {
-            OR = {
-                trade_goods = paper
-                trade_goods = gems
-                trade_goods = tropical_wood
-                trade_goods = glass
-                trade_goods = chinaware
-            }
+			OR = {
+				trade_goods = paper
+				trade_goods = gems
+				trade_goods = tropical_wood
+				trade_goods = glass
+				trade_goods = chinaware
+			}
 			ROOT = { adm_tech = 16 }
 		}
 		AND = {
-            trade_goods = coal
+			trade_goods = coal
 			ROOT = { adm_tech = 21 }
 		}
 	}
@@ -1144,10 +1144,10 @@ has_orthodox_religious_icon_trigger = {
 }
 
 can_have_incorporated_vassals = {
-    OR = {
-        has_government_attribute = GER_unlock_integrated_vassal
-        has_country_flag = hab_integrated_vassals_flag
-    }
+	OR = {
+		has_government_attribute = GER_unlock_integrated_vassal
+		has_country_flag = hab_integrated_vassals_flag
+	}
 } 
 
 same_govt_as_root_trigger = {
@@ -1304,13 +1304,13 @@ has_been_insulted_by_root = {
 }
 
 valid_for_personal_unions_trigger = {
-    exists = yes
-    is_subject = no
-    OR = {
-        government = monarchy
-        has_reform = dutch_republic
-    }
-    religion_group = christian
+	exists = yes
+	is_subject = no
+	OR = {
+		government = monarchy
+		has_reform = dutch_republic
+	}
+	religion_group = christian
 }
 
 is_shadow_kingdom_eligible_trigger = {
@@ -3244,52 +3244,52 @@ has_strong_mil_national_ideas = {
 }
 
 has_any_active_incomplete_idea_group_of_category = {
-    [[adm_ideas]
-        custom_trigger_tooltip = {
-            tooltip = has_any_active_incomplete_idea_group_of_category_adm
-            OR = {
-                AND = { has_idea_group = innovativeness_ideas NOT = { full_idea_group = innovativeness_ideas } }
-                AND = { has_idea_group = religious_ideas      NOT = { full_idea_group = religious_ideas } }
-                AND = { has_idea_group = economic_ideas       NOT = { full_idea_group = economic_ideas } }
-                AND = { has_idea_group = expansion_ideas      NOT = { full_idea_group = expansion_ideas } }
-                AND = { has_idea_group = administrative_ideas NOT = { full_idea_group = administrative_ideas } }
-                AND = { has_idea_group = humanist_ideas       NOT = { full_idea_group = humanist_ideas } }
-                AND = { has_idea_group = infrastructure_ideas NOT = { full_idea_group = infrastructure_ideas } }
-            }
-        }
-    ]
-    [[dip_ideas]
-        custom_trigger_tooltip = {
-            tooltip = has_any_active_incomplete_idea_group_of_category_dip
-            OR = {
-                AND = { has_idea_group = spy_ideas         	NOT = { full_idea_group = spy_ideas } }
-                AND = { has_idea_group = diplomatic_ideas  	NOT = { full_idea_group = diplomatic_ideas } }
-                AND = { has_idea_group = trade_ideas       	NOT = { full_idea_group = trade_ideas } }
-                AND = { has_idea_group = exploration_ideas 	NOT = { full_idea_group = exploration_ideas } }
-                AND = { has_idea_group = maritime_ideas    	NOT = { full_idea_group = maritime_ideas } }
-                AND = { has_idea_group = influence_ideas   	NOT = { full_idea_group = influence_ideas } }
-                AND = { has_idea_group = court_ideas       	NOT = { full_idea_group = court_ideas } }
-            }
-        }
-    ]
-    [[mil_ideas]
-        custom_trigger_tooltip = {
-            tooltip = has_any_active_incomplete_idea_group_of_category_mil
-            OR = {
-                AND = { has_idea_group = aristocracy_ideas       	NOT = { full_idea_group = aristocracy_ideas } }
-                AND = { has_idea_group = offensive_ideas       		NOT = { full_idea_group = offensive_ideas } }
-                AND = { has_idea_group = defensive_ideas       		NOT = { full_idea_group = defensive_ideas } }
-                AND = { has_idea_group = quality_ideas           	NOT = { full_idea_group = quality_ideas } }
-                AND = { has_idea_group = quantity_ideas             NOT = { full_idea_group = quantity_ideas } }
-                AND = { has_idea_group = theocracy_gov_ideas   		NOT = { full_idea_group = theocracy_gov_ideas } }
-                AND = { has_idea_group = indigenous_ideas      	    NOT = { full_idea_group = indigenous_ideas } }
-                AND = { has_idea_group = horde_gov_ideas       	    NOT = { full_idea_group = horde_gov_ideas } }
-                AND = { has_idea_group = plutocracy_ideas        	NOT = { full_idea_group = plutocracy_ideas } }
-                AND = { has_idea_group = mercenary_ideas        	NOT = { full_idea_group = mercenary_ideas } }
-                AND = { has_idea_group = naval_ideas				NOT = { full_idea_group = naval_ideas } }
-            }
-        }
-    ]
+	[[adm_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_any_active_incomplete_idea_group_of_category_adm
+			OR = {
+				AND = { has_idea_group = innovativeness_ideas NOT = { full_idea_group = innovativeness_ideas } }
+				AND = { has_idea_group = religious_ideas	  NOT = { full_idea_group = religious_ideas } }
+				AND = { has_idea_group = economic_ideas	   NOT = { full_idea_group = economic_ideas } }
+				AND = { has_idea_group = expansion_ideas	  NOT = { full_idea_group = expansion_ideas } }
+				AND = { has_idea_group = administrative_ideas NOT = { full_idea_group = administrative_ideas } }
+				AND = { has_idea_group = humanist_ideas	   NOT = { full_idea_group = humanist_ideas } }
+				AND = { has_idea_group = infrastructure_ideas NOT = { full_idea_group = infrastructure_ideas } }
+			}
+		}
+	]
+	[[dip_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_any_active_incomplete_idea_group_of_category_dip
+			OR = {
+				AND = { has_idea_group = spy_ideas		 	NOT = { full_idea_group = spy_ideas } }
+				AND = { has_idea_group = diplomatic_ideas  	NOT = { full_idea_group = diplomatic_ideas } }
+				AND = { has_idea_group = trade_ideas	   	NOT = { full_idea_group = trade_ideas } }
+				AND = { has_idea_group = exploration_ideas 	NOT = { full_idea_group = exploration_ideas } }
+				AND = { has_idea_group = maritime_ideas		NOT = { full_idea_group = maritime_ideas } }
+				AND = { has_idea_group = influence_ideas   	NOT = { full_idea_group = influence_ideas } }
+				AND = { has_idea_group = court_ideas	   	NOT = { full_idea_group = court_ideas } }
+			}
+		}
+	]
+	[[mil_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_any_active_incomplete_idea_group_of_category_mil
+			OR = {
+				AND = { has_idea_group = aristocracy_ideas	   	NOT = { full_idea_group = aristocracy_ideas } }
+				AND = { has_idea_group = offensive_ideas	   		NOT = { full_idea_group = offensive_ideas } }
+				AND = { has_idea_group = defensive_ideas	   		NOT = { full_idea_group = defensive_ideas } }
+				AND = { has_idea_group = quality_ideas		   	NOT = { full_idea_group = quality_ideas } }
+				AND = { has_idea_group = quantity_ideas			 NOT = { full_idea_group = quantity_ideas } }
+				AND = { has_idea_group = theocracy_gov_ideas   		NOT = { full_idea_group = theocracy_gov_ideas } }
+				AND = { has_idea_group = indigenous_ideas	  		NOT = { full_idea_group = indigenous_ideas } }
+				AND = { has_idea_group = horde_gov_ideas	   		NOT = { full_idea_group = horde_gov_ideas } }
+				AND = { has_idea_group = plutocracy_ideas			NOT = { full_idea_group = plutocracy_ideas } }
+				AND = { has_idea_group = mercenary_ideas			NOT = { full_idea_group = mercenary_ideas } }
+				AND = { has_idea_group = naval_ideas				NOT = { full_idea_group = naval_ideas } }
+			}
+		}
+	]
 }
 
 has_unlocked_church_aspect = {
@@ -3401,18 +3401,18 @@ is_not_eligible_for_trade_good_fur = {
 	}
 }
 is_not_eligible_for_trade_good_salt = {
-    OR = {
-        area = newfoundland_area
-        AND = {
-            NOT = { has_terrain = desert }
-            NOT = { has_terrain = marsh }
-            NOT = { has_terrain = mountain }
-            NOT = { has_terrain = highlands }
-            NOT = { any_neighbor_province = { province_id = 1649 } } #Lake Victoria
-            NOT = { any_neighbor_province = { province_id = 1650 } } #Lake Tangyanika
-            NOT = { any_neighbor_province = { province_id = 1651 } } #Lake Malawi
-        }
-    }
+	OR = {
+		area = newfoundland_area
+		AND = {
+			NOT = { has_terrain = desert }
+			NOT = { has_terrain = marsh }
+			NOT = { has_terrain = mountain }
+			NOT = { has_terrain = highlands }
+			NOT = { any_neighbor_province = { province_id = 1649 } } #Lake Victoria
+			NOT = { any_neighbor_province = { province_id = 1650 } } #Lake Tangyanika
+			NOT = { any_neighbor_province = { province_id = 1651 } } #Lake Malawi
+		}
+	}
 }
 is_not_eligible_for_trade_good_naval_supplies = {
 	OR = {
@@ -3746,41 +3746,41 @@ is_not_eligible_for_trade_good_cotton = {
 	}
 }
 is_not_eligible_for_trade_good_sugar = {
-    OR = {
-        area = newfoundland_area
-        AND = {
-            NOT = { has_climate = tropical }
-            OR = {
-                has_winter = severe_winter
-                has_winter = normal_winter
-                has_winter = mild_winter
-                has_terrain = desert
-                has_terrain = mountain
-                has_terrain = hills
-                has_terrain = highlands
-                has_terrain = forest
-                has_terrain = steppe
-            }
-        }
-        AND = {
-            is_random_new_world = no
-            NOT = { region = carribeans_region }
-            NOT = { region = brazil_region }
-            NOT = { region = mexico_region }
-            NOT = { region = rio_grande_region }
-            NOT = { region = central_america_region }
-            NOT = { region = colombia_region }
-            NOT = { region = deccan_region }
-            NOT = { region = west_india_region }
-            NOT = { area = mascarenes_area }
-        }
-        AND = {
-            is_random_new_world = yes
-            NOT = { region = deccan_region }
-            NOT = { region = west_india_region }
-            NOT = { area = mascarenes_area }
-        }
-    }
+	OR = {
+		area = newfoundland_area
+		AND = {
+			NOT = { has_climate = tropical }
+			OR = {
+				has_winter = severe_winter
+				has_winter = normal_winter
+				has_winter = mild_winter
+				has_terrain = desert
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+				has_terrain = forest
+				has_terrain = steppe
+			}
+		}
+		AND = {
+			is_random_new_world = no
+			NOT = { region = carribeans_region }
+			NOT = { region = brazil_region }
+			NOT = { region = mexico_region }
+			NOT = { region = rio_grande_region }
+			NOT = { region = central_america_region }
+			NOT = { region = colombia_region }
+			NOT = { region = deccan_region }
+			NOT = { region = west_india_region }
+			NOT = { area = mascarenes_area }
+		}
+		AND = {
+			is_random_new_world = yes
+			NOT = { region = deccan_region }
+			NOT = { region = west_india_region }
+			NOT = { area = mascarenes_area }
+		}
+	}
 }
 is_not_eligible_for_trade_good_tobacco = {
 	OR = {
@@ -3881,14 +3881,14 @@ is_not_eligible_for_trade_good_dyes = {
 	}
 }
 is_not_eligible_for_trade_good_tropical_wood = {
-    OR = {
-        area = newfoundland_area
-        AND = {
-            NOT = { has_terrain = jungle }
-            NOT = { province_id = 1240 }
-        }
-        NOT = { has_climate = tropical }
-    }
+	OR = {
+		area = newfoundland_area
+		AND = {
+			NOT = { has_terrain = jungle }
+			NOT = { province_id = 1240 }
+		}
+		NOT = { has_climate = tropical }
+	}
 }
 is_not_eligible_for_trade_good_livestock = {
 	OR = {

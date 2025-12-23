@@ -29,7 +29,7 @@ estate_varangians_hire_advisor = {
 			is_in_deficit = no
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -37,17 +37,17 @@ estate_varangians_hire_advisor = {
 			estate = estate_varangians
 			loyalty = 10
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_varangians_fire_advisor = {
@@ -89,7 +89,7 @@ estate_varangians_fire_advisor = {
 			}
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -108,17 +108,17 @@ estate_varangians_fire_advisor = {
 		}
 		NOT = { has_country_flag = just_fired_mil_advisor }
 	}
-    failing_effect = {
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
+		}
 		clr_country_flag = need_to_fire_mil_advisor
-    }
+	}
 }
 
 #Give us 3 privileges
@@ -190,7 +190,7 @@ estate_varangians_three_privileges = {
 			}
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -198,17 +198,17 @@ estate_varangians_three_privileges = {
 			estate = estate_varangians
 			loyalty = 20
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 #Insult X rival
@@ -311,7 +311,7 @@ estate_varangians_reply_of_the_zaporozhian = {
 			}
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -320,17 +320,17 @@ estate_varangians_reply_of_the_zaporozhian = {
 			loyalty = 10
 		}
 		add_army_tradition = 3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 #Privateer
@@ -366,7 +366,7 @@ estate_varangians_go_privateering = {
 			num_ships_privateering = 10
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -382,16 +382,16 @@ estate_varangians_go_privateering = {
 			}
 		}
 	}
-    failing_effect = {
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 #Privateer Better
@@ -502,7 +502,7 @@ estate_varangians_go_privateering_2 = {
 			}
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -518,16 +518,16 @@ estate_varangians_go_privateering_2 = {
 			}
 		}
 	}
-    failing_effect = {
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 #Conquer X area from country you don't have great relations with
@@ -763,7 +763,7 @@ estate_varangians_expand_into_x = {
 			}
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -792,15 +792,15 @@ estate_varangians_expand_into_x = {
 			}
 		}
 	}
-    failing_effect = {
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
+		}
 		if = {
 			limit = {
 				event_target:agenda_province = {
@@ -1086,7 +1086,7 @@ estate_varangians_complete_conquest_of_x = {
 			}
 		}
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -1115,15 +1115,15 @@ estate_varangians_complete_conquest_of_x = {
 			}
 		}
 	}
-    failing_effect = {
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
+		}
 		if = {
 			limit = {
 				event_target:agenda_province = {
@@ -1143,7 +1143,7 @@ estate_varangians_complete_conquest_of_x = {
 				}
 			}
 		}
-    }
+	}
 }
 
 #Recruit more varangians
@@ -1184,7 +1184,7 @@ estate_varangians_recruit_more_varangians = {
 	fail_if = {
 		is_bankrupt = yes
 	}
-    task_completed_effect = {
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_varangians
 		}
@@ -1193,16 +1193,16 @@ estate_varangians_recruit_more_varangians = {
 			loyalty = 10
 		}
 		add_army_tradition = 10
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_varangians
+		add_estate_loyalty_modifier = {
+			estate = estate_varangians
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
+		}
 		every_country = {
 			limit = {
 				has_country_varangian_flag_trigger = yes
@@ -1213,5 +1213,5 @@ estate_varangians_recruit_more_varangians = {
 				years = 5
 			}
 		}
-    }
+	}
 }

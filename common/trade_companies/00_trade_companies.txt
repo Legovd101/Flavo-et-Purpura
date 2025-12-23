@@ -271,8 +271,8 @@ trade_company_philippines = {
 		657 658 2698 4348 #luzon_area
 		656 2697 2699 4349 4350 #southern_luzon_area
 		   #west_micronesia_area
-		    #polynesia_area
-		    #micronesia_area
+			#polynesia_area
+			#micronesia_area
 	}
 
 	# Generic

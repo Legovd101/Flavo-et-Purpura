@@ -21,9 +21,9 @@ primary_culture = early_romylian
 		name = ogedei_legacy
 	}
 	set_government_power = { # sets the power to the specified amount
-        mechanic_type = mongol_yoke
-        power_type = stranglehold
-        value = 65
+		mechanic_type = mongol_yoke
+		power_type = stranglehold
+		value = 65
 	}
 
 }

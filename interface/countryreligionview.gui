@@ -1392,12 +1392,12 @@ guiTypes = {
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
 			
-		    iconType ={
-			    name ="sikh_bg"
-			    spriteType = "GFX_sikh_bg"
-			    position = { x= 5 y = -28 }
-			    Orientation = "UPPER_LEFT"
-		    }
+			iconType ={
+				name ="sikh_bg"
+				spriteType = "GFX_sikh_bg"
+				position = { x= 5 y = -28 }
+				Orientation = "UPPER_LEFT"
+			}
 
 			windowType = {
 				name = "current_guru"
@@ -2272,14 +2272,14 @@ guiTypes = {
 
 		###Defender of the Faith
 
-        iconType = {
+		iconType = {
 			name ="defender_of_the_faith_tier"
 			spriteType = "GFX_defender_of_the_faith_tier"
 			position = { x=355 y=260 }
 			Orientation = "UPPER_LEFT"
-        }
+		}
 
-        guiButtonType = 
+		guiButtonType = 
 		{
 			name ="become_Defender_of_the_Faith"
 			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
@@ -2646,7 +2646,7 @@ guiTypes = {
 			buttonText = " "
 			buttonFont = "vic_18"
 			position = { x = 30 y = 240 }
-			quadTextureSprite ="GFX_open_pangool_menu_1"    
+			quadTextureSprite ="GFX_open_pangool_menu_1"	
 			Orientation = "UPPER_LEFT"
 		}
 		windowType = {
@@ -2661,12 +2661,12 @@ guiTypes = {
 			
 
 			iconType = {
-        	    name ="pangool_window_bg"
-        	    scripted = yes
+				name ="pangool_window_bg"
+				scripted = yes
 				quadTextureSprite = "GFX_open_pangool_menu"
-        	    position = { x = 0 y = 0 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
 			instantTextBoxType = {
 				name = "pangool_window_title"
 				position = { x = -180 y = 35 }
@@ -2761,7 +2761,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 140 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
@@ -2770,7 +2770,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 200 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
@@ -2779,7 +2779,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 260 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
@@ -2788,7 +2788,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 320 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
@@ -2797,7 +2797,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 380 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
@@ -2806,7 +2806,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 440 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
@@ -2815,7 +2815,7 @@ guiTypes = {
 				buttonText = " "
 				buttonFont = "vic_18"
 				position = { x = 115 y = 440 }
-				quadTextureSprite = "GFX_base_eu4_button"    
+				quadTextureSprite = "GFX_base_eu4_button"	
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {

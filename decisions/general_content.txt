@@ -1,0 +1,12 @@
+country_decisions = {
+	general_content_decision = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			has_non_generic_missions = no
+		}
+		provinces_to_highlight = {  }
+		allow = { always = no }
+		effect = {  }
+	}
+}

@@ -13,111 +13,111 @@ DAN_1 = {
 
 		trigger = {
 			OR = {
-			    NOR = {
-			        has_opinion = {
-					    who = ROOT
-			            value = 200
+				NOR = {
+					has_opinion = {
+						who = ROOT
+						value = 200
 					}
 				}
 				AND = {
-				    NOR = {
-				        has_been_insulted_by_root = yes
+					NOR = {
+						has_been_insulted_by_root = yes
 					}
 					is_rival = NOR
 				}
 				NOR = {
-				    exists = no
+					exists = no
 				}
 			}
 		}
 		
 		effect = {
-		    if = {
-			    limit = {
-			        NOR = {
-					    has_opinion = {
-			     	        who = ROOT
-			                value = 200
-					    }
+			if = {
+				limit = {
+					NOR = {
+						has_opinion = {
+				 			who = ROOT
+							value = 200
+						}
 					}
-			    }
+				}
 				custom_tooltip = danish_norway_friendship_tt
 			}
 			else = { custom_tooltip = danish_norway_friendship_no_tt }
 			
 			if = {
-			    limit = {
-			        NOR = {
-					    has_been_insulted_by_root = yes
+				limit = {
+					NOR = {
+						has_been_insulted_by_root = yes
 					}
 					is_rival = NOR
-			    }
+				}
 				custom_tooltip = danish_norway_rival_tt
 			}
 			else = { custom_tooltip = danish_norway_rival_no_tt }
-            
+			
 			if = {
-			    limit = {
-			        NOR = {
-					    exists = no
+				limit = {
+					NOR = {
+						exists = no
 						AND = {
-				            eastern_norway = {
-					        	type = all
-						    	owned_by = ROOT
+							eastern_norway = {
+								type = all
+								owned_by = ROOT
 							}
-					        western_norway = {
-					        	type = all
-					    		owned_by = ROOT
+							western_norway = {
+								type = all
+								owned_by = ROOT
 							}
-					    	northern_norway = {
-					        	type = all
-						    	owned_by = ROOT
+							northern_norway = {
+								type = all
+								owned_by = ROOT
 							}
-					    }
+						}
 					}
-			    }
+				}
 				custom_tooltip = danish_norway_bypass_tt
 			}
 			else = { custom_tooltip = danish_norway_bypass_no_tt }
 
 			tooltip = {
-			    add_country_modifier = {
-				    name = dano_norwegian_unity
-			        duration = 7300
+				add_country_modifier = {
+					name = dano_norwegian_unity
+					duration = 7300
 				}
 			}
 			hidden_effect = {
-		        if = {
-			        limit = {
-					    NOR = {
-					        has_been_insulted_by_root = yes
-					    }
-					    is_rival = NOR
-				    }
-				    add_casus_belli = {
-				        target = NOR
-				        type = cb_restore_personal_union
-				        months = -1
-				    }
-			    }
-			    else_if = {
-			        limit = {
-					    NOR = {
-					        has_opinion = {
-					            who = ROOT
-			                    value = 200
-						    }
-					    }
-				    }
-				    NOR = { country_event = { id = fep_scandinavian_flavor.0 } } #maybe create union
+				if = {
+					limit = {
+						NOR = {
+							has_been_insulted_by_root = yes
+						}
+						is_rival = NOR
+					}
+					add_casus_belli = {
+						target = NOR
+						type = cb_restore_personal_union
+						months = -1
+					}
 				}
-			    else = {
-			        add_country_modifier = {
-				        name = dano_norwegian_unity
-					    duration = 7300
-				    }
-			    }
-		    }
+				else_if = {
+					limit = {
+						NOR = {
+							has_opinion = {
+								who = ROOT
+								value = 200
+							}
+						}
+					}
+					NOR = { country_event = { id = fep_scandinavian_flavor.0 } } #maybe create union
+				}
+				else = {
+					add_country_modifier = {
+						name = dano_norwegian_unity
+						duration = 7300
+					}
+				}
+			}
 		}
 	}
 
@@ -128,19 +128,19 @@ DAN_1 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    OR = { 
-			    NOR = { is_subject_of = ROOT }
+			OR = { 
+				NOR = { is_subject_of = ROOT }
 				AND = {
-				    eastern_norway = {
-					    type = all
+					eastern_norway = {
+						type = all
 						owned_by = ROOT
 					}
 					western_norway = {
-					    type = all
+						type = all
 						owned_by = ROOT
 					}
 					northern_norway = {
-					    type = all
+						type = all
 						owned_by = ROOT
 					}
 				}
@@ -148,67 +148,67 @@ DAN_1 = {
 		}
 		
 		effect = {
-		    custom_tooltip = danish_norway_danified_tt
-		    hidden_effect = {
-			    16 = {
-				    change_province_name = "Baahuslen"
-				    rename_capital = "Konghelle"
+			custom_tooltip = danish_norway_danified_tt
+			hidden_effect = {
+				16 = {
+					change_province_name = "Baahuslen"
+					rename_capital = "Konghelle"
 				}
 				17 = {
-				    change_province_name = "Aggershuus"
-				    rename_capital = "Kristiania"
+					change_province_name = "Aggershuus"
+					rename_capital = "Kristiania"
 				}
 				20 = {
-				    change_province_name = "Trondhjem"
-				    rename_capital = "Trondhjem"
+					change_province_name = "Trondhjem"
+					rename_capital = "Trondhjem"
 				}
 				21 = {
-				    change_province_name = "Nordlandene"
-				    rename_capital = "Bodø"
+					change_province_name = "Nordlandene"
+					rename_capital = "Bodø"
 				}
 				22 = {
-				    change_province_name = "Hamar"
-				    rename_capital = "Hamar"
+					change_province_name = "Hamar"
+					rename_capital = "Hamar"
 				}
 				23 = {
-				    change_province_name = "Bergenhuus"
-				    rename_capital = "Bergen"
+					change_province_name = "Bergenhuus"
+					rename_capital = "Bergen"
 				}
 				24 = {
-				    change_province_name = "Stavanger"
-				    rename_capital = "Stavanger"
+					change_province_name = "Stavanger"
+					rename_capital = "Stavanger"
 				}
 				315 = {
-				    change_province_name = "Vardøhuus"
-				    rename_capital = "Vardø"
+					change_province_name = "Vardøhuus"
+					rename_capital = "Vardø"
 				}
 				2752 = {
-				    change_province_name = "Romsdal"
-				    rename_capital = "Kristiansund"
+					change_province_name = "Romsdal"
+					rename_capital = "Kristiansund"
 				}
 				4143 = {
-				    change_province_name = "Smaalenene"
-				    rename_capital = "Moss"
+					change_province_name = "Smaalenene"
+					rename_capital = "Moss"
 				}
 				4144 = {
-				    change_province_name = "Bradsberg"
-				    rename_capital = "Skien"
+					change_province_name = "Bradsberg"
+					rename_capital = "Skien"
 				}
 				4145 = {
-				    change_province_name = "Agdesiden"
-				    rename_capital = "Christiansand"
+					change_province_name = "Agdesiden"
+					rename_capital = "Christiansand"
 				}
 			}
-		    if = {
-			    limit = { SWE = { exists = yes } }
+			if = {
+				limit = { SWE = { exists = yes } }
 				add_casus_belli = {
-				    target = SWE
-				    type = cb_restore_personal_union
-				    months = -1
+					target = SWE
+					type = cb_restore_personal_union
+					months = -1
 				}
 			}
 			else = {
-			    add_adm_power = 100
+				add_adm_power = 100
 			}
 		}
 	}
@@ -220,19 +220,19 @@ DAN_1 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    OR = { 
-			    SWE = { is_subject_of = ROOT }
+			OR = { 
+				SWE = { is_subject_of = ROOT }
 				AND = {
-				    svealand_area = {
-					    type = all
+					svealand_area = {
+						type = all
 						owned_by = ROOT
 					}
 					ostra_svealand_area = {
-					    type = all
+						type = all
 						owned_by = ROOT
 					}
 					vastra_gotaland_area = {
-					    type = all
+						type = all
 						owned_by = ROOT
 					}
 				}
@@ -241,25 +241,25 @@ DAN_1 = {
 
 		effect = {
 			scandinavia_region = {
-			    add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			custom_tooltip = mission_space
 			add_prestige = 25
 			custom_tooltip = mission_space
 			denmark_area = {
-			    random_list = {
-			    	1 = { add_base_tax = 2 }
-			    	1 = { add_base_production = 2 }
-			    	1 = { add_base_manpower = 2 }
-			    }
-			    if = {
-			    	limit = { is_prosperous = yes }
-			    	random_list = {
-			    		1 = { add_base_tax = 2 }
-			    		1 = { add_base_production = 2 }
-			    		1 = { add_base_manpower = 2 }
-			    	}
-			    }
+				random_list = {
+					1 = { add_base_tax = 2 }
+					1 = { add_base_production = 2 }
+					1 = { add_base_manpower = 2 }
+				}
+				if = {
+					limit = { is_prosperous = yes }
+					random_list = {
+						1 = { add_base_tax = 2 }
+						1 = { add_base_production = 2 }
+						1 = { add_base_manpower = 2 }
+					}
+				}
 				else = { add_prosperity = 25 }
 			}
 		}
@@ -278,28 +278,28 @@ DAN_2 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    estate_loyalty = {
+			estate_loyalty = {
 				estate = estate_nobles
 				loyalty = 60
 			}
-		    OR = {
-			    SHL = {
+			OR = {
+				SHL = {
 					has_opinion = {
 						who = DAN
 						value = 150
 					}
 				}
 				SHL = {
-				    exists = no
+					exists = no
 				}
 			}
 		}
 		effect = {
-		    remove_estate_privilege = estate_nobles_anglish_nobility
+			remove_estate_privilege = estate_nobles_anglish_nobility
 			SHL = {
-		        add_country_modifier = {
-		            name = jutish_support
-		            duration = 5475
+				add_country_modifier = {
+					name = jutish_support
+					duration = 5475
 				}
 			}
 		}
@@ -313,20 +313,20 @@ DAN_2 = {
 
 		trigger = {
 		
-		    13 = {
-		        province_has_current_tech_fort_trigger = yes
-			    OR = {
-				    has_great_project = {
-					    type = danevirke
-					    tier = 1
-				    }
-				    has_great_project = {
-					    type = danevirke
-					    tier = 2
-				    }
-				    has_great_project = {	
-					    type = danevirke
-					    tier = 3
+			13 = {
+				province_has_current_tech_fort_trigger = yes
+				OR = {
+					has_great_project = {
+						type = danevirke
+						tier = 1
+					}
+					has_great_project = {
+						type = danevirke
+						tier = 2
+					}
+					has_great_project = {	
+						type = danevirke
+						tier = 3
 					}
 				}
 			}
@@ -356,18 +356,18 @@ DAN_2 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    hinter_pommern_area = {
-			    type = all
+			hinter_pommern_area = {
+				type = all
 				owned_by = ROOT
 			}
 			west_prussia_area = {
-			    type = all
+				type = all
 				owned_by = ROOT
 			}
 		} 
 
 		effect = {
-		    country_event = { id = scandinavian_flavo.0 } #talk about restoring valdemars empire																																									
+			country_event = { id = scandinavian_flavo.0 } #talk about restoring valdemars empire																																									
 		} 
 	}
 
@@ -381,10 +381,10 @@ DAN_2 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    stability = 3
+			stability = 3
 			prestige = 90
 			denmark_area = {
-			    is_prosperous = yes
+				is_prosperous = yes
 			}
 			if = {
 				limit = {
@@ -398,7 +398,7 @@ DAN_2 = {
 		} 
 
 		effect = {
-		    if = {
+			if = {
 				limit = {
 					has_dlc = "Mandate of Heaven"
 				}
@@ -435,14 +435,14 @@ DAN_2 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    scandinavia_region = {
-			    type = all
+			scandinavia_region = {
+				type = all
 				owned_by = ROOT
 			}
 		} 
 
 		effect = {
-		    country_event = { id = scandinavian_flavo.1 } #talk about restoring valdemars empire																																									
+			country_event = { id = scandinavian_flavo.1 } #talk about restoring valdemars empire																																									
 		} 
 	}
 }
@@ -459,15 +459,15 @@ DAN_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    12 = {
-			    has_tax_building_trigger = yes
+			12 = {
+				has_tax_building_trigger = yes
 			}
 			advisor = inquisitor
 		}
 
 		effect = {
-		    12 = {
-		        add_building = cathedral
+			12 = {
+				add_building = cathedral
 			}
 			add_stability_or_adm_power = yes 
 		}
@@ -484,18 +484,18 @@ DAN_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    SHL = { exists = no }
+			SHL = { exists = no }
 			SCN = { exists = no }
 			stability = 1
 		} 
 
 		effect = {
-		    override_country_name = DENMARK
+			override_country_name = DENMARK
 			custom_tooltip = mission_space
 			set_government_rank = 2
 			custom_tooltip = mission_space
 			add_country_modifier = {
-			    name = resurgent_denmark
+				name = resurgent_denmark
 				duration = 9125
 			}
 		}
@@ -512,7 +512,7 @@ DAN_3 = {
 
 		trigger = {
 		
-		    mecklenburg_area = {
+			mecklenburg_area = {
 				type = all
 				owned_by = ROOT 
 			}
@@ -526,34 +526,34 @@ DAN_3 = {
 			}
 		}
 		effect = {
-		    if = {
-			    limit = { 
-				    ENG = { exists = no }
+			if = {
+				limit = { 
+					ENG = { exists = no }
 				}
 				custom_tooltip = danish_england_destroyed_tt
 			}
-		    else = {
-			    custom_tooltip = danish_england_destroyed_no_tt
+			else = {
+				custom_tooltip = danish_england_destroyed_no_tt
 			}
 			hidden_effect = {
-			    if = {
-				    limit = {
-					    ENG = { exists = no }
-				    }
-				    add_mil_power = 100
+				if = {
+					limit = {
+						ENG = { exists = no }
+					}
+					add_mil_power = 100
 				}
 			}
 			custom_tooltip = danish_wendish_crusade_tt
 			hidden_effect = {
-			    every_province = {
-			        if = {
-			            limit = {
-				            OR = {
-					            culture = pommeranian
-						        culture = old_prussian
-					        }
-				        }
-					    add_permanent_claim = ROOT
+				every_province = {
+					if = {
+						limit = {
+							OR = {
+								culture = pommeranian
+								culture = old_prussian
+							}
+						}
+						add_permanent_claim = ROOT
 					}
 				}
 			}
@@ -567,18 +567,18 @@ DAN_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    greenland_area = { 
-			    type = all 
-			    owned_by = ROOT
+			greenland_area = { 
+				type = all 
+				owned_by = ROOT
 			}
 			subarctic_islands_area = {
-			    type = all
+				type = all
 				owned_by = ROOT
 			}
 		} 
 
 		effect = {
-		    define_explorer = {
+			define_explorer = {
 				shock = 1
 				fire = 2
 				manuever = 4
@@ -586,11 +586,11 @@ DAN_3 = {
 				name = "Finnbjörn Erlendsson"
 			}
 			add_country_modifier = {
-			    name = danish_explorer_spirit
+				name = danish_explorer_spirit
 				duration = 10950
 			}
 			canada_region = {
-			    add_permanent_claim = ROOT 
+				add_permanent_claim = ROOT 
 			}
 		}
 	}
@@ -608,29 +608,29 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    estate_loyalty = {
+			estate_loyalty = {
 				estate = estate_burghers
 				loyalty = 60
 			}
 			OR = {
-			    SCN = { #check what the tag is 
+				SCN = { #check what the tag is 
 					has_opinion = {
 						who = DAN
 						value = 150
 					}
 				}
 				SCN = {
-				    exists = no
+					exists = no
 				}
 			}
 		}
 
 		effect = {
-		    remove_estate_privilege = estate_burghers_disloyal_magnates
+			remove_estate_privilege = estate_burghers_disloyal_magnates
 			SCN = {
-		        add_country_modifier = {
-		            name = scanian_support
-		            duration = 5475
+				add_country_modifier = {
+					name = scanian_support
+					duration = 5475
 				}
 			}
 		}
@@ -643,29 +643,29 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    4142 = {
-			    has_trade_building_trigger = yes
+			4142 = {
+				has_trade_building_trigger = yes
 			}
 			12 = {
-			    has_trade_building_trigger = yes
+				has_trade_building_trigger = yes
 				province_has_center_of_trade_of_level = 2
 			}
 			6 = {
-			    has_trade_building_trigger = yes
+				has_trade_building_trigger = yes
 			}
 		}
 
 		effect = {
-		    custom_tooltip = danish_add_baltic_claims_tt
+			custom_tooltip = danish_add_baltic_claims_tt
 			hidden_effect = {
-		        add_permanent_claim = 25
-		        add_permanent_claim = 43
-		        add_permanent_claim = 41
-		        add_permanent_claim = 38
-		        add_permanent_claim = 36
-		        add_permanent_claim = 33
-		        add_permanent_claim = 1
-		        add_permanent_claim = 47
+				add_permanent_claim = 25
+				add_permanent_claim = 43
+				add_permanent_claim = 41
+				add_permanent_claim = 38
+				add_permanent_claim = 36
+				add_permanent_claim = 33
+				add_permanent_claim = 1
+				add_permanent_claim = 47
 			}
 			add_country_modifier = {
 				name = "oresund_dominance"
@@ -681,7 +681,7 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    navy_size_percentage = 1.0
+			navy_size_percentage = 1.0
 			num_of_owned_provinces_with = {
 				value = 10
 				has_shipyard_building_trigger = yes
@@ -689,11 +689,11 @@ new_branch = {
 		}
 
 		effect = {
-		    subarctic_islands_area = {
-			    add_permanent_claim = ROOT
+			subarctic_islands_area = {
+				add_permanent_claim = ROOT
 			}
 			greenland_area = {
-			    add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			custom_tooltip = mission_space
 			add_navy_tradition = 20
@@ -714,14 +714,14 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    6 = {
-			    development = 25
+			6 = {
+				development = 25
 			}
 			treasury = 150
 		}
 
 		effect = {
-		    add_treasury = -150
+			add_treasury = -150
 			add_country_modifier = {
 				name = danish_rennaisance
 				duration = 7300
@@ -736,15 +736,15 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    25 = { owned_by = ROOT }
-		    num_of_owned_provinces_with = {
-			    region = baltic_region
+			25 = { owned_by = ROOT }
+			num_of_owned_provinces_with = {
+				region = baltic_region
 				value = 5
 			}
 		} 
 
 		effect = {
-		    add_casus_belli = {
+			add_casus_belli = {
 				type = cb_vassalize_mission
 				target = EST
 			}
@@ -760,10 +760,10 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    OR = {
-			    EST = { is_subject_of = ROOT }
+			OR = {
+				EST = { is_subject_of = ROOT }
 				estonia_ingria_area = {
-				    owned_by = ROOT
+					owned_by = ROOT
 					type = all
 				}
 			}
@@ -776,38 +776,38 @@ new_branch = {
 		}
 
 		effect = {
-		    baltic_region = {
-			    add_permanent_claim = ROOT
+			baltic_region = {
+				add_permanent_claim = ROOT
 			}
 			karelia_area = {
-			    add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			
 			custom_tooltip=mission_space
 			
 			if = {
-			    limit = {
-				    EST = { is_subject_of = ROOT }
+				limit = {
+					EST = { is_subject_of = ROOT }
 				}
 				custom_tooltip = danish_estonia_tt
 			}
 			else = { custom_tooltip = danish_estonia_no_tt }
 			tooltip = {
-			    add_country_modifier = {
-				    name = danish_estonian_overlord
-			        duration = 9125
+				add_country_modifier = {
+					name = danish_estonian_overlord
+					duration = 9125
 				}
 			}
 			hidden_effect = {
-			    if = {
-			        limit = {
-				        EST = { is_subject_of = ROOT }
-				    }
-				    EST = {
-				        override_country_name = ESTLAND
-				    }
+				if = {
+					limit = {
+						EST = { is_subject_of = ROOT }
+					}
+					EST = {
+						override_country_name = ESTLAND
+					}
 					add_country_modifier = {
-					    name = danish_estonian_overlord
+						name = danish_estonian_overlord
 						duration = 9125
 					}
 				}
@@ -825,7 +825,7 @@ new_branch = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    baltic_region = {
+			baltic_region = {
 				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}

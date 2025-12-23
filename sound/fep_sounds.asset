@@ -3,7 +3,7 @@ sound = {
 	file = "tab_religion_sangrist.wav"
 }
 sound = {
-    name = DEUS_VULT_CRUSADE
-    file = "crusade_deus_vult.wav"
-    always_load = yes
+	name = DEUS_VULT_CRUSADE
+	file = "crusade_deus_vult.wav"
+	always_load = yes
 }

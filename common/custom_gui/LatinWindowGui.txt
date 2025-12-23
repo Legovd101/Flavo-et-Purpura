@@ -1,60 +1,60 @@
 custom_button = {
-    name = latin_custom_close_button
-    potential = {
+	name = latin_custom_close_button
+	potential = {
 	}
-    trigger = {  }
-    effect = {
+	trigger = {  }
+	effect = {
 		clr_country_flag = latin_window_shown
 		clr_country_flag = shogunate_window_shown
 	}
-    #tooltip = "Close"
+	#tooltip = "Close"
 }
 
 custom_text_box = {
-    name = latin_ui_unity_value
-    potential = {
+	name = latin_ui_unity_value
+	potential = {
 	}
-    # tooltip = latin_ui_unity_value_tooltip
+	# tooltip = latin_ui_unity_value_tooltip
 }
 
 custom_text_box = {
-    name = latin_ui_influence_growth
-    potential = {
+	name = latin_ui_influence_growth
+	potential = {
 	}
-    # tooltip = latin_ui_influence_growth_tooltip
+	# tooltip = latin_ui_influence_growth_tooltip
 }
 
 custom_text_box = {
-    name = latin_ui_edicts_banner_text
-    potential = {
+	name = latin_ui_edicts_banner_text
+	potential = {
 	}
-    #tooltip = faction_window_text_mechanic_override_cusloc
+	#tooltip = faction_window_text_mechanic_override_cusloc
 }
 
 custom_icon = {
 	name = latin_ui_edicts_banner
-    potential = {
+	potential = {
 	}
 	#tooltip = latin_ui_holy_site_thatta_religion_tooltip
 }
 
 custom_text_box = {
-    name = faction_window_text_mechanic_override
-    potential = {
+	name = faction_window_text_mechanic_override
+	potential = {
 	}
-    #tooltip = faction_window_text_mechanic_override_cusloc
+	#tooltip = faction_window_text_mechanic_override_cusloc
 }
 
 custom_text_box = {
-    name = latin_ui_reforms_banner_text
-    potential = {
+	name = latin_ui_reforms_banner_text
+	potential = {
 	}
-    # tooltip = latin_ui_reforms_banner_text_tooltip
+	# tooltip = latin_ui_reforms_banner_text_tooltip
 }
 
 custom_button = {
 	name = latin_ui_religion_reform
-    potential = {
+	potential = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
@@ -86,17 +86,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 1
-        trigger = { 
+		number = 1
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = latin_ui_religion_reform_tooltip
 }
 
 custom_button = {
 	name = latin_ui_culture_reform
-    potential = {
+	potential = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
@@ -128,17 +128,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 2
-        trigger = { 
+		number = 2
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = latin_ui_culture_reform_tooltip
 }
 
 custom_button = {
 	name = latin_ui_hereditary_reform
-    potential = {
+	potential = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
@@ -187,17 +187,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 3
-        trigger = { 
+		number = 3
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = latin_ui_hereditary_reform_tooltip
 }
 
 custom_button = {
 	name = latin_ui_levantine_reform
-    potential = {
+	potential = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
@@ -250,17 +250,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 4
-        trigger = { 
+		number = 4
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = latin_ui_levantine_reform_tooltip
 }
 
 custom_button = {
 	name = latin_ui_unification_reform
-    potential = {
+	potential = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
@@ -322,17 +322,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 5
-        trigger = { 
+		number = 5
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = latin_ui_unification_reform_tooltip
 }
 
 custom_icon = {
 	name = latin_ui_rector_shield_empty
-    potential = {
+	potential = {
 		#NOT = {
 		#	OR = {
 		#		has_saved_global_event_target = Caliph_province_holder
@@ -345,7 +345,7 @@ custom_icon = {
 
 custom_icon = {
 	name = italy_ui_successor_shield_empty
-    potential = {
+	potential = {
 		#NOT = {
 		#	OR = {
 		#		has_saved_global_event_target = Caliph_province_holder
@@ -358,32 +358,32 @@ custom_icon = {
 
 custom_icon = {
 	name = latin_ui_reforms_banner
-    potential = {
+	potential = {
 	}
 	#tooltip = latin_ui_latin_flag_tooltip
 }
 
 custom_shield = {
 	name = latin_ui_rector_shield
-    potential = {
+	potential = {
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = current_rector
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = italy_ui_successor_shield
-    potential = {
+	potential = {
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = {
+	effect = {
 		if = { limit = { NOT = { has_global_flag = latin_hereditary_reform } }
 			every_capital_province = {
 				limit = {
@@ -396,15 +396,15 @@ custom_shield = {
 			custom_tooltip = rectoral_elections_abolished_tt
 		}
 	}
-    tooltip = latin_ui_latin_successor_tooltip
+	tooltip = latin_ui_latin_successor_tooltip
 	global_event_target = current_successor
-    open_country = yes
+	open_country = yes
 }
 
 
 custom_icon = {
 	name = latin_ui_rector_shield_cut
-    potential = {
+	potential = {
 		#OR = {
 		#	has_saved_global_event_target = Caliph_province_holder
 		#	has_saved_global_event_target = ME_latin_tag
@@ -419,7 +419,7 @@ custom_icon = {
 
 custom_icon = {
 	name = italy_ui_successor_shield_cut
-    potential = {
+	potential = {
 		#OR = {
 		#	has_saved_global_event_target = Caliph_province_holder
 		#	has_saved_global_event_target = ME_latin_tag
@@ -433,35 +433,35 @@ custom_icon = {
 }
 
 custom_text_box = {
-    name = latin_ui_rector
-    potential = {
+	name = latin_ui_rector
+	potential = {
 	}
-    # tooltip = latin_ui_rector_tooltip
+	# tooltip = latin_ui_rector_tooltip
 }
 
 custom_text_box = {
-    name = latin_ui_unity_growth
-    potential = {
+	name = latin_ui_unity_growth
+	potential = {
 	}
-    tooltip = latin_ui_unity_growth_tooltip
+	tooltip = latin_ui_unity_growth_tooltip
 }
 
 custom_text_box = {
-    name = latin_ui_rectoral_religion
-    potential = {
+	name = latin_ui_rectoral_religion
+	potential = {
 	}
-    tooltip = latin_ui_rectoral_religion_tooltip
+	tooltip = latin_ui_rectoral_religion_tooltip
 }
 
 custom_icon = {
 	name = faction_window_bg_override
-    potential = {
+	potential = {
 	}
 }
 
 custom_button = {
 	name = faction_window_bg_override
-    potential = { }
+	potential = { }
 	trigger = { }
 	effect = { }
 	# tooltip = blahblah
@@ -469,12 +469,12 @@ custom_button = {
 
 custom_text_box = {
 	name = faction_window_bg_override
-    potential = {  }
+	potential = {  }
 }
 
 custom_icon = {
 	name = fatwa_color_overlay
-    potential = {
+	potential = {
 	}
 }
 

@@ -10,7 +10,7 @@ base_manpower = 3
 
 trade_goods = grain
 
-culture = lusitanian
+culture = hasdingian
 religion = arianism
 capital = "Coimbra"
 

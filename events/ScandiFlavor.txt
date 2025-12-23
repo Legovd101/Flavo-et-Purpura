@@ -31,7 +31,7 @@ country_event = {
 	option = {
 		name = scandinavian_flavo.1.a
 		add_country_modifier = {
-		    name = danish_scandinavian_hegemony
+			name = danish_scandinavian_hegemony
 			duration = -1
 		}
 	}
@@ -51,12 +51,12 @@ country_event = {
 	option = {
 		name = scandinavian_flavo.2.a
 		38 = {
-		    add_base_production = 3
+			add_base_production = 3
 			add_base_manpower = 3
 			add_base_tax = 3
 			change_culture = ROOT
 			add_province_modifier = {
-			    name = sweden_riga_jewel
+				name = sweden_riga_jewel
 				duration = -1
 			}
 		}

@@ -232,7 +232,7 @@ country_event = {
 	option = {
 		name = "fep_scandinavian_flavor.6.a"
 		add_country_modifier = {
-		    name = danish_scandinavian_hegemony
+			name = danish_scandinavian_hegemony
 			duration = -1
 		}
 	}

@@ -6,29 +6,29 @@ dablit_slot_1 = {
 		tag = CDL
 	}
 	
-    CDL_dali_city = {
-        icon = mission_chinese_general_riding
-        position = 2
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_prospering
-        }
-        
-        provinces_to_highlight = {
+	CDL_dali_city = {
+		icon = mission_chinese_general_riding
+		position = 2
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_prospering
+		}
+		
+		provinces_to_highlight = {
 			province_id = 661
-        }
-    
-        trigger = {
+		}
+	
+		trigger = {
 			661 = {
 				num_of_times_improved_by_owner = 10
 				num_of_buildings_in_province = 3
 				NOT = { devastation = 1 }
 			}
-        }
-        
-        effect = {
+		}
+		
+		effect = {
 			661 = {
 				add_center_of_trade_level = 1
 				add_random_development = 1
@@ -37,32 +37,32 @@ dablit_slot_1 = {
 					duration = 3650
 				}
 			}
-        }
-    }
+		}
+	}
 	
-    CDL_build_kunming = {
-        icon = mission_chinese_general_riding
-        position = 3
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_dali_city
-        }
-        
-        provinces_to_highlight = {
+	CDL_build_kunming = {
+		icon = mission_chinese_general_riding
+		position = 3
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_dali_city
+		}
+		
+		provinces_to_highlight = {
 			province_id = 662
-        }
-    
-        trigger = {
+		}
+	
+		trigger = {
 			662 = {
 				num_of_times_improved_by_owner = 10
 				num_of_buildings_in_province = 3
 				NOT = { devastation = 1 }
 			}
-        }
-        
-        effect = {
+		}
+		
+		effect = {
 			662 = {
 				add_center_of_trade_level = 1
 				add_random_development = 1
@@ -79,20 +79,20 @@ dablit_slot_1 = {
 					id = dablit_flavor.1
 				}
 			}
-        }
-    }
-    
-    CDL_shangri_la = {
-        icon = mission_chinese_general_riding
-        position = 4
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_build_kunming
-        }
-        
-        provinces_to_highlight = {
+		}
+	}
+	
+	CDL_shangri_la = {
+		icon = mission_chinese_general_riding
+		position = 4
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_build_kunming
+		}
+		
+		provinces_to_highlight = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
@@ -100,9 +100,9 @@ dablit_slot_1 = {
 				area = tengyue_area
 				area = puer_area
 			}
-        }
-    
-        trigger = {
+		}
+	
+		trigger = {
 			yun_gui_area = {
 				has_owner_religion = yes
 				development = 12
@@ -128,9 +128,9 @@ dablit_slot_1 = {
 				development = 12
 				NOT = { local_autonomy_above_min = 1 }
 			}
-        }
-        
-        effect = {
+		}
+		
+		effect = {
 			yun_gui_area = {
 				add_province_modifier = {
 					name = "CDL_shangri_la_reward"
@@ -161,11 +161,11 @@ dablit_slot_1 = {
 					duration = 3650
 				}
 			}
-        }
-    }
+		}
+	}
 	
 	CDL_sichuan_conquer = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { CDL_kwangsi_conquer }
 
@@ -229,7 +229,7 @@ dablit_slot_1 = {
 				type = cb_religious_conformance
 				months = 120
 			}
-        }
+		}
 	}
 }
 
@@ -242,7 +242,7 @@ dablit_slot_2 = {
 	}
 
 	CDL_prospering = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -310,75 +310,75 @@ dablit_slot_2 = {
 					duration = 3650
 				}
 			}
-        }
+		}
 	}
 	
-    CDL_resources = {
-        icon = mission_chinese_general_riding
-        position = 2
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_prospering
-        }
-        
-        provinces_to_highlight = {
+	CDL_resources = {
+		icon = mission_chinese_general_riding
+		position = 2
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_prospering
+		}
+		
+		provinces_to_highlight = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
 				area = chuannan_area
 			}
-        }
-    
-        trigger = {
-			yun_gui_area = {
-				type = all
-				has_building = workshop
-			}
-			yun_gui_borderland_area = {
-				type = all
-				has_building = workshop
-			}
-			chuannan_area = {
-				type = all
-				has_building = workshop
-			}
-        }
-        
-        effect = {
-			yun_gui_area = {
-				add_province_modifier = {
-					name = "CDL_resource_extraction"
-					duration = -1
-				}
-			}
-			yun_gui_borderland_area = {
-				add_province_modifier = {
-					name = "CDL_resource_extraction"
-					duration = -1
-				}
-			}
-			chuannan_area = {
-				add_province_modifier = {
-					name = "CDL_resource_extraction"
-					duration = -1
-				}
-			}
-        }
-    }
+		}
 	
-    CDL_industrialise = {
-        icon = mission_chinese_general_riding
-        position = 3
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_resources
-        }
-        
-        provinces_to_highlight = {
+		trigger = {
+			yun_gui_area = {
+				type = all
+				has_building = workshop
+			}
+			yun_gui_borderland_area = {
+				type = all
+				has_building = workshop
+			}
+			chuannan_area = {
+				type = all
+				has_building = workshop
+			}
+		}
+		
+		effect = {
+			yun_gui_area = {
+				add_province_modifier = {
+					name = "CDL_resource_extraction"
+					duration = -1
+				}
+			}
+			yun_gui_borderland_area = {
+				add_province_modifier = {
+					name = "CDL_resource_extraction"
+					duration = -1
+				}
+			}
+			chuannan_area = {
+				add_province_modifier = {
+					name = "CDL_resource_extraction"
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	CDL_industrialise = {
+		icon = mission_chinese_general_riding
+		position = 3
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_resources
+		}
+		
+		provinces_to_highlight = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
@@ -386,9 +386,9 @@ dablit_slot_2 = {
 				area = tengyue_area
 				area = puer_area
 			}
-        }
-    
-        trigger = {
+		}
+	
+		trigger = {
 			calc_true_if = {
 				all_owned_province = {
 					OR = {
@@ -411,9 +411,9 @@ dablit_slot_2 = {
 				}
 				amount = 8
 			}
-        }
-        
-        effect = {
+		}
+		
+		effect = {
 			yun_gui_area = {
 				add_province_modifier = {
 					name = "CDL_industrialised"
@@ -444,11 +444,11 @@ dablit_slot_2 = {
 					duration = -1
 				}
 			}
-        }
-    }
+		}
+	}
 	
 	CDL_kwangsi_conquer = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { CDL_forcelimit }
 
@@ -502,11 +502,11 @@ dablit_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-        }
+		}
 	}
 	
 	CDL_canton_trade = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { CDL_kwangsi_conquer }
 
@@ -542,11 +542,11 @@ dablit_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-        }
+		}
 	}
 	
 	CDL_defeat_sinaye = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 6
 		required_missions = { CDL_sichuan_conquer }
 
@@ -585,7 +585,7 @@ dablit_slot_2 = {
 				name = "CDL_knows_no_bounds"
 				duration = -1
 			}
-        }
+		}
 	}
 }
 
@@ -597,24 +597,24 @@ dablit_slot_3 = {
 		tag = CDL
 	}
 	
-    CDL_educated = {
-        icon = mission_chinese_general_riding
-        position = 2
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_prospering CDL_buddhism_mission
-        }
-        
-        provinces_to_highlight = {
+	CDL_educated = {
+		icon = mission_chinese_general_riding
+		position = 2
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_prospering CDL_buddhism_mission
+		}
+		
+		provinces_to_highlight = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
 				area = chuannan_area
 			}
-        }
-    
+		}
+	
 		trigger = {
 			calc_true_if = {
 				all_owned_province = {
@@ -623,17 +623,17 @@ dablit_slot_3 = {
 				amount = 8
 			}
 		}
-        
-        effect = {
+		
+		effect = {
 			add_country_modifier = {
 				name = "CDL_university"
 				duration = -1
 			}
-        }
-    }
+		}
+	}
 	
 	CDL_forcelimit = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = {  }
 
@@ -661,11 +661,11 @@ dablit_slot_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-        }
+		}
 	}
 	
 	CDL_vietnam_threat = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { CDL_forcelimit }
 
@@ -692,11 +692,11 @@ dablit_slot_3 = {
 				type = cb_vassalize_mission
 				months = 120
 			}
-        }
+		}
 	}
 	
 	CDL_vietnam_conquer = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { CDL_vietnam_threat }
 
@@ -732,7 +732,7 @@ dablit_slot_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-        }
+		}
 	}
 }
 
@@ -745,7 +745,7 @@ dablit_slot_4 = {
 	}
 	
 	CDL_buddhism_mission = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
 
@@ -767,18 +767,18 @@ dablit_slot_4 = {
 				name = "CDL_buddhism_reward"
 				duration = 3650
 			}
-        }
+		}
 	}
 	
-    CDL_temples = {
-        icon = mission_chinese_general_riding
-        position = 2
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = { CDL_buddhism_mission }
-        
-        provinces_to_highlight = {
+	CDL_temples = {
+		icon = mission_chinese_general_riding
+		position = 2
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = { CDL_buddhism_mission }
+		
+		provinces_to_highlight = {
 			OR = {
 				area = yun_gui_area
 				area = yun_gui_borderland_area
@@ -786,89 +786,89 @@ dablit_slot_4 = {
 				area = tengyue_area
 				area = xiushan_area
 			}
-        }
-    
-        trigger = {
-			yun_gui_area = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-			}
-			yun_gui_borderland_area = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-			}
-			puer_area = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-			}
-			tengyue_area = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-			}
-			xiushan_area = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-			}
-        }
-        
-        effect = {
-			yun_gui_area = {
-				add_province_modifier = {
-					name = "CDL_temples_built"
-					duration = -1
-				}
-			}
-			yun_gui_borderland_area = {
-				add_province_modifier = {
-					name = "CDL_temples_built"
-					duration = -1
-				}
-			}
-			puer_area = {
-				add_province_modifier = {
-					name = "CDL_temples_built"
-					duration = -1
-				}
-			}
-			tengyue_area = {
-				add_province_modifier = {
-					name = "CDL_temples_built"
-					duration = -1
-				}
-			}
-			xiushan_area = {
-				add_province_modifier = {
-					name = "CDL_temples_built"
-					duration = -1
-				}
-			}
-        }
-    }
+		}
 	
-    CDL_library = {
-        icon = mission_chinese_general_riding
-        position = 2
-        completed_by = 9999.12.31
-        
-        # Which missions must be completed before this mission is active.
-        required_missions = {
-            CDL_educated CDL_temples CDL_pious_rulers
-        }
-        
-        provinces_to_highlight = {
+		trigger = {
+			yun_gui_area = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			yun_gui_borderland_area = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			puer_area = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			tengyue_area = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			xiushan_area = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		
+		effect = {
+			yun_gui_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			yun_gui_borderland_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			puer_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			tengyue_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+			xiushan_area = {
+				add_province_modifier = {
+					name = "CDL_temples_built"
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	CDL_library = {
+		icon = mission_chinese_general_riding
+		position = 2
+		completed_by = 9999.12.31
+		
+		# Which missions must be completed before this mission is active.
+		required_missions = {
+			CDL_educated CDL_temples CDL_pious_rulers
+		}
+		
+		provinces_to_highlight = {
 			
-        }
-    
+		}
+	
 		trigger = {
 			if = {
 				limit = {
@@ -880,13 +880,13 @@ dablit_slot_4 = {
 				full_idea_group = innovativeness_ideas
 			}
 		}
-        
-        effect = {
+		
+		effect = {
 			country_event = { 
 				id = dablit_flavor.3
 			}
-        }
-    }
+		}
+	}
 }
 
 dablit_slot_5 = {
@@ -898,7 +898,7 @@ dablit_slot_5 = {
 	}
 	
 	CDL_pious_rulers = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { CDL_buddhism_mission }
 
@@ -921,11 +921,11 @@ dablit_slot_5 = {
 				name = "CDL_pious_rulers_reward"
 				duration = 3650
 			}
-        }
+		}
 	}
 	
 	CDL_buddhist_court = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { CDL_pious_rulers }
 
@@ -967,11 +967,11 @@ dablit_slot_5 = {
 				name = "CDL_pious_court"
 				duration = 3650
 			}
-        }
+		}
 	}
 	
 	CDL_enlightened_kingdom = {
-    	icon = mission_build_up_to_force_limit
+		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { CDL_buddhist_court }
 
@@ -991,6 +991,6 @@ dablit_slot_5 = {
 				name = "CDL_enlightened"
 				duration = 3650
 			}
-        }
+		}
 	}
 }

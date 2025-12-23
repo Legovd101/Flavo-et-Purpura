@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = western
 capital = 1851 # Coimbra
 religion = arianism
-primary_culture = lusitanian
+primary_culture = hasdingian

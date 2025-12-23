@@ -22,7 +22,7 @@
 # The following status checks are considered in old triggers:
 
 # is_colonial_nation  & is_former_colonial_nation
-#        checks the 'has_colonial_parent = yes' attribute
+#		checks the 'has_colonial_parent = yes' attribute
 
 # is_lesser_in_union, junior_union_with, senior_union_with & years_in_union_under
 #		checks the 'has_overlords_ruler = yes' attribute
@@ -72,8 +72,8 @@ default = {
 	transfer_trade_power = no
 	transfer_trade_if_merchant_republic = no
 	joins_overlords_wars = yes
-	can_be_co_belligerented =  no    #Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
-	must_accept_cta_from_overlord =  no    #Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
+	can_be_co_belligerented =  no	#Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
+	must_accept_cta_from_overlord =  no	#Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
 	favors_cost_to_join_offensive_wars = 0   #Defines how much favors the overlord need to invest to call the subject into an offensive war
 	favors_cost_to_join_defensive_wars = 0   #Defines how much favors the overlord need to invest to call the subject into a defensive war
 	opinion_cost_to_join_offensive_wars = 0   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
@@ -424,7 +424,7 @@ daimyo_vassal = {
 appanage = {
 	copy_from = vassal
 	count = vassal
-    sprite = GFX_icon_appanage
+	sprite = GFX_icon_appanage
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_appanage
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_appanage
 	
@@ -696,7 +696,7 @@ colony = {
 
 crown_colony = {
 	copy_from = colony
-    sprite = GFX_icon_crown_colony
+	sprite = GFX_icon_crown_colony
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_crown_colony
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_crown_colony
 
@@ -736,7 +736,7 @@ crown_colony = {
 
 private_enterprise = {
 	copy_from = colony
-    sprite = GFX_icon_private_enterprise
+	sprite = GFX_icon_private_enterprise
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_private_enterprise
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_private_enterprise
 
@@ -770,7 +770,7 @@ private_enterprise = {
 
 self_governing_colony = {
 	copy_from = colony
-    sprite = GFX_icon_self_governing_colony
+	sprite = GFX_icon_self_governing_colony
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_self_governing_colony
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_self_governing_colony
 
@@ -954,7 +954,7 @@ eyalet = {
 	copy_from = default
 	
 	# Graphics:
-    sprite = GFX_icon_eyalet
+	sprite = GFX_icon_eyalet
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_eyalet
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_eyalet 
 
@@ -1031,7 +1031,7 @@ core_eyalet = {
 	copy_from = eyalet
 	
 	# Graphics:
-    sprite = GFX_icon_core_eyalet
+	sprite = GFX_icon_core_eyalet
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_core_eyalet
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_core_eyalet 
 
@@ -1088,7 +1088,7 @@ commercial_enterprise = {
 	copy_from = default
 	
 	# Graphics:
-    sprite = GFX_icon_commercial_enterprise
+	sprite = GFX_icon_commercial_enterprise
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_commercial_enterprise
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_commercial_enterprise
 
@@ -1210,14 +1210,14 @@ trade_protectorate = {
 	sprite = GFX_icon_trade_protectorate
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_trade_protectorate
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_trade_protectorate
-        
+		
 
 	# Properties:
 	can_fight_independence_war = yes
 	joins_overlords_wars = no
 	joins_colonial_wars = no
-	can_be_co_belligerented = yes    #Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
-	must_accept_cta_from_overlord = yes    #Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
+	can_be_co_belligerented = yes	#Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
+	must_accept_cta_from_overlord = yes	#Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
 	opinion_cost_to_join_offensive_wars = 100   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
 	opinion_cost_to_join_defensive_wars = 50   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
 	opinion_cost_instead_of_favors_cost = yes   #Determines if the subject requires favors or opinion to join a the war. If set "yes" then it requires the aforementioned opinion costs - regardless if Leviathan is active or not. "No" is the default setting
@@ -1324,7 +1324,7 @@ hereditary_pronoia_subject_type = {
 	pays_overlord = 0.1 #purely military subject. Pays very little by default.
 	forcelimit_to_overlord = 0.1
 	naval_forcelimit_to_overlord = 0.1		
-	manpower_to_overlord = 0.2		    
+	manpower_to_overlord = 0.2			
 	sailors_to_overlord = 0.2		
 	military_focus = 1.0
 	
@@ -1810,8 +1810,8 @@ foederatus = {
 	transfer_trade_power = yes
 	transfer_trade_if_merchant_republic = no
 	joins_overlords_wars = no
-	can_be_co_belligerented =  yes    #Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
-	must_accept_cta_from_overlord =  no    #Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
+	can_be_co_belligerented =  yes	#Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
+	must_accept_cta_from_overlord =  no	#Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
 	can_be_integrated = no
 	overlord_can_attack = yes
 	relative_power_class = 2
@@ -1875,8 +1875,8 @@ colonia = {
 	transfer_trade_power = yes
 	transfer_trade_if_merchant_republic = no
 	joins_overlords_wars = yes
-	can_be_co_belligerented =  no    #Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
-	must_accept_cta_from_overlord =  no    #Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
+	can_be_co_belligerented =  no	#Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
+	must_accept_cta_from_overlord =  no	#Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
 	can_be_integrated = yes
 	overlord_can_attack = no
 	relative_power_class = 1
@@ -1977,8 +1977,8 @@ wine_region = {
 	transfer_trade_power = yes
 	transfer_trade_if_merchant_republic = yes
 	joins_overlords_wars = no
-	can_be_co_belligerented =  yes    #Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
-	must_accept_cta_from_overlord =  no    #Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
+	can_be_co_belligerented =  yes	#Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
+	must_accept_cta_from_overlord =  no	#Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
 	can_be_integrated = no
 	overlord_can_attack = yes
 	can_fight_independence_war = no

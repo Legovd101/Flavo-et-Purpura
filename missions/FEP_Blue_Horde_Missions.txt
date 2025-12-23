@@ -29,13 +29,13 @@ blu_missions_1 = {
 				value = 10
 			}
 			every_country = {
-                limit = {
-                    NOT = { tag = ROOT }
-                    culture_group = south_slavic
+				limit = {
+					NOT = { tag = ROOT }
+					culture_group = south_slavic
 					is_subject_of = ROOT
-                }
-                ROOT = { inherit = PREV }
-            }
+				}
+				ROOT = { inherit = PREV }
+			}
 		}
 	}
 
@@ -147,13 +147,13 @@ blu_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			germiyan_area = {
-			    type = all
+				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
 			anatolia_region = { 
-			    add_permanent_claim = ROOT 
+				add_permanent_claim = ROOT 
 			} 
 		}
 	}
@@ -210,17 +210,17 @@ blu_missions_3 = {
 			accepted_culture = rhoman
 		}
 		effect = {
-		    146 = {
-			    add_or_upgrade_tax_building = yes
+			146 = {
+				add_or_upgrade_tax_building = yes
 			}
 			148 = {
-			    add_or_upgrade_trade_building = yes
+				add_or_upgrade_trade_building = yes
 			}
-            317 = {
-			    add_or_upgrade_shipyard_building = yes
+			317 = {
+				add_or_upgrade_shipyard_building = yes
 			}
 			318 = {
-			    add_or_upgrade_production_building = yes
+				add_or_upgrade_production_building = yes
 			}
 		}
 	}
@@ -343,7 +343,7 @@ blu_missions_4 = {
 	}
 	
 	blu_balkans = {
-	    icon = secure_the_sava
+		icon = secure_the_sava
 		required_missions = { blu_naval }
 		position = 5
 		provinces_to_highlight = {
@@ -392,8 +392,8 @@ blu_missions_5 = {
 		trigger = {
 			OR = { 
 				151 = {
-				    num_of_times_improved = 6
-			    }
+					num_of_times_improved = 6
+				}
 				grown_by_development = 35
 			}
 		}
@@ -453,7 +453,7 @@ blu_missions_5 = {
 			add_country_modifier = {	
 				name = converter_blu
 				duration = 7300
-		    }
+			}
 			add_government_power = {
 				mechanic_type = mongol_yoke
 				power_type = stranglehold
@@ -473,7 +473,7 @@ blu_missions_5 = {
 				mechanic_type = mongol_yoke
 				power_type = stranglehold
 				value = 100
-		    }
+			}
 		}
 		effect = {
 			country_event = {

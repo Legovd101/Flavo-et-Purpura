@@ -13,7 +13,7 @@ VSG_1 = {
 		trigger = {
 			2754 = {
 				country_or_non_sovereign_subject_holds = ROOT
-			    development = 25
+				development = 25
 				num_of_buildings_in_province = 3
 			}
 		} 
@@ -141,11 +141,11 @@ VSG_2 = {
 		} 
 
 		trigger = {
-		    aragon_area = {
+			aragon_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    catalonia_area = {
+			catalonia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -270,7 +270,7 @@ VSG_3 = {
 		} 
 
 		effect = {
-		    iberia_region = {
+			iberia_region = {
 				add_permanent_claim = ROOT
 			} 
 		} 
@@ -291,23 +291,23 @@ VSG_3 = {
 		} 
 
 		trigger = {
-		    galicia_area = {
+			galicia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    leon_area = {
+			leon_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    beieras_area = {
+			beieras_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    basque_country = {
+			basque_country = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    asturias_area = {
+			asturias_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -329,7 +329,7 @@ VSG_3 = {
 		provinces_to_highlight = { owned_by = AVI } 
 
 		trigger = {
-		    tag = VSG
+			tag = VSG
 			OR = {
 				AVI = {
 					junior_union_with = ROOT
@@ -352,7 +352,7 @@ VSG_3 = {
 		}
 		
 		effect = {
-		    france_region = {
+			france_region = {
 				add_permanent_claim = ROOT
 			}
 			liguria_area = {
@@ -406,7 +406,7 @@ VSG_3 = {
 		} 
 
 		effect = {
-		    italy_region = { add_permanent_claim = ROOT }
+			italy_region = { add_permanent_claim = ROOT }
 			carinthia_area = { add_permanent_claim = ROOT }
 			croatia_area = { add_permanent_claim = ROOT }
 			
@@ -424,7 +424,7 @@ VSG_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = italy_region
 				value = 40
 			}
@@ -446,7 +446,7 @@ VSG_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = italy_region
 				value = 40
 			}
@@ -492,7 +492,7 @@ VSG_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = italy_region
 				culture = ostrogothic
 				value = 20
@@ -509,15 +509,15 @@ VSG_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    france_region = {
+			france_region = {
 				type = all
 				owned_by = ROOT
 			}
-		    iberia_region = {
+			iberia_region = {
 				type = all
 				owned_by = ROOT
 			}
-		    italy_region = {
+			italy_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -573,7 +573,7 @@ VSG_4 = {
 		provinces_to_highlight = { area = northern_morocco_area NOT = { owned_by = ROOT } } 
 
 		trigger = {
-		    northern_morocco_area = {
+			northern_morocco_area = {
 				type = all
 				owned_by = ROOT
 			}

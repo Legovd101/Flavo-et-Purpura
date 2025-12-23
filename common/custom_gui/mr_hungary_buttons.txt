@@ -1,14 +1,14 @@
 # Massive credit to "Gods and Kings" for the code for this!!
 
 custom_button = {
-    name = brythonia_cw_window #Must match a scripted guiButtonType in a .gui file
+	name = brythonia_cw_window #Must match a scripted guiButtonType in a .gui file
    	potential = {
 		tag = BRY
 	}
-    trigger = {
+	trigger = {
 
 	}
-    effect = { 
+	effect = { 
 		if = {
 			limit = {
 				has_country_flag = brythonia_cw_window_shown
@@ -20,7 +20,7 @@ custom_button = {
 		}
 		
 	}
-    tooltip = "Open Lordships Map" #Can use customizable localisation
+	tooltip = "Open Lordships Map" #Can use customizable localisation
 }
 custom_window = {
 	name = brythonia_cw_window_open
@@ -29,18 +29,18 @@ custom_window = {
 	}
 }
 custom_text_box = {
-    name = brythonia_menu_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_menu_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_button = {
-    name = close_brythonia_cw_menu #Must match a scripted guiButtonType in a .gui file
+	name = close_brythonia_cw_menu #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 	}
-    effect = { 
+	effect = { 
 		if = {
 			limit = {
 				has_country_flag = brythonia_cw_window_shown
@@ -48,7 +48,7 @@ custom_button = {
 			clr_country_flag = brythonia_cw_window_shown
 		}
 	}
-    tooltip = "Close Hungarian Civil War Menu" #Can use customizable localisation
+	tooltip = "Close Hungarian Civil War Menu" #Can use customizable localisation
 }
 custom_icon = {
 	name = brythonia_cw_window_bg
@@ -1104,37 +1104,37 @@ custom_icon = {
 	potential = { }
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_title #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_title #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_czak #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_czak #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_aba #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_aba #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_kan #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_kan #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_koszegi #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_koszegi #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_severin #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_severin #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }
 custom_text_box = {
-    name = brythonia_cw_window_second_tt_hungary #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = brythonia_cw_window_second_tt_hungary #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	} 
 }

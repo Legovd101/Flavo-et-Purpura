@@ -37,9 +37,9 @@ redleg_4th_crusade = {
 		peace_cost_factor = 1.0	
 		
 		allowed_provinces = {
-            always = no
-        }
-        allowed_provinces_are_eligible = yes
+			always = no
+		}
+		allowed_provinces_are_eligible = yes
 		
 		peace_options = {
 			po_legion_win

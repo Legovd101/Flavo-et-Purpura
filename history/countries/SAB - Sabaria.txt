@@ -16,7 +16,16 @@ capital = 4553
 	monarch = {
 		name = "Uthmanus"
 		dynasty = "Tomanid"
-		birth_date = 1282.4.5
+		birth_date = 1280.4.5
+		ADM = 5
+		DIP = 5
+		MIL = 6
+	}
+	heir = {
+		name = "Urranus"
+		dynasty = "Tomanid"
+		birth_date = 1288.4.5
+		death_date = 1386.2.3
 		ADM = 5
 		DIP = 5
 		MIL = 6

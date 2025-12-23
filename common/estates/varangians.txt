@@ -6,21 +6,21 @@ estate_varangians = {
 	starting_reform = mercenary_leadership_reform
 	independence_tech_group = eastern
 
-    province_independence_weight = {
-        factor = 1
-        modifier = {
-            factor = 2
-            owner = {
-                any_hired_mercenary_company = {
-                    is_varangians_trigger = yes
-                    location = {
-                        any_province_in_state = {
-                            province_id = ROOT
-                        }
-                    }
-                }
-            }
-        }
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 2
+			owner = {
+				any_hired_mercenary_company = {
+					is_varangians_trigger = yes
+					location = {
+						any_province_in_state = {
+							province_id = ROOT
+						}
+					}
+				}
+			}
+		}
 		modifier = {
 			factor = 2
 			region = anatolia_region
