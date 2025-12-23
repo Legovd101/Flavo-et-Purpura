@@ -76,15 +76,15 @@ guiTypes = {
 		}
 		#Brythonia
 		guiButtonType = 
-       		{
-         	name = "brythonia_cw_window"
-           	scripted = yes
-           	buttonText = " "
-           	buttonFont = "vic_18"
-           	position = { x = 550 y = 225 }
-           	quadTextureSprite ="GFX_open_brythonia_menu_1"    
-           	Orientation = "UPPER_LEFT"
-        }
+	   		{
+		 	name = "brythonia_cw_window"
+		   	scripted = yes
+		   	buttonText = " "
+		   	buttonFont = "vic_18"
+		   	position = { x = 550 y = 225 }
+		   	quadTextureSprite ="GFX_open_brythonia_menu_1"	
+		   	Orientation = "UPPER_LEFT"
+		}
 		
 		windowType = {
 			name = "brythonia_cw_window_open"
@@ -98,13 +98,13 @@ guiTypes = {
 			
 
 			iconType =
-     	  	{
-        	    name ="brythonia_cw_window_bg"
-        	    scripted = yes
+	 	  	{
+				name ="brythonia_cw_window_bg"
+				scripted = yes
 				quadTextureSprite = "GFX_open_brythonia_menu"
-        	    position = { x = 0 y = 0 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
 			instantTextBoxType = {
 				name = "brythonia_menu_text"
 				scripted = yes
@@ -118,122 +118,122 @@ guiTypes = {
 			}
 			
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_1"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_1"
-        	    position = { x = 185 y = 196 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_1"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_1"
+				position = { x = 185 y = 196 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-       		{
-     			name = "close_brythonia_cw_menu"
-            	scripted = yes
-            	buttonText = " "
-            	buttonFont = "vic_18"
-            	position = { x = 300 y = 0 }
-            	quadTextureSprite ="GFX_closebutton2"    
-            	Orientation = "UPPER_LEFT"
+	   		{
+	 			name = "close_brythonia_cw_menu"
+				scripted = yes
+				buttonText = " "
+				buttonFont = "vic_18"
+				position = { x = 300 y = 0 }
+				quadTextureSprite ="GFX_closebutton2"	
+				Orientation = "UPPER_LEFT"
 				shortcut = "ESCAPE"
-       		}
+	   		}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_2"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_2"
-        	    position = { x = 163 y = 214 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_2"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_2"
+				position = { x = 163 y = 214 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_3"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_3"
-        	    position = { x = 109 y = 218 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_3"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_3"
+				position = { x = 109 y = 218 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_4"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_4"
-        	    position = { x = 137 y = 184 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_4"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_4"
+				position = { x = 137 y = 184 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_5"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_5"
-        	    position = { x = 115 y = 177 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_5"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_5"
+				position = { x = 115 y = 177 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_6"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_6"
-        	    position = { x = 171 y = 200 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_6"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_6"
+				position = { x = 171 y = 200 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_7"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_7"
-        	    position = { x = 161 y = 173 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_7"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_7"
+				position = { x = 161 y = 173 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_8"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_8"
-        	    position = { x = 147 y = 154 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_8"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_8"
+				position = { x = 147 y = 154 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_9"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_9"
-        	    position = { x = 158 y = 125 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_9"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_9"
+				position = { x = 158 y = 125 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_10"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_10"
-        	    position = { x = 126 y = 123 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_10"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_10"
+				position = { x = 126 y = 123 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_11"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_11"
-        	    position = { x = 169 y = 160 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_11"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_11"
+				position = { x = 169 y = 160 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="BRY_prov_12"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_BRY_prov_12"
-        	    position = { x = 187 y = 186 }
-        	    Orientation = "UPPER_LEFT"
-        	}
+	 	  	 {
+				name ="BRY_prov_12"
+				scripted = yes
+				quadTextureSprite = "GFX_BRY_prov_12"
+				position = { x = 187 y = 186 }
+				Orientation = "UPPER_LEFT"
+			}
 			guiButtonType = 
-     	  	 {
-        	    name ="clear_all_focuses_HUN"
-        	    scripted = yes
-        	    quadTextureSprite = "GFX_standard_button_224"
+	 	  	 {
+				name ="clear_all_focuses_HUN"
+				scripted = yes
+				quadTextureSprite = "GFX_standard_button_224"
 				position = { x = 57 y = 265 }
-        	    Orientation = "UPPER_LEFT"
+				Orientation = "UPPER_LEFT"
 				buttonText = "Clear Focuses"
 				buttonFont = "vic_18"
-        	}
+			}
 			windowType = {
 				name = "brythonia_cw_window_second_open"
 				#position = { x=0 y=140 }
@@ -244,13 +244,13 @@ guiTypes = {
 				scripted = yes
 				
 				iconType =
-     	  		{
-        		    name ="brythonia_cw_window_second_open"
-        		    scripted = yes
+	 	  		{
+					name ="brythonia_cw_window_second_open"
+					scripted = yes
 					quadTextureSprite = "GFX_HUN_window_2"
-        		    position = { x = 0 y = 0 }
-        		    Orientation = "UPPER_LEFT"
-        		}
+					position = { x = 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
 				instantTextBoxType = {
 					name = "brythonia_cw_window_second_tt_title"
 					scripted = yes
@@ -329,53 +329,53 @@ guiTypes = {
 					
 				}
 				guiButtonType = 
-     	  		{
-        	    	name ="sway_to_czak"
-        	    	scripted = yes
-        	    	quadTextureSprite = "GFX_maintenance_checkbox"
+	 	  		{
+					name ="sway_to_czak"
+					scripted = yes
+					quadTextureSprite = "GFX_maintenance_checkbox"
 					position = { x = 25 y = 47 }
-        	    	Orientation = "UPPER_LEFT"
-        		}
+					Orientation = "UPPER_LEFT"
+				}
 				guiButtonType = 
-     	  		{
-        	    	name ="sway_to_aba"
-        	    	scripted = yes
-        	    	quadTextureSprite = "GFX_maintenance_checkbox"
+	 	  		{
+					name ="sway_to_aba"
+					scripted = yes
+					quadTextureSprite = "GFX_maintenance_checkbox"
 					position = { x = 25 y = 77 }
-        	    	Orientation = "UPPER_LEFT"
-        		}
+					Orientation = "UPPER_LEFT"
+				}
 				guiButtonType = 
-     	  		{
-        	    	name ="sway_to_kan"
-        	    	scripted = yes
-        	    	quadTextureSprite = "GFX_maintenance_checkbox"
+	 	  		{
+					name ="sway_to_kan"
+					scripted = yes
+					quadTextureSprite = "GFX_maintenance_checkbox"
 					position = { x = 25 y = 107 }
-        	    	Orientation = "UPPER_LEFT"
-        		}
+					Orientation = "UPPER_LEFT"
+				}
 				guiButtonType = 
-     	  		{
-        	    	name ="sway_to_koszegi"
-        	    	scripted = yes
-        	    	quadTextureSprite = "GFX_maintenance_checkbox"
+	 	  		{
+					name ="sway_to_koszegi"
+					scripted = yes
+					quadTextureSprite = "GFX_maintenance_checkbox"
 					position = { x = 25 y = 137 }
-        	    	Orientation = "UPPER_LEFT"
-        		}
+					Orientation = "UPPER_LEFT"
+				}
 				guiButtonType = 
-     	  		{
-        	    	name ="sway_to_severin"
-        	    	scripted = yes
-        	    	quadTextureSprite = "GFX_maintenance_checkbox"
+	 	  		{
+					name ="sway_to_severin"
+					scripted = yes
+					quadTextureSprite = "GFX_maintenance_checkbox"
 					position = { x = 25 y = 167 }
-        	    	Orientation = "UPPER_LEFT"
-        		}
+					Orientation = "UPPER_LEFT"
+				}
 				guiButtonType = 
-     	  		{
-        	    	name ="sway_to_hungary"
-        	    	scripted = yes
-        	    	quadTextureSprite = "GFX_maintenance_checkbox"
+	 	  		{
+					name ="sway_to_hungary"
+					scripted = yes
+					quadTextureSprite = "GFX_maintenance_checkbox"
 					position = { x = 25 y = 197 }
-        	    	Orientation = "UPPER_LEFT"
-        		}
+					Orientation = "UPPER_LEFT"
+				}
 			}
 		}
 		
@@ -1536,7 +1536,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
-			text = "             " # NOTE: the textbox is supposed to be empty
+			text = "			 " # NOTE: the textbox is supposed to be empty
 			maxWidth = 60
 			maxHeight = 32
 			format = right

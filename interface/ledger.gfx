@@ -85,7 +85,7 @@ spriteTypes = {
 		name = "GFX_ledger_index_BG"
 		texturefile = "gfx\\interface\\ledger_index_BG.tga"
 		transparencecheck = no
-        alwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {

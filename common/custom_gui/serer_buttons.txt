@@ -1,15 +1,15 @@
 custom_button = {
-    name = pangool_window #Must match a scripted guiButtonType in a .gui file
+	name = pangool_window #Must match a scripted guiButtonType in a .gui file
    	potential = {
 		OR = {
 			religion = senegambian_pagan
 			has_global_flag = serer_reformed
 		}
 	}
-    trigger = {
+	trigger = {
 
 	}
-    effect = { 
+	effect = { 
 		if = {
 			limit = {
 				has_country_flag = pangool_window_shown
@@ -21,7 +21,7 @@ custom_button = {
 		}
 		
 	}
-    tooltip = "Open Pangool List" #Can use customizable localisation
+	tooltip = "Open Pangool List" #Can use customizable localisation
 }
 custom_window = {
 	name = pangool_window_open
@@ -30,58 +30,58 @@ custom_window = {
 	}
 }
 custom_text_box = {
-    name = pangool_window_header #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = pangool_window_header #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = pangool_header #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = pangool_header #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = mindis_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = mindis_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = njemeh_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = njemeh_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = lungun_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = lungun_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = njoxona_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = njoxona_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = ngolum_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = ngolum_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = harwak_text #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = harwak_text #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_button = {
-    name = select_mindis #Must match a scripted guiButtonType in a .gui file
+	name = select_mindis #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 		2239 = { owned_by = ROOT }
 		custom_trigger_tooltip = {
 			tooltip = has_no_pangool_or_twenty_years_tt
@@ -94,7 +94,7 @@ custom_button = {
 			} 
 		}
 	}
-    effect = {
+	effect = {
 		if = {
 			limit = { NOT = { has_country_modifier = mindis_modi } }
 			clear_current_pangool_effect = yes
@@ -108,13 +108,13 @@ custom_button = {
 			clear_current_pangool_effect = yes
 		}
 	}
-    tooltip = "mindis_desc" #Can use customizable localisation
+	tooltip = "mindis_desc" #Can use customizable localisation
 }
 custom_button = {
-    name = select_njemeh #Must match a scripted guiButtonType in a .gui file
+	name = select_njemeh #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 		1120 = { owned_by = ROOT } 
 		custom_trigger_tooltip = {
 			tooltip = has_no_pangool_or_twenty_years_tt
@@ -127,7 +127,7 @@ custom_button = {
 			} 
 		}
 	}
-    effect = {
+	effect = {
 		if = {
 			limit = { NOT = { has_country_modifier = njemeh_modi } }
 			clear_current_pangool_effect = yes
@@ -141,13 +141,13 @@ custom_button = {
 			clear_current_pangool_effect = yes
 		}
 	}
-    tooltip = "njemeh_desc" #Can use customizable localisation
+	tooltip = "njemeh_desc" #Can use customizable localisation
 }
 custom_button = {
-    name = select_lungun #Must match a scripted guiButtonType in a .gui file
+	name = select_lungun #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 		2237 = { owned_by = ROOT } 
 		custom_trigger_tooltip = {
 			tooltip = has_no_pangool_or_twenty_years_tt
@@ -160,7 +160,7 @@ custom_button = {
 			} 
 		}
 	}
-    effect = {
+	effect = {
 		if = {
 			limit = { NOT = { has_country_modifier = lungun_modi } }
 			clear_current_pangool_effect = yes
@@ -174,13 +174,13 @@ custom_button = {
 			clear_current_pangool_effect = yes
 		}
 	}
-    tooltip = "lungun_desc" #Can use customizable localisation
+	tooltip = "lungun_desc" #Can use customizable localisation
 }
 custom_button = {
-    name = select_njoxona #Must match a scripted guiButtonType in a .gui file
+	name = select_njoxona #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 		1125 = { owned_by = ROOT } 
 		custom_trigger_tooltip = {
 			tooltip = has_no_pangool_or_twenty_years_tt
@@ -193,7 +193,7 @@ custom_button = {
 			} 
 		}
 	}
-    effect = {
+	effect = {
 		if = {
 			limit = { NOT = { has_country_modifier = njoxona_modi } }
 			clear_current_pangool_effect = yes
@@ -207,13 +207,13 @@ custom_button = {
 			clear_current_pangool_effect = yes
 		}
 	}
-    tooltip = "njoxona_desc" #Can use customizable localisation
+	tooltip = "njoxona_desc" #Can use customizable localisation
 }
 custom_button = {
-    name = select_ngolum #Must match a scripted guiButtonType in a .gui file
+	name = select_ngolum #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 		1132 = { owned_by = ROOT } 
 		custom_trigger_tooltip = {
 			tooltip = has_no_pangool_or_twenty_years_tt
@@ -226,7 +226,7 @@ custom_button = {
 			} 
 		}
 	}
-    effect = {
+	effect = {
 		if = {
 			limit = { NOT = { has_country_modifier = ngolum_modi } }
 			clear_current_pangool_effect = yes
@@ -240,13 +240,13 @@ custom_button = {
 			clear_current_pangool_effect = yes
 		}
 	}
-    tooltip = "ngolum_desc" #Can use customizable localisation
+	tooltip = "ngolum_desc" #Can use customizable localisation
 }
 custom_button = {
-    name = select_harwak #Must match a scripted guiButtonType in a .gui file
+	name = select_harwak #Must match a scripted guiButtonType in a .gui file
    	potential = {
 	}
-    trigger = {
+	trigger = {
 		1141 = { owned_by = ROOT } 
 		custom_trigger_tooltip = {
 			tooltip = has_no_pangool_or_twenty_years_tt
@@ -259,7 +259,7 @@ custom_button = {
 			} 
 		}
 	}
-    effect = {
+	effect = {
 		if = {
 			limit = { NOT = { has_country_modifier = harwak_modi } }
 			clear_current_pangool_effect = yes
@@ -273,47 +273,47 @@ custom_button = {
 			clear_current_pangool_effect = yes
 		}
 	}
-    tooltip = "harwak_desc" #Can use customizable localisation
+	tooltip = "harwak_desc" #Can use customizable localisation
 }
 custom_text_box = {
-    name = pangool_effect_header #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = pangool_effect_header #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = mindis_effect #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = mindis_effect #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = njemeh_effect #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = njemeh_effect #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = lungun_effect #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = lungun_effect #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = njoxona_effect #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = njoxona_effect #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = ngolum_effect #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = ngolum_effect #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }
 custom_text_box = {
-    name = harwak_effect #Must match a scripted instantTextBoxType in a .gui file
-    potential = {
+	name = harwak_effect #Must match a scripted instantTextBoxType in a .gui file
+	potential = {
 	 } #Determines when the text is visible #Can use customizable localisation
-    #To localize it, use the name of the button as a key, can also use customizable localisation
+	#To localize it, use the name of the button as a key, can also use customizable localisation
 }

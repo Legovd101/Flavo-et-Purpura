@@ -1,5 +1,5 @@
 ########################################
-# Flavor Events for Ogedeid
+# Flavor Events for Brythonia
 ########################################
 
 namespace = flavor_bry

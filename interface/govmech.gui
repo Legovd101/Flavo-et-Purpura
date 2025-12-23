@@ -9,7 +9,7 @@ guiTypes = {
 				name = "government_power_bar"
 				spriteType = "GFX_stranglehold_power_bar"
 				position = { x = 16 y = 49 }
-		}       
+		}	   
 
 		# Frame
 		iconType = {

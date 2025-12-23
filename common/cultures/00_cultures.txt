@@ -1576,35 +1576,6 @@ iberian	= {
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
 		}
 	}
-	portugese = {
-		country = { } 
-		province = { local_has_caravel = yes local_has_galleon = yes }
-		primary = POR
-		dynasty_names = {
-			"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
-			"de Moura" "de Nápoles" "de Menezes" "de Saldanha" 
-			#CK2
-			"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
-		}
-		male_names = {
-			João Filipe Afonso Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Dinis 
-			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
-			Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
-			Paulo Rafael Rogério Rui Simão Uriel Vicente Octávio
-			Afonso Alphonse Aires Álvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão 
-			Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre 
-			Walter Henrique Henry Hermígio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo 
-			Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio 
-			Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente 
-			Vincent Pons
-		}
-		female_names = {
-			Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca Blanche
-			Constance Dórdia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda 
-			Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
-			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
-		}
-	}
 	brazilian = {
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = BRZ
@@ -1641,34 +1612,6 @@ iberian	= {
 			
 			Maiara Janaína Iara Tainara Iracema Mariana Bárbara Josefina Ana "Ana Paula" Aurélia
 			Adelaide Firmina Emília Cecília Lauriana Isabel
-		}
-	}
-	basque = {
-		country = { } 
-		province = { local_has_caravel = yes local_has_galleon = yes }
-		primary = NAV
-		dynasty_names = {
-			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
-			# CKII
-			"de Haro"
-		}
-		male_names = {
-			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
-			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
-			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
-			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
-			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
-			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
-			Zentulo Centule Ladron Ferdinand Bernart
-		}
-		female_names = {
-			Juana Catalina Leonor Blanca
-			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
-			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
-			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
-			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
 }
@@ -4286,7 +4229,7 @@ iranian	= {
 		female_names = {
 			Malahat Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
 			Aaliyah Aamina Aamira Aaqila Aarifa Aazzi Adelah Adela Adiba Adilah Adilia Adiva Adjan Aeesha 
-			Adila Ikram            
+			Adila Ikram			
 		}
 	}
 	khorasani = {
@@ -10755,7 +10698,7 @@ tocharian = {
 		primary = TCR
 	}
 	kucheyan = {
-	    primary = TCR
+		primary = TCR
 	}
 	male_names = {
    		 Airawanta Ajatasatru Ajite Alp Ambare Ambara Amprätasarme Amrätaraksite Amrätodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Arjuna Aranemi Arnyartate Arslam Arslan Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Ashoka Asärte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dharma Dharmacandre Dharmadase Dharmakame Dharmakamiske Dharmaraksite Dharmasome Dharmatrate Dharmawarme Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkätsole Esmine Etrise Gayakasyape Gayasirs Gaye Gaya Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indra Indriske Issapake Jatisrone Jetavam Jnanacamndre Jnanaghose Jnanakame Jnanakupte Jnanamokse Jnanasene Jnanasome Jnanasthite Jnanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaka Kanaske Kanthäke Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
@@ -11527,7 +11470,7 @@ gothic_iberian = {
 	tarraconese = {
 		primary = ARA
 	}
-	lusitanian = {
+	hasdingian = {
 		primary = LUS
 	}
 	sabaro_goth = {
@@ -11660,6 +11603,63 @@ iberian_fep = {
 		female_names = {
 			Branca Iria Sabela Laa Rodolfa Sofaa Aldara Alduara Aldonaa Aldonza Beatriz Beatrice Berengaria Berengaria Branca 
 			Blanche Antaa Branca Carme Catarina Dores Iria Laa Margarida Maraa Noela Rosalaa Sabela Uxaa Xoana
+		}
+	}
+	portugese = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = POR
+		dynasty_names = {
+			"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
+			"de Moura" "de Nápoles" "de Menezes" "de Saldanha" 
+			#CK2
+			"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
+		}
+		male_names = {
+			João Filipe Afonso Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Dinis 
+			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
+			Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
+			Paulo Rafael Rogério Rui Simão Uriel Vicente Octávio
+			Afonso Alphonse Aires Álvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão 
+			Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre 
+			Walter Henrique Henry Hermígio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo 
+			Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio 
+			Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente 
+			Vincent Pons
+		}
+		female_names = {
+			Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca Blanche
+			Constance Dórdia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda 
+			Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
+			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
+		}
+	}
+	basque = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = NAV
+		dynasty_names = {
+			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
+			# CKII
+			"de Haro"
+		}
+		male_names = {
+			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
+			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
+			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
+			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
+			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
+			Zentulo Centule Ladron Ferdinand Bernart
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
+			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
 }

@@ -3617,13 +3617,13 @@ arabic_plutocracy_reform = {
 	nation_designer_cost = 10
 
 	conditional = {
-        allow = {
-            has_dlc = "Winds of Change"
-        }
-        government_abilities = {
-            arabic_trade_influence
-        }
-    }
+		allow = {
+			has_dlc = "Winds of Change"
+		}
+		government_abilities = {
+			arabic_trade_influence
+		}
+	}
 
 	modifiers = {
 		merchants = 1
@@ -5846,40 +5846,40 @@ legacy_of_timur_reform = {
 }
 
 timurid_diwan_reform = {
-    icon = "timurid_diwan_reform"
-    allow_normal_conversion = yes
-    potential = {
-        has_dlc = "Winds of Change"
-        has_unlocked_government_reform = { government_reform = timurid_diwan_reform }
-    }
-    modifiers = {
-        national_focus_years = -5
-        governing_capacity = 150
-    }
-    conditional = {
-        allow = {
-            OR = {
-                has_dlc = "Common Sense"
-                has_dlc = "Res Publica"
-            }
-        }
-        custom_attributes = {
-            enables_timurid_diwan = yes
-        }
-    }
-    conditional = {
-        allow = {
-            NOT = { 
-                OR = {
-                    has_dlc = "Common Sense"
-                    has_dlc = "Res Publica"
-                }
-            }
-        }
-        custom_attributes = {
-            buffed_strong_duchies = yes
-        }
-    }
+	icon = "timurid_diwan_reform"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Winds of Change"
+		has_unlocked_government_reform = { government_reform = timurid_diwan_reform }
+	}
+	modifiers = {
+		national_focus_years = -5
+		governing_capacity = 150
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Res Publica"
+			}
+		}
+		custom_attributes = {
+			enables_timurid_diwan = yes
+		}
+	}
+	conditional = {
+		allow = {
+			NOT = { 
+				OR = {
+					has_dlc = "Common Sense"
+					has_dlc = "Res Publica"
+				}
+			}
+		}
+		custom_attributes = {
+			buffed_strong_duchies = yes
+		}
+	}
 } 
 
 #State and Religion

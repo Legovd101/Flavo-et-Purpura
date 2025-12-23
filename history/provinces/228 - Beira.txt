@@ -10,7 +10,7 @@ base_manpower = 3
 
 trade_goods = wine
 
-culture = lusitanian
+culture = hasdingian
 religion = arianism
 capital = "Viseu"
 

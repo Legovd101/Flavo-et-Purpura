@@ -1,0 +1,358 @@
+########################################
+# Flavor Events for Sabaria
+########################################
+
+namespace = flavor_sab
+normal_or_historical_nations = yes
+
+# The Lion Ready to Pounce (Start Event)
+country_event = {
+	id = flavor_sab.0
+	title = "flavor_sab.0.t"
+	desc = "flavor_sab.0.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = { 
+		name = "flavor_sab.0.a" # The Tomanids Shall Establish a True Roman Empire!
+		custom_tooltip = fep_start_tt
+	}
+}
+
+# Absorption of the Asturean Throne
+country_event = {
+	id = flavor_sab.1
+	title = "flavor_sab.1.t"
+	desc = "flavor_sab.1.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SAB
+		ASU = { exists = no }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	
+	immediate = {
+		add_prestige = 5
+	}
+	
+	option = { 
+		name = "flavor_sab.1.a" # Integrate the Astureans into our court
+		add_country_modifier = {
+			name = ara_maritime_administration_modifier
+			duration = 18250
+		}
+		add_accepted_culture = asturian
+		basque_country = {
+			add_permanent_claim = ROOT
+		}
+		castille_area = {
+			add_permanent_claim = ROOT
+		}
+	}
+	
+	option = { 
+		name = "flavor_sab.1.b" # The Astureans are merely confused Sabarians, is all!
+		add_country_modifier = {
+			name = arm_national_awakening
+			duration = 18250
+		}
+		capital_scope = {
+			add_base_manpower = 1
+			add_base_production = 1
+			add_base_tax = 1
+		}
+		basque_country = {
+			add_permanent_claim = ROOT
+		}
+		castille_area = {
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+# The Iberian Wedding
+country_event = {
+	id = flavor_sab.2
+	title = "flavor_sab.2.t"
+	desc = "flavor_sab.2.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SAB
+		GAL = {
+			has_heir = no
+			has_opinion = {
+				who = ROOT
+				value = 50
+			}
+		}
+	}
+	mean_time_to_happen = {
+		years = 1
+		modifier = {
+			factor = 0.5
+			reverse_has_opinion = {
+				who = GAL
+				value = 100
+			}
+		}
+	}
+
+	
+	immediate = {
+	}
+	
+	option = { 
+		name = "flavor_sab.2.a" # Let us bind their dynasty to ours.
+		add_prestige = -10
+		GAL = {
+			country_event = {
+				id = flavor_sab.3
+				days = 10
+			}
+		}
+	}
+	
+	option = { 
+		name = "flavor_sab.2.b" # We musn't sully our ties to Lusitania, we shall marry them instead.
+		LUS = {
+			country_event = {
+				id = flavor_sab.3
+				days = 10
+			}
+		}
+	}
+	
+	option = { 
+		name = "flavor_sab.2.c" # To hell with them both! Their land is forfeit!
+		declare_war_with_cb = {
+			casus_belli = cb_annex
+			who = LUS
+		}
+		trigger = {
+			is_rival = LUS
+		}
+	}
+	
+	option = { 
+		name = "flavor_sab.2.e" # No.
+		galicia_area = {
+			add_permanent_claim = ROOT
+		}
+		beieras_area = {
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+# Sabaria Offers Their Hand in Marriage
+country_event = {
+	id = flavor_sab.3
+	title = "flavor_sab.3.t"
+	desc = "flavor_sab.3.d"
+	picture = FEAST_eventPicture
+	
+	is_triggered_only = yes
+
+	
+	immediate = {
+		add_prestige = 5
+	}
+	
+	option = { 
+		name = "flavor_sab.3.a" # Let us bind their dynasty to ours
+		if = {
+			limit = {
+				tag = GAL
+			}
+			break_union = overlord
+			FROM = {
+				create_union = ROOT
+			}
+			LUS = {
+				country_event = {
+					id = flavor_sab.4
+				}
+			}
+		}
+		if = {
+			limit = {
+				tag = LUS
+			}
+			create_marriage = FROM
+			add_opinion = {
+				who = LUS
+				modifier = grateful_for_aid
+			}
+			define_heir = {
+				dynasty = SAB
+			}
+			define_consort = {
+				dynasty = SAB
+			}
+		}
+	}
+	
+	option = { 
+		name = "flavor_sab.3.b" # Are they crazy!?
+		FROM = {
+			country_event = {
+				id = flavor_sab.5
+			}
+		}
+	}
+}
+
+# [GAL.GetName] abandons the Union of Saint James!
+country_event = {
+	id = flavor_sab.4
+	title = "flavor_sab.4.t"
+	desc = "flavor_sab.4.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		add_stability = -1
+	}
+	
+	option = { 
+		name = "flavor_sab.4.a" # How dare they!
+		every_owned_province = {
+			limit = {
+				is_core = ROOT
+			}
+			add_core = GAL
+		}
+		every_owned_province = {
+			limit = {
+				is_core = GAL
+			}
+			add_core = ROOT
+		}
+		declare_war_with_cb = {
+			casus_belli = cb_annex
+			who = GAL
+		}
+	}
+	
+	option = { 
+		name = "flavor_sab.4.b" # We haven't much choice, I suppose...
+		add_country_modifier = {
+			name = arm_national_awakening
+			duration = 18250
+		}
+		add_prestige = -20
+	}
+}
+
+# [From.GetName] Refuses!
+country_event = {
+	id = flavor_sab.5
+	title = "flavor_sab.5.t"
+	desc = "flavor_sab.5.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		add_stability = -1
+	}
+	
+	option = { 
+		name = "flavor_sab.5.a" # Damn!
+		galicia_area = {
+			add_permanent_claim = ROOT
+		}
+		beieras_area = {
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+# The Second Union of Saint James
+country_event = {
+	id = flavor_sab.6
+	title = "flavor_sab.6.t"
+	desc = "flavor_sab.6.d"
+	picture = ROYAL_COUPLE_FUTURE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SAB
+		galicia_area = {
+			type = all
+			owned_by = ROOT
+			is_core = ROOT
+		}
+		GAL = { exists = no }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = { 
+		name = "flavor_sab.6.a" # Oh, happy day!
+		add_accepted_culture = galician
+		alentejo_area = {
+			add_permanent_claim = ROOT
+		}
+		extremadura_area = {
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+# The Unification of Iberian Identity
+country_event = {
+	id = flavor_sab.7
+	title = "flavor_sab.7.t"
+	desc = "flavor_sab.7.d"
+	picture = ROYAL_COUPLE_FUTURE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ISP
+		was_tag = SAB
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = "flavor_sab.7.a" # Oh, happy day!
+		add_accepted_culture = galician
+		alentejo_area = {
+			add_permanent_claim = ROOT
+		}
+		extremadura_area = {
+			add_permanent_claim = ROOT
+		}
+		every_province = {
+			limit = { culture = hasdingian }
+			change_culture = portugese
+		}
+		every_province = {
+			limit = { culture = vasconian }
+			change_culture = basque
+		}
+	}
+}

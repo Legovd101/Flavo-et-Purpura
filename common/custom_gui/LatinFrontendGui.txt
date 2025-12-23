@@ -18,8 +18,8 @@ custom_window = {
 }
 
 custom_text_box = {
-    name = latin_frontend_number
-    potential = {
+	name = latin_frontend_number
+	potential = {
 		OR = {
 			is_in_latin_league = yes
 			any_known_country = {
@@ -31,7 +31,7 @@ custom_text_box = {
 
 custom_icon = {
 	name = latin_frontend_open_bg
-    potential = {
+	potential = {
 	}
 }
 
@@ -81,8 +81,8 @@ custom_button = {
 	}
 	tooltip = "[Root.GetEEBubble1TT]"
 	frame = {
-        number = 11
-        trigger = { 
+		number = 11
+		trigger = { 
 			OR = {
 				is_in_latin_league = yes
 				any_known_country = {
@@ -90,17 +90,17 @@ custom_button = {
 				}
 			}
 		}
-    }
+	}
 	frame = {
-        number = 12
-        trigger = { 
+		number = 12
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	frame = {
-        number = 13
-        trigger = { 
+		number = 13
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 }

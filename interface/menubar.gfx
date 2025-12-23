@@ -1121,70 +1121,70 @@ spriteTypes = {
 		texturefile = "gfx/interface/common_button.dds"
 	}
 
-    spriteType = {
-        name = "GFX_game_option_bg"
-        texturefile = "gfx/interface/settings/setting_bg.dds"
-        transparencecheck = yes
-    }
+	spriteType = {
+		name = "GFX_game_option_bg"
+		texturefile = "gfx/interface/settings/setting_bg.dds"
+		transparencecheck = yes
+	}
 
-    spriteType = {
-        name = "GFX_audio_settings_bg"
-        texturefile = "gfx/interface/settings/audio_settings_bg.dds"
-        transparencecheck = yes
-    }
+	spriteType = {
+		name = "GFX_audio_settings_bg"
+		texturefile = "gfx/interface/settings/audio_settings_bg.dds"
+		transparencecheck = yes
+	}
 
-        spriteType = {
-        name = "GFX_controls_settings_bg"
-        texturefile = "gfx/interface/settings/controls_settings_bg.dds"
-        transparencecheck = yes
-    }
-    
-    spriteType = {
-        name = "GFX_game_settings_bg"
-        texturefile = "gfx/interface/settings/game_settings_bg.dds"
-        transparencecheck = yes
-    }
-        
-    spriteType = {
-        name = "GFX_video_settings_bg"
-        texturefile = "gfx/interface/settings/video_settings_bg.dds"
-        transparencecheck = yes
-    }
+		spriteType = {
+		name = "GFX_controls_settings_bg"
+		texturefile = "gfx/interface/settings/controls_settings_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_game_settings_bg"
+		texturefile = "gfx/interface/settings/game_settings_bg.dds"
+		transparencecheck = yes
+	}
+		
+	spriteType = {
+		name = "GFX_video_settings_bg"
+		texturefile = "gfx/interface/settings/video_settings_bg.dds"
+		transparencecheck = yes
+	}
 
-    spriteType = {
-        name = "GFX_multiplayer_settings_bg"
-        texturefile = "gfx/interface/settings/multiplayer_settings_bg.dds"
-        transparencecheck = yes
-    }
+	spriteType = {
+		name = "GFX_multiplayer_settings_bg"
+		texturefile = "gfx/interface/settings/multiplayer_settings_bg.dds"
+		transparencecheck = yes
+	}
 
-    spriteType = {
-        name = "GFX_settings_blue_scroll_drager"
-        texturefile = "gfx/interface/settings/settings_scroll_drager_blue.dds"
-    }
-        
-    spriteType = {
-        name = "GFX_settings_messenger_button"
-        texturefile = "gfx/interface/settings/message_settings_button.dds"
-    }
+	spriteType = {
+		name = "GFX_settings_blue_scroll_drager"
+		texturefile = "gfx/interface/settings/settings_scroll_drager_blue.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_settings_messenger_button"
+		texturefile = "gfx/interface/settings/message_settings_button.dds"
+	}
 
-    spriteType = {
-        name = "GFX_settings_tab_small"
-        texturefile = "gfx/interface/settings/tab_settings.dds"
-        effectFile = "gfx/FX/buttonstate.lua"
-        noOfFrames = 2
-    }
+	spriteType = {
+		name = "GFX_settings_tab_small"
+		texturefile = "gfx/interface/settings/tab_settings.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
 
-    spriteType = {
-        name = "GFX_settings_tab_medium"
-        texturefile = "gfx/interface/settings/tab_setting_medium.dds"
-        effectFile = "gfx/FX/buttonstate.lua"
-        noOfFrames = 2
-    }
+	spriteType = {
+		name = "GFX_settings_tab_medium"
+		texturefile = "gfx/interface/settings/tab_setting_medium.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
 
-    spriteType = {
-        name = "GFX_settings_tab_large"
-        texturefile = "gfx/interface/settings/tab_setting_large.dds"
-        effectFile = "gfx/FX/buttonstate.lua"
-        noOfFrames = 2
-    }
+	spriteType = {
+		name = "GFX_settings_tab_large"
+		texturefile = "gfx/interface/settings/tab_setting_large.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
 }

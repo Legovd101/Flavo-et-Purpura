@@ -30,7 +30,7 @@
  ogedei_legacy: "Ogedei's Legacy"
  kaidu_death: "Kaidu's Death"
 
-#Reformation
+# Reformation
  corkish_flavor.0.t: "'On the Power of the Church in Lutetia'"
  corkish_flavor.0.d: "A number of peasants have declared that the priests in Gallia "seek only to serve their pouches and not their fellow man," and have declared themselves free from church bureacracy as a whole, claiming to operate under the "Corkish Orthodoxy," a spiritual successor to the Celtic Orthodox churches of old."
  corkish_flavor.0.a: "Smite these fools like the heretics they are!"
@@ -44,12 +44,12 @@
  rhenish_flavor.0.d: "The priest known as Hildirik has published a book of fallacious claims about the Arian church, claiming their teachings contradict the bible!"
  rhenish_flavor.0.a: "Smite these fools like the heretics they are!"
 
-#Varangians
+# Varangians
  varangian_flavor.0.t: "[returning_corps.GetName] Leave for Home!"
  varangian_flavor.0.d: "Due to a number of circumstances, the home of the [returning_corps.GetName] no longer agrees to leave their men in our service."
  varangian_flavor.0.a: "Blast!"
 
-#Scandinavia
+# Scandinavia
  fep_scandinavian_flavor.0.t: "Approaching the Norwegian Throne"
  fep_scandinavian_flavor.0.d: "A diplomat has been sent with the message of unification of our kingdoms to Norway."
  fep_scandinavian_flavor.0.a: "Let's pray they get the message."
@@ -75,7 +75,8 @@
  fep_scandinavian_flavor.6.t: "Dreams of an Empire"
  fep_scandinavian_flavor.6.d: "We got scandinavia yo"
  fep_scandinavian_flavor.6.a: "Neat"
-#Dablit/Dali events
+
+# Dablit/Dali events
  dablit_flavor.0.t: "Monastic life"
  dablit_flavor.0.d: "Many rulers before us has abdicated the throne in favour of a monastic life, with us having ruled for quite a while for now and our succession secured, a monastic lifestyle in the temples seems ever more tempting..."
  dablit_flavor.0.a: "I shall abdicate in favour for my heir and become a monk"
@@ -91,7 +92,7 @@
  dablit_flavor.3.b: "We should collect Epic Poetry"
  dablit_flavor.3.c: "We should collect Martial Arts guides"
 
-#Brythonia
+# Brythonia
  flavor_bry.0.t: "REPLACE_ME"
  flavor_bry.0.d: "REPLACE_ME"
  flavor_bry.0.a: "REPLACE_ME"
@@ -102,27 +103,59 @@
  flavor_bry.1.a.tt: "REPLACE_ME"
 
 
-#Solongos
- fep_solongos_flavor.1.t:0 "Kunisheifu rule over Korea"
- fep_solongos_flavor.1.d:0 ""
- fep_solongos_flavor.1.a:0 "Let them have Korea, Japan is all we want"
- fep_solongos_flavor.1.b:0 "Not an inch of territory!"
- fep_solongos_flavor.2.t:0 "The great Khan grants us self rule"
- fep_solongos_flavor.2.d:0 ""
- fep_solongos_flavor.2.a:0 "Let our rule begin!"
- fep_solongos_flavor.3.t:0 "The great Khan tightens [Root.GetHerHis] grip"
- fep_solongos_flavor.3.d:0 ""
- fep_solongos_flavor.3.a:0 "They are our overlord, we shall follow their orders"
- fep_solongos_flavor.3.a:0 "This means war then!"
- fep_solongos_flavor.4.t:0 "Return of the King"
- fep_solongos_flavor.4.d:0 ""
- fep_solongos_flavor.4.a:0 "Our rule shall not be shakened!"
- fep_solongos_flavor.4.b:0 "Time to drive out the barbarians!"
- fep_solongos_flavor.5.t:0 "Mutiny in the army"
- fep_solongos_flavor.5.d:0 ""
- fep_solongos_flavor.5.a:0 "Crush this traitor!"
- fep_solongos_flavor.5.b:0 "A new era is upon us!"
- fep_solongos_flavor.6.t:0 "Turmoil in Korea"
- fep_solongos_flavor.6.d:0 ""
- fep_solongos_flavor.6.a:0 "They need our help!"
- fep_solongos_flavor.6.b:0 "We can't spare resources to help them!"
+# Solongos
+ fep_solongos_flavor.1.t: "Kunisheifu rule over Korea"
+ fep_solongos_flavor.1.d: ""
+ fep_solongos_flavor.1.a: "Let them have Korea, Japan is all we want"
+ fep_solongos_flavor.1.b: "Not an inch of territory!"
+ fep_solongos_flavor.2.t: "The great Khan grants us self rule"
+ fep_solongos_flavor.2.d: ""
+ fep_solongos_flavor.2.a: "Let our rule begin!"
+ fep_solongos_flavor.3.t: "The great Khan tightens [Root.GetHerHis] grip"
+ fep_solongos_flavor.3.d: ""
+ fep_solongos_flavor.3.a: "They are our overlord, we shall follow their orders"
+ fep_solongos_flavor.3.a: "This means war then!"
+ fep_solongos_flavor.4.t: "Return of the King"
+ fep_solongos_flavor.4.d: ""
+ fep_solongos_flavor.4.a: "Our rule shall not be shakened!"
+ fep_solongos_flavor.4.b: "Time to drive out the barbarians!"
+ fep_solongos_flavor.5.t: "Mutiny in the army"
+ fep_solongos_flavor.5.d: ""
+ fep_solongos_flavor.5.a: "Crush this traitor!"
+ fep_solongos_flavor.5.b: "A new era is upon us!"
+ fep_solongos_flavor.6.t: "Turmoil in Korea"
+ fep_solongos_flavor.6.d: ""
+ fep_solongos_flavor.6.a: "They need our help!"
+ fep_solongos_flavor.6.b: "We can't spare resources to help them!"
+
+# Sabara
+ flavor_sab.0.t: "The Lion Ready to Pounce"
+ flavor_sab.0.d: ""
+ flavor_sab.0.a: "The Tomanids Shall Establish a True Roman Empire!"
+ fep_start_tt: "[Root.fep_start_text]"
+
+ flavor_sab.1.t: "Absorption of the Asturean Throne"
+ flavor_sab.1.d: "For several decades, the throne of the Astures has lasted as our subordinate, preventing us from reaching the coast. No more!"
+ flavor_sab.1.a: "Integrate the Astureans into our court."
+ flavor_sab.1.b: "The Astureans are merely confused Sabarians, is all!"
+
+ flavor_sab.2.t: "The Iberian Wedding"
+ flavor_sab.2.d: "[LUS.Monarch.GetName] is well known for [LUS.Monarch.GetHerHis]... infertility problems, and [GAL.GetName] is an unruly throne without a secure succession. Perhaps we should approach their court about a potential union with us?"
+ flavor_sab.2.a: "Let us bind their dynasty to ours."
+ flavor_sab.2.b: "We musn't sully our ties to Lusitania, we shall marry them instead."
+ flavor_sab.2.c: "To hell with them both! Their land is forfeit!"
+ flavor_sab.2.e: "No."
+
+ flavor_sab.3.t: "Sabaria Offers Their Hand in Marriage"
+ flavor_sab.3.d: "Sabaria has offered their hand in a proposal of union between our two nations. Should we accept?"
+ flavor_sab.3.a: "Let us bind their dynasty to ours."
+ flavor_sab.3.b: "Are they crazy!?"
+
+ flavor_sab.4.t: "[GAL.GetName] abandons the Union of Saint James!"
+ flavor_sab.4.d: "In a move of utter cowardice, the Gallaecians have broken the Union of Saint James in favor of Sabaria!"
+ flavor_sab.4.a: "How dare they!"
+ flavor_sab.4.b: "We haven't much choice, I suppose..."
+
+ flavor_sab.5.t: "[From.GetName] Refuses!"
+ flavor_sab.5.d: ""
+ flavor_sab.5.a: "Damn!"

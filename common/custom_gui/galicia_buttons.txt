@@ -1,5 +1,5 @@
 custom_button = {
-    name = plant_new_fields #Must match a scripted guiButtonType in a .gui file
+	name = plant_new_fields #Must match a scripted guiButtonType in a .gui file
    	potential = {
 		FROM = {
 			has_country_flag = wine_wank
@@ -9,7 +9,7 @@ custom_button = {
 			trade_goods = wine
 		}
 	}
-    trigger = {
+	trigger = {
 		OR = {
 			area_for_scope_province = {
 				type = all
@@ -54,7 +54,7 @@ custom_button = {
 			}
 		}
 	}
-    effect = {
+	effect = {
 		hidden_effect = {
 			export_to_variable = {
 				which = planting_cost_effect
@@ -84,10 +84,10 @@ custom_button = {
 			duration = 1825
 		}
 	}
-    tooltip = "plant_new_fields_tt" #Can use customizable localisation
+	tooltip = "plant_new_fields_tt" #Can use customizable localisation
 }
 custom_button = {
-    name = sell_fields #Must match a scripted guiButtonType in a .gui file
+	name = sell_fields #Must match a scripted guiButtonType in a .gui file
    	potential = {
 		FROM = {
 			has_country_flag = wine_wank
@@ -95,7 +95,7 @@ custom_button = {
 		country_or_non_sovereign_subject_holds = FROM
 		has_province_modifier = state_owned_vineyards
 	}
-    trigger = {
+	trigger = {
 		NOT = {
 			has_province_modifier = recently_planted
 		}
@@ -107,7 +107,7 @@ custom_button = {
 			}
 		}
 	}
-    effect = {
+	effect = {
 		custom_tooltip = selling_vineyards_profit_tt
 		hidden_effect = {
 			export_to_variable = {
@@ -136,10 +136,10 @@ custom_button = {
 		set_province_flag = recently_sold
 		clr_province_flag = recently_purchased
 	}
-    tooltip = "ngolum_desc" #Can use customizable localisation
+	tooltip = "ngolum_desc" #Can use customizable localisation
 }
 custom_button = {
-    name = purchase_fields #Must match a scripted guiButtonType in a .gui file
+	name = purchase_fields #Must match a scripted guiButtonType in a .gui file
    	potential = {
 		FROM = {
 			has_country_flag = wine_wank
@@ -147,7 +147,7 @@ custom_button = {
 		country_or_non_sovereign_subject_holds = FROM
 		has_province_modifier = locally_owned_vineyards
 	}
-    trigger = {
+	trigger = {
 		NOT = { nationalism = 10 }
 		custom_trigger_tooltip = {
 			tooltip = sold_in_last_ten_years_tt
@@ -179,7 +179,7 @@ custom_button = {
 			}
 		}
 	}
-    effect = {
+	effect = {
 		hidden_effect = {
 			export_to_variable = {
 				which = purchasing_cost_effect
@@ -208,5 +208,5 @@ custom_button = {
 		}
 
 	}
-    tooltip = "harwak_desc" #Can use customizable localisation
+	tooltip = "harwak_desc" #Can use customizable localisation
 }
