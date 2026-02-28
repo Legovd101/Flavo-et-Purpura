@@ -985,7 +985,7 @@ GAL_wine_4 = {
 							area = aragon_area
 						}
 						OR = {
-							culture_group = iberian_fep
+							culture_group = iberian
 							culture_group = vasconic
 						}
 						has_owner_accepted_culture = no

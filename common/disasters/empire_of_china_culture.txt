@@ -9,7 +9,7 @@ empire_of_china_in_name = {
 		# 		culture_group = hellenic
 		# 		culture_group = latin
 		# 		culture_group = briton
-		# 		culture_group = iberian_fep
+		# 		culture_group = iberian
 		# 	}
 		# }
 		always = no

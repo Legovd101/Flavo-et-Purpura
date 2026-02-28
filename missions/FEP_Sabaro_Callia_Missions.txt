@@ -613,7 +613,7 @@ sabaro_callia_5 = {
 				development = 30
 			}
 			any_owned_province = {
-				culture = galician_fep
+				culture = galician
 				development = 30
 			}
 			any_owned_province = {

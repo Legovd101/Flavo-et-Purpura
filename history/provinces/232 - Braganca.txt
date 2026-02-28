@@ -10,7 +10,7 @@ base_manpower = 2
 
 trade_goods = wine
 
-culture = galician_fep
+culture = galician
 religion = arianism
 capital = "Bragança"
 

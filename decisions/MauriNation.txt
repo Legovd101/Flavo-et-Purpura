@@ -52,7 +52,7 @@ country_decisions = {
 			change_tag = MUE
 			# trigger_switch = {
 			# 	on_trigger = primary_culture
-			# 	galician_fep = { MUE = { override_country_name = MUE_galician } }
+			# 	galician = { MUE = { override_country_name = MUE_galician } }
 			# 	vasconian = { MUE = { override_country_name = MUE_vasconian } }
 			# 	sabarian = { MUE = { override_country_name = MUE_sabarian } }
 			# 	sabaro_goth = { MUE = { override_country_name = MUE_sabarian } }

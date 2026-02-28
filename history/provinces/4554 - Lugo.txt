@@ -10,7 +10,7 @@ base_manpower = 2
 
 trade_goods = fish
 
-culture = galician_fep
+culture = galician
 religion = lutetian
 capital = "Lugo"
 

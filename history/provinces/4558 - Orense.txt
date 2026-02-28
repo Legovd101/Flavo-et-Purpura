@@ -10,7 +10,7 @@ base_manpower = 1
 
 trade_goods = naval_supplies
 
-culture = galician_fep
+culture = galician
 religion = arianism
 capital = "Orense"
 

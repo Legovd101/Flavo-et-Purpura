@@ -15,7 +15,7 @@ country_decisions = {
 			}
 			NOT = { exists = ISP }
 			OR = {
-				culture_group = iberian_fep
+				culture_group = iberian
 				culture = vasconian
 			}
 			OR = {
@@ -60,7 +60,7 @@ country_decisions = {
 			change_tag = ISP
 			trigger_switch = {
 				on_trigger = primary_culture
-				galician_fep = { ISP = { override_country_name = ISP_galician } }
+				galician = { ISP = { override_country_name = ISP_galician } }
 				vasconian = { ISP = { override_country_name = ISP_vasconian } }
 				sabarian = { ISP = { override_country_name = ISP_sabarian } }
 				sabaro_goth = { ISP = { override_country_name = ISP_sabarian } }
@@ -76,12 +76,6 @@ country_decisions = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
-			}
-			iberia_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ISP
 			}
 			add_prestige = 25
 			add_country_modifier = {

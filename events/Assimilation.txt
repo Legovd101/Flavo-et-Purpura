@@ -46,7 +46,7 @@ province_event = {
 				culture = visigothic
 			}
 		}
-		culture_group = iberian_fep
+		culture_group = iberian
 		owner = {
 			mission_completed = VSG_end_the_iberian_kingdoms
 		}
@@ -237,3 +237,172 @@ province_event = {
 
 }
 
+# Iberian Culture Expanding
+province_event = {
+	id = cultural_flavor.7
+	title = cultural_flavor.7t
+	desc = cultural_flavor.7d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	hidden = yes
+
+	trigger = {
+		OR = {
+			culture_group = gothic_iberian
+			culture_group = hellenic
+			culture_group = roman_group
+		}
+		owner = {
+			culture_group = iberian
+			culture = unified_iberian
+		}
+		region = iberia_region
+		# religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = gothic_iberian
+							culture_group = hellenic
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					AND = {
+						culture_group = gothic_iberian
+						any_neighbor_province = {
+							culture_group = gothic_iberian
+						}
+					}
+					AND = {
+						culture_group = hellenic
+						any_neighbor_province = {
+							culture_group = hellenic
+						}
+					}
+					AND = {
+						culture_group = roman_group
+						any_neighbor_province = {
+							culture_group = roman_group
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				OR = {
+					culture_group = iberian
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cultural_flavor.7.a
+		trigger_switch = {
+			on_trigger = area
+			castille_area = { change_culture = castillian add_core = CAS }
+			extremadura_area = { change_culture = leonese add_core = LON }
+			alentejo_area = { change_culture = portugese add_core = LUS }
+			upper_andalucia_area = { change_culture = andalucian add_core = ADU }
+			lower_andalucia_area = { change_culture = andalucian add_core = ADU }
+			aragon_area = { change_culture = aragonese add_core = ARA }
+			catalonia_area = { change_culture = aragonese add_core = ARA }
+			valencia_area = { change_culture = catalan add_core = CAT }
+			toledo_area = { change_culture = catalan add_core = CAT }
+			basque_country = { change_culture = basque add_core = NAV }
+			baleares_area = { change_culture = catalan add_core = MJO }
+			asturias_area = { change_culture = asturian add_core = ASU }
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = ROOT }
+			}
+		}
+	}
+}
+
+# Iberian Consolidation
+province_event = {
+	id = cultural_flavor.8
+	title = cultural_flavor.8t
+	desc = cultural_flavor.8d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	hidden = yes
+
+	trigger = {
+		OR = {
+			culture_group = iberian
+			NOT = { culture = unified_iberian }
+		}
+		owner = {
+			culture = unified_iberian
+		}
+		# religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						culture_group = iberian
+						NOT = { culture = unified_iberian }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					culture_group = iberian
+					NOT = { culture = unified_iberian }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				OR = {
+					culture = unified_iberian
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cultural_flavor.8.a
+		change_culture = unified_iberian
+		add_core = ISP
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = unified_iberian }
+			}
+		}
+	}
+}

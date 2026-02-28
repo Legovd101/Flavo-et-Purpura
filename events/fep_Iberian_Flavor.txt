@@ -79,7 +79,7 @@ country_event = {
 		}
 		every_province = {
 			limit = {
-				culture_group = iberian_fep
+				culture_group = iberian
 			}
 		}
 		clr_country_flag = gallaecian_war
@@ -98,7 +98,7 @@ country_event = {
 		}
 		every_province = {
 			limit = {
-				culture = galician_fep
+				culture = galician
 				owned_by = ROOT
 				NOT = { religion = ROOT }
 			}

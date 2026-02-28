@@ -388,7 +388,7 @@ colonial_louisiana = {
 	# Specific
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 		name = "COLONIAL_LOUISIANA_Floiland"
 	}
@@ -628,19 +628,19 @@ colonial_mexico = {
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 		name = "COLONIAL_MEXICO_Tegsagoldo"
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 		name = "COLONIAL_MEXICO_Mezwigo"
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 		name = "COLONIAL_MEXICO_Ulfiliasland"
 	}
@@ -720,7 +720,7 @@ colonial_the_carribean = {
 	# Specific
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 			any_owned_province = {
 				OR = {
 					area = east_cuba_area
@@ -732,7 +732,7 @@ colonial_the_carribean = {
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 			any_owned_province = {
 				OR = {
 					area = hispaniola_area
@@ -744,14 +744,14 @@ colonial_the_carribean = {
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 			owns = 492
 		}
 		name = "COLONIAL_THE_CARRIBEAN_Taufeland"
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 			owns = 487
 		}
 		name = "COLONIAL_THE_CARRIBEAN_Eusebia"
@@ -852,7 +852,7 @@ colonial_colombia = {
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 			any_owned_province = {
 				region = colombia_region
 			}
@@ -862,9 +862,9 @@ colonial_colombia = {
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 			any_owned_province = {
-				culture = galician_fep
+				culture = galician
 			}
 		}
 		name = "COLONIAL_COLOMBIA_Niw_Callia"
@@ -950,7 +950,7 @@ colonial_peru = {
 	# Specific
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 		name = "COLONIAL_PERU_Alaricland"
 	}
@@ -1130,7 +1130,7 @@ colonial_brazil = {
 	}
 	names = {
 		trigger = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 		name = "COLONIAL_BRAZIL_Attasland"
 	}

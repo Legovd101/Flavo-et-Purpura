@@ -5,25 +5,109 @@
 # SAB (Sabara)
 color = { 55 226 228 }
 graphical_culture = westerngfx
-revolutionary_colors = {   0   0   0 }
+revolutionary_colors = { 0 0 0 }
 
 historical_idea_groups = {
+	exploration_ideas
+	religious_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	maritime_ideas
+	quality_ideas
+	defensive_ideas
 }
+
 historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
+
 leader_names = {
-
+	"de Aguirre" "de Alarcón" "de Andrade" "de Ayala" "de Bazán" "de Benavides" "de Castilla" "de Córdoba" "de Figueroa" "de Guzmán" "de la Cerda" "de la Cueva" "de la Vega" "de Lara" "de Leiva" "de Luna" "de Mendoza" "de Nebrija" "de Ojeda" "de Rojas" "de Toledo" "de Toledo" "de Velasco" "de Villena" "de Zúñiga" 
+	Campomanes Cienfuegos Colón Coronado Cortés 
+	Fonseca 
+	Gálvez Gómez 
+	"Jiménez de Cisneros" 
+	"López de Haro" 
+	Narváez "Nuñez de Balboa" 
+	Orellana Osorio 
+	Pimentel Pinzón Pizarro "Ponce de León" Portocarrero 
+	Tellez-Girón 
 }
+
 army_names = {
-
+	"Bardija Rical" 
+	"Ecersito $PROVINCE$jen" 
 }
+
 fleet_names = {
-
+	"Armada Rical" 
+	"Plota $PROVINCE$jen" 
 }
+
 ship_names = {
-
+	"Amerigal $PROVINCE$jen" 
 }
+
 monarch_names = {
+	"Oshmano #2" = 40
+	"Orano #2" = 40
+	"Emarigo #2" = 40
+	"Barinado #4" = 20
+	"Yojan #1" = 20
+	"Pilip #0" = 20
+	"Aleponsh #11" = 10
+	"Carros #0" = 10
+	"Sencho #4" = 1
+	"Ramiro #2" = 1
+	"Petro #1" = 1
+	"Jalonsh #0" = 0
+	"Albardo #0" = 0
+	"Balchas #0" = 0
+	"Bernajar #0" = 0
+	"Bertan #0" = 0
+	"Jernan #0" = 0
+	"Cristopol #0" = 0
+	"Didaco #0" = 0
+	"Tomencho #0" = 0
+	"Steban #0" = 0
+	"Pederich #0" = 0
+	"Jartish #0" = 0
+	"Acumesh #0" = 0
+	"Cunshal #0" = 0
+	"Acucher #0" = 0
+	"Jermen #0" = 0
+
+	"Ansela #0" = -10
+	"Andricha #0" = -10
+	"Bedricha #0" = -5
+	"Beroncala #0" = -5
+	"Blanca #0" = -5
+	"Costantija #0" = -5
+	"Calvira #0" = -5
+	"Stebana #0" = -5
+	"Prenida #0" = -5
+	"Controla #0" = -5
+	"Enes #0" = -5
+	"Elisha #0" = -5
+	"Emena #0" = -5
+	"Shojana #0" = -5
+	"Lenor #0" = -5
+	"Elenor #0" = -5
+	"Mapalda #0" = -5
+	"Machilda #0" = -5
 }
 
 ### Modified 6/7/2025 6:48:14 PM ###

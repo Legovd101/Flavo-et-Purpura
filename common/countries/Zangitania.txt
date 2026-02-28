@@ -17,53 +17,88 @@ historical_idea_groups = {
 	economic_ideas
 	expansion_ideas
 }
-historical_units = {
+historical_units = { 
 	mamluk_archer
-	muslim_cavalry_archers
+	mamluk_cavalry_charge
 	mamluk_duel
 	mamluk_musket_charge
 	muslim_mass_infantry
 	muslim_dragoon
 	ali_bey_reformed_infantry
 }
-leader_names = {
 
-	"Ait Aïssi" "Ait Akerma" "Ait Aouggacha" "Ait Djennad" "Ait Douala" "Ait Fraoussen" "Ait Ghobri" "Ait Idjer" "Ait Iraten" 
-	Maatka 
-}
-army_names = {
-
-}
-fleet_names = {
-
-}
-ship_names = {
-
-	Ba'ith Barr Batin 
-	Wahid Wajed Wakil Wali Waliyy 
-	Zahir 
-	Akhir Awwal 
-	Majid Matin Mu'akhkhir Mu'id Mubdi Muhsi Muhyi Mumit Muqaddim Muqtadir 
-	Qadir Qawiyy Qayyum 
-	Samad Shahid 
-	Hamid Haqq Hayy 
-}
 monarch_names = {
-	"Abel #0" = 10
-	"Amokrane #0" = 10
-	"Sidi El Naceur #0" = 10
-	"Si Betka #0" = 10
-	"Ben Bouzid #0" = 30
-	"Abdesselem #0" = 10
-	"Sidi #0" = 20
-	"Abdesslam #0" = 0
-	"Mohand #0" = 0
-	"Boumezrag #0" = 0
-	"Azis #0" = 0
-	"Zahir #0" = 0
-	"Werdja #0" = -1
-	"Tabassum #0" = -1
-	"Daïkra #0" = -1
+	"Massinissa #3" = 20
+	"Micipsa #3" = 20
+	"Syphax #2" = 20
+	"Gala #0" = 20
+	"Vermina #1" = 15
+	"Adherbal #0" = 15
+	"Juba #3" = 10
+	"Gauda #1" = 10
+	"Bomilcar #1" = 10
+
+	"Zilalsen #0" = 0
+	"Zekyus #0" = 0
+	"Zanifer #0" = 0
+	"Zamog #0" = 0
+	"Yugurta #0" = 0
+	"Yarbas #0" = 0
+	"Tasfin #0" = 0
+	"Tabarken #0" = 0
+	"Massug #0" = 0
+	"Masgava #0" = 0
+	"Matun #0" = 0
+	"Marus #0" = 0
+	"Imedyas #0" = 0
+	"Ililten #0" = 0
+	"Gildun #0" = 0
+	"Fagu #0" = 0
+	"Esfan #0" = 0
+	"Esdegh #0" = 0
+	"Erripu #0" = 0
+	"Ekfanas #0" = 0
+	"Budaris #0" = 0
+	"Abizar #0" = 0
+	"Abizaran #0" = 0
+	"Akli #0" = 0
+	"Ameslay #0" = 0
+	"Tabalut #0" = 0
+	"Takfarinas #0" = 0
+	"Azir #0" = 0
+	"Baga #0" = 0
+	"Vaxan #0" = 0
+	"Vexillan #0" = 0
+
+	"Dihya #0" = -1
+	"Tinish #0" = -1
+	"Tabaken #0" = -1
+}
+
+leader_names = {
+	Massinissa
+	Syphax
+	Adherbal
+	Mastanabal
+	Macan
+	Takfarinas
+	Bagay
+	Esfan
+	Gildun
+	Vexillan
+}
+
+ship_names = {
+	"Ifran" "Numidia" "Gadir"
+	"Tingis"
+	"Amexlan"
+	"Zilil"
+	"Cartennae"
+	"Iol" "Icosia"
+	"Tamazga"
+	"Baga"
+	"Tabarka" "Masuna"
+	"Dihya" "Tin Hizri"
 }
 
 ### Modified 6/7/2025 6:48:14 PM ###

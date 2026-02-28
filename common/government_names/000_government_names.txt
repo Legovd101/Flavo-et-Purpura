@@ -135,7 +135,7 @@ gov_iberian = {
 	
 	trigger = {
 		OR = {
-			culture_group = iberian_fep
+			culture_group = iberian
 		}
 	}
 }
