@@ -1,0 +1,696 @@
+sabaro_callia_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ISP
+		was_tag = SAB
+	}
+
+	SAB_western_monopoly = {
+		icon = mission_rb_monopolize_the_channel
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				area = alentejo_area
+				area = extremadura_area
+			}
+		}
+
+		trigger = {
+			alentejo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			extremadura_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			western_morocco_area = { add_permanent_claim = ROOT } 
+			southern_morocco_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	SAB_marca_vasconica = {
+		icon = mission_subjugate_navarra
+		position = 2
+		required_missions = { SAB_western_monopoly } 
+		provinces_to_highlight = { area = basque_country } 
+
+		trigger = {
+			castille_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			pyrenees_area = { add_permanent_claim = ROOT } 
+			174 = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	SAB_iberian_wall = {
+		icon = mission_expand_great_wall
+		position = 3
+		required_missions = { SAB_marca_vasconica } 
+		provinces_to_highlight = {
+			area_for_scope_province = {
+				type = all
+				NOT = { trade_goods = wine } 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = every_area_has_one_fort_tt
+				NOT = {
+					any_province = {
+						area_for_scope_province = {
+							type = all
+							has_fort_building_trigger = no
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+					}
+				}
+			}
+		}
+
+		effect = { every_province = { limit = { has_fort_building_trigger = yes }  }  } 
+	}
+
+	SAB_royal_army = {
+		icon = army_reforms
+		position = 4
+		required_missions = { SAB_iberian_wall } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			army_size = BAE
+			army_size = TLD
+		}
+
+		effect = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = BAE
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = TLD
+			}
+		}
+	}
+
+	SAB_masters_of_goths = {
+		icon = mission_subjugate_saurashtra
+		position = 6
+		required_missions = { SAB_royal_army } 
+		provinces_to_highlight = {
+			OR = {
+				owned_by = ARA
+				owned_by = BAE
+				owned_by = TLD
+			}
+		}
+
+		trigger = {
+			BAE = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
+			TLD = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
+			ARA = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
+		}
+
+		effect = { country_event = { id = fep_iberian_flavor.13 }  } 
+	}
+
+	SAB_masters_of_iberia = {
+		icon = a_question_of_spain
+		position = 8
+		required_missions = { SAB_masters_of_goths } 
+		provinces_to_highlight = {
+			region = iberia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = { iberia_region = { country_or_non_sovereign_subject_holds = ROOT }  } 
+
+		effect = {
+			add_country_modifier = {
+				name = "masters_of_iberia"
+				duration = -1
+			}
+		}
+	}
+}
+sabaro_callia_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ISP
+		was_tag = SAB
+	}
+
+	SAB_bases_of_operation = {
+		icon = capture_adriatic_ports
+		position = 2
+		required_missions = { SAB_ports_of_call } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				has_shipyard_building_trigger = yes
+				has_trade_building_trigger = yes
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = {
+					has_shipyard_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+				man_of_war_heavy = ROOT
+			}
+		}
+	}
+
+	SAB_akesland = {
+		icon = mission_mal_west_african_great_power
+		position = 5
+		required_missions = { SAB_reach_rominsel } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			any_province = {
+				region = guinea_region
+				has_discovered = ROOT
+			}
+		}
+
+		effect = {
+			random_province = {
+				limit = {
+					region = guinea_region
+					is_empty = yes
+					has_port = yes
+				}
+				add_siberian_construction = 400
+			}
+			guinea_region = { add_permanent_claim = ROOT } 
+			coastal_kongo = { add_permanent_claim = ROOT } 
+			angola_namibia_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	SAB_discover_habithia = {
+		icon = colonize_the_cape
+		position = 6
+		required_missions = { SAB_akesland } 
+		provinces_to_highlight = { province_id = 1177 } 
+
+		trigger = {
+			has_discovered = 1177
+			any_owned_province = { region = south_africa_region } 
+		}
+
+		effect = {
+			cape_of_good_hope_area = { add_permanent_claim = ROOT } 
+			southern_madagascar = { add_permanent_claim = ROOT } 
+			madagascar_highlands_area = { add_permanent_claim = ROOT } 
+			sakalava_area = { add_permanent_claim = ROOT } 
+			betsimasaraka_area = { add_permanent_claim = ROOT } 
+			add_country_modifier = {
+				name = "trade_company_boom"
+				duration = 18250
+			}
+		}
+	}
+
+	SAB_grand_southern_isle = {
+		icon = mission_spanish_armada
+		position = 7
+		required_missions = { SAB_discover_habithia } 
+		provinces_to_highlight = {
+			OR = {
+				area = madagascar_highlands_area
+				area = southern_madagascar
+				area = sakalava_area
+				area = betsimasaraka_area
+			}
+			NOT = { owned_by = ROOT } 
+		}
+
+		trigger = {
+			southern_madagascar = {
+				type = all
+				owned_by = ROOT
+			}
+			madagascar_highlands_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sakalava_area = {
+				type = all
+				owned_by = ROOT
+			}
+			betsimasaraka_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			east_africa_region = { add_permanent_claim = ROOT } 
+			indian_ocean_islands_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	SAB_venture_valditha = {
+		icon = mission_sail_to_the_east_indies
+		position = 8
+		required_missions = { SAB_grand_southern_isle } 
+		provinces_to_highlight = {  } 
+
+		trigger = { owns_core_province = 1248 } 
+
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						same_trade_node_as = 1340
+						same_trade_node_as = 1361
+					}
+					has_port = yes
+					province_has_center_of_trade_of_level = 1
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+sabaro_callia_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ISP
+		was_tag = SAB
+	}
+
+	SAB_ports_of_call = {
+		icon = mission_portuguese_malacca
+		position = 1
+		provinces_to_highlight = {
+			has_port = yes
+			owned_by = ROOT
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 6
+				development = 20
+				has_port = yes
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "thirst_for_adventure"
+				duration = 36500
+			}
+		}
+	}
+
+	SAB_escaping_the_mauri = {
+		icon = mission_sailor_boat
+		position = 3
+		required_missions = { SAB_ports_of_call } 
+		provinces_to_highlight = {  } 
+
+		trigger = { exploration_ideas = 1 } 
+
+		effect = {
+			define_explorer = {
+				name = "Audoacer Ricimargild"
+				shock = 3
+				fire = 4
+				manuever = 6
+			}
+			add_permanent_claim = 367
+		}
+	}
+
+	SAB_reach_rominsel = {
+		icon = mission_northumberland_coast
+		position = 4
+		required_missions = { SAB_escaping_the_mauri } 
+		provinces_to_highlight = { province_id = 367 } 
+
+		trigger = { owns_core_province = 367 } 
+
+		effect = {
+			367 = {
+				add_or_upgrade_shipyard_building = yes
+				add_or_upgrade_trade_building = yes
+				add_base_manpower = 2
+				add_base_production = 2
+				add_base_tax = 2
+			}
+		}
+	}
+
+	SAB_insular_atlantis = {
+		icon = mission_caribbean_cn
+		position = 6
+		required_missions = { SAB_lost_to_the_sea } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = carribeans_region
+			}
+		}
+
+		effect = { country_event = { id = fep_iberian_flavor.14 }  } 
+	}
+
+	SAB_making_of_mezwigo = {
+		icon = mission_kingdom_of_new_spain
+		position = 7
+		required_missions = { SAB_insular_atlantis } 
+		provinces_to_highlight = { colonial_region = colonial_mexico } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				colonial_region = colonial_mexico
+			}
+		}
+
+		effect = {
+			every_subject_country = {
+				limit = { is_colonial_nation = yes } 
+				capital_scope = { add_or_upgrade_forcelimit_building = yes } 
+			}
+		}
+	}
+
+	SAB_defend_the_colonies = {
+		icon = mission_fortify_rajputana
+		position = 8
+		required_missions = { SAB_making_of_mezwigo } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				has_tax_building_trigger = yes
+				has_fort_building_trigger = yes
+				OR = {
+					continent = south_america
+					continent = north_america
+				}
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					has_tax_building_trigger = yes
+					has_fort_building_trigger = yes
+					OR = {
+						continent = south_america
+						continent = north_america
+					}
+				}
+				add_base_manpower = 2
+				add_base_production = 2
+				add_base_tax = 2
+			}
+		}
+	}
+}
+sabaro_callia_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ISP
+		was_tag = SAB
+	}
+
+	SAB_core_crownlands = {
+		icon = the_crown_of_lothair
+		position = 2
+		required_missions = { SAB_economic_capital } 
+		provinces_to_highlight = { any_province_in_state = { is_capital_of = ROOT } } 
+
+		trigger = {
+			capital_scope = {
+				area_for_scope_province = {
+					type = all
+					development = 15
+				}
+			}
+		}
+
+		effect = {
+			capital_scope = {
+				area = {
+					add_province_modifier = {
+						name = "capital_economy"
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+
+	SAB_lost_to_the_sea = {
+		icon = mission_establish_high_seas_navy
+		position = 5
+		required_missions = { SAB_reach_rominsel } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			any_province = {
+				continent = north_america
+				has_discovered = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "riches_of_paradise"
+				duration = 36500
+			}
+		}
+	}
+
+	SAB_land_down_there = {
+		icon = colonize_brazil
+		position = 7
+		required_missions = { SAB_lost_to_the_sea } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			any_province = {
+				continent = south_america
+				has_discovered = ROOT
+			}
+		}
+
+		effect = { brazil_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	SAB_new_callia = {
+		icon = mission_brazilian_bandeirantes
+		position = 8
+		required_missions = { SAB_land_down_there } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = brazil_region
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "crown_of_attasland"
+				duration = 36500
+			}
+		}
+	}
+}
+sabaro_callia_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ISP
+		was_tag = SAB
+	}
+
+	SAB_economic_capital = {
+		icon = fra_crown_seat_capital
+		position = 1
+		provinces_to_highlight = { is_capital_of = ROOT } 
+
+		trigger = { capital_scope = { development = 20 }  } 
+
+		effect = { capital_scope = { add_or_upgrade_tax_building = yes }  } 
+	}
+
+	SAB_holy_state = {
+		icon = mission_land_of_churches
+		position = 3
+		required_missions = { SAB_economic_capital } 
+		provinces_to_highlight = { any_province_in_state = { is_capital_of = ROOT } } 
+
+		trigger = {
+			capital_scope = {
+				area_for_scope_province = {
+					type = all
+					has_tax_building_trigger = yes
+				}
+			}
+		}
+
+		effect = {
+			capital_scope = {
+				area = {
+					add_province_modifier = {
+						name = "HLR_holy_state_mod"
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+
+	SAB_cultural_centers = {
+		icon = a_center_of_religion
+		position = 4
+		required_missions = { SAB_holy_state } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			any_owned_province = {
+				culture = sabarian
+				development = 30
+			}
+			any_owned_province = {
+				culture = portugese
+				development = 30
+			}
+			any_owned_province = {
+				culture = galician_fep
+				development = 30
+			}
+			any_owned_province = {
+				culture = asturian
+				development = 30
+			}
+			any_owned_province = {
+				culture = basque
+				development = 30
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = { development = 30 } 
+				change_culture = unified_iberian
+			}
+			every_owned_province = {
+				limit = { development = 20 } 
+				random = {
+					chance = 50
+					change_culture = unified_iberian
+				}
+			}
+			every_owned_province = {
+				limit = { development = 10 } 
+				random = {
+					chance = 33
+					change_culture = unified_iberian
+				}
+			}
+			change_primary_culture = unified_iberian
+			hidden_effect = {
+				set_ruler_culture = unified_iberian
+				set_heir_culture = unified_iberian
+				set_consort_culture = unified_iberian
+			}
+		}
+	}
+
+	SAB_royal_cabinet = {
+		icon = mission_swedish_military_advise
+		position = 6
+		required_missions = { SAB_cultural_centers } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			has_adm_advisor = yes
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			is_in_deficit = no
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "royal_cabinet"
+				duration = 36500
+			}
+		}
+	}
+
+	SAB_atlantic_trade = {
+		icon = mission_asian_trader
+		position = 8
+		required_missions = { SAB_royal_cabinet } 
+		provinces_to_highlight = {  } 
+
+		trigger = { trade_income_percentage = 0.25 } 
+
+		effect = {
+			guyenne_area = { add_permanent_claim = ROOT } 
+			languedoc_area = { add_permanent_claim = ROOT } 
+			provence_area = { add_permanent_claim = ROOT } 
+			corsica_area = { add_permanent_claim = ROOT } 
+			corsica_sardinia_area = { add_permanent_claim = ROOT } 
+			barbary_coast_area = { add_permanent_claim = ROOT } 
+			northern_morocco_area = { add_permanent_claim = ROOT } 
+		}
+	}
+}

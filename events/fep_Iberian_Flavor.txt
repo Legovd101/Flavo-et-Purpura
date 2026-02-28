@@ -1633,3 +1633,300 @@ country_event = {
 	}
 
 }
+
+# Masters of the Goths
+country_event = {
+	id = fep_iberian_flavor.13
+	title = fep_iberian_flavor.13.t
+	desc = fep_iberian_flavor.13.d
+	picture = EMPEROR_eventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			extremadura_area = {
+				remove_core = BAE
+				remove_core = TLD
+				remove_core = ARA
+			}
+			alentejo_area = {
+				remove_core = BAE
+				remove_core = TLD
+				remove_core = ARA
+			}
+			castille_area = {
+				remove_core = BAE
+				remove_core = TLD
+				remove_core = ARA
+			}
+			basque_country = {
+				remove_core = BAE
+				remove_core = TLD
+				remove_core = ARA
+			}
+		}
+	}
+	
+	option = { # The Visigoths shall be administrated by a unified court.
+		name = fep_iberian_flavor.13.a
+		
+		
+		VSG = {
+			change_primary_culture = toledan
+			change_religion = arianism
+			inherit = BAE
+			inherit = ARA
+			inherit = TLD
+			change_tag = VSG
+		}
+		every_province = {
+			limit = {
+				OR = {
+					is_core = ARA
+					is_core = BAE
+					is_core = TLD
+				}
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			add_core = VSG
+			cede_province = VSG
+		}
+		create_union = VSG
+		iberia_region = {
+			limit = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+			add_permanent_claim = VSG
+		}
+		
+	}
+
+	option = { # The current situation is fine.
+		name = fep_iberian_flavor.13.b
+		iberia_region = {
+			limit = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+
+	option = { # We shall claim the thrones of Baetica and Toledo for ourselves!
+		name = fep_iberian_flavor.13.c
+		every_province = {
+			limit = {
+				OR = {
+					owned_by = TLD
+					owned_by = BAE
+					owned_by = ARA
+				}
+			}
+			cede_province = ROOT
+		}
+		iberia_region = {
+			limit = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+
+}
+
+
+# The Voyage of Leopiltud Verognian
+country_event = {
+	id = fep_iberian_flavor.14
+	title = fep_iberian_flavor.14.t
+	desc = fep_iberian_flavor.14.d
+	picture = CONQUISTADORS_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { # This brave soul must be sponsored with our coffers!
+		name = fep_iberian_flavor.14.a
+		
+		add_treasury = -100
+		random_province = {
+			limit = {
+				OR = {
+					area = campeche_area
+					area = huasteca_area
+					area = eastern_mexico_area
+				}
+				is_capital = no
+			}
+			cede_province = ROOT
+			add_core = LPL
+		}
+		release = LPL
+		create_subject = {
+			subject_type = crown_colony
+			subject = LPL
+		}
+		LPL = {
+			change_government = republic
+			add_government_reform = colonial_government
+			define_conquistador = {
+				name = "Leopiltud Verognian"
+				fire = 5
+				shock = 7
+				manuever = 3
+				siege = 8
+			}
+			define_leader_to_ruler = {
+				adm = 1
+				dip = 4
+				mil = 6
+			}
+			add_ruler_personality = conqueror_personality
+			capital_scope = {
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				houfnice = LPL				
+				houfnice = LPL				
+				houfnice = LPL
+				cavalry = LPL				
+				cavalry = LPL				
+			}
+			add_country_modifier = {
+				name = conquest_of_paradise
+				duration = 18250
+			}
+			add_manpower = 20
+		}
+		colonial_mexico = {
+			add_permanent_claim = LPL
+		}
+	}
+
+	option = { # He's on his own.
+		name = fep_iberian_flavor.14.b
+
+		random_province = {
+			limit = {
+				OR = {
+					area = campeche_area
+					area = huasteca_area
+					area = eastern_mexico_area
+				}
+				is_capital = no
+			}
+			cede_province = ROOT
+			add_core = LPL
+		}
+		release = LPL
+		LPL = {
+			define_conquistador = {
+				name = "Leopiltud Verognian"
+				fire = 5
+				shock = 7
+				manuever = 3
+				siege = 8
+			}
+			define_leader_to_ruler = {
+				adm = 1
+				dip = 4
+				mil = 6
+			}
+			add_ruler_personality = conqueror_personality
+			capital_scope = {
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				houfnice = LPL				
+				houfnice = LPL				
+				houfnice = LPL
+				cavalry = LPL				
+				cavalry = LPL				
+			}
+			add_country_modifier = {
+				name = conquest_of_paradise
+				duration = 9125
+			}
+			add_country_modifier = {
+				name = strained_supplies
+				duration = 1825
+			}
+			add_manpower = 10
+		}
+		colonial_mexico = {
+			add_permanent_claim = LPL
+		}
+		colonial_mexico = {
+			add_permanent_claim = ROOT
+		}
+	}
+
+	option = { # I wonder what he'll get up to... (Play as Leopiltud's Company)
+		name = fep_iberian_flavor.14.c
+
+		random_province = {
+			limit = {
+				OR = {
+					area = campeche_area
+					area = huasteca_area
+					area = eastern_mexico_area
+				}
+				is_capital = no
+			}
+			cede_province = ROOT
+			add_core = LPL
+		}
+		release = LPL
+		LPL = {
+			define_conquistador = {
+				name = "Leopiltud Verognian"
+				fire = 5
+				shock = 7
+				manuever = 3
+				siege = 8
+			}
+			define_leader_to_ruler = {
+				adm = 1
+				dip = 4
+				mil = 6
+			}
+			add_ruler_personality = conqueror_personality
+			capital_scope = {
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				tercio_infantry = LPL
+				houfnice = LPL				
+				houfnice = LPL				
+				houfnice = LPL
+				cavalry = LPL				
+				cavalry = LPL				
+			}
+			add_country_modifier = {
+				name = conquest_of_paradise
+				duration = 9125
+			}
+			add_country_modifier = {
+				name = strained_supplies
+				duration = 1825
+			}
+			add_manpower = 10
+		}
+		colonial_mexico = {
+			add_permanent_claim = LPL
+		}
+		colonial_mexico = {
+			add_permanent_claim = ROOT
+		}
+		switch_tag = LPL
+	}
+
+}

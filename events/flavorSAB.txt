@@ -2,14 +2,14 @@
 # Flavor Events for Sabaria
 ########################################
 
-namespace = flavor_sab
+namespace = flavor_SAB
 normal_or_historical_nations = yes
 
 # The Lion Ready to Pounce (Start Event)
 country_event = {
-	id = flavor_sab.0
-	title = "flavor_sab.0.t"
-	desc = "flavor_sab.0.d"
+	id = flavor_SAB.0
+	title = "flavor_SAB.0.t"
+	desc = "flavor_SAB.0.d"
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	fire_only_once = yes
@@ -19,16 +19,16 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.0.a" # The Tomanids Shall Establish a True Roman Empire!
+		name = "flavor_SAB.0.a" # The Tomanids Shall Establish a True Roman Empire!
 		custom_tooltip = fep_start_tt
 	}
 }
 
 # Absorption of the Asturean Throne
 country_event = {
-	id = flavor_sab.1
-	title = "flavor_sab.1.t"
-	desc = "flavor_sab.1.d"
+	id = flavor_SAB.1
+	title = "flavor_SAB.1.t"
+	desc = "flavor_SAB.1.d"
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	fire_only_once = yes
@@ -38,7 +38,7 @@ country_event = {
 		ASU = { exists = no }
 	}
 	mean_time_to_happen = {
-		days = 0
+		days = 1
 	}
 
 	
@@ -47,7 +47,7 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.1.a" # Integrate the Astureans into our court
+		name = "flavor_SAB.1.a" # Integrate the Astureans into our court
 		add_country_modifier = {
 			name = ara_maritime_administration_modifier
 			duration = 18250
@@ -62,7 +62,7 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.1.b" # The Astureans are merely confused Sabarians, is all!
+		name = "flavor_SAB.1.b" # The Astureans are merely confused Sabarians, is all!
 		add_country_modifier = {
 			name = arm_national_awakening
 			duration = 18250
@@ -83,61 +83,43 @@ country_event = {
 
 # The Iberian Wedding
 country_event = {
-	id = flavor_sab.2
-	title = "flavor_sab.2.t"
-	desc = "flavor_sab.2.d"
+	id = flavor_SAB.2
+	title = "flavor_SAB.2.t"
+	desc = "flavor_SAB.2.d"
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = SAB
-		GAL = {
-			has_heir = no
-			has_opinion = {
-				who = ROOT
-				value = 50
-			}
-		}
-	}
-	mean_time_to_happen = {
-		years = 1
-		modifier = {
-			factor = 0.5
-			reverse_has_opinion = {
-				who = GAL
-				value = 100
-			}
-		}
-	}
+	is_triggered_only = yes
 
 	
 	immediate = {
 	}
 	
 	option = { 
-		name = "flavor_sab.2.a" # Let us bind their dynasty to ours.
+		name = "flavor_SAB.2.a" # Let us bind their dynasty to ours.
 		add_prestige = -10
 		GAL = {
 			country_event = {
-				id = flavor_sab.3
+				id = flavor_SAB.3
 				days = 10
 			}
 		}
 	}
 	
 	option = { 
-		name = "flavor_sab.2.b" # We musn't sully our ties to Lusitania, we shall marry them instead.
+		name = "flavor_SAB.2.b" # We musn't sully our ties to Lusitania, we shall marry them instead.
+		trigger = {
+			NOT = { is_rival = LUS }
+		}
 		LUS = {
 			country_event = {
-				id = flavor_sab.3
+				id = flavor_SAB.3
 				days = 10
 			}
 		}
 	}
 	
 	option = { 
-		name = "flavor_sab.2.c" # To hell with them both! Their land is forfeit!
+		name = "flavor_SAB.2.c" # To hell with them both! Their land is forfeit!
 		declare_war_with_cb = {
 			casus_belli = cb_annex
 			who = LUS
@@ -148,7 +130,7 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.2.e" # No.
+		name = "flavor_SAB.2.e" # No.
 		galicia_area = {
 			add_permanent_claim = ROOT
 		}
@@ -160,9 +142,9 @@ country_event = {
 
 # Sabaria Offers Their Hand in Marriage
 country_event = {
-	id = flavor_sab.3
-	title = "flavor_sab.3.t"
-	desc = "flavor_sab.3.d"
+	id = flavor_SAB.3
+	title = "flavor_SAB.3.t"
+	desc = "flavor_SAB.3.d"
 	picture = FEAST_eventPicture
 	
 	is_triggered_only = yes
@@ -173,25 +155,34 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.3.a" # Let us bind their dynasty to ours
+		name = "flavor_SAB.3.a" # Let us bind their dynasty to ours
 		if = {
-			limit = {
-				tag = GAL
-			}
+			limit = { tag = GAL }
 			break_union = overlord
-			FROM = {
-				create_union = ROOT
-			}
+			FROM = { create_union = ROOT }
+			override_country_name = CALLIA
 			LUS = {
 				country_event = {
-					id = flavor_sab.4
+					id = flavor_SAB.4
 				}
 			}
 		}
 		if = {
+			limit = { tag = NAV }
+			FROM = { create_union = ROOT }
+		}
+		else_if = {
 			limit = {
-				tag = LUS
+				has_country_flag = already_recieved_offer
 			}
+			FROM = {
+				create_union = ROOT
+			}
+		}
+		else_if = {
+			limit = { tag = LUS }
+			set_country_flag = already_recieved_offer
+			force_remove_rival = FROM
 			create_marriage = FROM
 			add_opinion = {
 				who = LUS
@@ -207,20 +198,23 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.3.b" # Are they crazy!?
+		name = "flavor_SAB.3.b" # Are they crazy!?
 		FROM = {
 			country_event = {
-				id = flavor_sab.5
+				id = flavor_SAB.5
 			}
+		}
+		ai_chance = {
+			factor = 0
 		}
 	}
 }
 
 # [GAL.GetName] abandons the Union of Saint James!
 country_event = {
-	id = flavor_sab.4
-	title = "flavor_sab.4.t"
-	desc = "flavor_sab.4.d"
+	id = flavor_SAB.4
+	title = "flavor_SAB.4.t"
+	desc = "flavor_SAB.4.d"
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	is_triggered_only = yes
@@ -230,7 +224,7 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.4.a" # How dare they!
+		name = "flavor_SAB.4.a" # How dare they!
 		every_owned_province = {
 			limit = {
 				is_core = ROOT
@@ -247,23 +241,29 @@ country_event = {
 			casus_belli = cb_annex
 			who = GAL
 		}
+		ai_chance = {
+			factor = 2
+		}
 	}
 	
 	option = { 
-		name = "flavor_sab.4.b" # We haven't much choice, I suppose...
+		name = "flavor_SAB.4.b" # We haven't much choice, I suppose...
 		add_country_modifier = {
 			name = arm_national_awakening
 			duration = 18250
 		}
 		add_prestige = -20
+		ai_chance = {
+			factor = 0.5
+		}
 	}
 }
 
 # [From.GetName] Refuses!
 country_event = {
-	id = flavor_sab.5
-	title = "flavor_sab.5.t"
-	desc = "flavor_sab.5.d"
+	id = flavor_SAB.5
+	title = "flavor_SAB.5.t"
+	desc = "flavor_SAB.5.d"
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	is_triggered_only = yes
@@ -273,7 +273,7 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.5.a" # Damn!
+		name = "flavor_SAB.5.a" # Damn!
 		galicia_area = {
 			add_permanent_claim = ROOT
 		}
@@ -285,45 +285,35 @@ country_event = {
 
 # The Second Union of Saint James
 country_event = {
-	id = flavor_sab.6
-	title = "flavor_sab.6.t"
-	desc = "flavor_sab.6.d"
+	id = flavor_SAB.6
+	title = "flavor_SAB.6.t"
+	desc = "flavor_SAB.6.d"
 	picture = ROYAL_COUPLE_FUTURE_eventPicture
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = SAB
-		galicia_area = {
-			type = all
-			owned_by = ROOT
-			is_core = ROOT
-		}
-		GAL = { exists = no }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	
 	option = { 
-		name = "flavor_sab.6.a" # Oh, happy day!
-		add_accepted_culture = galician
+		name = "flavor_SAB.6.a" # Oh, happy day!
+		add_prestige = 10
+		
 		alentejo_area = {
 			add_permanent_claim = ROOT
 		}
 		extremadura_area = {
 			add_permanent_claim = ROOT
 		}
+		swap_non_generic_missions = yes
 	}
 }
 
 # The Unification of Iberian Identity
 country_event = {
-	id = flavor_sab.7
-	title = "flavor_sab.7.t"
-	desc = "flavor_sab.7.d"
+	id = flavor_SAB.7
+	title = "flavor_SAB.7.t"
+	desc = "flavor_SAB.7.d"
 	picture = ROYAL_COUPLE_FUTURE_eventPicture
 	
 	fire_only_once = yes
@@ -338,12 +328,18 @@ country_event = {
 	}
 	
 	option = { 
-		name = "flavor_sab.7.a" # Oh, happy day!
+		name = "flavor_SAB.7.a" # Oh, happy day!
+		swap_non_generic_missions = yes
 		add_accepted_culture = galician
-		alentejo_area = {
+		add_accepted_culture = portugese
+		add_accepted_culture = basque
+		guyenne_area = {
 			add_permanent_claim = ROOT
 		}
-		extremadura_area = {
+		pyrenees_area = {
+			add_permanent_claim = ROOT
+		}
+		languedoc_area = {
 			add_permanent_claim = ROOT
 		}
 		every_province = {

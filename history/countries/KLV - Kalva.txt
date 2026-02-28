@@ -9,6 +9,7 @@ primary_culture = gujarati
 religion = vaishnavism
 technology_group = indian
 unit_type = indian
+capital = 1196
 # Specific Effects #
 
 

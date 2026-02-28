@@ -1,0 +1,24 @@
+# This MT is only for the purposes of prepping highlighted provinces, triggers, and effects for porting into PNE
+fep_template_series = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+	}
+	has_country_shield = yes
+	fep_template_mission = {
+		position = 1
+		icon = mission_rb_conquer_the_highlands
+		required_missions = { }
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+
+		}
+		effect = {
+
+		}
+	}
+}

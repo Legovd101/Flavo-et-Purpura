@@ -365,9 +365,9 @@ benin_missions_slot_2 = {
 
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				trade_goods = steel
-				trade_node = 4097
 				value = 3
+				trade_goods = steel
+				same_trade_node_as = 4097
 			}
 		}
 
@@ -395,7 +395,6 @@ benin_missions_slot_3 = {
 	ai = yes
 	has_country_shield = yes
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BEN
 		NOT = { map_setup = map_setup_random } 
 	}

@@ -1530,29 +1530,6 @@ iberian	= {
 			Montserrat Núria Octàvia Prudència Roberta Rodolfa
 		}
 	}
-	galician = {
-		country = { } 
-		province = { local_has_caravel = yes local_has_galleon = yes }
-		primary = GAL
-		dynasty_names = {
-			Osorio Andrade
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
-			"de Cabrera" "de Villena"
-		}
-		male_names = {
-			García Ordoño Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar Bernaldo Brais Carlos 
-			Cristovo Domingos Estevo Felipe Fernán Francisco Frederico Gonzalo Guillerme Gumersindo Henrique 
-			Hermenexildo Hixinio Hugo Iago Ignacio Leandro Lope Miguel Nuno Odón Paulo Pedro Ramón Roi Tomé 
-			Vitor Xoan Xorxe
-		}
-		female_names = {
-			Branca Iria Sabela Lúa Rodolfa Sofía Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca 
-			Blanche Antía Branca Carme Catarina Dores Iria Lía Margarida María Noela Rosalía Sabela Uxía Xoana
-		}
-	}
 	andalucian = {
 		primary = GRA
 		province = { local_has_caravel = yes local_has_galleon = yes }
@@ -11555,6 +11532,35 @@ iberian_fep = {
 	}
 	asturian = {
 		primary = ASU
+		dynasty_names = {
+			"de Trastamara" "de Guzman" "alvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Tillez-Girun "Manrique de Lara" "de avalos" Enraquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zaaiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+		male_names = {
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso alvaro Baltasar 
+			Bernardo Bertran Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco Garcaa Gumez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laan Lope Miguel Nuao Odun Ramun Rodrigo Tomas Valeriano
+			Alfonso Alphonse Alonso Alphonse alvar Oliver alvaro Oliver Bermudo Vermudo Diego Diaco 
+			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
+			Egidius Guillin Guillermo Juan 
+			Lupo Luis Manrique Martan Martin Munio Ordoao 
+			Obeko Pelayo Pelagius Roderick Salvador 
+			Tello Vela Suero Oveco
+		}
+		female_names = {
+			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
+			Elvira Estefanaa Fronilda Gontroda Gotruda Inis Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda Maraa Marina Marine 
+			Mayor Mencaa Milia Emily Sancha Teresa Toda Urraca Isabela
+		}
+	}
+	unified_iberian = {
+		primary = ISP
 		dynasty_names = {
 			"de Trastamara" "de Guzman" "alvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
 			Tillez-Girun "Manrique de Lara" "de avalos" Enraquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcala"

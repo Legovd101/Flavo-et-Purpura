@@ -1,0 +1,640 @@
+SAB_sea_branch = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SAB } 
+
+	SAB_coastal_development = {
+		icon = mission_invade_island
+		position = 3
+		required_missions = { SAB_one_crown } 
+		provinces_to_highlight = {
+			has_port = yes
+			owned_by = ROOT
+		}
+
+		trigger = {
+			207 = {
+				owned_by = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+			1745 = {
+				owned_by = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = { has_port = yes } 
+				add_building = shipyard
+				galley = ROOT
+			}
+			add_country_modifier = {
+				name = "ship_building_boom"
+				duration = 9125
+			}
+		}
+	}
+
+	SAB_newfound_naval_prowess = {
+		icon = mission_conquer_andhra_bah
+		position = 4
+		required_missions = { SAB_coastal_development } 
+		provinces_to_highlight = {  } 
+
+		trigger = { navy_size_percentage = 0.9 } 
+
+		effect = { add_dip_power = 150 } 
+	}
+
+	SAB_iberian_dominance = {
+		icon = mission_dominate_home_trade_node
+		position = 5
+		required_missions = { SAB_newfound_naval_prowess } 
+		provinces_to_highlight = {  } 
+
+		trigger = { 4553 = { is_strongest_trade_power = ROOT }  } 
+
+		effect = { add_years_of_trade_income = { years = 3 }  } 
+	}
+}
+SAB_blank_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SAB } 
+
+}
+SAB_intro = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SAB } 
+
+	SAB_two_kingdoms = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		provinces_to_highlight = { owned_by = ASU } 
+
+		trigger = { ASU = { grown_by_development = 10 }  } 
+
+		effect = {
+			add_country_modifier = {
+				name = "two_kingdoms_one_crown"
+				duration = 18250
+			}
+		}
+	}
+
+	SAB_one_crown = {
+		icon = mission_crown_of_denmark
+		position = 2
+		required_missions = { SAB_two_kingdoms } 
+		provinces_to_highlight = { owned_by = ASU } 
+
+		trigger = { ASU = { exists = no }  } 
+
+		effect = { country_event = { id = flavor_SAB.2 }  } 
+	}
+
+	SAB_second_union = {
+		icon = hungarian_union
+		position = 3
+		required_missions = { SAB_one_crown } 
+		provinces_to_highlight = {
+			OR = {
+				province_id = 206
+				is_capital_of = LUS
+			}
+		}
+
+		trigger = {
+			is_at_war = no
+			OR = {
+				206 = { country_or_non_sovereign_subject_holds = ROOT } 
+				marriage_with = LUS
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { owns = 206 } 
+				set_country_flag = SAB_military_path
+				add_country_modifier = {
+					name = "military_efforts"
+					duration = 36500
+				}
+			}
+			else_if = {
+				limit = {
+					GAL = {
+						is_subject_of_type_with_overlord = {
+							who = SAB
+							type = personal_union
+						}
+					}
+				}
+				set_country_flag = SAB_sabaro_callia_path
+				add_country_modifier = {
+					name = "dual_monarchy"
+					duration = 36500
+				}
+			}
+			else_if = {
+				limit = { 206 = { owned_by = GAL }  } 
+				set_country_flag = SAB_diplomacy_path
+				add_country_modifier = {
+					name = "diplomatic_efforts"
+					duration = 36500
+				}
+			}
+			country_event = { id = flavor_SAB.6 } 
+		}
+	}
+}
+SAB_sabaro_callia_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		has_country_flag = SAB_sabaro_callia_path
+	}
+
+	SAB_royal_relations = {
+		icon = fra_develop_trade
+		position = 4
+		required_missions = { SAB_second_union } 
+		provinces_to_highlight = { is_capital_of = GAL } 
+
+		trigger = {
+			reverse_has_opinion = {
+				who = GAL
+				value = 200
+			}
+		}
+
+		effect = {
+			add_dip_power = 100
+			add_mil_power = 100
+			add_adm_power = 100
+		}
+	}
+
+	SAB_city_of_saint_james = {
+		icon = renaissance_city
+		position = 5
+		required_missions = { SAB_royal_relations } 
+		provinces_to_highlight = { province_id = 206 } 
+
+		trigger = {
+			206 = {
+				grown_by_development = 10
+				has_tax_building_trigger = yes
+			}
+		}
+
+		effect = {
+			206 = {
+				add_province_modifier = {
+					name = "city_of_st_james"
+					duration = 18250
+				}
+			}
+		}
+	}
+
+	SAB_southern_ports = {
+		icon = mission_galleys_in_port
+		position = 6
+		required_missions = { SAB_city_of_saint_james } 
+		provinces_to_highlight = { area = beieras_area } 
+
+		trigger = {
+			beieras_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_casus_belli = {
+				type = cb_restore_personal_union
+				target = NAV
+			}
+		}
+	}
+}
+SAB_sabaro_callia_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		has_country_flag = SAB_sabaro_callia_path
+	}
+
+	SAB_spreading_the_faith = {
+		icon = evengelize_the_faith
+		position = 5
+		required_missions = { SAB_royal_relations } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			NOT = {
+				any_province = {
+					NOT = { religion = arianism } 
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+
+		effect = {
+			define_advisor = {
+				type = inquisitor
+				cost_multiplier = 0.25
+			}
+		}
+	}
+
+	SAB_new_bishoprics = {
+		icon = influence_the_church
+		position = 6
+		required_missions = { SAB_spreading_the_faith } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				has_tax_building_trigger = yes
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "cohesion_of_the_faithful"
+				duration = -1
+			}
+		}
+	}
+}
+SAB_military_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		has_country_flag = SAB_military_path
+	}
+
+	SAB_preparing_for_war = {
+		icon = mission_great_northern_war
+		position = 4
+		required_missions = { SAB_second_union } 
+		provinces_to_highlight = {  } 
+
+		trigger = { is_rival = LUS } 
+
+		effect = { add_prestige = 15 } 
+	}
+
+	SAB_claim_western_ports = {
+		icon = mission_secure_hajj_ports
+		position = 5
+		required_missions = { SAB_preparing_for_war } 
+		provinces_to_highlight = { region = iberia_region } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				region = iberia_region
+			}
+		}
+
+		effect = {
+			basque_country = { add_permanent_claim = ROOT } 
+			castille_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	SAB_oldest_iberia = {
+		icon = mission_rb_scottish_the_darien_scheme
+		position = 6
+		required_missions = { SAB_claim_western_ports } 
+		provinces_to_highlight = { area = basque_country } 
+
+		trigger = {
+			basque_country = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			basque_country = {
+				add_province_modifier = {
+					name = "evangelical_system"
+					duration = 18250
+				}
+			}
+		}
+	}
+}
+SAB_military_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		has_country_flag = SAB_military_path
+	}
+
+	SAB_standing_army = {
+		icon = ven_standing_army_mission_2
+		position = 5
+		required_missions = { SAB_preparing_for_war } 
+		provinces_to_highlight = {  } 
+
+		trigger = { army_size_percentage = 1.0 } 
+
+		effect = { create_general = { tradition = 50 }  } 
+	}
+
+	SAB_army_leadership = {
+		icon = mission_lead_the_hakkapeliitta
+		position = 6
+		required_missions = { SAB_standing_army } 
+		provinces_to_highlight = {  } 
+
+		trigger = { army_professionalism = 0.05 } 
+
+		effect = {
+			add_country_modifier = {
+				name = "military_focus"
+				duration = -1
+			}
+		}
+	}
+}
+SAB_diplomacy_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		has_country_flag = SAB_diplomacy_path
+	}
+
+	SAB_pursuing_close_ties = {
+		icon = personal_diplomacy
+		position = 4
+		required_missions = { SAB_second_union } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			alliance_with = LUS
+			reverse_has_opinion = {
+				who = LUS
+				value = 200
+			}
+		}
+
+		effect = {
+			add_historical_friend = LUS
+			hidden_effect = {
+				force_remove_rival = NAV
+				NAV = { force_remove_rival = ROOT } 
+			}
+		}
+	}
+
+	SAB_protector_of_iberia = {
+		icon = mission_protect_granada
+		position = 5
+		required_missions = { SAB_pursuing_close_ties } 
+		provinces_to_highlight = { region = iberia_region } 
+
+		trigger = {
+			army_size = LUS
+			army_size = NAV
+		}
+
+		effect = { LUS = { country_event = { id = flavor_SAB.3 }  }  } 
+	}
+
+	SAB_approach_vasconia = {
+		icon = mission_subjugate_navarra
+		position = 6
+		required_missions = { SAB_protector_of_iberia } 
+		provinces_to_highlight = { area = basque_country } 
+
+		trigger = {
+			alliance_with = NAV
+			reverse_has_opinion = {
+				who = NAV
+				value = 150
+			}
+			NAV = {
+				trust = {
+					who = ROOT
+					value = 75
+				}
+			}
+		}
+
+		effect = { NAV = { country_event = { id = flavor_SAB.3 }  }  } 
+	}
+}
+SAB_diplomacy_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		has_country_flag = SAB_diplomacy_path
+	}
+
+	SAB_diplomatic_advice = {
+		icon = evengelize_the_faith
+		position = 5
+		required_missions = { SAB_pursuing_close_ties } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			advisor = diplomat
+			is_in_deficit = no
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "papal_legate"
+				duration = -1
+			}
+		}
+	}
+
+	SAB_turtling_up = {
+		icon = influence_the_church
+		position = 6
+		required_missions = { SAB_diplomatic_advice } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				has_fort_building_trigger = yes
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "fortification_effort"
+				duration = -1
+			}
+		}
+	}
+}
+SAB_branching_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		NOT = {
+			OR = {
+				has_country_flag = SAB_diplomacy_path
+				has_country_flag = SAB_military_path
+				has_country_flag = SAB_sabaro_callia_path
+			}
+		}
+	}
+
+	SAB_unknown_3_1 = {
+		icon = mission_unknown_mission
+		position = 4
+		required_missions = { SAB_second_union } 
+		provinces_to_highlight = {  } 
+
+		trigger = { always = no } 
+
+		effect = {  } 
+	}
+
+	SAB_unknown_3_2 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { SAB_unknown_3_1 } 
+		provinces_to_highlight = {  } 
+
+		trigger = { always = no } 
+
+		effect = {  } 
+	}
+
+	SAB_unknown_3_3 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { SAB_unknown_3_2 } 
+		provinces_to_highlight = {  } 
+
+		trigger = { always = no } 
+
+		effect = {  } 
+	}
+}
+SAB_branching_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = SAB
+		NOT = {
+			OR = {
+				has_country_flag = SAB_diplomacy_path
+				has_country_flag = SAB_military_path
+				has_country_flag = SAB_sabaro_callia_path
+			}
+		}
+	}
+
+	SAB_unknown_4_1 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { SAB_unknown_3_1 } 
+		provinces_to_highlight = {  } 
+
+		trigger = { always = no } 
+
+		effect = {  } 
+	}
+
+	SAB_unknown_4_2 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { SAB_unknown_4_1 } 
+		provinces_to_highlight = {  } 
+
+		trigger = { always = no } 
+
+		effect = {  } 
+	}
+}
+SAB_hispania = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SAB } 
+
+	SAB_unification = {
+		icon = mission_imperial_spain
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 210
+				province_id = 207
+				province_id = 206
+				province_id = 215
+				province_id = 227
+			}
+		}
+
+		trigger = { tag = ISP } 
+
+		effect = {
+			add_country_modifier = {
+				name = "iberian_unification"
+				duration = -1
+			}
+			country_event = { id = flavor_SAB.7 } 
+		}
+	}
+}
+SAB_blank_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SAB } 
+
+}
+SAB_blank_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SAB } 
+
+}

@@ -121,15 +121,3 @@
  a_colony_once_more: "A Colony Once More"
 
  # Events
-
- fep_iberian_flavor.9.t: "The Grand Feast in [Root.Capital.GetName]"
- fep_iberian_flavor.9.d: "To celebrate our newly-gained freedom, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has decided to hold a grand feast in [Root.Capital.GetName]. However, when raising the final toast, disaster struck as the wine the [Root.Monarch.GetTitle] drank caused [Root.Monarch.GetHerHim] to begin shaking violently before falling out of [Root.Monarch.GetHerHis] seat!"
- fep_iberian_flavor.9.a: ""H..Help.. me...""
-
- fep_iberian_flavor.10.t: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] wakes up from [Root.Monarch.GetHerHis] coma!"
- fep_iberian_flavor.10.d: "After a tense few days, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has woken up from [Root.Monarch.GetHerHis] unconscious state, claiming to have been sent a vision from God Himself! According to the vision, when Jesus referred to His cup of wine as His Blood at the last supper, he wasn't just making a metaphor, but was in fact blessing all grapes and the wine they produced! \n While many in the clergy have denounced this supposed vision as heretical, many in the alchemical crowd have claimed that the properties found in wine confirm [Root.Monarch.GetTitle] [Root.Monarch.GetName]'s vision, and that [Root.Monarch.GetHerHim] has in fact attained gnosis. Needless to say, massive changes have already been taken to ensure the spread of this new "Sangrist" sect."
- fep_iberian_flavor.10.a: "By His Blood, we shall be made pure!"
-
- fep_iberian_flavor.12.t: "An Empire of Red and White"
- fep_iberian_flavor.12.d: "Rome is ours. Constantinople is ours. From [206.GetName] to [364.GetName], the original vision set out all those years ago has finally come to fruition, allowing us to raise a final toast to our efforts."
- fep_iberian_flavor.12.a: "By His Blood, we have been made pure!"

@@ -10,6 +10,7 @@ primary_culture = barezangi
 technology_group = muslim
 unit_type = east_african
 religion = zoroastrian
+capital = 1201
 # Specific Effects #
 
 

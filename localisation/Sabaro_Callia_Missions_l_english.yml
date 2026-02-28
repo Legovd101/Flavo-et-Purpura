@@ -1,0 +1,89 @@
+﻿l_english:
+ SAB_western_monopoly_title: "Western Monopoly"
+ SAB_western_monopoly_desc: ""
+
+ SAB_marca_vasconica_title: "Marca Vasconica"
+ SAB_marca_vasconica_desc: ""
+
+ SAB_iberian_wall_title: "The Iberian Wall"
+ SAB_iberian_wall_desc: ""
+
+ SAB_royal_army_title: "A Royal Army"
+ SAB_royal_army_desc: ""
+
+ SAB_masters_of_goths_title: "Masters of the Goths"
+ SAB_masters_of_goths_desc: ""
+
+ SAB_masters_of_iberia_title: "Masters of Iberia"
+ SAB_masters_of_iberia_desc: ""
+
+ SAB_bases_of_operation_title: "Bases of Operation"
+ SAB_bases_of_operation_desc: ""
+
+ SAB_akesland_title: "Akesland"
+ SAB_akesland_desc: ""
+
+ SAB_discover_habithia_title: "Discover Habithia"
+ SAB_discover_habithia_desc: ""
+
+ SAB_grand_southern_isle_title: "A Grand Southern Isle"
+ SAB_grand_southern_isle_desc: ""
+
+ SAB_venture_valditha_title: "Venture Valditha"
+ SAB_venture_valditha_desc: ""
+
+ SAB_ports_of_call_title: "Ports of Call"
+ SAB_ports_of_call_desc: ""
+
+ SAB_escaping_the_mauri_title: "Escapin the Mauri"
+ SAB_escaping_the_mauri_desc: ""
+
+ SAB_reach_rominsel_title: "Reach Rominsel"
+ SAB_reach_rominsel_desc: ""
+
+ SAB_insular_atlantis_title: "Insular Atlantis"
+ SAB_insular_atlantis_desc: ""
+
+ SAB_making_of_mezwigo_title: "The Making of Mezwigo"
+ SAB_making_of_mezwigo_desc: ""
+
+ SAB_defend_the_colonies_title: "Defend the Colonies"
+ SAB_defend_the_colonies_desc: ""
+
+ SAB_core_crownlands_title: "Core Crownlands"
+ SAB_core_crownlands_desc: ""
+
+ SAB_lost_to_the_sea_title: "Lost to the Sea"
+ SAB_lost_to_the_sea_desc: ""
+
+ SAB_land_down_there_title: "The Land Down There"
+ SAB_land_down_there_desc: ""
+
+ SAB_new_callia_title: "Niw Callia"
+ SAB_new_callia_desc: ""
+
+ SAB_economic_capital_title: "Economic Capital"
+ SAB_economic_capital_desc: ""
+
+ SAB_holy_state_title: "A Holy State"
+ SAB_holy_state_desc: ""
+
+ SAB_cultural_centers_title: "Cultural Centers"
+ SAB_cultural_centers_desc: ""
+
+ SAB_royal_cabinet_title: "A Royal Cabinet"
+ SAB_royal_cabinet_desc: ""
+
+ SAB_atlantic_trade_title: "Atlantic Trade"
+ SAB_atlantic_trade_desc: ""
+
+ # Modifiers
+
+ conquest_of_paradise: "Conquest of Paradise"
+ strained_supplies: "Strained Supplies"
+ capital_economy: "Capital Economy"
+ masters_of_iberia: "Masters of Iberia"
+ thirst_for_adventure: "Thirst for Adventure"
+ riches_of_paradise: "Riches of Paradise"
+ crown_of_attasland: "Crown of Attasland"
+ royal_cabinet: "Royal Cabinet"

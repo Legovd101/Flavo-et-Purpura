@@ -66,6 +66,10 @@ country_decisions = {
 				sabaro_goth = { ISP = { override_country_name = ISP_sabarian } }
 				asturian = { ISP = { override_country_name = ISP_asturian } }
 			}
+			if = {
+				limit = { has_country_flag = SAB_sabaro_callia_path }
+				override_country_name = SABARO_CALLIA
+			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -85,6 +89,10 @@ country_decisions = {
 				duration = 7300
 			}
 			set_country_flag = formed_hispania_flag
+			every_subject_country = {
+				limit = { capital_scope = { region = iberia_region } is_subject_of_type = personal_union }
+				ROOT = { inherit = PREV }
+			}
 			if = {
 				limit = { has_country_flag = wine_wank }
 				every_subject_country = {
