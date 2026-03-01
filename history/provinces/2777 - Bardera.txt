@@ -1,30 +1,19 @@
 # Bardera
 # 2777 Bardera - 5/27/2025 4:57:02 PM 
- 
-add_core = AJU
 add_core = GLE
-owner = AJU
-controller = AJU
+owner = MDI
+controller = MDI
 base_tax = 1
 base_production = 1
 base_manpower = 1
-
 trade_goods = grain
-
 culture = somali
 religion = waaqeffanna
 capital = "Baardheere"
-
 is_city = yes
-
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###
+add_core = MDI

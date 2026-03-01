@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
-primary_culture = swahili
+primary_culture = madagasque
 religion = kikuyu_pagan
 technology_group = east_african
 unit_type = sub_saharan

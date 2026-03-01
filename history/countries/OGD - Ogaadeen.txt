@@ -1,5 +1,5 @@
-government = tribal
-add_government_reform = tribal_despotism
+government = theocracy
+add_government_reform = ajuuraan_theocracy_reform
 technology_group = east_african
 unit_type = sub_saharan
 religion = waaqeffanna
@@ -15,4 +15,4 @@ religious_school = shafii_school
 		mil = 2
 	}
 }
-government_rank = 1
+government_rank = 2

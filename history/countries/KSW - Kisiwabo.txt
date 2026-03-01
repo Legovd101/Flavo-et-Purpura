@@ -1,0 +1,7 @@
+religion = vaishnavism
+capital = 4049
+technology_group = east_african
+primary_culture = swahili
+government_rank = 1
+government = tribal
+add_government_reform = steppe_horde

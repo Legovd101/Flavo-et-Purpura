@@ -1594,7 +1594,7 @@ iberian	= {
 	sabarian = {
 		primary = SAB
 		dynasty_names = {
-			"Shamulogul" "Carmanagul" "Jelamengul" "Legbalígul" "Palenchogul"
+			"Shamulogul" "Carmanagul" "Jelamengul" "Legbalígul" "Palenchogul" "Tomanid"
 		}
 		male_names = {
 			Oshmano Orano Emarigo Barinado Yojan Pilip Aleponsh Carros Sencho Ramiro Petro Jalonsh Albardo Balchas 
@@ -10046,6 +10046,21 @@ southern_african = {
 	}
 	shona = {
 		primary = ZIM
+		dynasty_names = { 
+			Mwenemutapa Rozwi Mutopa
+		}
+		male_names = {
+			Mbire Matope Mavura Mukombero Changamire Kakuyo Neshangwe Chivere Chirisamhuru Gatsi Nyambo Siti 
+			Kamborapasu Dombo Chinkura Nechisake Nechagadzike Mambo Rupanadamananga Gumboremvura Toloa Matuzvianye 
+			Mukombwe Nyamhandu Basvi Tohwechipi Nyatsimba Ngwato Molwa Tamasiga Seogola Mucombo Inhamunda Ningomoxa 
+			Chiraramuro Chombo Peranhe Chicanga Nyacuimbiri Samutumbu Mupunzagutu Gowera Nyarumwe
+		}
+		female_names = {
+			Achieng Nuru
+		}
+	}
+	lemba = {
+		primary = ISI
 		dynasty_names = { 
 			Mwenemutapa Rozwi Mutopa
 		}

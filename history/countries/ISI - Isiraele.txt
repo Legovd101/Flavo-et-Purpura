@@ -1,0 +1,7 @@
+religion = chichewa_pagan
+capital = 4040
+technology_group = east_african
+primary_culture = lemba
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2

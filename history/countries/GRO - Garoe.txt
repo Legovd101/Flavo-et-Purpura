@@ -1,0 +1,7 @@
+religion = nestorian
+capital = 2024
+technology_group = east_african
+primary_culture = madagasque
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1

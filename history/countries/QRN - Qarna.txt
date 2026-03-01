@@ -1,0 +1,7 @@
+religion = arab_pagan
+capital = 2788
+technology_group = muslim
+primary_culture = yemeni
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1

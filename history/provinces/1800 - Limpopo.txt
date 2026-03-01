@@ -1,26 +1,19 @@
 # Lower Limpopo
 # 1800 Lower Limpopo - 5/27/2025 4:57:02 PM 
- 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-
 trade_goods = unknown
-
 culture = nguni
 religion = swahili_pagan
 capital = "Gaza"
-
 native_size = 70
-native_ferocity =  4
+native_ferocity = 4
 native_hostileness = 9
-
 discovered_by = east_african
 discovered_by = central_african
-
-
-
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###
+add_core = GZI
+owner = GZI
+controller = GZI
+is_city = no

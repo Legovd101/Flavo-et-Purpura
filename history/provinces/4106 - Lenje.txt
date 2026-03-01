@@ -1,25 +1,18 @@
 # Lenje
 # 4106 Lenje - 5/27/2025 4:57:02 PM 
- 
 base_tax = 1
 base_production = 1
 base_manpower = 1
-
 trade_goods = unknown
-
 culture = bemba
 religion = shamanism
 capital = "Lenje"
-
 native_size = 40
-native_ferocity =  4
+native_ferocity = 4
 native_hostileness = 9
-
 discovered_by = central_african
-
-
-
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###
+add_core = GZI
+owner = GZI
+controller = GZI
+is_city = no
