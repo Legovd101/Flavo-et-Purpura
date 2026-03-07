@@ -19,4 +19,9 @@ spriteTypes = {
 		name = "GFX_great_project_danevirke"
 		texturefile = "gfx/interface/great_projects/great_project_danevirke.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_mausoleum_of_badis"
+		texturefile = "gfx/interface/great_projects/great_project_mausoleum_of_badis.dds"
+	}
 }

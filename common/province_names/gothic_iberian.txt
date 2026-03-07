@@ -1,61 +1,93 @@
+## IBERIA
+
+# Toledo
 219 = {"Tolito" "Tolito"}
-218 = {"Pacsenburgs" "Pacsenburgs"}
-1747 = {"Kaisarja" "Kaisarja"}
-224 = {"Isballis" "Isballis"}
-1749 = {"Catiz" "Catiz"}
-4150 = {"Ebor" "Ebor"}
-1748 = {"Gaenja" "Gaenja"}
-4550 = {"Castela" "Castela"}
-227 = {"Olispen" "Olispen"}
-231 = {"Haven" "Haven"}
-225 = {"Cartub" "Cartub"}
-4788 = {"Ambroz" "Ambroz"}
-229 = {"Pacs" "Pacs"}
-4548 = {"Nuben" "Nuben"}
 2754 = {"Reccopelis" "Reccopelis"}
-4551 = {"Abelburgs" "Abelburgs"}
 2751 = {"Conisburgs" "Conisburgs"}
-217 = {"Magadrid" "Magadrid"}
-4789 = {"Segobigas" "Segobigas"}
-2755 = {"Sorra" "Sorra"}
-2990 = {"Turmen" "Turmen"}
-4557 = {"Bilbelen" "Bilbelen"}
-2989 = {"Beriogen" "Beriogen"}
-228 = {"Bizen" "Bizen"}
-1851 = {"Konimburgs" "Konimburgs"}
-4556 = {"Aberen" "Aberen"}
-4787 = {"Ufartagen" "Ufartagen"}
-230 = {"Liuvgeldern" "Liuvgeldern"}
-226 = {"Monskappe" "Monskappe"}
-4546 = {"Manacja" "Manacja"}
-223 = {"Ilibernes" "Ilibernes"}
-222 = {"Pecten" "Pecten"}
-221 = {"Myrtja" "Myrtja"}
 4547 = {"Ilunja" "Ilunja"}
-4549 = {"Setaben" "Setaben"}
+221 = {"Myrtja" "Myrtja"}
+
+# Valencia
 220 = {"Valensja" "Valensja"}
+4550 = {"Castela" "Castela"}
+1750 = {"Lukesburgs" "Lukesburgs"}
+4549 = {"Setaben" "Setaben"}
+
+# Catalonia
 2988 = {"Targon" "Targon"}
 213 = {"Barceno" "Barceno"}
 212 = {"Gerinden" "Gerinden"}
 197 = {"Russeno" "Russeno"}
 2987 = {"Ilerdaland" "Ilerdaland"}
+
+# Aragon
 214 = {"Saldenis" "Saldenis"}
 211 = {"Hwaskenburgs" "Hwaskenburgs"}
+2990 = {"Turmen" "Turmen"}
+4557 = {"Bilbelen" "Bilbelen"}
+
+# Vasconia
+2989 = {"Beriogen" "Beriogen"}
 210 = {"Pompelona" "Pompelona"}
 209 = {"Mondaka" "Mondaka"}
+
+# South Castile
+4551 = {"Abelburgs" "Abelburgs"}
+217 = {"Magadrid" "Magadrid"}
+4789 = {"Segobigas" "Segobigas"}
+2755 = {"Sorra" "Sorra"}
+
+# North Castile
 1745 = {"Kantabrja" "Kantabrja"}
-207 = {"Asturja" "Asturja"}
+1746 = {"Burgs" "Burgs"}
 4552 = {"Palentja" "Palentja"}
 215 = {"Valtolida" "Valtolida"}
+
+# Leon
+207 = {"Asturja" "Asturja"}
 208 = {"Legionburgs" "Legionburgs"}
 4553 = {"Semura" "Semura"}
 216 = {"Hermandice" "Hermandice"}
-232 = {"Burgansja" "Burgansja"}
+
+# Galicia
 4558 = {"Vestres" "Vestres"}
 4554 = {"Lucenza" "Lucenza"}
 206 = {"Grungen" "Grungen"}
 4555 = {"Gronpunta" "Gronpunta"}
+
+# Beiras
+231 = {"Haven" "Haven"}
+232 = {"Burgansja" "Burgansja"}
+228 = {"Bizen" "Bizen"}
+1851 = {"Konimburgs" "Konimburgs"}
+4556 = {"Aberen" "Aberen"}
+
+# Alentejo
+227 = {"Olispen" "Olispen"}
+4150 = {"Ebor" "Ebor"}
+229 = {"Pacs" "Pacs"}
+4787 = {"Ufartagen" "Ufartagen"}
+230 = {"Liuvgeldern" "Liuvgeldern"}
+
+# Extremadura
+218 = {"Pacsenburgs" "Pacsenburgs"}
+1747 = {"Kaisarja" "Kaisarja"}
+4788 = {"Ambroz" "Ambroz"}
+
+# Lower Andalucia
+224 = {"Isballis" "Isballis"}
+1749 = {"Catiz" "Catiz"}
+1748 = {"Gaenja" "Gaenja"}
+225 = {"Cartub" "Cartub"}
+4548 = {"Nuben" "Nuben"}
+
+# Upper Andalucia
+226 = {"Monskappe" "Monskappe"}
+4546 = {"Manacja" "Manacja"}
+223 = {"Ilibernes" "Ilibernes"}
+222 = {"Pecten" "Pecten"}
+
+# Baleares
 4560 = {"Eviz" "Eviz"}
 333 = {"Malorcis" "Malorcis"}
 4559 = {"Minorcis" "Minorcis"}
-1750 = {"Lukesburgs" "Lukesburgs"}

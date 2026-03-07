@@ -305,6 +305,7 @@ papal_subjugation = {
 		overlord_of = PAP
 		NOT = { tag = ITA }
 		NOT = { tag = HLR }
+		NOT = { mission_completed = ZNG_italian_ambitions }
 		if = {
 			limit = {
 				is_emperor = yes

@@ -1,4 +1,4 @@
-# Baltic Sea
+## BALTIC
 
 # Schleswig-Holstein
 1775 = {"Holcstat" "Holcstat"}
@@ -34,7 +34,7 @@
 2997 = {"Tuscel" "Tuscel"}
 1841 = {"Meareburh" "Meareburh"}
 
-# Balkans
+## BALKANS
 
 # Gallipoli
 151 = {"Myclaburh" "Myclaburh"}

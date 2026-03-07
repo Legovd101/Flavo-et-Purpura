@@ -14,6 +14,8 @@ culture = african_greek
 religion = mauri_pagan
 capital = "Murzuk"
 
+center_of_trade = 2
+
 is_city = yes
 
 discovered_by = western

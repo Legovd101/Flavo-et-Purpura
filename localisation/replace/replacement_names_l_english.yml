@@ -1,7 +1,4 @@
 ﻿l_english:
- latin: "Latinic"
- carpathian: "Pannonian"
- georgian: "Kartli"
  NAV: "Waskonia"
  NAV_ADJ: "Vasconian"
  MIK: "Akadie"
@@ -187,6 +184,9 @@
  KOR_ADJ: "Joseon"
  KOR_ADJ2: "Joseon"
 
+ latin: "Latinic"
+ carpathian: "Pannonian"
+ georgian: "Kartli"
  chimin: "Banlam"
  zhuang: "Cuengh"
  miao: "Hmong"

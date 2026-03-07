@@ -1,0 +1,19 @@
+libya_litoralis = {
+	local_fort_maintenance_modifier = -0.5
+	local_garrison_size = 0.25
+}
+
+tenesian_trade = {
+	local_development_cost_modifier = -0.25
+	local_build_cost = -0.25
+}
+
+subduing_numidii = {
+	global_unrest = -3
+	years_of_nationalism = -5
+}
+
+new_world_charters = {
+	colony_cost_modifier = -0.25
+	colony_development_boost = 1
+}

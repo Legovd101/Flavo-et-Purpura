@@ -1,0 +1,808 @@
+ZNG_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ZNG } 
+
+	ZNG_up_to_standard = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = { army_size_percentage = 1.0 } 
+
+		effect = {
+			add_country_modifier = {
+				name = "c_a_preparing_for_war"
+				duration = 18250
+			}
+			ouled_nail_area = { add_permanent_claim = ROOT } 
+			north_saharan_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_desert_border = {
+		icon = mission_sw_against_the_desert
+		position = 2
+		required_missions = { ZNG_up_to_standard } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			ouled_nail_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_saharan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			fezzan_area = { add_permanent_claim = ROOT } 
+			tripolitania_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_libya_litoralis = {
+		icon = mission_defeat_mewar
+		position = 3
+		required_missions = { ZNG_desert_border } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			fezzan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tripolitania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			fezzan_area = {
+				add_province_modifier = {
+					name = "libya_litoralis"
+					duration = 18250
+				}
+			}
+			tripolitania_area = {
+				add_province_modifier = {
+					name = "libya_litoralis"
+					duration = 18250
+				}
+			}
+		}
+	}
+
+	ZNG_triple_cities_of_libya = {
+		icon = mission_pue_sky_city
+		position = 4
+		required_missions = { ZNG_libya_litoralis } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			fezzan_area = {
+				type = all
+				num_of_times_improved_by_owner = 5
+			}
+			tripolitania_area = {
+				type = all
+				num_of_times_improved_by_owner = 5
+			}
+		}
+
+		effect = {
+			2474 = {
+				if = {
+					limit = { is_empty = yes } 
+					add_siberian_construction = 300
+				}
+				else = { add_permanent_claim = ROOT } 
+			}
+			east_azbin_area = { add_permanent_claim = ROOT } 
+			azbin_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_cross_the_tenes = {
+		icon = mission_saharan_route
+		position = 5
+		required_missions = { ZNG_triple_cities_of_libya } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			east_azbin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			azbin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			watusa_area = { add_permanent_claim = ROOT } 
+			bornu_area = { add_permanent_claim = ROOT } 
+			kanem_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_great_southern_lake = {
+		icon = mission_ne_great_lakes_conquest
+		position = 6
+		required_missions = { ZNG_cross_the_tenes } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			watusa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bornu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kanem_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			watusa_area = {
+				add_province_modifier = {
+					name = "tenesian_trade"
+					duration = -1
+				}
+			}
+			sahel_region = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_secure_tenesian_trade = {
+		icon = mission_conquer_kanem_bornu
+		position = 8
+		required_missions = { ZNG_great_southern_lake } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			1157 = {
+				num_of_times_improved_by_owner = 10
+				has_tax_building_trigger = yes
+				has_trade_building_trigger = yes
+			}
+			1158 = {
+				num_of_times_improved_by_owner = 10
+				has_tax_building_trigger = yes
+				has_trade_building_trigger = yes
+			}
+		}
+
+		effect = { add_years_of_trade_income = { years = 3 }  } 
+	}
+
+	ZNG_badis_resting_place = {
+		icon = byz_reinforce_constantinople
+		position = 11
+		required_missions = { ZNG_monument_to_greatness } 
+		provinces_to_highlight = {  } 
+
+		trigger = { 2984 = { has_tax_building_trigger = yes }  } 
+
+		effect = {
+			2984 = {
+				add_great_project_tier = {
+					type = mausoleum_of_badis
+					tier = 1
+				}
+			}
+		}
+	}
+
+	ZNG_control_the_straits = {
+		icon = mission_portuguese_malacca
+		position = 14
+		required_missions = { ZNG_merchants_of_hispalis } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				same_trade_node_as = 1293
+				province_has_center_of_trade_of_level = 1
+				num_of_times_improved_by_owner = 10
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "new_world_charters"
+				duration = 36500
+			}
+		}
+	}
+}
+ZNG_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ZNG } 
+
+	ZNG_desert_fortifications = {
+		icon = mission_city_of_the_world's_desire
+		position = 4
+		required_missions = { ZNG_libya_litoralis } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			2448 = { has_fort_building_trigger = yes } 
+			355 = { has_fort_building_trigger = yes } 
+			354 = { has_fort_building_trigger = yes } 
+		}
+
+		effect = { cyrenaica_area = { add_permanent_claim = ROOT }  } 
+	}
+
+	ZNG_tenesian_trade = {
+		icon = mission_traverse_the_sahara
+		position = 7
+		required_missions = { ZNG_great_southern_lake } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				region = sahel_region
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "spa_rb_gold_rush"
+				duration = -1
+			}
+		}
+	}
+
+	ZNG_monument_to_greatness = {
+		icon = per_tim_legacy_of_timur
+		position = 10
+		provinces_to_highlight = {  } 
+
+		trigger = { 2984 = { num_of_times_improved = 7 }  } 
+
+		effect = {
+			calabria_area = { add_permanent_claim = ROOT } 
+			naples_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_merchants_of_hispalis = {
+		icon = spa_dominate_sevilla
+		position = 13
+		provinces_to_highlight = {  } 
+
+		trigger = { 1293 = { has_merchant = ROOT }  } 
+
+		effect = {
+			every_province = {
+				limit = {
+					same_trade_node_as = 1293
+					province_has_center_of_trade_of_level = 1
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ZNG_musqit_charter = {
+		icon = mission_northumberland_coast
+		position = 15
+		required_missions = {
+			ZNG_control_the_straits
+			ZNG_muretanyan_ports
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				region = central_america_region
+			}
+		}
+
+		effect = { central_america_region = { add_permanent_claim = ROOT }  } 
+	}
+}
+ZNG_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ZNG } 
+
+	ZNG_capital_base = {
+		icon = develop_our_capital
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			341 = { development = 15 } 
+			2473 = { development = 15 } 
+			2455 = { development = 15 } 
+		}
+
+		effect = {
+			kabylia_area = { add_permanent_claim = ROOT } 
+			tunisia_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_dominate_numidia = {
+		icon = mission_control_the_barbary_coast
+		position = 2
+		required_missions = { ZNG_capital_base } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			kabylia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tunisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "subduing_numidii"
+				duration = 18250
+			}
+		}
+	}
+
+	ZNG_carthaginian_christianity = {
+		icon = mission_land_of_churches
+		position = 3
+		required_missions = { ZNG_dominate_numidia } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			capital_scope = {
+				has_tax_building_trigger = yes
+				development = 20
+			}
+		}
+
+		effect = {
+			capital_scope = {
+				add_province_modifier = {
+					name = "capital_boom"
+					duration = -1
+				}
+			}
+		}
+	}
+
+	ZNG_coast_of_cyrenaica = {
+		icon = mission_rb_mediterranean_authority
+		position = 5
+		required_missions = {
+			ZNG_desert_fortifications
+			ZNG_carthaginian_christianity
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			cyrenaica_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { delta_area = { add_permanent_claim = ROOT }  } 
+	}
+
+	ZNG_egyptian_riches = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 6
+		required_missions = { ZNG_coast_of_cyrenaica } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			delta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "tur_egyptian_annexation"
+				duration = 18250
+			}
+		}
+	}
+
+	ZNG_city_of_alexander = {
+		icon = mission_occupy_alexandria
+		position = 8
+		required_missions = { ZNG_egyptian_riches } 
+		provinces_to_highlight = {  } 
+
+		trigger = { 358 = { num_free_building_slots = 0 }  } 
+
+		effect = { egypt_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ZNG_papal_approval = {
+		icon = sway_the_pope
+		position = 10
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			reverse_has_opinion = {
+				who = PAP
+				value = 150
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					owner = { is_in_latin_league = yes } 
+					is_capital = yes
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ZNG_dethrone_the_rector = {
+		icon = overshadow_venice
+		position = 11
+		required_missions = {
+			ZNG_monument_to_greatness
+			ZNG_papal_approval
+			ZNG_naval_dominance
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { event_target:current_rector = { capital_scope = { controlled_by = ROOT }  }  } 
+
+		effect = {
+			every_country = {
+				limit = { is_subject_of_type = league_member } 
+				grant_independence = yes
+			}
+			italy_region = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_italian_ambitions = {
+		icon = mission_rule_italy
+		position = 12
+		required_missions = {
+			ZNG_badis_resting_place
+			ZNG_dethrone_the_rector
+			ZNG_unseat_genoa
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = italy_region
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "italian_ambition_modifier"
+				duration = -1
+			}
+			if = {
+				limit = {
+					exists = PAP
+					PAP = { ai = yes }
+				}
+				vassalize = PAP
+				PAP = { override_country_name = KINGDOM_OF_GOD }
+				central_italy_area = { add_core = PAP }
+				tuscany_area = { add_core = PAP }
+			}
+		}
+	}
+
+	ZNG_muretanyan_ports = {
+		icon = mission_portuguese_oman
+		position = 14
+		required_missions = { ZNG_merchants_of_hispalis } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				same_trade_node_as = 1110
+				province_has_center_of_trade_of_level = 1
+				num_of_times_improved_by_owner = 10
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "gbr_exploration_spirit"
+				duration = 36500
+			}
+		}
+	}
+}
+ZNG_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ZNG } 
+
+	ZNG_bona_fide = {
+		icon = renaissance_city
+		position = 3
+		required_missions = {
+			ZNG_dominate_numidia
+			ZNG_southern_buffer
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { 1882 = { num_of_times_improved_by_owner = 10 }  } 
+
+		effect = {
+			1882 = { center_of_trade = 1 } 
+			hautes_plaines_area = { add_permanent_claim = ROOT } 
+			barbary_coast_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_coastal_control = {
+		icon = mission_eastern_european_city
+		position = 4
+		required_missions = { ZNG_bona_fide } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			hautes_plaines_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			barbary_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			baleares_area = { add_permanent_claim = ROOT } 
+			northern_morocco_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_balearic_belligerence = {
+		icon = mission_mediterranean_islands
+		position = 5
+		required_missions = { ZNG_coastal_control } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			baleares_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			baleares_area = {
+				add_core = ROOT
+				add_or_upgrade_tax_building = yes
+			}
+		}
+	}
+
+	ZNG_naval_dominance = {
+		icon = mission_naval_dominance
+		position = 10
+		provinces_to_highlight = {  } 
+
+		trigger = { navy_size_percentage = 1.0 } 
+
+		effect = {
+			corsica_area = { add_permanent_claim = ROOT } 
+			liguria_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_azrefqal_charter = {
+		icon = mission_colonise_brazil
+		position = 15
+		required_missions = { ZNG_muretanyan_ports } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				superregion = south_america_superregion
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "ven_wealth_of_the_new_world_modifier"
+				duration = -1
+			}
+		}
+	}
+}
+ZNG_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ZNG } 
+
+	ZNG_southern_coast = {
+		icon = mission_secure_the_malabar_coast
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			353 = { development = 5 } 
+			2954 = { development = 5 } 
+			2453 = { development = 5 } 
+		}
+
+		effect = { djerba_area = { add_permanent_claim = ROOT }  } 
+	}
+
+	ZNG_southern_buffer = {
+		icon = mission_northumberland_coast
+		position = 2
+		required_missions = { ZNG_southern_coast } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			djerba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "MUG_trade_fleets"
+				duration = -1
+			}
+		}
+	}
+
+	ZNG_cast_down_gaetulia = {
+		icon = mission_moroccan_ports
+		position = 4
+		required_missions = { ZNG_bona_fide } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			war_score_against = {
+				who = GAE
+				value = 90
+			}
+		}
+
+		effect = {
+			white_peace = GAE
+			vassalize = GAE
+			every_province = {
+				limit = {
+					has_port = yes
+					owned_by = GAE
+				}
+				cede_province = ROOT
+			}
+		}
+	}
+
+	ZNG_southern_pillar = {
+		icon = mission_reconquer_ceuta
+		position = 5
+		required_missions = { ZNG_coastal_control } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			northern_morocco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { maghreb_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ZNG_hold_the_straits = {
+		icon = mission_retake_ceuta
+		position = 6
+		required_missions = { ZNG_southern_pillar } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			1751 = { num_of_times_improved_by_owner = 5 } 
+			334 = { num_of_times_improved_by_owner = 5 } 
+		}
+
+		effect = {
+			lower_andalucia_area = { add_permanent_claim = ROOT } 
+			upper_andalucia_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_northern_pillar = {
+		icon = mission_reclaim_andalucia
+		position = 8
+		required_missions = { ZNG_hold_the_straits } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			upper_andalucia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_andalucia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "mor_andalucian_moors"
+				duration = -1
+			}
+			catalonia_area = { add_permanent_claim = ROOT } 
+			valencia_area = { add_permanent_claim = ROOT } 
+			toledo_area = { add_permanent_claim = ROOT } 
+			extremadura_area = { add_permanent_claim = ROOT } 
+			alentejo_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ZNG_unseat_genoa = {
+		icon = mission_dominate_genoa
+		position = 11
+		required_missions = { ZNG_naval_dominance } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			liguria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			corsica_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "mediterranean_ambition"
+				duration = -1
+			}
+			provence_area = { add_permanent_claim = ROOT } 
+			languedoc_area = { add_permanent_claim = ROOT } 
+		}
+	}
+}
