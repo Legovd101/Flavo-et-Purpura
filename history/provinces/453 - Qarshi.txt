@@ -1,6 +1,5 @@
 # Qarshi
 # 453 Qarshi - 5/27/2025 4:57:01 PM 
- 
 add_core = TRS
 add_core = ILK
 owner = ILK
@@ -8,28 +7,14 @@ controller = ILK
 base_tax = 1
 base_production = 1
 base_manpower = 2
-
 trade_goods = cotton
-
-culture = hayadkim
-religion = jewish
+culture = sogdian
+religion = manichaean
 capital = "Qarshi"
-
 is_city = yes
-
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
-
-
-
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
-
-
-
 ### Modified 5/27/2025 4:57:01 PM ###

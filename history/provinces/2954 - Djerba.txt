@@ -1,6 +1,5 @@
 # Djerba
 # 2954 Djerba - 5/27/2025 4:57:02 PM 
- 
 add_core = TRP
 add_core = ZNG
 owner = ZNG
@@ -8,30 +7,16 @@ controller = ZNG
 base_tax = 1
 base_production = 1
 base_manpower = 1
-
 center_of_trade = 1
 trade_goods = purpura
 extra_cost = 8
-
-culture = kartagim
-religion = jewish
+culture = zenata
+religion = west_orthodox
 capital = "Djerba"
-
 is_city = yes
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###
+fort_15th = yes

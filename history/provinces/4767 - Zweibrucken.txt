@@ -1,33 +1,18 @@
 # Zweibrücken
 # 4767 Zweibrücken - 5/27/2025 4:57:02 PM 
- 
 add_core = TRI
 owner = TRI
 controller = TRI
 base_tax = 3
 base_production = 3
 base_manpower = 2
-
 trade_goods = cloth
-
-culture = yekkim
-religion = jewish
+culture = alemannic
+religion = arianism
 capital = "Zweibrücken"
-
 is_city = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###

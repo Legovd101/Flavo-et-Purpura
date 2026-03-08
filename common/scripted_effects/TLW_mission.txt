@@ -1,0 +1,135 @@
+TLW_jewish_loan_add_effect = {
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan_calc
+				value = 1000
+			}
+		}
+		add_treasury = 1000
+		change_variable = {
+			which = jewish_community_loan_calc
+			value = -1000
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan_calc
+				value = 100
+			}
+		}
+		add_treasury = 100
+		change_variable = {
+			which = jewish_community_loan_calc
+			value = -100
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan_calc
+				value = 10
+			}
+		}
+		add_treasury = 10
+		change_variable = {
+			which = jewish_community_loan_calc
+			value = -10
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan_calc
+				value = 1
+			}
+		}
+		add_treasury = 1
+		change_variable = {
+			which = jewish_community_loan_calc
+			value = -1
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan_calc
+				value = 0.1
+			}
+		}
+		add_treasury = 0.1
+		change_variable = {
+			which = jewish_community_loan_calc
+			value = -0.1
+		}
+	}
+}
+
+TLW_jewish_loan_pay_effect = {
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan
+				value = 1000
+			}
+		}
+		add_treasury = -1000
+		change_variable = {
+			which = jewish_community_loan
+			value = -1000
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan
+				value = 100
+			}
+		}
+		add_treasury = -100
+		change_variable = {
+			which = jewish_community_loan
+			value = -100
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan
+				value = 10
+			}
+		}
+		add_treasury = -10
+		change_variable = {
+			which = jewish_community_loan
+			value = -10
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan
+				value = 1
+			}
+		}
+		add_treasury = -1
+		change_variable = {
+			which = jewish_community_loan
+			value = -1
+		}
+	}
+	while = {
+		limit = {
+			check_variable = {
+				which = jewish_community_loan
+				value = 0.1
+			}
+		}
+		add_treasury = -0.1
+		change_variable = {
+			which = jewish_community_loan
+			value = -0.1
+		}
+	}
+}

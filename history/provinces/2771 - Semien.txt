@@ -24,10 +24,6 @@ discovered_by = indian
 
 
 
-add_permanent_province_modifier = {
-	name = local_jewish_community
-	duration = -1
-}
 
 
 

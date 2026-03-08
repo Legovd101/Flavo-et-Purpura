@@ -1,0 +1,22 @@
+namespace = tlw_start
+
+# Startup Setup
+country_event = {
+	id = tlw_start.0
+	title = tlw_start.0.t
+	desc = tlw_start.0.d
+	picture = CULTURE_eventPicture  
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = tlw_start.0.a
+		# Hellenic Empire
+		country_event = {
+			id = tlw_jewish.5
+			days = 5
+		}
+	}
+}

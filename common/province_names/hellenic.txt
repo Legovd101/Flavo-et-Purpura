@@ -1,129 +1,195 @@
 # Iberia
+## IBERIA
+
+# Toledo
 219 = {"Toledom" "Toledom"}
-218 = {"Emerita" "Emerita"}
-1747 = {"Kaisareia" "Kaisareia"}
-224 = {"Ispalis" "Ispalis"}
-1749 = {"Gadeira" "Gadeira"}
-4150 = {"Eborakon" "Eborakon"}
-1748 = {"Gaion" "Gaion"}
-4550 = {"Kastropolis" "Kastropolis"}
-227 = {"Ulyssibon" "Ulyssibon"}
-231 = {"Portos Limen" "Portos Limen"}
-225 = {"Kordybe" "Kordybe"}
-4788 = {"Ambrosia" "Ambrosia"}
-229 = {"Augousta" "Augousta"}
-4548 = {"Onoba" "Onoba"}
 2754 = {"Arriaka" "Arriaka"}
-4551 = {"Abela" "Abela"}
 2751 = {"Arkavika" "Arkavika"}
-217 = {"Miakon" "Miakon"}
-4789 = {"Segoubeia" "Segoubeia"}
-2755 = {"Ouria" "Ouria"}
-2990 = {"Turboleton" "Turboleton"}
-4557 = {"Bilbilion" "Bilbilion"}
-2989 = {"Rigon" "Rigon"}
-228 = {"Visseia" "Visseia"}
-1851 = {"Aeminion" "Aeminion"}
-4556 = {"Aberion" "Aberion"}
-4787 = {"Patagoseia" "Patagoseia"}
-230 = {"Kynetion" "Kynetion"}
-226 = {"Herakleion" "Herakleion"}
-4546 = {"Mainake" "Mainake"}
-223 = {"Iliberis" "Iliberis"}
-222 = {"Piktenon" "Piktenon"}
-221 = {"Murtion" "Murtion"}
 4547 = {"Alaba" "Alaba"}
-4549 = {"Saitabon" "Saitabon"}
+221 = {"Spartareia" "Spartareia"}
+
+# Valencia
 220 = {"Oualentia" "Oualentia"}
+4550 = {"Kastropolis" "Kastropolis"}
+1750 = {"Akra Leuke" "Akra Leuke"}
+4549 = {"Saitabon" "Saitabon"}
+
+# Catalonia
 2988 = {"Tarraga" "Tarraga"}
 213 = {"Barkinon" "Barkinon"}
 212 = {"Gerounda" "Gerounda"}
 197 = {"Rouskinon" "Rouskinon"}
 2987 = {"Ourgellon" "Ourgellon"}
+
+# Aragon
 214 = {"Sadouka" "Sadouka"}
 211 = {"Oska" "Oska"}
+2990 = {"Turboleton" "Turboleton"}
+4557 = {"Bilbilion" "Bilbilion"}
+
+# Vasconia
+2989 = {"Rigon" "Rigon"}
 210 = {"Pompeiopolis" "Pompeiopolis"}
 209 = {"Ouaskonia" "Ouaskonia"}
+
+# South Castile
+4551 = {"Abela" "Abela"}
+217 = {"Miakon" "Miakon"}
+4789 = {"Segoubeia" "Segoubeia"}
+2755 = {"Ouria" "Ouria"}
+
+# North Castile
 1745 = {"Kantabria" "Kantabria"}
-207 = {"Asturia" "Asturia"}
+1746 = {"Kastron" "Kastron"}
 4552 = {"Pallantia" "Pallantia"}
 215 = {"Vallis Toliton" "Vallis Toliton"}
+
+# Leon
+207 = {"Asturia" "Asturia"}
 208 = {"Galbiana" "Galbiana"}
 4553 = {"Okelodouron" "Okelodouron"}
 216 = {"Hermandike" "Hermandike"}
-232 = {"Breganike" "Breganike"}
+
+# Galicia
 4558 = {"Bourgas" "Bourgas"}
-1746 = {"Kastron" "Kastron"}
 4554 = {"Loukenses" "Loukenses"}
 206 = {"Brigantion" "Brigantion"}
 4555 = {"Pons Vetera" "Pons Vetera"}
+
+# Beiras
+231 = {"Portos Limen" "Portos Limen"}
+232 = {"Breganike" "Breganike"}
+228 = {"Visseia" "Visseia"}
+1851 = {"Aeminion" "Aeminion"}
+4556 = {"Aberion" "Aberion"}
+
+# Alentejo
+227 = {"Ulyssibon" "Ulyssibon"}
+4150 = {"Eborakon" "Eborakon"}
+229 = {"Augousta" "Augousta"}
+4787 = {"Patagoseia" "Patagoseia"}
+230 = {"Kynetion" "Kynetion"}
+
+# Extremadura
+218 = {"Emerita" "Emerita"}
+1747 = {"Kaisareia" "Kaisareia"}
+4788 = {"Ambrosia" "Ambrosia"}
+
+# Lower Andalucia
+224 = {"Ispalis" "Ispalis"}
+1749 = {"Gadeira" "Gadeira"}
+1748 = {"Gaion" "Gaion"}
+225 = {"Kordybe" "Kordybe"}
+4548 = {"Onoba" "Onoba"}
+
+# Upper Andalucia
+226 = {"Herakleion" "Herakleion"}
+4546 = {"Mainake" "Mainake"}
+223 = {"Iliberis" "Iliberis"}
+222 = {"Piktenon" "Piktenon"}
+
+# Baleares
 4560 = {"Pityoussa" "Pityoussa"}
 333 = {"Himetsin" "Himetsin"}
 4559 = {"Hiellaton" "Hiellaton"}
-1750 = {"Akra Leuke" "Akra Leuke"}
 
-# Maghreb
+# MAGHREB
+
+# North Morocco
 334 = {"Tingis" "Tingis"}
 4563 = {"Sala" "Sala"}
 1751 = {"Septon" "Septon"}
+335 = {"Russadeiron" "Russadeiron"}
+4561 = {"Tamouda" "Tamouda"}
+
+# Gharb
 342 = {"Lixos" "Lixos"}
 4564 = {"Anphos" "Anphos"}
 2469 = {"Asama" "Asama"}
 345 = {"Esouria" "Esouria"}
+
+# Southern Morocco
 2470 = {"Purphuron" "Purphuron"}
 1110 = {"Notio Gadeira" "Notio Gadeira"}
 347 = {"Mauris" "Mauris"}
+
+# Macaronesia
 366 = {"Planareia" "Planareia"}
 368 = {"Margaritaria" "Margaritaria"}
 4565 = {"Nivarion" "Nivarion"}
+
+# Central Morocco
 344 = {"Mentina" "Mentina"}
 2468 = {"Setton" "Setton"}
 2467 = {"Volubilis" "Volubilis"}
 343 = {"Nea Olympia" "Nea Olympia"}
+
+# Sus
 348 = {"Adramonos" "Adramonos"}
 2464 = {"Nea Ioudaia" "Nea Ioudaia"}
 4568 = {"Damnion" "Damnion"}
-346 = {"Taphiladel" "Taphiladel"}
 2466 = {"Daratos" "Daratos"}
+
+# Tafilalt
+346 = {"Taphiladel" "Taphiladel"}
 2460 = {"Sarion" "Sarion"}
 349 = {"Axara" "Axara"}
-4561 = {"Tamouda" "Tamouda"}
-335 = {"Russadeiron" "Russadeiron"}
+
+# Algiers
 4562 = {"Divinos" "Divinos"}
 2465 = {"Maurion" "Maurion"}
 336 = {"Pomareia" "Pomareia"}
+
+# Barbary Coast
 337 = {"Unikon" "Unikon"}
 2461 = {"Morostagion" "Morostagion"}
+338 = {"Tipasa" "Tipasa"}
+
+# Hautes Plains
 2462 = {"Ankorarios" "Ankorarios"}
 2463 = {"Nammon" "Nammon"}
-350 = {"Tiskrari" "Tiskrari"}
 2459 = {"Medix" "Medix"}
-338 = {"Tipasa" "Tipasa"}
-339 = {"Phirmia" "Phirmia"}
+
+# Ouled Nail
+350 = {"Tiskrari" "Tiskrari"}
 2458 = {"Mastigon" "Mastigon"}
 351 = {"Adebesran" "Adebesran"}
+
+# Kabylia
+339 = {"Phirmia" "Phirmia"}
+1882 = {"Aphrodision" "Aphrodision"}
+340 = {"Konstantina" "Konstantina"}
+
+# North Sahara
 2456 = {"Toukert" "Toukert"}
 2457 = {"Athai" "Athai"}
 2472 = {"Arklon" "Arklon"}
-1882 = {"Aphrodision" "Aphrodision"}
-340 = {"Konstantina" "Konstantina"}
+352 = {"Kapson" "Kapson"}
+2450 = {"Kydamos" "Kydamos"}
+
+# Tunisia
 2455 = {"Zarytos" "Zarytos"}
 341 = {"Karkhedon" "Karkhedon"}
 4566 = {"Masklineion" "Masklineion"}
 2454 = {"Sika Venerion" "Sika Venerion"}
 2473 = {"Adrymeton" "Adrymeton"}
+
+# Djerba
 2453 = {"Taphrouria" "Taphrouria"}
-352 = {"Kapson" "Kapson"}
-2450 = {"Kydamos" "Kydamos"}
 353 = {"Takape" "Takape"}
 2954 = {"Meninx" "Meninx"}
-2452 = {"Sabraton" "Sabraton"}
+5053 = {"Goumiras" "Goumiras"}
+
+# Fezzan
 4567 = {"Hakara" "Hakara"}
 2448 = {"Phasania" "Phasania"}
 2474 = {"Garama" "Garama"}
 2449 = {"Sakan" "Sakan"}
+
+# Tripolitania
+2452 = {"Sabraton" "Sabraton"}
 354 = {"Tripolis" "Tripolis"}
-2451 = {"Thubactis" "Thubactis"}
+2451 = {"Thubaktis" "Thubaktis"}
 355 = {"Syrtis" "Syrtis"}
 
 # Egypt

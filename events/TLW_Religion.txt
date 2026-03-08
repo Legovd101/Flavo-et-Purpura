@@ -1,0 +1,2072 @@
+### Jewish ###
+namespace = tlw_jewish
+
+# The Jews of [Root.GetName]
+province_event = {
+	id = tlw_jewish.0
+	title = tlw_jewish.0.t
+	desc = {
+		trigger = {
+			NOT = { religion = jewish }
+		}
+		desc = tlw_jewish.0.d1
+	}
+	desc = {
+		trigger = {
+			religion = jewish
+		}
+		desc = tlw_jewish.0.d2
+	}
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.0.a
+		trigger = {
+			NOT = { religion = jewish }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				owner = {
+					has_idea_group = religious_ideas
+				}
+			}
+		}
+		owner = {
+			add_years_of_income = 0.15
+			add_estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 10
+			}
+		}
+		add_province_modifier = {
+			name = jewish_community_hub
+			duration = 3650
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					owner = {
+						religion_group = pagan
+					}
+				}
+				owner = {
+					country_event = {
+						id = tlw_jewish.6
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = tlw_jewish.0.b
+		trigger = {
+			NOT = { religion = jewish }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				owner = {
+					has_idea_group = humanist_ideas
+				}
+			}
+		}
+		hidden_effect = {
+			owner = {
+				add_country_modifier = {
+					name = jewish_community_banish_timer
+					duration = 3650
+					hidden = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = jewish_community_small
+			}
+			add_base_tax = -1
+			remove_province_modifier = jewish_community_small
+			add_province_modifier = {
+				name = jewish_community_banished
+				duration = 3650
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = jewish_community_med
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			remove_province_modifier = jewish_community_med
+			add_province_modifier = {
+				name = jewish_community_banished
+				duration = 5475
+			}
+			custom_tooltip = JEWS_FLEE_ANOTHER_COUNTRY
+			hidden_effect = {
+				owner = {
+					random_country = {
+						limit = {
+							NOT = { has_country_modifier = jewish_community_banish_timer }
+							NOT = {
+								border_distance = {
+									who = PREV
+									distance = 200
+								}
+							}
+						}
+						add_country_modifier = {
+							name = jewish_community_banish_timer
+							duration = 3650
+							hidden = yes
+						}
+						country_event = {
+							id = tlw_jewish.1
+						}
+					}
+					random_country = {
+						limit = {
+							NOT = { has_country_modifier = jewish_community_banish_timer }
+							NOT = {
+								border_distance = {
+									who = PREV
+									distance = 200
+								}
+							}
+						}
+						add_country_modifier = {
+							name = jewish_community_banish_timer
+							duration = 3650
+							hidden = yes
+						}
+						country_event = {
+							id = tlw_jewish.1
+						}
+					}
+				}
+			}
+		}
+		else = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+			remove_province_modifier = jewish_community_large
+			add_province_modifier = {
+				name = jewish_community_banished
+				duration = 7300
+			}
+			custom_tooltip = JEWS_FLEE_ANOTHER_COUNTRY
+			hidden_effect = {
+				owner = {
+					random_country = {
+						limit = {
+							NOT = { has_country_modifier = jewish_community_banish_timer }
+							NOT = {
+								border_distance = {
+									who = PREV
+									distance = 200
+								}
+							}
+						}
+						set_country_flag = jewish_community_receiver_med
+						add_country_modifier = {
+							name = jewish_community_banish_timer
+							duration = 3650
+							hidden = yes
+						}
+						country_event = {
+							id = tlw_jewish.1
+						}
+					}
+					random_country = {
+						limit = {
+							NOT = { has_country_modifier = jewish_community_banish_timer }
+							NOT = {
+								border_distance = {
+									who = PREV
+									distance = 200
+								}
+							}
+						}
+						set_country_flag = jewish_community_receiver_med
+						add_country_modifier = {
+							name = jewish_community_banish_timer
+							duration = 3650
+							hidden = yes
+						}
+						country_event = {
+							id = tlw_jewish.1
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = tlw_jewish.0.c
+		trigger = {
+			religion = jewish
+		}
+		if = {
+			limit = {
+				NOT = { religion = jewish }
+			}
+			change_religion = jewish
+		}
+		add_or_upgrade_tax_building = yes
+		add_province_modifier = {
+			name = jewish_community_hub
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = tlw_jewish.0.e
+		trigger = {
+			religion = jewish
+		}
+		if = {
+			limit = {
+				has_province_modifier = jewish_community_small
+			}
+			add_base_tax = -1
+			remove_province_modifier = jewish_community_small
+			owner = {
+				capital_scope = {
+					add_base_tax = 1
+					if = {
+						limit = {
+							NOT = { has_province_modifier = jewish_community_hub }
+						}
+						add_province_modifier = {
+							name = jewish_community_hub
+							duration = 3650
+						}
+					}
+					else = {
+						extend_province_modifier = {
+							name = jewish_community_hub
+							duration = 3650
+						}
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = jewish_community_med
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			remove_province_modifier = jewish_community_med
+			owner = {
+				capital_scope = {
+					add_base_tax = 1
+					add_base_production = 1
+					if = {
+						limit = {
+							NOT = { has_province_modifier = jewish_community_hub }
+						}
+						add_province_modifier = {
+							name = jewish_community_hub
+							duration = 5475
+						}
+					}
+					else = {
+						extend_province_modifier = {
+							name = jewish_community_hub
+							duration = 5475
+						}
+					}
+				}
+			}
+		}
+		else = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+			remove_province_modifier = jewish_community_large
+			owner = {
+				capital_scope = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+					if = {
+						limit = {
+							NOT = { has_province_modifier = jewish_community_hub }
+						}
+						add_province_modifier = {
+							name = jewish_community_hub
+							duration = 7300
+						}
+					}
+					else = {
+						extend_province_modifier = {
+							name = jewish_community_hub
+							duration = 7300
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Jewish Refugees
+country_event = {
+	id = tlw_jewish.1
+	title = tlw_jewish.1.t
+	desc = {
+		trigger = {
+			NOT = { religion = jewish }
+		}
+		desc = tlw_jewish.1.d1
+	}
+	desc = {
+		trigger = {
+			religion = jewish
+		}
+		desc = tlw_jewish.1.d2
+	}
+	picture = CARAVAN_EVENT_Picture
+	
+	is_triggered_only = yes
+
+	after = {
+		hidden_effect = {
+			clr_country_flag = jewish_community_receiver_med
+		}
+	}
+
+	option = {
+		name = tlw_jewish.1.a
+		trigger = {
+			NOT = { religion = jewish }
+		}
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				has_idea_group = religious_ideas
+			}
+		}
+		add_years_of_income = 0.15
+		if = {
+			limit = {
+				capital_scope = {
+					NOT = {
+						OR = {
+							has_province_modifier = jewish_community_small
+							has_province_modifier = jewish_community_med
+							has_province_modifier = jewish_community_large
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = jewish_community_receiver_med
+				}
+				capital_scope = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_permanent_province_modifier = {
+						name = jewish_community_med
+						duration = -1
+					}
+					hidden_effect = {
+						set_variable = {
+							which = jewish_community_dev
+							value = 0
+						}
+					}
+				}
+			}
+			else = {
+				capital_scope = {
+					add_base_production = 1
+					add_permanent_province_modifier = {
+						name = jewish_community_small
+						duration = -1
+					}
+					hidden_effect = {
+						set_variable = {
+							which = jewish_community_dev
+							value = 0
+						}
+					}
+				}
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					NOT = {
+						OR = {
+							has_province_modifier = jewish_community_small
+							has_province_modifier = jewish_community_med
+							has_province_modifier = jewish_community_large
+						}
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_country_flag = jewish_community_receiver_med
+						}
+					}
+					add_base_tax = 1
+					add_base_production = 1
+					add_permanent_province_modifier = {
+						name = jewish_community_med
+						duration = -1
+					}
+					hidden_effect = {
+						set_variable = {
+							which = jewish_community_dev
+							value = 0
+						}
+					}
+				}
+				else = {
+					add_base_production = 1
+					add_permanent_province_modifier = {
+						name = jewish_community_small
+						duration = -1
+					}
+					hidden_effect = {
+						set_variable = {
+							which = jewish_community_dev
+							value = 0
+						}
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					religion_group = pagan
+				}
+				country_event = {
+					id = tlw_jewish.6
+				}
+			}
+		}
+	}
+
+	option = {
+		name = tlw_jewish.1.b
+		trigger = {
+			religion = jewish
+		}
+		ai_chance = { factor = 70 }
+		if = {
+			limit = {
+				has_country_flag = jewish_community_receiver_med
+			}
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				if = {
+					limit = {
+						NOT = { has_province_modifier = jewish_community_hub }
+					}
+					add_province_modifier = {
+						name = jewish_community_hub
+						duration = 5475
+					}
+				}
+				else = {
+					extend_province_modifier = {
+						name = jewish_community_hub
+						duration = 5475
+					}
+				}
+			}
+		}
+		else = {
+			capital_scope = {
+				add_base_tax = 1
+				if = {
+					limit = {
+						NOT = { has_province_modifier = jewish_community_hub }
+					}
+					add_province_modifier = {
+						name = jewish_community_hub
+						duration = 3650
+					}
+				}
+				else = {
+					extend_province_modifier = {
+						name = jewish_community_hub
+						duration = 3650
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = tlw_jewish.1.c
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_idea_group = humanist_ideas
+			}
+		}
+		custom_tooltip = JEWS_FLEE_ANOTHER_COUNTRY
+		hidden_effect = {
+			random_country = {
+				limit = {
+					NOT = { has_country_modifier = jewish_community_banish_timer }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 200
+						}
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_country_flag = jewish_community_receiver_med
+						}
+					}
+					set_country_flag = jewish_community_receiver_med
+				}
+				add_country_modifier = {
+					name = jewish_community_banish_timer
+					duration = 3650
+					hidden = yes
+				}
+				country_event = {
+					id = tlw_jewish.1
+				}
+			}
+		}
+	}
+}
+
+# Growth of the Jews in [Root.GetName]
+province_event = {
+	id = tlw_jewish.2
+	title = tlw_jewish.2.t
+	desc = tlw_jewish.2.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_variable = {
+				which = jewish_community_dev
+				value = 0
+			}
+		}
+	}
+
+	option = {
+		name = tlw_jewish.2.a
+		add_or_upgrade_trade_building = yes
+		if = {
+			limit = {
+				has_province_modifier = jewish_community_small
+			}
+			remove_province_modifier = jewish_community_small
+			add_permanent_province_modifier = {
+				name = jewish_community_med
+				duration = -1
+			}
+		}
+		else = {
+			remove_province_modifier = jewish_community_med
+			add_permanent_province_modifier = {
+				name = jewish_community_large
+				duration = -1
+			}
+		}
+	}
+}
+
+# The Jewish Loan
+country_event = {
+	id = tlw_jewish.3
+	title = tlw_jewish.3.t
+	desc = tlw_jewish.3.d
+	picture = CORRUPTION_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			export_to_variable = {
+				which = jewish_community_loan
+				value = monthly_income
+				who = ROOT
+			}
+			multiply_variable = {
+				which = jewish_community_loan
+				value = 12
+			}
+			set_variable = {
+				which = jewish_community_loan_3year
+				which = jewish_community_loan
+			}
+			set_variable = {
+				which = jewish_community_loan_5year
+				which = jewish_community_loan
+			}
+			multiply_variable = {
+				which = jewish_community_loan_3year
+				value = 3
+			}
+			multiply_variable = {
+				which = jewish_community_loan_5year
+				value = 5
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			clr_country_flag = jewish_loan_open
+		}
+	}
+
+	option = {
+		name = tlw_jewish.3.a
+		set_country_flag = borrowing_money_from_jews
+		hidden_effect = {
+			country_event = {
+				id = tlw_jewish.4
+				days = 1825
+			}
+			add_country_modifier = {
+				name = jewish_loan_timer
+				duration = 1825
+			}
+			set_variable = {
+				which = jewish_community_loan
+				which = jewish_community_loan_5year
+			}
+			set_variable = {
+				which = jewish_community_loan_calc
+				which = jewish_community_loan
+			}
+			TLW_jewish_loan_add_effect = yes
+		}
+		custom_tooltip = JEWS_LOAN_DUCAT_5YEAR
+	}
+
+	option = {
+		name = tlw_jewish.3.b
+		set_country_flag = borrowing_money_from_jews
+		hidden_effect = {
+			country_event = {
+				id = tlw_jewish.4
+				days = 1825
+			}
+			add_country_modifier = {
+				name = jewish_loan_timer
+				duration = 1825
+			}
+			set_variable = {
+				which = jewish_community_loan
+				which = jewish_community_loan_3year
+			}
+			set_variable = {
+				which = jewish_community_loan_calc
+				which = jewish_community_loan
+			}
+			TLW_jewish_loan_add_effect = yes
+		}
+		custom_tooltip = JEWS_LOAN_DUCAT_3YEAR
+	}
+
+	option = {
+		name = tlw_jewish.3.c
+		set_country_flag = borrowing_money_from_jews
+		hidden_effect = {
+			country_event = {
+				id = tlw_jewish.4
+				days = 1825
+			}
+			add_country_modifier = {
+				name = jewish_loan_timer
+				duration = 1825
+			}
+			set_variable = {
+				which = jewish_community_loan_calc
+				which = jewish_community_loan
+			}
+			TLW_jewish_loan_add_effect = yes
+		}
+		custom_tooltip = JEWS_LOAN_DUCAT_1YEAR
+	}
+
+	option = {
+		name = tlw_jewish.3.e
+		trigger = {
+			ai = no
+		}
+	}
+}
+
+# The Unpaid Debt
+country_event = {
+	id = tlw_jewish.4
+	title = tlw_jewish.4.t
+	desc = tlw_jewish.4.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = borrowing_money_from_jews
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = borrowing_money_from_jews
+		}
+	}
+
+	option = {
+		name = tlw_jewish.4.a
+		add_prestige = -20
+		add_legitimacy_equivalent = { amount = -10 }
+		add_corruption = 5
+		if = {
+			limit = {
+				capital_scope = {
+					has_province_modifier = jewish_community_diaspora
+				}
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						OR = {
+							has_province_modifier = jewish_community_small
+							has_province_modifier = jewish_community_med
+							has_province_modifier = jewish_community_large
+						}
+					}
+				}
+				change_religion = jewish
+				add_province_modifier = {
+					name = jewish_community_diaspora
+					duration = -1
+				}
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			capital_scope = {
+				change_religion = jewish
+				add_province_modifier = {
+					name = jewish_community_diaspora
+					duration = -1
+				}
+			}
+		}
+		custom_tooltip = JEWS_BETTER_MOVE_CAPITAL_TIP
+	}
+}
+
+# Jewish Community Setup
+country_event = {
+	id = tlw_jewish.5
+	title = tlw_jewish.5.t
+	desc = tlw_jewish.5.d
+	picture = CULTURE_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = tlw_jewish.5.a
+		TLD = {
+			country_event = {
+				id = tlw_jewish.7
+			}
+		}
+		BAE = {
+			country_event = {
+				id = tlw_jewish.7
+			}
+		}
+		LUS = {
+			country_event = {
+				id = tlw_jewish.7
+			}
+		}
+		SIL = {
+			country_event = {
+				id = tlw_jewish.8
+			}
+		}
+		GLL = {
+			country_event = {
+				id = tlw_jewish.9
+			}
+		}
+		AVI = {
+			country_event = {
+				id = tlw_jewish.9
+			}
+		}
+		BUR = {
+			country_event = {
+				id = tlw_jewish.9
+			}
+		}
+		THU = {
+			country_event = {
+				id = tlw_jewish.10
+			}
+		}
+		TRI = {
+			country_event = {
+				id = tlw_jewish.10
+			}
+		}
+		BYZ = {
+			country_event = {
+				id = tlw_jewish.11
+			}
+		}
+		BLU = {
+			country_event = {
+				id = tlw_jewish.11
+			}
+		}
+		ACH = {
+			country_event = {
+				id = tlw_jewish.11
+			}
+		}
+		ZNG = {
+			country_event = {
+				id = tlw_jewish.12
+			}
+		}
+		NAP = {
+			country_event = {
+				id = tlw_jewish.12
+			}
+		}
+		PAP = {
+			country_event = {
+				id = tlw_jewish.12
+			}
+		}
+		VEN = {
+			country_event = {
+				id = tlw_jewish.12
+			}
+		}
+		ZNG = {
+			country_event = {
+				id = tlw_jewish.13
+			}
+		}
+		TLC = {
+			country_event = {
+				id = tlw_jewish.13 # TODO: change in 1.10
+			}
+		}
+		GAE = {
+			country_event = {
+				id = tlw_jewish.13 # TODO: change in 1.10
+			}
+		}
+		MAM = {
+			country_event = {
+				id = tlw_jewish.14
+			}
+		}
+		LKH = {
+			country_event = {
+				id = tlw_jewish.14
+			}
+		}
+		KOJ = {
+			country_event = {
+				id = tlw_jewish.14
+			}
+		}
+		LIV = {
+			country_event = {
+				id = tlw_jewish.14
+			}
+		}
+		UZI = {
+			country_event = {
+				id = tlw_jewish.15
+			}
+		}
+		ISF = {
+			country_event = {
+				id = tlw_jewish.15
+			}
+		}
+		MDY = {
+			country_event = {
+				id = tlw_jewish.15
+			}
+		}
+		LKH = {
+			country_event = {
+				id = tlw_jewish.15
+			}
+		}
+		SYR = {
+			country_event = {
+				id = tlw_jewish.15
+			}
+		}
+		YDV = {
+			country_event = {
+				id = tlw_jewish.16
+			}
+		}
+		MAD = {
+			country_event = {
+				id = tlw_jewish.16
+			}
+		}
+		VND = {
+			country_event = {
+				id = tlw_jewish.16
+			}
+		}
+		KIE = {
+			country_event = {
+				id = tlw_jewish.17
+			}
+		}
+		CHR = {
+			country_event = {
+				id = tlw_jewish.17
+			}
+		}
+		ILK = {
+			country_event = {
+				id = tlw_jewish.17
+			}
+		}
+		SIN = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+		JIN = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+		QIN = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+		LNG = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+		CTC = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+		MIN = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+		UES = {
+			country_event = {
+				id = tlw_jewish.18
+			}
+		}
+	}
+}
+
+# A Chance to Convert? #
+country_event = {
+	id = tlw_jewish.6
+	title = tlw_jewish.6.t
+	desc = tlw_jewish.6.d
+	picture = JUDAISM_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = pagan_jewish_conversion_event }
+	}
+
+	immediate = {
+		set_country_flag = pagan_jewish_conversion_event
+	}
+
+	option = {
+		name = tlw_jewish.6.a
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_idea_group = religious_ideas
+			}
+		}
+		add_stability = -3
+		change_religion = jewish
+		add_country_modifier = {
+			name = conversion_zeal
+			duration = 3650
+		}
+		capital_scope = {
+			change_religion = jewish
+			add_province_modifier = {
+				name = jewish_community_hub
+				duration = 3650
+			}
+		}
+	}
+
+	option = {
+		name = tlw_jewish.6.b
+		ai_chance = { factor = 70 }
+		add_prestige = 5
+	}
+}
+
+# Sephardic Legacy of the Visigoths
+country_event = {
+	id = tlw_jewish.7
+	title = tlw_jewish.7.t
+	desc = tlw_jewish.7.d
+	picture = muslimgfx_MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.7.a
+		
+		if = {
+			limit = { tag = BAE }
+			219 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = TLD }
+			225 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			2754 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			224 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			227 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Haven of [4526.GetName]
+country_event = {
+	id = tlw_jewish.8
+	title = tlw_jewish.8.t
+	desc = tlw_jewish.8.d
+	picture = SEJM_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.8.a
+		4526 = {
+			add_building = marketplace
+			add_permanent_province_modifier = {
+				name = jewish_community_med
+				duration = -1
+			}
+			hidden_effect = {
+				set_variable = {
+					which = jewish_community_dev
+					value = 0
+				}
+			}
+		}
+	}
+}
+
+# The Jews of Francia
+country_event = {
+	id = tlw_jewish.9
+	title = tlw_jewish.9.t
+	desc = tlw_jewish.9.d
+	picture = AB_CHARLEMAGNE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.9.a
+		if = {
+			limit = { tag = GLL }
+			184 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = { tag = AVI }
+			196 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			2753 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			201 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			203 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# Home of the Ashkenazim
+country_event = {
+	id = tlw_jewish.10
+	title = tlw_jewish.10.t
+	desc = tlw_jewish.10.d
+	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.10.a
+		if = {
+			limit = { tag = THU }
+			1876 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			78 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			1761 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Romaniote Heritage
+country_event = {
+	id = tlw_jewish.11
+	title = tlw_jewish.11.t
+	desc = tlw_jewish.11.d
+	picture = BYZ_ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.11.a
+		if = {
+			limit = { tag = BLU }
+			151 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = BYZ }
+			4700 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			2348 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			4701 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			4699 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# Tales of the Italkim
+country_event = {
+	id = tlw_jewish.12
+	title = tlw_jewish.12.t
+	desc = tlw_jewish.12.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.12.a
+		if = {
+			limit = { tag = NAP }
+			121 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = { tag = ZNG }
+			125 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = PAP }
+			118 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = BUL }
+			116 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			112 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Toshavim Tapestry
+country_event = {
+	id = tlw_jewish.13
+	title = tlw_jewish.13.t
+	desc = tlw_jewish.13.d
+	picture = FORTIFIED_CITY_WITH_CARAVAN_OUTSIDE_eventPicture
+	
+	is_triggered_only = yes
+
+	# TODO: change in 1.10
+	option = {
+		name = tlw_jewish.13.a
+		if = {
+			limit = { tag = ZNG }
+			2954 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			341 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = GAE }
+			336 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			343 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Mizrahim of the East
+country_event = {
+	id = tlw_jewish.14
+	title = tlw_jewish.14.t
+	desc = tlw_jewish.14.d
+	picture = SAD_MERCHANT_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.14.a
+		if = {
+			limit = { tag = MAM }
+			358 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			361 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = LIV }
+			377 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = KOJ }
+			382 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			410 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Parsim Beacons
+country_event = {
+	id = tlw_jewish.15
+	title = tlw_jewish.15.t
+	desc = tlw_jewish.15.d
+	picture = muslimgfx_TRADEGOODS_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.15.a
+		if = {
+			limit = { tag = UZI }
+			2218 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = ISF }
+			433 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			429 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = MDY }
+			414 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = LKH }
+			412 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			416 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Traders of Malabar Shores
+country_event = {
+	id = tlw_jewish.16
+	title = tlw_jewish.16.t
+	desc = tlw_jewish.16.d
+	picture = indiangfx_ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	# TODO: change in India update
+	option = {
+		name = tlw_jewish.16.a
+		if = {
+			limit = { tag = YDV }
+			2030 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = { tag = MAD }
+			536 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			534 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			535 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			537 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Jews of the Steppes
+country_event = {
+	id = tlw_jewish.17
+	title = tlw_jewish.17.t
+	desc = tlw_jewish.17.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.17.a
+		if = {
+			limit = { tag = KIE }
+			280 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = CHR }
+			289 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			442 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			454 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+# The Jewish Silk Weavers
+country_event = {
+	id = tlw_jewish.18
+	title = tlw_jewish.18.t
+	desc = tlw_jewish.18.d
+	picture = east_asian_CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = tlw_jewish.18.a
+		if = {
+			limit = { tag = SIN }
+			1816 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			698 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			700 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = JIN }
+			1836 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			688 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = QIN }
+			1821 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+			684 = {
+				add_building = marketplace
+				add_permanent_province_modifier = {
+					name = jewish_community_med
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = LNG }
+			685 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = CTC }
+			667 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = MIN }
+			1829 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+		else = {
+			2149 = {
+				add_permanent_province_modifier = {
+					name = jewish_community_small
+					duration = -1
+				}
+				hidden_effect = {
+					set_variable = {
+						which = jewish_community_dev
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}

@@ -28,7 +28,7 @@ historical_units = {
 }
 
 monarch_names = {
-	"Massinissa #3" = 20
+	"Badis #3" = 20
 	"Micipsa #3" = 20
 	"Syphax #2" = 20
 	"Gala #0" = 20

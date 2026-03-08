@@ -1,0 +1,135 @@
+TLW_on_adm_development_effect = {
+	# Jewish
+	if = {
+		limit = {
+			OR = {
+				has_province_modifier = jewish_community_small
+				has_province_modifier = jewish_community_med
+			}
+		}
+		change_variable = {
+			which = jewish_community_dev
+			value = 1
+		}
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						has_province_modifier = jewish_community_small
+						check_variable = {
+							which = jewish_community_dev
+							value = 10
+						}
+					}
+					AND = {
+						has_province_modifier = jewish_community_med
+						check_variable = {
+							which = jewish_community_dev
+							value = 15
+						}
+					}
+				}	
+			}
+			province_event = {
+				id = tlw_jewish.2
+			}
+		}
+	}
+}
+
+TLW_on_dip_development_effect = {
+	# Jewish
+	if = {
+		limit = {
+			OR = {
+				has_province_modifier = jewish_community_small
+				has_province_modifier = jewish_community_med
+			}
+		}
+		change_variable = {
+			which = jewish_community_dev
+			value = 1
+		}
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						has_province_modifier = jewish_community_small
+						check_variable = {
+							which = jewish_community_dev
+							value = 10
+						}
+					}
+					AND = {
+						has_province_modifier = jewish_community_med
+						check_variable = {
+							which = jewish_community_dev
+							value = 15
+						}
+					}
+				}	
+			}
+			province_event = {
+				id = tlw_jewish.2
+			}
+		}
+	}
+}
+
+TLW_on_mil_development_effect = {
+	# Jewish
+	if = {
+		limit = {
+			OR = {
+				has_province_modifier = jewish_community_small
+				has_province_modifier = jewish_community_med
+			}
+		}
+		change_variable = {
+			which = jewish_community_dev
+			value = 1
+		}
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						has_province_modifier = jewish_community_small
+						check_variable = {
+							which = jewish_community_dev
+							value = 10
+						}
+					}
+					AND = {
+						has_province_modifier = jewish_community_med
+						check_variable = {
+							which = jewish_community_dev
+							value = 15
+						}
+					}
+				}	
+			}
+			province_event = {
+				id = tlw_jewish.2
+			}
+		}
+	}
+}
+
+TLW_on_province_owner_change_effect = {
+	# Jewish
+	if = {
+		limit = {
+			owner = {
+				is_subject = no
+			}
+			OR = {
+				has_province_modifier = jewish_community_small
+				has_province_modifier = jewish_community_med
+				has_province_modifier = jewish_community_large
+			}
+		}
+		province_event = {
+			id = tlw_jewish.0
+		}
+	}
+}
