@@ -9,7 +9,7 @@
  SET_CELESTIAL_EMPEROR_DESC: "$COUNTRYNAME$ becomes the legitimate heir Roman Empire."
  DISMANTLE_CELESTIAL_EMPIRE_DESC: "The legacy of Rome is quashed."
  REFORM_CELESTIAL_EMPIRE_DESC: "The legacy of Rome is reclaimed."
- CELESTIAL_CELESTIAL:1 "Mantle of Rome"
+ CELESTIAL_CELESTIAL: "Mantle of Rome"
  CELESTIAL_EMPEROR: "$EMPERORNAME|Y$ is the legitimate Roman Emperor"
  CELESTIAL_EMPIRE: "Mantle of Rome"
  CURRENT_CELESTIAL_EMPEROR: "$RULERNAME|Y$ is the current legitimate Roman Emperor."
@@ -20,14 +20,14 @@
  IMPERIAL_MANDATE_BONUS_DESC: "Virtus above §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
  IMPERIAL_MANDATE_PENALTY_DESC: "Virtus below §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
  IMPERIAL_MANDATE_GAIN_DESC: "Gained by:\n -Having a positive Stability.\n -Having Tributary States.\n -For each State enjoying Prosperity."
- IMPERIAL_MANDATE_LOSS_DESC:1 "Lost by:\n -Devastated provinces.\n -Corruption of the State.\n -Having loans."
+ IMPERIAL_MANDATE_LOSS_DESC: "Lost by:\n -Devastated provinces.\n -Corruption of the State.\n -Having loans."
  CELESTIAL_EMPEROR_BENEFIT: "Being the §YRoman Emperor§! gives the following benefits:\n"
  CELESTIAL_EMPEROR_DIPLOMATIC_ACTIONS_DESC: "The §YRoman Emperor§! may take the following additional diplomatic actions:\n$LIST|Y$"
  CELESTIAL_EMPIRE_NO_DIPLOMATIC_ACTIONS: "None"
  CELESTIAL_EMPIRE_PAST_EMPERORS: "Previous Claimants:"
 
  ## Virtus
- CELESTIAL_MANDATE:1 "Virtus"
+ CELESTIAL_MANDATE: "Virtus"
  IMPERIAL_MANDATE_DESC: "The virtus, or "virtue" of the Roman claimant is their ability to be the "Restitutor  Orbis" of the Roman world, like Aurelian."
  CELESTIAL_DECISION_MINIMUM_TO_ENACT: "Need a minimum of $MINVALUE|Y$ Virtus to take this Decision."
  CELESTIAL_DECISION_NOT_ENOUGH_MANDATE: "This Decision costs $MANDATECOST|Y$ Virtus, but you only have $CURRENTMANDATE|Y$ Virtus."
@@ -39,8 +39,8 @@
  ## Symphonia
  YEARLY_MERITOCRACY: "Yearly Symphonia"
  YOU_MERITOCRACY_IRO: "§YSymphonia§!\nSymphonia changes by $CHANGE$ every year due to:\n$WHY$"
- THEY_MERITOCRACY_IRO:1 "§YSymphonia§!\nSymphonia changes by $CHANGE$ every year due to:\n$WHY$"
- YOU_MERITOCRACY_DRO:1 "The symphony of the state represents the codependence of the church and state within the Roman Empire, and how they work in unison. The higher it is, the more efficient our nation will run!\nIt can be increased through Strengthening Government, ideas, policies or events.\nThis level of Symphonia gives the following effects:"
+ THEY_MERITOCRACY_IRO: "§YSymphonia§!\nSymphonia changes by $CHANGE$ every year due to:\n$WHY$"
+ YOU_MERITOCRACY_DRO: "The symphony of the state represents the codependence of the church and state within the Roman Empire, and how they work in unison. The higher it is, the more efficient our nation will run!\nIt can be increased through Strengthening Government, ideas, policies or events.\nThis level of Symphonia gives the following effects:"
  THEY_MERITOCRACY_DRO: "The symphony of the state represents the codependence of the church and state within the Roman Empire, and how they work in unison. The higher it is, the more efficient their nation will run!\nThis level of Symphonia gives the following effects:"
 
  lost_control_of_rome: "Emperor does not own and control Rome"
@@ -49,6 +49,202 @@
  lost_control_of_gallia: "Emperor does not own and control Lutetia"
  lost_control_of_egypt: "Emperor does not own and control Alexandria"
  lost_control_of_africa: "Emperor does not own and control Carthago"
+
+ ###CELESTIAL REFORMS###
+ reform_civil_registration_decision_member: "Civil Registration Celestial Reform"
+ reform_civil_registration_decision_emperor: "Civil Registration Celestial Reform"
+
+ modernize_the_banners_decision_member: "Modernize the Banners Celestial Reform"
+ modernize_the_banners_decision_emperor: "Modernize the Banners Celestial Reform"
+
+ reform_land_tax_decision_member: "Delegate Zongdu Celestial Reform"
+
+ establish_gaituguiliu_decision_member: "Introduce Gaituguiliu Celestial Reform"
+
+ military_governors_decision_member: "Establish Lifan Yuan Celestial Reform"
+
+ centralizing_top_government_decision_member: "Reshape Bureaucracy Celestial Reform"
+
+ codify_single_whip_law_decision_member: "Codify the Single Whip Celestial Reform"
+ codify_single_whip_law_decision_emperor: "Codify the Single Whip Celestial Reform"
+
+ reign_in_estates_decision_member: "Rein the Factions Celestial Reform"
+ reign_in_estates_decision_emperor: "Rein the Factions Celestial Reform"
+
+ establish_silver_standard_decision_member: "A Silver Standard Celestial Reform"
+ establish_silver_standard_decision_emperor: "A Silver Standard Celestial Reform"
+
+ kanhe_certificate_decision_member: "Kanhe Certificate Celestial Reform"
+ kanhe_certificate_decision_emperor: "Kanhe Certificate Celestial Reform"
+
+ new_keju_formats_decision_member: "New Keju Formats Celestial Reform"
+ new_keju_formats_decision_emperor: "New Keju Formats Celestial Reform"
+
+ inclusive_monarchy_decision_member: "Inclusive Monarchy Celestial Reform"
+ inclusive_monarchy_decision_emperor: "Inclusive Monarchy Celestial Reform"
+
+ promote_bureaucratic_faction_decision_member: "Promote Bureaucrats Celestial Reform"
+ promote_bureaucratic_faction_decision_emperor: "Promote Bureaucrats Celestial Reform"
+
+ promote_military_faction_decision_member: "Promote Generals Celestial Reform"
+ promote_military_faction_decision_emperor: "Promote Generals Celestial Reform"
+
+ unifed_trade_market_decision_member: "Unify Asian Markets Celestial Reform"
+ unifed_trade_market_decision_emperor: "Unify Asian Markets Celestial Reform"
+
+ reform_the_military_branch_decision_member: "Reform the Army Celestial Reform"
+ reform_the_military_branch_decision_emperor: "Reform the Army Celestial Reform"
+
+ study_foreign_ship_designs_decision_member: "Study Foreign Ships Celestial Reform"
+ study_foreign_ship_designs_decision_emperor: "Study Foreign Ships Celestial Reform"
+
+ tributary_embassies_decision_member: "Tributary Embassies Celestial Reform"
+ tributary_embassies_decision_emperor: "Tributary Embassies Celestial Reform"
+
+ new_world_discovery_decision_member: "New World Expeditions Celestial Reform"
+ new_world_discovery_decision_emperor: "New World Expeditions Celestial Reform"
+
+ 
+ #Decrees 
+ fund_new_centers_of_education_decree: "Funded Education Centers"
+ fund_new_centers_of_education_decree_title: "Fund Education Centers"
+ fund_new_centers_of_education_decree_desc: ""
+
+ proclaim_dynastic_name_decree_title: "Proclaim Dynastic Name"
+ proclaim_dynastic_name_decree_desc: ""
+ proclaim_dynastic_name_decree: "Proclaimed Dynastic Name"
+
+ issue_the_great_warnings_decree_title: "Issue Great Warnings"
+ issue_the_great_warnings_decree_desc: ""
+ issue_the_great_warnings_decree: "Issued Great Warnings"
+
+ encourage_the_dockyard_industry_title: "Uplift Naval Industries"
+ encourage_the_dockyard_industry_desc: ""
+ encourage_the_dockyard_industry: "Uplifted Naval Industries"
+
+ six_ordinances_decree_title: "Announce Six Ordinances"
+ six_ordinances_decree_desc: ""
+ six_ordinances_decree: "Announced Six Ordinances"
+
+ sacred_edict_of_confucianism_decree_title: "Publish a Sacred Edict"
+ sacred_edict_of_confucianism_decree_desc: ""
+ sacred_edict_of_confucianism_decree: "Published a Sacred Edict"
+
+ promote_taoist_studies_decree_title: "Promote Monastic Studies"
+ promote_taoist_studies_decree_desc: ""
+ promote_taoist_studies_decree: "Promoted Monastic Studies"
+
+ appoint_entrusted_eunuchs_decree_title: "Appoint New Advisors"
+ appoint_entrusted_eunuchs_decree_desc: ""
+ appoint_entrusted_eunuchs_decree: "Appointed New Advisors"
+
+ enforce_haijin_policy_decree_title: "Enforce Cultural Supremacy"
+ enforce_haijin_policy_decree_desc: ""
+ enforce_haijin_policy_decree: "Enforced Cultural Supremacy"
+
+ increase_trade_cooperation_decree_title: "Spur Trade Cooperation"
+ increase_trade_cooperation_decree_desc: ""
+ increase_trade_cooperation_decree: "Spurred Trade Cooperation"
+
+ reinforce_the_inner_guard_decree_title: "Reinforce the Inner Guard"
+ reinforce_the_inner_guard_decree_desc: ""
+ reinforce_the_inner_guard_decree: "Reinforced the Inner Guard"
+
+ exile_lawless_bureaucrats_decree_title: "Exile Bureaucrats"
+ exile_lawless_bureaucrats_decree_desc: ""
+ exile_lawless_bureaucrats_decree: "Exiled Bureaucrats"
+
+ encourage_homogenity_decree_title: "Encourage Cultural Integration"
+ encourage_homogenity_decree_desc: ""
+ encourage_homogenity_decree: "Encouraged Cultural Integration"
+
+ issue_bureaucratic_imperial_seal_title: "Issue New Seals"
+ issue_bureaucratic_imperial_seal_desc: ""
+ issue_bureaucratic_imperial_seal: "Issued New Seals"
+
+ improved_expand_bureaucracy_decree: "Expand Palace Bureaucracy"
+ improved_expand_bureaucracy_decree_title: "Expand Palace Bureaucracy"
+ improved_expand_bureaucracy_decree_desc: ""
+
+ improved_conduct_census_decree_title: "Conduct Population Census"
+ improved_conduct_census_decree_desc: ""
+ improved_conduct_census_decree: "Population Census"
+ has_unlocked_this_decree_tt: "Has unlocked this Decree"
+ 
+ #Imperial Reforms 
+ 
+ codify_single_whip_law_decision_title: "Codify the Tax Laws"
+ codify_single_whip_law_decision_desc: "By codifying the tax laws we will insert its legal precedent into our nation's judicial code."
+
+ reign_in_estates_decision_title: "Rein the Factions"
+ reign_in_estates_decision_desc: "The various factions within our realm run rampant, clutching their pearls upon being demanded to contribute and further applying pressure to receive favors and influence in exchange for corruption. We must put an end to this lest we risk the Empire falls in turmoil."
+
+ reform_civil_registration_decision_title: "Civil Registration"
+ reform_civil_registration_decision_desc: "A system aimed at keeping track of all our subjects within our realm, in a way to improve the standard of living of all those under our banner."
+
+ establish_silver_standard_decision_title: "A Silver Standard"
+ establish_silver_standard_decision_desc: "The introduction of the Single Whip law has definitely improved our taxing efficiency. However, we must take precautions and combat potential rampant inflation."
+
+ kanhe_certificate_decision_title: "Standardize the Trade Routes"
+ kanhe_certificate_decision_desc: "An imperial declaration aimed at empowering our merchants at home and abroad, while simultaneously allowing our subjects greater exclusive access in our markets."
+
+ new_keju_formats_decision_title: "Formalize Bureaucracy"
+ new_keju_formats_decision_desc: "This reform aims at refining the process behind the selection of candidates and potential bureaucrats during the Imperial Examination. Introducing new formats of tests and increased standards will certainly benefit our administration."
+
+ inclusive_monarchy_decision_title: "Inclusive Monarchy"
+ inclusive_monarchy_decision_desc: "Our domain is all-encompassing, and our subjects are many in numbers. As such, we must display the perfection and tolerance as exhibited by the heavens themselves and aim at creating a tolerant society that treats its people with dignity and compassion."
+
+ promote_bureaucratic_faction_decision_title: "§OPromote Bureaucrats§!"
+ promote_bureaucratic_faction_decision_desc: "The soul of our nation rests within our bureaucratic procedures. By empowering and favoring our bureaucratic minds over those of militant stance, we will settle struggles of power that may take place internally, in the future.\n§YMutually exclusive with the 'Promote Generals' reform§!\n"
+
+ promote_military_faction_decision_title: "§OPromote Generals§!"
+ promote_military_faction_decision_desc: "Those who lay their life down to secure our freedom, need be praised more than cushy bureaucrats who delegate endlessly on procedures and are trapped in endless red tape.\n§YMutually exclusive with the 'Promote Bureaucrats' reform§!\n"
+
+ unifed_trade_market_decision_title: "Unify Asian Markets"
+ unifed_trade_market_decision_desc: "By unifying access to all the markets we have influence in, our merchants will enjoy profits beyond their wildest dream, furthering our influence and increasing the size of our treasury."
+
+ reform_the_military_branch_decision_title: "Reform the Army"
+ reform_the_military_branch_decision_desc: "An Empire of our size needs able and brave men to protect it. However, having courage and valor are not enough in today's affairs. The need for a widespread standing army, reformed and powerful will play a vital role in maintaining our powerful position."
+
+ modernize_the_banners_decision_title: "Popularize the Banners"
+ modernize_the_banners_decision_desc: "The Banner army has served us dutifully, delivering blows to our enemies and securing crucial victories. If we are to maintain their top form and discipline, we must reform and improve them, or they will be at risk of decadence."
+
+ study_foreign_ship_designs_decision_title: "Study Foreign Ships"
+ study_foreign_ship_designs_decision_desc: "Foreign ships hold many secrets when it comes to master shipwrights and architectural design. It would be wise to issue a reform across our nation and instruct our ship builders to study them in great detail."
+
+ tributary_embassies_decision_title: "Tributary Embassies"
+ tributary_embassies_decision_desc: "Communication with all countries that pay tribute to our banner is vital as a deterrent of violence and better communication. To that end, it would be wise to enact a reform and fund official embassies across our sphere of influence."
+
+ new_world_discovery_decision_title: "New World Expeditions"
+ new_world_discovery_decision_desc: "The new world holds many exotic goods, commercial opportunities and expansion paths aimed at cementing our power. It would be wise to invest imperial influence in issues pronouncements, instructing officials to focus on studying these strange locations beyond the horizon."
+
+ establish_gaituguiliu_decision_title: "Invite Non-Citizens to Court"
+ establish_gaituguiliu_decision_emperor: "Invite Non-Citizens to Court"
+ establish_gaituguiliu_decision_desc: "The native rulers in remote provinces, also known as foederati, are hereditary rulers of their local polities. These leaders might seem useful now and then due to their ties with the locals but have frequently proven to be a risk for regional stability in long-term. By slowly replacing them with regular officials appointed by the central government maintaining tranquillity on a regional level will become easier."
+
+ seaban_decision_title: "Reform Seaban"
+ seaban_decision_emperor: "Reform Seaban"
+ seaban_decision_desc: "The seas and oceans bring trouble: piracy, smuggling, sometimes even the usurpers hide themselves behind the waves and tides, but maritime trade also brings fortune and discovery. In order to let the wealth and new innovations into our great realm, we should reform our Seaban regulations."
+
+ reform_land_tax_decision_title: "Delegate Viceroys"
+ reform_land_tax_decision_emperor: "Delegate Viceroys"
+ reform_land_tax_decision_desc: "The vastness of our realm is utmost and unparalleled, however, regulating this is arduous. Hence let us create the position of viceroy to overseeing more than one province. They will be directing the provincial affairs as the Emperor's representative, so that the less crucial matters don't have to be reported to the capital."
+
+ military_governors_decision_title: "Establish the Rex Limitum"
+ military_governors_decision_emperor: "Establish the Rex Limitum"
+ military_governors_decision_desc: "To manage the numerous subjects and lesser states from outlying regions within and beyond the imperial border, the Ministry of Rites is now deemed to be insufficient and inappropriate. We shall establish an office that focus on the dealing with them."
+
+ centralizing_top_government_decision_title: "Reshape Bureaucracy"
+ centralizing_top_government_decision_emperor: "Reshape Bureaucracy"
+ centralizing_top_government_decision_desc: "To re-arrange the Guanzhi - bureaucratic ranks is not only to make a mere symbolic break with the incompetent dynasty who precedes us: by retuning the political structures of the Empire, our power will be concentrated and our regime will grow solid like a golden fortress with boiling moat."
+
+ vassalize_tributaries_decision_title: "Elevate Foederati Status"
+ vassalize_tributaries_decision_emperor: "Elevate Foederati Status"
+ vassalize_tributaries_decision_desc: "The Roman Empire is overlord over several tributary states which acknowledge our superiority. While most barbarians will remain foreign to our ideals, other tributaries strive to come closer to the greatness of Heaven. It is the duty of the Emperor to elevate those who appease us the most."
+ vassalize_tributaries_decision_tt: "The Emperor of Rome can use the Mantle to elevate a Tributary State to a direct Vassal."
+ vassalize_tributaries_decision_ct: "The Emperor of Rome can no longer elevate Tributaries to Vassals."
+
+
 
  # HRE -> Celestial Empire
  HRE_HRE: "Celestial Empire"
@@ -110,5 +306,5 @@
  emperor_imperial_estates_desc: "Curb the freedoms of the Imperial Estates so that they are no longer able to defy the Emperor."
 
  renovatio_effect: "Unite the §YCelestial Empire§! to one country!"
- vassalize_empire2:1 "All members of the §YCelestial Empire§! who support the reform will become our direct vassals, and those who do not support the reform will leave the empire, giving us claim on their lands."
+ vassalize_empire2: "All members of the §YCelestial Empire§! who support the reform will become our direct vassals, and those who do not support the reform will leave the empire, giving us claim on their lands."
  GETEILTE_MACHT_EFFECT: "Members of the Celestial Empire will no longer accumulate Aggressive Expansion against the Emperor when the Emperor takes non-empire Provinces"

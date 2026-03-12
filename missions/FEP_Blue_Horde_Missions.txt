@@ -1,4 +1,4 @@
-blu_missions_1 = {
+BLU_missions_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -7,9 +7,9 @@ blu_missions_1 = {
 	}
 	has_country_shield = yes
 
-	blu_integrate_slavs = {
+	BLU_integrate_slavs = {
 		icon = promote_the_patriarchate
-		required_missions = { blu_build_army }
+		required_missions = { BLU_build_army }
 		position = 2
 		trigger = {
  			calc_true_if = {
@@ -31,6 +31,7 @@ blu_missions_1 = {
 			every_country = {
 				limit = {
 					NOT = { tag = ROOT }
+					ai = yes
 					culture_group = south_slavic
 					is_subject_of = ROOT
 				}
@@ -39,9 +40,9 @@ blu_missions_1 = {
 		}
 	}
 
-	blu_rein_in = {
+	BLU_rein_in = {
 		icon = mission_kowtow
-		required_missions = { blu_integrate_slavs }
+		required_missions = { BLU_integrate_slavs }
 		position = 3
 		provinces_to_highlight = {
 			is_capital = yes
@@ -87,7 +88,7 @@ blu_missions_1 = {
 	}
 }
 
-blu_missions_2 = {
+BLU_missions_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -96,12 +97,12 @@ blu_missions_2 = {
 	}
 	has_country_shield = yes
 
-	blu_build_army = { 
+	BLU_build_army = { 
 		icon = mission_the_varangians
 		required_missions = {  }
 		position = 1
 		trigger = {
-			army_size_percentage = 1 
+			army_size_percentage = 0.85
 		}
 		effect = { 
 			add_country_modifier = {
@@ -122,34 +123,23 @@ blu_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_casus_belli = {
+				type = cb_annex
+				target = BYZ
+			}
 		}
 	}
 
-	blu_end_pretenders = {
+	BLU_end_pretenders = {
 		icon = mission_unite_home_region
-		required_missions = { blu_build_army }
+		required_missions = { BLU_build_army }
 		position = 3
 		provinces_to_highlight = {
-			OR = {
-				area = aydin_area
-				area = hudavendigar_area
-				area = germiyan_area
-			}
+			owned_by = BYZ
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			aydin_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			hudavendigar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			germiyan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			BYZ = { exists = no }
 		}
 		effect = {
 			anatolia_region = { 
@@ -158,10 +148,10 @@ blu_missions_2 = {
 		}
 	}
 
-	blu_anatolia = {
+	BLU_anatolia = {
 		icon = unite_the_realm
 		position = 5
-		required_missions = { blu_end_pretenders }
+		required_missions = { BLU_end_pretenders }
 		provinces_to_highlight = {
 			region = anatolia_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -193,7 +183,7 @@ blu_missions_2 = {
 
 }
 
-blu_missions_3 = {
+BLU_missions_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -202,9 +192,9 @@ blu_missions_3 = {
 	}
 	has_country_shield = yes
 
-	blu_rhom = {
+	BLU_rhom = {
 		icon = mission_into_persia_2
-		required_missions = { blu_end_pretenders blu_tame_greece }
+		required_missions = { BLU_end_pretenders BLU_tame_greece }
 		position = 4
 		trigger = {
 			accepted_culture = rhoman
@@ -226,7 +216,7 @@ blu_missions_3 = {
 	}
 }
 
-blu_missions_4 = {
+BLU_missions_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -235,10 +225,16 @@ blu_missions_4 = {
 	}
 	has_country_shield = yes
 
-	blu_varangoi = {
+	BLU_varangoi = {
 		icon = mission_the_varangians
-		required_missions = { blu_build_army }
+		required_missions = { BLU_build_army }
 		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = thrace_area
+				area = macedonia_area
+			}
+		}
 		trigger = {
 			thrace_area = {
 				type = all
@@ -250,7 +246,7 @@ blu_missions_4 = {
 			}
 		}
 		effect = {
-			custom_tooltip = blu_enable_the_varangians
+			custom_tooltip = BLU_enable_the_varangians
 			add_country_modifier = {
 				name = blu_elite_forces
 				duration = 7300 
@@ -259,9 +255,9 @@ blu_missions_4 = {
 		}
 	}
 
-	blu_tame_greece = {
+	BLU_tame_greece = {
 		icon = mission_spoils_of_war
-		required_missions = { blu_varangoi }
+		required_missions = { BLU_varangoi }
 		position = 3
 		provinces_to_highlight = {
 			OR = {
@@ -305,9 +301,9 @@ blu_missions_4 = {
 		}
 	}
 
-	blu_naval = {
+	BLU_naval = {
 		icon = overshadow_venice
-		required_missions = { blu_tame_greece }
+		required_missions = { BLU_tame_greece }
 		position = 4
 		provinces_to_highlight = {
 			OR = {
@@ -342,9 +338,9 @@ blu_missions_4 = {
 		}
 	}
 	
-	blu_balkans = {
+	BLU_balkans = {
 		icon = secure_the_sava
-		required_missions = { blu_naval }
+		required_missions = { BLU_naval }
 		position = 5
 		provinces_to_highlight = {
 			region = balkan_region
@@ -376,7 +372,7 @@ blu_missions_4 = {
 	}
 }
 
-blu_missions_5 = {
+BLU_missions_5 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -385,7 +381,7 @@ blu_missions_5 = {
 	}
 	has_country_shield = yes
 
-	blu_basiliousa = {
+	BLU_basiliousa = {
 		icon = mission_renovate_kannauj
 		required_missions = {  }
 		position = 1
@@ -410,9 +406,9 @@ blu_missions_5 = {
 		}
 	}
 
-	blu_establish_church = {
+	BLU_establish_church = {
 		icon = expand_the_confederacy
-		required_missions = { blu_basiliousa }
+		required_missions = { BLU_basiliousa }
 		position = 2
 		trigger = {
 			if = {
@@ -437,15 +433,18 @@ blu_missions_5 = {
 		}
 	}
 
-	blu_singular_faith = {
+	BLU_singular_faith = {
 		icon = mission_hands_praying
-		required_missions = { blu_establish_church }
+		required_missions = { BLU_establish_church }
 		position = 3
 		trigger = {
-			NOT = {
-				num_of_owned_provinces_with = {
-					value = 1
-					religion = manichaean
+			custom_trigger_tooltip = {
+				tooltip = no_manichaean_provinces_tt
+				NOT = {
+					num_of_owned_provinces_with = {
+						value = 1
+						religion = manichaean
+					}
 				}
 			}
 		}
@@ -462,9 +461,9 @@ blu_missions_5 = {
 		}
 	}
 
-	blu_choose_path = {
+	BLU_choose_path = {
 		icon = mng_form_depots
-		required_missions = { blu_singular_faith blu_anatolia blu_balkans }
+		required_missions = { BLU_singular_faith BLU_anatolia BLU_balkans }
 		position = 6
 		trigger = { 
 			legitimacy = 100

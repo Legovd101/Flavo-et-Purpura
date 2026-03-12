@@ -1,21 +1,16 @@
 # Buzau
 # 2998 Buzau - 5/27/2025 4:57:02 PM 
- 
 add_core = BLU
 owner = BLU
 controller = BLU
-base_tax = 4
-base_production = 4
+base_tax = 1
+base_production = 1
 base_manpower = 2
-
 trade_goods = livestock
-
 culture = early_romylian
 religion = manichaean
 capital = "Buzau"
-
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,10 +20,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###

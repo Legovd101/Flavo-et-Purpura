@@ -347,6 +347,7 @@ country_event = {
 					change_culture = romylian
 				}
 			}
+			change_tag = RML
 			every_subject_country = {
 				limit = {
 					NOT = { tag = GRE}
@@ -357,6 +358,7 @@ country_event = {
 	}
 }
 
+# The Future of the Blue Horde
 country_event = {
 	id = flavor_blu.6
 	title = "flavor_blu.6.t"
@@ -365,7 +367,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # Restore the oikoumene! We are Rome reborn!
 		name = "flavor_blu.6.a"
 		add_power_projection_mission = { amount = 25 }
 		change_tag = RML
@@ -408,6 +410,7 @@ country_event = {
 						culture = early_romylian
 					}
 					change_culture = macedonian
+					add_core = MQD
 				}
 			}
 			every_province = {
@@ -425,6 +428,7 @@ country_event = {
 						culture = early_romylian
 					}
 					change_culture = illyrian
+					add_core = ILY
 				}
 			}
 			every_province = {
@@ -442,6 +446,7 @@ country_event = {
 						culture = early_romylian
 					}
 					change_culture = pannonian
+					add_core = PMN
 				}
 			}
 			every_province = {
@@ -459,6 +464,7 @@ country_event = {
 						culture = early_romylian
 					}
 					change_culture = dacian
+					add_core = DKA
 				}
 			}
 			every_province = {
@@ -480,7 +486,7 @@ country_event = {
 			}
 		}
 	}
-	option = {
+	option = { # From Qaraqorum to [151.GetName], the Ulus shall stretch once more!
 		name = "flavor_blu.6.b"
 		add_power_projection_mission = { amount = 25 }
 		set_country_flag = BLU_missions_2

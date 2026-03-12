@@ -1,22 +1,17 @@
 # Szolnok
 # 4125 Szolnok - 5/27/2025 4:57:02 PM 
- 
 add_core = BLU
 add_core = AVR
 owner = BLU
 controller = BLU
-base_tax = 3
-base_production = 3
+base_tax = 2
+base_production = 1
 base_manpower = 2
-
 trade_goods = livestock
-
 culture = avar
 religion = manichaean
 capital = "Szolnok"
-
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -26,10 +21,4 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-
-
-
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###

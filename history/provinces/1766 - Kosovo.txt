@@ -1,21 +1,16 @@
 # Kosovo
 # 1766 Kosovo - 5/27/2025 4:57:02 PM 
- 
 add_core = BLU
 owner = BLU
 controller = BLU
-base_tax = 3
-base_production = 3
-base_manpower = 2
-
+base_tax = 2
+base_production = 1
+base_manpower = 1
 trade_goods = gold
-
 culture = early_romylian
 religion = manichaean
 capital = "Pristina"
-
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,13 +20,7 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-latent_trade_goods = {
-   coal
+latent_trade_goods = { 
+	coal 
 }
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###

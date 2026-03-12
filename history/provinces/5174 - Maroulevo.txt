@@ -13,6 +13,7 @@ trade_goods = iron
 culture = early_romylian
 religion = manichaean
 capital = "Marolevo"
+add_core = BYZ
 
 is_city = yes
 

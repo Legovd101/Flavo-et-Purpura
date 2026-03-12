@@ -1,22 +1,17 @@
 # Raska
 # 1827 Raska - 5/27/2025 4:57:02 PM 
- 
 add_core = BLU
 add_core = SER
 owner = BLU
 controller = BLU
-base_tax = 3
-base_production = 3
+base_tax = 1
+base_production = 1
 base_manpower = 1
-
 trade_goods = livestock
-
 culture = early_romylian
 religion = orthodox
 capital = "Trgoviste"
-
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,14 +21,8 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = historic_highways
 	duration = -1
 }
-
-
-
 ### Modified 5/27/2025 4:57:02 PM ###
